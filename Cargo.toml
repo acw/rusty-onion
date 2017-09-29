@@ -6,5 +6,6 @@ authors = ["Adam Wick <awick@uhsure.com>"]
 [workspace]
 
 [dependencies]
+consensus     = { path = "consensus"     }
 parsing_utils = { path = "parsing_utils" }
 simple_rsa    = { path = "simple_rsa"    }
