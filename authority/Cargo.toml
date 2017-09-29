@@ -1,0 +1,21 @@
+[package]
+name = "authority"
+version = "0.1.0"
+authors = ["Adam Wick <awick@uhsure.com>"]
+
+[dependencies]
+base64        = "^0.6.0"
+consensus     = { path = "../consensus" }
+chrono        = "^0.4.0"
+flate2        = "^0.2.19"
+futures       = "^0.1.14"
+hyper         = "^0.11.2"
+lazy_static   = "^0.2.8"
+log           = "^0.3.0"
+nom           = "^3.1.0"
+parsing_utils = { path = "../parsing_utils" }
+rand          = "^0.3"
+ring          = "^0.12.1"
+simple-rsa    = { path = "../simple-rsa" }
+tokio-core    = "^0.1.9"
+untrusted     = "^0.5.0"
