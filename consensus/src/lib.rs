@@ -3,8 +3,10 @@ extern crate nom;
 extern crate parsing_utils;
 extern crate ring;
 
-pub mod types;
-pub mod parser;
+mod types;
+mod parser;
+
+pub use types::Consensus;
 
 // use authority::AuthorityDatabase;
 // use config::CONFIG;
