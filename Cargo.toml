@@ -2,6 +2,7 @@
 name = "rusty-onion"
 version = "0.1.0"
 authors = ["Adam Wick <awick@uhsure.com>"]
+build = "build.rs"
 
 [workspace]
 
@@ -10,3 +11,7 @@ authority     = { path = "authority"     }
 consensus     = { path = "consensus"     }
 parsing_utils = { path = "parsing_utils" }
 simple_rsa    = { path = "simple_rsa"    }
+tor_config    = { path = "tor_config"    }
+
+[build-dependencies]
+vergen        = "^0.1.0"
