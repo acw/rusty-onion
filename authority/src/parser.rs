@@ -56,18 +56,18 @@ pub fn parse_authority_keys(i: &[u8]) -> Result<AuthorityKeys,AuthInfoErr> {
     let cross_check = unimplemented!("");
 //    let cross_check = verify(&RSA_PKCS1_NOSIG_2048_8192_SHA1, signing_key,
 //                             cross_data, cross_sig);
-    if cross_check.is_err() {
-        return Err(CrossCertCheckFailed);
-    }
+//    if cross_check.is_err() {
+//        return Err(CrossCertCheckFailed);
+//    }
 
-    let hashlen = i.len() - finalbuf.len();
-    let ident_key = Input::from(&ident);
-    let sig = Input::from(&certification_sig);
-    let body = Input::from(&i[0..hashlen]);
-    let result = unimplemented!(); // verify(&RSA_PKCS1_NOSIG_2048_8192_SHA1, ident_key, body, sig);
-    if result.is_err() {
-        return Err(SignatureFailed);
-    }
+//    let hashlen = i.len() - finalbuf.len();
+//    let ident_key = Input::from(&ident);
+//    let sig = Input::from(&certification_sig);
+//    let body = Input::from(&i[0..hashlen]);
+//    let result = unimplemented!(); // verify(&RSA_PKCS1_NOSIG_2048_8192_SHA1, ident_key, body, sig);
+//    if result.is_err() {
+//        return Err(SignatureFailed);
+//    }
 
     Ok(AuthorityKeys {
         dir_address:  state.dir_address,

@@ -1,0 +1,9 @@
+[package]
+name = "router_info"
+version = "0.1.0"
+authors = ["Adam Wick <awick@uhsure.com>"]
+
+[dependencies]
+authority  = { path = "../authority"  }
+consensus  = { path = "../consensus"  }
+tor_config = { path = "../tor_config" }

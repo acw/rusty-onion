@@ -4,8 +4,17 @@ version = "0.1.0"
 authors = ["Adam Wick <awick@uhsure.com>"]
 
 [dependencies]
+authority     = { path = "../authority" }
 chrono        = "^0.4.0"
+fetch         = { path = "../fetch" }
+flate2        = "^0.2.19"
+futures       = "^0.1.14"
+hyper         = "^0.11.2"
+log           = "^0.3.0"
 nom           = "^3.1.0"
+parsing_utils = { path = "../parsing_utils" }
 ring          = "^0.12.1"
 simple_rsa    = { path = "../simple_rsa" }
-parsing_utils = { path = "../parsing_utils" }
+tokio-core    = "^0.1.9"
+tor_config    = { path = "../tor_config" }
+untrusted     = "^0.5.0"

@@ -10,24 +10,25 @@ extern crate xdg;
 mod logger;
 
 use logger::{LoggingConfig,DEFAULT_LOGGING_CONFIG,start_logger};
+use std::fmt;
 use std::fs::File;
 use std::io::{Error,Read};
 use xdg::{BaseDirectories,BaseDirectoriesError};
 
-#[derive(Deserialize)]
+#[derive(Clone,Deserialize)]
 pub struct Config {
     pub log: LoggingConfig,
     pub security: SecurityConfig,
     pub relay: RelayConfig
 }
 
-#[derive(Deserialize)]
+#[derive(Clone,Deserialize)]
 pub struct SecurityConfig {
     pub minimum_consensus_signatures: u32,
     pub import_authorities_from_consensus: bool
 }
 
-#[derive(Deserialize)]
+#[derive(Clone,Deserialize)]
 pub struct RelayConfig {
     pub or_port: Option<u16>
 }
@@ -36,6 +37,19 @@ pub enum ConfigError {
     XdgError(BaseDirectoriesError),
     ConfigParseError(toml::de::Error),
     IOError(Error)
+}
+
+impl fmt::Debug for ConfigError {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        match self {
+            &ConfigError::XdgError(ref bde) =>
+                write!(f, "Failed to get XDG info: {}", bde),
+            &ConfigError::ConfigParseError(ref e) =>
+                write!(f, "Failed to parse config file: {}", e),
+            &ConfigError::IOError(ref e) =>
+                write!(f, "Error reading config file: {}", e)
+        }
+    }
 }
 
 impl From<BaseDirectoriesError> for ConfigError {

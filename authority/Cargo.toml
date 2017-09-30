@@ -5,8 +5,8 @@ authors = ["Adam Wick <awick@uhsure.com>"]
 
 [dependencies]
 base64        = "^0.6.0"
-consensus     = { path = "../consensus" }
 chrono        = "^0.4.0"
+fetch         = { path = "../fetch" }
 flate2        = "^0.2.19"
 futures       = "^0.1.14"
 hyper         = "^0.11.2"

@@ -1,6 +1,7 @@
 extern crate base64;
 extern crate chrono;
-extern crate consensus;
+#[macro_use]
+extern crate fetch;
 extern crate flate2;
 extern crate futures;
 extern crate hyper;
@@ -19,7 +20,6 @@ mod parser;
 pub mod types;
 mod default;
 
-use consensus::Consensus;
 use default::{DefaultAuthority, DEFAULT_AUTHORITIES};
 use parser::parse_authority_keys;
 use types::*;
@@ -32,7 +32,7 @@ use rand::os::OsRng;
 use std::io::Write;
 use std::time::Duration;
 use tokio_core::reactor::Timeout;
-//use util::fetch::*;
+use fetch::*;
 
 pub struct AuthorityDatabase {
     contents: Vec<Authority>,
@@ -73,53 +73,52 @@ impl AuthorityDatabase {
         None
     }
 
-    pub fn import_authority(&mut self, con: &Consensus, ident: &Vec<u8>) {
-        for dirsrc in &con.directory_sources {
-            if dirsrc.identity.eq(ident) {
-                let mut core = new_core();
-                let url = format!("http://{}:{}/tor/keys/authority.z",
-                                  dirsrc.hostname, dirsrc.dirport);
-
-                let uri = match url.parse() {
-                    Err(e) => {
-                        error!(target: "authority",
-                               "Couldn't parse new authority URL {}: {}",
-                               url, e);
-                        return;
-                    }
-                    Ok(v) => v
-                };
-
-                let get = unimplemented!();
-                   //  fetch_and_parse!(&core.handle(), uri, 5,
-                   //                         parse_authority_keys);
-
-                match core.run(get) {
-                    Err(e) => {
-                        error!(target: "authority",
-                               "Couldn't import new authority {:?}: {:?}",
-                               dirsrc.name, e);
-                        return;
-                    }
-                    Ok(v) => {
-                        info!(target: "authority",
-                              "Imported new authority {:?}",
-                              dirsrc.name);
-                        let newauth = Authority {
-                            nickname: dirsrc.name.clone(),
-                            address: dirsrc.address.clone(),
-                            ip6_address: None, // FIXME: Try to determine this?
-                            onion_port: dirsrc.orport,
-                            dir_port: dirsrc.dirport,
-                            v3_ident: dirsrc.identity.clone(),
-                            keys: v
-                        };
-                        self.contents.push(newauth);
-                    }
-                }
-            }
-        }
-    }
+//     pub fn import_authority(&mut self, con: &Consensus, ident: &Vec<u8>) {
+//         for dirsrc in &con.directory_sources {
+//             if dirsrc.identity.eq(ident) {
+//                 let mut core = new_core();
+//                 let url = format!("http://{}:{}/tor/keys/authority.z",
+//                                   dirsrc.hostname, dirsrc.dirport);
+// 
+//                 let uri = match url.parse() {
+//                     Err(e) => {
+//                         error!(target: "authority",
+//                                "Couldn't parse new authority URL {}: {}",
+//                                url, e);
+//                         return;
+//                     }
+//                     Ok(v) => v
+//                 };
+// 
+//                 let get = fetch_and_parse!(&core.handle(), uri, 5,
+//                                            parse_authority_keys);
+// 
+//                 match core.run(get) {
+//                     Err(e) => {
+//                         error!(target: "authority",
+//                                "Couldn't import new authority {:?}: {:?}",
+//                                dirsrc.name, e);
+//                         return;
+//                     }
+//                     Ok(v) => {
+//                         info!(target: "authority",
+//                               "Imported new authority {:?}",
+//                               dirsrc.name);
+//                         let newauth = Authority {
+//                             nickname: dirsrc.name.clone(),
+//                             address: dirsrc.address.clone(),
+//                             ip6_address: None, // FIXME: Try to determine this?
+//                             onion_port: dirsrc.orport,
+//                             dir_port: dirsrc.dirport,
+//                             v3_ident: dirsrc.identity.clone(),
+//                             keys: v
+//                         };
+//                         self.contents.push(newauth);
+//                     }
+//                 }
+//             }
+//         }
+//     }
 }
 
 pub fn initial_authorities() -> Vec<Authority> {
@@ -141,7 +140,7 @@ pub fn initial_authorities() -> Vec<Authority> {
             Ok(uri) => uri
         };
         // make the getter.
-        let base_get = unimplemented!(); // fetch_and_parse!(handle, uri, 5, parse_authority_keys);
+        let base_get = fetch_and_parse!(handle, uri, 5, parse_authority_keys);
         // make sure to save the nickname of this thing with the error, if
         // we get an error. also, we don't want everything to fail if one
         // part fails, so convert errors to an Err result.
@@ -176,14 +175,13 @@ pub fn initial_authorities() -> Vec<Authority> {
 }
 
 fn auth_error_str(afe: FetchErrors<AuthInfoErr>) -> String {
-    unimplemented!()
-//    match afe {
-//        FetchErrors::IOError(ref e)     => format!("IO Error: {:?}", e),
-//        FetchErrors::HTTPError(ref e)   => format!("HTTP Error: {:?}", e),
-//        FetchErrors::DecodeError(ref e) => format!("Decoding Error: {:?}", e),
-//        FetchErrors::Timeout            => "Timeout waiting for authority info".to_string(),
-//        FetchErrors::ParseError(ref e)  => format!("Parse Error: {:?}", e)
-//    }
+    match afe {
+        FetchErrors::IOError(ref e)     => format!("IO Error: {:?}", e),
+        FetchErrors::HTTPError(ref e)   => format!("HTTP Error: {:?}", e),
+        FetchErrors::DecodeError(ref e) => format!("Decoding Error: {:?}", e),
+        FetchErrors::Timeout            => "Timeout waiting for authority info".to_string(),
+        FetchErrors::ParseError(ref e)  => format!("Parse Error: {:?}", e)
+    }
 }
 
 fn lift_keys(default: &DefaultAuthority,

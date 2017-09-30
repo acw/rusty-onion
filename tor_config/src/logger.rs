@@ -3,7 +3,7 @@ use fern;
 use log::LogLevelFilter;
 use std::io;
 
-#[derive(Deserialize)]
+#[derive(Clone,Deserialize)]
 pub struct LoggingConfig {
     default: Option<String>,
     consensus: Option<String>,

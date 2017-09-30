@@ -1,6 +1,7 @@
-use vergen::vergen;
+extern crate vergen;
+
+use vergen::{OutputFns,vergen};
 
 fn main() {
-    let mut flags = OutputFns::all();
-    assert!(vergen(flags).is_ok());
+    assert!(vergen(OutputFns::all()).is_ok());
 }

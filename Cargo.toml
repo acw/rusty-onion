@@ -9,7 +9,10 @@ build = "build.rs"
 [dependencies]
 authority     = { path = "authority"     }
 consensus     = { path = "consensus"     }
+fetch         = { path = "fetch"         }
+log           = "^0.3.0"
 parsing_utils = { path = "parsing_utils" }
+router_info   = { path = "router_info"   }
 simple_rsa    = { path = "simple_rsa"    }
 tor_config    = { path = "tor_config"    }
 
