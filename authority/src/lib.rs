@@ -13,8 +13,8 @@ extern crate nom;
 extern crate parsing_utils;
 extern crate rand;
 extern crate ring;
+extern crate simple_rsa;
 extern crate tokio_core;
-extern crate untrusted;
 
 mod parser;
 pub mod types;
@@ -163,12 +163,12 @@ pub fn initial_authorities() -> Vec<Authority> {
             }
             Err((n, e)) => {
                 warn!(target: "authority",
-                      "Failed to import default authority {:?} ({:?})",
+                      "Failed to import default authority {:?} ({})",
                       n, auth_error_str(e));
             }
         }
     }
-    info!(target: "authority", "Integrated {:?} of {:?} default authorities.",
+    info!(target: "authority", "Integrated {} of {} default authorities.",
           results.len(), DEFAULT_AUTHORITIES.len());
 
     results
