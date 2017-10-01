@@ -25,6 +25,67 @@ pub struct RSAPublicKey {
     pub e: BigUint
 }
 
+impl RSAPublicKey {
+    pub fn decode(bytes: &[u8]) -> Option<RSAPublicKey> {
+        // x.509 sequence header
+        if bytes[0] != 0x30 {
+            return None;
+        }
+        // extended length
+        if bytes[1] != 0x82 {
+            return None;
+        }
+        // compute the length
+        let whole_lenb1 = bytes[2] as usize;
+        let whole_lenb2 = bytes[3] as usize;
+        let whole_len = (whole_lenb1 << 8) + whole_lenb2;
+        // sanity check
+        if bytes.len() != (whole_len + 4) {
+            return None;
+        }
+        // next is an integer
+        if bytes[4] != 0x02 {
+            return None;
+        }
+        // which should be longer than 255 bytes
+        if bytes[5] != 0x82 {
+            return None;
+        }
+        // figure out the length of n
+        let n_lenb1 = bytes[6] as usize;
+        let n_lenb2 = bytes[7] as usize;
+        let n_len = (n_lenb1 << 8) + n_lenb2;
+        // a zero
+        if bytes[8] != 0 {
+            return None;
+        }
+        // read n
+        let (_hdr, nestuff) = bytes.split_at(8);
+        let (nbytes, reste) = nestuff.split_at(n_len);
+        let n = o2isp(&nbytes.to_vec());
+        // after this should be another integer
+        if reste[0] != 2 {
+            return None;
+        }
+        // which should always be 3 bytes long
+        if reste[1] != 3 {
+            return None;
+        }
+        // read e
+        let (_hdr2, ebytes) = reste.split_at(2);
+        if ebytes.len() != 3 {
+            return None;
+        }
+        let e = o2isp(&ebytes.to_vec());
+        // done!
+        Some(RSAPublicKey {
+            key_length: n_len - 1,
+            n: n,
+            e: e,
+        })
+    }
+}
+
 #[derive(Clone,Debug)]
 pub struct RSAPrivateKey {
     pub key_length: usize,
