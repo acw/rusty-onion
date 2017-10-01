@@ -2,7 +2,6 @@ use chrono::{DateTime,Utc};
 use nom::*;
 use nom::ErrorKind;
 use std::collections::HashMap;
-use std::ffi::OsString;
 use std::iter::FromIterator;
 use std::str;
 use types::*;
@@ -739,10 +738,10 @@ named!(router_version<Version>,
 
 named!(router_protocols<Vec<ProtocolVersion>>,
     do_parse!(
-        tag!("pr")                                                >>
-        space                                                     >>
-        r: separated_nonempty_list_complete!(sp,protocol_version) >>
-        newline                                                   >>
+        tag!("pr")                                       >>
+        space                                            >>
+        r: separated_list_complete!(sp,protocol_version) >>
+        newline                                          >>
         (r)
     )
 );
@@ -876,6 +875,7 @@ named!(signature<Vec<u8>>,
 #[cfg(test)]
 mod tests {
     use chrono::{NaiveDate,NaiveDateTime,NaiveTime};
+    use std::ffi::OsString;
     use std::net::Ipv4Addr;
     use super::*;
 
