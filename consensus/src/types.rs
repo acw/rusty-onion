@@ -3,7 +3,6 @@ use nom::ErrorKind;
 use parsing_utils::{PortInfo,ProtocolVersion,TorAddress};
 use std::collections::HashMap; use std::net::Ipv4Addr;
 use std::ffi::OsString;
-use std::net::Ipv6Addr;
 
 #[derive(Debug,Eq,PartialEq)]
 pub struct Version {

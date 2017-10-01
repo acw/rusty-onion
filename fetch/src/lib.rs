@@ -9,7 +9,7 @@ pub enum FetchErrors<E> {
     IOError(io::Error),
     HTTPError(hyper::Error),
     DecodeError(io::Error),
-    Timeout,
+    BadURL, Timeout,
     ParseError(E)
 }
 

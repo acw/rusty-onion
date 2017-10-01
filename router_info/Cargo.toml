@@ -6,4 +6,7 @@ authors = ["Adam Wick <awick@uhsure.com>"]
 [dependencies]
 authority  = { path = "../authority"  }
 consensus  = { path = "../consensus"  }
+log        = "^0.3.0"
+ring       = "^0.12.1"
+simple_rsa = { path = "../simple_rsa" }
 tor_config = { path = "../tor_config" }

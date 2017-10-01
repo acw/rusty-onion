@@ -1,6 +1,7 @@
 use base64::DecodeError;
 use chrono::{DateTime,Utc};
 use nom::ErrorKind;
+use simple_rsa::RSAPublicKey;
 use std::net::{Ipv4Addr,Ipv6Addr};
 
 pub struct Authority {
@@ -18,8 +19,8 @@ pub struct AuthorityKeys {
     pub fingerprint: Vec<u8>,
     pub published: DateTime<Utc>,
     pub expires: DateTime<Utc>,
-    pub identity_key: Vec<u8>,
-    pub signing_key: Vec<u8>,
+    pub identity_key: RSAPublicKey,
+    pub signing_key: RSAPublicKey,
 }
 
 #[derive(Debug)]

@@ -30,6 +30,7 @@ use hyper::Client;
 use rand::Rng;
 use rand::os::OsRng;
 use std::io::Write;
+use std::net::Ipv4Addr;
 use std::time::Duration;
 use tokio_core::reactor::Timeout;
 use fetch::*;
@@ -73,52 +74,51 @@ impl AuthorityDatabase {
         None
     }
 
-//     pub fn import_authority(&mut self, con: &Consensus, ident: &Vec<u8>) {
-//         for dirsrc in &con.directory_sources {
-//             if dirsrc.identity.eq(ident) {
-//                 let mut core = new_core();
-//                 let url = format!("http://{}:{}/tor/keys/authority.z",
-//                                   dirsrc.hostname, dirsrc.dirport);
-// 
-//                 let uri = match url.parse() {
-//                     Err(e) => {
-//                         error!(target: "authority",
-//                                "Couldn't parse new authority URL {}: {}",
-//                                url, e);
-//                         return;
-//                     }
-//                     Ok(v) => v
-//                 };
-// 
-//                 let get = fetch_and_parse!(&core.handle(), uri, 5,
-//                                            parse_authority_keys);
-// 
-//                 match core.run(get) {
-//                     Err(e) => {
-//                         error!(target: "authority",
-//                                "Couldn't import new authority {:?}: {:?}",
-//                                dirsrc.name, e);
-//                         return;
-//                     }
-//                     Ok(v) => {
-//                         info!(target: "authority",
-//                               "Imported new authority {:?}",
-//                               dirsrc.name);
-//                         let newauth = Authority {
-//                             nickname: dirsrc.name.clone(),
-//                             address: dirsrc.address.clone(),
-//                             ip6_address: None, // FIXME: Try to determine this?
-//                             onion_port: dirsrc.orport,
-//                             dir_port: dirsrc.dirport,
-//                             v3_ident: dirsrc.identity.clone(),
-//                             keys: v
-//                         };
-//                         self.contents.push(newauth);
-//                     }
-//                 }
-//             }
-//         }
-//     }
+    pub fn import_authority(&mut self,
+                            identity: Vec<u8>,
+                            hostname: String, dirport: u16,
+                            name: String, address: Ipv4Addr, orport: u16)
+    {
+        let mut core = new_core();
+        let url = format!("http://{}:{}/tor/keys/authority.z",hostname,dirport);
+
+        let uri = match url.parse() {
+            Err(e) => {
+                error!(target: "authority",
+                       "Couldn't parse new authority URL {}: {}",
+                       url, e);
+                return;
+            }
+            Ok(v) => v
+        };
+
+        let get = fetch_and_parse!(&core.handle(), uri, 5,
+                                   parse_authority_keys);
+
+        match core.run(get) {
+            Err(e) => {
+                error!(target: "authority",
+                       "Couldn't import new authority {:?}: {:?}",
+                       name, e);
+                return;
+            }
+            Ok(v) => {
+                info!(target: "authority",
+                      "Imported new authority {:?}",
+                      name);
+                let newauth = Authority {
+                    nickname: name.clone(),
+                    address: address.clone(),
+                    ip6_address: None, // FIXME: Try to determine this?
+                    onion_port: orport,
+                    dir_port: dirport,
+                    v3_ident: identity.clone(),
+                    keys: v
+                };
+                self.contents.push(newauth);
+            }
+        }
+    }
 }
 
 pub fn initial_authorities() -> Vec<Authority> {
@@ -179,6 +179,7 @@ fn auth_error_str(afe: FetchErrors<AuthInfoErr>) -> String {
         FetchErrors::IOError(ref e)     => format!("IO Error: {:?}", e),
         FetchErrors::HTTPError(ref e)   => format!("HTTP Error: {:?}", e),
         FetchErrors::DecodeError(ref e) => format!("Decoding Error: {:?}", e),
+        FetchErrors::BadURL             => "Couldn't parse URL".to_string(),
         FetchErrors::Timeout            => "Timeout waiting for authority info".to_string(),
         FetchErrors::ParseError(ref e)  => format!("Parse Error: {:?}", e)
     }

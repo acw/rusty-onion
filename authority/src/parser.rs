@@ -75,8 +75,8 @@ pub fn parse_authority_keys(i: &[u8]) -> Result<AuthorityKeys,AuthInfoErr> {
         fingerprint:  fingerprint,
         published:    published,
         expires:      expires,
-        identity_key: ident.clone(),
-        signing_key:  signing.clone()
+        identity_key: ident_key,
+        signing_key:  signing_key
     })
 }
 
