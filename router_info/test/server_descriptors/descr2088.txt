@@ -1,0 +1,51 @@
+router Graph 82.78.251.93 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFeAfxjjpcvcy+clhNFQYTR0l5iqaxXofn+bvEpIJaUAgHyAQAgBACJCRD8
+gAWkBcWTlBfkrvvz9tucACEzgkkT1fMZocPBbDXLZR+wuvuo/6rfM6n/vI/gwVcJ
+vDVwv0YYtxdVV6yMox56HxoQeUyNQUc2h1JKzDT9QCrpd7wE3fMtg0SKHQo=
+-----END ED25519 CERT-----
+master-key-ed25519 iQkQ/IAFpAXFk5QX5K778/bbnAAhM4JJE9XzGaHDwWw
+platform Tor 0.2.8.11 on Windows Server 2003 [server]
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:06:58
+fingerprint D5D4 9576 1788 480D 0990 654F 4C4B 6E5B D112 6A78
+uptime 211642
+bandwidth 5242880 10485760 87737
+extra-info-digest CEE6105FDA0816D25F68EA31B52EEED22AC1BD38 pz0w4MSrwLYTLQB/p0st0pmpTDzZCI6z2N9FFr6UmPg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO1lV+lBv+IznZFOS4oKE8I0B7PEIoRnx5hSJ6mHRxl83EJFE76jpYAu
+L/Ct774Nhxwe/gD+hWQuB30ckNNupWHh+7nhWMaziWjMPScOQxExUi0DtliSBPDp
+yNUr6wKNYK76QLjf976TANddM+LLuSHrCSY53c0uZm9TURwnW2+PAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN6doS7+pS4dYmXwAXNmOmI79ES5lBnQ/AhnsbPaxGaMlY2w3RyusTCi
+a1XhLg4lp/pxdjRw0A+i6jjnZWxJSOxasYfvUDRwJhppxQfd+Rwk8y6cdkhieT9A
+jTKqFSOjtx9nsNl3ZNp3DZ/m6c6OQN8PAROOF2vZth5J/jLgGeGPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+fZmSS9JploVkPf0BGRf8IHfXitP/nePAKV9rsib3a6PL4XD1hc5qccyAIAYlKEsC
+HzFtEnjcE6Gn4/xJTM3/EDxhMKYObXg6e5GgViXXV9LHvX/1FZZuLi3YiV/9O2mz
+qy27MTAKsd39yn9M5/nBp1n6LTWpBAYG3r8tTd68+iw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCJAYkJEPyABaQFxZOUF+Su+/P225wAITOCSRPV8xmhw8FsAMcdMiMGYek0
+AcrqsQ7xg6H2nzxAK3ZmsDGVCb8NHJpR5fA6X3Zv1ezYS1SyIMo4RvutU5/UgD4c
+NuoysxA0jAY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact marius+tor@psihoexpert.ro
+ntor-onion-key OFyvI+MFDGZpNEAERFOp1L5iw4kG9RVwkUpFCMBOtCs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 GVxzXuA6aqGorJbVpGUsXEZnwCatr4mZk0n87mmfO5s92fz50dwtfTNRKFmT2Un5bbuxKHyGU0O9r0JXwxp6Dw
+router-signature
+-----BEGIN SIGNATURE-----
+y8I3A5OyI290JVIbt2Pdlyi5Gtwo2FvfEv2It+f+aPncoTG0nqfqWjDlayzlAl/v
+RM/3ZQNsaF97eaxk6o1bzNGGseQ6Q3c6m9MBDqUJviW0MJzmBQe/UdLdh+jOaWwl
+m9+oUAzmq59bZjR8yr+JcIboQo/lr6rcZZXe70FhnkM=
+-----END SIGNATURE-----

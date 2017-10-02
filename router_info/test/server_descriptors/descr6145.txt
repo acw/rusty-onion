@@ -1,0 +1,51 @@
+router Anbarocrator 78.36.44.54 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAFAZIRKSccD5+Hqt3Cg6MqAsphImaLHGkLb6C6fs9fWmxyAQAgBABN0LXa
+NyRBG94Bh9AAIqpvjFVHvhUvsjA/TCNJrdw559MCs5UAxcLKtn8DBPbG/E+c48gZ
+DjaV+gyY0MMk639MPeFYxgTBIdHSSQI6sAXiZ8oT4ZDNuhbAKVpZyDowZAw=
+-----END ED25519 CERT-----
+master-key-ed25519 TdC12jckQRveAYfQACKqb4xVR74VL7IwP0wjSa3cOec
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:18:04
+fingerprint 3C59 605A 12D2 104C CEC7 1966 2550 231C F697 5D05
+uptime 3631626
+bandwidth 1073741824 1073741824 4944831
+extra-info-digest A3805F9BA89728760F51C7C22F885007121E1199 mGpJsq1bICYhuDrfFJ9UCfyo7Ggi93mIgIRBwpvpB7Y
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALSocT2bX/XibBsJcv77Fy7peyVYaQ8Xlz064uubWiVijjFu4BbE40Yq
+PKW5WlmdTf/eM+F0cbI8utPJyqNGGBJH4FBGc0XSKG5q87XnOLPaUEXpM63hSaie
+yGXE/Z/MTioJz1DouYjIKzaHe+iSr1282XNBnPluUudUWDUvjZ9XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK1TXn7emJGHFZIaTtgCCfCw5DXhhhkh/ruNl+8ksihvVhNlPYOZBi2M
+Oij9BPA3BbQy4hGfBwGzkWnYzhyj27+rhEfG/BoWZrFMNZxHm6sHEj3ig0fqU/QD
+vRfaEEjhlomjBvY0ocJ6FmvfrpBbj2RBm01XdrEvfxn1S2zKSgKPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+biTgDSs/rfZo3WaKQRkOqqGj/MPkqUGODSDhJnTVpBHV5cvqm4c9FO44DtxhnWGK
+bZeMTpmAGOMWOl/xg0O9zP4e0621mo9olw7ctg+Qn6u+6Du6g8HLkiV2GQTu3/8R
+D//RGd8jcnoza4pqviPegzjDej3l143GNHUM9z32Pnk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAU3Qtdo3JEEb3gGH0AAiqm+MVUe+FS+yMD9MI0mt3DnnAM5P+dSslxs9
+AGTdkbqJz2b8MwTGeE83ZtUiXnGYbFIio9Tjcfx5V+lzynNqL1PQIOJy0hw/hgp5
+yQfYBdXYowY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Alexander Baryguine <anbarocrator@gmail.com>
+ntor-onion-key IpBt9cbNpYmumK/tg6n/tW/ZOimqDZ6NIbdCqExGo38=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 +Zcn/f14VXgDAOGbta6XbrFc0r59iAB7QtLCSoebCOAbtfhYaTyKJ1IcH1fAzAPN/3p6R31Erkrl+KibQdvoAg
+router-signature
+-----BEGIN SIGNATURE-----
+YfiXjcbgF64FgPn5Ky1MtTPJWlkUwAcptt2gJU+lNTFuXnB+xbLrmdz2jAF+Ps7z
+yJ7wD1+3BwbFr2PcjtF/qayXLaf/CRUfMKkSqXJpSFS/w7uN3XBOJDeuC1QZbLKu
+KyOqIGkMMUjIAO63ep8UZQ5txEkfk+M0MZPpWY+6CC8=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router Benator 91.121.28.66 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAwAWlc2aZMtWSrcts5UDQG9rR0udtMSnFDi2RPYbSyHYwXAQAgBAAR2w7y
+9O1jrqJwg6SVLXNF9JOEUOET1mOQQh50nL0wxJBOuLOdk5fa6MQalTTzfZen/vzO
+esQicRTCPcoOU+V6R0WQhRDwqoUFqIK/RjZgHKMySJKfOzQNlRC3T04/DA8=
+-----END ED25519 CERT-----
+master-key-ed25519 EdsO8vTtY66icIOklS1zRfSThFDhE9ZjkEIedJy9MMQ
+platform Tor 0.3.0.10 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:44:18
+fingerprint 56D0 A65B BD97 B752 346A B921 7821 0B41 669A 7008
+uptime 280030
+bandwidth 1048576 1048576 1153427
+extra-info-digest 2A69F21EE30A617DE8BF4BC8D8D32D747C41F6DD w2jdo834J43JDv4AXEVx0k+GezEXOcOVSiNkuqqhtpY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMDp+XLuA6eDBqO0E3/LUDxB7phXXZ8FJs2OtRFpNkMZFpPaow3zANpg
+Wnsfr/cbQCVCOXIH2me5+xsTWrIPmQt4edx7eXgiSvjhMqaBtQyIawChFYSo+nQ9
+c0Xu9iHI+s0jBeddZ7+UeCa6tFF6OMq45NCubKfrEmVdKCd1cZ5PAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANU6Vh9NMs0BWRWLQ9BcllmR42WJpdl/A1Hvr/CWcokMMOifMqBjzpm/
+7qQCHpCPR5r0CXAKcApH8GmHzT4ua4wxQWgskpA6DIDP6mkbApSQOjW9GKZQ4uR+
+1nFZBSy+tSPeOVknap0XmTWX05Utp4Ny8hYYsaAVPf3GbQq5s0YhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+GRAujdOkjUEqpFcjoh99lAHDwsSxA9K4iJ1oUoU6u1wW/RxcmhYksycPX7ZL3pfT
+sGcul5oulUiFvAz3fOqFF9Uprt24kgiQ7SMDWWOV4PXEv+IImB1oI1efBYHKIIY6
+lIcxQ3ISdSJz+1WPuSjXfZmqdHUpheiJ5rqp9zBMvhk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKARHbDvL07WOuonCDpJUtc0X0k4RQ4RPWY5BCHnScvTDEALj+s43y0f6G
+ayQ4bNi7fpq/oacZSkjiJDhvpE6akz6g9zREwxVTM7iry1CMbzNVNoj8lqNtPAHv
+dGf+I6b2hA4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Ben Gras <beng@shrike-systems.com>
+ntor-onion-key OMfRBoWAc2AnnZlgB0pIzMrzilAnJZ4RMPjr7pYJ5mY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 SIkmFg4A0wjV8rnIz0stnKmMcj+BgpFtTjY5aM2Dv1IOdBT+fq99IakHwN545GEpeWAVCbjQnDM131fg4SsjCg
+router-signature
+-----BEGIN SIGNATURE-----
+IXNffGqdWeYvt2EXjRvcIGBVtIo0gC7hzTtW0oVHSYHPMtX7IKf5WTnszlsrZmui
+ph+wr0WeLqsO5hRNKfRF9THj9g8/+e1lQNmWI56aXMO+huB398F7Wr7cjxVcV+dW
+usL0lYCKGe4FY5l5p7/2FXu4d2kf56aDIsxyYEiu/K4=
+-----END SIGNATURE-----

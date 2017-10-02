@@ -1,0 +1,52 @@
+router lxosh 186.214.77.121 9022 0 9032
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCaAeW9oin63JxMQsvdGg7Vo9h0K7xz6SCjZFdS3OMpzyJvAQAgBAC0Eavv
+CKS17o0S6tVmQ6x5mlYONaL2RPMo1DYJOTbfJBeZ548e/19IENkiRMnHeLSqr5O/
+1WbYZYGFge4siMzM1jJclja0WXbTmYANb7qgS+qczBNX6xB/cwSrmFxofw0=
+-----END ED25519 CERT-----
+master-key-ed25519 tBGr7wikte6NEurVZkOseZpWDjWi9kTzKNQ2CTk23yQ
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:28:07
+fingerprint 7E65 F1B9 B9D6 2745 347B 156D B80F 8287 82FC 723C
+uptime 64857
+bandwidth 1073741824 1073741824 116175
+extra-info-digest 2CA2E40CBBC579A3F0548B004256069FE71B64DB DYzskK7d2ml5OmvuUHSneQCWZE19fgmoBa5XfokJtAI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL8kof13uDLJeotfnqyZQHdGpoO5XYjOUKJ5wzngianV/b25K5blAH7K
+qXPgFHLa9PNdOcXsFS4MpF1IMznla1XveQ5EtKzGbNDemEYj0PK3qPAORk6WrcgR
+31zjFu0/BGLTHtpqqgmx9kIsFPcql075Zrk8AvlZyd+q2c+Rz+dTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL2m5jvlwBenvOlAItKkwXgEwkiIZf7EO3qLa5U1noRRNW948c1L2l4D
+OKhOqpo8oZ9R19eG2TVx14lgNYBECiWU/KZl+5s8vScCUqGnaWMc2as2flBxfYe/
+AWr7wyKKQTwelP/ial7mK/nnSF5F/SZYO9CWdRUzFaNpCogBTBZ3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+teg4wUJlUs2Vh0cJN9W8vQQrzMaKojez+WtWBuuIPHONyEfDZkNjo7Yz8H7qLmy8
+BF8SJF9QqgQCsObzx/1b6Doti6EZqlgAFZakNd7S39ED10jU10AzjoolBXxKeqDx
+cFk2Hw4MXvrk/DU3IhCpgdaWHjNIHUl+tbR5cBaSfNg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAbQRq+8IpLXujRLq1WZDrHmaVg41ovZE8yjUNgk5Nt8kAO37N2nDbN2p
+Myc8jB/7r5sqTW8Dmmj1hCAVtfOuRm0O8gL78EEnVbMhP3pX4YX+pkS04NDYWow2
+qOEtvVuGbQ4=
+-----END ED25519 CERT-----
+family $C6E6F2583F4A2512F735AD19ABCC5412D1073342
+hidden-service-dir
+contact 4096R/A8CAA4A2EB655D07BA1F367BC338CAA4FA700A3A Alexandre Oliva <lxoliva@fsfla.org>
+ntor-onion-key eAxYtPUJ3LtVoaMV9ISu6QwVnG0uUT9/HuOH+NJP5Ss=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 1mymDMa1L4p98TL+zjYJYoujGzBlcd6ouk7KlJI89vsW1sUpKZP2Y3zI/xGGXlK4h4R70ENhdBqq5I5Z1yzhDA
+router-signature
+-----BEGIN SIGNATURE-----
+APSTFih2ttoxfZLuyThnAsnmRgs6WPU3/b0FxbYVdxtbT6Z5Qg6xM1eR8PSOHYiM
+dXi8anp8VqJAU5r4I0HKNxRFd4uuexa9/SslkLG+LM/gt0Lr+sHuOL6oE3M4R3du
+ncl/r4SqssgFVbCShjEheOTCmmAm93IVll8UtyZfQP8=
+-----END SIGNATURE-----

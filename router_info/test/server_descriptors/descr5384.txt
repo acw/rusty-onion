@@ -1,0 +1,51 @@
+router Trenton 144.76.75.130 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKjAc/PyQLw9Dp9MyXeHfM/D6deOHshYojm6VRUSHGHBjS6AQAgBAAH9fQg
+vYkqUhoSJcGjSaHpox7drA+eUMr2DGNB63vUY0s0gfqJFuciVamqHe7UUbr65Tkp
+N3dg77M0g4uBcIsU5Gv8AC+tzjGN8t/uCqq3FPb/0O6+4JuF/blAipw39wA=
+-----END ED25519 CERT-----
+master-key-ed25519 B/X0IL2JKlIaEiXBo0mh6aMe3awPnlDK9gxjQet71GM
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:56:30
+fingerprint 5A14 FBBB AF84 2124 A0AF 3C65 0F43 02C5 B549 AB17
+uptime 2285896
+bandwidth 8388608 10485760 9386556
+extra-info-digest FFC14B73569BAC80FB851EC539A6D3482241DDD1 ZOeCrvTiDmNK6rNqeaW9cY9obMixysFwXgp4Ov7VXkw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALl3kInV3BmkmWuOMOOsa8dg547IYAA/VjFMsnu0Md2Co1/9UEs6T8XZ
+88uYs6S8jKFrkAvucO0kMp1WALnyhaBiloXDdHZqAtsofXzz5UQBYEDdvZYPKhMF
+365VOiqJlu+c9w/xTWaiwmYsS7MKO3Tapt7Eqwxf3exSc0Wi3r+LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ0yl1TjKw7S7iDvXdRZY89ZyawyQocLTIqMNYhYC2w+GAi8ga6cpgF5
+NiMAK188TqHY330aGL6Y+ZEALlqXnkTdyhaQ15QTZ/NWWDJTnWE70/bbOCHMuSIm
+l4aZ1DGOzRTlOPJHhN1NZ4dy3jhXyykmLp/D1/WZudRpC43DTvTHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+W9hVgoBXOkroydPtkDVSR0nPKEuPXDf6fV02tMvOCik4qtiLoGSR5q75piFRLojH
+NuGVgE7ik0MFxebs622qm4PQ56mV7YsKZTtOA9uLcy/eLFhI/ylutw7Aqhq7fMDj
+w0x3gCX5aLcj33eUICH6Aimnv1uz4xzTdzQ31cuIfWo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCKAQf19CC9iSpSGhIlwaNJoemjHt2sD55QyvYMY0Hre9RjAOcM0fiCP4Z/
+7txwzwmONa+4lLfcKF7vRWI9hU4WOV05m6Bgr8iWG5XiEfClv9xs4r8Hfr6yodyf
+nIDQU5wyswM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Trenton <trenton AT funsociety dot org>
+ntor-onion-key BTHCVlRuI9W5ZDEfNfc7JI4PXbgNODSiShvama/laHY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 dcWtc8uMk7NrS1FyvzApKSPfh1ihR4vhVpv18koS7oolZ2iKz3v5Uiagmbk9jqEY5REYIMUC9CIWpKfHHXx0Cg
+router-signature
+-----BEGIN SIGNATURE-----
+SW0kR3LKdtjZs42UgvcDGU6kgD/+QZaeUgUlQeIVjUfUZ797mXUSTEZlHrwxU9aY
+HXpHossgGBMNByOaHxbXnyPbxhaa5Op4MxWPFHUdn2mF8G9SIDB6UKaHE8wj95eH
+pNIuLWFlN9F21smQedKfCcqj933fUx5OEXMSYV1OWXE=
+-----END SIGNATURE-----

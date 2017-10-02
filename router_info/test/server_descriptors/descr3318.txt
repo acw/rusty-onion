@@ -1,0 +1,51 @@
+router superidatmynode2 209.126.71.233 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmARAY9CKFBb6r8XVuQ+qIZ8loKIUnegNiK1R4ZiAPSW0NC8AQAgBABElzY0
+UfNCqla0AloXUbkb50b/oXL1k9ITDQmg0r3mz8eIkeYRy7CH/xMqX5vN11JWV3OI
+tu4tqhHCe7BqZ3vDHvrglxMNLEq8OdteEXcCVvcQC+eVhhv8I9mw3QWyGQ0=
+-----END ED25519 CERT-----
+master-key-ed25519 RJc2NFHzQqpWtAJaF1G5G+dG/6Fy9ZPSEw0JoNK95s8
+platform Tor 0.2.9.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:22:54
+fingerprint A801 91C6 3107 A9F3 9DDD 14FA 922C F71D 12DD 960E
+uptime 661745
+bandwidth 2048000 2048000 2347831
+extra-info-digest 69C96E296E40361C9BE970379352479F1556A325 n0oijp3nciG1gAmmNqXF6/nG0OXywRBhQpWQqWhRBqg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMp82vJr7oQz5B13xftkKm89vDLg1YhfmQeOYXg2+MmigPo7/Bqy7Ss0
+upBWgTUu2BvjBXOcCY3DNIB/203RoL+QqnnZoTplE18S08hnKjQB3sddAPzM7faP
+RNIOFUN07vX/fVlJ2F3xJ2zlxsn3EDAE2XAehDLyw2WM/OgtdQnpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK967ZgE8DrCWC9QA1SMdUZPNrUpEuN+rDDAXyfEXJIY2vcPwtdBh/tc
++vuL1uinT8JQHbsjOzOGpugs9iOg2frp/QiVISsxaEstWUYGnxUtctVKYemPWfW5
+IYGVY1Zu/WFM2HqSeH9nayM/XXbLYTunksF16kOM3afPJdFrasZRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Se1tjNZDqAJwpn6t7eschQJjLSqwb3rPMmIYk5igRNPZfC6vdb6wnniffT4lOiYd
+hJSQ+wio6AE1nuToAavSMpwaDQluu0u75vfDefUpmZ8UG34ogrcKVWR3yDBB/80/
+Wckn9lBQ8gk736Y+eA3rUetvAxRT57SrxahZMC/tSq8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCGAUSXNjRR80KqVrQCWhdRuRvnRv+hcvWT0hMNCaDSvebPAGfchE0k21IL
+FEakBgqs2qEQDFCqLKoAt1w4VVNQTjl18XmPEecMh9NKpUmVciWyqKloJtne9G5W
+9mc4AfzNIg8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact mr.mastie@gmx.de
+ntor-onion-key VuVyQm3KmK0GU9Vhes1CKawR2EE4ZJ1Ft8sIP7TOWDE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 M0LsPE2/H+f4BuxHCZTLaCxGvdPEgs+Z+nGSUn2RFXS27sn06lxWj1CXarigAmdr5BInYDMukUhALfB5KsgIDQ
+router-signature
+-----BEGIN SIGNATURE-----
+n/vIK2Y1dr9bOHCld5RPVeqMyu/lvcl7yupujPUGzEc6PHW/a26KQol3SwJOst9n
+WzR95lO+jK1j11ZUylp+jdaM3yXXc54SSb7Dqs3yZro7BhlVvhbErwgLh5DeIoqP
+dd1v6Civ6bXmSZxfSkYl6ZuIyLVwiqsZXzqkyZ5JBKg=
+-----END SIGNATURE-----

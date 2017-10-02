@@ -1,0 +1,51 @@
+router RadRelay 80.144.100.205 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBLAXVupP416aBXXk3LofNV+qUdBNxNzwDbabnsElNlrbiKAQAgBADLpt8K
+w7114a8Fw7lC2QIxAxUsK35qZfdsE5bkJLBXiB4DC7rmS5DAXkFtKNznCEIu0eCK
+yVfkixvS2ftLgWD6QF9fJNiyFfX0fIuvL8F2x4bPAGTgBpa6FwtZR/PxKA8=
+-----END ED25519 CERT-----
+master-key-ed25519 y6bfCsO9deGvBcO5QtkCMQMVLCt+amX3bBOW5CSwV4g
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:17:43
+fingerprint 13C0 003B CC46 815E 8251 946E 2FC1 D6DF F870 C381
+uptime 3782
+bandwidth 1073741824 1073741824 1234402
+extra-info-digest B7F27E1EB6D3AD08E77FF6B56A3F44131123EBF5 L8GPC24x73vemOxenPYLK7edQQwlbE56muPV3Cna0m4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALL8s8QruYr6ZyJ8+gBl/Qcyif9ztOWr4oZB6jq9tkTpByequVEQCOAP
+lmwDCWN01Duf1WlKV111L2lfhKpV49ky0UD6kmOFJFjZ8Ek+8VR1jNpCvcyH+i4l
+bvhmae4W0cuVjDxH3loF+g0FAs5FavjENRAcHYFV1KUJHO1ZQVePAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALbiH45QKieCJo1jtdkBPHvOJ7alFm+z2Yd+0LhWm1lQVfHZoV0NjGYO
+hc1RzDz01QZ0PJpM35hlF8mzdi0dItYn1fAvvBwi0Y9T9ufJzXccWK0JD7b+Fa5i
+TXKqIrSBsdKinkooFjKB6oZbmHnx7UyY6aDc115kT7t+/WA53J7zAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+pXZ716mrWkNoOoIXbj2e5LfKVVFd8gLrzbPW+qQ5QFHoe1NYJetLvZ4K4+sL3JEh
+NDseYwBdNzqMXEOQNvxKOycRRzZAGv53KILkwdqI/XBqX4aBwDOuJeoyKGawteYL
+tX05AU+rtxN+nS0Ba/o6J45E75JiYrHT/FKhqQdd5Uw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUAcum3wrDvXXhrwXDuULZAjEDFSwrfmpl92wTluQksFeIAKHvzQHhLSx7
+jY4/XBHNOJWvQ5ABZZR+QWwEPBFgd6qNVkH/+tkB1wfrxGNF7g7QkVMC8RmDCMgi
+wVi004o0zAI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact phillippBeich@danwin1210.me
+ntor-onion-key W4kT1qLVJs5+qzSqghnAm023S3/HJW9NUP/so656tho=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 7FeiF7+kJcw6RwGsMXiUYciO//03ib/qCtWiMpj1vMci7FZajpNItkfHjQeIqQ3gMAcPgn9M23A/k02+N5PGCw
+router-signature
+-----BEGIN SIGNATURE-----
+NBVBIqfOw6noD+oaHthh8uSoXrDf+BcB7qzJdFNb7AbE//Lqha7MuKCg4NgyyPcm
+5kPfyfOdPUn7fhSAxVbL572A/CSGEulKO39egeiTk5BhYdfu1q+Upwoh6TiQgoMp
+HHcXQ84o70ETpRBJiHNHogSYfRQTnF5Q9v63IemhRoo=
+-----END SIGNATURE-----

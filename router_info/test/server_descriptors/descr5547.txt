@@ -1,0 +1,51 @@
+router KaarliVPS 91.134.137.99 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmABAVBZAFF5N1ayg8wUpLd3TU4M7lORdhAZABWc89oS7bB/AQAgBACLKNkb
+73EQsGHpTn9RD/alEdl1NXzPud0SVJQmi11OAy36MfCTDTmajRVNgTks0mmFdcvj
+9zIVyuXWcJgTeF+OrOptEMMY3b3mk7t7ShpHEaVBlJMqE2mShPLKVy+acAI=
+-----END ED25519 CERT-----
+master-key-ed25519 iyjZG+9xELBh6U5/UQ/2pRHZdTV8z7ndElSUJotdTgM
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:51:32
+fingerprint 537D FC20 19C7 7FF6 0A0A 29BE F358 F7F6 D6C6 8688
+uptime 1672988
+bandwidth 8192000 15360000 10019253
+extra-info-digest 7AAC83CEF2803BE75A9779F47E6FF15852DA477E pKKL7V5+6mpEqas/3vhEWH5EWlfszTt2MFrTUwliKG0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMWUTk5YL+zAcR5gZsnph6KobWoZlPs4804Gb6ZwQREeMY+7y5OHUxuW
+A+vg2zjW6DztDqY+9nhXaUdMLcMRAfldSiZXER56qG/gpLwRZ0B/rdMKMxkrVLDK
+Bon1glgUa9KaeQfEUfBE6j/xrJ4sEeIIHUW2CvEAUXn+Pmz4dtChAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK2BGSZt1BtHP6uxxIxAvkr+bl36+ahukRvXZbKJ1TzQIWvJBtKYHuAI
+1vTMM28PxCb6v0L5htHSMiC3I3FKigt0r/Yq/WePtWpZadniTUqcx5GiYadsgsVy
+pcadi6DQBoxxXp6k/mvGe79T9vyKfWTN/y645NB8QoFKUmTlT/uHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+giV7VydMeKoZgzJvPWfXkltAVRgxKbpiAlrfvGOeUfKrxDANifaBiwBw27ATDnuS
+4bFizRcsHjqu7bVJLZU3ICMz1SmMbbkSaj9y7ePHKrSpffBi/dBR81DkI49TgFp3
+rTgQNX6CscqwSw/xLIVoGrMygiWeKb+a9NFuCoqWhb4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAYso2RvvcRCwYelOf1EP9qUR2XU1fM+53RJUlCaLXU4DACJQjcIhFgsT
+goNJqu74EXQ1Ekc+p0BOUAIInKFg+UBEVrLkhK25Plw/h+/H2pkD7dYPoHGSY/rk
+b2KtI7jBiAo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Kaarli Tor <tor AT bertho dot fr>
+ntor-onion-key /QzOsE1uto7eO9s3NqcltewaUYuTn006RIgL4FdVBVc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 JVkVHU/ShJSH1I7+YuF4ggElSvHu6IugLa2WjdL1wxKysx5J1WJCiBwJ0dSCIBi+L8sdveXgD+ByC1uw5nh4CA
+router-signature
+-----BEGIN SIGNATURE-----
+PpUS6D+WNjB0RquDfytkxaHZ2eVffWMJs46g7N6EZcAZAQBYGbopy1h9larqHdlC
+SvGrB7TtXxO21dD1DAGye6Awsd7jse3cdqVutUqlb///xbaOo7lWVZ+ASWU5bK5K
+Gh637tBWtGUvCPgFGsgQncCg3t8yseJHpNEiIG6LJMU=
+-----END SIGNATURE-----

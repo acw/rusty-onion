@@ -1,0 +1,51 @@
+router lemontime 5.135.181.213 9222 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFdAYDFFqRF5QacnDoEW6zZhezMK1kAs4ohgeB3nvXEzpvkAQAgBACJPRVn
+AjvMAmKg/ZPYCopND0Hx9jToeF6rqIbeSzXf+ejFjaxRgvFGIyIZBifaQEf4Rjhy
+I25qdK/M0l1kHU2tEwY20ohsvQr9iotuT2IRt8KOprOlNLMOCs0/mpAEEwA=
+-----END ED25519 CERT-----
+master-key-ed25519 iT0VZwI7zAJioP2T2AqKTQ9B8fY06Hheq6iG3ks13/k
+platform Tor 0.2.8.9 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 13:09:17
+fingerprint 7D41 FED5 8481 A0E5 94C6 42E7 4176 C811 778D 91A6
+uptime 26250301
+bandwidth 1073741824 1073741824 7747758
+extra-info-digest C519CD1E5E03EA3100E9809295BB8D3AF434F83E W29JblZE08AHueoLovDzZ3zarUhJrGLg4eLuFmPnD4w
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOX0W+v4FtoV5gom71pZchXSWQMm7DUyprtVeovBQmba/rmRKuI4FB8s
+NZs6yqFZIG/WeUkXvBwh676Vb/pEAK12elFD8/5Ws7cJjJodAztfIQjhKGrQ8Z9L
+YiGjoVJTKlepXzJXg3M8tDpd/qm/j7hndF6HOnNgauXNpeWqQSK7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALK9ZKFTZRmpHd4XxM4TzNOHhDxR673CzihiFawGdXm4Nmb3iLfFE8+R
+sJQp/y1W6vxvYMbMNGukf5czTTZZq2+iz6inoqhRrCHhgKxI9T/2blE0lpfbvsqz
+A85zjJk36dlbXrbhaDaNSQkbei3PTNCwnxRARemVAFDiEghkV+A1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hAubDLn4AqKtVJuzAnx53mZnfqzaJEcJCxtxv1q/oPVEUwJ5vV4zK2HLA+UN3VbA
+ZIdxTg15H8ZBo9dUxCCxUYJ4s3djPpzbNl3UZpc34GSGYtiwV1VLOEU3FnRkbeov
+1wpHl0h0tii8yvIPv81oq+qYGnvpgaFoQ9h04uQXY2o=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAYk9FWcCO8wCYqD9k9gKik0PQfH2NOh4Xquoht5LNd/5AFeKowwgNqdG
+zm9LUAhivbsyoOVIrDY8j/ivsOySoojheq3x8wQ3Rwend6XM4whM4eU/hgU9ZFSM
+myWPqbXwqQI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <douke AT vfemail dot net>
+ntor-onion-key VG8fC22g8GIDB0rcCLC2nTrDoUMPx/7cYqHx6Iroyw8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 /wJKHSGRzPNhrNKyMicRQBsACWunmw2F4RikexAHGvWoBByO7tbU0kBRrNy1Bvv9df9S21Rcu103rQnHkCrlCQ
+router-signature
+-----BEGIN SIGNATURE-----
+Blfe0YKKXhZyx359yH35adntpQ8y+3yIkbRYZhtNHX9iMQbazrbA5Yb5gthDq+D1
+nmu3eFWKO1NrPEmAverzLZtXUGNzGAXt1MidVvCcQekaNOR2OUYHpNgP8dE2VmdZ
+1fspu6l5VitJxj/rRpfzHl79llHNKyXNOVEtvF2M74A=
+-----END SIGNATURE-----

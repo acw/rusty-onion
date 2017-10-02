@@ -1,0 +1,51 @@
+router minitx 77.129.60.166 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHZAQFJSmuyavhQFJoy/SdVz9497/go9x20NqOz1QQou+HpAQAgBAB2KIuv
+lUnaNRwGFy8OwyvPWDHsR8HW+cABPCAwyTyrcSmhzsXR0Z90k4iIFhpcxDmaEtFn
+4jVeQur0gyd2TeqIvc57SepycpJsfNSx9O6RR6pUGmFHlX1TCXDMO0ay2Ag=
+-----END ED25519 CERT-----
+master-key-ed25519 diiLr5VJ2jUcBhcvDsMrz1gx7EfB1vnAATwgMMk8q3E
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:48:56
+fingerprint B292 E2AF 2258 87F6 CA5D 4586 0C4C 38CE EE23 90E4
+uptime 1756713
+bandwidth 3072000 5120000 3543010
+extra-info-digest 1A408426642A320D4D560B644F060D7229F48FB0 21t6+/MrnTe0Xpv/eodGLa9RgFFT2hY9yl/tymHb8Ao
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKQYNWqcknG9MhaA2tobUvbuMPaH4krtBS4UobYyRSM6jmnrpOd/aIA/
+lnG2fF5Q3/kJ50QdFDib/bquQH8iwafB0hHsc2hMCTKPPzDC7Fcw2Poht//9wP+x
+Vwe7S4H1DY8nINV6W0rJqTI8cSo3ctpdQGfdCySGwHqo0tAgR1eDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMKwcQkDos245p5hExTsOenez3d/TUuO2OgC55CXfYhFljRdlU3ePtjS
+C0u/G6scuvWkunTW+PaXnHYTtqXvcx2+v4oft1LDZIMBFdBIHuPvDw62PVrBAshP
+UUTBzSFa6mds7RfWofhmK0nhXAs1gzZLIKc0nvReh9NOtfnrB7gXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+KFISHRiFK4pJfWA+yYAFjVGpMzKmeOG9159keCKDNky8tzhvketmd7hG6OQrYqcH
+sRpuzgASPzcDDPUA6CehLrmkfjFqh4eSOM5B5/4p/p8lcQpH6+EggZlZyy4YNmZO
+L8by3KLIYvmMnHHWZEqO6iEbL3MuX1Yo8RtFJEj0PuE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUAXYoi6+VSdo1HAYXLw7DK89YMexHwdb5wAE8IDDJPKtxAIKz/kwMrTy2
+eNGlRWpfcIaydy12xr3fizA+dHr8NPuukDILIVTLIXX1u4750O3MtOTIGg4gKy4j
+GSb2B2Ffpgc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Boris Vian <contact@localhost>
+ntor-onion-key NqeWviyG9EkzCOxNRsaokPFaTROq62bmdE82zHJzc38=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 +aaHhz7E8Ii+yueNoa8SPI14Cv5CRT5zL7v+wpMYbO0NhXnp6PBhKoyaKWBTTx58XuVDNWUgNFrpZ6tmv/b2DA
+router-signature
+-----BEGIN SIGNATURE-----
+BnrJT+nT6ekPH08EuV+2lZ7ZjrUZRgmr/5bvp3NsqwVwfSxA0N79r6QK6XJzAHyy
+v1AXfgWvKTx5NaPc26SxPkgI/bwz8RRhwSFsMRX5W4VSZfW68u+oSap6PWTQVTNY
+3q1vnHcTFgdDku/s3tMayHtAfgjP85Xz6dYB9YXtK9A=
+-----END SIGNATURE-----

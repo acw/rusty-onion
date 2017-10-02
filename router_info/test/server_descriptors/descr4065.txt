@@ -1,0 +1,51 @@
+router freeBogatov 141.14.220.177 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFIAUm+NbxB9xXBxwjb11Ipo3+LK9392F+auLX3gWDFE1udAQAgBAB3D7bD
+G9ko5ezx1Sjmh5Py9XTU/JzXJfOzI4OVR+qvZzydR2T53cymUJ0ZOU8N5C/mAcQX
+NjZCWM9imh6j7wui5oP4Yz6C1p0XRHlIqkJEIG6jfSoZteZZDWWmnneD6AU=
+-----END ED25519 CERT-----
+master-key-ed25519 dw+2wxvZKOXs8dUo5oeT8vV01Pyc1yXzsyODlUfqr2c
+platform Tor 0.3.0.7 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:54:08
+fingerprint 8CCE D391 D2E1 B6ED 1E78 769F BDCF B70E 5C91 849D
+uptime 8999016
+bandwidth 655360 1073741824 2726640
+extra-info-digest 49AD53088636C3DEBF53575578B75584699BF4B1 Nw+cIM0tnsaaJRvg0PfQM7qZI2SYgp5dfT9GT8CkBm0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALGiNTg7HD73icfqEMNXtQ2P2D9wE6CkSS0GF/sxj4IACP1srg4wifV0
+/61Lste44WWOChNVqRc8ssWxf+eikfbTaVoRk2/rZCejiftdxUqTmjFB+u+ZTUou
+Tq3ftiwYhM18wyvtTpEA1U1OcB2RKxu0Yk2Jk37VJ11H6M9leTPXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALN3/XEU9sE9THKEJ2QvobqV3/xbNns0C+o+u0XFRj3Az1o4Xd16hk9S
+Lw4blISMn6sw+OnBT2FEMO9DdCwyzWwwycVZ5IpfuypdPaei0MOlKi9De/P4MELN
+kepcy3P1PS6Kjla6RjP+TYcABqK+PdWiqKbUVdA8yeya/Xff8KQ/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+E4WeKsEOCIMx4QUlko5b7m2TKc19kVBxa+XtqXFcxeJtYRuVJLKcpFhuaA1j1SHO
+pb0Tvsr3B0AcgtQeefDG/2U7myazgdftedsUEteByBPbZ0YsIWKwJSEIljtEr3G0
+6qIjkVrKP8t1azQql/+hYBTsXFnPW0kV993t/phjT+I=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAXcPtsMb2Sjl7PHVKOaHk/L1dNT8nNcl87Mjg5VH6q9nAILKkJKVuYam
+gT7V9RuULTybcCuMYjpKIxsz62BWV7xt8fV0GDALOcEYunbiXkLwnuHErbSb2o3z
+Y2Ttp3r8NQI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact helpdesk@molgen.mpg.de
+ntor-onion-key BA49wlFjAAmj5NlZFgcBT7BxLLMkdRyyPtRNrI46NQ4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 XBWZ6l2DdtClSx6DoxokwChR0LsTeSIVVgaDonXyaBV9LpY7GPr90rNrwvzBVWXYuSV5a8Jlsn+JHPOeRCD7Ag
+router-signature
+-----BEGIN SIGNATURE-----
+hGCJ7SGTPk3ZeWG7NEVzgdIZnj3fyK47ILcurqWA1dXcqcUb/LnO05tELxV5l7Kh
+t6Q5xDSbRsnPUDGktDebu033ZB+kNwn0v1lVFq1Jxne1jVGDjbSHUS5TkV2tJH67
++GfQX5Rj/Km4a03fmqrEmLHqPPM59KNiZZPth+uXncU=
+-----END SIGNATURE-----

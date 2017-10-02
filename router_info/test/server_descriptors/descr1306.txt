@@ -1,0 +1,30 @@
+router PetersRaspberryPi 86.171.67.99 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 18:05:11
+fingerprint F3B0 999E D5CC F0F9 7FDF 9E9D A49A F321 60F8 15C5
+uptime 225769
+bandwidth 1048576 10485760 801808
+extra-info-digest 73076554BFD0B51D93A74BC7C332C4350A376821
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPr+4CBh1g8yC3pwmgAv+eIx1ELib6R1083/88zPNbwZfdMnhJE564pz
+Gvz1K8fw6k2UzL462b5L8p+JrufC1BAOr5eIV78MePLQbmpcZQ//fQ4Kq3eB4u53
+2dvB/6GjZtYT129t/0t+o5/bjSPh8kd+G1P7FzVEJ/oPCel1d6ofAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANCrY8SGMWq2CnFCWTWcR9K/ydAv/dKXyMznlpTlSnHTJz8i37u07AlM
+4+BBzW/yWc8QL2VKN1F/YTnpfpquRocUqY8JjCU6umEbwgbptQZ/myZcpgYCYBVq
+108GcFURjq8G2F+nVXXCefVsj2KfWtXUrwtaAnOPH5WFxg3oJn2fAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact 0x5173C742 Peter Pimley <peter.pimley@gmail.com>
+ntor-onion-key hT4+wO3VGp67UlI2uAFNRsBTqkEbhWQXym7hbJUHrVU=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+iDDN75AKT6Amupxt2TS87f364RqSltWPhlfkLXhdVkF0WWeiz/A8TBbzxXiHqVVy
+bYRgZGaNgNbyuJ/smjsiZzAwDHgwNhgCIxR2Qq/9Bg9ldB4hbUT9U/1jcrYLxWTL
+vEw202mxlNYbCoEpzK+ajwDRV0/ulkRLff4jCQ0HmlU=
+-----END SIGNATURE-----

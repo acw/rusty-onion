@@ -1,0 +1,51 @@
+router tomatoVpn 185.203.117.50 1227 0 1228
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmC8AVazT6d7HnYNuCyySchcYXzHA+1uRE3tbQqNkexrXpHaAQAgBAAboU3c
+GRbAZ+/8D9vJRqssnHnU3i8zLDWMOxXAdmkfiEZKV5TED9FnJBMrLoLuI/hbC5CC
+67CMq6xJCQKHaBbix42qIcLA9PXqqj9y/X0/q6g2tkpLMw0iEFUVATu33Ao=
+-----END ED25519 CERT-----
+master-key-ed25519 G6FN3BkWwGfv/A/byUarLJx51N4vMyw1jDsVwHZpH4g
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:43:47
+fingerprint 7099 7000 BE1D C531 6300 FCAD 8F99 F35A EA26 142B
+uptime 4298295
+bandwidth 102400 204800 122612
+extra-info-digest CF4B55109DC858312CA8237B6E6457C12F7C6A08 LDr7ZwOGnyUcP+Br6FSpolCTLavaFJ4PLtI0x4SYZjU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANfnuhd7UfvLcJLnEoVNKtUkHilCTCSVIBgmi2bQ7LWupRrDsEsg0G6y
+Zp+wO1fJQEUFBBhfFRp6ziutjKbgGctTR1Gj6gKtggaq4ocJZhFMlMLiY2WGEaZs
+au73BbvOBlfaKjLqVDGGX9d2RQKYRwmdTkcJrQFbCYE2zCRiyGQtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJauaBp2vVpm5vYdvYqouSrknRVeEEZrMxO8pW3yx2Y4NQbeyMh++c+I
+za3Cc8Ak0mTeGGulvHRSMOF0erH3eE0a7QLeq0OFzEzg/UffVeKV7Nk/N2JHJxae
+w0NcrtQDP3i2MZgHm+hMn8d+yY3HDcksp4s+hnMR509xuBtEZWhNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+mCrtfXqIkHKq12Jrqaf/XF2/Lw578jkr9gSiXl84uNtEy5yxNObySGlrQiGhLTBY
+iflmgW1GaQGHu39gr5K6piMJpmldm9UohC2GEWCpGffKAfDbJF0Pbg2+DtgjbD+D
+i2/oaychzMxg3eyGrTbPGds2QSfYQr6YmPnK4a1cKKM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFARuhTdwZFsBn7/wP28lGqyycedTeLzMsNYw7FcB2aR+IAAooJgO9/2yJ
+ZKCm0XyTJoooV+78IJlFglEDZs7+F1EV8x3oVpne2aBrBaoflFn2Wm+BtqbEXiuY
+hQCzVSjyJAI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Person <pavertomato@gmail.com>
+ntor-onion-key gv//5PZP+A9Q7yexKtOStETVNd3QUUQiUf9FZrzLBDc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 KOGgL8run2wMM8RYJtWEK+D5X+KIm2y4VtVxuJnzN/42ktKduIFBdP9Ogp+I+bkvwrh6WdvPWctSR5bwUWEFBg
+router-signature
+-----BEGIN SIGNATURE-----
+LJbPDyC9sE4h45itdd/LEiGgSanKRIJ/zvgAZnfqOqXksI+iCE/aAu+FdoRpzsyg
+5ZsT7ahG8RIEDBYvNt6gTCcbGQRiAp/So6n4r/jDfsEIC5+Lkw+qIhBcgUHw9qXn
+U7hdDOLRSZoA6nCfw5c50F2HIombM4IPTf2EElUqvqY=
+-----END SIGNATURE-----

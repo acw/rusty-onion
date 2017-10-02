@@ -1,0 +1,51 @@
+router W4LS3R 91.214.169.69 8092 0 8094
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGaAaI4vvCDpZ5qGJZznXcbEDYgacp/Ku40k24xRIsxbqTmAQAgBACd12BF
+wNxNA9szaSJixFx5rapnGfemPKqmpFyspcRuq48StI9P6SLdAolfJQNdKGcw8/Rq
+wD05CChBSbbPnZk5VKs5EkVGz4yaIyij/TieQPOXebmIP2j00P/lht3l9wU=
+-----END ED25519 CERT-----
+master-key-ed25519 nddgRcDcTQPbM2kiYsRcea2qZxn3pjyqpqRcrKXEbqs
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:25:00
+fingerprint 1EDE 608C 5E19 0C86 82A2 F827 664E 7584 1610 4670
+uptime 196141
+bandwidth 1280000 1920000 1511382
+extra-info-digest DA3770BAF8F9D78DADF5DA3A2257D8489346009B t/In0YgxmYR4137KOIgzqWv/VpHQcmEA+r0spz2PF6w
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMRF+IhkcxY/2/6dLsDZ1suj521MrH5lLdlj6Vs3HKHhHGVoCeSyrWPq
+ZDGg47+P26p3ADlCJbUcCbN+9REPGbmlEWHP8ttka1Jt/WC6HEL4jCX87hxjzZpD
+R+4CYE4PDMtfeZSJTlLpjZ9kX3FdsfAdFjj4TlKZuDU7QleJydmrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKUavDQNo8kfGXymOTp859I6x6e+FQMKZSBKq73JL8ts0oJvzs7oq7Di
+zdPUTcpkPL+MurtnXKhzaVelAuz7ejJtwE0lLpLw2jJNqDyFj4gs8NWBeZ13tEFf
+A53Td/NrLJ8baJg07prPuf8DOCvBmE/UzcmQeZo1p6KBr9u7DE3NAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+OwXEZAb5IN8InEDx5wTC3LR1zEv6k6KUqBRl+IOWqIPXsOafs1bGaSvdt3kt/AYy
+YKbzpAcaecuufgEs9HRc8XrD1yWAN3yFFtGS9aqE4sB82zVb/1q+PwGhcVDVnGCy
+1r4T3DwGf9h4Hi49hHerLhIJKuRo0HsvwJf0N93racE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAZ3XYEXA3E0D2zNpImLEXHmtqmcZ96Y8qqakXKylxG6rAFtCOJBF/al3
+9SB4swYimylrdYt6CSJLNqmHG7SE1URVX7O8EQsnltaiT9lWjTvUtCUxSuMNzloX
+g3ul11E5fQE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact w4ls3r@yandex.com
+ntor-onion-key jbDyrzKReSXyoaVvEp1+cOCIjMaG2wk1R05366E5EFU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 vXmadiUR92hYMHu/JHrUHdQmhhPI0n28BrTPPjkDwsXHojpLsQE2PAtxfs0YobCbY2EeoRCOVCuZgJ5jqFz0DA
+router-signature
+-----BEGIN SIGNATURE-----
+GBL48rxm4g+WqXH4HooyoQa6R0YtgWej6+HXRc0CclpefaFSxVRBrNRimlt1DlgA
+uzPkt1MlXgjQ1z9xBy95+9kQL92eL8ytdpKzobTXjfnCHfArTfgKWmYClsljPsEd
+MysF/jgnillpTaURG60RB6SThzCjoDwi7tHkCqOYM0c=
+-----END SIGNATURE-----

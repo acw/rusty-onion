@@ -1,0 +1,51 @@
+router nasse 81.170.148.194 8443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHoATqDFGZwQI+zrkePCctpwz/Y39q3KOmxhZQBXxdt99UAAQAgBAD2Zgs5
+TgjulwN29m/364jePQovvzZKpK06AzfC9zxvZMYnA8KStG2/vAQAMvdkLILi+Uyc
+aFPZkqeZi9D8W3Y4YnXAMn6xLnr4kVVrEI0FHrJ7Ai0pekQ5Vmj5O8ARxgY=
+-----END ED25519 CERT-----
+master-key-ed25519 9mYLOU4I7pcDdvZv9+uI3j0KL782SqStOgM3wvc8b2Q
+platform Tor 0.3.0.6 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:25:39
+fingerprint AE39 088E A48C 2556 A09B 84D7 0FD7 A826 4E2B 262E
+uptime 6400673
+bandwidth 1024000000 2048000000 5839047
+extra-info-digest EF9A55B2B1B8A8F74BFDC46C74EB9C494A222449 VP/XUY5VKJGFioIuiQwG4kKFSiEEbpbkbYFwsvuBSKg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKWf7llSVGOZ/0ZiuEfZ39X6QhmUStH3rSmxR6m2jpJKAryr9oe50/Kx
+2Gq3Z1QBTXpwwBYECJI0jFF0umwa3T81+2aRoFu5eHMU1/Ot1K888yXjosr6ecH2
+9c+zZtKHpWcH2bmFTxI7NCMyzF0oWLaFCMgiJHoK8+v3zmMiaf8LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALY/ksKT8RrR/5YjfALGYWlZIv8cOE0QkmM2hh0/PBfCtxyD16+zLKzv
+ypaGeXt2t2neLf8eIWrUt69QzVnR5QMaKBzTCedD21Wm2Ni9P66lBiulySsyevEQ
+6UnhB4zy5Z/2XAidDZTLBIIHi+flQ4BkR8HNxIpQ4KeFUy+ZCQrxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ZM50QRC00U8/Vv8jeKFVkmCz+2BZOHw7w95nZEC8oR+sLVnksuYHSZ6XQArEUcc4
+fRYFIvmQLJZT9wR/gw/VuWrdwfoIW5OOxmfLOVfeKJG0DeFaN+vDlpLxkpU7kJ9u
+4F7a0qlHmj3+KV97NzO0hf+IgaqF8WgePxfLpDv49H4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAfZmCzlOCO6XA3b2b/friN49Ci+/NkqkrToDN8L3PG9kAHdIFB44s/VW
+6VRiASQoCCBP9UqT6LiBb67M3xUE7OAfYASyBPR4d+hZQuSQGGxEArXV5A35c9jK
+PIInx0zQkg4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact kore@mindwipe.org
+ntor-onion-key 2Sn1fDZwzQ5LPa5U4xvHt8XcaKNT2O5dnm5SqjloEiI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 pbWBDxTfBV3y6Ou7G0xq02vmKmVs6DPedvFq2RFnI9C3oHLy6ujWpbDVky+/d0jttgrKPWIzBPSyaz/mvwOgDA
+router-signature
+-----BEGIN SIGNATURE-----
+Ng33sqW5yVzFw/CPcka0/ZmvfhYYgT/H0AYO6rizxO5UQIAMJgiwsleGtCJnGAnS
+psPlEPBkB/xLxNwSmrAi244cNSkSlMr+STvkn7Ij0CjIp3P5SB63IZACDqXx12nl
+0ybfqENYHvfHhKWYfJ4Lq48gBE6NJoM+pX4WkSKjyb8=
+-----END SIGNATURE-----

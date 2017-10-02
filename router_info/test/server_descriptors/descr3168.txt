@@ -1,0 +1,51 @@
+router UWashingtonCSE 128.208.2.233 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI+AWTU2Y+EUTqrtQnz9KaJYCBzEiSvM17M+17isaXVA85vAQAgBADdfb1I
+Loa8GbMyxLAwUL9+KRYOCRzFzwbmNo5cl+aVL9l81KapM3tURTi/F+XLskp/CdBj
+6O2s53ZI/VpG6cN/W7IDdUVUo35Ymst5voibtzNlAYq8vhZ9MoW+TDj9KQk=
+-----END ED25519 CERT-----
+master-key-ed25519 3X29SC6GvBmzMsSwMFC/fikWDgkcxc8G5jaOXJfmlS8
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:12:32
+fingerprint AE31 E0FB F0D3 E1B3 9F1D D8F5 5BC0 70D1 1AF5 24B0
+uptime 453779
+bandwidth 1073741824 1073741824 3372199
+extra-info-digest 0E5715090F29573B05CCBB896A61EDBED78C9B09 sqr8q6vqxIsvkLK+NCpXBjaOXU2KhL5DqSbQrn1MAvA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALbS3jMvV1Da/EEGc9LHL6YXgheqQ9hvmZ/so+jEzePSMP3LNYK7ybMK
+/f0L0t4DLATqpwbFD+6wSr+ZLmfy2G2kHmPx3eJqNikJFecLSmoJImbYOia6aIKC
+3a5ISY/Tp0fPy4YqunGjiAJgrQ4+qKCrhVLGlFZwIbJN94dllAh3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMZVxvqa4CWRQxz1qI16d1YBv4kSE/cuqKCmcJAsS4OINvqW7GR2tBE3
+Ij7OLYG6Eh7Nu/+x4kez4QNHPwLF7za0/SpZZcXSnNSsvjhNufzq0sM2x9bj0Zgp
+TfDlq4mkmqkbs6SXGGi+a9oOOE4SEwjptlk+M+azl2WSJLByPX5LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+dCWXbloED0oQabd7aPOF306w3BqJH1mSYKsKHdQdDPMx6Y1YKDsKQuMQZLFi9UoP
+iq+6gkDfFQbLHmNldFbEvsNJxolrSvv+EncU+mdjGOGtqIlhce33Au9cCzjjiAae
+WZWmGNeZZLVSgKOWayOc50e2oCHNonu4Di1kUd1oGMM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAd19vUguhrwZszLEsDBQv34pFg4JHMXPBuY2jlyX5pUvAFi8Ga5zOnly
+WrEuZqcB+W2LmckGB0sXCUWTxSwDHxsM+hXGaDRxtvpvMNhhWvPI0bT4ERXn1AFT
++wXm7caRlAs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact University of Washington (tor-ops@cs.washington.edu)
+ntor-onion-key +U4huzVCTN98y+8ZBFiH51nA0wRlW1nETGRFvNb2r1k=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 xhnuuTz8DH5BUsLLb3o5DxCgQUsbwZVUyNsquaWKGCngwV4h3zFtD6aE7vkVqOCbDNhQq1L/XH3SLYdBQlFyBw
+router-signature
+-----BEGIN SIGNATURE-----
+IIAyjxVjWPEsxjf2ildAleTNOkPly9YYIgVItRr29vYW6D5lKvApNl84TY3NbQU8
+cTfQprbAseL8q8tMgqaXp6beN4fDgyqj1vKMdCj+r7sYpS4GYTSMFjYtvyL8BaB/
+vMjEOrtXMAq8M3dqQ7e8cslzb1Gwcd5bE2h1qGo+iIo=
+-----END SIGNATURE-----

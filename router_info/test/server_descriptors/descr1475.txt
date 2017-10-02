@@ -1,0 +1,37 @@
+router eadgbe 198.100.148.112 9001 0 0
+platform Tor 0.2.5.10 on FreeBSD
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:08:15
+fingerprint EDAE 96CD 3851 27D0 9D8A 9AB4 FA67 86F9 870D 1298
+uptime 7048551
+bandwidth 3072000 5120000 3650864
+extra-info-digest E0484F04DDD6B92C3679CD3E25511D1308D4D908
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ/GJ6YtYDhRNFAWeHm9P/8mb40KC5poWfDnV8DkjQpbNWny+u5wvvqi
+m3SXhOxYG8vuaFNtVWw0yuuEyU6rdt90qFm2g4Tdjrre9P0SmzyuC3GwQqW6Q/Kb
+8ZR2FboPRJbnKxHB6bhxdNevf5KFMqCbM2G/3QUbtUoisMZFfRS/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANSOAf8QDda73RlRTXYYkyqgM64srbeD0eMXhO5VKYfWEvvO59kz+wPi
+Up24GPJbeHOJbt7g5vwTesWJzROO1nv9MKxFEJS7NLdw5ghlA2NT48xaaAyhGcxd
+D3pRqwAWmKywjIH6uR1rLJKbaNA4YkogiXXaCgS74MqmTLZ5ZTJ/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key Ghlhe3BZ06hFJ0l+SixZo2v/YzGvh9nSJsxY99l/3BU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 198.100.148.112:*
+accept *:80
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+o5x9plGK06EVE5HSWKC3b+RJ3hzjtQ04IXs39LmyGWa6dDAiN1GZHmro+anXOTcx
+9y8nFAbFTlc/DhUSjt6HgrlXnKccezCKcytwEJ++BkxumAebjSzpTEetaWwSB+2g
+aTDq/yaTBn4tPITTbUV6hL2w03K2nMiOWULPCin1b0Y=
+-----END SIGNATURE-----

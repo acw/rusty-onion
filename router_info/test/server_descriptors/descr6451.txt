@@ -1,0 +1,51 @@
+router belphegor 178.62.107.194 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHJASufX54YSwgXJvBaljx5Jz0/p+Fd+Tt31AFgc/w214NzAQAgBAAhlP5B
+OXVbZiRatvYwysHEL4oRz2oFGp0DV8s1MkEYOEYj8tgNOCq+nXBGxNEzI/X9zFQu
+JY/DUU4ldL9td+kA7cVXAxdmqlV0i9VBFd8IdrlgUlyGQivtauiYJ1Me0Qo=
+-----END ED25519 CERT-----
+master-key-ed25519 IZT+QTl1W2YkWrb2MMrBxC+KEc9qBRqdA1fLNTJBGDg
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:35:22
+fingerprint 31A1 2429 8EB2 D1F7 51BC 8837 8237 C794 4EBB 13F4
+uptime 0
+bandwidth 1073741824 1073741824 34543616
+extra-info-digest 553486343D03716555B6BC639876013AEE92224D 7Qtai4MTyOsWw5R5HX343oqdB3/24L2o7nSsV47X7vE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANLZICwJSJssjCdxY8HsQZrQqP5X6DbJL+j+cqghmjrQYlasQkMI8afk
+QVFjOb0TZPtfIj0Hyr0doHPat5ZGssMFqD4uS/1eHg66bt3XvBDOel7xCBYKDjOm
+M0vnMdRr+3bX8Tg7kQRM1CKDXFpAXpC9sq2qSfD1VJXmabTfEWNDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAP3vAY5jumP2kBq0LLU6HK+ZnFsxYFu6SIotX3oCv3hMxLGnm6Qm18gd
+40xMr2nUwX6YJX69x+LNv/py3J8hfQ1ynzpnvzNC9lUTLc1bq6A26+D0Ossmh2Vj
+G2Edd+/oeZZZ38r7cLMd0aPrturFK6NVLxRRpYZu5E6NHma7ypQ3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+XOeXodPB8N1kvMX3kDPftSaaIK11urTjutJydvolEQR8Qif349U2RCla6/6v8xOF
+M1qtyFS9pXiyMFnqRYRhBRqTxExl0aLgfudog2Ohyr0BNtfPaGoswobP+5FBOx08
+8GJ6QimHigiVYqTrDpT3I5MlG2QWGTM1zF2YtwGm+eU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCKASGU/kE5dVtmJFq29jDKwcQvihHPagUanQNXyzUyQRg4AHHOlhz20rav
+05jZWm23Ytf32ShaaWwBKrj30mWJiyBysVwfUlPpYDyTlLnTooz3AOyFKq/TCkvG
++7eRPhBO6QU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact thomas@seropian.io
+ntor-onion-key dikdMBhrDklcf6ZuYFIqDN8gZx9uR89nGakJOHiYDFU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 uWiTPGzOkLZZVS3eQehVvFbks6K2AAabkdxf6Ly2GZ9W9uUj5vltUalzv1N8xcFD+7GlYFuH9ZHRNT9lTDadDw
+router-signature
+-----BEGIN SIGNATURE-----
+ZYHj52mN0YEMG+5DV3T8jx5zD9dxsUvoNgeRbVlagUBRc5Srm8s2Fcp/rsW2/j1D
+w6qyDxFVoRKvqZylm0v8CgUCCWrLSfJV2cul/PPBvPZ6MKFa2oP8P5i1xmQfkeK4
+bTXtdEPNTuaXVODzaTzFiqXl/9NyPpYur+ycUtxagLk=
+-----END SIGNATURE-----

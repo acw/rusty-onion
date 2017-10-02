@@ -1,0 +1,51 @@
+router axolotl 51.15.142.73 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAXAS+umtKsrWPHBoI5F6pixh3Ma02DDKddfaaf5F6jaAgZAQAgBAAO+bfy
+t8cZPozWP1XiKWlrs1pfeo+VgrIhCEXVDoPJjaU54Bx1KMLqblNLZwg7PBXR5BJE
+nxjvjPNGc9LYOQyLwk5XrXXapoNyoCj7ge5bkmN15VGk5iPhOK6Zmg7d1ws=
+-----END ED25519 CERT-----
+master-key-ed25519 Dvm38rfHGT6M1j9V4ilpa7NaX3qPlYKyIQhF1Q6DyY0
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:47:58
+fingerprint DD86 4A78 6BB4 107B 8126 F128 B772 12AB 43B2 1362
+uptime 2100172
+bandwidth 1073741824 1073741824 10026618
+extra-info-digest 40C5501E491D45B44935BA348A88BD21B3EFBEEE 2pv8fXlEnprtnk2lSMxRoYTBsXaNuvGFv/vs8sc+S24
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALkemA+SDHXjARv4Ci8RVaNF3L0SzualRabKkkk/qY8tK6b17oCsM2A/
+0och9e4waF70yqgxvtdtVnlYnMlQW8eI3iqZ/zQGfb6fAmC8HP25sNFd+CI8Wjz0
+kphDPgXtDmQCutZwGZ5VIRpW5kahjvKsnu87k0s447oVcKctszH/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANsN71ur+ZMfgpO21me1YrE1DstG/RCuP6ICyO4RQu+zqFX25r10Ic+7
+VmqsL4gi8abZkgEsa9rv/FEfVZkm3h3j+tIdhxHTukh14go2v3VEdJXuH5UwyuPD
+TaDwFoEb4JOKw5KaejfgF9Qvr+JN70ERQCgvL+BKAOe3sOwboHdjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+h/9g3w3zgpAqDPL7l1kgJi+NMwqUSwpZ8TAwyKL7c/gtC6du2mJcVGVm+WuSDEB1
+rP+BWfdqvgIQId7J6PCnr07+wDKFoTT2L+/HXlQIPX86/gcYFnR5QQCWIvKy1eL+
+zDKrUsEhtvCTSWIhdsJot//6eKJDf7jb9tvlHBTB2YQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAQ75t/K3xxk+jNY/VeIpaWuzWl96j5WCsiEIRdUOg8mNAFBuW+hZbOEd
+U4lDvwKCihRD924MRXg28IErD9yrUqXFIJ84+mvkD/CksSr79RDb62z7zehTCl+x
+0YeES6i+lwA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x7D2FD966630C294E
+ntor-onion-key mY3GDabXBtxKGuf5m3FZvh3IKJuzlR6+2oXWSoW8ygg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 lMu5Qim6+zsFEBoGrufVXS9HhYQyLdq9WzaGQ1JaFE0i9iFR5Ev24xI6LMS01RHFPE4wQccR874wCYJPwKFZBw
+router-signature
+-----BEGIN SIGNATURE-----
+pCHkreZ2tNHqsxXOp0tES/qv0vv6Qh9PyvHVotwbTvDGAOj4X+z8ihE+NKtcN5IJ
+m1F+wGX2Dag2O59mlm9jOHc7pL9YNvxyvkZEzqzuun36GZAOVVTKnCT7ov9RpjOB
+xc4yfXeSLYFhH1SyCAcjCvlIilUoqr+86l4lAy7wLws=
+-----END SIGNATURE-----

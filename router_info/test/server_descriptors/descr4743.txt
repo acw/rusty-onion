@@ -1,0 +1,52 @@
+router zerocontent 217.63.200.51 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGsAbX7/k9UOPWhNCaklRwklty1G2B6Ke9nOVRDxmukj2LwAQAgBADm1tK1
+mcZXCXwHFIqo7vuxRLHVoCmO9Zwvd+H6Z/VSG2xjgvmJRtaUMM2iqgXPNPuhL39q
+7/IhQi/QkBm6snVV0tNDJgoONXdYujczpxdsLtdyOi0zElNDX7Z92k+THQ0=
+-----END ED25519 CERT-----
+master-key-ed25519 5tbStZnGVwl8BxSKqO77sUSx1aApjvWcL3fh+mf1Uhs
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:03:25
+fingerprint 735D 471A 85EB 74D4 4EF4 A5DE 3E66 CF96 201B E017
+uptime 285542
+bandwidth 1073741824 1073741824 1903314
+extra-info-digest 2DBED28E06454E6A1A70C776D34E31A2A6940CFF PZPFhPmROTRUbADxzcfpGPSJe3ZR8Z6WhKeQU0Ukshw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOlp22KHZVprXTQgtrBdh/5A9UNib5vDXDulJkO1WgtktWGXASjn+Td6
+U+hN4ztS45ia7b0RM3x1IZIAMrSX2QZ6z25rAyzdBYWtzcZOF26zs3oUZNxv7KQl
+0cok2xm3hFeVfHXiZ+BDrQQY92nzaY+TgWyVEGw1JIq4kmDxphxhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKOoKt5+WInIPmRlapIAuQ75GpaPj4iEAY4U+5Ooeg7DDqWoC1YLK3b3
+Wmj9cb3eXkRuHV13PCkO/X7uJPT8Tdzm/BB/0KtSfdKVNUh0iiVOUdR2YZRAcB+V
+yhKMgRJ9dU7V6/fYXdoiyr0Kdbk+smEny8SllBy3d1VKKFvoAyCnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+v7apj70q+4+ifr7lW+VTRUcWcqdrtBjXm9YUSNf48SCsuyMjn9ceKGrJiGsXdctd
+9YBUVAqUh6/UsQx+KOqBtrvhUdZP1prXEslt+LkAXjEiDtE7askrwY+aE/eppOWY
+UHTkhEVLehovSUqQTJft9J57Tap+Wc/blLvHtw3y5KA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAebW0rWZxlcJfAcUiqju+7FEsdWgKY71nC934fpn9VIbAANhdgE5lnvX
+pfolWv+T88EgI7RXx5dKTeQAMbhOrplveM/LCWY2IRhmKTfuiCwqzQSTME+oruub
+u/DcWQWTDAM=
+-----END ED25519 CERT-----
+family $84FAA41C7A7E83EC18964683E1DBA4B6C9E63492
+hidden-service-dir
+contact Erik Winter <info AT zerocontent dot org>
+ntor-onion-key nTkPIl96kX0C1pAyAcQ4f5X3LOavh6MvrbkhwhSubnw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 0HEPW5cWr1f2dzVpjpmgPjIM3DZa4aT5kjQT6mBFCzCZDEOINr40t+HdKyr/fdJC80lDAN1fxm9GVsGHUUihDQ
+router-signature
+-----BEGIN SIGNATURE-----
+Lm3N2AHSrKPG0aMKysLkk9LwclOYJ09+fzliGOpefRpvogNXARidBa0cqCKDMlXI
+GuIo3sRpaZqzgghq/VpxLk1t95/3O795kB2izTmC6H+zZT7MPkaXzqdTFvIBPHBm
+g4+hO83HWOAMG/JCBMyW4nHTHK8sE+VH9ne431bf6zE=
+-----END SIGNATURE-----

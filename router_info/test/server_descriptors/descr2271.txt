@@ -1,0 +1,53 @@
+router HCTOR003 192.30.34.248 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDXAQ00NdDCk1ftCbiFhjndlgM+2dPBBCNCsL+WpxOEAIeRAQAgBAC8UP2n
+QP9JHK+trzTtoDAsENdJt5yvp/nIyhQY/TcsY2wuYmDOFKkGUL/07ezosEKCH3pF
+HpmmrfrjpR9ATe/3jSaemRBwe4GnwZQBYHcOn0BeZhSVzwPHWR8WYX3wkAE=
+-----END ED25519 CERT-----
+master-key-ed25519 vFD9p0D/SRyvra807aAwLBDXSbecr6f5yMoUGP03LGM
+or-address [2604:180::40f1:f45c]:9001
+platform Tor 0.2.9.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:10:28
+fingerprint CF00 0B63 C68D 4FAA 3067 7342 267B D75F 1699 A3C7
+uptime 2088628
+bandwidth 1073741824 1073741824 0
+extra-info-digest 7D0D03D9536A18D8926B1236BCD4192C7EEC8E38 nygW2XvEvVi3qL0odjsn3dEQ0eQMm+CGJNKju6sAN9M
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMwculoem1277e9VEn8j/72TYUFBSjF+5ekOTYUyKx6XidonJT6UPyZk
+h1vRIrl5I4JtyLV5D0Kp8rAfVThbR8/p5J/TG1Uoo18HeMscyzEMyq9+Ltoq22Ys
+HrMnA+CrPoa649J/lDwJh4nXaV545VUcd5/ZHYQmvCL7OOc+C9rnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPPPj2Rt36C1tiSnZtpKKgxwBxgw9QwwVdtKESDVXXnEwamwQYkSwcPB
+xG0RmXRVoXvKva7+e3N4DkeE+DVrZ4GwkKRKbRhtfmp+TH4+TskI+7WAKuKJdCLP
+fD5P+9RUF7OcShVYzjzuXnha6nNQbHAny8wL2EJxEcc1Yq0H1smfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+RXw1QjIln37j5Kq10Nm62wXJpElZREbpy8n28fAicrRVgATzZ1g+6UxR+hwZAvgF
+a3TeUM9I91ttlc102MKC5lHfbrGOx74ayb7bFw3AQ1kh5pf8oZp+oiX5WJa2fhB1
+vGnXndqwAuiW4B1budk5Y07krnKwJZlYf2KkP/8geSo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAbxQ/adA/0kcr62vNO2gMCwQ10m3nK+n+cjKFBj9NyxjAJ3EXRxOGkBw
+QOAlWnfaB0cqZUw7fIFVsukDbfMW8vCjIW6hCz39QBxFUx+1cJLU9q8oZ1NpCCCQ
+01b8jFZD6gk=
+-----END ED25519 CERT-----
+family $CF000B63C68D4FAA30677342267BD75F1699A3C7 $CF879F5ACD419C915170BB1978CFFA1DF6E7ACFF
+hibernating 1
+hidden-service-dir
+contact PGP 0x9958256C Daniel Hagan <daniel.hagan@hagan-consulting.com>
+ntor-onion-key GumaVjY/OqVQvPfT6F+rolh4/pVDYekLC9OIXK/bPT8=
+reject *:*
+router-sig-ed25519 3uAhlCd6J+B3F998L0PbZGZnTtwBC+RXyLd2gvNZrC2ic9ySwksLYMPf6ZWFhr+kIpvUk2SZfu51N5BZJU7ZBg
+router-signature
+-----BEGIN SIGNATURE-----
+1s663WdHc8ZRO9GcIbQAEyLKU5L3fOp7nFzHNgGd5L2XPI7+tdSoiQt/xxSjxypH
+0yM9bUeZb5xd5K3/uZRwoe+dC30rXJQO21N4YHIb+9cAZlpqjEe2ZjvdQPyAVdVb
+ucBznZ9/rn54SoH+mT0z80MJl/EwHrAnNwAKjoKEJwo=
+-----END SIGNATURE-----

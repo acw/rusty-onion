@@ -1,0 +1,48 @@
+router Unnamed 5.39.89.76 9001 0 0
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:32:34
+fingerprint B003 DD1B 3832 1E4B E2F0 CD7F 0041 C627 0389 8E2C
+uptime 2431954
+bandwidth 1073741824 1073741824 0
+extra-info-digest F4A34A10CF648E9C7EC879A9A62F08A2E9D8558C
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMLusySxAEs413rf8fcSsorHBGdgkoY/FNbvVr8uRj1Br+Eo5r6vNh17
+NvmaKJfdbaP38Tx9i6lXWLSVnjdyVxRIrDZ7n0yQLbEDrI2bvz7J1Q8ao5Q9/5F8
+LwUa1E77Ngu705PX8olr5PVXCjn3bqlCShsguIIX2quXA6RyBlxlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANeMylcfpU3ztieKOf9AJRbIFZR5NhY6BdwraB2JziLop8KdmUzDT/sq
+PJWIHYXEILmeYKvgD27vY9k/Y7fwa6H7sgYCbGkIOPeoYDaakoRXCmJoFXf00BeM
+uS7EBXwjiy6AfQpnJyvvTxGdU247dJbTSVwW2umekSD2cugL3mkZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hibernating 1
+hidden-service-dir
+contact Tor <tor@r2dev.fr>
+ntor-onion-key 608RzLo2CQ8m1z0mFC4iU2B8ghad+tUCr6Gegi/taXE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 5.39.89.76:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+qfzRZlN5JUnftNRB4D67jrYUf1iEESWRq4XttGkkDzfooQLAZjui+hdO3muMcaCQ
+C8vdXoIdMBRGMbKi1L7VL8NwbRo0NaNziNbzGF99E9NkMYWf6mmDlKvmK7urnjJ9
+7rhrcuhinFaOQ6n+JQBwwqjycwe+nm2LBc6ogWt3uaE=
+-----END SIGNATURE-----

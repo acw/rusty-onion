@@ -1,0 +1,70 @@
+router unpatented 216.244.85.211 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmG4AVa7ZJbLhXrcD7WFygb+wHPwvaCCOjITjL01EqOoEY4LAQAgBADpVL5I
+hhzBFpgp/RYlOLxRXQZC5ttzq3FGjoD/IGQeFXAMWGl8+FEfe+aC8IbozGURXNCs
+XRg6/V5NJuLjZTKE3d40n7zRhbnB/CfrwKr+ngbioMI7MQOxzqAyz/63oQM=
+-----END ED25519 CERT-----
+master-key-ed25519 6VS+SIYcwRaYKf0WJTi8UV0GQubbc6txRo6A/yBkHhU
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:34:38
+fingerprint 4BC2 C524 ADCE E939 E6EB 0863 813D CC98 D4C8 7D44
+uptime 2682751
+bandwidth 819200 1024000 972742
+extra-info-digest 6007DC23F81C40308358ABCBAABE77F5AA86D814 fwza7FbyC1MSQmDTS4JZrV8GIY8JSDDNr4Vi8k7mni8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMNBBiRjSeH+PfDdtKes4BsySA+Qx8Qf8Wj2IvEEZBBcCmzwJSr1stqM
+gZKd45HaHa+TClUUgvI/3WG0dXA1LvqCSwUPzVd7+vqAKQt65b/eN6AFVPJ0CFq1
+OLOojZI6uaLVJa0AlZrBOtuYpgmHH1U9kKUVybuZuMOGhu+G55fFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALDxBlnVbMMCxtUd9449oQFFdtHbx/6De4vDl6EADXF2ry7dvYZDKmeh
+/okhPqVtOwy8UxVS1Glyq7ajX/oYIsgFgq41svqzUVXnEKvBpcyZwdcI1Rtb3e0D
+Pq1K28tTLxZw1kmeyJyIAMYkTqwUhfMiHBFX1uWa/wMNpWWbHMN7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Nwhk1EBJpdwq1tyHOTbf3FsVBZQ++tZv4teZXsfR4JbYey+4+Jd4k8WSY3w7f2zj
+GwyMCDSdx9iGXMylL8z8fczmylnROC34yeyS+f2Kukg/yHLjRoMvOycg4SaXGGOc
+OMXzrjtcGSNwQoURQJDD0l8UqzIDMdaI06PhZiFhYhU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAelUvkiGHMEWmCn9FiU4vFFdBkLm23OrcUaOgP8gZB4VAIiuiMJ/rZhT
+0Gu0l5KOSJl2q4N4N8wWp/RD+SBCbW+pRy3DAI6xmA+lsvQefm17FkdOLAzVJX2S
+D10XlUl6ywM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Random Admin <tor (AT) unpatented dot com>
+ntor-onion-key qUz+53+iApR1GIBTeSYKIgfIH3u2/WOZpSyr5x54ziE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 216.244.85.211:*
+reject 216.244.85.221:*
+reject 216.244.85.210:*
+reject 216.244.85.212:*
+reject 216.244.85.213:*
+reject 216.244.85.214:*
+reject 216.244.85.215:*
+reject 216.244.85.216:*
+reject 216.244.85.217:*
+reject 216.244.85.218:*
+reject 216.244.85.219:*
+reject 216.244.85.220:*
+accept *:993
+accept *:995
+reject *:*
+router-sig-ed25519 6+sMdYlx8wCGPMN4GbksDGJIsFiMWnA2ejwtjvEJgyrTNeq69QZudO+Axk8JDJvm6ODjtIKTTJy44mPG9ObPDQ
+router-signature
+-----BEGIN SIGNATURE-----
+PBy/dcNujbPfIt96ehWUy/nTYylSw3yrAR1bNglacemscQXPZYnMTZasfx9kC/2v
+zZAFNst8gWxDrzJh+i4HV9PLSLmlUu3rEVLLAZC9lTiUGmYBgVSURDh0DASFPS9y
+yuzPJgcH7oylOJRy8naPfZZ+xjhn4nIPXHFyKyiXeWg=
+-----END SIGNATURE-----

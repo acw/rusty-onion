@@ -1,0 +1,50 @@
+router ratni 37.187.103.213 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBRAQghpd9ihYkJNO+4OqJ50y50xewmeUl7aYMpqC+P/i2WAQAgBADt73NE
+wrJg5k3rZ+j0g2dUrpFfWwgQ2T/fc7UMPMsN7AhbFA+Hvh7EzMnAGfaNLzHKmy3e
+/uwluomWmR+vY87a0o5wgY5gyWzxaZY2J0i+j9HyVzqIRNqpUMpPSbta6wg=
+-----END ED25519 CERT-----
+master-key-ed25519 7e9zRMKyYOZN62fo9INnVK6RX1sIENk/33O1DDzLDew
+platform Tor 0.2.7.6 on FreeBSD
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:23:05
+fingerprint CB83 4308 E0E3 1769 956A 55AA 4886 622F DFAE 1946
+uptime 2203430
+bandwidth 1073741824 1073741824 5901442
+extra-info-digest 3DA9E761693EF7A53AD61449BA22D79BFD293277 kLv8apusYxVVKb9rrnbTFoHGcFSEVb382ujDCtxeffQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL0QJ/dGZAmwVQjIudTuwzJDv8OeiXm5h3/d6z2SYdb7Re4sqhaNZK7X
+nn+BE9EpC3NsfYaoGeMJ/d0JDepHyEQ9E+0aXX/XGvsFx4NNAzb8j+noLIjT6aQT
+kS5Lt6JQziAFY27ltDSIB2fv9V788uA6n7MRoGt/gTZvfkspeVmBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALWK21ynQkLUg6E0Xtle/5NxLEET8XT7N7Ix8pGyLH79GjzwMaTlNkxP
+FvtvUsJB5n06up50kE5aoZU0hMmc+BgTKzLMgsdt793BFRVQ3u3mcn/DTzdjh9dQ
+hRyHjTDHh0q/KxNOt65xjCAviuA+2YIxxilWgamf06HMsXPQROAzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+HzWwRpz1dRkwQwTMOXo/H1ppyRC+f0lpduE1oD4k6WxOT+JQdz8MiethTVm1nRNi
+6ye0aGSqOEicrtsR5QqFeMMCnC9e6NGC0guwjVcZQ1TCpdgBdjZmWv+MK3vTXxsZ
+meil8TfhFl0Un83aRPYdO6uh64yf7262lTLM981soyk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAe3vc0TCsmDmTetn6PSDZ1SukV9bCBDZP99ztQw8yw3sAFdyMvDNuRpe
+S+2d/Qy+K2ww4c5+mmAhzEt24QuN2xXN5qTxWAwy2uCQkKFVN6XRdixf47oo4D7P
+FeMolGZ+0wA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Pierre <pierre+tor at ratni dot v4v dot be>
+ntor-onion-key ae6BmD81NeVX71XEtrWSA7N6hZQLDT601C9f/4hSpRA=
+reject *:*
+router-sig-ed25519 AyhMZHtk2QPQla7W1KLEh2wXObE9ziv3X0/utVswRhq49yNlJSYVNR/K6BIyJ+7NaM3TkrtmDoalYaGshg1HCw
+router-signature
+-----BEGIN SIGNATURE-----
+tDJi1W7oJFfA9AEYDqVUTFgSuB//vyOeosNZKspxPMt8opd0sGEgnuOUGm2r3Xg7
+8vaQcpG6iNQC3bb9NdEsqVWkWVnmYXbeqUOuMXJFTHWqFteHlmn6U+vWnisJGs9a
+C4RdNKdh9y0hE82DYd7mmxaxjpwAxslo4S3Wal8IK4g=
+-----END SIGNATURE-----

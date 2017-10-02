@@ -1,0 +1,51 @@
+router nyssa 202.129.80.154 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGmAcN4NtmBIYqlu4Y9YAWek6QaX4JOSIAsmr0R9Y6YshkJAQAgBAAxSPw/
+QUDr8rRgngFVrpBqh0Jk1t98UqQQVNuahPJPNsjnlHri3i82teSGyPeYkz0+h9Gg
+QRP+Z7C2CKQRK1fRJKhwRN/HohuUCPnr8SHIxYGWqWbihn/lJDhO98AiPgI=
+-----END ED25519 CERT-----
+master-key-ed25519 MUj8P0FA6/K0YJ4BVa6QaodCZNbffFKkEFTbmoTyTzY
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:26:48
+fingerprint E949 26D2 F4BD CE79 A0DE 2C4F B782 CFB4 23AF ACE3
+uptime 216480
+bandwidth 512000 921600 597098
+extra-info-digest 8084D289EA17EB63BD42503570AE82894A1AD27F v3CO30/y9MgrcVRo+zlER5uyUG2CC60+37KW/9u3XKE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANzYrGKOnINrELkATxTsJT1VFLhTZoA+AU2oG/jzwXv8ogunAiHYfCWT
+k6d3HQLTyo4laStrZX8N6fk9PEC5kJy8QoVjUhkVkyJvCjhrBW+cte53v8ry462O
+B9qq7xH7GiOI4JdQbtvyctg6QdRGQ7SocVagPO0Mq/J2laPIc2gFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMbusVt0DQ7mDAra1MayZRZ7RiAt3zqB6KkQ4tqctYXJDBVh52Rn7MIo
+vAmEfQQ36iKexQnvwxUoSN5P/Er+e1cyt7Bu2N/TczuH7YPY1e8aGgvuyQvlYTOD
+sQwelUD3oAlFSgPkpcgtsYEDDYe+sZ/eo6AkTu+gA58PKHPnVSqFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+a83530WdtsbDFCbc+jlyMsgJR2BCU5dN/Ep0OD/xRFeA3lsbpwr5NAh5vmmMEgzk
+vXNoe8EJoMeY2fI/Ee8djBacZmIZRPuz7jndnbL21UjqROcIZTJOMp19UMM5va1d
+z345fBfwdnbQLB5lWWwiOr+a825TPJ5y8pqQQfw4oTk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEATFI/D9BQOvytGCeAVWukGqHQmTW33xSpBBU25qE8k82ALfgS7Bp8vlq
+vXjukRFah2E5fXr6t+68k6IwqScaTRAo15vhYRi8siTjdv0/Wg3I5wup8fwnkoEw
+99E1KHrmXgY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact s8472@outlook.com
+ntor-onion-key /0VPAdamTq74lUHdS552cTfI6bzfpecDmMq080IZMAY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 +hJ3dhV7k//lVrupjUoIFOywjNNfwrYcEQ8JbYJgLEz9QVmP6b8BtJ8CgIPyBVBOmZzevRT/Lec8/fbCHtkLCA
+router-signature
+-----BEGIN SIGNATURE-----
+rD2z+YsDQ1JctnfN2yOEktidq9rljX3CVcEHJ2TLwjGaZ6sxZrno9e0qOsfMseB3
+X4ziG8c8WQ8xqfLu+DkQTgILfvDASULZahNYDsnZUKlS+0gIbEdCOGHSPi0w5j+O
+F/e5TjVLDLmsaqJ0n01cjh6C2ZEl1i03iWfdwaJWumY=
+-----END SIGNATURE-----

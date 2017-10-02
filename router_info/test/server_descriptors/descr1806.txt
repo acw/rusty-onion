@@ -1,0 +1,76 @@
+router Pandora 62.141.39.47 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEvAd5dPtoCMkjfnm4rBxAdm7lsTLngQ7R34eEHGLNgIXc2AQAgBAAvwz73
+bTTBgDsiB007mqzqDRHJwVlj2NMpJ4AuYAxxZLzbexkask1SZYIYmu5G6bks8uzb
+bd/Bu6jpanmIRobW9m6iBr0AEHqdE7Iru7SmAuV9w6ypU0MTf3paVBCeYQU=
+-----END ED25519 CERT-----
+master-key-ed25519 L8M+9200wYA7IgdNO5qs6g0RycFZY9jTKSeALmAMcWQ
+or-address [2001:4ba0:cafe:9f::1]:443
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:00:58
+fingerprint E11D 1B78 CB29 10B5 B708 0B38 B2F6 DBFF 74D1 E3D4
+uptime 194026
+bandwidth 26214400 39321600 11519047
+extra-info-digest 0BCE39304C63608FF763D44D1E8F3582C0EAAA99 UeKCQ0QCyWGtGpoHaa1YcXskss4d4Ipc7hPRY6esSrA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALbDRn8Kts1BIlD9zvlUB3WorZGGgo8p+xy7f27xVbvMPpPxkGUbcFAS
+xv8CtgBe1/xkWAWX236KJrUlGJ6dLUyo2deGOtDxyPAesiCyC8xv+irrKuumLzM/
+xzrAnwWy2SskDGddsjZGWk3AHpAe13aMRjiO01xW1bdWmHzEhrqfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK+OYyZOk51KFgu77c5ZeFO6J2r8eK6e7rvpj+LULH6Hu8a4nWpgUCBP
+BhvnmEYcd+KwZRn4VHmyPQvY+vwT5K2NnzDlytBcxGShxJEYjYsRDFZxaYTCqVCE
+dr1lnUdfdThLLYfSjAFqRl+Sdo+tg7euJvA6Jj3QiHJSPKfvbENzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+goJSWKeBmF8Jh+E+/9NlVWb47dvtqKHrxIEgjuM9tQe4ZDHQ/dzWQiCbUml74gcy
+QafZ280ry+ekcR3E7eRcpJdOUJORjBymzjfbyvfoDYXf4gIoh1VrEmM24UdRx3sb
++7IPLn4hZUaEvf0q9RljuWlsXbXBtFPnZ649Y8y3NZs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNAS/DPvdtNMGAOyIHTTuarOoNEcnBWWPY0ykngC5gDHFkADlslqaJJCFz
+tL92ukAoPXybxh5QVHY+sy3TryTDkCMoKnZYAe/OWeWCVt35z12Nt1L/gHQFIgU4
+0bQkCqfAXA8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Magnus <magnus@1337.cf>
+ntor-onion-key ZF9IEI2n/fOLtoiWs7/sU22rczWSG+38kHHte6Yaqkg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 62.141.39.47:*
+accept *:20-21
+accept *:22
+accept *:53
+accept *:80-81
+accept *:443
+accept *:989-990
+accept *:1194
+accept *:1293
+accept *:5222-5223
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8332-8333
+accept *:9418
+accept *:11371
+accept *:64738
+reject *:*
+ipv6-policy accept 20-22,53,80-81,443,989-990,1194,1293,5222-5223,6660-6669,6679,6697,8332-8333,9418,11371,64738
+tunnelled-dir-server
+router-sig-ed25519 nF941l3ouqGHrrzBXRROUzCKkpJF4zaCjvkJhSALJr88TbO+X6ZoKp5vBTUOR0ndDKFNPcmUMgAukN9l2D0AAA
+router-signature
+-----BEGIN SIGNATURE-----
+Md3gMAYx97+q6zzpOeOsunKTFZQlS+vVTAtPnBkpjxfYIxBaDsfu1Kt2hKFaO3T3
+bKNqGT5QeRNdXM8lNmWsWyDA6jzNb4g616dDuladrtQEnm6gwQVxy6wt4nv0M881
+nWd8xuptpqdPolWJYegqFwrGEUBQMkTqD3/i91V3NfA=
+-----END SIGNATURE-----

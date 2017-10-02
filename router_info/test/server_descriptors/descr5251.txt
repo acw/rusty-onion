@@ -1,0 +1,49 @@
+router HomeSpfy 78.108.66.110 9001 0 9030
+or-address [2001:470:1f09:11bc::2]:9001
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:17:55
+fingerprint 5E99 CA5F 45A8 757F ACA7 6282 78A0 8F8D 6C18 91E2
+uptime 1131199
+bandwidth 1126400 1536000 1265326
+extra-info-digest 08C9587A8108F781AC8255E8DB0428CA489276FE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALjyNM0baXJJydjc50BbDf9NQU5gW56Mu8iDFtZOmHqiZIbwZzZVHlCd
+JKao3Y9XXjawyKjB1IHoT89zhpGBzcceYXEgEJ2+Drad5q9tFE6jzmPpKWhcopit
+K+ZgVEEijzolANB6eiS2LpmDhtY6IlLDrAwsu7iGtliuHFZkGJS/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANGopSZCmuIHdB3jAokW1b47NOl+smDIyC0D5IdzqdfeolWwKo5pdFmG
+CpJniskV17ZNTm2/EbOP0PMcBnNpFGReM1hY5I60YzwHiP1mEu9sso8F4FFn716g
+PK3cMegsTJyfjyaz7EKRefKCLnnmNLGJE3wEDyUAjCmfV67/9RRVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Yuriy Kanakov <feo AT kurgan-telecom dot ru>
+ntor-onion-key LJQNA2iHLRWrXPaEKVQI4C2GEbZ7dRbpAbojES/CqS0=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 78.108.66.110:*
+accept *:1080
+accept *:1194
+accept *:1723
+accept *:3128
+accept *:5190
+accept *:5222
+accept *:5223
+accept *:6667
+accept *:6669
+accept *:8080
+accept *:8888
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+j5OCcp5da+vRy8nt7YkZH1Cq8STx97vLgO5ywkDj57cHPXa8KtafPFGdkzuZK/7f
+iBcGTlq1hP/mLWeCBscB24sJCSZ42opKEwbfpsN3VstdvRQN3y3g0loVL5FLuo+9
+kKtotqatAXNEm3I7UlDkg55CEbdb/kV7g53lesI1eUc=
+-----END SIGNATURE-----

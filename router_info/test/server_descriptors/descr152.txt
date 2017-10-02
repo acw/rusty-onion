@@ -1,0 +1,51 @@
+router Politor1 158.69.217.34 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJnAetd901Z+4dpMY3AqXM4x21YcKEGxCD1ApPv6WS2g9XFAQAgBAC2aYH5
+jfKwXsg6nfgyAe7akDvR8f/vs9c1ikkkmwBbiQnk0jV/Vccj69RxpEnAPxCnN/71
+mnRJxm1rWvzIHEJ5M9FvZl6yJq6kPDfe68DwvRTIcOvN9htwbKnIa0rFowc=
+-----END ED25519 CERT-----
+master-key-ed25519 tmmB+Y3ysF7IOp34MgHu2pA70fH/77PXNYpJJJsAW4k
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:49:25
+fingerprint EE3E B8E8 6276 543B CFFB 63BD 949A EF98 DBCE BAF0
+uptime 273722
+bandwidth 81920 102400 88668
+extra-info-digest 01C0708FDE1CCFDF7FED04F234C866A36A4B24C8 PVUQlD4zJlOU1CMjmZU9+r6TMmHcoaDcU0TjscIn9y4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKyxFGIckAL2qXosT/CIiR1UaPx+9X2IYjmTUECdRK0zHTvalLcQykdZ
+pVB+ZQ5i3dE5c46+Wwo98qCEzMuBBilZTvTQa4tqsvJVbAirNHnphn6uJsiwHXLM
+SPvFKcGl/apwuLFRPpvQMRSNJdofFSpNtYN2CJadKjh7ZlPGZzilAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALfOr2ri6SSJ1q7CTSWWIB/fhZSDKgmnxnk7lZfnzkY7eUtw9g4Fo7M9
+SKoB7KWQ6JKOhwHoyimyspTR69F2YYmjX1iNT3Ycvi3IfOF1gkzrCGPe7IebAgKt
+GnLTKRO6/FFPnRwogzfFEEE7ipH5cxIoTgJUAwI24aKrSdBru38pAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+nVwnSsU4xBhpvw9ekOmxiOiUZ5pZU96NBUNdSx3tWcTxD0/XZ9Sk3794SmYZBOEb
+tZ3kd+u6Q/7Y+IGFtqoSSyZhZuuAbKwVA8M8a/oicKKdS95SGqGL64Kwons5mJf3
+zMANHErZ69SOEdoe0mUhNwmVzekdvisWiFpNj6Ya1SQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAbZpgfmN8rBeyDqd+DIB7tqQO9Hx/++z1zWKSSSbAFuJAHMUFXX6SW09
+mvtHvecBqjUKqD9ZzV8XzshcGQN6pL02kKqYRcMRhRaBCz23GmKnwAGKluP1Sjxt
+WHBCmrs2uww=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x3557BB31 vps61612
+ntor-onion-key 9ZPADLE8hTWa0JeoN8Q8348F/boGFSeVa8qNeUUQ7VU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 niZ1XeC8SudcFmmMRBZ9tfj5pEhp8MVH7hHenfNDM33WbDZpCxq/9IIaJjQN6LoD03fytlWHYVPWopwxS2wFAQ
+router-signature
+-----BEGIN SIGNATURE-----
+XRMHfJcgqjNf668ani+nGTXByJzNhQBOq5wNFVk6kAnYIhahcJteznHlRgVTCSgC
+El0sWQ1PQH4VAqcxEVnhByBSf5yVKZ2sKCRVhvpu1q6FMQVaqLcld3VT3YQohXM1
+l/PJH6qwP70QwZ3rTN5AD88g9W7pboAUryA62oQ/nGc=
+-----END SIGNATURE-----

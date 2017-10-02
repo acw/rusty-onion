@@ -1,0 +1,51 @@
+router Cloveri 84.80.80.69 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ9Aa5pMyMGp6VPeJZSK/0H+9pYkRLwbAsZ3AxwrLAbU5+PAQAgBACi6s8L
+MruGUOZ0ValkJlrH4oKc8SDpbAEWDX1rLryAoPw1ApPIrSvUPu/TzbWH26o+QYvJ
+P2ljAyFnJ2EokcrjY+E98dPNeZEVpg3N63KTMto8TKjB5C+B/UIeDfa83Qo=
+-----END ED25519 CERT-----
+master-key-ed25519 ourPCzK7hlDmdFWpZCZax+KCnPEg6WwBFg19ay68gKA
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:18:21
+fingerprint 8889 3329 4902 B310 106C F68C 012E CDD1 1011 4452
+uptime 1126623
+bandwidth 32768000 39321600 33319818
+extra-info-digest 79B399643A813EFEC78D8EBB398A335FC2D1C0AF L0T72dkegUNsLzwNn86FGt3rgn76EAP1pVkkFyxuPf4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMx4xJjDZtrW30FyhYWyidrlSqeAPgiX1epJOgLMCX/EYtWXpQE4uSAS
+VkUXpJSqMcAYP6fSEcgaH9sa55L4hRSE9uRl3nl/NGVWVFH87KR+/eOnfaNw+urN
+vel7ADHie6DFdgtfwxN//3PatbdBTJfLERUIP0sPEK97Pt5h+YpVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKlEE3OGmXm/eEijrabYoWnaOJIltOkF+ruOiwZtvAgUWsQ/6kafAxJx
+55nRapXlRYngW2y+tzvZHgaFiNAzDt7RkOhm1Bpa94bls8fp8tNdL30WHuwkwfCf
+1OBZjl+vsQZUZisyX1okssYof2FIOHqjbLB+0/qHStyKjsxMXsS9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ZIN8LDcknnIjS99AbCzeyGYjCMQVk7uz/hDBmxeai4mt4UuwtClTjxUt/IkPFjXo
+/5TazyBFU+PgQ6U79Uuf0fj4vGUCmfWg5ekQ12uDydNoNV8Qztk2t9sfBPlgPN23
+odeeEtlh9cR8Vq/a23X2wlCRX+cMpz+AnA2ULYLRGmQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAaLqzwsyu4ZQ5nRVqWQmWsfigpzxIOlsARYNfWsuvICgAFAXIjkYnGwO
+RgEnru00HuOAjDoAjSSOCVVlossEdkqH8jdsDJ8qxf5XVFyz91JghWlR9QZJigM2
+DVHSWAFHzww=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact >>
+ntor-onion-key kOFrG6RC5bHO/cvpTxwwlco9FDwSTZIcng2iOyMf7x8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 rKlyQPMXdb1EbCnwgaj+uWuhp0XFI6afw3mjmPDbJmTnxZCCPcIJl0XiudhlRrzqLJzfJyCAxCHVF7SUh7YWDA
+router-signature
+-----BEGIN SIGNATURE-----
+G0Re3gac5Wr0SCHJTg/8BmRqrdbaZ4T9W7NGKCvFBBOaqaaNBVUXqBR8EAIqX70h
+rbgCSnjY4+31pY3AQZKp/n3NBnAstzbfE0QpvRSwgJKZzwqlFihFJ9TmuuiogftE
+ZjQXuEPjsg9i3dPq/v4afHVu8f0ybrZYHkn42g2F6sM=
+-----END SIGNATURE-----

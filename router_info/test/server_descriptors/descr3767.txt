@@ -1,0 +1,50 @@
+router myOnionBox 217.238.237.122 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBRAYwzEEFkdzjjG75BLx0g0mLOV6eYqq3Cw7qPrPvlEsPaAQAgBAB4UhBL
+5KNhZ2GOejcRSD+GgweEoym027YsppNh7Whs8Posrrz4Axi3tu6miEqh9q22dC2R
+/6S78l4fhOVo0pbv/8gUy8Kv4Khn7u9PO4hOIEDQpVMjc5zq0IJz2q5HeAw=
+-----END ED25519 CERT-----
+master-key-ed25519 eFIQS+SjYWdhjno3EUg/hoMHhKMptNu2LKaTYe1obPA
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:03:55
+fingerprint 97FC 0282 0912 441B C2DF E3AC F433 E455 714B 0AF5
+uptime 4
+bandwidth 256000 524288 326674
+extra-info-digest 95AE452F2A8A0BD5BD4F6D59D9B1DF8BFC16AC89 W522ylVuogclRsIEl2JxTD7XOkiB+mhvQXY8/L975TE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANWy0QFwWtEkA5sdII7eiHmJBQouQ5AUnVqHATouRecnKQ2bNRamDQLi
+/9Cf1fbhISBreSIMXdYow+hgNPj68sjZxgdIP4GZDjqFJbGg100DwJGIg2avBovn
+sI3IUYJCD2NT1bmYFuKWmBY7cAOE3AHwHmkz4BtUsVHVHsl4cxsfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK2cDXI3Yo+vsljsJmZpL7zphgRv9qlZGWsH054ieyCBd3grgBpH3LaE
+JpulqYUd1aospdB09MqsUerBWMGUXNsDaX3hG+dSFjg5ArS2pB5oJ5BTQmQGrkrX
+XevUA6h4e/b+myJJXBXJS0CPHVjbQzjJDG5z/kumhle0ykgbxlHfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+WJNCRzXUF/GaGhYqdCFrCudwIGllJOfHInUeymSsml/j3hy3Lsk2GkYeZ8L1Rjyx
+Im79HV3z1/retOl071J7JiGMCYFg7ny5/OiAfx5POsg10hPkrPsg/TRlxZb9kw3T
+vbXRWS0vV44PsbdhbrItZNrnZR16bw/iuqoHX5roCpA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUAXhSEEvko2FnYY56NxFIP4aDB4SjKbTbtiymk2HtaGzwAHzXil4GUgy6
+y7qbfO17VBDC8SK5Gco805VCtdWEVOEQIaILhFt/PYXtU/ML+sVNpz7PZIX8BbIA
+VNHWtG3JfAM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact myonionbox at gmx dot de
+ntor-onion-key InLrJ6UrB3eii5CAXEav8x09EvIjTSYSX/grwHCFDzU=
+reject *:*
+router-sig-ed25519 qxpVi9/UAnoU5b8WYtgzGLGbO0yAN6rwXFT+XB8EH1kJSXavRtQNQsa1KdU/eY8u6HT44WbLiLgZSM1K/IZaBQ
+router-signature
+-----BEGIN SIGNATURE-----
+AFl8+iScseyBW+tlykTl6L9ADw/pbu2c/e8tyidslxmGxR2Ixd5KJ4DJMytLoh/B
+J2c4TqwMamTXNpxc1jYTJKUmnoKncA8HH5w5mDBQPaBKGSWItwP/irC0lGAiTWxP
+XPl/X+MyCjFhp1ZkIaHl5Tg5s0vFffVF4q3X2MthReg=
+-----END SIGNATURE-----

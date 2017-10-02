@@ -1,0 +1,51 @@
+router IPonU0 51.255.168.229 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBaAeXa3pAL4yV1FOwK0t/yMSv/nRXUVkvB9ZosHmEtsTS9AQAgBACJW/L7
+LVDblkRlLM6wupl9EY/pfvdgDF9uSuDOMy1/tFJv1+yajHZ7A6EQC12yzapMlEjG
+5EhivQsSeWj6UohNN/4RceZ7CnPusZ6pgSfeQsdCV//okMEF6das0vP5LQ8=
+-----END ED25519 CERT-----
+master-key-ed25519 iVvy+y1Q25ZEZSzOsLqZfRGP6X73YAxfbkrgzjMtf7Q
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:24:00
+fingerprint 3342 0642 2CBA 6FC1 35D5 EFDF 0DB3 9473 6F6A F9CD
+uptime 1715658
+bandwidth 1073741824 1073741824 10344966
+extra-info-digest BCDF3F5C8FAF98EF0C64B3504D2E57D2A8D22F84 Q2X+VQN+jJrzcUm8rdl1IdVo8am0tnI7HVIOL1wjIq4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOb7K6Hdiwd+RuqJj0VcZ2xlpFnFipnqsnSnXaJbMFtRNay0rZK+/3If
+ewTaGUFZn/II5pqFRdhXNI4Rh4jRRZvgSHhrt54xLFv4VSScftulZAbZIkpmmQ/A
+MLq/4ej+ioFHQhYPl6Sy+Elhj3/87uqQ467y4mJUxBIAwmByHjSjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANVAk0/EgJOscKwX2/fZC6C20WC0cMQi6fo2o2Wiwff5L8FzZqIKlogp
+TBCzxWTkfwwVrjaLk7UPYyTL9Iwfi7gYLyVTGv6youFRznOzCA09r2O2akmLd76e
+BJmkrau+k04dzoHIjwdlSaCPu8SbK3rbnDTgnRVFsEc9jEel4aaDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+fGojVA5PycBPxzRPONQAZBRY8oBMPB34j8pKbnrI/pYvsQ+2vAhdzAwIGWpw3667
+5wxrbctodrxu1ZHV7owN4KEi0wlkt8xyKhaeFIcJ7+6mdBpNVjvfxLIYxkMJ4nTu
+MCVQ6Dc/cVgBAQiLHkxCWZNodKU3DhRPppFSfXWcpH4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAYlb8vstUNuWRGUszrC6mX0Rj+l+92AMX25K4M4zLX+0ACjyoQwTTF89
+oZV9nuicoR2D74vUklrISN2yV72AWUmh69/+X6k/FCZLvXqq2kQ6Dw3zAbL0WCox
+ZmbZJ0NBfwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact contact at iponu dot net
+ntor-onion-key sdsBiBW9USzAFXk2uxFChTL1uzf/qNlW/ZcgGS+YWTg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 eWFld8jGjjv/tnGlQ/7kkM1GM/A+R6uSQeOvvcg7UbWbqGc8Y5cQeUFfdvL+Xg1y33v8DR9m4Qd/FuOR5I5LDA
+router-signature
+-----BEGIN SIGNATURE-----
+1BNojVu/LI4N0tZqg7H9LhcVT9N7wUjxmdsptCbnbdNfdPHGYJc48TnMxjUpS1i2
+cFWSw3bAIv1Hw9RcMNJl1ZMnzUCNUYXGAZwLQzq6x9QMmMZrztGUII3MumW2EigA
+sF0gdfoehGWW5iV5gvvr+1spmGpMEZolBl2oUwpnDTk=
+-----END SIGNATURE-----

@@ -1,0 +1,53 @@
+router Bazinga 93.180.157.154 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmUbAZm2XteiBrCvnXH+7osEv0eqRvWfLbcwUHexGBEWgGhtAQAgBAB41dy8
+uq7WBO1BdLiDSW5KdYZP4zbYmJq7nwM9nROtH5TKkhrg/C4sHe01r1osSvy7qIOO
+jf6ZUDd7aV7jdPAyw2gl0OKMdKT1AUvC9GoWP3DfFRKiCQD5EkXsLgwLEQE=
+-----END ED25519 CERT-----
+master-key-ed25519 eNXcvLqu1gTtQXS4g0luSnWGT+M22Jiau58DPZ0TrR8
+or-address [2a00:1158:3::2ae]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:51:14
+fingerprint B198 C0B4 B8C5 51F1 74FB B841 A172 616E 3DB3 124D
+uptime 476047
+bandwidth 12800000 12800000 12528012
+extra-info-digest 08430A2ECEAF2A3C153FAC1953B0232690EC8EC1 lhVRBrNa/41og7V/dz3ltb2ADhGtoCuYkQR+eODBpq4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMsJ+2b7rGSlLy8tUW4qHprCtKMnRSZhmCY359MyMTo4bpDFBBKdNVsM
+kegmenTchvZlwZenGIpyO+5/RXyQNVcr9g3fmPTn5XJphBtaVBJIWLoTBikGut2V
+q52423jzuha/CZvbEGpq6uH0y2XU7viV8r9Pt4h0jtHCnJDmYbpNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANGymPXQ06h5oDlITekm/XXKYT/yDepp9wMQ9gt01S1MXCfjFI0BLMcx
+M7ATvO4K5vODPRAeis1KnogOwrtXKD5cU7s2hCq4k0xwg8pK4rg71xCe9/DFrHWN
+vN7DpGwgyA05KmoTJI5IaCrT+g5ufBO4qQuL+dR4jmMV7EfoUSS1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EsLfvqwjLTxCxHiFG2aGC7ARTc+Csv3VboWjV8O4FucbYwERC2zLTwi89z+HpZuY
+HGz7tVQ1LYZqxFGBPVBIVq+0cRAUUruJv5mIRqhDDWZJzwoSQBJFMcikF+rzfkYJ
+YG0RMW7p0JJgF/+1X4lQQjYEKUG3/RHDme/OfAT3lo8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAXjV3Ly6rtYE7UF0uINJbkp1hk/jNtiYmrufAz2dE60fAAnLRhsOhPpL
+5avOIRaHktGcEOPDcilRO6nW0kT511H9ZDC3VgLIgnyYBcRsClzexYi4g8w43GX3
+FQNEIMuOjQo=
+-----END ED25519 CERT-----
+family $F6EC46933CE8D4FAD5CCDAA8B1C5A377685FC521
+hidden-service-dir
+contact 0xF1ADC390 Random Tor Node Operator <tor at unterderbruecke (dot) de> bitcoin:1JEYgciwuxUD6MGHbQzJ9MrGEKNTMqDfUw
+ntor-onion-key mK9cxeFqqRPRQHlpPylYjOJVJ/4y4A8ifae54OTn5io=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 h0ybY/mq3T/eeQbWKGNP2S1wN3E1BWPAWFJwwWhq7w3WDEqIIiuCUhiZyaUVZTBIISd+w6dsdg5F6K/VI5DWDA
+router-signature
+-----BEGIN SIGNATURE-----
+VrOO2EPEJIX6WTQ3cWmOdfTRWXWFH+iQqyHR0nQeyzXGkbS+QuXk3YSYmqq3AQl6
+oOkGFiT5r7fERRjVGn3hBpFj+xYtFhFtW51pQAf4KTi86UZQmDn/eYX586/cUuIy
+CCsAo6x2KZADRvuy27yGFl1Ku38TgU22AlN+FAOFRjU=
+-----END SIGNATURE-----

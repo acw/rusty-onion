@@ -1,0 +1,51 @@
+router minitor 83.146.231.159 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKAAZl3qVJBCPtgYq44qJ4pEb2FtGvOeZlqd3nQ3oHfA4MXAQAgBAC3aHcm
+LrlhIW9zDeVsMhxYQxq644OW94CpF21EPWyOE2U/cG5wNnte0QSyLGhKFfj1gB42
+kFHL/5I5TxZZquJqXV08uogeX5pklWHOMtfzHv0Ovd22LtQfs0Ah3YNbOQo=
+-----END ED25519 CERT-----
+master-key-ed25519 t2h3Ji65YSFvcw3lbDIcWEMauuODlveAqRdtRD1sjhM
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:32:45
+fingerprint C0B7 413D 6904 11DF 5D2B 0D83 8F56 7923 1269 7122
+uptime 259379
+bandwidth 1024000 2048000 1222115
+extra-info-digest 822566EEF79462CEE6AE445DA10E71397E292806 MQKDVOv4Moo3JUjfqBXleEHtY2kCrNFPpXYmRdYZIbY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJZ8baCZfx854ikVjKi3l5fVAaZg6ot59oKUASJ9O90erXBUKpUQfGC3
+uGDmLMBWTBEW8CxPU/OPRM/ywM/+KdpNkYFR+LC848YRKrmC+yYlXTv61mRTXszE
+XPD1iN6gbV+F0z54V3rxSrmmEYwonG5mbH69jwG82+n+GH/I7fVLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOwOGcDkKqmFJzIw1Vgl5DJcEnlSFDybyWVP/Brq802DP1oj61Ces57j
+JU1Q/YTlNKBb96YrswqTJRdkECnDQSlv8Fk5SaZRjMOEjn/ZOcq59Hcqu4/xs1Wr
+uqqBOkgwEkuBC96nsHB9EuuJvp/ZgHQESzHOKgnxYom5kTNgce4LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+a4Is3qYVRX3bQzuY3q7njE8iaFosse/etLLRsfnPZe+k+kstXqe8JDOs1eShcUA9
+ss+5d34B46vNYyI1Yr9B394pbb7WyblUYg5+kyuS6Ov88XL3nmxvjL8+QO1d3//8
+ov3C89JfNkmQVudntKn8x2URZJw4R4EPoFF4sBjmUNo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAbdodyYuuWEhb3MN5WwyHFhDGrrjg5b3gKkXbUQ9bI4TAGh7kRuA/jfQ
+BPeDte2sLkigLFjEO3D7MM9BYDyFHWGcPHFvnxWF+oepeM2xRiAQ5sK6C8YEBZFc
+UoTSGPFsyAY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x638DE005412E2BFD mini minimum <minimumtor@gmail.com>
+ntor-onion-key mh2de+KqYe0YUZuMZqOHm7c8MQfpuKrmScC/DXBaqWo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 jtm0bjtyjqzDJ7VQysNeuPJaIbEN3cdZMUVcgX+v1CmWFojpW/fPYIShMgWMU52TC1NtJB0B7JQjMOGxCMlJCw
+router-signature
+-----BEGIN SIGNATURE-----
+l4SKjTMgcPIYqMowO35/LIchenw9epHUXwINk3Kgoq0USaGa6oTKJE9rJPx6dJS0
+l2wAYB9bZ4/eozwpaOprFFdn2pS0Wk6nCqrhfoBk4NJ0X1cLTKZ1C5hJhq2PI5Qx
+C20yGhO7aDgAZy/U38KkNZi/XuQ5dUqnr10n2k3H7lI=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router toratodysseus 188.40.140.87 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFqASm4v+7dk1AROBEBiXdfNMgdGu7RuGapWrAW8DzTNQeOAQAgBABPVfmF
+RjnTIOrmZHMMUqyzvDf6ZmRYXAwI3jYiYdu/IQNUu4CdniBG/XpwfLfMt70i5URC
++gyXB3foyvj728oNiQoSZ3pqXmrRCozwCHjMZDKdYQi1XeNZ/megVc5q4gg=
+-----END ED25519 CERT-----
+master-key-ed25519 T1X5hUY50yDq5mRzDFKss7w3+mZkWFwMCN42ImHbvyE
+platform Tor 0.2.9.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:44:36
+fingerprint EBEB 6188 D979 74D4 AB62 24C0 A71C 0EC5 A32B C4E2
+uptime 16600657
+bandwidth 1048576 3145728 1408886
+extra-info-digest 195D096FE545BE9EAC4492338BA4E72C4965F447 GB8bDfrduxAraQNln5jFgIfEzS2PCWn2xLh9iR8NrEM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMNvK1f/+nomY0UgqgxtzGwdbABxNd6n80iHuUSsQ8jhzBMrU2fo6jTF
+cW0Z1bMkGuNabgTbpZL53lj8a10C26q2DmsIRO7wfR0sDP15h2xMfjAVV/pQQCE7
+3YjnMJlGfkjSO5qHuBNjUuSTtNty5lx7GkzSep/Enn8L8CJzxIa1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOMus6LzIgXU2UZH5qFwLL2N6kmdOjdqofzDlSqsehlVX8ElBVkSsalz
+Nc/KYoNyrMbuPEPgqQDT5cqxeIy9vRgrjBepYYMIYCTx3T79IS0M0CY+mKYFEEkP
+L2VZLE/nSCqhVHNdnA7ynYNWZ9oWVNuKAfRHnggojnsFPL+gx723AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ktKVMeMLj39cqgOE5JxFsivCiP5LxAaWX87jc5FZcTdgR8FyZlx8/lXMbj1l/y/Z
+t4ts6DJ8Hjbm72tX27Mk9g2kn2TcRvm84rNlqKwkOf1dOSehrp0KfpNX4tinE1et
+wt34qfPhdMA/HzxtG0EgqE65fqucvnFXp9Zryg9L2cY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFAU9V+YVGOdMg6uZkcwxSrLO8N/pmZFhcDAjeNiJh278hAPbdQg66Gpe4
+MeuKd76TW7+ZzJmo/3Kct6xq0tXpUQJ/zRWvGbzR7/u6NjjblLTjajdDmT29Q38Q
++LmNni13ZAY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Odysseus <contact at nubelibre dot com>
+ntor-onion-key 9dqHCGBJYuQBZUehwrSswlL1GFEQKgfHJ7xzg+cnLBA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 w0croWwWx1xE8zxSNHtY8WCDz4f1QPX3E9C2y4OXQIznjUxbZXIUarrhsLHG+2LivDX32l+P7hIqP5/Nrwo5Dg
+router-signature
+-----BEGIN SIGNATURE-----
+NwX01iELRFeiKUNkA1PtxXEAYx17UQUET+sZrhzh30i6du7yyZO79lETKo/HsoBW
+Epx7x84MHnAhyBxykWh9LCWw0Hno+q1gNLNP+qOOc38oH8swN/qOiusCQRi4WJ0t
+mrHmB+wbyI1uSOd8HmTin0U8/rayxMAbuKf01QZmbsg=
+-----END SIGNATURE-----

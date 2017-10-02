@@ -1,0 +1,127 @@
+router CalyxInstitute01 162.247.72.7 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGdAXNm/K6qOVJpzOhcyTQVfPtc59vDjF/0/pMKg0Xv3UA4AQAgBAB1VSEC
+OqVVUvBTO0d9TVaffrFg9qytcDxtX2fND35S/Dd/p0x4pQzX8ld+7nWDBpCkT2Un
+NBKy4vrnMvB83P8M9iKrp0Mkvj+NPCUqHunq4DeXQL8fHBmwJYFbUAS+jw0=
+-----END ED25519 CERT-----
+master-key-ed25519 dVUhAjqlVVLwUztHfU1Wn36xYPasrXA8bV9nzQ9+Uvw
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:08:37
+fingerprint E4D1 F25D FBE4 8420 8866 BA4A 1A95 8B73 127C B0AD
+uptime 1037288
+bandwidth 12288000 17920000 11591653
+extra-info-digest DDF09A36A434CC3543798C38C83E87D5BE0CE04E FJwE0mTYs3zobFCSjWYd/gIuaFWNlXDJOlLIRIu1Ly0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN8mCgHfPU2pcbFJUGhti4hO1VDeRlPDNOkM82/uKTUxB7X9Mn+U4M0C
+2MzkE0HXaIshuf+ZwmQ+hvDdhaF+YS1cueiTkjoe7XJncNPCFQSstr4mSifqQk6f
+QVu5gZX2wAiIulR+lhZZTZnciYjZOQ/pryCZtUS7XMftHjrQFnLlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALbVlL1hUFwMZTfqgudJ3lJCl4Rf9cRYETRvHC1QThtVgcTbbcXqLoAk
+G7m4t7dYdY6q/7Y7ptUicIPzjjlLt+00ya9QCkiTFZ61mDLywbch0X5aKhg9pYCY
+vFTJnLo682WjzzG0Q8RiicNMLQw1ele5fnigyigUeX8A1LU6XLKRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+heVKRP6WBJ0ZXIxrQjow5jdCv7gibR2lPdBlBzJ2j+RDTJLRUTldsD5WtLBE/YD+
+6NVmdo527aBTkdxgm7aulcvMzdGGEkWVlBG/sZukgTJe3feasC7EJ3yCnuzYvp4m
+sPczBma6vhbhmt3QFZq9+rkcaSKM3CjyGYVR/vG44CI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKGAXVVIQI6pVVS8FM7R31NVp9+sWD2rK1wPG1fZ80PflL8AFl2etc4NhFB
+g3cVoOag83Z5HX40Xz7lMOP2yB19mycxOTZjpm+zyRjogI8pvIeAOnyyqaKZ6QRy
+vzynr5cSfgg=
+-----END ED25519 CERT-----
+family $0011BD2485AD45D984EC4159C88FC066E5E3300E $0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB $1B9FACF25E17D26E307EA7CFA7D455B144B032E5 $3329E736CCA16449D02D567D42683BF1FD798676 $47E49319DD67784F1E65B5793371BE467365979E $501B3DBF250B094A05CA5DBC424AD4C3D46721A2 $6C143720FFF8469EF6A5C5B4066366340CF6C0D1 $6F4E9FD00D4251D98BE96FB1AA546FE34676A95B $7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2 $84D361B736A8CD1E8818D0FC186892E91AB76881 $A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E $B34CC9056250847D1980F08285B01CF0B718C0B6
+hidden-service-dir
+contact Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr
+ntor-onion-key ZKN7seEhy46toT0jvn4DvNT2nfim+7Brk+TN9wXWWm4=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 162.247.72.7:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 SEpJO04WPmJpIYnm9pd5V7xZtWXgz9CxvMLD23arn9V0utadm2BA1cVtxwzNYw2FGbvdXpY2Nf+DaFKtTnQ3DA
+router-signature
+-----BEGIN SIGNATURE-----
+r65IMGCjKoyrlAkIAp1GqaMu+mj6saZdSQr96foMTMJ+bQTrVQAta3kh0JF6SOYu
+gYITZ41WrcDfL4wAmFOIBszqZH1pXbEuzwdeMgdx3VQPuHY6dmPU2BfcbCfJ/5st
+6bgZLlIcGkht4gsA4HVuWSiBEIufr4I6j/KcmsiNMrY=
+-----END SIGNATURE-----

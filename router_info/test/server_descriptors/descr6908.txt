@@ -1,0 +1,30 @@
+router eltoposrealm 80.109.112.130 9001 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 21:00:48
+fingerprint 1F0D 3AD3 0862 29A0 41A5 34ED B936 7A63 FAD3 6566
+uptime 48
+bandwidth 1048576 2097152 971324
+extra-info-digest DD4A7A48E9672ABBCFF35AF59B0D4E4837A07F37
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL3ffgTwqtxqXJo7AkmY2pGd45y3o1MB+UiNOz3q6bHwkmHIxdZHOHLY
+5j4sTtnkem2jycVIGC9wnowX2zMKz8aiStnLLLQdpLStqWjdIWF15JTRQKDhjhig
+nomPDyrDnTeKHbYfD7vfxa5bC9tMYfXWB3TpkS/TU4wvftfcF0hrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANKm7T0K+BsiM7I+lUa26Zk3hyYEQHXpemo09PUV2flRSo4yfwBCt1Lz
+mt7wbuUz5wPGt3Q0uxxi1TokafnfIGF1LfoycQ2XBc1OZ1TaZwNXm2rf7mHZYe9h
+evI0Ttm9Ap3nK4HQYo5jACvtRdmIPvXm7Do77yH3tTYtSs/vA1zlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Lukas <eltoposrealm AT ymail dot com>
+ntor-onion-key FG+JMDS0jQqVji2OAZgVxGr2QfA/fBlEz9WdgnHcpGc=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+KiIWsi33vklLHFu+eX/rsu3FeAVJ3R1E/CTwZLS0qHOKuhtmzepUjb8a6qDyqXok
+jZ39mT8w08b3dtfwcJvSAXIdw7gIcDTYAtIC9jz8FLk7Wlr6ZyAk5cQ1c1XNZlNp
+51q4a8p4LLxwdp6Rh0fEB9kn5oAjaCENsXsuVlNf3Vk=
+-----END SIGNATURE-----

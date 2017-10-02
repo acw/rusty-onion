@@ -1,0 +1,51 @@
+router Cynogen 121.99.228.14 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJDAbQ0DdLMeeYaY4Rpk4z1vp/dql/xyoyY2IdHi9nX4k62AQAgBACm8yY8
+fdDkUfPHOokyfPXxLZkwsLtJt2xOWtBGHCWooFU9kJSieT19a8gqGyk4kD5HXU/U
+4fEaWfirweVPhxxBOytFA0C/Gur8w560JBRiIBEaY/epRBHet57FC64UUAE=
+-----END ED25519 CERT-----
+master-key-ed25519 pvMmPH3Q5FHzxzqJMnz18S2ZMLC7SbdsTlrQRhwlqKA
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:13:55
+fingerprint 8CE5 49A3 D159 D94B FA64 869D 38B9 FC94 CFF7 9AF0
+uptime 20
+bandwidth 1073741824 1073741824 87040
+extra-info-digest CAD5BA785868A8FECCAB93DCCEA83755E3ECFE05 L2znQS4lo1qMY2BMB/5E2HQUvMC6G+K7gqTg8K4lRDk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALFQ1zqi4Scb7qwZKzA70dZnbRmmdryqMgIsSW3G2XI6R8Qk9puSE83o
+3cbvsMRcx6tazvGMYhFJxviUToFXgwTt9hj93bmr9A+xj7+hH4ypRqoEe5jJ70HK
+XYBYWDLdB7NUF4B7Xql6KlTS+yQjt0AJ8L2hje7JW+QiasfwVnV5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKbslkAx8uWQrHUFonHhVIaSL2VXtS6AEKSc6TTjvNSbfIe8FuxgRwsi
+OzpRHjGm7bNjG1r/fa2qkQ0N64/q+rmHFltIIly+HTcwspxhNxpm1TaI5UVcLZke
+hTcvoWhBKPeo408gjZE2AmyONxc7xNjVXEMkpzz4UYi44ZzEE7hbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kKIH0WQc49EmsIeXjS4Abv71jwr53ni0VpDU3P+dUChzTOFDoDWuE5oTrbUs3HEj
+Q7xhvNhC/bANJY9b4CG+mE0lpa8N4AB34L3WYJqevLPuolielIbS9TRl4SVEacih
+B56yAVIhWcr7PCNSQHuSn8nWxAW8a8kx+nYs1G4Fu/w=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAabzJjx90ORR88c6iTJ89fEtmTCwu0m3bE5a0EYcJaigAKlnCJN9HK2P
+qVZTU/2o1ev92nP+uihZR46NL4HYKAqXmDFNCmAdEMdViPhVAvvmlPEocM0onhtS
+Pc53kGJpbQE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact webmaster@computertech.systems
+ntor-onion-key MIXWj2NWqgoXp4j83pSGve/UcZjjmgwpmmlI/Bz83Es=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 PFRGfAX6Se+cHsStIk8n0qaBBe1tK7mi1pIQn6NjxOPQz+m5wHtjGHUDVIpngqdjGLycpyTNN0krBWnROAPtAA
+router-signature
+-----BEGIN SIGNATURE-----
+FSK1MMLW6p+lcAQEzL0cLjw5uSL0XV7an3r36fDZSQy+T61nSX7E+ftlbotR5jRt
+JNqY766JdR5/jKcuJWU5xqZpBN7UaphQZjW5kMHisBqhgqQ9Rq9AYvnL24QuAd2F
++pX5EztqHtCdj4Vl2SiJ6ycib12Plc5MQYtlBMDMRCk=
+-----END SIGNATURE-----

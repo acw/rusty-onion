@@ -1,0 +1,61 @@
+router ULegionnaire 192.163.224.51 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJXASEuLFs2ZyDBR6Vdxy+bfooywqBZArfRK0oaUN36GfNUAQAgBACNBsmQ
+LQCJkIxq8VR53lQM611UD2k3cZVqdXhQ06n1M3o9xwj1SA6zOxATTqlKb1WWGpZC
+500fsVe7y2w60lUdybHyoiK9gOnGFy0JEGRFjbDks/16dYa0JqN3QnmXpgA=
+-----END ED25519 CERT-----
+master-key-ed25519 jQbJkC0AiZCMavFUed5UDOtdVA9pN3GVanV4UNOp9TM
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 04:06:16
+fingerprint F6CE 21E2 079B F2CC 115D FE50 CB85 3B35 F96C 899C
+uptime 43620
+bandwidth 102400 307200 0
+extra-info-digest 5600CD2F350A54C6021A3AB122192DD1E68689CE MYt38/14nR6W1zNG0yhC9OstNmtZ/dur1SsxdBhZayc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM4+0bu07Fnd0APLZ6mLPgBqUKDRvvPnxhs9zCcsUOZyoev9ZYmhySBt
+HgDGuhweE0BV3y+oZqNXLdx9vt3Py3qq4YqUFzoP1m/JaW4d1uu6KwlSp6qPz5yB
+xk2fn/tSbvftm6LYl+GSNeMz+Fo9RrZKohfoIELFEtd+y+d1eYNtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMcXKnFWJnkhFPO5hwxhYjq+m1v1sftliTU1Dx2nRKtUZMwr9Y524LkH
+t5uNMKQmuA2qR8riKminByV2xJT7qZnPgoldZS9va7yZiarFXDGfUZ/Cq0oK2k5q
+f1Lb1ATqw03TxWdftZ/oF01t3AdGwQh6fQXEhtqHXe2uTkHf+wp7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+xyMAWvswieWMstcGUBMo4a2UZmLOtGbp9pem4RWq7gbQLeK9BcBRHNOwfDFsnDLS
+ODMdDxplPtAGZLKT5cK5J2lZNotO9gaajd77oQangp3gpdfRRpMNKuKSQIgEqbhw
+THXFyXG33Dw0QwZH2rnVgs0ezvOgJE8E4yR1rSYXiJ4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCVAY0GyZAtAImQjGrxVHneVAzrXVQPaTdxlWp1eFDTqfUzADmHdrWV8EPZ
+ohLYva2rPv7M2US5ow32yEmoF05k9racIeK1n7I9e4Bc/tDfvWdtdj7xWtvXS+pg
+PtHvuQ0aSAI=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+contact tor@utahlegion.com
+ntor-onion-key IiqU9w9ylk7PUekiOQZypqPWMEfS2REuzYMwtMmfwCA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 192.163.224.51:*
+accept *:1194
+accept *:9418
+accept *:8332-8333
+reject *:*
+router-sig-ed25519 HpTdfJLMFAVThTBhoAlE5upCQjvmCcM17mJ4n8cvHiL9IhOVaESrdSiq/CwxG0JfVj284lFldBuH2Dn5QLkQBw
+router-signature
+-----BEGIN SIGNATURE-----
+e+ZjJ8iExdm85HHRO9CeA4rSD7QQFAXUq8JQBshCZ82x6F4WE3u9U6AUYx4Asmxq
+UGnhkq/lWe/lZdg2+kMKKWzBaV1xKbrdGJtGy97z4DR2Hlfbn/yflAUBVKlxVZEO
+fs6m2DaCnCjPLiiecUzFH409KEounDBhQgW2U2yjAFE=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router persephone 73.201.16.196 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDdAWNblzXSGcs6Byn0lAr43UwGVSgrH7p2jOTPdTjw1KnJAQAgBABTEV3+
+QWCQhzDCAup5ozmJslZKEGWp8W4aiEvPxZCIIaseb4g2m38P9t7xH2UPt9Mnynxd
+AAa7ELWrhcPGyXslQfEHHfBM7e5jXKDtKVvtz3MShUmhTnSn1wgA3dw90wI=
+-----END ED25519 CERT-----
+master-key-ed25519 UxFd/kFgkIcwwgLqeaM5ibJWShBlqfFuGohLz8WQiCE
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:15:52
+fingerprint F991 4FBE D50C 9A3C 7A2F 222F C164 6328 67C0 498B
+uptime 129667
+bandwidth 256000 512000 307279
+extra-info-digest 5C0F517545FF5F39A92A07D1B628DB2181DE8A02 w8uKjPcbGhZvakcVaM/bj+uvZnALi5n1KWwvrLqc2ag
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKi/y9f3dycjE4eTap3OZEjuDji7V5A27N+eESvwVdfgJU8/OBQz8gma
+hX3pMSgrUgWHFn/d2kN9uSG2EaTj4BoBVkI5KN2jZnxiI+TU022mwOqPpKL4w30O
+DjMBfw71axG+PB8+G1kpcHWK04QWXJfQb9YFC5j53aonWOOLw063AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANGa/nnUetVifS9mmDLslyftTsje4tPHgwFDyoykknGkI/FIZbNQU2cX
+OA/lL1aR2ixajOrabX87VJRlFesOKSqmBnA/Y0M/XxoabaPxq3NoNgX/KY7xi9FA
+VamRNznF2Xaw4l+7oOrD0AHN5wLBf7qWtj/entF/WZ/j0gJ0NPupAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Zi/egcgyjJoPfg92/oMrXDBf4w+Qr+EtjHaZAytMdGopP/IoucckV1tw03TWQlXN
+ROx8NNXYOTLsYw8pfRZCB1rp2COrCbxfnqOz3uw8qRAnEVvW5dC8IvV3JxIJ8oQu
+VGWZKmSpmuwwG0rZc8YK3YoCKgAsKYKTAnUr3eX7Vrk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKKAVMRXf5BYJCHMMIC6nmjOYmyVkoQZanxbhqIS8/FkIghAO4kE4Rj0X03
+ujxrlJflf8STnFU5YnM4L1qW97QHgIPo2sPXXN5UKqwnjdzx4Ukj8ZTjNGr4yqW/
+UyBo2Tiz4Qw=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key rSj9zTdSlAEFeAIMHdBV1siveznh7nrdagpErWtR7Bs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 nowaFMnu4GFjbEHGdQB4w5vAEp3ZkOsnsIaMLQbg9HXYaHECQRb4p68khBT6cssv6L8w9iQYyp3nkgFVW/OxBg
+router-signature
+-----BEGIN SIGNATURE-----
+KAa10DRSrUpYKQa5Ni7F9X8yqgtNDeNMNRYV3u77kWnCK1C7hxxEbOLrG2ITpWjt
+sqiWU26CFbMI88LRUebDQJf4jiZ/is6r3i9rr7sJy+aupbbX3P8G6ciq0CuSR27P
+wdO7dG86KjuWH+f8yfHMfwJoc0CDZdyFAvXqwFTOwb4=
+-----END SIGNATURE-----

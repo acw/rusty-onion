@@ -1,0 +1,66 @@
+router RumWithMilk 31.46.217.213 61113 0 61501
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAWAVHkI/+bht5ChfDlaGmTNLcek5fYrxlE0s6SdSAdzxLiAQAgBABbgAbc
+B8IezXPFTN8MjjiPFSW9L9BKoTRh32dAmw/Q2D05cUyR0PPgu3k/hNqJYA/EZDlK
+V85IM+Xv9HGZuwv65AP1SxHM7UibvHLZJ2X9wRC97mmTrK1/Qv6xVPPcEAo=
+-----END ED25519 CERT-----
+master-key-ed25519 W4AG3AfCHs1zxUzfDI44jxUlvS/QSqE0Yd9nQJsP0Ng
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:01:19
+fingerprint 23ED B164 7483 0722 3AA6 AFFA C66A F255 6B5F 8042
+uptime 549265
+bandwidth 15728640 23592960 6241488
+extra-info-digest 6F3D76EEF0645BAFEC61E4B624DEFF8280576D6D 4oPs+wtHqJDkct1PSxuaqtdHcRFmLL8TROVaE/j+DkY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALkJ8Qzj8081emo97akpwhinf1B2QT1bN9wuvHbId/aU89hRWfIDNs5m
+2RPRNDmjBOzGh5LdAMa/vnQS4hW+oQ4Jj2cXbP8ktY5lJVAxar3e8RIg4G9VZ+t9
+HzYtrsvFfp4zXjNOkbc1AvWMhP6TjOgSr1j+zNCWkqHcmeoY9w+zAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ+lrTKLqkvrSuU2wjzZx0RGOnGF8YI3+In3hdzkj552Emayy/KMbT0T
+gyqrFV810aA6R6lsAPXytz8e9z74YwtrOQBWtpR5iayHpSbMlu+lfLf4HhaZLg6A
+z0sWDNIPpJWZGmTeSxP4AnX6SmcrKPyfKdhw+RNw4vwbdfRJOmwTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+U3I1o1ZWc+jMVgAlXNRjG0BITu2wPjbexGhhbvuUhsHPEP7j65H7AnjtT/Bi6wVO
+vBT1yKCFdXJd5e6Z2naHTaniV4SkrYZrXYaccMmSLtCnSLixocpg0TQSIc2tPFNe
+4HFX8Pw+G02O0I6KweBlbvpyhQccWdBtClHK9jOWwPw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAVuABtwHwh7Nc8VM3wyOOI8VJb0v0EqhNGHfZ0CbD9DYABT+tgvhHbIv
+poXgvB+NBEbps7IkAPxuosq+zkivQS+pIGZBPnj8KktM4mWFAochiyxErU/D8NRu
+Au9YqKraGgc=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key N7EnuBT7jHqg91WjfAkmj3tcNH67WtgRpGRS+JEBnGw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 31.46.217.213:*
+accept *:143
+accept *:465
+accept *:587
+accept *:873
+accept *:993
+accept *:1194
+accept *:5223
+accept *:8332-8333
+accept *:9418
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 qhRPRAX8YPbGiJqV11DjEHopM9q5G00ZZtYkuiS+BE0GlwWbYcdEqHo+DTa1OsPjBkbR5/f2tB1kgIYSudkxCg
+router-signature
+-----BEGIN SIGNATURE-----
+EceNo2cWGeE5Sf7loZpJli+NzfHDGCa+KT/dVjEpsjUlgPiQtzi4Vgq3Gy18U3wF
+mbSzbe+r9mbVza42H9sU37jmK3N/DYm9AYQhQKOZm3EoVOaZYLF6LP57Ypljju/N
+fXDd3iL7Nnso/eOfwAw+0huhvWwLcgjko9UVXeFYsFQ=
+-----END SIGNATURE-----

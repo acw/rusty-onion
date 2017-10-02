@@ -1,0 +1,51 @@
+router caersidi 208.113.165.162 1443 0 1444
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCWAfgQIDUlXop558yrh7Lo+Ns7oXz83F42Mqg6gneIF2WZAQAgBABkWr0y
+tLmX8XRTJLCwA3gSH7EMcOKSFJNXgAbHIRmKnUZT/6inDsMUAjpEsUB4j5jYiXpx
+MbwtVGuLB11OTb6nlplvbriGxk4XeGyRCbAk3E/LHEGMmDTdlDbcWIHrEgk=
+-----END ED25519 CERT-----
+master-key-ed25519 ZFq9MrS5l/F0UySwsAN4Eh+xDHDikhSTV4AGxyEZip0
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:29:40
+fingerprint 3EA8 E960 F6B9 4CE3 0062 AA8E F028 94C0 0F8D 1E66
+uptime 1944079
+bandwidth 5242880 1073741824 6147529
+extra-info-digest 0EFFE331E60E73C0A4EEE0FEC82DB1C517DA944C 4iCsez37tH1ymTB/K8ieI54waofD2rF/HlIwDH0KTpI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ6O7ArPKmoehpWjuvUTDVA8jFcBe8pB4G1A41LqmqhxO5dQiBhtux0T
+EzsqJHoS69OT7kL0rwazujgVwYvceRKzbauvxcFtC9abpZ80IWhr0Pe77+I9wNp3
+I8KVJm1P1AVi9bCs+v3aITlb3Z6Tyq2fC0o1fRgFAHcAnHklunc3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALTRWOH5S/seGLFs1Rhw6wh98lmZnMWS7yoMasuY/yTRbhvaJXLFm1au
+FNhqfOFPeJOOUi/tLa3qlmAbefjBp70xLsFGc5so/XbFQ3HRvNggZtNcjQAuoFW1
+fKreUlyMK2QcwvHkbdC5vjizIUmrH+sv/n+g580kXp0YRno1zL1XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JojOi4PXmD29UMPvlmvvEmMCqEnRCo31Tb4hZn/HmowWejdv7a79eslJ9IqhZaW4
+G+VxfCC0E9yRheMx1VMjxCBArDgPRNvs2KuGCjpgKfajCDVYTxuNrunNFqRmWyka
+glyfAkvlxE5bfj+ilun0wj6AR3vGhXIStI1aeHrI0fI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAWRavTK0uZfxdFMksLADeBIfsQxw4pIUk1eABschGYqdAMGlWzPs/YDq
+LzcYIFpj6e4u4rJdiBSnBXQVwHvghGTN43Y9KQWcrj8T0cS5JhdJ5nvjfaxglY77
+U4GP+r5JHAM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact https://www.atagar.com/contact/
+ntor-onion-key WNvky5Iadr8iktsJ+dF+i1vvsOCHgt3BG1n2V6/KBiQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 UTtQC5y1t2GZAt0w78U6nrsMR5OTdOS869n9bAhmIB0Q+hyboA9fB9OnH5vgsZ2FudONRuQdD9T3ZsqXVSQoCg
+router-signature
+-----BEGIN SIGNATURE-----
+gh3NFmM7/4Q5Ky5WJGadhBLyzIcCx/V4gqlgxKdMrHJjmvzG5lsAHgb2aTuO36Cc
+ZdJ2Zex3S5BXGbThWDbvF71O4KcVZUbnR+JywO9nkbyMTdfEJxzWprb+z4Ujlygo
+Qxxb2H6OjNT33Y3RSThCGapbrDDLvp9JKF5VMm3Rywc=
+-----END SIGNATURE-----

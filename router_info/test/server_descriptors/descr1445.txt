@@ -1,0 +1,29 @@
+router charon 95.183.50.138 443 0 80
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:11:51
+fingerprint EF1D AD3E 1288 FB17 1984 E8BB CB25 CDF8 8C11 C9D7
+uptime 930372
+bandwidth 524288 1048576 647378
+extra-info-digest D8633B88B350448E5BE027F442B363FA2ED92629
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALW3blPlrNGMusvsZzJctErsAjvXSU/so+1GXiPvAMEe+wP5C1zEYZxj
+NeEtMqZgPCaA104ElrODm7/EbYFfya4C1qH/1dROSV+d93zWNd/Uk9LCuqnHacic
+jAjZWsHi7Zsf4jZoICmcYGQUYRia+FX0p6gJZZpbW/tk4TYAX83HAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMberYwluT0Pq3P259XWtDQjBYiqwGPi/QtA4lHF8jlmN0i2KLveoFbq
+vC4vQgo3nMDt7bZ8Bmpa1/GamCHl7YoF81HxR50UEhF1fo2WMWjpupCLQwFv6moC
+/scaQ/Ua3JmvDoSR8/cnyDfN2LPmGSSPFAyMW6b8pCRqnetxaw5xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key N1yNF59cDtNxlj4mVr4Gz8UBg3IL4k+S57KZQe5AyAk=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+FBoq23pKpthmXr7KjzNi2/CdJACrEM72h6Plca1KVSRODEhHuaqTSQUz0d1IdYY/
+TvZhP0Ija94Q/SiK6JY2KFymYlA6LpY/Eey7xWi+yE6t0bf4RKL8sWiCB/cO/vBE
+kAwyyzQeNsslkImwPEmMJfo+aF8VBfJ7LfkEzdUjYY4=
+-----END SIGNATURE-----

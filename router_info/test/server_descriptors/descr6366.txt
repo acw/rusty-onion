@@ -1,0 +1,68 @@
+router krosnovorg 46.233.0.70 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHjAc04KtwUJYvy7OqAh3R4XOnCkW9E1a21UFnwCc6kGBbrAQAgBACJJjvU
+AMB2vQmFRcS8oWEYxg8xj2ssWQrUHfCrkPsKvJBVKDY7+JLPoWErqCmim7UOJ3ib
+bRhHesgcHFn8iR1Ddx0+w9obVk3/B3Njk0FUN5/Ko5dEd47EU3/QTdkMyAM=
+-----END ED25519 CERT-----
+master-key-ed25519 iSY71ADAdr0JhUXEvKFhGMYPMY9rLFkK1B3wq5D7Crw
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:48:54
+fingerprint 34D3 AF8D C4CF 68BD EA35 4D21 C24E FB2E AFD7 191F
+uptime 472946
+bandwidth 20971520 41943040 2316438
+extra-info-digest 07E5ACF6CC68A6B3F081EDCCBAD1F084D51C9953 rsUy0CZc/cFUnf5e6qGmAUlJfQPzaG0IGeLkAfoYysI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANpsloo3Ne3ymWxW0u8aUDiQNfdyuP/g0z5BE98Dfx6GQsykpeuNv9Ex
+Nb4YpTz6TNQQFoRC+Vup4x68mJMreGBs39P15GGlEs4BF+C+DBKw2TSBODzCN8wi
+yahwkb/za/+L6zFyk8ve8vvtpPxL0gw763GDwf1hdsuTDJLOYXxjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMO0sT5bBQrm0JSSz+81teyiIpBIV6uz/NhuZ68dJPFMGXUP7quGb0qE
+uQK9QKYieyIeNXR+jR8NzL7zOiHrMGq8wCGdnoepGt2PQIU1P3SBosM2UTok0axD
+RwyXXqF/ISdFVVUw7OdlSHcn6Vw5XCOwyo8Ec/3gwi9JKRoyyzN/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+tUT/k376rtYvnLwWBTWb4UtxOvKF5pXBAyWA6OQo10Nok7mGk0RQFKchFsy+yDnw
+kfRthvwol2ixAyRUdSi5wLMBNnVr5zLCTRDQj0Srwz65n6IQEnsLQOpSaRMfmtkG
+izbUVXZ/JPY1eLcp7NMclwi9wyhomMwLYRSVp3BqJc0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEAYkmO9QAwHa9CYVFxLyhYRjGDzGPayxZCtQd8KuQ+wq8AKFIi2inwEqb
+3NKzlFz0CEr1wxiIRpt8IKidvmEkRRDwO4X/yrdSBeTIXxE4HuRPxaP5lQRvJoqV
+MntHk+GJrAM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor@krosnov.org
+ntor-onion-key WO1Ej9ZBVthiwj9iu2Y9r89VYw8oNUeSJrP29fNS8yY=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 46.233.0.70:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 QAKpbmI+X9oOZD4ey+j8fBADtfRKaa11NijtJB4RVIUUicsqnIYMcxnbd5kMggMLN7L8fPpLzVIuW7m3jJBTBA
+router-signature
+-----BEGIN SIGNATURE-----
+Ee+h4TsDQxOyw6UE/sxUCTwMLOLKiq5Ge9y7gXK/7sDyZVuyN72+aThzD/AvNUeo
+lT3ttfX/cz2hiyt9ln86r27VQO7FB22Sp46hG4rzwKY6xiSR5L7xP8dalGn7aW/O
+LD1DhX0EJrEVTLR02aLeoBBHL7+hgGf7dJxLwG5KoGk=
+-----END SIGNATURE-----

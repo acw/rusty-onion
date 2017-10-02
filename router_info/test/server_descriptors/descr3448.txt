@@ -1,0 +1,50 @@
+router Tabasco 192.249.63.151 3389 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBmAcr7P2Ia0/MkKNUfSKg/vm9MLy7Zs6jZLHNA38MqsL4fAQAgBABea+dh
+XEzdNuMDDFEql284C/VuSWdQp5MWYWuOeSjy6vzCXvAku8tckUGhmtQvK+H7hqe7
+4H/iMtpwdtPvbqe+7J96+nikou5yXUlsahbt7+HQ6oTF41DcMmdZwhPQeQs=
+-----END ED25519 CERT-----
+master-key-ed25519 XmvnYVxM3TbjAwxRKpdvOAv1bklnUKeTFmFrjnko8uo
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:00:01
+fingerprint A36B 8FCF A307 0560 653B 26C0 1C64 887B 9DC0 0020
+uptime 873968
+bandwidth 307200 512000 358285
+extra-info-digest 9A90E1BB91465CD65992FB289FD45E478DF569F4 Co8mQMNn0RiQhznfeLNEugnw0ad2bI43bwZ3jDXccVY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN4ePFXnD7zzz2BMpjO6xwzRCSOzJwmKEkaM9NJt6FeecoStjzSNXiom
+bGlRl5lfkjIveOxoKJnJLdaIwl9lCAUVayFku7YCODgsXa59cL+LX358xkNkV+xy
+fLfc5EJFDHqBWBtVtHDQXD+4b3gyGJJ6mhF5GWcpwON7BGOqYTMJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALCoMM500vz/YKeXwXwdASgVr9NUfzDshr5+jf5Zfdac9D6qkBHAdWSz
+GMpODDw+Q3tW7VHrVysaQJ7kg8tdg3mjqU7gYur1JddznRmbtu2EkBZDT6i45kSU
+Fm9KDnDmb4UDSs708/DogkbXGN/FM+NOQ7gpDqwPG8mXTxcfNXORAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+03uVlVf8pURm0iElHLb7ZckYWl0bJvXgQ2cXOCWGYKI8FuHmAVj+asa84WnfZIfJ
+SjPZUXqsiLiWDaK6Yr57NCXV/qGfPizUp+tBSuY2f2tVS9yyEG0K95ER84MXNWtu
+ZKLu4xSPkHXW+cXb/94bHArnGiCDdSxpfOsjaezCkHU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAV5r52FcTN024wMMUSqXbzgL9W5JZ1CnkxZha455KPLqACyOu0rsU2d4
+GxU9OGukaTa18pudrnH+KMaU+EubP0+IZwT1FUfQxirRnu0SjW5X+8lVDnTnqUP0
+vgXGUjSOTQ8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Scott <scott _ karana ATSIGN hotmail PERIOD com>
+ntor-onion-key kV1eynfp0Tq9n4Q/gqkhKQyXsvNr9RHRC/y3waGvcTQ=
+reject *:*
+router-sig-ed25519 qlheFbZaWHtS/Fy5ALQ2LkD9xxFXgUYp1RtibmEcP+hcC98Z9WQi9xVaO+JY4iS32Qfg8jmv0TUJNBcV2fTYBw
+router-signature
+-----BEGIN SIGNATURE-----
+NVzJ0fO8Zi8NaDiS/lQnYQVeu5EWXaGtew98swbuA2Dzd91wkjdvR1qfk86iyl2G
+0OTqSOznwzXNcsYHjFFcW3QsYkKoIT1zolZLg0eNnU0rn/luubKZeq0vADdN08ZH
+1AFZVW8e1tyXhCTYMRgW8PIV72/+9WRfAmqat3iHWAE=
+-----END SIGNATURE-----

@@ -1,0 +1,30 @@
+router thorondirrelay 144.76.41.171 9001 0 9002
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 23:25:30
+fingerprint D9A8 7C9B 24FA F8C5 67B3 4219 E286 4670 F96B 29BA
+uptime 893103
+bandwidth 1048576 2097152 1306463
+extra-info-digest 08152029DA0DA3E3A7958A2A3A3FF61C0ECCDED9
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJg5dVQwnqBx74pLsGRokLcMZCuWXU/Em3eXt2LUPRAhEkY+/0jfJP5z
+VkAs/XFXc+CVSV4OcLEB4mdVQH2at74HbOYyYbzpNsSTTRjfcXX03UKqVTnS8SLz
+s1LaDIMcSl/Jfblo/DjfRFhIKK8fmRks4LrUrLl+u/gnt3iyL0JFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMpLnJmuvfPZnIfMiNGIyiezoeSE6557l56JhHjvlN3TtjuZSOcg3T94
+CznbAb0Dk2J+ZWiheMQybczOh1AsDByLcMg9p0I4KFWUob5gMFVKpKo+QtLUOhY3
+1pUsGmPC1bs+LGpxYcjLYGZeyLm2pP9VW4P20JWPLvV64gvUdUdFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Thorondir <thorondir+torrelay@thorondir.com> - 19uoVa3USrnE42H1ijaGouqHTD6RDAQmoQ
+ntor-onion-key 19xT8FweQHtGjp1OHHCkIP8ySR+pfajq3yQPZthQxwY=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+ie5zIGTLNA87n3hYG6038eqRRbuoKdDYzxtaYxpZysfPKQR3BsvGsOEaEUdHbmkT
+WB379azM/N0Zw4yxm/Fyi7/L3/2PShq3BGSChVxbaZSZF1lukyicVxR+51bkE8NP
+JM0RJ3lUhAPDFImifd49jtL7ab8tzlw+mTVYBJLLkl0=
+-----END SIGNATURE-----

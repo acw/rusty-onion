@@ -1,0 +1,136 @@
+router exitdal1linode 45.33.23.23 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGkATJhNfG/7bXfMAb43/jNZG6eQHMXXCTtBBIEBCfEaymyAQAgBABQM1XX
+fveMQoyZRsUnlDneG5EUeEeP7BrGXWx18QMXEqDvceQm5Dw3WPJ2KZqwE95FH+Iy
+em9piKM0MLJwYLp2Eg3wZB+2i3xPR7l4Po1jEkOtfOhEl9myF9wVUf6DmAU=
+-----END ED25519 CERT-----
+master-key-ed25519 UDNV1373jEKMmUbFJ5Q53huRFHhHj+waxl1sdfEDFxI
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:53:21
+fingerprint 50EC 0F5F 845C 0935 D635 4A6C 85E4 B1A2 0D68 0CB6
+uptime 841509
+bandwidth 1048576 2097152 1768215
+extra-info-digest 1DB773D0FFC82DA98511164CFC8F02D754E332D7 WwZLyp7y1/shLSHNI9v1wJ+fl1SFDMhqNJRjiVtpeaE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKdpzu/fQVkHooCFG40PjAf05d3vMUkFI5l7OxvbpB2olyIbi74hBmiV
+faXRXy2Sq9n0lmanuqwjNMLQWXsSSlR03NB8ngRxJ3Jhmqr4eD7f2YPQz/xBGxSF
+/bqFXO8iWPgSO6/f3CSUaWgu7oRv03t++ZIpUKg8LxUg50mx405nAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMCbmLRt2oFUA3VnGsqPFxRUHw7dvTOBHwlBtUBTAc/ZSdYQ29pjH3K8
+AThn2GrJw5ewXh473MxIR0DFA5iPBOgMk45ZfLU+B5tLx/eqfsYo0C6BBWxKNKes
+dgY5HQ2Cvgx/y9M7Rq43AafyagXRO+iLM4T118DQEp4KEMpUaM7fAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+LEVZVSsNkO5VajOsYv5IoqXUJMuT1vGgCQ1ikDOUOEVWisOggF2QLiUxd0WEfdoL
+JwRtekeMZl1+hT8rpDe2yCyIQFFrmdhiONm/Z4ZzsjqMjEYvbRqhhzxtImNIlfZo
+/tnX+PHynpmzjOkzLHT9PKUqR1rQDybbpuHf8eJ0L9c=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAVAzVdd+94xCjJlGxSeUOd4bkRR4R4/sGsZdbHXxAxcSAMi00FHr6JDr
+GfIY2TdIadirCtj5OfhsILJr6avG5moOPoTw7TCfhj8w3tvftr4ZD/Dq8YK0f2V0
+EmpZyfksSQk=
+-----END ED25519 CERT-----
+family $1B8DD349C02A2B16ECBC4184EAA7214923E60C3A $33C1BDFEAD6321CE84CD01D7733753E96A524B5E $84CF866B0C25473DE1BD6E22D34931140284F32F $95807CF0BCD0F2033A7C8DF513357269959D827A $B480B68CAE3F1B92FE1DAF5550D02D238B32776A $BB3BFB345C2DADF5142A39EB6C206E6481D9F5B9 $CBA8B64BCBA9FAFEBB57EFCEC5A8524D1351C7E1
+hidden-service-dir
+contact D134 1F09 0E9E 0269 B3BF 538F 93DC 67AC 5BE7 B545 Richard McIntosh <richiemcintosh AT gmail dot com>
+ntor-onion-key 9lC5y/9KCQ+YFLTUtLW50C6RqQmc/mI0m+LUDLzUh1g=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 45.33.23.23:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Au1hnmb0DM9pvj4Jh64LES7JYpS7Bg3/+aErlWEca2Pxv0Rni89CpR4Iz8uqCptXUuEVlrEHSTw9qRcrVPfrDA
+router-signature
+-----BEGIN SIGNATURE-----
+c0SC5eimc/QJsiQR3AB8twFVzcIafk5Kbr8aj82LtSQz1CkPKRVjb9p/lzRUXNzQ
+YDmJWTO/Elr1u6C4cU8YyHmINrD+Ldtp1TOa4d4O6+ytIDKeMJWlf73EKq7ANpT1
+NkK2K6gPp8xFuPPHzGBBRxwnrw+xkCPlwxXfgqFW/L0=
+-----END SIGNATURE-----

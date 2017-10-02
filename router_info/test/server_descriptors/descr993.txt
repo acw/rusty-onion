@@ -1,0 +1,64 @@
+router zedtor 106.187.37.101 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGJAW6ndHcIU89jVPBVuxYVOt9h8ARy4YCxiWOT9fRsFOx+AQAgBADHya/R
+rIiYW6HTLJLldwHFVyK9nJmD+YtEO3OnStxtKNvqPizbgz/KH+tKBkc+BARjRmFZ
+JW5R4+ZihwtHlgPLrQa2yx5cGhA63P4THSdW8NCj8bA55CunKfkNFk5w9gI=
+-----END ED25519 CERT-----
+master-key-ed25519 x8mv0ayImFuh0yyS5XcBxVcivZyZg/mLRDtzp0rcbSg
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:41:50
+fingerprint 01F4 0B18 1CBE 9E9D 4284 67FB 5359 F17A 466E 78E4
+uptime 1491257
+bandwidth 4194304 10485760 5158344
+extra-info-digest DC280BB7B7D21ECEDDE0D66E460A9EBA3AA1CDEF bRLaWRY/mlF2eU6K3/J0pNcUHsg/HmbZ5I1eT2M+xdQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKxWqC4ckSYbXDe/dIwsc6zF1BqjznC49CG9LhHSSQ3SiD+pNp/Tfn2Y
+qDxHon2JyK7+iE+cQPKfidbLiNX3Yt4eRk6rT3LyBZ0mCsoFu0b2rXxhCa8V/YLy
+kKdyJP6dRsvKbMUHwVR3aU0RY4jTk7H9Kj6uoQydSavJvbG17Mo7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKbVDc2oRsDvNYr1iDaqKMVpdGEhDLLL+E5vGiv4r/DfgFZU7n6KYx70
+F4L/Oc+vtT3cgap47mSe693LTSgMVe0vaoYczYvR0euApVOdAws05tL1MH+Ai/FH
+DiAMX1XoVuMu536eUMjWf+hYCbypEHaQue5mWlle0WhgHwDiENA/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+byQiD4+mjJbt5yyMnMBup27cXuZs3rIoc1Ma7fn5qOl8fydb6sBPiYEenu7sPOYQ
+fV595fqgEx1VxcoIwL0pS0Vzp5U1IiiZD6Xo5Sl739wT7TMcI51g/jv7LJPSHSI/
+L3vTQ7VIYBI5HE/YAyd8Fcdl6V2NTBk+NdEEJ8Fs3rQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAcfJr9GsiJhbodMskuV3AcVXIr2cmYP5i0Q7c6dK3G0oAL9UIEDGC4L6
+7MlYtuF+GRSGLCdcJAYZXC5nueXhlrDRN50UjKHjiAubdenTbtqc5ubufIY80kb6
+pCc8tuwJ6AM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Zachary Elliott <tor@zell.io>
+ntor-onion-key YHcvDKQW1YmkPcmg85ymd5mhcRD2zXOTm8deZwaCjzw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 106.187.37.101:*
+accept *:53
+accept *:80
+accept *:443
+accept *:6679
+accept *:6697
+accept *:8332-8333
+reject *:*
+ipv6-policy accept 53,80,443,6679,6697,8332-8333
+router-sig-ed25519 d8o94RCWyKdoGlJfg410NA9tbjQMbo/zt66lA+kv2muO5Qmx7teKiBeUwlMVB6glwHBHAkDvV1lW77+TL9yGAg
+router-signature
+-----BEGIN SIGNATURE-----
+fcy6N3C4ryMkx9SeMDT5N88xqOaDLLM5o8XRJGIYPoqLeU1VBVvZ6Fs0hog5vaNt
+UPwdmfQ57NTMPDCjcy5k7M3bMtxdM5hYvrPsctC6U6HRWo6JYPsSM+Mrr9vssfqM
+yjPTZH8vg3YHbZEgRUtUJykchqw5qezjNVCG2f8gaE0=
+-----END SIGNATURE-----

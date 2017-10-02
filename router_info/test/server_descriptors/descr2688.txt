@@ -1,0 +1,52 @@
+router digineo2 213.239.197.25 443 0 8080
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJvAdwZf/S2eE0YO2NMMsA9og8XQ1NXo/i8VWMYiy6Sop4kAQAgBAAMpfn6
+O/ksfTo14lSLOYj6qZtJOraN/6p+c7+lwwC44iIN0ScFCWGZp8Hmh1+W7Gja4qeZ
+y0TNwtpMyAfSezAoPZR3oNA3DxdZM2ur73OYf/7zjM0DfSESko71HQ5W5Ao=
+-----END ED25519 CERT-----
+master-key-ed25519 DKX5+jv5LH06NeJUizmI+qmbSTq2jf+qfnO/pcMAuOI
+or-address [2a01:4f8:130:6070::2]:9001
+platform Tor 0.2.8.7 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:33:57
+fingerprint C0A0 5D6D C098 7D0B F32F 0FF0 0A9B F791 E7CA 79D7
+uptime 17287546
+bandwidth 7168000 10240000 8638962
+extra-info-digest 43973355AE0EBA0BD8CBBA01162D2666B791DD9B NfdGE2j5lvXOi0FL7fPI8GUF83o+RjOIgdZdjeaRSiQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK336OymeQ1xcH5OnG24dpGyNRy8Bg2UgszaEoYTTOmvOQWNQ8xaQD8Q
+kpMjFPYeykaUHK9eJ5SAGI8ILZnc9LatvhQUIyaQ40RysXKHXN89533lfMf/h0Hv
+rd3DsHDUbtNqV9KZnCPjkXZ2vtoHJ8NPUlyzhMiH9LXtJiIJuqOPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMcrPGGsiwOwjDN4WJn/n9rbwM4Zkw6lMTuSg9gHvr1ZIAFNxjPLeMY1
+z/LaGnRYpJlIcBpwQbLCP+bBrQoTRsasJmS+rfmz7XsvuljIV/P4IIXUPrJ5Gzy3
+iK3tBo/IGVCSe32sapj3BLmTkDz9GxJ2f4P48T9poc4dWj90b9rzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+PweryYspwKSjrXG6ZpLwWlCGoMRNCXOstwdqV72yWQyuJW7qu9D5CAerkJ1EJ14I
+JvjxMwNW2vwpsKqrKlHWmMMp4R9nFC1NSF0+ny9vLDs5et7yOjho1kaJ8iZp6va2
++SuBTaE8tqoP4DcsMGub5n+STOa1NKVO7vJaYvF36sM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAQyl+fo7+Sx9OjXiVIs5iPqpm0k6to3/qn5zv6XDALjiADxlmsU4KChQ
+p0yba7W+duYGicGLl4khvEu6GM++Pok8DI6V6nICyNXp2v2u/TbaBRcp7SuHRp79
+3+AEPqNmsgI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Digineo GmbH <tor AT digineo dot de>
+ntor-onion-key BK8sNMOVx4+2/xJTgWfFsHYrtYx/wLQlnsdbSw9KLgs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 mkZEaiKEqK+D3JBv3Bzd47A58ZAxmo2uNigkhwyaHR0mHI1+5DEvw5jubzJGnB6xCENqv1YN8fn8jXYUpRLSBg
+router-signature
+-----BEGIN SIGNATURE-----
+sZ5ThgvE3wjvoVxJHF4VB/CzDMVFwcpUKasQZX9oyo2C4SZ81VyWdOqLAA5fVEDH
+32JFnu6ArJnAGHdQbOKlJ0W2n/Qy5fkrrwhUsT99qNbfBBvdzHU4pMG62WSu+suE
+/sN4/V7OJ2FU0SjqOWcBTVJ6IdP8MJ+r5vlj2FBXHHs=
+-----END SIGNATURE-----

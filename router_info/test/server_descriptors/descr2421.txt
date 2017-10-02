@@ -1,0 +1,51 @@
+router ProstoVPN 51.15.54.182 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBFAaQaQlr8o5deaAvN/sHTDI/WT7ekjpY+J5jAu+aB9r9vAQAgBAD5OsW8
+ATw4XezlCoOC8PmimB+cJbVJ2JXBPQblFWeKJWMk4XWNDes4bZq9ss/IZHqA22yv
+ksmIPsQAnW9i6Kc+PRH40atbC+NPc93T28FAtTEfPOXJKmUIzRfSkYgWIgc=
+-----END ED25519 CERT-----
+master-key-ed25519 +TrFvAE8OF3s5QqDgvD5opgfnCW1SdiVwT0G5RVniiU
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:11:48
+fingerprint C9A8 21C7 6CA0 72D7 D4D3 68E0 4CDD DA19 5B1F 5C4F
+uptime 5138776
+bandwidth 4096000 4096000 4241019
+extra-info-digest 66F364F70636B7C936A0D227910FE021DEE7229D Xz1ICIVP1NyOIvrDoibUAwmb1j5ywqFXXJ/ftPaTcHI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALKWYNL1lSzfk6xp5xdpaj09Ek3dju6gb4GstUdy9yW5oLni71pxsEI+
+JIKkJF9swIMb5CyyD74JRZp/W8fT1+xNz7FYl77JbMzk5QppnSF/vSG2FBuYNzBb
+QV6/qaa2V6o0vuNuCWOsqu2NcH2qbmXe4WxxbkXwYV1946lguH4DAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOR6gHki3tdhQ+qkpP0YXnl3cpCIVJjXl1ALooTtdo1R5hv5IVEKxQLh
+6hg7UTp3mSAl/4a6oY2MqrD0btAr0uREbRoMuzAavuCBIrb/318EP1Evnm9AjQsr
+eaIjySHF7JyJH7Jyf4sW9NFNSPYnTzW26DBPae06d7zKYOikaby1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+oMvI1yFPJWkpBB27vy/Mu5+qFgb4RFul6YcMdTX+ytOPriyzQRjtbV/Ugj4sOu4c
+vPsGhOISQQJnxgH8S7DG+fV5gn5+aN242lJQLRPUe1yb/eOw0znLL0k4fTNHM+Zw
+DAvfkIr83HS2cguyaATnaFmCjhjqiNl/0UNhNoBjcO0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAfk6xbwBPDhd7OUKg4Lw+aKYH5wltUnYlcE9BuUVZ4olAAfbVEqh9We8
+o16USjK4//K3+Xl+1fThc5/8sn9eMdK2LiNcrbN4KtlezUMyZoHfNfCN8yYt7lFn
+0dpPWT8m4Ag=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x7135A006B28E1285 ProstoVPN <admin AT prostovpn dot org>
+ntor-onion-key E7t+r8jTK6V4CPMNein+QGosIjJARJL7mD0+BnL8zBo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 4YAqiKi1bYqTyc7Og+ZPcWzNMapnHeZdAWFUWYN6COQ9h4F6P3319bThv6a/rDdnrKFygnbOfTikKsNJ1orACw
+router-signature
+-----BEGIN SIGNATURE-----
+BJtgWOB6PutUfy/Qz1R4nd8b6TiwBnN4PJYV/W5SbC6+B9zE0fxWf8JRp30cnBmE
+dcLA41QhqXVh7XqJNlMQbKdYx3YyvUvS54q7xl2kAcFlOiUHhrMWgCaD6F6Ts1UP
+YnLXXk2hHlfvXerk5GGV4HlL4P9INqpHu4n4XdqBOpY=
+-----END SIGNATURE-----

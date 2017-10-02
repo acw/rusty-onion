@@ -1,0 +1,51 @@
+router uovobw 188.40.49.86 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKRAYkd0GuRFCzpi8hvhgRYIjyc6HqEMXym6Xa59THZFX+nAQAgBADOhNqr
+JBGUUmtc1jRCYTkZ9hTLw0RmuyIIThq4sC0IJ4mleNwOQrUx3FNSaoa5caPKRGMu
+CCT46t29+Yx1jrGQ/gJHAqY59fQrA47XKFwFxRctdpT7s08YxJDZC7diSQk=
+-----END ED25519 CERT-----
+master-key-ed25519 zoTaqyQRlFJrXNY0QmE5GfYUy8NEZrsiCE4auLAtCCc
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:56:20
+fingerprint 86F2 828C B4B0 8755 1560 7F4E 2097 9515 42B7 13EF
+uptime 1243098
+bandwidth 1024000 2048000 1256515
+extra-info-digest 316C66D5AAD5B620035BFA753C49E470008A966A bXwAr7CNB66erGcRBWqkgMAnoqcZ/lN7RUD0m0zSY1I
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALvw4Wd/aTeKOKvGAmlECGyDezbdW1YaS3i5T81U7DXdUpjAN6acYb64
+dNONJuGLQ2543dj1TKZTAGkToD6tNSFFaGYAr0+2cOVbUzU8SglsuidJaj5JhG+e
+aES3yy1Em9F59ao43tHOzR20pztyxMpEcbhQyQtWFloUCTfeUU6NAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAP0Pg0shWH6lzynTO6NSzCSjAdGKDAkztaRV40Ujnl/nfwlCaj7YfeVm
+MJshowvLLfDb9vnxB/zAJ51xnK2Ei8TV/8JgwKO5myHNpoTuHBulQjyLGZJq8PT9
+9pRwmA79FwVswk4tBvG96pwcYnk51WdxTAOUZY5v2LbhRHtSi2lLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+R11+Y4ehjcLoC67lTRrqSVi4/gqVjOJ7WHhmjuMx2FPgc3o+Wrhd8RwdRYdjgpuI
+fGuKNx5u+0KY57BO2lvJAlHFyhOSHjHQ6LOZBtk4KSDSH/avwM/4BfhAke2gToXN
+RGRWS24oe8T1uJ0/i1cmA0GpSjoOqD39haujok1Nt2Q=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDAc6E2qskEZRSa1zWNEJhORn2FMvDRGa7IghOGriwLQgnAJ66gEcmKnza
+4LrTk/6fFG4Q4P4hmkMjIQU/7Y4KZT/k8iZxJ8vNMqt3HFfbTivS6faPwYHcQUzI
+/Sx2WV55jAQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Andrea Lusuardi <uovobw@gmail.com>
+ntor-onion-key vnFRwAS+x4fTtT8WTGc76O2OkM+VPbEEFXvs9jBdsxU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 nDyKqLqnWBfB/8fkOkXlEAKPjWYA07ZjFEt6HGl0/Qd6sz92dtPmEyzhHGCzQyK1PjrNejTbXng7TamFvIi/Aw
+router-signature
+-----BEGIN SIGNATURE-----
+SGjBTVz/gNdJjHJguH2vmZ4PK//YgPZ/1lPt2j6U9TUtUJMd3T0WG8rRdNBpx5XN
+p4UkaiuXHDB7tyPRCLCFafuMqHh8P+vsqASN6ax3GMxpJMtz1BJYH0nxRyG89+ZR
+OVM0SWK2/vL7YxEokng7YPJCwyyYT+471SVnZUJdml8=
+-----END SIGNATURE-----

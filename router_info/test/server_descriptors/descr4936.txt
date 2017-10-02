@@ -1,0 +1,40 @@
+router ecramrelay2 143.106.60.70 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 23:06:31
+fingerprint 6BF9 13C3 1A47 E020 6371 2101 4DB2 AFE0 877B D31B
+uptime 5981416
+bandwidth 204800 409600 236606
+extra-info-digest 5F585E48C14B47654FDFFCD3F5FCC3E0AFA3A295
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN4HhqU4EIaRVFgXPSiRos/Qb6jdqJ7S7D12V8ETSrR3n/OCwkdvgicD
+YKGqC30Ewoh9hyPYbZKK/CwkHBaetIvHpmKtLuXfGpiw6QsQ1vwMCF+F10WAxwi6
+Gw01mqFs49rrT9Z38qWJRCB0TprAA2dwhspz+Ss/aucxfI9aZ6fhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMHN9yxajt5EK6rioCumJXu2HWnHowZmCxl/pyDGTIgMja4UKcmibFJr
+z5dsFHeJ3L/L0f0muFjWdou2yjy1jRsaNl08OICulPimKlKDn6iNCV8Fv2sSgPpP
+V2jBEvYjUJQSWenvFWTrWMkOR+NzQwu89bxHVRKmKrCdQke6kwoPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact ecram <ecram@mail2tor.com>
+ntor-onion-key ZwhO1+F0COsZXjK1NI9CM840U+MH6NSXmci0lHmhinA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 143.106.60.70:*
+accept *:53
+accept *:80
+accept *:443
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+rUrAFU02VZids+pqvs8A+IilC1+DIbx+ZRDSkefQE4ttTOUUJXaG0d/QhMkB/+xD
+hDMVJ/1YNBZtCfhSuSpxoCMBbt4JJAKMqtiPQ8kI6qNfslngB4LDbfcAsn8Va9aG
+FDVTwAoPVzTkYO6WtaPicwW4nS0XQN9ekuzBsY4Eyt4=
+-----END SIGNATURE-----

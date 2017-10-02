@@ -1,0 +1,50 @@
+router morpheus 51.15.131.121 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABl/8ARC0wFff6fFKoA2+/gmUcIXvUw2LHWFx5zX5xOKLwcTXAQAgBABl72nH
+EuKNLxgtkT0G9YUw4nDXd1kwNhAnH2ec978lcL/dS9Vii+Y0YhK1C2QGrr0gvgdL
+skn4yLH5WTca7FRZ1vaK3LeST/VAnc1/WVj00S8HxuA9JRnEt5tC2GG8AAM=
+-----END ED25519 CERT-----
+master-key-ed25519 Ze9pxxLijS8YLZE9BvWFMOJw13dZMDYQJx9nnPe/JXA
+platform Tor 0.2.8.9 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:51:39
+fingerprint 391A AD89 A7E6 502E FC8B 314A 484B 1E0D 8050 348C
+uptime 558847
+bandwidth 1073741824 1073741824 11570965
+extra-info-digest F599169D09E360FC9A1F5247592F88D9202F5E54 3X+6btz18Ps4sUB4lw5Trx4Cv1O5jVb3g4IGZrpAqFo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL+zvrDMEaNQ5yJio9vhYBVkYLLUtR2yB4Td9ETc/S4f6Vl62POEBW8E
+kLAQkW1n+WQPMKgnSJgVuB2N/CKGLuVrN4s5OOkr6WjuKSs1NpXJxVu/AzNJCKig
+e3nYlzm+5vE7XozEv3O+lvas4/agNSRG2rKVDrt5/c1l1vyO+aSlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKfu3b6I3kcv9akr1nh7REvwCvSLTYWTiF26I5I3BFdujDPagT4Xt1a5
+9y8N5BSL2W95porZ9VtPQodAM+uPg3p+FsbbnFHi5pNMEgJF6EjBYDyckvhzb1qW
+jc1UwVlV1RufEszuiIh1ItXZTL6e+voYUKk1dGIblCiMTJcxHQ/dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+X9m76HyWr8LdkPxEqLw9V1uRu66J9nglFcbgNHGEOlNAd2vZC7X6ccnbBA40Hxh3
+4vZz24RUu3KF8AfOWMojnW6SAguwTbqUn/jJLEasmxCqnYenUyA24NVox1M75t/n
+ViUVNb2JhNCFk2cG4dvgCgTW6xxU82aZWKwTHtoPOdU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAWXvaccS4o0vGC2RPQb1hTDicNd3WTA2ECcfZ5z3vyVwAPgftCW5iQZw
+XuGjcINMVLEdjCtebxGkCcF0Db2u+MXGy3Hu3ahBEhQV8cZO9vZcpyZajghSVODE
+0GbTxhsY2AI=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key mtkviLVn+HcAmB836OUHChjRn12YtTV1bkXyrh24CWM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 onyKfHHAZZvFxyew/1KrG34Pd2w0EuhXcWyOSST6UDe6TOGzEfJmDj/54syX5QRp2TyiPBewM8kcm/lEQVzTBw
+router-signature
+-----BEGIN SIGNATURE-----
+fX7aZ8EcD1EfFCmQ22fJyjjROnPxroBwXDm+GllD7HTFp+t9kycwpeQTRlanQyxf
+w06ETGVr091DO3inCZl+FoSnZq9XdJnkyZVJFoRxSxEGfA/6wV2lK/emMTy0Fue3
+Yxkwswps9WaH0h2DbqUrlaJZ/+TypR93ElKd0Q/GBo8=
+-----END SIGNATURE-----

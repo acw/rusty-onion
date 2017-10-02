@@ -1,0 +1,50 @@
+router amershan 46.148.18.34 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmK2AReyUAlT5Jx/Jw/seWGEfZuOt17M8dbzj36tfoyWR4EgAQAgBACRVY0p
+I8PjpZjNpnnHEIaAJeMbIClXDAvvjHjpafOCKnzcIwMaTfyTxkNtW4kQlyI5v4xR
+p1onC3NtXIElgijaIE+6s0cQL3hQ/BG4uLLFjrYUDBdUoCuwIzHGqeeD9wQ=
+-----END ED25519 CERT-----
+master-key-ed25519 kVWNKSPD46WYzaZ5xxCGgCXjGyApVwwL74x46Wnzgio
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:02:58
+fingerprint 4696 EA01 716C 7908 F4AD 3B40 2A41 25E5 56C0 C67E
+uptime 59
+bandwidth 1073741824 1073741824 7243776
+extra-info-digest ACA0EB9CDEF1A839AAC0A0EC7D073B16CD7B526C ZFN/sWU/e0+jnQAphpzdVdP0AKVNbyQKpGiP9vRtcMo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALPnhSA15b0EMIb5TjNWtmpUaJJvS5v8YF32CoBCBCCqcs9UnvyTjd83
+QNCU5GzdmljD+CueOnpMnVlM0uQ/w2bV128W+IzKtzJm3NDc0dDyxXHsmnZ5Vrad
+GyDSsMtsYJEkjoWzyKmHrw3/JRsUcMj2XoMh9athD7F11c7zv1uhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMcWT7AzewJIDLjHdSzmnanJZJcJRmArGeU3WEkHVuej5lyea62ETxxP
+UVqlS1u8FUfTqgabZQOXZ1TNR44I+adVFx4jlC6WOr9AHC/cYJFd/NC+9n2sLgxa
+Jgzcf/A5juFSgHndmIaN9gtY0U3eN7B3ROo0EEg0zVRx3n2/YiRPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Rf7Dsn/FIrA87Ln3PsP+X2iE5E7qljHswnI45KnomLlfU9AF05ZX/Upr/FwovGcx
+2e4e+6AeKysKqdGW2A81bVRjM9WQY5e1iS3gaVAKFvJd42g9fGsX3Avjf8Pq9auJ
+s38n0BvzNuFCtSNl6Cphps05emhC5yEK8YNbchNX3hQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAZFVjSkjw+OlmM2meccQhoAl4xsgKVcMC++MeOlp84IqAEHjMbjHNsJ9
+gvgFevG/ow6DdKpHPZ9eH8f8SkOvAU10DT4LIay05w241OYhWKzfB3vkJo9/luQp
+frPZnbwNkQA=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key rW/CqYovJUw0bfzbqZd2TryTXk27tNswlZ0XBSQQuzQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 QNYKVUBHh+XfsjgRUy3SWhGOP+fZgNm+KUwkFfhaN04YJIV6grbWKv9OeoHvYv2aDheGga5Gb+G37Hw+6huGDA
+router-signature
+-----BEGIN SIGNATURE-----
+f9KClRn35QmP/a56H8QmrAsy3kRzzZCPhuIeSuzsXaVMq7e8tfGtxkaHOilkS6Wi
+ny2fF21Ixw8uc2AmqCl9udkNViTVA/oHsMkZfOU4kdktLvw8AEmjkXbi9pYTVUVl
+7A/DnNW+CNQ5GyskfwIIHN5XX/NWTk51nNP4zQmrDh0=
+-----END SIGNATURE-----

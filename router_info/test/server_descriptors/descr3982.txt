@@ -1,0 +1,37 @@
+router worldbesttor 222.110.3.1 443 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:15:48
+fingerprint 9018 0355 C3B9 C522 F7A9 1ECD 183F 61A8 A973 C573
+uptime 2734142
+bandwidth 1073741824 1073741824 1696165
+extra-info-digest 500F003F7E26CAA20D4870E4CD7C5C1EE32792AC
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALBHfFh+Q8KG4XqnoxzIl4lME55xtan3fbamT0SnUvGB84u69RCkRowI
+WvuGqqShJO/iuXHkcdHFFPar6cDfkcFw11X1sW6ahnvxWIwZgNopFJNqXVpbKnEU
+0gu6PW5WzzXOO04/3gpfJ7Rhr0ZyMnFddcJb36TZ6D2AvuNXLivBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANPTlrOMOQ1xuhtKWWzRsVFI//dwLnbd3PYonTDDYvhNJDC4A3CgpNcq
+H26XVzSU5GJM4VNjt+FFRfp4TqY9qsxvvL4lPkmxPUXdSri3Uf1BW0VWhmy7BGUm
+r5i22bcLhIXITANZnjuPD1BI2Ry9hz0LCOMmoVeDK4fb8XI7Jr4PAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact world@best
+ntor-onion-key sKEdT9QZrl5BJdKJ2WfBH+MVvy2X5kgySBrZtFbkxGs=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 222.110.3.1:*
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+GKQOOBWVFXZuTsIDt0zUqQU/JemKk8Hc4gs8DlMUZqXHnrRDaqXTos1MgN9iAOXK
+Yc1qEnptepvArEeE88njb/8jBx/T+oMLQPsD90Vu51zgKNvCqTsSqDqIBLSipQbm
+7xljK5uPrBDuzGCecCEeF1opki91qxgnsT6oUzxgFIk=
+-----END SIGNATURE-----

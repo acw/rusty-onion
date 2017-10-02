@@ -1,0 +1,52 @@
+router TorNull 45.62.232.56 20 0 21
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKGAc0r5j2BdlwMQX5RkoiGrIzZRN8fFwbV6FXs4BrjH0foAQAgBABwmFVJ
+88xHtBvh4ypRm/QpAOJHE4ToLT9z0eXAzv0K14Dj0xuC1KZEXXICTy1GaBbKtNFX
+Nx7n0uTmIBboQPEYwnEt/MmHVxCtRMQdZDgmk1yWrbLEFqxe+sJTFFXU2gc=
+-----END ED25519 CERT-----
+master-key-ed25519 cJhVSfPMR7Qb4eMqUZv0KQDiRxOE6C0/c9HlwM79Ctc
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:45:22
+fingerprint 74B0 B287 2542 00FA 8851 EADD C7B1 BB67 FBFD 4583
+uptime 1056189
+bandwidth 2621440 3276800 3150788
+extra-info-digest DC2644B2C537B13B1F19B918E3DF443F535810B4 vrEk8gn6hEAtNZYLqmHdHmR/ALwYbZIXObAIy0+/Ncc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKYzqwtdtv5DrDm1DpI1FtC/To31docGemfHXRHMq7ioB0cJe83J1XYi
+ATOtXwBtM0rZiFutlc+fDFKkcxLdiDrjGvW7+kzowayuPFn+g+YwWQC2rkrgjNP3
+6qxBD4chKp8r4x7tOZWFY65ir6xuZJMFBx7sK7nl+77ne1LRsG+TAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANBK0qua/1WdIB7xC46ze1BtwiEIWcUtTJKK1kgX2IKd52G0doM/AXwr
+jXWL6qM9OjZ6poZ/fh4u6FEYXw4ZGjec5+eoOcwbynOmSEGtrzbIrLZyckuUmVxi
+JalZAOmvFTdXMmTT5rJtSgS1YR/NUdwObvrrswG9PNda28Gdy0dNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+SiBgjNnlGvNDltlPDmXu6qmFuDPPKqi6KehKZw1Lxw2yf6X+jv8OWutcImyDQO74
+UQHC++faw2y9IkFSQGqTiqGuVLvPs2Qk1j75SYrvyU8MDtKlugpQ7Z2v2BOneYaY
+9HdhDIesKlHX0M1ldJ5JhjlEm3rgv1uvCeOaaGWK+E4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAXCYVUnzzEe0G+HjKlGb9CkA4kcThOgtP3PR5cDO/QrXAJJf+J/vNm64
+mZdKqlbAFWTgQ8dMlcBXv5Fjd3mbLLR07Mw4ruP6wBgevX39pgP3L8X9g3n6MXGK
+1R6PYS3gqwU=
+-----END ED25519 CERT-----
+family $5FC7CAE4A5ED53B797E0B76578BF489F749E3AE8 $D70FA6CF32C8CF7CED471CD47C3CBB9DF75CAA87
+hidden-service-dir
+contact truenorth (at) tutanota (dot) com - 19YY5WPi5WtWAjiiW1jUbihCTTwBNYnXg9 - tornull.org - tornulst2rbxvbpd.onion - Donating CPU to : zcashtorservers.zapto.org
+ntor-onion-key 4rhdLlYdGVnmG4mkeUvSejrELguJHV1iwVLJVBZ3rBA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 WQOFEoeRvPr1dGR5bo5YZsddjMaBprWHNCpkkVZQsxXzitQfdXlEkTAYi9M6PJDCn2tX6HROnYVghGUx2F4TCw
+router-signature
+-----BEGIN SIGNATURE-----
+JX014etZjPiBYDQ198m8FpEJG8jeGUbNHoyfkt25YMBjp+KN1cPlmPQAehZrgRFY
+HbxylEZfMeQ5/9A8bghp3Z+H3cKPH+FynuPaxUlj3ZSm/VBRVqvboTfMAoJhfbPn
+v49+2C+DXEl3jOiBAfyJ3wcChcuEcqQUzrEOYZ7whOI=
+-----END SIGNATURE-----

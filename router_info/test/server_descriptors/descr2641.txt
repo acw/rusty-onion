@@ -1,0 +1,40 @@
+router Gegety 94.102.50.42 9001 0 9030
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:58:02
+fingerprint C265 E94A 68A9 EC74 EEC5 6954 0CE0 3371 26D2 D53A
+uptime 930677
+bandwidth 460800 716800 649502
+extra-info-digest 8F885E94E29100E68154103331DD5B3F2255548E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOgSIULJkWw1ZotBJic0/xUCabbIwa8c64gMuPctZ358hDlhj/Bz0ALJ
+xpjHDtGR+goEOOuyLCn8A/seubEa6KkDCsnIx5rEo6CowT2ZzsHyftGwkzuP90dl
+mwJ6hixOCr2dJ0uEIeF/IFETKupZl8aimCccAQu3SL2ve+d2ZnW1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOh/pz8hC36YjFLTU6aRSPas6iDAyJM2sSK91JY3Ee8EBe9LnowXNMkN
+tdKvaQHIJFSFW00gZigCZpq5+PotuOnNDffW1BNxKPDpxR8MbmDS83RCKIAMXsZe
+StzBVFdhiB9oXzJHvwpgavO2Yxp84OGGRglf2s9IhSFOeXTs253NAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Random Person <nobody AT example dot com>
+ntor-onion-key XGobaWwrFgcvrJGVn4AGqFPU31JzveTEBNh+hEA9ulI=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 94.102.50.42:*
+accept *:80
+accept *:443
+accept *:53
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+f4bjZS9zogr1N3gshfMX7q6bTyyBEDpJTQdepi1TyIN07Ubpp3qGkLFHZ4tRRokp
+D/ZGBCPKB9Yzw6fySXvMQ0aH6D/bGh5eq+G3BjKDgrX6yY3rM1Z92OW8Wzcc2Dgn
+aTe2ZZw64Tn9v8veNObz0+DJMVH27TIjIvR7V5EUa0E=
+-----END SIGNATURE-----

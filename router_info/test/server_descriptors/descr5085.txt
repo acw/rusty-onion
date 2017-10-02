@@ -1,0 +1,30 @@
+router DedicatedPi 149.56.204.126 443 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:03:36
+fingerprint 65D9 E71B 637A 0E50 8B91 46BD CF66 DEBC 52F4 8BE1
+uptime 5103754
+bandwidth 1073741824 1073741824 9808541
+extra-info-digest 16A0DC867266A9732FE610CD0F17A27C7BEFFB69
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALKLBwxcJ2XYViIj9WLRAjHbRiKqaf+tjRZe2lYCC5/ETYNbzfHLQufw
+RkJ9iFGpeGSaJ4lJvtwpEFtfg/OhRAVS7XEm0vmSPaJidBaIrJVxx74QC9YRw6Y4
+0KE/sjOxB6V6TRu6sw9pfotUutO8mTe7jI2AfQC/b9NoIO0GZe8LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJlJTt4byq6J/RNS20x+XTlSi+bRr5VqvT5xPnFFaJugxV9Y4spA2XSV
+spfE/PQFc2Yrw4bG5c5C8IkXCJU5UI+k0XbumSmgdksrgs5yVUknOdBmwijoWbqO
+iyRNMwK5y4j1XzKTcd8l+0h10uqI8JYLctVnuTjPxHTLixumLe+XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact DedicatedPi <contact AT dedicatedpi.com>
+ntor-onion-key CQ5q4ys9lGeOcRvnvt41n9G5cpaC6Xpe/3MBUMqZKgQ=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+O2B3KvdBFlI8X6/Fr/zB34JWJ9CoBUl5tuH5pOGSx03g178I5Ah1fTmB1gF+v6pC
+/U0BzcprH5ayFQfufHCLYDVnkT5Bc2aVFRozFfYWg8crsHtp15MuPe/NREZYLK2B
+/FFh9Cc2con3JnVrELMGOU8IsSu06eVi4PD38UC+XCY=
+-----END SIGNATURE-----

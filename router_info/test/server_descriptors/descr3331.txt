@@ -1,0 +1,50 @@
+router ParadiseTorRelay2 193.228.143.17 80 0 110
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIqAVzdqrmQFfoj953fSlgPNB2IPDXhRwq/sPbmT8K3Ji76AQAgBADZ/f8p
+6HkmIV7hqdlaqdSfOzZ77zeoaoYkgOnFGIhjDIGJIV3CsfuI1M+5Jh145NhAw3LJ
+pXVXTk0FdibJ97k7W+jMGFv0VYe9qiljkSB27/T6FM6yMRkwrTa6fezJRQY=
+-----END ED25519 CERT-----
+master-key-ed25519 2f3/Keh5JiFe4anZWqnUnzs2e+83qGqGJIDpxRiIYww
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:36:41
+fingerprint A7A0 68B9 8859 1589 4140 62DF 5D21 C46E 34F2 B32E
+uptime 2455846
+bandwidth 73400320 104857600 7065591
+extra-info-digest 190F8BCAC81CC51E6103DA98542E72C7EFA523F2 h5gBKeskqx1mF8wVHoo1gFqCAktDOIvbe4DW/C9UYps
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALY7M1fa+nphK91SBrPHfSq/OI7XAIm2nPG0rgQ7fyQ7Gb6wxDaVBFgL
+SisWkBHKwgG40vc6lIGs/EUJEXyURVgv9B43ErAPtqyl+g3+Q0T03QfCjC3AzEQQ
+g3oRUNjekkp9032Q7K5ByX6inTziTV/DmASKgYm0Yj7/IDV32bWrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALNJEZz3Frtb91hjT9UV70iCCmYo3VugBtzoGEI2d1DxdiofF3Yq1PTl
+SX+uDcU1F4j4nSZ0veFohW9ETxMPEpLrDZ47t5YcrZV9XMxVtdg21sOZQ14I9RA1
+e82uWHJNJmRqokxEuMUVmfwGtsJaDYxKpfQHe4ZW5M5USvOUjWvNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hk+WJTsz94ejdae9JntGyaQ04NQr+4wX8TUFYDQSsMwo/TjU44BhnfHs9E6bv5vo
+N8b34Ekd+V9QUwszy1U6+yUc/jJLFRKJQ3gc402Ac8hICGbjMx3afW3BlOXlkBbz
+nCw7z9UimhtGA01Ukf5MJ29UUQ7PU6R0Sn8QVeBLu8s=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAdn9/ynoeSYhXuGp2Vqp1J87NnvvN6hqhiSA6cUYiGMMAKVwiiFP25WK
+AzryrWjye/dM7W04u/hrIWNpRZyH+/yrb82wL6T1rJqm1wAn5h7Skls2ix8kzECq
+8aVd+tZzpw0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Dave Null <dave@null.net>
+ntor-onion-key bxhmqBo65PBQqcMnIg+0oYfvkJyrGiqc/h85cURNfFI=
+reject *:*
+router-sig-ed25519 TX1E+XNAowFOYQtF7yq5RtjP0EnF2lyc5D1ozuVxXr/69Oa09s3ljG6KZaT5mY89N20VMeE4mjJIZG92JprpBA
+router-signature
+-----BEGIN SIGNATURE-----
+K7i19rZ2ZzX8QPLIm/xBj+ubh2nWg9F4XNfepT633S2oGZzRCnhvoCi0f5PnaGJU
+yPOe0wjyL28IVHH3uf6BxwWqhK7K5dD3pelT/u8U/AcAWcIJ2ZGNlFR8YI8WrM+3
+Qhzhl/76Nu8IULC/bvA3O+zftczQ1xLYmbdhwxkjgAM=
+-----END SIGNATURE-----

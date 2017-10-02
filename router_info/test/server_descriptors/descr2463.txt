@@ -1,0 +1,30 @@
+router torelay 37.228.134.103 443 0 0
+or-address [2a06:1c40::4a1]:443
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 23:25:21
+fingerprint C833 CFDE 2222 92FD 85C0 4893 1AB9 0CA4 B2AA 204C
+uptime 847168
+bandwidth 1310720 1433600 1453933
+extra-info-digest 41CBE5A21E05EB15AF484D03ABF5237136CA0419
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKqna2cDMVtfpp7LSCTXo9qiQJ9yKbnuUOLCu3uVkEaOAjhRCy6ZHeqX
+ZTnVy0EPLHPRM0uv7QtVJ1YWhjSWK86du22Oq5JYEsEhbrTP1BlR4EKqbPr3mQod
+V8DEryWxo4eiaqDQQJedDSYoAY5VzbQ0lGCOPV5xY7rNG+VnZAx9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALbmtWqBmiv4R3E2IWVjXNVabuv7qASGUIDnIYMP6cfL4n0Y7x7MqutP
+PvPUxYaKDvzxBpaqng5Am79AfmFuOzrHfuiF1/L3RBIuapi8OKWRSiP8qN1BPGWT
+MhexUgs2nT1+wCPLIFhJP2/VgsII2VbvfdFAIt+CmOXUm9FsVxfTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key tT6jxdikZ+vsOBDHFzGDqOnYhbu+9xoDI/ntrbyfgE8=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+I9kOfBISMMgyWtTMW+iGzhLAkpTDIB5lyGW7aC9PP0/CTZLo7AS2pZqZppgMCX8p
+7K6AQFVafLM2D1vmCuR/Nr1Q9do9bip2YVbloxPcbCqCffEBTe2Ad3tq8zg0P7Q+
+us2JJGtyh2CYm89V90loIRR65RSNofcAjmENTxYB2Lk=
+-----END SIGNATURE-----

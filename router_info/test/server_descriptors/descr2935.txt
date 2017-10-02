@@ -1,0 +1,51 @@
+router stauraum 91.18.235.216 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBpAWHtpUvCY4Yp+RdqGvlAaQhxj4/+ilV5Gezud8DxOzv3AQAgBADrIAYn
+ImoCM1AMIhKPxa0cKaknSZXqK3dtmUjRCDhHJmkpdfzMZde/o06onEniIp7yJUuW
+Xw3M2EQaIv6Gw1ux2hGmsHNQ3AIERM1AUFDWO+3di0c+nf5yPMnL9Kf4VQ0=
+-----END ED25519 CERT-----
+master-key-ed25519 6yAGJyJqAjNQDCISj8WtHCmpJ0mV6it3bZlI0Qg4RyY
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:24:01
+fingerprint B6AC 0AC5 3BFC 3D38 D931 813E AA1B F533 98CE D059
+uptime 281402
+bandwidth 8388608 8388608 1148199
+extra-info-digest 601CA5797F275CD1505EC71DDEBBF5450A84DE15 4ZPQNQrtzdJzZ/gKKsNLudA28gANrE1qBmk3j429WHg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMZ5HhUQskvctx/jGD4FV0DxSaUEaoF64p4U6WssU3RAJY0KbVpE2HmA
+AVVbPCIpe62mT69HcZMUgO38rjPH4PgLmKrcUK/oLVvPfMO/BTb1krmnMC6nyOXR
+0NQbCviSVn5DarI1Aye4LRZptWbEmV5EOJw5kP+RbyeoQ3LNfoJ7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANwTXICAii7qXKoFwm0KMYBph9DWY8VI1Jgc7VZNMDVQ73820OMEb2nv
+TBIYib5Ut2lK3QfQIrsIiSehp3tUPlCEIP0xk7zPkR3yJGDvm/IbDPVDaeGKRy43
+hLJEq3WwT5fpBCYMhIei8fzgwapTY6MfoWdM8r1JZCkz8hqefUjVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+dHo9xIqXrtxO9ea1KwV9JCK0Ha0RoGzNjyUNZc4S0FS5f9XwPbIMWjBFb5Dz9GOy
+QSTvYrubymg0z28u0GIjjb87Emo1R2q4PvGNU8LMem6KyfQcu3QF6dUc+dGMQM2p
+cR03lmDQIaePZrmU9y+bEDL8Ir+t5mDdaMC2HGy5wqk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAesgBiciagIzUAwiEo/FrRwpqSdJleord22ZSNEIOEcmAFxkoaUkX8b2
+DLvV0YFl57rdRePSMup1PD7gMSPdydSY6hjpNS81JRO1AFyTD4NLzcNSNh0gCKUw
+QNfmPctYDQQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact stauraum@trash-mail.com
+ntor-onion-key AuCUzfG4ZLtiIHZAITaEp3p5spnuR7OYevBKTiuZyXs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 tJEvJ+vaVeyp5bovOQX2VR5KMlot/nGSBdiro2TMe5JIPMA6/hL56ZJzqW4nNv7Kd4NNebUfE92qgtix1yrpCg
+router-signature
+-----BEGIN SIGNATURE-----
+T1f7M56W7PnADBgPrZjtLA7p6XIBEl+JNn/ZsMMLGDnQwSI7edpmsdUzJ630ErFC
+ERkEv81eIamb+AvUC+N6EiHORQs80b7HNwC2B1VaugPAhpnb7lwTeEP1CCca6ePg
+HZu4FDj7Cb9njWlORIjH1xmteZKYMs0W+aatyI9c/Pc=
+-----END SIGNATURE-----

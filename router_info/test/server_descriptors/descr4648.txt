@@ -1,0 +1,60 @@
+router RaspberryRipple42 46.4.81.178 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDhATs+nSSqnFGylPNVoO14stFmamAlRPGrz05RBBIfJ9X6AQAgBAC5KkjN
+Fuc4kqfKoqWx+NYJctQSQ5OduNfpFGh25i/K0NPYjgYZ+b/ICSp4UeXzdS7SC2+P
+smnPE2vv7KWWJggk9KjyxhSwteZVbVBw6oQUFpkmGlrqFbubOIWxdWL6XAs=
+-----END ED25519 CERT-----
+master-key-ed25519 uSpIzRbnOJKnyqKlsfjWCXLUEkOTnbjX6RRoduYvytA
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:29:46
+fingerprint 7723 B1B4 B2B4 D9D1 6120 9F77 0079 A6F0 A5A9 29BC
+uptime 1659558
+bandwidth 1280000 1280000 1852816
+extra-info-digest ABA72B6D200A38C80F4F1584475CDD9D83163E24 /oZdyjTtYCXHhf5FraSj7N59kr66tnnv+NZwJDpodhs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOeTGcXKdsVSOY9C7gDM3Ac73y1Dug5VaaNDJe38QnJy1Fi1V+PwVW02
+TplYCUMEovsVulY4iyFH3Y/IVDml7/ERgoXcl4FxuUTiZHDE6HDByM7ggD5GjK2N
+BRiTuTum8A7AHPnwJj/qSlSVvQhmiDh46eAgAW64nIjaOThRA6GxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANT8l46r+a9Nl8Z7es1sKdaMeEHHfmeoV1MVB/uWRKNRhFi60akvxgu0
+aa7EzQhWWzR8Eyl6XMxpeI/MueMwvj/pIccGJl5mZyS8fm9RDqh6xnVfHBMxlzoF
+7bbpzqesLyGtQCg7WNqRSUiHOCKjv8UWunWLqwEJF8XVa7nENZ4VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+dEm0ll8nPMRJtVQeY9Jpy6wSIRDywsS12rhza2nSGyzmbgGkEwP74aJrUmRFqOEm
+ovbKB0WXoOK0KpUctv0ixEnLFRQ+Fnt7ACYj5GnvGyuW7kw79EgOb9Z5TrDMEcDn
+rB3ZcdpUWomOuOlMIzfYDZHaPzlcgJTMyNUxQE6/kV0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCHAbkqSM0W5ziSp8qipbH41gly1BJDk5241+kUaHbmL8rQADvD6ZQKMo3t
+GFZtm1vGx0HfRYpjubVXOOaQH7FAfMOhSafdDYZqt+8Je9Olfa3oHMswvCmAIfAM
+i62IV2xR3gU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Jimmy <tor@uplinkzero.com>
+ntor-onion-key 3ngRm0NirbZa1fc0Z0flkwpMSsZjY2U7KNallq91zC4=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 46.4.81.178:*
+accept *:80
+accept *:443
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Oi9oT2Nem9LP1h1gkZ9OhMLuCGOrNq6dKOdH7adJbvAgquba0KLfYD1ZgTI7hC5OwtQxgtWzplp7ed9Vg2kBDA
+router-signature
+-----BEGIN SIGNATURE-----
+OHhLVduTlTJRUXDTGvEoj5vdddc+qN5OACdBTheJ0Hd8wLw1Hi06OZqAe6KkQH4L
+94wqdjlWG9UwIF2mf+iy5Se8GVTVQhaqViV2F6D8vWO7JkeLUmBOCi9gRdsyoF2k
+SzdN9fJFbw6B7kHlKpxkaEz6/gEvWU3z7E4DH7kHgII=
+-----END SIGNATURE-----

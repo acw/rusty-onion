@@ -1,0 +1,51 @@
+router ifigenia 5.9.98.43 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmITAQPDZhl+sBdQZiHY7Mx3dcK65MqZxWgW7Ks05N09E/rbAQAgBADH8sVW
+x48GIuCDB8nVZXqlgEJAeRMXlWn9bQ8R6P68NrM88peuGJpN59mdS9NPQ2VnjmL2
+uHpzYo0aUpR8U87nLPeyR6NyNUIzJ3k5yPHt2UJu4qvs4H5ikhoojIeMSAc=
+-----END ED25519 CERT-----
+master-key-ed25519 x/LFVsePBiLggwfJ1WV6pYBCQHkTF5Vp/W0PEej+vDY
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:10:14
+fingerprint F6CD 4DBF 5850 AC43 86DD 9A42 4918 AD3C 6BA2 716F
+uptime 1032550
+bandwidth 1073741824 1073741824 117754
+extra-info-digest A2B1A8EFE873DE7C7317E006D988843EA527E25A Y2YaNCDyG0kdN3v0CHH79lMAeVlfr8sEBvXHEQZZvh4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKn/ijSEOQ+tByo4dNiCejvdbQ9Yj2z0uGzsEWmlRHoZgoGK3vlN+9pf
+VwaUOL0kV/MoKzbTGABgYztuFsdhUJVAAJTZjRxoMI0v2HHsr6lPyfDLvTyT8y+X
+0zGYBuOXE59CGKJNnsWoHFd5bBibRpi3z/txKqWd/PMtG1FkD8B9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANF70mtuLmRwoeBjYIJxePA+xnZ4MJc0FgU3Psy+65np7zteXDJe1ckT
+jiUtKwj9qiQXGN0fUiNw+kVKZzT8w3UB3LQaQlbGmJipKoykzpk8EeajwUhQ4Sma
+/mmuG4YJU7i3Q+Tdo7wngysJq/qG+OYq5oL2JQVVKgeWDxn85tdTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ertv/mlbJyyeNspkIv43BIbnVWJVszQuw0ayOORP2bxsd/1v7lN1P0ZiPZDwNo8R
+Ks9joihHbwnjiE5SVeNRG1yKWIOgerrgaHvJk1gqO0PjQvitiyn0JWTFyw4v4ppK
+1x6LcflvA3L+7oPqIAjaNTDpRuaQjbLzbKmznHyIu0g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCGAcfyxVbHjwYi4IMHydVleqWAQkB5ExeVaf1tDxHo/rw2ANDDwFXgDGRS
+Nh2t/haG1UjziLilvSpkKl+O01UxKAGql+RMHf03MxLdm/ZeJtW75AQAbrNmP7Kw
+Qu7uPawdmgQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <Jannis> jannisde85@eclipso.eu
+ntor-onion-key 9bfXxYvkANFIljA8T31wTvDUxRn/GFiQU43C0AmYMlk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Qa+WIvPUcFCfQfQ4kHhAVJVYJfwHsymqFe+2+MblbPyUnM1bjKZ4WLjrzl8eGF3aCemXQ3T/HHfGYXuLAsRwDg
+router-signature
+-----BEGIN SIGNATURE-----
+eO7R7MOVl74C8wwYJzmuJzWgbWcvDY3IIoMB1//NAWsNrKUrbbOOhP+gEudFtBTt
+dd6D4ydN03JsoTPQNAUiHSmdPaOP28WnDWu1VwqXrkwjCwYz6H2owWc9E051T71d
+yqqKXI5EipT9XPR2pQ7U0/HsDeDMQymFgevLnDTGh3Q=
+-----END SIGNATURE-----

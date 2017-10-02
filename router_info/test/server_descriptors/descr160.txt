@@ -1,0 +1,51 @@
+router Torponche2 37.59.125.83 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI5AWxq7RF7qdGtystckoYR2r4xGkeDbSrKhMQcTujn4AdCAQAgBAC8FYzS
+DpGfGlyKLorYxoisLQSQ5fLP8g54ZNDH0DDQUo1OtBUww6VFGoyJxVRyaotjq63Z
+RUVQA1YKtiE2yCCHw8UY4QYmQOpIfHpFV7wVzdj4y6uvMKGGNgymY20A+Ao=
+-----END ED25519 CERT-----
+master-key-ed25519 vBWM0g6Rnxpcii6K2MaIrC0EkOXyz/IOeGTQx9Aw0FI
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:27:11
+fingerprint A328 719A 41BD 7966 9EF0 A584 3948 3A8E 2D6D BD41
+uptime 468123
+bandwidth 1073741824 1073741824 6797331
+extra-info-digest 322727AA8FF3528E2903EB8F1E749EB06B5EFA97 zT1v6PJdwhnRYA2BoFVDadSxWAu4xpcVE1qGAJv7N+w
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALuD68k8YbVWneVUIyhFsGkNss/Kv3uzsZ2kW1C55qdvZlJRf/QcyrSb
+JaweDGEPh8PFE6PMhPFAC8vnUHuh/CxRgQ5LpVGWaKeQ5SyYdxA3opDLEHPu0CI2
+yZ1OUHiknv04KPLYCObEvCNyjCgcFFaywaK5qeU4R6KzqGqX3y8xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANwC6riTOUuz7HEMGnUEIfBLECioy5OecpwJO75eU8DZn5PMohPW7Km+
+DIu6MnOh0+7kOyqCXsa7eCxaNZajLv9YFCshgKEMJ5uZxuxu3yDFHiaQag3ItFyq
+2RM+ZX/l1kXpxX3XJ56t2HXukCnubPnYE9HkM9Wppoo7ksKh52QLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+KHb6HG+QvKGXPw5kELC12RWdiZqfNX1CanOeW/REnsATo54nfa4+8IaZkWVtmhAp
+Gjxomuq2TK0vmjvQ/MV8djdKZFWxcMbeJQ8T+6hI1+H1SC83gOdAoSt9QZ8mrtkX
++9YjiK1/qynYssgGQdUE5uZgJwERJPXPdOkwGJvGZSg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAbwVjNIOkZ8aXIouitjGiKwtBJDl8s/yDnhk0MfQMNBSANEIUo0KtKFo
+hJpgh7l6AEgE/xR4o94QBHBU1aevlBos0JjQm5IBx5iPZ4AheaDMUIJi38A7ADVf
+ZEf1hWe3DAM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <Soren Dreano> soren@dreano.net
+ntor-onion-key STP0omzh3UdCDsj7YMhbKMTd0WnbOKH6TQhDZyB4/0w=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 s9K1tfiK6GZbByOFXyjMma/iVLUgobdQHxlvr01yS5HGLzVdKJEkLHN/RzOnyqEiOqedsm/9ec/tSFTzxYzcCQ
+router-signature
+-----BEGIN SIGNATURE-----
+c5xtnkaDxXeolUlb2LCayhkUMUURi//LKNSuvZbgTYW2lVxsqHFuytRa5f8KDugM
+70s2ERnW18q31LxXnDtTuwuqMx5d3Nd0dY6+QGl/RtJL5WeB9gpj8kBKWGjdJCyE
+ALtAMCl+mUnKSfGpbahSTRoBDyjFipmVqg0fqcnrFSs=
+-----END SIGNATURE-----

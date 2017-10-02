@@ -1,0 +1,47 @@
+router HappyClawn 176.38.163.77 443 0 143
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:51:30
+fingerprint F1C1 E92D 6749 95B0 6871 909C 7B42 E80E 7A0F C7FC
+uptime 1500237
+bandwidth 1073741824 1073741824 499220
+extra-info-digest 436E2E6F87275737689B548876A1163CFD33E85F
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMdAzHywGUOw3lYqXO8/BzuYAIiE8uGBmZpI6cwuwsQwsmPwyK1BqD5U
+YJAKum6aqYo6+YEJZSm+J2RGlKu65nMUg7vVqPJDgaeAKI3iOJgZbMRC3uV6dm1i
+SNQAgV8xLlz68YHeXVdGj0gdWfAybfbUUoe0w/vy9i2PtSDWcNtVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALEzRdGehPoq9QpQ1B4P5A4yuzB5QOXpKHznd6HV1Zl0Rp1jF4RvBdNS
+xca51miTbHImu0dLSO5Mbm3ZMQyq4GRwA3OlZQS99RmDQ9YTzbn+9D5xItfnStcQ
+BrGxrZqQItcXYNGmMF1Ab6qPOzB4THy9fWeRyKB8it+peCCtsRdJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Generous Man <generousman _at_ sigaint _dut_ org>
+ntor-onion-key ULDKjbfK34v9O9wYwBuX64DtR/yX8SWmqs++QxAGHSs=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 176.38.163.77:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+EEBq/gRYyD0SFDh9pUZT5LyK6iQ/GivvvcTA4y7csVPS5IjrGcycjQ5wHt6W8Ayz
+BkyCFvBgdnVIg5g0DMBwzPcbUMnSkT8BMd9giiR/Gjiev04o6lXb0PObuFv7SO5h
+mICAar5qJGBiT50jpbLl024GwqqHsEiaAD7HJoMxN14=
+-----END SIGNATURE-----

@@ -1,0 +1,53 @@
+router Muscaria 5.28.106.163 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAEAYliwKIv1buOFZeoElxkm2mYqYlCLvRZem9O0UYBy7ftAQAgBAABIQ1a
+x0w9GVrPPYU1qUvZoAILh0RCWb+TWvTqtNYSr7OTpCkcYJ1HXcI2mrp7SXwcgicS
+Iuq2QSVcJ26JTQrHGMOmpKpAtzYGXEU+/i0meufg9Oc5zHhTMHrpOO2slAA=
+-----END ED25519 CERT-----
+master-key-ed25519 ASENWsdMPRlazz2FNalL2aACC4dEQlm/k1r06rTWEq8
+or-address [2001:470:6d:19b:21f:caff:fe00:1007]:9001
+platform Tor 0.3.0.10 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:21:13
+fingerprint BE33 7489 38B4 03DB BBC8 1082 6406 DDF1 DE11 9502
+uptime 154408
+bandwidth 348160 440320 415332
+extra-info-digest 716FEF98C631605DF0B76C9A9D62064F13FDFA9C 5vYOWUsVrcgJNGcsdnogleCGZ1hV2WhlPi2j5/T9cws
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANxGKySG3Y3V/Ihp4B+IY+K8PN0TgkqsbMamUp0YxkSPi2cOjM69Ab3L
+BsG9QKHwKcA13I6s2ucFomSXpwaW7wGA7QZptaQ4GDqriIXZZgpoK6L+3L/L6bEI
+iPoQDE2InxyLPLn6agDG0rIvbiVCu8Bvk6YUzJz3ruu0BVBjPPGpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMHPBhxaGnVhk59InIPuNWhLeLGEfe3B+rnnDLvsxkPzqKLz+SIymkbY
+EyaW69e4C/cndc8I80scmwrGJXtvnzkGgCE1GImJ5oB/ZL8YkzPyw/MGwahF3M1K
+sQ+Wfg2S5Ky4HKlLEvDUtEcGvNg7kmqHrJYpfWwvXnIqyT7atncpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+HVAN2PA/iLcXpiYobBSSKb1L1iq6yWBYLlagANYGHah7mGp49ICsi4jnI4HSb/it
+DOsdukIzyFCbmIjbc8yHy0seti8chFlZrOFJofHuswJioV2RwHRgYusCAi7iJmfj
+TLvGzycBRpcpBBwi2UnRRvl9GUCz4nSEvRGjwz5Wh8k=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAQEhDVrHTD0ZWs89hTWpS9mgAguHREJZv5Na9Oq01hKvAETMejL0a9II
+ON01Qx6K5MS1vRglcaGWewzZOBhNjG1JJFL4uSG1VTkJ5Vswfzz5n8SGLUvvwimq
+r4yEtcvmTAI=
+-----END ED25519 CERT-----
+family $A9D9D65C7D53472FF72D723B4A3D6CB758B0354C
+hidden-service-dir
+contact Amanita <keltasipuli@yahoo.se>
+ntor-onion-key U4eTmaoLxnZu7b2lDN8EgmqIByWAu+O4Xwl9aWefMQQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 vwKTXuzlGMGNRQq30v5b8JdrLVan/c4Dl3aWlJlRl/YEG69x1uMuzIDxWk6na5JqBWE90BaHrR1XUbKTnvbkDQ
+router-signature
+-----BEGIN SIGNATURE-----
+Dv16+7yPCrUm8Sq2IMjZbxXg4RVnlhvEZFzSo4YfZ4GEcvsvkgwDUdiMi3IYjK8Z
+kPa8hA1ro4wzGozmkbxaPd544u4XyRHOnU602QTQDUwy0pN0Q1l2TRtgFUGE4762
+TOVwI/pXZqUGVCsVoJ7NaRvsYrQ1kNzfY6BtMvJ2V98=
+-----END SIGNATURE-----

@@ -1,0 +1,70 @@
+router frankenhooker1 66.220.3.179 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIzAV0cbX2v9sbqKgAvrs26JGns3NhyLEYv5CjuxbbuhfaTAQAgBACjDKfi
+uE8vyE3HkAf2FNXbp+gHT0hSAPh/QI9lTZXPqXhgXhmJoU23/fCIp92utG2GxNRM
+c37U5rGDFM9PvOTvu/h6+5DFkcPek58jyr2VX8wgr2qKifb2cHDKjRxVtQA=
+-----END ED25519 CERT-----
+master-key-ed25519 owyn4rhPL8hNx5AH9hTV26foB09IUgD4f0CPZU2Vz6k
+or-address [2001:470:1:19::179]:9001
+platform Tor 0.2.8.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 04:05:52
+fingerprint D14A 197E BD9F 766D 1F9B 61F8 9C02 9920 A5FC 46C6
+uptime 18057719
+bandwidth 102400 204800 70630
+extra-info-digest 0ACC26BF8AB3A39F74A13A66A994FB0324829BC1 jG7kQlg1GiJVgrgadYHAGJeqWuQId3sehpVBkGwKtro
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK7NqdyoBv+fUFNTiXJk24wjrFCFuPatGhSaDvAjOBn0nCQUYVlFo/Or
+JRK7/xJb36xtPd1CctxRKHrVuSw7r2lFVNL4L0k4i5kCXz1rhcyXhYSLk3MCWvS/
+zTMMbDb8Q2lnyHEt4AsPwQI6Mva48f6+6Nzd9KvvttWO9f2fKaVpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMcsR/3olUWwTsVbmaKlR9lX+M/O9OIdlTQ2aunDqFpItWxxeoI2L1xs
+R+GBk3Syd7zQfg6Puhw5roNdujaRt8yzIghpM0CeKflQ3VbbbINB8Zjtrm9LIm7l
+43915t8oLmNxsuguYCMkQmVfGhrj9TrOkgAUp8CeJ5ycnujuhoArAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Tw48tMewxjWd2J8DyHhluJW/4DJ1nz3Edrs+bAsC1O17ibW7M3QqVNrTZVRY1wMD
+BD/8BzZk5zysiBobI2sM287xXL/tYtWYl/N3U1OaSyvYi6/ynFdj5ac7GATj1WKo
+fnI5B5GhOPfRRApIQba6MkMaL1aAPhAWfUYrQf0kZBw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCVAaMMp+K4Ty/ITceQB/YU1dun6AdPSFIA+H9Aj2VNlc+pAF4kiTJZJRBW
+5Dvl9dYKoeRprI1xnkz8YAxkzO4zwB0qfTE8CzxfFBFafOz64VUhGm0SNFDUlFgO
+uJgEQXkCuAQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x2789F1E6 Scott <scott AT spacepirates dot com>
+ntor-onion-key 8VJLl2UWgSNsUhLgae1lbS7/PzRpjR+KPOW0ShXichI=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 66.220.3.179:*
+reject *:6660-6667
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 NUuVMk9cGG2W/1PgGOy+kwNSqHev8iTBkERZm5NHH7rX+T/WthMH4UFga026glClfV1dW2jeNSL0Lfz3h7AbDg
+router-signature
+-----BEGIN SIGNATURE-----
+E907ncFmeINB5Zse2g1rLYxi04c6ULalWnoCzNkFbDkcIs+rHgUSSD7hnMbX9kmF
+h5ZdYfvSFOoFQhmuALAKiqUsGcG5P6aKtO3tEqHkHbLWoCd7nUP8ryvEHyblT/GF
+6WVLeEcDFSyD/s+5L2vSmT7OHtoZCINE7YieUXImJEo=
+-----END SIGNATURE-----

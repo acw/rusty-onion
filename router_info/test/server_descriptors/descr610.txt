@@ -1,0 +1,51 @@
+router wkn0de 83.254.19.5 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDTAemzA1H2d43e/QDvtYU8gERkwdh7tXwztrwwuOBmbir6AQAgBABFEW+1
+aKXn1BG2JUIsx2lp+bUEjXsQjG08e2LUpOzfK/VFiQ/OnwERYX9l3hPTN9ISrwrq
+tVspdYlu9Xd5ihlothkWsbDzP/QjcOdw6Mm8636Qns9R3kivylGS4bILdww=
+-----END ED25519 CERT-----
+master-key-ed25519 RRFvtWil59QRtiVCLMdpafm1BI17EIxtPHti1KTs3ys
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:54:21
+fingerprint 87AD 7146 864F 904E E1BD 0F80 6243 B4BD 7256 DF57
+uptime 383885
+bandwidth 524288 524288 587734
+extra-info-digest EF33B05840A0A4201B63DEFCB19E66925F38D5B7 MsJVWz10xTUEqXPzxSF2rmF3b4dggQAbtIErN43JEAc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALaQCQPq/qb1NwIET7t+ab4UL9ISA0FHRg3zzb86AM1xot3Td2K8bhbW
+tMZM/S5fpNX++QHoEFUHGKiDxrwkHXNElZPVxLoKLVPkgM3f5z5d8qBhw5Zgj9XB
+8ADKOk36ZizMXU6S/N3hdHgFfio7e2vkLPMdya0qhTeCr/pbuMMJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANSlIzq1Wmj+k0MfERLT0BUCqiVc/C+ebgPf2NJ3Vptm5f6n9kvRoGxb
+ffuWLkZ2Sj47ELgqpwqnwWjf4mZn3j5B+QAQgna/RTqFW72Rxz1zT5GPWX5KOd2h
+IKcJWo7jgKx97MzEyDStnds8MNN6Z/o5aPLuhV3O+zj1g0ikAhCPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cWlW2iz/cG2Yv91Sh7CDuIpGxnxxYALRyuL3dEgpmyySEUBUNmpzaGwzsGNkkrT0
+eJz+ysOn/4BFqI3KzewY+NrJy/+eMENybj9Ttvlzko4805LMj7gQZa77R4uCe5+b
+pCgRxUy6yCIhOOveyHYaBvWPLuEo475pMscu8VJMJtA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAUURb7VopefUEbYlQizHaWn5tQSNexCMbTx7YtSk7N8rAPuTZ4TcbtRy
+bKucgXjSKkb154UBVNRImp6oIeGRx2SZkUmfRBiHXlsm4sKLR/a8GCZLfwkasjPV
+Y9JnC4setAQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact WK <wilhelm@wkall.se>
+ntor-onion-key RPKEu+3lyDXFHmLoG+f7y/zfGnIatKudS3CljdG9h1E=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 LsbgYKnWDaUllNpU2foI/GyoRQJ2YN8YobgBCayNVcM+fmC1lq/ZQBMGP9z5ZpTNbZp6YQCqcyJmBRq72e6oBg
+router-signature
+-----BEGIN SIGNATURE-----
+qx3Ftrh818oHIJfeIywmwMYBcnXYAlkcpX/tntSt2bQUAFcb6KvTVLHyFuJGEabE
+vpOFUsXJr/5d7fds4CI5WHevWVuQcMLA9DpysEg4QqOxOpWMRv9TmZtrQuD86Wnv
+mAygUmzmGhM9wvqB0IBv04P4JY2AsnFr/wkJEplR+wc=
+-----END SIGNATURE-----

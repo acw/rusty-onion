@@ -1,0 +1,51 @@
+router penguin1 68.52.30.25 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGaAZuMQ+EC1Ertn+PNwZFOF6IWZMvKEVq7uYAZicTrxQfvAQAgBADWKRPm
+U0+q2JWgs1Dw57F0lUD7+7GnbgCHVJYOMoxUL50WBTFOpEFHDuhJj6cl4ukieO5A
+yad5iWJCi21HQzupwgyCa/TkKl3AQmF21QUU2zpB+607DX4GTQceP8tFZwU=
+-----END ED25519 CERT-----
+master-key-ed25519 1ikT5lNPqtiVoLNQ8OexdJVA+/uxp24Ah1SWDjKMVC8
+platform Tor 0.2.8.8 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:22:56
+fingerprint 77A9 F9F9 7C0B 2C3A CAC0 4F8E 88E0 B8AA E8B5 35BD
+uptime 477065
+bandwidth 1146880 5365760 364623
+extra-info-digest FF9463FCD5663144F40D445C079002CC7983BCD3 qPtXdH7rwu+lqjRe154VCk1exFb4Vkvuxagiu+7ji3E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM0hrIuWnzmhWtf5CLoI0kVyNvSn5o06/brA4GazWOpcWp4RwPyDOQcP
+aG9Sy8dFmD73y41uCQ3mYiWV+iehPRoT63SAKyU+0cAhApBcjOgX3YGD4AimmCbq
+E2dw2n94rns0kHn+FFQzZ2d7HHSaGyAorKCydkpRcA1GpNNYcugbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL7QtAAxyQW/qAHfPrw9SiqKyESExAtigp/OjeshFzXNUbQUrSKEmIg3
+q/d+yM4t/2I1KRHudMih73nvbXWtcWJ3Fc0sJBSoIAgCxrbo31NnyNKqkkoyaokx
+5uORbZI6AHtEP1h8EkkV8G2yAQDTVmrA91a3iPoQdE+E++XFHkFxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+eKHW4H8OQdf/qgtMRcRcS1+IvGh2b4EKK5OWwJknUyXNo5Jtik7MKglHEugwVjMq
+S6o7kQX9OT6SSinCAIUqd8K7S+P89PNipA5j96X1JYKRLtJF3wCZZvj5amEWqgg6
+kB7l6DpUAwzsmgMqHpISUvX6uCujvzI46YgIG4qXSvA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAdYpE+ZTT6rYlaCzUPDnsXSVQPv7saduAIdUlg4yjFQvAFt/cJ491oPW
+//gfJFaq+WX6UyHcgjG69X/Fz+MVavx9Hfc2ce0AFEgBcVHX48hCSlBVvIF2l4N3
+aFtkKymfYQw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact adoug dot hoskins at gmail dot com
+ntor-onion-key vbQvqZplZ9mBxj/9G8FRCG6WuRm4pqnXbiOWnOO03E4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 +3zO5hKbyM5KUyEmBjF6+dWH/3dWpbsUyser0S9DQk1suDvWJ2aCfHUzQa530+TiRqALYO5jSyt/Lak9k8FACQ
+router-signature
+-----BEGIN SIGNATURE-----
+snqig61EKYEW7DJFBVbUeNNHnJKMiIQmfvhMnIa211jEsXNh0KfKDx1WDhyEnJWP
+2EJf15sJBnlXIx82OJxBJhPGw6negv5FicmFCXqSVf2V3ACt+pV4AFjT1P3gO+u6
+GVSU/WkHxstVCIscy3UoOMM6nvZpok6CZjfXJ1frlPY=
+-----END SIGNATURE-----

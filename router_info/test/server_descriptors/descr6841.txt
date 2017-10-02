@@ -1,0 +1,50 @@
+router walltor 79.172.204.36 4480 0 4481
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJaAXNk9XHHsiez0r376S8DN+GFX+FgCDY3X1eNvd/BWUHFAQAgBADpZGlr
+/R1+GIxZ1NeKnIFZFPh7lyFY+2z0iJZEteZigCxd1+dTt8NqP+quk11C8rKNKqv8
+jt0d/3O56VjvwlQIEdi3TZDHzxkZgs+em711r/mZKCPrtq/60AEfQlnULQQ=
+-----END ED25519 CERT-----
+master-key-ed25519 6WRpa/0dfhiMWdTXipyBWRT4e5chWPts9IiWRLXmYoA
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:01:16
+fingerprint 2215 02FD 6717 FE25 5D0E 7AB5 77EC 3F4D BEF4 0535
+uptime 14723860
+bandwidth 6291456 12582912 5902660
+extra-info-digest A2D067A1C2F012DACE8CCFFABCEC0594403E4696 bxN3oXMoKefgac7dWFJ0rRCWFcwnuzG9xsoJdSMKmYs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKIeZkvEja0GPOCnX6WnPKxOSzhYzddcoHapcogrvYjtFodcNFSrTPuZ
+oWKFPx+igmWu3Q1HXJPOuzJgamzc6Yvyl8B8sKPCiMpMeMH6+DJoV6uw8pDWGIi7
+Uq2PQDY6XwECHGUdqj2GlUyNuPrtL3+Hz/PwSRHGWbvTWu1tka6bAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ0maSDuWdudgONxZMZlAVlmpGXfJ8en84KHz+UZJaNnS4VwIa+IdiNg
+Nu50FEpcOJxJeH7lurEGYqKRVC5GGLywsPl+bwOJSZQ4dnc3fSR4FyIwdVTUegrE
+nw8Z7IptkqdMAe7TWRRgyCWg0YXcSOmnj2iXjrVO3HWoM0XBcc2ZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cXRHjE0kyWV612qc/qiciudbfuGQURg6ArzJYboqw/6vt7hRIXp+pN43YDB7Zvvz
+RanvTRZ8Akcdsn9bdVJ3tz3+A8a9cUs4IIcVFYWxp8l+f24YGuvUEfPZI+qblZVD
+cqV+L1sBmmVn27RwctB2OoTZkfW1FhcdkIshUtA3BJ8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEAelkaWv9HX4YjFnU14qcgVkU+HuXIVj7bPSIlkS15mKAAE/LmJkjjccj
+KL1tnCbgAqIF2AUfNx4h2d1p6LxFiOPyT/0OwFAKktXGNImrwk9Sk5ySp9piRH1w
+9YCi7OqoswE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xDFCD0A39 Random Person <attila.lendvai ATT google's mail service>
+ntor-onion-key O6wFakh/S7sm19a3HckKLq8V9SlcJ7w65+sRXE/EFws=
+reject *:*
+router-sig-ed25519 RPAexL8hfpNfgBPKQOS847xcUR59PXSWEnyEBgx6gKByLDRtMfm1BxZXNO5GVB8xJMsjYMFtJ6J8BD2n/XEqCw
+router-signature
+-----BEGIN SIGNATURE-----
+JVrUAPbDi5aBYwO5FHQ//0VYg6TqX/UhbwxlhJNr6/JVARha6YTAODz/akOPnxAe
++IdDPsgeEZENfLyet3CxaYP17duhzCs9JOXRpLLLJ+yqrAjtYa8Jou4wwfz9Mmo7
+/DUJVhyqeamqPJBo95Zc04yzdv8biRl3aFQBJqfAonM=
+-----END SIGNATURE-----

@@ -1,0 +1,63 @@
+router mycontribution 109.228.51.164 8080 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFNASVgFWucGH+fTV+duLFUKuPq0igprO/SlG+pWOcP6GCaAQAgBADOhBl5
+N2OZh+SWMJLFNpdVjEMzIPaa9hmYHNCSYoygSqc5cjj120qYuxwRYr406pWZWTrF
+XG0ofFxrxgwjOKW4xEM4snXNKobgYAT2o8kqaFaTMc4IeFS7qRPf5dUblAk=
+-----END ED25519 CERT-----
+master-key-ed25519 zoQZeTdjmYfkljCSxTaXVYxDMyD2mvYZmBzQkmKMoEo
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:38:53
+fingerprint 51AE 5656 C81C D417 4792 53A6 363A 123A 007A 2233
+uptime 0
+bandwidth 409600 716800 495616
+extra-info-digest 1795AA0F6D2E9FBDD4E3C2F76A69A39F78F8F1D4 K/9JivuKiyN5dOdpCdN9yoW4ziFWCsKOXR1J0if5PGY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK5Kd1elTng4ykbwmVamDLCfdt6ivNeWR4jGTLWifnioCayKYAyJbgsZ
+Whx+zhnRgZ4MDFhq/TsyfR96OjrVcHSKlIqFreaQqAeWOiAhWG8GrJcI4xybSBK6
+mbuIDg41GRSSp8q2Hsw39Bfd6uJgG7x3Wau2hU/Qpd2HaHttsI1HAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALDuWxFg2FiBNOBmTB+PVrDxdH4K+zhe490y8DEGuleMu883j7E650zk
+dzzGSE4RduUpk/hiSHzFc2jAxGvm9OFt8S+o3z6J0Mms/QE3BNG1gbZXyscu9Lwb
+EL/HWgMhscYnFJaui3hFW4KEjcbv2jwDH8F1d5aPmSQtWhWXOldxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ca9GQWrYvhDa5wrYhEubhcNfa5uxe/vQ6NPLrpsTkZ2+8gww20QVRz9TDg9NUHPR
+f9nrtVC6BEoectuGtCIX3oTYnXHHLfio4hWxDJgP+maOrjZmuQZIm9GfuSpx2HVD
+rl9paYe7nmjdQ/2utwiLpUFM+ViPVHxKy2uMQzJePiw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEAc6EGXk3Y5mH5JYwksU2l1WMQzMg9pr2GZgc0JJijKBKANdL5Sq2//xa
+L1L5FP1LN71T6J0W1/2W8zgfX9VoxxTe4UG5WrX8RlaWzBpxcVt45TnKCBoPwfH9
+jlTjH2PIFQc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Tsen <tsenchi.ng AT yandex dot com>
+ntor-onion-key BfOUp5SP+Itanwt0HJm1whkdd7PecIgPtah6jl1w9y8=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 109.228.51.164:*
+accept *:20-21
+accept *:53
+accept *:443
+accept *:993
+accept *:995
+accept *:11964-11966
+reject *:*
+router-sig-ed25519 2lGjN25+9yJknVS1WaLuww2narYUdGABH+phzDnycviwcmtgsIulpWb/XXAzmTi5iyERoLmwn3CS5khIXgv7Dw
+router-signature
+-----BEGIN SIGNATURE-----
+Lmb1HmYy9edvOtkLTSHozcuAfOhpPgjCT3R2nvQlqRp+KgYIC4RHAGAhqBshDf5Z
+3rjpCHCpXSr4+slaWKWFMb0HTXVqHOZTTitfhZ+vXwDEUuR+dP/b5AK8IvCFD/Lm
+Mawt88/jrb/kC0lq72X+n3nKeew6eUC4LKZmA8L3b30=
+-----END SIGNATURE-----

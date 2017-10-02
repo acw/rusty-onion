@@ -1,0 +1,51 @@
+router Improvy 138.201.58.206 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ6ARJ0trh2lZ23gPoaMyAhs+3iAM/o+G2iWxyCRCUYb3YwAQAgBABtc+MH
+Vmheqv7HtlL+9BExQtfknMf5OU4ASA0ndesykP2AyXlaRZcFMuO4lOAxfP4Y4UbG
+KpoPfrB4Rwg7TQLgMuMdinySgQyRbQK75pi2/S5NmbOCA8JabQiOl6FQwgE=
+-----END ED25519 CERT-----
+master-key-ed25519 bXPjB1ZoXqr+x7ZS/vQRMULX5JzH+TlOAEgNJ3XrMpA
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:55:31
+fingerprint 471F D245 7DB2 E134 7869 9541 CE10 6A40 0913 9CB2
+uptime 180060
+bandwidth 2097152 5242880 2549002
+extra-info-digest 10577FC31DB2E411DE8E49C42CE81E5EF4BD2E4C SC4E0re16QuNmR81yPEu+GzKKeyjDmarlVw2CuvTpqo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJYxqvHGLu4C68zULuTIHSAlvRxZQxOqxirAl8RuTIXPMisBd54xac+r
+/xCIj7WrLFtlzisBoh6MDJFyE4nm15XjXzftIFk27/9f4TUZrAaf5VwxlD4+r4lv
+iO01eZ7nTaWCJP7zYOBuRtmq1qxCeEVUTIUhGIFW85zGgrxFqUpRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMO9Mp4CMrgsmK7MEYCfwJsnbMm1qCgJ/4xa0NePNdPg02IsTgaiDygc
+gdZV1LDsqTn4elcIaf5xfMJxQ58w7y+Crg91nX9yrCT0SiVmue1bHJfIktQioosl
+hPVJoPjGjerX9ywiZ7rE4orVWSkA+8ev+FSf+d3NT0drxwf6yIWfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+dSskaYWGDZKLQKx+Pkp2fQE8A3PU8iJ4KkIx7LH6JgCJhbn9Brfvy/zoP53u9Nr4
+z1uA1minUbiAvhYDrjcHFZajl73GUWvRwF1pYNQ0geLv4Vu8G16HPMQIr+dQFmdi
+6VFpxT+ui/Q/phgiznkplJDWNmA9UH3xBPvi5ajvxNY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAW1z4wdWaF6q/se2Uv70ETFC1+Scx/k5TgBIDSd16zKQAKTd0XY9rC4a
+odNMfqR+cYQCcWiLOh6N9bXGsgphTghmr0MF+xozKjvvP9tHDWSfkwMq6Z57a8Rs
+WfCaJ155MAU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Improvy <hello AT improvy dot co>
+ntor-onion-key 1lMi5ziFVAc0QtSH/ulWQjccSdqWr0r4Dk4uxmCowTs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 1axSHPofHNG5evVoxyr7m34HFTiHGbRYSyeDldUUkSxIz5u1AHccQWnjnZZOkWIzsJBPstWoim4+TMY8iQdFCQ
+router-signature
+-----BEGIN SIGNATURE-----
+eEwm03her7zMGeZlUXDeoFek2i6H4WWzes9/Ry4DK3NfU59TxmyLsRGgDc9DZXxA
+HBPHZq7KB+SHjkM42IvfyXrUDfOxQXI64+YcpP6QqrLpVRHk0O9pqBh5zdhX1AOG
+HY32+X/BTTQszJvcGM8sZkyfJnjLrYMv8ji92DYjxmM=
+-----END SIGNATURE-----

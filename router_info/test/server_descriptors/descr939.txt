@@ -1,0 +1,52 @@
+router mkultra 163.172.138.22 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmD/AZgaExHf+xU9i/OvoIbKuXEM2LcCSD2upU57eT9FXDO0AQAgBACSpHRn
+xldhMy3jSuTYFiB9kJuUDV39y36B8NhNQKxqEb4NjFvKu4asLdp8m0z89Pg2CB4R
+4fmD87RJJHsgGWoVPrDNtYU6l1h0Nz9T5NFyIr5zLWdhnhE+DK2uTHZ8yww=
+-----END ED25519 CERT-----
+master-key-ed25519 kqR0Z8ZXYTMt40rk2BYgfZCblA1d/ct+gfDYTUCsahE
+or-address [2001:bc8:4400:2100::1:3]:443
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:01:00
+fingerprint 1610 2E45 8460 349E E45C 0901 DAA6 C300 94A9 BBEA
+uptime 666124
+bandwidth 13107200 14417920 11139272
+extra-info-digest B338BD2712235041E6EEFDD1179740FDFA611ABE M5C7FizLtcKlnR0VgoBbE7n356vFPktFYNzEEghodnI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOSKtdEz7h1fQOnWLRyCLz5vA7HAuoxznac46LTLfLkgGZmmX0eefOrK
+86d97TyYu6CHMMJCd4cGHn6h7TDyk+sS03WG9XS2PVVUeX0e//jvj2SPJCRQBEnk
+Dey8vniOsrHPbrYrHDpAEZKvWRqmOUagd/yhF9HF0EkhSvEM9zyFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN4CHqn/JZfL3VjuEGpWAId4dpBIsHFdKd7IaauIp9Zm2+B+7/qEoyA9
+WMcCtWv3GR/C45ZMKDs/kQFtytppluF4Q3XxxdxXFMqQRPsXclRgiCuUWVnUMiTJ
+uefc7Q+lKWDFYJGwpgzjM1BBHYq9qnU3Lyv1lHvnYvDiW4/efHG7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+DMdsJeflqXyEMv4CDTYHCVEmbMswvQ1TQdXedprf4+v6PWKkIFvBnBqRPKAZHB0q
+xzrI8i4tHMrS65Sig4HO9RUp5XMLwLy55RaBaSWzYwfSIJiHsgSJkl1AcPDP/3XF
+fmr4C1C1CPude9mDmsoDy77kLith+R/NmYK5k+u6XEI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKJAZKkdGfGV2EzLeNK5NgWIH2Qm5QNXf3LfoHw2E1ArGoRADIkhrnY5ZAP
+99weVANmmNfk6+9C827emnAQzk7OsSTGvZ8PQ5auVvsUdCVD+n6glAWeINCd1PI9
+fF5sy7uqIgY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x71246BD391F8FE0A2819B5E140E5EB90F008BA5C Pascal Levasseur <pascal.levasseur AT topette dot eu>
+ntor-onion-key qTggd0l7lH/wTKcSamcpaPkYvJCMfBzcTIAo3r9lvCs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 lz3oU6LMQaj1MbdnBw7V1vZPsxEWUJmPXLIX39eHdwvHQNvwZurE8GKhpp5Xcd5DGL9MfbgIwFPK8nd0E9lZAg
+router-signature
+-----BEGIN SIGNATURE-----
+jyTayE6IY8KBbiJn1SA1omdl1qp4CUDNhbsP9pOKW/UjXiv8XGiMznRN8AAPDcCI
+PTdeXwkEFzJLX8Ax4WSm1YXsYaeSYHqq8zv7YHoMx02S7H3yZh1FnCUAlfdjS7w2
+pZqQKjr6xHbSILbZLhPvHw+Agu3678BUMZHeBONELTQ=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router irlUoaRelay 139.133.232.231 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmH8AbuCu+HLS3YkcGBQZpoEEtVrUbbYK21mbXqR8wt23WT2AQAgBAB95vp6
+vYzSvq0zrvpyg8CIKXgy04/H2EA7lEL39upXif4SRH0uXze9bs7FpYYOoAMjK5cq
+5UMcCo2lVdki5qHzO40JHSI0zTCbTMXc4kcrXtBGlNVKz0Xvgp6HagPjGAU=
+-----END ED25519 CERT-----
+master-key-ed25519 feb6er2M0r6tM676coPAiCl4MtOPx9hAO5RC9/bqV4k
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:28:08
+fingerprint 25C6 A6B6 0CFB 9E82 0114 5011 A900 E38F 349C 02D9
+uptime 2503771
+bandwidth 640000 819200 771950
+extra-info-digest AE3AE427BD47CE769CD95C05E9105B629F1B9D2B eZCYEjNAzeSGfGggmtNDNv8IF4nL/HxBSuaIJaKlnhQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMErcOSTO6VRYx884kGewY70LGWIz0+D/N/1+J9iWnutuR3IdGrJDdjm
+7WYFG/IXqM9RaQHK3lR3biAzJ1rukQdvq54zfxwBm2403152WIkLlF/igF0/qtkY
+cGFasidvlhqulMRmEj6WW5idlbpR+NOJQTTFstdwnp9QSRW9F7J1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMOXPxCmvpKZp86fCIrmLumDbb9/7W4C2sb8icA7yJVZWTJA1URbPU91
+dUQx8nSM1P+g2Fg0BVfU2iiFWy8Zca8xVj7+A0PTF9zr/yO1zE0UP7L7QESijLa3
+W/2Rdr4OWpeqk5sbQCeecYvX3APEKguF10RENG6J30m3eDmy38LrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+NfMR9pnsBykXmV/Ex/Lqg1JG69Y8dIDzLcwuW6+yv6TNocGnsfQcGhWb2iLZlCdd
+/jp2kssssCUKlGIm1ZQdvg9HX9TTdjRvCL9rafl/2uTssFke7m9EdcBGv1peix9b
+iJiBgp/p6rnceUt5rt+TbPxI96s1zMYz42tFriPOLs0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAX3m+nq9jNK+rTOu+nKDwIgpeDLTj8fYQDuUQvf26leJAL9t02gOXa7z
+A7JxFsNO5sTRUse2vA6e0RPeVWkau0qhiAqf/c1xrb3J2sljnceKGCyOKub17GcG
+ZhMMBVoQ1wI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x76D58093F540ABCD Iain R. Learmonth <irl@fsfe.org>
+ntor-onion-key K9koRJlbrkqe8C21uQZKRjrXjtiLXC7NaCQQ8tzTfjA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 lHTxZMBi61vW3JRWs/QCT1whDxLv3EkLcdKanYiK6pExGNra1dKIk+PskOVxADtlrfimHICCyG9rQdoIO3SRDA
+router-signature
+-----BEGIN SIGNATURE-----
+ZAEXqIwrYrywnFpic3nnJmGY/c6wKAjljKJ++ZdhsJA7oa8+XWM6nX7QLFSqYKmB
+RajdS3FSzid0iusbkuqiFnLV0L+wqx4ENwpMtFi3qDeWv5Hi06A/N9Dh7NK6xwY1
+7erF3mO4bZtYnJ5QT6lA4aZ6CtrCGjzVY7NRfE8S0eM=
+-----END SIGNATURE-----

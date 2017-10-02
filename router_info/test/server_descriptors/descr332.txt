@@ -1,0 +1,51 @@
+router cctor 89.14.122.82 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFZAXvm/CDITnmKNVJoX9OYnSzL3KJQvdT951utnO1steMqAQAgBACvwquu
+MknaTWkSqKMf0zu2AGDnMsXeDWrn26YJguAxNVr8ABO5+b4g2XmPOB5LkFXRRUpB
+0t5Vv2mHg4VWWtmv7jvFUhzuEu5ToG4qxZtS3CwCHwHbyKnLruEDdtY4xwI=
+-----END ED25519 CERT-----
+master-key-ed25519 r8KrrjJJ2k1pEqijH9M7tgBg5zLF3g1q59umCYLgMTU
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:09:18
+fingerprint E865 9D6B 2624 A03A 2478 E34B 529F CB07 BEFB 0EAC
+uptime 2
+bandwidth 512000 1024000 585583
+extra-info-digest FB587BC116873AAA1AFEC0C77F7FE31ECB209847 Ik4yVnLbW4rkhj7cxrgJ7hns8YWVneNVkBZLd8c3uc0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMevTQmJXD1gmMT6oNUcvBsdMZna9wv9G7J5tXyxgM/9naB8kyBc7Cyk
+NGe/sAhu3MYdCiExVFGq0L0fxOEhdRzSFSkOPFxQxoKfhmZMMPlticF71Z1MlqHj
+X1FYbqdDyWQca7khc8hDujJrWG5Omcx8B11WY+Es4aQ26l8AX3SVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMVFVkZCiJc0UkN7MgbYK/HXZCcDcEcVMHLqPP6H0CdREmgvz17D0cF1
+yJFLIEu+fWKbQSh7PUaFEJdrrw8PKrupCB9K4ku1lrsnlYQGecdeaYMFBWIbQrQg
+VEmxANyV6YALqR6VBXAkkme2IQdre7dAWK+Bu6VNBJncQUD+T5KtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+CnrhEmUpBDVSBc1vy0ZAsWb4pkBm+sv92vitHRI63NpeOZj+o5RTMs+dApCJTNrh
+YTiXkJ10+7RUYfGrWq98tf9Pw7HQkUCQubw+RGsLGjFoqa8TFCZ0cfUvdE9MnLPr
+xju1LnYkgQnUEX/CQb7z5Rg2sj1W/ScgG5jMJg7RPs8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAa/Cq64ySdpNaRKoox/TO7YAYOcyxd4NaufbpgmC4DE1ANJuvfzraxOc
+zOvpmvhdLMGbaqvFEmds/Maj/6dOgt7i9baVw+hCGhjFUUNJ+hVZtcMJQFY2QrNe
++L4sMGvCgAk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact CC <ccarpo AT gmx dot net>
+ntor-onion-key /EmGHunVWAi7ohakHnRXoAtlyDi81aj6C9UyxbR4NG4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 lc9wj7+w6MWJsI+7NW5wRfzCk2QK4eiJWejRE60tttXmCi4SnHnu90i0ITZ7F0RNQ0S0FBSXk/0t+aOUu1JNCw
+router-signature
+-----BEGIN SIGNATURE-----
+YTNBbMAynsy7xyMBRR0+RdGHBx6lvVGIflUiumBLH14Ko/C7YefAx4FnxwSVCjjo
+UKPphZB/mZti2gzyTVnvOLz5zj5OuNxScx3ZtCH9361jUiT1ojm1gmip3bBLDWkY
+ZhQ+ce/pdTKZTt8gKuUcVeGiLP8ioA4g4OA4MhjH5MY=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router bkineticrelay 23.105.70.174 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmD1ASnwYHNLiKD3xJJcMXOxm9tfPHXILtuNCI74zeo2brBfAQAgBACizCmb
+sPu1Ka9Mf94e66cEaOdW6BX2a2fn4s3mOZHykj0MMKC1nc6xDma0zKo/91YtH8Qb
+jsKYc25PtreQwem2/Ar0OaLIIK8G0P5qRwPjuwi1nkPU3FL1L0M+eoYjlQw=
+-----END ED25519 CERT-----
+master-key-ed25519 oswpm7D7tSmvTH/eHuunBGjnVugV9mtn5+LN5jmR8pI
+platform Tor 0.2.8.9 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 19:02:46
+fingerprint B9BB 49A4 F185 4E60 2751 9EA0 258B DD5D D310 8B27
+uptime 615765
+bandwidth 358400 1433600 511112
+extra-info-digest 77AAD18DD4352C5D3661FE92D71430DFCA3D087A eSlUxNRc8d3y0UPT/878YWR4N6NOSUlssNuXcKhMf9U
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMlzv9gJerZZ7m/5OyHwZcmv53LISfnalcsnbyhlzysgqu8j+1EEC2Ut
+BlyTOqSSfdtLAjUiThn1lyH8PmLUOC136ksweQQyPf17hcJe/KEnmbmXVctYb+Ya
+MtusfVm+MwkArS4T9U0mV4vgHtjQaSKh+p6BuGFGDFh6QEe602/BAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM6pgj3SKME0/3xqo8FBp9i/s3U5fSCTqfis3b3kPY8JxWk12yjUUQ03
+7MmPXYuJ9juWvjh0+lWp1cejo4IhKz4cc9BHQx+bn0D6ZrjYGPmmS9IyknqjxQ6P
+dVyImntuZOCcTAagxFLc5HFxxhdz7tav2u+1vigjh0DKMy8PT2vBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kYpz0GUwIMRPYTI5vCLzQFcNFI8mUPZZE9SwaMrZGN7ke96Pwm1+CnpIsklJCB/t
+CjSvzHnGBA5zoc59GvyYce4TX7vRUW+PE05MtkHY6gdiMHF7+zT3MNua8r59CmeT
+2ip6j1h0tpdQY1VkkGJvHTP/Kreqy7oeNfS/QQcGsP8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAaLMKZuw+7Upr0x/3h7rpwRo51boFfZrZ+fizeY5kfKSAH5S4c7h7hn+
+y4lEuF+RHNgmwAZ8T6EPE0IRMxjM5PfecG2LElr/mvEXAefKfc3ds5LWZeBkY316
+fgKFf+VEnAk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Lyle K. Grant <bkinetic at zoho dot com>
+ntor-onion-key 0XB0Dv7jJn8txosRwaXduZ2aainnw2NS8z+IC4dQuHY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 7XYmQxPfEEZBfbXYF174oZV1tIpNlH5PEAmWLTh7g90L7XFiP8SZD5R5FKp/YkfGuVKrz2FN+pdyzfjKNrYnDQ
+router-signature
+-----BEGIN SIGNATURE-----
+F/xbTJ9L44f/L9d9F/DeulOvAGqPYcO8tMt99cLTwuU9DGf89AFWkYgEVOCj1I4H
+eJbZ5TXl2UDHY5gO4iDcfVQlpS+njXUgLmj4Z+0H8EnZU3Y8EvZ92+BnyMij4IJ0
+02SyryY9E9tiKfWYORzDycR6m4bgCrKm4/+qbICzwtE=
+-----END SIGNATURE-----

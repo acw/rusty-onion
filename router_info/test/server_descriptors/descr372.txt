@@ -1,0 +1,50 @@
+router nebulator 178.79.161.152 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIaAeRQxogxHqRh+NpT/IZ3k2QUcWQEPsDYwIf9Zea9MICgAQAgBAAc47Tw
+BPB2kGUey/VKnz+SiEj7HTCWrHpcWPjV7SxXmMPe9ktFxjpPSljoe+kSUhooaV+L
+/004JMAwn4CmtkgB4hH9HIcOzf2OagRqRLZJU395lws53ziqO+Cr+A2tbg8=
+-----END ED25519 CERT-----
+master-key-ed25519 HOO08ATwdpBlHsv1Sp8/kohI+x0wlqx6XFj41e0sV5g
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:55:53
+fingerprint DD0F 442C 2842 41B7 DAF8 0A8F B275 B9C2 6D2C 7BAE
+uptime 134104
+bandwidth 819200 1228800 941139
+extra-info-digest E43F2B28CC3BBF51315EA358443F3D174DD202DE jbnqojEooiqBYAquMCS7NkwPv6OF/ML5Bdpc5keHH0g
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANad8nz757s+pUaopztdYuxU43Ld4raIfOAMTSOTtHEP35uznjBXpSM3
+PVRhJryOq078X8IBL+QxZVHAVauWHhqMIm2JSMDBiHeS4T78l7a/17ihNwCNnwBB
+gWI2EDonMhd6CmZfGGYl/AI5Fc5vLphkvcbjBt7Ss5h/wbNEDH2XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMNTd/zH74p6pFAm7d04kknlApWOzjrjioi/sEoV5AGh8cS7aw51beyg
+qT6+WdOlUUsAcsKB3OJcVNxUNzUeOayyMwBsHw9l1RGfb8JKDGMykUWkveipCc+2
+qeMtVGJ6RHgrUb4y5RIuCXHSIYb+o2m+x84xUSEjQ3cT6Naj5fjDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+o3Gt6hHVwqWMU0oi5V1RG2IQH6LiJCi3zwdzOVLi/OSfS5YxJ8/1e67yml7HY1p+
+kugv9WsFu0vnDmGHjboGfstgaW462zQHIXE10smN6kYLQyz+B3UVgEN3Rw7vQcme
+hcM/EXcQso/wkKqhFHw3vFww+cjO9rr1Y9a08wVWG7o=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSARzjtPAE8HaQZR7L9UqfP5KISPsdMJaselxY+NXtLFeYAL6NCmSUDd93
+w6MwSAl1jp3eqsFpcSqs/d2Dnz7Q/r1DbabSGjaDI2m6y9mCObiF2/4Y0Dxn8HpC
+YJkKtBV9wQI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Bertrand Lorentz <bertrand dot lorentz AT gmail dot com>
+ntor-onion-key 03hZgzLmd222etAxo0SnJhz3z9j9S8amKkJxQ16tvB0=
+reject *:*
+router-sig-ed25519 s7rAfhoRnTLBpmyFCBFUBifD7yx7Dx2vluOGMPVo48Jt96ILyLD7O09BbUsxNIFfWzAa7eaf8VEmStmSiJEsBQ
+router-signature
+-----BEGIN SIGNATURE-----
+LswTw/Mzk4hLqKO4VZByX710X2ruoqs5MW4qlGNN28OWHPgdIWRnBIdf9FV2pCdj
+EA1lz2BBVccCO+gDVyXR4dNJvUP6Wimfk2zDuVhmvDRzIsm7AJfg4Rfz2zHH4UIy
+XzKNOPgb0iF+pDvMymoj9xAPhnZn3lFnmEoJ8vuNAyY=
+-----END SIGNATURE-----

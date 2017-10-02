@@ -1,0 +1,80 @@
+router tor4thepeople3 51.15.43.205 9101 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHbAa3nRBOgJfMkNWNBjDu9MazVmijFEPMYl2EodlmDA6cfAQAgBABaZLzb
+Cc8id3uBjk0d2RNJKao29z/VhHjXEeSeYt7GVptpTZreaVqoN9NRxFl7JoEjpIj1
+v4GBkpR5SgwK+on3fshDydxAkFWdnsl98UwbDPs/5rk5OvoQwk4XLe6aKgs=
+-----END ED25519 CERT-----
+master-key-ed25519 WmS82wnPInd7gY5NHdkTSSmqNvc/1YR41xHknmLexlY
+platform Tor 0.3.1.4-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:23:17
+fingerprint CEAC A348 74EA D103 D27C A6A7 650B 1611 2F12 B209
+uptime 3391357
+bandwidth 1073741824 1073741824 9313395
+extra-info-digest 8713EA3BFACE2DBC0FA89FCC4EDA368AF116B5CD ujzB3ML6Lp3cD+lIo9Lb8VFopJvhShPameBXBuG9SMU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ2dsOv+IPOzbr6rfqB1ZVy/vx3RnfG82aRoHBnCC186bqRx7JsNR6+3
+3cD1jmTJdkHk+7Sz+u3DRpyR1pMSjo2wIknXbRGsVPIEaFgRm3vLv//imEDfJdIv
+xG0kVEmqAt7pkPnpl7gTlRGkmMaBi2SIYvkclwkapKM88Sf/VgbFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALsHTCY6EZpJRtSykvohrdYdncQrFDwuZGtIaPGSVhxiKQOVmDT4OShE
+c40UtHOqULSN5bUR4qunxmynYb3kdNeKChvvXGc3/23iNhKZGG+fLqN0SGjRbUgM
+TAlk1O3FxiC76RASpP8wKxb7L61YP5kLDAy3NIY+vwIbJjMkkJnfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+DrysyKavHSRQqXi0DfkzyXy9UmLC/SN0PmaL0r+c19ySOclVOJFHCIcO8rac/rIx
+vz+QeODmXANOX52DBHmUB/kIT8P7jzkR8tSDC6GsWxfo84q1RsQGP6hErBnnV+ML
+a0yR0dRlyMp3zq3o8bdqcnyq4nWlmie78oKVltrEVn4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmJ+AVpkvNsJzyJ3e4GOTR3ZE0kpqjb3P9WEeNcR5J5i3sZWADUgF9vJhWXT
+4pvrUDZk2d+py+UHXHx2WJBB8czlHUW0MsFrU4I+01nBGU9UoPkt/gWAzlXJUnZ7
+F2i83TGs1AM=
+-----END ED25519 CERT-----
+family $8A1FA041B85A8432B1B1532B92FEEB31290D9C30 $98F44299592FC31FD3F2F8969D27374D00E96B9B
+hidden-service-dir
+contact Eran Sandler <eran@sandler.co.il>
+ntor-onion-key +pxmer1CyINU1lG3moT5DW5Kn7j6aBS6w01TYjtngyU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 51.15.43.205:*
+accept *:53
+accept *:79-81
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:531
+accept *:873
+accept *:989-995
+accept *:1723
+accept *:2086-2087
+accept *:4321
+accept *:5222-5223
+accept *:5228
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8008
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:11371
+reject *:*
+router-sig-ed25519 ccif6hMLVV5qmfsHmnqgcpZww10y3dpEytILmA1INk+BXpOQe4rV0AxnRuMRpBPKZhn9WNWHSVPUX4L/PUvHAQ
+router-signature
+-----BEGIN SIGNATURE-----
+jTnBqiqoZ2KSEag1hY+UM3HuTEZ1+AqslVvoHfflG3xz31Y8DCyRzRA8FW54VRBD
+RWexDpXGsMMa1JkcFq3xJ909bgvKgJ8w71r8HrMY7M2uaQYKYpDp+CNfvGMvPijI
+rAj4VapbmMifz2Itb4gNktk5jkiG43qVVCrmvcaIsvQ=
+-----END SIGNATURE-----

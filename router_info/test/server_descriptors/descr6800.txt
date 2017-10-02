@@ -1,0 +1,53 @@
+router marschiertor 134.130.181.43 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEyAbUArO4CjnlY728Sp7abcFA0ppe2N/h8SekZCrjH1FmYAQAgBADvOeKC
+n8P/Ut/T/L71T67ijQXaIhyuda4mdyGoT5vir4cUFbzkKmXj8JGAuxZwA7A97KnH
+cRMpeyUb1b8BAuF9+jK8/9b+Oqrf86pG5M0D1R5dHPujSppLnCjJQrbj2QM=
+-----END ED25519 CERT-----
+master-key-ed25519 7znigp/D/1Lf0/y+9U+u4o0F2iIcrnWuJnchqE+b4q8
+or-address [2a00:8a60:e011:e1:94b3:e439:2197:4433]:9001
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:11:19
+fingerprint 23AA 8C61 EC32 5C1F 9B24 43A6 4F57 21C8 D107 4E0C
+uptime 1130870
+bandwidth 1073741824 1073741824 8188111
+extra-info-digest BD3EF33F730868CA87C174FD836B0690CFA9AE03 POjsz5lYvdv9uvkMXFyeOyqwA51Bt/EGXVNEs1eC1po
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANehVAtwWPiNJb/AqrPU6aXV3oVUzfKGxFeCOj9ySMb3THq3P2oAlugv
+RGurMsxmzmH4mP8rQLpKppmhRlEftsGhF0EgSWDn8sO1SPL7BevPeLhd0/toNhzF
+qEFQUrb3oylVqMEdocfB1V9ZFUHwSMFhQXH5e7b9nTOOVv1y5x/pAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANC0WfGTWEjAZd6+Oh5NfcuskahSQ+AuP6krzBD0X6cDvpYp/Qn4Osqg
+B2bHIXE+Vu956Vw1CEztfY8hQ4+aYZI7G/KQovD+yWCVIvlKiZBwdz4mFh9jUz+I
+KXrALuR2ho4SSeVoIyW8Jjpwv3QeHtVZ2S8XBZ8dfpLgaHJ1PzcVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hjsJyRBg2TfIlYrx8OADX1Bf2H858aVVcp2eyuTQ/OrlsRwcJtVf1rJsS1w4Yd4F
+opH+9/rMIjIujNHEdhZvZxKLs6aHyNA5NV1WL1VcTNGILR3AswMoKflpnaeZW5pp
+rt7k0fpbrdDN1LtAaAeVjvtCIKzOYJAwGu3+50djRCY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAe854oKfw/9S39P8vvVPruKNBdoiHK51riZ3IahPm+KvAN+J7nQce9Hi
+Z8AF52zeOUiOa/oCyDBW7TqDekPBBdB/zLXSvDcs60w9cPnrP9mPq7WR180j0VPW
+NJNrj3RVIwM=
+-----END ED25519 CERT-----
+family $1BB9A164E281D1D1EE66A377A2F675E41887DB33 $5BCC48732850A596D72A5B33D66711ECDA59BC7B $F7A5C96BBCBB11C72B6FA88AB7FC32CEDB991C43
+hidden-service-dir
+contact Zwiebel <zwiebel@kawo2.rwth-aachen.de>
+ntor-onion-key q5rQhO8iskPIlhXvnC+suh6rKo5WytaS5PWd4jGTXhk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 UmgM1t83GDrsSh5OmYND6Scy7vF13rXbKrYaoELONQjvhxQ5UwgIKKOS4MSZT24gSTJFwyqVDpRoAT1zGxBXBQ
+router-signature
+-----BEGIN SIGNATURE-----
+gPC0Bf68f6kb1whIyCyoqqdNcg3QEW429vtl09TjMOiUNHPBCYga2qJv+MF4eioi
+AjfuhVg8RcnJCnvm/QfplQUTfSFAzf/LfbMHchwUhkGYR+r7chmQ1W5Hdofq9o4C
+RV3P2VRcsRxcWGErx77kG2nlaqHv9qTl8epuXyhOrNQ=
+-----END SIGNATURE-----

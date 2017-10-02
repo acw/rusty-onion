@@ -1,0 +1,75 @@
+router mareksebera 46.249.37.143 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKaASYU31ebcgDxkgoWgtJUnebgm70P9ucCXwkXMTXsH4q3AQAgBAAFedDG
+6oWt+W/DoFAB9ppAOSyDp/D7OI5ozaGBFQvv4tUi5CAaEfIS3TYmIEot5z/YfZS9
+zJtfTz4NEQXpIFlxvrziJ/s1XpuQrn7wJExDcFoQFNYUvwbGlp7n24eBAgc=
+-----END ED25519 CERT-----
+master-key-ed25519 BXnQxuqFrflvw6BQAfaaQDksg6fw+ziOaM2hgRUL7+I
+or-address [2a00:1ca8:e:4::efbd:618a]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:22:06
+fingerprint 5703 226F 4D89 52CB 8FE5 B7B5 0C00 3E6B 9641 98A4
+uptime 673805
+bandwidth 1048576 2097152 1326555
+extra-info-digest E625581C3DFFD4D5EE8140136F483B73517312D3 D/KoClVWJlGrFjWNTAsn2SqZyIjK0egHunthVVzRmSY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM8H33u6fzk3cCBq7dQUF8geRGSr83ZQXHQUiJIjnYg3U/dlV2OILvcQ
+8fqJj3g/iZgRHVaac7uWnllJdq9GsfHDCIOSJVtn4tgpTCZqkSeHL27EW2l3YJ+h
+lGZzGUPRIS8Sa3NHzKyyLlIa0HfuyrpVbyn2MehDrgpqB8WEod+jAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMOdteuXC8nOf1/xsHM4kz5spgnXX9LVOQqI4lBGUdFmm370qahtFKKi
+xEZF5oZ9V1i26lL1pK4zGcsAswqBL3t1oXVgyItLOv9thCKwPq613qlBD3HYIUyx
+m9kizT6PkBUeWFuVTuBWRWi08gXhv5nCpxYmg8Yhr/VJw0VC8QGPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+TwgmAvF9UDOpR3z2SeiapnQdJCSckAGS/zM9y3LHx8kC1Zf8IznVpBvzM8psb63s
+XUy5Qtx0FMdWHLbFw2mcUeVoCEab7kYzWKJFwDRBkZtqrak98MdCVWZTqELCSuOq
+OtyA/3XDnoEgSUQSSLWGij13DvRBMnOeaBaR9qzKEF8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAQV50Mbqha35b8OgUAH2mkA5LIOn8Ps4jmjNoYEVC+/iAMfXfdIhCHSY
+fSSh+5r3+U7iPZvFjkx45xi1lNXp2Cj7yZaBymTMITekiEg3eU7/qeZBmK48sfL/
+jkIutObXuwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xEB9D854B Marek Sebera <marek at msebera dot cz>
+ntor-onion-key P+m45KXMpJmnmggJF6HwU6IT84rl56JWWhkmCtKkV30=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 46.249.37.143:*
+accept *:43
+accept *:53
+accept *:554
+accept *:563
+accept *:636
+accept *:873
+accept *:1194
+accept *:4321
+accept *:3690
+accept *:5222-5223
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:9418
+reject *:*
+ipv6-policy accept 43,53,554,563,636,873,1194,3690,4321,5222-5223,5900,6660-6669,6679,6697,9418
+tunnelled-dir-server
+router-sig-ed25519 MBUwQMPtEjavYxCpxAIEyC8G10UGO9Lm8yfYmcgc9VKgFZdgbdXXdwa/OnBz6qYZJucByDGIDozIiy/tmn7xDQ
+router-signature
+-----BEGIN SIGNATURE-----
+fH/L5sQlHxLxx/5GPE2z0TWUkFArkuVS9A5LlykuhAbZWjxPVQojTfd3OOdpNHg1
+eIGrrRViR1tLIfgnt7YMf92OmI9Q34btHCzSy1XJwdpelSQaGxtpUwvwa0qPtnyB
+zkIgfjzWxURiUgIG8Dx5kJvQm+KrpdNFPwSRhnm3ZbE=
+-----END SIGNATURE-----

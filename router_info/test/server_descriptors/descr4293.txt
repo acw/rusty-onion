@@ -1,0 +1,51 @@
+router lochland 45.63.26.48 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmA7AVuDLzht0qGEbm6XbA/w4N45VqYAmPRehTEy+U0dfY0OAQAgBABDuL+5
+uR2i+jlUWaoh2vimdHmffA/zjC2t2x8TeWci4o6JgP2xP+HFkGEDxl3iFsny0G0z
+vdw56zlmdC5DjQ5xlkl4TYU/m2ELYMMt9jGfFDxY/giuc6buDbooFdLfsQg=
+-----END ED25519 CERT-----
+master-key-ed25519 Q7i/ubkdovo5VFmqIdr4pnR5n3wP84wtrdsfE3lnIuI
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:25:03
+fingerprint 84A9 78CC 3817 9694 BCD6 8DA4 6A95 DA7D 9503 744D
+uptime 1245734
+bandwidth 1073741824 1073741824 1046292
+extra-info-digest 4B780103BEC726B700575998213C1A0514D26FCF DlM9CK9lGctA6xVuqFsdQezZ3UUwviGlscVbEd7FEYo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALoDiY0Q3ubBDpW3lp9QsruKEW1LFPQ10fN5piTkJXIweKJ+RVPJp6x2
+KnbS/RDKCoik5C83X4vCXyiqvA4fjbnzHGPF5zeyFI2/YD5BrM2IAVlAqkyoh1bt
+z5ogzFEK7BWhOvhVO9ohxpolKfzPMlqEwma1lfY3S7U67Gnn9Pm/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMUKC0veyAPoNV0tscGUDTecFvHwzhK9s5PgOghxboWu3B1Eu49RnzHK
+r7PsqHPNHfbG1cSjH3koqU7qfeSQ4X3rs/3TO0ZFZemqlnCVPo2bLuH/iL1CBx0T
+Z1scSaOdnKaBcQ0Y2sdPMmVxktZY4K/3I4kG+jYjrilV0yZ7wodnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+dvOCazgHFPSSfIhfIJT0Frzz87mhLwtREAXWusqB/c8KWitj8+VdK7Y7n8BHgbbe
+FeLyXTg/RogfiXMoaSRff/RL5T09sD543Lry4gizoN8kyB/6gietgDHiMaLzt988
+XIz7fvWiycPh1BcWIPvkdtEgev0YBtGOYTBol+C/Jts=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFAUO4v7m5HaL6OVRZqiHa+KZ0eZ98D/OMLa3bHxN5ZyLiAJ3c+9yCd8mD
+mX2SHdyDXWkDMWZh7LlDnFXpfOackJbabTS8FTYgmExYnTSqB3cZpG4DOjzXQV6j
+iIgA5ihhiQg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xCB26A91CA7CE6B72 Lochlan Morrissey <lm@loch.land>
+ntor-onion-key z65WdBwKSjzF7C7tLhPJxn9I2kFUrYnrerS1ptBtmn4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 13FO4JbkqNvpp/eUGyONCSeqHpg37J5HJjBFr05J2cS5Y2J5ju/u0An/Obhw5hmsVQwFGKLCFzVfT2JSzxTLCQ
+router-signature
+-----BEGIN SIGNATURE-----
+YpRMwgyKWo9l5m7HFE9LIra2rad7OtmWq04fJS2zaS6ZsVJFQnsGNLYC8wSid+gq
+npvz7DhMxHU6GvBf81QrNV7d+adCAp/OreLTukeqCW2KOP+Yf0hzLoP9Zh9jAO1Q
+Y2KAxZOJ8j49s55yyC6+1tmBrx/u8rK5CoxiI3uZsNM=
+-----END SIGNATURE-----

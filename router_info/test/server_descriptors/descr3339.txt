@@ -1,0 +1,51 @@
+router orf 46.4.78.3 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmE9AU9LOvjQdpqVEdUxqsGSD5MpjEgDjC/IsZ5CvSRU78DGAQAgBADIsd9C
+fNz4ApZvgIqrL2oM0cch2s4e8GB85WT/jXPtPc6VlynS9bKC2JTswX6vbJzsxfKw
+AsJo5YB/X7tCgmICLifrGSOYY7osshBJamRcrih97Nci++mszMcxfucZJws=
+-----END ED25519 CERT-----
+master-key-ed25519 yLHfQnzc+AKWb4CKqy9qDNHHIdrOHvBgfOVk/41z7T0
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:30:47
+fingerprint A75D C6DD 4FA8 5596 9AB9 762C B052 CC20 DFA0 C298
+uptime 203940
+bandwidth 4096000 4096000 4688114
+extra-info-digest D975003D39889229DAADED0AA16E5C69D5831E39 QiopPSoPUnyVA3ZyAXfGG37rX6XGYwCN6AR6Maon0ZA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMIF6sjdTzaZ7mz+de8fjHsMrZ4PVPEWJdwgs671x1+4kVue7J2mm9sX
+HNvPc2osvp4gAcYNevHe0n75t4uwMHe4MRmfzctt5H4d2zZhaBD0Mo9r3OSTGXQJ
+jo6DMyEBvSweUkU3vCe4B97yVuGeKdQ90x8scBnMM62cPV5FH4VXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKNimcQMTl1drXDjQshI7I1KMKTismayRsaOoWxAAtpV3PRQkssNOd9C
+nJSPsbohRwuYrLzp1G91hJq7dujxXWdD3g7HVohyzemCUKkacv/VsU6afE1Vvzgq
+jLiVBVuYI8Djq/sFnIJn7gaJHLwEiPUaJ3qzkg0JvPMH9yF/nHibAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QcWysH+M32Xbp/7ex0WxeW7hkxZ3QgAnM2ExzsOMhKQHOnlxB67RUnkreH/enTjV
+zXSvBpCGUVSfjn8hUfip+mbT1LlrHTZnme8sPWBEDBWYIwJlUn7ZcbtNyA9A7+xm
+M3zeD8iiQKqIwXXzGMM/nx6l0nPxwyQTKLBMVaZVgrs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAcix30J83PgClm+AiqsvagzRxyHazh7wYHzlZP+Nc+09AM0lWWr98SEI
+8eZvA2lohSdYmJAyQ/sLo9YXPyaMCe9wE+6n+Jkhzhn6tKkSLhSM6VHs38UDHPVH
+gkCW0LwaJAQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tom+tor(at)tomforb(dot)es [tor-relay.co]
+ntor-onion-key LuW90EgkqkRc+h2TceCHh8yODn9N5Vkw2XQyAdF8vVg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 PA+v7xCX4p7Tq6QX7heK6wsF6it1ECwsc583f124QH/zsQTLIOMObe/so1D8lbZbLN6bCE30/DnCIJyEneTdDg
+router-signature
+-----BEGIN SIGNATURE-----
+VHSyFUhLr0aLYzDOCDiQropksEj075o+JBaITlpfxzIpeaTTM107YGp21oB2wZ9j
+qrsqfGSW6ke4/S23dz1XRyvP846lq2fOV2x8snc4MMU+QAj/qNjt+AN81WDU++BN
+MQxxnPauHjsVs0Bg0PSPz3RRx33atL2og6pX9GY5cOQ=
+-----END SIGNATURE-----

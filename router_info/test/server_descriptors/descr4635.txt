@@ -1,0 +1,51 @@
+router hacktheplanet 5.9.149.55 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKLAXuBuAfNZojFoDRrwnKQbD68LHxeSdiBu7Bu3Qj07u4tAQAgBAB0JzQR
+4OhB+YvPoKUDzHqGUf6hejt85Bpc4sjq4K0dIUIs0EmGo5x7SpVR3MEeV4S1JMEI
+vXyraN6OrWuER7CRJp1gv/PJNrlqdbJOK8zOyloxQcK7PmNREaG2yp3swAc=
+-----END ED25519 CERT-----
+master-key-ed25519 dCc0EeDoQfmLz6ClA8x6hlH+oXo7fOQaXOLI6uCtHSE
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:18:52
+fingerprint DACE 85EA ECE4 9DAD C40C 5D0B 1A3B DF1A 709D 3A15
+uptime 165603
+bandwidth 1073741824 1073741824 2136962
+extra-info-digest ED40FBA5724C35F966EEA55F29B04A94E775DA32 A+KH9xx7rKzDjMcE4c3aYuXhhjv6Pm9oJPMRuA0lCuY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALXZqxSysQYkiAvr6Kav4GDER71wuaSTSmLleXBS3FfZKkXHXGikGMfX
+attqqkd5ZwQhu/KFX2X3KE/SPoCr3d7lYeC/cF7lFE35FcgsACJAB/Mg6b0aB3MF
+Y/eEw9PLBkO88smYgL3cJMX/feC1r9iBNaRBOSpVqfMnHXRestwNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPbWCkF4iupaEtCLVlRKki1vqcXlyZe8KXCceiHFuAi1ZdxSVOqVQnzQ
+T6p/+x4juVZ8Q8yFsy5xhBVWv0zfPBp88CqvT2EUXxkY7lO3V8l/PLxHLgimc8l1
+tof+JQ5MHrFDuShKYqx5jyUcuQsk0IMBjhmvasDpsGnbni0cnENXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+BTRlAQ23AKhYe4niyuevcUMstixXSuqEtSqhJarTidT3QeO9uT8y51w3zLGPxHQn
+eGS6VT1Wlg1vOQPygqFoAs/17cENzq+S5XejgAKMvoLA2mQYqg50lOi94oiVIyP2
+WDTv/NGLh+yOj7Mx6XQjHYh++Qi9R9ptjWL9OtgBxTQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAXQnNBHg6EH5i8+gpQPMeoZR/qF6O3zkGlziyOrgrR0hAFlKwS5WEEAm
+OHNpcsWPgz9fzPmHbWGEX7KwG6epencqzTuHh9Dp5fxvwN/CAa3MLzoDrj7Osknk
+khw3OwR6XwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact ${CONTACT_GPG_FINGERPRINT} ${CONTACT_NAME} ${CONTACT_EMAIL}
+ntor-onion-key 9KbjCTImW4OI35ifgMQV0z+F6Tb7WxqjKKrAQnd8KSw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 PeCHNZ7iYTtxWxZbrULUGxzP7NA+zhsbTpqr+ohggMeYLjb+BRp8XsOvU4MYzb1EnEtb4xasaAMHn0tRoidyDQ
+router-signature
+-----BEGIN SIGNATURE-----
+LMACZXVzt/v5WOSW3iWrGdhXpv1nAOeEpmxOGPRuarI2ez+2wvrbbnPh+hejMTRY
+nvf+2mBUPCjQTWHVmlh293KTdWc8ZpwVlA0k/0olI+en3w76fHQKauRWhJcRZNNT
+zXXFsrjYywX2Y0qkk3bGOH36A/joD5nVlCjuLUHNHEc=
+-----END SIGNATURE-----

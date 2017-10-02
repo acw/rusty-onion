@@ -1,0 +1,51 @@
+router BlickWinkel 80.100.250.244 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHlAUu6e6zxKOgdPdn3IHSe4dSrUSkFypPE9F0uAjl6nGdBAQAgBAAWRcoW
+ICv1H/9hlUoC220sGkM1vvsugA4qYV+vsUnDkRkzIYbeQe7AgEy8MeJvDlNekChG
+5M4U8TUUOc+DIGBHZCr7gcN9OluzvXYqq3JegPJU5NNB+OJZJ+bJl0+acwc=
+-----END ED25519 CERT-----
+master-key-ed25519 FkXKFiAr9R//YZVKAtttLBpDNb77LoAOKmFfr7FJw5E
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:31:57
+fingerprint 49DC 222A 7494 AEF8 E7DB F2E3 CAAB F235 04C7 7B64
+uptime 1302177
+bandwidth 31457280 41943040 35711956
+extra-info-digest E26D1A0B569E608C10B38AD569E3340E8AA11C25 GuVKV7b6yUDtN2qOzwks+IW/tkFcVeyC1LwBlmZvCRQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN4TUuYpkJwqxnftwriZKu+cXlUZU2jYSc6qKe7a9kgwF3IifWntRDgw
+d5/kallR5gg5I5UJNoaU+jSxzI0gb+AxJufWD0fd6QsaNQ87AS/sjWDnkJ/NtBrk
+kmJGaAjBVomjzotOZi5n+SmDQiPKTRrPeAn7dM8/Xr+gVh7fReElAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANUdD2vgfmeKX02f0B2BMktNzHqF4Nb1kahkA/OXMcQSSDqW0f55c5xA
+sbW/Uzlace51nqaUhmc0KJimzQfzRop1Ok7gR8gY+cJr7F9aa+V13+Bg1zj4si1Q
+UN6JeoFVZf1idsGO2Cax548auu42Y0jqpe+TNUVen20CnhaR13iPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+lZPTJx/MtsvCtWcT6rqgJI3mazvQ+cSV+Eb1JKDWhoBxoB5zGTxuHxMtimSqbd08
+9dPlcqTYDJZ8d0sv/43T1XjDP45N3PpDUS2Tja79h3mzb5BPWHOFQTkoK3WuM7E1
+a3AVqVgmH6S4KSYvF9wi5v0f4xibC/YCmG++Cb5kjnY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIARZFyhYgK/Uf/2GVSgLbbSwaQzW++y6ADiphX6+xScORALSCWrxulEe1
+nbYGo7fFbCE7lImjTQiXX6RoqZjr9aHWLoff2Uyc/VgPWQVNqR9mioe3EtOK/c62
+nrKV1wackQQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <tor@blicky.net>
+ntor-onion-key mTvZSSWYnXAQsPqp/ISobmZYrFidEu8cA3/2ZyjVcmU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 x2zFMjKZklJkcgP+If7oVlVG/MbuNFu277PXRnGMClEJoCyvcBwComyFr+vcGuFHcF0Xs9hoZTIygapTba+8Dw
+router-signature
+-----BEGIN SIGNATURE-----
+ag5Ngyyk8f+POaoC+uD65qE99PHQy0PlevsNfN0jXuGrPL4+f8CqWzAkUC8vAPDR
+sKoD0NyEz+y2N9JchJNKqOH6H2zK7en4xVYPxtDHYuEe0UxQTkW/o/VGp2c6U62S
+GMOwLyfbflgdn6ikcDy+HUl3RnmKezrxH6/trK5w35k=
+-----END SIGNATURE-----

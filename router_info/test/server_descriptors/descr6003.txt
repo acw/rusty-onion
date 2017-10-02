@@ -1,0 +1,69 @@
+router TorExitMoldova2 178.17.170.156 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmISARoiu9z42PfHnq0xB8xLR5TNYO8Luqy4bKTpwSivlGYPAQAgBABdZmu6
+BA4Gs5Esxa+knaDzM1OxLXy/5YLC4jNkagZiQuUOFPdov+FueelT1ICVmtXjWM48
+Gh45oKufKCG3pMKpMnV0caANjsNRbqAjwH7KJtv6u0uY7X5MmWYOccwm0gA=
+-----END ED25519 CERT-----
+master-key-ed25519 XWZrugQOBrORLMWvpJ2g8zNTsS18v+WCwuIzZGoGYkI
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:26:07
+fingerprint 41C5 9606 AFE1 D1AA 6EC6 EF67 1969 0B85 6F0B 6587
+uptime 3088859
+bandwidth 10485760 12582912 7520186
+extra-info-digest 2F790F383A629D3FA33D918DB7923625AE58A301 s5+GqV9GBajNciqiTr9LBmIuPVt8ragdYNtRZygX6vI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANPScO/PkyvgqMi9f1eNRgank1xKSOHnysG+cK1zxNA4/JzsEMoIVnp/
+Ks0TSiARa0ZW7VAkxo7tMvAay3I71HJY04cn1aHw5lNGIf8fQpdI1J/BZaNnWTnm
+4HjgtparslrqcRfTZy3pP0Cw+gfbaN+7otnmzZENevhr9fQdVc1dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANUllnwcu4t7nJMKVMZonXMK6V+cHJjhyk+Tzscl1zQ3QqwtJPYbthbJ
+V84NZ7j6QfgCmu0YinvrpX3IhMighsiARoQ6Tl+XoCmeHsx65nO/dIO/dbRsl//h
+/EkWHJpSFzOKBbR4WIBpIqF2OuAIclOCCWCN57NshOO3k0zZwFNLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+u6naSryWS4amZhgHZoc1/sG/MMgZQsLbRPPSHNcn8WxvfZ6zh9nsHmeLOHUkM56k
+FAsYGyW9itKR7ATq/VIi0PtZLXJ8iy4OQb8QjFKYk9zLcjZEBmbszQZWCnlYxNRO
+K37j4OxyrSgsxNzj2F9szTYTPCh0YvshhzLsP/tVAm4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAV1ma7oEDgazkSzFr6SdoPMzU7EtfL/lgsLiM2RqBmJCADdDlRWIstB+
+l5SHNPGLoPXaEPQpoHsT/JZkLw94TDa1o2X/KR2gP3C7sMa9bVwMJgFM+5A4qwDe
+gis8iHlAxQ4=
+-----END ED25519 CERT-----
+family $04C095E0DAB8C28BC433677C4AE8F65CB7D7083C $4061C553CA88021B8302F0814365070AAE617270 $9B31F1F1C1554F9FFB3455911F82E818EF7C7883 $A827646DD0F8B92A9963789529CEE3141FF74761 $D3E5EDDBE5159388704D6785BE51930AAFACEC6F
+hidden-service-dir
+contact arisbe cni net
+ntor-onion-key 5MRP867qw7J3gD+Q2wKQJaTbVf5OIQZtHRDHKQHFJFc=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 178.17.170.156:*
+reject *:25
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+ipv6-policy reject 25,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+tunnelled-dir-server
+router-sig-ed25519 1r/PkZ+wITi98Oz9JkAlv+zOB2ytsuS6ARKBlIRGr6QhcwI/zb3994qVeQNMvkaApFQGxsKPBpIQjBq7hmHzDg
+router-signature
+-----BEGIN SIGNATURE-----
+hFEtQOm4i2pUxP7dwUw95fhg5/4z1bSA4+bv4/FacyVHcpAsylVVN6z0LmMJVqWP
+8wnArnTJinFsbByi92QZP8LgNfMTfR00W6i00mxWH4Mfpdy/7Z6jTP+mRrid9rhH
+Pes6+f06QApPW3MY65Vu+r+vJwioQH1wlGIbsG7bZdE=
+-----END SIGNATURE-----

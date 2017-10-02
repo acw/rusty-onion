@@ -1,0 +1,53 @@
+router GammaXYZ 51.15.36.164 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmG5ARj93syTdsSNnBv+jaWHwfqS6lMCQkgQF1YrfXMRSTUbAQAgBACsKxxP
+LoC4Wtji5E1m+TSlWV2ZQTHblk6ocuOiEHqtl5JQuTUTg+6BL5+rV7M3IYwwvQ6V
+XkO3AnPlnhUwx2zMaef0tQH2ehAbvjf8Nek5e0jdtHW8Nuci5ukxyULyHQ8=
+-----END ED25519 CERT-----
+master-key-ed25519 rCscTy6AuFrY4uRNZvk0pVldmUEx25ZOqHLjohB6rZc
+or-address [2001:bc8:4700:2300::4:905]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:25:49
+fingerprint F9AF DFB9 186B 8D8C F42D 873B 0077 248D FC8A 0340
+uptime 373363
+bandwidth 26214400 52428800 7193283
+extra-info-digest D5DE73C1316DFC5CD4ECA0769E5DCF888663AF33 Gu3gvYCAnBSMvR2ysv63fQGoGqd4QxcRuKZGX+pLiic
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALFH1hgpAmA8jT9e93qk8VJYEOLBOh4F7DoMu3uE2fokJBHDOWdcFOJy
+fgqRsff9br2mtYLvs43N7Y9Bo/hjjSGeNhV+fE1gRASfupu4QD+HvG/UIUwgmory
+SgpujxLKYR8j+8lrMcUgATQr8WQMNRGNIlflLL9MuoJkOeluj8ujAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKc6sCMaUE9hSyulW102iOAfKG8vGb1S73Mi7oKZMMybmldwQNSF5X0I
+On1na0yssz6i1/ozCywtp+DwHB0Jg9jfZjRAivyguNTsMo6ZMz+/G26M73zT5vMg
+BR66vrSEKpubgbzGLrEMit/ORZXPL/cW9mQJmTxM0UmvLT1Acs+xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+LMtyAuVHzMx4GdDMg1SrQDFfqEvDLJJ2oxtr0YJNSSYjaQb+pLbgdvKd8bd+9aNP
+prQrVBrOUsQ/5zvla82H7aucAm0xUES/dDF5z31fDcduw3ress+FZF2ECAKXRiPk
+hY/313DHEpYVhWFWrjD8aycnJX5QeizEObLJsQxN2bI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCPAawrHE8ugLha2OLkTWb5NKVZXZlBMduWTqhy46IQeq2XAPkRzhsrfFA7
+x/pTMdNJ/rNlZflJ8aSDFB0NgYBbReZJKtbouzPRVhhInq90wZm30XqQdjtTTWV1
+OzLSTZdHHAU=
+-----END ED25519 CERT-----
+family $0E2EEC125A6AC8D5EBF5DB36B776A3DA5510E7A0 $37103DBFAB22FF01E9F6C0086A1BE3305BF9747D $45B4949794B713BCF9F9EC95F7071AABB6CAFDED
+hidden-service-dir
+contact <tor[@]angristan[.]xyz>
+ntor-onion-key ivnldZ+pcWkZggv0NKyhsMU3XoB/1xXHosUaUosPSh4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 8qm93YZfEkmlR+SMFSdGfUzH1R+qXd1xgVGT3Ww7/aLN3DoTvDt2jPz5RXBGlQbi4USLgTGv5rvLzDbqeoyZAA
+router-signature
+-----BEGIN SIGNATURE-----
+NU/tmv5LHMx3p/JoYT2n5RWCXFbzc5kMybEynL7elBRgB976z1PiSJrkRladsG6D
+CAzEY2IeYQrmEtluExVfZHQcDilv6mjqxqmiYS/Te++1xfkaeOZvKXwrbIQLOH7Y
+gHqPFER0+SwEtuk67n1TBxprfNG+zLFxVfJDXWqGoYU=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router belina 151.80.141.122 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDMAaAnZxFEv6x1z6yURaw1kNQ4tlvIXGzwGo5752wG89SqAQAgBAAh4Dr3
+DnOzN0pyVa3TbD9kmWcHHyY5CJnyk7V1UYKKlvJDg3YZBpRFBOYZHZ28COtzeHhe
+GeR6RmK/zpBkxcSuutgHg6ghl61+68BQWjjDmHmvXVg67WugLps6wYMvzQo=
+-----END ED25519 CERT-----
+master-key-ed25519 IeA69w5zszdKclWt02w/ZJlnBx8mOQiZ8pO1dVGCipY
+platform Tor 0.2.8.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 21:35:27
+fingerprint 5B72 CA61 1BF4 3F34 208C 4CD1 3CD2 140B 4C0F FDF1
+uptime 6782502
+bandwidth 1073741824 1073741824 12645557
+extra-info-digest 518253E569668B4B913EFE19A662AAA67728A847 4LypD6SdygNX1J90D7lYXu9aMKg7BbmKWMJRoql/hlg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMDUJpteXxXIhmcOEGITvEIa9xQMOcnUqXj2+NqK8q9EO1BKr11iliXA
+T8HRH0T5eImbCTErJEIoDnwi3tWp+F6KdHzjTzEK+uUa6K+akYcvwgX24cGtIll+
+JXCXwaZglWIyXpi+R6ivro+9QMRqP6baz2Tw0OTGl8zzDTlZXGp3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKlCEzQKuFsWwQ7YV4z8LMUZYr58hpw810ElXSejfJKzQY6cR3BbBWHC
+vquIGw5Q8oruqVJbTKk2QAONLB7FYo4M0t8BmPP688OjDPD2rMLemVbuZYaWKsAq
+rh9cPyJZs9QGySWEoYpBxO20n/YDVUSVV1bCDU56BWyQr1L+APglAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+V5yqnEtY4ImPHz+DAPCqajXlRfK2xX+42thrLjr8yfV4D0xgnP1OD62OsdNjHdCN
+R/o3sOqjoZC2LT8vIDJfrnEyoKt1ZmSsMDzpXcQLZOHD6/jJ8J0A5EyYranZD2YH
+9DbuzOjVX9dhso7c+57G5Vwpr+IR9dfUPEQkLw9TBjE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOASHgOvcOc7M3SnJVrdNsP2SZZwcfJjkImfKTtXVRgoqWAN8C0yv4aONl
+huzqT5SNuO+GNVwQKGovWQn7D8jbfiEpi9b3fmydsHOzHADyUYlgT/ibn9KzfHUE
+1Rth81bl6QA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact belina <belina@isurfer.de>
+ntor-onion-key AaOlVRFUWp5HLVZ4FxhQs6/pDz9fNsg42Dm8Y34XsGs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 9vCzdMv07YCnTqrgfXTR6DlMLCn7YIeSXopJ4MVwPjUVZeV3g5qm/yxYDfBsMVkoANlMzw27L/qgU5JdPFzlAw
+router-signature
+-----BEGIN SIGNATURE-----
+iKiRTx3cSohY0x0AOmna/Sic+Ffi7Zw7ebQNzIvMTLf68Ixu8BJND7Wvfd8l3hOd
+YQV+iDnNZ+MyU+CeJ7+pJ+wOoeu6zwG1Odv7AWuq+Qr70mukSztGbmX6m8YQlCj9
+qsBRLd1r+UrVsXEdzh+oSZNGZXk0PGhFDJbB6ZcaPZg=
+-----END SIGNATURE-----

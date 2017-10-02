@@ -1,0 +1,45 @@
+router naecadmin 91.134.140.77 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:52:15
+fingerprint A72B 0B82 7F71 CB2E 7D1C F44A FDDC 37AB 35E5 7EE1
+uptime 2371985
+bandwidth 819200 1536000 0
+extra-info-digest 2E19A88FA158E23DEBAB4A67ED1D6632AFB32E30
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMJ/GkqI4NEyaAph4lUgsvMezzxj7US8suqfsbE5ZRMNF0FlqmaGtUyJ
+RFCJG/W4ROaI3zmjlpjoICUmlwWntP/rypSxSFBcQ+Dfv5bw2enh6DVT5UIWMl1w
+k55nRL1mvmi+EMGgp0uq9kULikFS/U+pCt/ekBUEWwW29+fk4NWrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANVf8VmLPcufu37ncWlWU1WnPWOcssHonxPklqeBXYcK7N3DPcVk8z/M
+DK18LGNkNmuHHhB9iKMDUurXjgFn3otNNG6189JwOuuUAIfFsphX5FJ6cEuQVN8c
+Yt0135isKnMv4MCfSkcvqUrR9dGuTSjC8fmoJbmM5i+VqrV+mFmTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hibernating 1
+hidden-service-dir
+contact naecadmin <admin AT naec.ng>
+ntor-onion-key wQ6wEBXXLzS/C8b50GcY/Pjz8nqu5kyKjwJLH+zOo3U=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 91.134.140.77:*
+accept *:22
+accept *:53
+accept *:70
+accept *:123
+accept *:465
+accept *:993
+accept *:995
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+Yj0QfySp16rAjrZr8Cy3UnrxrRyVd2qyexr/9tT9CCyTZzseDtXTgcA+u4QLNPAi
+Q2u5UNRGIgfqF3DTJ5dszAHNaktPk3OERDFO3kF0X5LdO0iv3S/Ees/i+CB2gx9G
+zILxwZQKQ1tFoOBt3cfxKewCfO1unOkoK9OSL5zy66E=
+-----END SIGNATURE-----

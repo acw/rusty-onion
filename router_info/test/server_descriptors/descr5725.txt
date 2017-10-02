@@ -1,0 +1,31 @@
+router Eigentor 89.22.97.193 8080 0 0
+or-address [2a00:fa40:aaa:2::17e:e074]:8080
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:00:44
+fingerprint 4BF6 35D1 BDD1 54A8 A8B5 98D7 7065 C930 91AA 5D7B
+uptime 44
+bandwidth 1024000 2048000 4954566
+extra-info-digest 09020F50D563838D0C7DA6A84CE3CCF57CFC373D
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPXMmMqiDC3M7Mraj0PS2EQx+k5KnIIfqEgnpU/BDC8ZZW/spcF0DJTI
+FoB/O0qeJsSannL+b0d9Xq07GsG6f7agKH3+p88fuHSKDgL4XRKbDDQ8NtcOEWMU
+ksFI3kW6QTxuwxJj+yQi2mOeCMwWfbfsHKINyOQzxBbPO563TQwvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAND1BYDhuYTx/5iEKZpyZvM/NrDULDfnL2Y44R/KBQq5mBP9CUiNKJbN
+37qQO/mioOU5XNnSm37BPiBA7OJ7H28dVLlPvp5xhOoEO8Ev7gEHwdwevSM/Zvak
+cbKjrNR7ZJugXP4Dnz2qxwdpEoiF1XzXB9HcBmZ/V4Xxhu2qIx9VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact dorian+tor (A) opstshop.ch
+ntor-onion-key koX50qmpENlKNYk6EN/cjElSMbGKxaGjNhz2luyGYn8=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+ph4n6FWPJtmKL8kh1jLDz/LqlwzQuIdMQ2xFSdM3P4/bxEZb63cvpX8zx3LsaLgg
+eP15O5T1TCblmRApnFoenLroMXQZplzTGzLM8yrxfxR/Ug3pBxvthXhUsoX0Qa4F
+9xVs28qFY2r2p6CL9NHSEzWnIuGSgdL/eKoy5Hknojo=
+-----END SIGNATURE-----

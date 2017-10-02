@@ -1,0 +1,52 @@
+router alternativlos 213.136.94.10 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGPATJV0qNUa+723SxyXrigWmvKdLpB45E1TQ6qk7kOrpH5AQAgBADN6LZm
+AU802tyVc4kzdSgRLr4l05lC515S6Fhdnu0hqFUVxqeFCpW4oq60v2DdAEmE6ujS
+VdVY6sfzEKPhj2XDE907IjzNzhK4RTkThzWyE+A/uy5H/jXCLnPI0AONoAI=
+-----END ED25519 CERT-----
+master-key-ed25519 zei2ZgFPNNrclXOJM3UoES6+JdOZQudeUuhYXZ7tIag
+platform Tor 0.3.0.10 on OpenBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:38:37
+fingerprint 2809 0710 ABE4 33A4 7021 F222 08B3 EC24 5A91 2900
+uptime 1672011
+bandwidth 1073741824 1073741824 2093694
+extra-info-digest 537F8805EB479352DF09A524652BEFD73787283E k1m/z4vreg2nDjUPfnyyBF3yihjMAo7Q3nkGOvNRlyg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMwt9CitJ5l3sdD8Gpuvc5hvXLeWi2suE8IAC0CDGUtM3ab2u0gUlJ6X
+4Y6Q4X3m0miW1vOvk0q9rkEGEKMbMxmhhoi/i8u4iU5ZUiR7h2ypRt2XzuDo+F+h
+kUye5agawnjOSyrD2CirjAO68P34Kx6Pi2vHB8GqCbSu8oe3S+CZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL+iUcE8Is7TDck+uAafkJvFiTwYdhTIdR9IIuGRLTVX63+IcWNNbrIh
+cui+NCMQ1x/CgF+rJ/K9xhqGYYCLrws9ARZtQPqTr+pJOf5U3ZnHIiXElwS7M/Ct
+gja4ovLe6OHxKsR0wZFG/wz2dLD6f6Omn1Byw/p+6LfGtBtGxP8VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+sPO3FA5k6tgO/nSrhiPylb5QRKSIGiFKdST07YjOIeJxfdcNtDgCo3yK/Frti0ZK
+QYIGj1pFBzSDohLdxp/agOvpwq2Cb7mlMv5O3MbZ1GECwXaxJkc6qRML74lJnPC+
+fqez4Wl8GG3f7lxCfoVrqZvkyklJuQ5wYGpNpi5FWI4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAc3otmYBTzTa3JVziTN1KBEuviXTmULnXlLoWF2e7SGoAHj1gzAYL2+r
+dM2EtSVnQE4DWaLFAKwLsvLnx59h8tU6PmyPTQZzOtLOCWHxaAfe9KlQGj1AxgOh
+qS7mm7llfw4=
+-----END ED25519 CERT-----
+family $2E7AAE82E2BC8F65FC94E3BC744B7373CE310886 $6D683D285A0C73EB0E39E413E52C3301F5D1ACA4
+hidden-service-dir
+contact <rot133@dismail.de>
+ntor-onion-key 2GS5StqpFdSo74CsxNTxCcFzipAx9XDIGY0uyUj7pyQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 6ojE7idyzxLnd/ueVtnB7oSpYorfK7JO+LofG3ueV0GssyNC33FqDYbZMRzUB4YHN4WafpOIHkteAo0ARaKqCg
+router-signature
+-----BEGIN SIGNATURE-----
+OLAZUNAZHTfPy1kMxGAFMGEKhzxJFqKG4MX99KQx2rhnhq2gS8HfBAW6xuz5677U
+M1vx+ncjW4oFagQcAPYqFQH7cxXpinC+NSuEQbKIV/KAyAWX0qgOwsKrOwhKjQfx
+KTxGA5WA/MPA7FW7CcC4gOgaQy2rV82Fqv+KsbfYov0=
+-----END SIGNATURE-----

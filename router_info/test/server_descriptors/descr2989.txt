@@ -1,0 +1,46 @@
+router PookyWoogums 73.99.25.134 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 19:15:30
+fingerprint 4BBE 9641 D76C 7385 91AF 6109 3EFB 37CF 0DDC 0A71
+uptime 273829
+bandwidth 102400 204800 150862
+extra-info-digest A29A2DBB551A1E772CA722ACEA8650237934C027
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM5dmu2PP3jkcK43jj4BpjHgfzjOXV1A+owzV9yGtA38sEWBvKb0FMcL
+2Xeipm5iyM7p5rziHtsbsZ80BH0zt9JUjKwvd+mcNHkQkHPdzl3lyiFXU7p3XxMA
+AHYXA++jaXVXorYfmgFcT2icxFusMpanVyQ9QXEpUxAaVBsx+AVZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMdQCGlIu/OvyRqpcFssTg1OTfxDuvLYm4EV9IpaBtFwZqrI6Tvu2R6J
+6vAXviBG67Kv7FnnbXat6pULo7UmHefiYd80vwQJTqrFhFap9/oHSylCdI5uNAX6
+KvLagWbue5+paMAUvAG0t0iYcRDAWCQh6TXR60GHfX9HFr3xUaTnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key L3puc53nCRKaMyrJsnvRiJcab6Y25GC/ILbYPDDSw1g=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 73.99.25.134:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+ZDKtB5uwSPVVGtXicgCZiI74bVCBZD1/9/SGPuO5iqYLjJKdM/BYfattU44oyedA
+KnDMWlhnRsZR6gCOPmhYaWyWrHOzlhAe8/MjXP5Wsjge2jWeM+tUweX94IftBB5R
+CLhHd92Oq0ZAvuyPCj4yIb5rb4ALP7PF3JaaoAo7+hA=
+-----END SIGNATURE-----

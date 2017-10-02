@@ -1,0 +1,53 @@
+router LunaRises 176.9.43.26 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAlAW0RCK5WXBJ80/1rJ7+jlveKRe37CoLuuXTIweG/Ow75AQAgBAAne6Wa
+cgjUuHuNEwb8MqN1XiZ+CzFav0I7i4TRAa8c5Jgivt52ToxCLiADAuZfmMxdwusg
+7+4EkO9rDazPyVsc/+/9w5viYHhLp4sR9D8YIawpS5PF6CPpNUUxT0v69go=
+-----END ED25519 CERT-----
+master-key-ed25519 J3ulmnII1Lh7jRMG/DKjdV4mfgsxWr9CO4uE0QGvHOQ
+or-address [2a01:4f8:150:5407::3]:9001
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:53:00
+fingerprint 4DE7 D511 DADF 9A9E 4D35 439B DF89 15F8 9456 F928
+uptime 1545487
+bandwidth 12800000 15360000 10417150
+extra-info-digest 0D91F4C015FDD5F00D2FBD89903CA969AF6F6C41 lttby1XdKDM33zXexoOFp1NBf88j0Ijusx6O75MJrdI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALYZOds1fWqTK+DveShJUHwO+CTcb0+ZINrwmTcA8Ed9zYOH1AsdJhc7
+kjE/ToAGRCS5vPDUf5Hc7jC4s2urd4k8mQRYl/zqiR9FPvZgDJAOnNgV5yt+IQ7Y
+QkPzWgmYhbAqW+pKd2ALhkwVRtTbRCXjBLFG5wlNDpYwoMZiC9WFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALB+x19PuuRv7AyaLAd7mNlOK22I2UFuvyeV0YhbA1vKjE5mn2GZ4PJl
+9l/+l+Mh0Iv3k3GspQ3smu7w37j1VYxNPmd0WYsBLVF5zC4sN4HDyTFbGBnfzEf5
+q8tKt4Byj3QvAYIiEpKzOeNt9F2f8q7rEnYrq6tXAVF9dlKt4jS1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+c17mq6gV91qm1NkzuXDrUgezWQtBi26TbGRYL0zggfOUK0/y3A+j9etB0GyZrhew
+LwI/HUyj774ZchDMiLd0g6BXY5nxFXAHjQryg59RLLypXuV+xViL6qeE9JMRuWts
+ZBDkDPq7gia002c73Pl64MlnrK0oId+yGebs05TYf8g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEASd7pZpyCNS4e40TBvwyo3VeJn4LMVq/QjuLhNEBrxzkAG4zr9mz39mz
+qIOxBmbCBgImCJovaAGBht51oqZpqyiGSA1Dc6IFM34X7oWPKR5booUYVvId2RfB
+gRjRb1jdSgY=
+-----END ED25519 CERT-----
+family $4C0B7AEEF985A1E23D8701259A9F90716DA3DB2D
+hidden-service-dir
+contact Kim-Alexander Brodowski 0x46BB0179 <tor@nospam.kab-s.de> 13JTFfVNokSgDwHp7DztDyim3NFNipKPNY
+ntor-onion-key LTcTj2L7/61tUqgqPUQZPdImnTA7ZMMC4/0UInWqcH4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Lh6WECO9ivvuhcHgyzyufbK3VvkS3s4pvbc9eyJqkxUXH5YAj/XURsmrmt0hamsGcVNNCoj60wz7lz1Rfvy/Dg
+router-signature
+-----BEGIN SIGNATURE-----
+ngJ8ZpyIeVyoPbQ8VF1hzIwt1zc6zMjBm3r3NH/c7R6lQUab5V9y0C9igX/bfMtB
+M1BefIwq5tqyTscniB3B1Hix5a9Js9tHAdxlwDMZ0Co26x3MCzOc9IUpKJgUIWyZ
+C/1XS4raxYPF8kMARYkaSKITjDx42pBYbcRD2Db3Pe0=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router ChristopheRelay 135.23.121.228 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFJAQ0gP3Bnn4t2jVywbCKjYTbo+81/r8fq+PfakRuVvHG0AQAgBABvFkjx
+tL+MP15xq7Um4XiBf2oKDF9HZxFwnI68vXMrUrZPUF6uRqM3RS28TRvJ/Tpb7oKI
+pNHXfTGi4zceY2MEpSzC9rxfoxcBwmauP6HxUA47Hjp23bkU251PIGLJVwE=
+-----END ED25519 CERT-----
+master-key-ed25519 bxZI8bS/jD9ecau1JuF4gX9qCgxfR2cRcJyOvL1zK1I
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:24:29
+fingerprint 50BA D4E4 8646 7977 9610 7ECF 0192 1784 9524 7202
+uptime 3829764
+bandwidth 1073741824 1073741824 1259721
+extra-info-digest 60D9C464CB62CBEF4CAE48BD65D1D43292600D46 0UmlARY4eROSXOUvFyFGMzn+V8Nmw7jITMZlViom11o
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO657LaO6fI2QFaRT2Dpdgfbmk6LWmCPUMjHcurYrgrN1+m4a9fovYAq
+NhGRu5op8lwlDYJmXKUgEXnp2rGWqZV1nyolx6DTIBGaitB+bU5WuMrcEe6NT23J
+UgfgO8HMz6NWqtCLqLrMqD7PS6TW6iQQyHIbXFk403JueHLfvLcJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANeidruZZoXf0RLZevYhVdAy/bTqqL9DpzJaRvhBNVe1n4tFndbJgMFC
+rvLSnk5k5FKPW/QYlcp7zbuChGeDsekPGOCNlQGn7ihmbJCQ6TyMdQEHe2hPSiu6
+v97H08S5LDsJcx3hvPQH5wjZGCnsFq34MkeGjOXU/B3lANDifMBVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JaU0XSn0gjCvwAwT4PSimOw+3OFN3HKilkOVndBtynLDq8c8WghaXh3t0Y6sxSEn
+nXP5WlfBPJVZDz9wB/0kscpvGw2YSfp4I2ARDslxqBOmtmmIkb8B3YvxuihIrv24
+V6LluYF+lRodY9zLt7js6pR0YjhSipSDwMMiDqN/mnA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAW8WSPG0v4w/XnGrtSbheIF/agoMX0dnEXCcjry9cytSAIe+fiLLgBNi
+VM7x4unV5gOPToCOVGMADCgCbDphZTNgYXtB68bRzsswXKZu7ZDKxU2UekcgWmOR
+h+lpODG9kAk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Christophe Biocca <christophe.biocca@gmail.com>
+ntor-onion-key oX8A/Ob3uMeBykGGYjHrH7Fzy6DuDHOWzsluKwH9qh4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 8XIhm4lOgWJprxneM9F8lScq+AaS1d57PC8nUGeFlYdeTWTEz5GWWrIIoKHwUXS2588JRKGeQgGZufBgfaJSCw
+router-signature
+-----BEGIN SIGNATURE-----
+lfH7p3JJDmiRRb3KxNuzSp7J36ftGfn/IFtfp4MAosvdq3TJMf3/nMLdHj+7d9MN
+Ql67U7FuPSpI7q8aOiBxmzhf7/JIKzmWkX4IMS5v2sX+oL0Rw/cxSbFJ/nHxMOUq
+t9FlUyajvgeIN9/4X2IH9ehGaNxjRZgxJKm655svDVs=
+-----END SIGNATURE-----

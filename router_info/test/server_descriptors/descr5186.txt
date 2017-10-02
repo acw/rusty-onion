@@ -1,0 +1,51 @@
+router gondii 45.55.108.110 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEfAWIQKXaBG1kQcvBRQwQ3u60ufqzBGYQ/dvEjaGjy3k5BAQAgBABFW1lA
+CG3WUK8fqp+yaBy6rBcAhYguEv4jt1wvBU6qbmrYIPq/Y61O2VOdAyejdEG1NURg
+0b0pdwel3hP97DLoy0stqm76g+zxVIZkAOkzMVxsKeoAsB9M15dZEWj4Vww=
+-----END ED25519 CERT-----
+master-key-ed25519 RVtZQAht1lCvH6qfsmgcuqwXAIWILhL+I7dcLwVOqm4
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:40:30
+fingerprint 616F 29AF 97D7 35EC 20E8 C7CB 4F58 3122 5BC2 0558
+uptime 1105332
+bandwidth 307200 512000 368465
+extra-info-digest F126409BDC1BB1939A2FD3856A52181FAA891FBF zsyc1RZWAl7Ue3tZUys7PCjLQp+OmNDYKGqTvrNJrdA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKrSvmLmegzfZj713WxX1PBZExwUhi4XzS8MsAImZt2zdK3ZUxYNIA2t
+FIxcerwSY8sm2fuowt7EGVyTwYm0iHKvVyQGJr0Cd6Biq/zoReRfEmZeNhW4+H3L
+7u9MwlQNOq+95Kb/rs6K/yiESoRdEBTCTFj6IzdvTVtC8mxmxGwzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJXMS94btmyKt80iygnJYu6ejdNYhp7ICUlUi1AFT8TrsmqC62Bvjf38
+nR8m5aMdEw9O0abXGb/7oVuuuS1Kxgf8ly1LpqZFaFnGBGCO038S8PfRikN08Lbo
+vVVQp8cCF3XKN2vL9ppweb4wWhUYwYxkV0vaP14Th4JHyy8k+o9fAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+GR1hFk8cw3LGhyysD16F8B8kpYCVP7lbgNHDg3emexqqzl1xmt3WJ85pbbpWVQFv
+tu0JTm2NCjIZ54amwu1CNAw7T/odFs1XHoDC9ti0cfNWuPaJv3EHe+lxeqCv3uF7
+8Wy2xfpCSpj9djFl+rD22I55S8L9IxfhMnNAYixiJ9c=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAUVbWUAIbdZQrx+qn7JoHLqsFwCFiC4S/iO3XC8FTqpuAEpLWwNGBEin
+XN/BQLsZhvVR2PHgbpChtnctkylqksV7FQ2CtkuKna+uTtvS5w+qE+hEGq+Kdz8A
+rcRTF1bXqAE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Greg Broiles <gbroiles+tor@gmail.com>
+ntor-onion-key e3D1FVSDQImPQvaJ2uzZxcVCmXdhsKqDq2g3zJxjwDQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 zXVcGx9pRCE2RZsHUHM1F7G8X6nRsDA9Z5Xq5SSzjFD0KG5R4w3fITbZzZt05ntO/0MK9E43rJCefA/i08dxBA
+router-signature
+-----BEGIN SIGNATURE-----
+IUv1AdqyURDnOoiUMZ68l0FKSNgrp8xTcWE1z7LiWPF46xJLLL4q6Jq8/UE0meqh
+ZA8jvWMJtFxnmfk96FL2r+cauWXlSgz35J3AM8+TeyreeQGOvhv5tYjTFS+b1mUL
+9rTF1WSHYRckA8FTLBrNTyldOEdfKQb7qx1obvA5+rM=
+-----END SIGNATURE-----

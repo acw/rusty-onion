@@ -1,0 +1,50 @@
+router NevadaRelay 47.33.6.194 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKcAWHDZPcn3ldSr17eXPnQ0BspGvPXCVhSUM5UdYgQYoalAQAgBAAZj+2s
+BL86guCIjRmBtHIbXEKwkdbVP22lACpqAS4H3gnFmyFOU86++cl1K43pqsMb3LMa
+cmdvBacOsfZl1kulesWNtLItOb8E95vdhHuKtz5g8bFC+Yupzrw1dMcmggI=
+-----END ED25519 CERT-----
+master-key-ed25519 GY/trAS/OoLgiI0ZgbRyG1xCsJHW1T9tpQAqagEuB94
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:57:03
+fingerprint E93D A352 5850 41C7 FC40 01C1 BAD7 9253 AAF4 63F4
+uptime 10365
+bandwidth 1073741824 1073741824 0
+extra-info-digest 6AE6939F087A0CEFA44F0CC783B5573F3C9C7351 B8hgKkjtMG2MsUKZUe1QmJOfLU8uLlaN9hggjuoCmLU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMg1rkg7HYWSOimk0/wQbzud377dEKi4kq4r1fTygeMsPV/uiImYzcZN
+Y5FQGJwGcJw8NsH6o6moFEnoEmmtJ0/Q12LCJ/rtFyxShxpu3fCLk11/OjWQeTgK
+oFB1cpzaIhvilhGCjZBNcpIpWbrmPmWfW4nKfY35kfRdrFS4HW+bAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKRyz77OoTiTqh0GUtVSmDdX+uovt4QspSDgVkgkVGjYN/5BdmLOxe/H
+TnyRYPemxLU6SLkOrMDMZFTFknz81UDuB0ufJKhd3FVdtxPMcP4Cv0fvOZx8uBEF
+A5+F3X015gMN167bDIdlz/Sb13NTY60RwY/ushjU3M+KOOastVJBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+uS+jPZdyylEgqV6V8S/q5zDIoinCbKnD3DDZjvPw5MFF8Zac5pcCmJMIzanzzWPC
+r7KgG3Roeecm/zSw4PS+6CSEhl3AKIimPtIY1o2pYXUU3ywPhqFgHGgBB/Ynu5Ef
+kmBVHA2LSaCJp/FWcNRR7Qb3EyhIBk10Z36xDVHTEBE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUARmP7awEvzqC4IiNGYG0chtcQrCR1tU/baUAKmoBLgfeABFvV4/PExET
+1+2uw9SuJUSNyY5+02yhN6oiZoXC5vaNh0VNjrp/dDdxsntyH16SwfBpi/1GnPJb
+B5hbAMMBfgs=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+ntor-onion-key q3sAxwjHNTIKGVOJIeVEskdysLe1fyzjSn2EBtzZXRc=
+reject *:*
+router-sig-ed25519 mT2gBRBlD2XSmJN0/+jU+P7i90M+q0wjEzs+wjXpanyW3X+6MbZp5SdCiDPcFxscMn0FKUoBrnqZ+jHmTckSDQ
+router-signature
+-----BEGIN SIGNATURE-----
+Q4cKYng8pnNhDA1L+44bC/frdSbOnLfhjevuaMqCBcHLaznuya8bBPRomVREQJ5P
+ZIrxzPmwnBHD6K2kavHo4C+PO5Is8NBueNOBOl989VcMn6JTWNulNNKl/7J5dcCC
+HwaX62u7IlxmW9MNRPVmDDTpfRKXNfLr/eDL4/WHZ4U=
+-----END SIGNATURE-----

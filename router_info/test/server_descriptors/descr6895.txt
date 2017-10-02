@@ -1,0 +1,52 @@
+router cimmeria 91.219.239.92 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJNASoHSwuYpPnjD9unQdB7QSRsZkaVYxNpdisD6km0JVgIAQAgBAAxnhTU
+bloNAppqLH7ASzA9H3nvaP0tHnQc5szvmqvHrRecMPryU4CTnJ5Hynw+eTRwDzgw
+kY64L5669MlFujfFFjW46/5sn4joqYLNmMMKrkNE0R5ExbEFX3dK/jHycg8=
+-----END ED25519 CERT-----
+master-key-ed25519 MZ4U1G5aDQKaaix+wEswPR9572j9LR50HObM75qrx60
+or-address [2001:4c48:2:8400::5bdb:ef5c]:443
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:12:34
+fingerprint 1FBA E723 F818 6847 E30E A1C0 3CCA 3D40 81D4 E2F9
+uptime 1234878
+bandwidth 3932160 4587520 3787365
+extra-info-digest 51B3093AE76A2A452CE56EE7458F56FC9D30B5A8 FXJEE8bGl9Ags3PDoxRf9F/Bf6yTIPHrmDDd57ABP30
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMO7VYg/mDr5eHbs4EmiuGr7AFhfkvY7YJ+XWiKYHwcuG66mrKg7tBJJ
+d60FrDCO8hcVPRpa2U5QvoHe9C8GQIUzq2QL1fjec44Bo0yt79F/RVJJLiBOo52T
+JIQv6dMDTa5cLXRVJ3XqPwT8lQlhZ6eR3szX5tVx5eK+QjK+qM49AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANWJUs8Te8rwEfQ/uSl8arnpW2Tth6U+V8n1D3KRz1MjOGcG3OjWlcjg
+M2N5MNi+uAsu6MFwf56wVMqTWWs6o5nvjur763nhNB4CZHt/FWR1mKKgDK6aWWsu
+hdtcPLvn/WnjvDSaF3LNRSysGpXLF8BtmsyhS+ROas+U0jp7u8mdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+v5oVMnkI3mkngpzpWVPSNoFHFbIiqDlk+xTdB/54DdTJrJEJhqnZgRthOd1ZiA3X
+i713cuhoUf6SXb2GsygNdLR/WdWBC07tltKzrkyGqOIUIFq8snVlbm7CHZqfv3Qm
+BKmcJ/jQtD4OmPv0+Vb283MEVGn+OYou9bF2L13SsiM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNATGeFNRuWg0CmmosfsBLMD0fee9o/S0edBzmzO+aq8etAA7CcxM7C4VF
+z8/Eym05LCHQKYuk4Lv7Q2HmfMPpslqzd3iq+Q8d/+ibFa7HXis/3Yx9J3P44fq4
+5lL8W4vXXgE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <tor AT skeps dot ch> Bitcoin: 1HHffS7mV3sCgGVn6RH3j5X1fCeJbzPnJ9
+ntor-onion-key wL4x37GM5zmD8KKgcF1dh12apBvy3mKopjYAOf1ZZRo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 PUs+pUxJxftOR1zXQdvrSob47UxRtUvI+/Xi7cL6Vn46xFpxHMaP7d/PVtkNnkoO+8Rapdi8qtLdi201ZALGCA
+router-signature
+-----BEGIN SIGNATURE-----
+l5dcWgFMvTLCbEaw5n8TtqCwMzN4tqcX9mHbwYzR03FTpqhv321+/0/kwzxHKLh1
+o6ZwQ7xx6NbXrFhuPQdecRdzLwPHuEOwRtWvWAM7lFY2Hx/WSoHvX6svKf/xjsez
+dZ2rnxW2Sx+Ec1bQs/nDlxQzw8BJfHjS31y21/EWcEo=
+-----END SIGNATURE-----

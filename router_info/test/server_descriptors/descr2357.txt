@@ -1,0 +1,53 @@
+router cmdrdata 78.46.37.26 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBkAVaXrLXYO6hHsOQzyWSgJyk7P/Xi46cOCn2tTv7lRXyuAQAgBACkKdur
+uoy6cRT3DqzuXyzt6T5Vtv4SVy7ls9t0lKuYmYfAJVGCHA9lQ2wx+m6Ipf817G7G
+W8hmzI5FrsKoTX1g5YVrnytK/F/mvBQHD1jaAyDnLeHRItKY50yyUYWKRwc=
+-----END ED25519 CERT-----
+master-key-ed25519 pCnbq7qMunEU9w6s7l8s7ek+Vbb+Elcu5bPbdJSrmJk
+or-address [2a01:4f8:110:30e1::26]:443
+platform Tor 0.2.8.9 on FreeBSD
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:41:50
+fingerprint CBCE D581 D684 EE7F 4514 063F BFFC 2ED5 6DFB 248E
+uptime 21593624
+bandwidth 4718592 5767168 5668660
+extra-info-digest E0AF9EA1408819FFDDF83B9BD301F0CABB077863 fo/rXAWWT+CljkdJTDzpbgdKnxPbFLWAJl0NO+IKFsA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMtoijOfroTm9DWWUC2HPwhCQa2v4GaApDxe0z7j0zbx1pPe3ucK1jqr
+dSOgSUcu4yZMTlbECPJE7L0eO/wpRz8eo0m4ZWo4GPZZtIzghVbs4o5r7cVgapJX
+poIOVELpamlqNZ4hGpUHjexz8GAaqiAsYd1lPRDRBCo/D+ETszxZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALghem8gMtyAO15uvUzk0XS9QwNu5UoFGU11I277+u3pt/rdD8gMXp/n
+3VYuChUbzLxYT439vpMd5clAgGL+Krsut9Q51BQ53TNqSX4emqRY5fbBBq+3oRV2
+VvQmSsZmLyEJuSSxOBXqYcpCCwJ4KiIPEQP9CvL2LYQjRM2klYK1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+UI/EY0EQM4zSOCo3cf6em0HevM8wSJcXsqkPdP23CZ9yiRI5hu+2GGXJ6lSVAt4a
+Hao+ey78rj6VWLcp6avbvVuwyGLPF1l9m1teYa/SUdoZGxUbPf2cqvi+Sp6PGEgV
+Q2pyvKTlVzVPDLz4Ni0TTB5AFkOiHx+cvhxCzyMf7K0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEAaQp26u6jLpxFPcOrO5fLO3pPlW2/hJXLuWz23SUq5iZAAIcauEJSpMS
+aTMJeU9Ev6w9IRqUsmrKTjtPqCDfrEscMaknrD5RHezrm2yWQPDp8Enh6dA93tEr
+waHk7PKfzQc=
+-----END ED25519 CERT-----
+family $283549E0DC3C4761A1882AD155DFFBC09DE96DBF $5A4DDB07BBAE36F3701119F86F408C6422868700 $F65103EADF8CA80E2E7A66FA8DCAF8AE7F5094C6
+hidden-service-dir
+contact starfleet --at-- trash ..dot.. net
+ntor-onion-key aGYQaLR7SsZB2lIbEqsAs2E8miLKjOMkfyFyv4os/GQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Bx2bcwifv7RlBbemxuauUQ3eFmvy7WidXzPqjlDKagIHMwc7GMsBikU1giGbGq6eX9bcTDUxpLu89wYMnRz4Bw
+router-signature
+-----BEGIN SIGNATURE-----
+h09Xc9SxYLMRvcUVvbE3DAzK54bX/DE+5hFQvSKg9Ugg8ImoctXJ5OS9oRav0zH6
+p4JFBzqI79f9k8pvkzvJFfu+C8SqRLwuI87WV3PU5kclTCL8hVS4+wFcfYkD6eBu
+zmU21eU73c9yjFY4+IFbQP+VQwOWp1gIM5fFyKA4Wuc=
+-----END SIGNATURE-----

@@ -1,0 +1,77 @@
+router blackpearl 185.112.157.135 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIAAcPMXsP3+huQQXqt2uBbuprMHrAJHZExV81sUwEI909pAQAgBAC2q932
+VSw4CqOBqUCxG1UQyjeULwfWHdkzYPZLbnK/KMnMMALhDD7rZ4gdjqL3PtwZe8if
+qi2zCHwo8RzRPTsnX/VsJo2GgclzWjmia5oV1+RuT9rtqb1gltUmSq5LSwE=
+-----END ED25519 CERT-----
+master-key-ed25519 tqvd9lUsOAqjgalAsRtVEMo3lC8H1h3ZM2D2S25yvyg
+or-address [2a02:6080::1:5453:e5f9]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:00:05
+fingerprint EBF9 8539 9B3D EBDA C880 97F8 1424 75D3 0D34 08B6
+uptime 5
+bandwidth 1050000 1050000 1189755
+extra-info-digest E7045C6A0C517D3C0ED2C2D4FC247841B9586086 W69txh46r9q5uK1hZ3a/1CDLdHEQuD335DGWjEhwwhQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOsAC3kIiN4sGYvBjAyhp8/u0aKx3Ha0Of/1hYoQ4Pqwr4ir5usKxXpr
+vjb44I5+6beyAZ0e4X/H73jCqV7Ei6r/0Pp6U2wNEQsAYC4ZjAJVevqcV/mL2Yz2
+EwGGJiaSmkyvZPSnCqP9cIRl6hC97W7rGyk+S7BXQCsn62CGpgo9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMFJ/oML3qm4wOIeQA0WNjD/Pjhb27RXfvbJv4nx18A0eaMAV8nVYl8T
+ScQXSTE5kmajlRRhoka/sxJmHc4c+eH6KtjvQEVQ80RYhj/6dmJfC4zx3DvBwt0D
+ZFDB3qgroZy1aQIgmo2uZ/v/+VJcVdctU8XxflbsChp6Ugt9Nl2vAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cQPvlbNaqcl6jsc7ykAD2TCoHpGNxcfUmc81OymKBfQPBfk5qPYSMwdTWG06Uzls
+Xf4Dx+QVxrjz451ejWBaZkoxeDUjZ5VIylOXEsqhMus3sgDG65li5KE561AIHux0
+hEgoBKt3hKav9LoEhxUSyOltI21TAyZ13/fQh/xaIbQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAbar3fZVLDgKo4GpQLEbVRDKN5QvB9Yd2TNg9ktucr8oADAES1aiJZA1
+CjAC7CAjmbthp6sVyWh4ZtEO7Gyf5SC5paxHESW7RKF8WsqIUqfA/pj8p090VIIZ
+Au8sotUbzwY=
+-----END ED25519 CERT-----
+family $701964844DE2B05FBD1F3181FF20C214F17C7233
+hidden-service-dir
+contact BlackPearl <tor-op(at)wach-it-solutions.de>
+ntor-onion-key oXFtkW4NJgZ4jmAg4zBLFjpL7oehmn6lx4ElMERL8W0=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.112.157.135:*
+reject *:21
+reject *:22
+reject *:23
+reject *:25
+reject *:53
+reject *:137
+reject *:138
+reject *:139
+reject *:179
+reject *:465
+reject *:587
+reject 82.165.0.0/16:*
+reject 93.93.64.0/21:*
+reject 96.47.225.0/24:*
+reject 147.67.0.0/16:*
+reject 210.126.206.0/24:*
+reject 210.216.157.0/24:*
+accept *:*
+ipv6-policy reject 21-23,25,53,137-139,179,465,587
+router-sig-ed25519 JcNbzYWwA5/8msZtTyDRumTjVE0Dwl/+3KkcVNKbEjspC5XsgA7vuzKcDKwHyvouCzuAJcldrj9jfUcZKhvVBA
+router-signature
+-----BEGIN SIGNATURE-----
+iZBGeI6vZrE52h35/UfBzaVJIrS55wA7EzIQwZfcOXqJHP5Cp3QHXlDt4g/Oxhuk
+ibaLtZeLJ9NYAKCBHOTCaBiiByhGjWJ/uIH0prienjO/bdIUnXkqUs3gFuh+6LJr
+yZLkRZj2fOLrUw/6IsWaBsWEAtUZYqyyjWtiCqvYs4I=
+-----END SIGNATURE-----

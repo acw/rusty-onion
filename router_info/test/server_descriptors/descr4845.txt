@@ -1,0 +1,51 @@
+router minad 138.201.57.109 59001 0 59030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKoAT8kzUSfioakN5+6M8itev68yDPY++OFiaUfqW8iDk4oAQAgBACrx87C
+yugWZyFPUCA8ONJ14gq2ROYiPbV/6ekS6urCphserCLPC+BWQyB7EqBsSiXqxjsZ
+rxjj9Ess7X3xMJ6xFhx2ViXwVqMyhh0YUlCSXg8/JlfXwwernOJuqDbGLgg=
+-----END ED25519 CERT-----
+master-key-ed25519 q8fOwsroFmchT1AgPDjSdeIKtkTmIj21f+npEurqwqY
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 07:58:36
+fingerprint 811F 3FD8 D280 ADD3 30B3 A3F1 8D5D D8F1 A73B 1012
+uptime 0
+bandwidth 8192000 12288000 0
+extra-info-digest 474F8A94E72E8C0BA12FAD340616102D1741560C lZkz/IUdzEO0L9lro3YVG75sslJd6kNnnBrrEZN654k
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANPBnzgVKot4gat8ePPiN3qI9XJwYZNxo2wTRW+T8s4SD7DVMfXHwwmX
+AmVx7bj1X5lKSvMC7uUisB+o/tdMoh+WTj6b2i3N0Y5O5JPD00Wc3BDixEyhHZZI
+IJ/mqS+IyyH9DcXXkPSMzaqI53L+A8ozGwD8uRYN88XT4w4dRIufAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALvMyg+WTT8TXj1DthSHsyCbYmSadhhd2w3f7KtwnByB9BOgUWytowcP
+GxXTCDLbVMy2q8NJGN4sd170pAUSly8YgVLKnLBbOoheshTFYmQ4zChFyOQJsmR8
+uhPyCllB/eGm/IasQusvuZ4pN/s3fAz7YErd3eutEvzyi5VhdBUDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JSoOWBdKmP+DljVU1DjpxagLdXuC4yTx858PeCGuEpnRqXZif4weKZwUxB/5wpgs
+himt/VDgkJoST2rylq3XvYkfbKcpYgSXLG81UJ/vcPeDSEm19/MY35hXSs0+WBnR
+f0bq6xIzBlmZhjZWdV/WEMkjJqmU+Q48MwtV7/ZEU7s=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCAAavHzsLK6BZnIU9QIDw40nXiCrZE5iI9tX/p6RLq6sKmAPqhBY1IRBy3
+LCqnwLTBjFsGbncKp2wSaD01D4YbgO0usOKC5L2QRCZlRKoC1ZN0HUR6LEQq/qfy
+N3SCM7IWQAk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 4096R/627AA2C5 brot kastn <brot@minad.de>
+ntor-onion-key /NWsdYVYIPvlyyRpMJMl8L6HzEZFjVvcwxCiQ0lGHSQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 tEQot8dhyL6biLgM7kpCVW8H1yZCiYGAsMgECrt7HXm8dA7jQi13bp77U1rWS/9gwf17i2cCMuCABuG61xT/Cw
+router-signature
+-----BEGIN SIGNATURE-----
+MtVwAzT3IY45YYmZl3kRfU5YzXF4hT3D1byWILZQgm+nRYc/G+iIjoAuddfol+3P
+X1paM4tTNUNEw5IrLK0T5Zp8r9M+mhVWQlcLDa0PeGpBeexSQrZ+IB5E8dEmPS8Y
+D6npH564DuVRSXkNjccihUvngFLC7nxta2fV8L3n+8c=
+-----END SIGNATURE-----

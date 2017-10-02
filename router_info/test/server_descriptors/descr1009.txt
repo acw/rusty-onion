@@ -1,0 +1,51 @@
+router torino357 82.117.250.71 9050 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHuAW0nmkzKCOizLQWbe545+XtN+ZwQIR3BPB7cFVfoV1TaAQAgBAAO9GAO
+HEGOVAepwOkii9vbIdoiBmuENVGrQf9WJW2/aEyAogOERzBHDcX6/Ts3VQx4tbv2
+oRfYS3SCxNMQhezPPDmtO4W7QPSv4jaaPmvm4k7mOTDbluQ1D4A57jMPcQI=
+-----END ED25519 CERT-----
+master-key-ed25519 DvRgDhxBjlQHqcDpIovb2yHaIgZrhDVRq0H/ViVtv2g
+platform Tor 0.2.9.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:19:57
+fingerprint FF88 0378 5B55 88B7 7002 0892 A92C 30F5 D863 E815
+uptime 977007
+bandwidth 307200 512000 373767
+extra-info-digest CE2BC903D233C9D973CA7D1CB2306D7E1F37F2B5 IvZwb+I6ocpl9vQWj64ZzM6Ko1DZxDgoWbxiZJd8t7g
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKqq72at+Rw7ZvMNsYbc0X1tJ6SivommJPA8oAl2MM59LTBCKyWi9i5n
+jSahC3Zq9CNCp2AREewS2XpA/6NlO9rr7jnz89m8gMJ2k9LVXkh92z4D454LbIoK
+qsw2L/O9fshM9xFHz62gM/a43KXQ32SPuV1nTwQYd1LGvTntMOqNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANr9X0Fw5RR/+HOVBQy11GlBatrJB2wpJEn4kr4SB9jq/HjXFIjHyJvj
+NkDFd0Km+bIAa6L3uQeSJBdixnu+1rQ+IoQ20Jrcs2ihYlxugJ1cYd/jqEdlvqMm
+zeCob8nF71ZdycwIlXuqxB1szslqgpx+XOESO16/r4RblZZthGjNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hhCVJbL3SAlYPwSe+0OFcYM9d8ToXcOISNfC6Pn6Fvq3dVWkLhl4z0D61DifNuca
+U9gX4ktMEDzggZNER+QFOaQjfYv0UJZAtg5ZiGYBmP0+sYr3BTo6AuVwXctWOmba
+xYV0C1ArtimzxJovm1F0bfuN6kK7FfKLIcI0bO68Sy4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAQ70YA4cQY5UB6nA6SKL29sh2iIGa4Q1UatB/1Ylbb9oALI21VLzb8uo
+mSR8g37TIDzvDWpVJv9wixtCQeq3zmc0x5hnkxPsyKO2MIhKCH+2KHg7Tah/z7sG
+wpz8TjhgsQs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact torino357 <my@email.net>
+ntor-onion-key 9+ey6RUxHFY/M0sjR7OnSrI/AKOvrPlO5Zze1lHxqxo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 bynjnCJMKBwl+QjRNotpPtZoLXRJO8CkNjsYKyuQkTB1MoRiSFBaGPJbnVUSbJZxi0dlzMVpVvpAWzWkQJR8DA
+router-signature
+-----BEGIN SIGNATURE-----
+lIA5ANdQIXTbS94mo7gazVA5Lb0rOQQDMVqBvBaa/+2Oon/HRYRxPxM7Iq5e8UpL
+dgE/BvrETCKe1NceUjnksHYxrkMuVwi247SZkINHxbRBNsu88esLB7IWqKGwHALs
+gB5CO3khWpSY5O0y2vZaR+VIlLD0ORulduxX6uxRdqc=
+-----END SIGNATURE-----

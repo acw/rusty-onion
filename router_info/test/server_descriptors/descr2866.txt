@@ -1,0 +1,49 @@
+router Therong 146.185.150.219 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:28:27
+fingerprint B9A9 83DF A98B 909D 00D2 F6EF 6AB3 DA62 1034 3ABE
+uptime 9677973
+bandwidth 204800 409600 245553
+extra-info-digest 33581205D9D665B20C904D0EE9E46887D3BF7D75
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKkzUUNjvLSI1eLjaNPW62CvY7Y+I2+tzj/McrIRmWmDouwr3Qs7Us/l
+JxQp8r5LqPDamaJ/MdTWKwu1Y7OTPvGSezZMzoDEuSFppfbEAEvJPFhNqSjbb5FX
+pwzkA/dfZ7NYwa+TCnMX7ejrb6DZYzB/M4R5H8U80BEi7yhsbp2dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANXYNc21vE2ZYvfuvQW661xFb5On16Xwm+uefrfVS2TnjVKlnYqyOiLc
+PJ1LpW8qFdYCIs8W/pr2nZyRzfCK+CvqeMkqa69uIwza6MK29U4PAa6VSn5OAfrK
+KZ8gVPsNV2Lo3At+lfjNeXIEeK/HKxdZRrY+fMCgzGmPwwKqLmhpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact 0x127CFCD9B3B929D2 Graham King <graham@gkgk.org>
+ntor-onion-key BjrMcY1VhLxi/6rJw1lCf2xjcEEjiuaS0kWKcTEEAk4=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 146.185.150.219:*
+accept *:22
+accept *:53
+accept *:123
+accept *:990
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:5061
+accept *:5222
+accept *:5269
+accept *:6660-6697
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+rWFPlAexJsZvHxTprjzqGq5nMF0I2DFXmNNLhkmkFnGvUunlB2xU7hOgRLi+fUBz
+kIAI3lRqF4FJ0ygQ4Ykducfax1Oz0EVws+XxArFDjyBmQg9tVEQSls6+fshdIswp
+ZXqQzoYFOqNiURRqaYjvyci8ljpVC1WFGxXru82uiiQ=
+-----END SIGNATURE-----

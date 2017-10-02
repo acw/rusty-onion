@@ -1,0 +1,51 @@
+router MKTR 217.101.144.4 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGVAXQa1RdlZ7tZXEgnkDfYHEMYadCbdxc6D3u4kHXL3maoAQAgBACY+Z/v
+BEl3doWiCZk6q5uiyqSLlMVXKFjmQ0D0xHdYhbumZv1fzT9qSoBGqdBYA/0ApHr+
+pYyVs5unqB8ImitzcTKbCtc42Xi6f9T7sRrqrBERUIxQJ8w1tt7U0IMQ1AM=
+-----END ED25519 CERT-----
+master-key-ed25519 mPmf7wRJd3aFogmZOqubosqki5TFVyhY5kNA9MR3WIU
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:12:52
+fingerprint 6AD2 8A5D 8E24 E437 05AB F24B 2A72 6829 38EA AC9F
+uptime 3196382
+bandwidth 640000 1280000 812688
+extra-info-digest 59F0500A0A75F32B2B0B4B29B4ED3E57C132BE12 jJZA9yulBEmNpHVqFBn08x43wES7QfijKsRqBrcWQk4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKpBrgG4ryUY/BKaMIIaalz9abyiyTNyg8dtzDzsDgFMFrP4oG6be2S3
+d/XrK9gqPm807QgriB5P4IVlJLOsRcpwAUnaTYAHgCvz1LPM8jAQSrbwbW8s8+3F
+Ze3FwNg7j80KtZyEF7EL23AbN0chOljz0PnMti9zD6UeDPV3wrWVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANlodAfKw1Mwd8HtqtjFRy4Vycu0Afxn2d3aRlWsRuQm4koYn78xLnNG
+Lvw1TQJyD1qRVtqagwP1dxTiY9ZMzoF23trBARYAauDDc+BMrMmVoORW0CianULm
+DfXhcFXR+uT5Ro8iSAr9MNnGeWNiDZtzHYw4UdinkKvc91e2PbGdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JSvEompMlE8ukuXwjwyT8IrJ4zzoOYf/Mdbeg6CqKHBmEL9cRzOxvnZLBGk9u0Qn
+0TOR07r7CAG9TXKSSEA41ALHx+NxIWHItOuiHFTFaD2aIJhAecKSZNKKLQZUMdvh
+mzDA/MTsfpZk/ZxGyx5cKsSIXHZbzuziXIFZRCUaBoA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAZj5n+8ESXd2haIJmTqrm6LKpIuUxVcoWOZDQPTEd1iFACmk7osJR5Jj
+8V216KSLEnUoC6SdmS043VYr72PgmLwOpHHEIKD5DHXOcJyVuXCRGBiDW82INVM5
+111I06NmYQY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact MKTR <mktr AT tutanota dot com>
+ntor-onion-key DV5h8lvHWMGnabkkueewqhPw124DP1QjmIONykFy+F8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 8NlBNcEmvRZrWMeXcymgO8lFa/sevBDI4eCW7uCrMlDPJbr5YRiqYEczvQXkDmlDocR1/bR8F+IoA30KBozFAw
+router-signature
+-----BEGIN SIGNATURE-----
+hJsCSgbjNn0llY8bT73OoZFmltWFdtk6wXzlYWdC+GIsJbCBIXpt8EQGf3gc7tWe
+YW8xyXNjuKeasd/6ui2lDhxAWZBirnlJBsnOLqtZjSUlsxmQxo6TSoFvVAgHpmET
+P6Kl3nmztj7d1hprfJMzanBhu7OvY6uQQLZ8+v1rnCU=
+-----END SIGNATURE-----

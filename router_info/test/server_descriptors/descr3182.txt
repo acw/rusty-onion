@@ -1,0 +1,51 @@
+router bummer 92.222.22.37 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIBAZEFTybytkCyp2e4lX7qU5iPZVJ4IfjbN2EB6n95BFx+AQAgBAA7Lc52
+4pUfaHaomKWO8YVkc+ATvixte0YnYa77bm63mYBVGcNgNPtXtwjm01R4lq64apRb
+vR6gvijmdYB8xttv5NIOvITqNRPBHlZzL6xzPn8uJ7ab77yg1xT/RaU7Og4=
+-----END ED25519 CERT-----
+master-key-ed25519 Oy3OduKVH2h2qJiljvGFZHPgE74sbXtGJ2Gu+25ut5k
+or-address [2001:41d0:52:d00::25]:443
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:15:52
+fingerprint ADC9 038E A588 8CA3 A9F8 3DDD 85B9 6FEB AC48 7B4D
+uptime 2123922
+bandwidth 1638400 1073741824 5040235
+extra-info-digest 545D87593F203A8ADF81FAF348769F6A3E28D008 ZvN3rUswhmgcwoY67t6lvGLdbKmyR7qiEXCbP7y+gHs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN/3O5OOTPP2IE7+6NfdvpZMsfNr3yMJIcjv+fzrUeaUG9i0m1pJKvB7
+owUzGAPWRbi2FVlmJEE7/XgJ1WKiwiuS+nkgHjsGV4s2Y0FrPDFAo7fOc47VajQo
+KSARNQ8INt9pUpDjTg5uMBmBxUjh/ZEppO+aNE2K0I9do1bYC+4fAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJuVIULo2fPyxtwAoU4Lm2GNtjWAqr/eD+iWuNGLS3b+kFCvV//1D0Pq
+XR7OR1H3fFwcs41pKcDDCxctyCMA8eK+aJ9vqueGZA0OtWaaYQ1HRlsOz4zXFf9R
+cVK8XAJ60hyoluav7ZPi4OeqIuzNSMXglOQAYWgKpBP9k8ZJkajhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+yhUvERjiTXqfugNlRDJoiGPg9cZ+x7oocMk05E+8oG1Sb34bKLZxyWpozW3U7nq1
+k7gHcQZwxdUWLdXxKPb63SUM6udid/B08Fvp9/VynM9ODLzStc5jvZzDaJrcMF+o
+W9v9YMLBZ29EBd8Z1Nz6Amv9LxBE7amwn+88Yfb+R8k=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEATstznbilR9odqiYpY7xhWRz4BO+LG17RidhrvtubreZANCwj338ql59
+q/h/jo+7V1h1glmu4jdXpuHX34qQuAw+k9aoBLHN0Y+CI5V+WiEao49+IJ7w+jGC
+FqHpPtU2ews=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key i2VufsIrdtdJ6WYAa5PXnDoSymTQhc7zli7UOBoF4F8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Unqi4V4LB3K8yPxHlDU8eZhdI5mk3/CXPM6ob9gkE0okeMbmEOdppzbbjGGAaVfAgUgPxPLkyPFBy1ninqqGAg
+router-signature
+-----BEGIN SIGNATURE-----
+K9ptfoVWlwL3QK7YDDpI6ZfEpIXvsnuNOaDrGHgp+SzwtsAhNpUIcNMDMKimBUPx
+NRMAwlaFeMMivNlvqvGQiisI/oi6urkIrMZ2Tty/HYGWet0iZEVXyCQIhE/zEMHB
+ZfhsWKS36X4X/Dz350eBFbS6S0m9yr89DtvWXIqr8Zo=
+-----END SIGNATURE-----

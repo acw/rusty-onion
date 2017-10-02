@@ -1,0 +1,58 @@
+router lante 94.177.123.116 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBgAV+dhmJDgACY5ouMUQ4NYRsWGwNYiJh0wnp5LntuhFHJAQAgBACtoSMc
+1aiEFJ39Qx23fh/GqpeP0v83gjJMbVJ8HbdYG6/vpOQBnHjhcI37d62UelY/g5BW
+0BmddNJtgAqWaSej4C/0UlpeBVsh7C+bZpyv9A7dZ/yKizr/fD4dyAWqiww=
+-----END ED25519 CERT-----
+master-key-ed25519 raEjHNWohBSd/UMdt34fxqqXj9L/N4IyTG1SfB23WBs
+platform Tor 0.3.0.7 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:35:30
+fingerprint C873 7810 1619 71EB 000D D76D 0B96 FCED 6EE7 4AE1
+uptime 14279
+bandwidth 13107200 1073741824 5900539
+extra-info-digest 0E2B80FD508EC88A40B4952EE4C23C7F187DE876 HazkHyVHh6zwhKlhqiWp0FXmYHoPx/1SKqj00znvhxg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALAD4g28CC0rrKWSGJU4ruD+/+LQxYcSrr3rIu/a0fdgN5MxWW0RVvDv
+6M6rA4XE60G6DiDKG5Qd9840Ucr1H8p/5k9Mst+F5ZWgzdl9yQsX89LrSDadN744
+PU9B7mzBNoGEyCPHPxkJ6837n+hs2KPkfKwGKyTOtRaX41b8CWulAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ7g4NMNHpLItLuCCCuVSVpuB3FlPryakzJKRnTqv/KpX1n6bTQtgsDT
+k5ENdw+INH6TfjD70o7kKu6MLg2SqLMvQzOhHCqI1ujzCJy4l6qWCmLM+CLe0vno
+n7emUnoqGmBLCIfUmTxTGt1ZgoUdEI4CH50MwEcCoof9CCTMf+8LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ghaNTdPfC0aDO/SH1VjrP4Z+nghuf1ZUOj8JmNvkqhGnlGUpIYczAYoVyZCG1TCy
+/uSt/BdWug6hwpaGPfAIWN/Xr2aP6VHWJA3ZRDkc+CSJGou1gaeEih2Cb9233vI4
+kHjVz0SXoqbkprrQFVczX7YdYVOrhlD936mRWeNkmu8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCQAa2hIxzVqIQUnf1DHbd+H8aql4/S/zeCMkxtUnwdt1gbAHtAlQRvY2iN
+HfBbWeay8nn3iVfVIT666fxmll7AB+531jiBMp2uaeRT7fmxDq/aiPNRXLNCQeMM
+YQlnhLk3ygU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact vape clouds
+ntor-onion-key lZasghp2m+3OK/WOOTr++1qe6+G1CJOAwmTZ7qC7pA0=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 94.177.123.116:*
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 L/UrllteVInGbOLOsZONJik3Nad2oq4aQvvp9sF/B1o7WfcqIf59NicXsFYRGwjpw4G3kEH01TpNRayygIVpBw
+router-signature
+-----BEGIN SIGNATURE-----
+B/CfAsdVrRZ/aNNW/8OGqK6H0hBWytaQAnL5nbulIFeWKix6S4aqjAKLieMtwusS
+LS1wZi9fEkRFRId6ZZs5/htBorEYEk4X7nqbyl6xqyZhfdGi0mPKWffchWPz5CWJ
+o3mBgKRc1N4ekrXNxMymGOCHiYPUZfYyaLZg0LnjNU4=
+-----END SIGNATURE-----

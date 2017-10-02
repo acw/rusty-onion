@@ -1,0 +1,50 @@
+router Dunkelzahn 176.31.43.51 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBfAaXU9+TmuPp/LjlZgUl9+lGdN8a69bh3pfmjuyKGpbe2AQAgBAA54AMM
+S4B1iwAMzTxhtrqUM7fz6oxXCg7tsm5HK9VVOUIi/stEeqQvjwPKsw6CrHH9YPxj
+tnATx7nxCkPfKrSlvejNjFqNl8qbSfxY0jS7NplBhX/cN++pfjU1+6MmtwI=
+-----END ED25519 CERT-----
+master-key-ed25519 OeADDEuAdYsADM08Yba6lDO38+qMVwoO7bJuRyvVVTk
+platform Tor 0.3.0.10 on OpenBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:50:15
+fingerprint 4959 8547 4F54 7B5D 97AC B294 1C7A ED04 8D7E 7E14
+uptime 12360
+bandwidth 20971520 26214400 2694746
+extra-info-digest 1867F106E833DFE2CC547D1B3966FDB5F25A83F1 +lyWvEOw5t+TYtbH2jQw2z0i0uXRuYkiAOuVoTNhsTM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJbX7r5Rw7LHo3RNcHAj53KazXptsCwVzDDUXp720oajL6SNb6ElA+qo
+bXKchs9ZxGbR46Ks3PM8/iykK2JWNebnJ3Dp+Hhzlp5rh8w1OvfoeO9Kz9jObjTh
+aDNz2aIMYvHW4Z/26ch2b965F/ALf458cFt8mgxusAyHdjhqejadAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALixk1VqRn12hvwYsquttVoomCu8NC6cNP9vKWMN8PXgQDKgBhH5mqYC
+6/w47pKaZHS8LGAB8l75WiJBIK7VfDS+2zQBKqhO196x9wGSkcBUhaRrZuPPXii2
+6VWGt0qCwgLmyNF76iXX0/3qVyC6Y2cGTJ+fz3sQDfl1m8bKL68xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+H3VG5dLo3p4HsHUlRgE+8IQS+MbDHo+d7dFGYgIKSpaeJuZtm0m+6igkAJ4mYXmT
+1Q5m1CaVABsB6b1MDrKFRZx+ShcfIpzbDAt2e60+Lq3yWXA5FH1CjJFGlXnKi5xE
+3z5evdXppxr0KVoMBf0jvxncuVRNTrlMWTodv/+HG88=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOATngAwxLgHWLAAzNPGG2upQzt/PqjFcKDu2ybkcr1VU5AGHXEOjUn4fM
+xp61F5jajNL08Qy7kV0R32V5F0ssoWgzf1IS2eHD8eB/aOdTfzEVoH1fDWBN/d0Y
+tFW8R/BuMgU=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key 7gUV1mJMvnt51Gb+aH2nP/K0VUKcNLtreF0OtFVCIVY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 aGkHbG5LFHLZVG/sXdTYwONTziVqUh6T5/QEI17A0EBP/6gXaeyHauiRrtEtE3p8OeWTeRBKesjKX4y64zJWCw
+router-signature
+-----BEGIN SIGNATURE-----
+QaJUMpfj6A7ZmtA1EK0AEkLnQOYCFaGsBnNXMb//wdb+XB+7t5GVbkj4ib1fSG3u
+Ok8m+YWtbMfz4SsBRCczsm28YylwYGQhIEal8cz0LfVFc9rOBcI4R1BLXJvxC3D0
+YDov5lIRSFa+7PGkmKwct2SHQxZhRxtyAMV7nAjzejQ=
+-----END SIGNATURE-----

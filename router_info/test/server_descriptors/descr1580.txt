@@ -1,0 +1,98 @@
+router SetecAstronomy 69.162.107.5 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmA/AaNDjQ5U0fZ1UJTXjmex6JS1PIDqnltcur3IqgQi9FmtAQAgBACniYHU
+9joqmAU2QGSzmgD+1e+gC1vOPefExKNMhYaqCEFMEJZ7w0BlFz5g034skkOGZpTN
+fKYXF6+X8Z5BSpTa4LCXoK+l17gzJ01qSt1brLpphKABqMIdLYlE6H3Gjws=
+-----END ED25519 CERT-----
+master-key-ed25519 p4mB1PY6KpgFNkBks5oA/tXvoAtbzj3nxMSjTIWGqgg
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:07:19
+fingerprint E96D 712D 0A90 215C D367 4485 F9CE 5636 2927 9F83
+uptime 6922847
+bandwidth 384000 512000 67983
+extra-info-digest 432808A01B1E0961678C9F9F1DE55A4BC7A0493B 7115zRvzOD4w+UNUbXUaK+5ZbRb/nz3uasm01hcV2I0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO0j1zrwvp4ctIbKjEHSBAdpLpMl1kLv06J3i/ctirLLG8tbVsQNJ7Hx
+hljUiYj3glIf9CpKLJc768I0LF1tQkGt50y5S0qWRRxJ7oyvBeNWTwuSjkJMbc66
+EFiuFFT7TODqIpVJumrwtoXGIoK7r5VUfhnRjBCPfs0BaS50zWoNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALktAGz9lrndhHy7/Hs2hvQdElYl+uMC+DpPxQ1rmAqNZ0eOtfcHMaLA
+2nT4zYt27EBWKknmTTwLBQgV+QmbdTw4ouBuwfejwrj/IISTD1T0OXyeEnTOe1DM
+iUa1IL+xi+bgIhOarJA5j96H8Imqxj9NYsvmDxq0zOUVAFyK0R35AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+rlva8ioZucmYjqJH6ViPEKGbt8cVq+Th0oSrGpaP8bDIiYJw7B/wy8RG/xNKUqo2
+V/LXvWLvn93x6k1qMheLbzkqC4rXSGK5+qwe/cSolwuo0A9MFS4YbSa/isaTRLoO
+tyD0L1MmXkDnXK137YXQmM14j2yxNEzzMlNE7JVI1pI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAaeJgdT2OiqYBTZAZLOaAP7V76ALW84958TEo0yFhqoIAFrsacj6egVr
+Ukq5jgARTQKZ68U+o6rjL+7BGBUqW2H7BXXZvin0sxGuuIHEyTtHzNfnc/85JVjF
+xhZO/uhjEAk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x973D3537 Setec Administrator <admin AT nuclear DASH weapons DOT net>
+ntor-onion-key TUGkYVMZSHYacjxv1ty6Qyq8fmhqNs4pfMqf6L231zg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 69.162.107.5:*
+reject 216.245.192.182:*
+reject 69.162.107.14:*
+reject 216.245.192.178:*
+reject 69.162.107.2:*
+reject 69.162.107.3:*
+reject 69.162.107.4:*
+reject 69.162.107.6:*
+reject 69.162.107.7:*
+reject 69.162.107.8:*
+reject 69.162.107.9:*
+reject 69.162.107.10:*
+reject 69.162.107.11:*
+reject 69.162.107.12:*
+reject 69.162.107.13:*
+reject 216.245.192.179:*
+reject 216.245.192.180:*
+reject 216.245.192.181:*
+reject 82.165.37.127:*
+accept *:20-21
+accept *:53
+accept *:80
+accept *:110
+accept *:143
+accept *:220
+accept *:443
+accept *:636
+accept *:989-995
+accept *:1194
+accept *:3128
+accept *:3389
+accept *:8008
+accept *:8080
+accept *:8332-8333
+accept *:8888
+accept *:9418
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+router-sig-ed25519 1mkIF4d5fAP6pqNCO7Wl4rQHuQVhDkz51xvfvVM/uE3S85B1JGwWwWAOKo0euM/CrRk5Z9ddlAQBqMxi8QRrBA
+router-signature
+-----BEGIN SIGNATURE-----
+MpRjkAXoKKqhDFX5sadeVC2cmvNSvO56LBiIobogwSZEIzIhpD1WUwSucaPnEbec
+GQl8pGKTIx6JfnVthPMhANe4MQcYEYSAKNVjzFIy+jb/WY/S2Ks9nMDTZc6R4zs+
+BNC0gR3pokaLWUKs/Pbg8ocaYHv8xHbIB4LXmwE5R4M=
+-----END SIGNATURE-----

@@ -1,0 +1,135 @@
+router Common 185.183.98.125 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGUAV8PGVXPLLjnwqPfNP4nNCGoc0IemKvVKFR/0RX5sz7fAQAgBADIimX6
+zZILtl3CVOnfd8AdJdkAv/NSkdyOV9SCYmnC3yVgvOzPLIr96Yx0WOKh2gLNFvFG
+iJsmBvHWgo8XuDQHhDQQ3v3iZDXUcK/nSrvLuroAEqwFFehxn/RapTfrAgw=
+-----END ED25519 CERT-----
+master-key-ed25519 yIpl+s2SC7ZdwlTp33fAHSXZAL/zUpHcjlfUgmJpwt8
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 21:40:31
+fingerprint 71F9 2FC4 12FE 9C8E 850D 93F7 F248 9CC3 8D62 A565
+uptime 353071
+bandwidth 153600 256000 212451
+extra-info-digest 80FD2F2A163E358F1086D9CBEBFEFBFF9855ACA9 UT6Bgz7uxUiTsQjE6rSMUEb+LEa85nb1Z8R5ZokUd8o
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPCi+qEWm0s7b5/YTdCtFrWANXcctdIBw6T42ZjeqkKGuOPOgWenUiKJ
+iGtVUskePkCizKux4vsM8dvCPX2M7lynkgKBaUyQFPzIzaGHfEA0nUl0mAmaS9LI
+KqANSCB5IOncHk4bGDbLsL77JgYOHWyrE0uumGmY0i0/2flhKsLVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMvGUiI4dOVCPHxZ6F7LiiO3CJCjzo5agwfbnojOcyt+vcqDfkWYVjTF
+0iK9+adRlb/xgL0Xr+GK2RtexGMCGDsVoX3e7zFdXsaTHbWX6KhfiFd2vWNgm9sJ
+ARpKFZZVns//IOJgCnKrG5POXzHVELG7Hsr/33GQ8IBgoyIob3e/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ZD3yrmQH7IqTqKSainicyezag5McvGYnRXTKIubipkjWi4JXeBYa8OhloWQxC+K8
+qM37X5s9duX+M0/3wkZR2D9qFCcoLHpa1E+nbMamh0l37dhXMpfURi98GwrhW8Bl
+eiH3syl++lDJl/tFFxmI6h9UuYB2u6S8Xk7FvtiKhwQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAciKZfrNkgu2XcJU6d93wB0l2QC/81KR3I5X1IJiacLfANELH4p+TVnc
+ST5SoAytRW11mTPP740dCT3ZF245bBekpRlraCSBPdgIi9+qh6bMcCqNVxlh+CvP
+jahiv4WqFAo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Makar Bortsov<Makar.Bortsov@protonmail.ch>
+ntor-onion-key F98Vi48JnYgzsDxBef8qoLrnAzpbTibgRkHy/D23GVo=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.183.98.125:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8232-8233
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+router-sig-ed25519 OAr62bugdCx9OX79Pzi4MP4HiDOp4WvYrvFe7y+G6jVLTQKwzKHM9rtbcSigbAgVgixSLI2WvmB2d4xjw5kLCw
+router-signature
+-----BEGIN SIGNATURE-----
+m12fqbWhY2/h6g0ohugIKhzgly9F9MVNVjsg0xZENRVi2dA05HmHezKnwSdRPniD
+5ec+h9GjdErM/kobS+4ifuxKOH2lkfABgKWP96s5H9P0dj3B26Io7AIBZkIwIPSS
+c5q7iKxpjUVveYun1l0i1OVGTowz9ESBGbSAKiCwCF4=
+-----END SIGNATURE-----

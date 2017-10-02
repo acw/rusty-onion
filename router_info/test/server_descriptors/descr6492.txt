@@ -1,0 +1,53 @@
+router vryheid 154.127.60.92 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:12:13
+fingerprint 303D A2C4 6D5F 7E56 888A 3E5C B2CD 9FC9 28AE B249
+uptime 2224333
+bandwidth 1073741824 1073741824 2267996
+extra-info-digest D449D9A86A82B2857F45751B648A87EB1B9E2BC6
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJoxrOnK7LOEjreNRSsXbTwjRGgaeJlrmn/BEYpyWE9wYoScGvfI5w/i
+AMLOAhJ/a2CocctZackTftImPMsGkkis+Oi5Z0ZAX9CRDc8gqdISqYEzQYrOg91K
+boWu1h1Z7SSEccowxvRjYiSldjMzb6XsSBJ4TOcdjwIyKq7MKEo9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANnzBNdmdBKhoJy6AfFt31e8b8H/OSBAw4id5lF0pOP8VGvdRpxa2VYL
+rL/WACAozAHFZ+uereoAdFvaRZmQge+dJibCW8NWeVyYHBfK7A7YpHIIe8zgm1xg
+n8rX1mLjsXbn8Ap46uE4AvE+2gcd1as+L5HvHwQi66JjoOQMp05NAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact 0x408B52D5 corcra corcra@riseup.net
+ntor-onion-key pVmNnG68iyauUdWLLDNnPiksLaQi1sWLnKRf+HGhDDk=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 154.127.60.92:*
+reject 23.239.10.144:*
+reject 173.44.55.0/24:*
+reject 5.133.182.0/24:*
+reject 62.67.194.130:*
+reject 91.192.110.34:*
+reject 93.93.71.224:*
+reject 5.145.168.141:*
+reject 93.93.69.60:*
+reject 5.145.168.168:*
+reject 5.145.168.197:*
+accept *:53
+accept *:80
+accept *:443
+accept *:6679
+accept *:6697
+accept *:8332-8333
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+EvR2/PrzYWsCvMLGksCwO92c0Dycb7Rhw+3T7etbS3npvKVKCnYWBGuyoxGuhpBw
+AySgf7/746a7uGXUgz57esD3FsVHi7xLZskj/0FcYGDWel+3OHVxGEyxsIn7/8XL
+8Y1/QQgsLS8syJP3Nu4W9N0y9NfO1u+6vtJjf1cQRmQ=
+-----END SIGNATURE-----

@@ -1,0 +1,114 @@
+router Caerus 156.67.106.32 9001 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:44:39
+fingerprint 6CC7 D533 C706 E5BD E3EC E980 BFDC 6A86 1108 F8F2
+uptime 1598630
+bandwidth 1073741824 1073741824 57328207
+extra-info-digest 631F826C626B9819070AF2D883ABF4055BAAC5EF
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJrw1i8hwQbvPsF/jQ1xdrga48jHm6P3VIX+YX5WayJZYlm4R5/vNsRp
+5s2kO/Nz9AFCXT4ocwhk0tO8I8Bp/PrL1njj8vp9se483A0aOZhGiwnBepeB7v7Q
+Ur5u9nvHSIuzFQeMmsHmFnt8/tIkciaoiuDi4sxmOHHWptVcyZtRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN+GoRdjbwFn7iOAs0vtd1Huf3VVJ4Rl7jRH6RgXRKuzFy/60JJln5O/
+bOv9sIgMfHItrMXB2zcJk8HFhMkUzW4WveVuBtdKgrq56yguwGWm47oCBmr8KvRv
+fxwU2bAWXPPz/e+R4t300Hdaz04nzMFTSkTfcZ3rufH02JcmIsQdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key nYB9qUwj63nIANGYBs8ld1tjEBMKxHK/Ghf4z496lio=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 156.67.106.32:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8232-8233
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+VKww1ndGygseRLhOySUX/bYcDUy2MfYLozwxxaV+b4W3wRhvAnlQzPg5Pj1TASkV
+ulYor93f3wqkctwUtdtniHgwWiPlF0gJgSBsjyvO2RH/WemwBFn8RuuFYhZb5nLG
+QfUhz4eS14efJts9IpdSaUakqNArzzOhCN0795yelP8=
+-----END SIGNATURE-----

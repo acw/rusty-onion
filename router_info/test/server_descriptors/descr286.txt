@@ -1,0 +1,71 @@
+router destiny 94.242.246.23 9001 0 443
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIjAcBGtfONL+UMmjjZMuMhfl1fuqbCngPrrsX8uLtUIRxgAQAgBABnprVR
+ptIr43bWPo2fIzo3uOywfoMrryprpbm4HhCkZJTzwXE2LC3irIP0Q88RphoFUU2R
+hk5H/0uzPyDpkCm4YQsSfATnice2NzJDKmm8a94RtWkSRQotRcrFNzcsGwk=
+-----END ED25519 CERT-----
+master-key-ed25519 Z6a1UabSK+N21j6NnyM6N7jssH6DK68qa6W5uB4QpGQ
+or-address [2a01:608:ffff:ff07::1:23]:9003
+platform Tor 0.3.2.0-alpha-dev on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:49:49
+fingerprint F65E 0196 C94D FFF4 8AFB F2F5 F9E3 E19A AE58 3FD0
+uptime 655271
+bandwidth 149715200 1048576000 67204224
+extra-info-digest 1952C315C06245DADDE08313433E803AF43DDFBE mOhMQKww2G+LhdaCM2FE7H2ksSqIox39w4KdT8tSvgU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOjoVx91j1JODaBEq9ilEEbSM1cckIrBONyYUxLy39q/y3TDhKmIwNig
+p7DpYr87fObzI89MODclWo3VpuW27xvvs00qf0tHP9vjxGDn8OHZNXHEvCfsWjZN
+0di32ap3TMu/iA6OhBpG3C5NDaNLryirXt6PMqIv0jmqY/faox09AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOUS7xm+1d/FAk7VHx2SaYzjYoGpNaCHHWXlmDz2+iWEqcDRjjnVFekV
+sfAPysNnB0a/lHdrqzyKjCkzAoeut5Ts3bj6eMrF3psFian2IqdlqsFaAcBov7fo
+J6ipwr8lP72LOMHlB2AwP3BEWtHZX7nmARV7ekbPs21R06lEhzLLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+RkeyHUiGky5IWFyo/SuIh5rcrJWm71kazbpMOS/MXu1BXMxjSKjUu+sRgay0cf9p
+qUKpG5S6wWKwG2l6impkXr5Vvzd0dvh1a18TphL7YwzgnMjIlV+FxqMdsGFGIeEV
+ngYxtHjip6/2dpm5jNjgEFINxUvh8amvLl5aIg8XLMY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmJ8AWemtVGm0ivjdtY+jZ8jOje47LB+gyuvKmulubgeEKRkAJnysx04+Rhp
+I6zpGN5HMHYq65N9o4gCqEygCtKr79VGjQkqIe4fsJHDp2y/1jCjU1r7YEmXw/eJ
+xk/LZcwh7AY=
+-----END ED25519 CERT-----
+family $379FB450010D17078B3766C2273303C358C3A442 $B0279A521375F3CB2AE210BDBFC645FDD2E1973A $B84F248233FEA90CAD439F292556A3139F6E1B82 $C793AB88565DDD3C9E4C6F15CCB9D8C7EF964CE9 $DAB96CEA61CC039A803217035293FAB32645FDDA $EC116BCB80565A408CE67F8EC3FE3B0B02C3A065
+hidden-service-dir
+contact 0x02225522 Frenn vun der Enn (FVDE) <info AT enn DOT lu>
+ntor-onion-key Jb0TdtJs46JsbZauuDqcYT3VHKhI3FvdSOj1G3qfBk8=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 94.242.246.23:*
+reject *:25
+reject *:53
+reject *:587
+reject *:465
+reject *:10000
+reject *:14464
+reject *:4899
+reject 94.100.180.202:*
+reject 217.69.139.215:*
+reject 217.69.140.233:*
+accept *:*
+ipv6-policy reject 25,53,465,587,4899,10000,14464
+tunnelled-dir-server
+router-sig-ed25519 WK//XlRR77b60RiLCkvcvgVHZH7qqNVjtbkvptw+T5n0HfQyVfsBwy4eaNU6ySgSaFA0PezXRQLp8CYJFVKHCQ
+router-signature
+-----BEGIN SIGNATURE-----
+42F2gBLQXt8aT3cs/dKvm7+8cuEPQowyloJrBPcTOteWxDXDgHKi87ueyrk3cdCl
+R+xYDndXHN48KQ3r8tW6wxdHKv0KgaC8DkwBJ9DhR7OlMi4zQqp0IQpCw4k0lqXM
+crvd/MjLDyaKPcsrx3q4hMebp1leD69AjilOsAFf2S0=
+-----END SIGNATURE-----

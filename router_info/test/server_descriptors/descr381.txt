@@ -1,0 +1,50 @@
+router Tycho 139.59.34.209 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDqAbpfcIwgRVLNXe4GmvdNfByIfnoat49pZ5LCgTULG9iWAQAgBACmmNiK
+XaTPPZKaaz9HCs47LD9IAiReqB2q383SINW8huoxV4Rqsvi1rAkiPnervduYvwXa
+WEVDI/JLpewgyLTPDYO0wy2WaLgQiS3ovdkZoiJ9E7lzcaBuwWFptWjVUgY=
+-----END ED25519 CERT-----
+master-key-ed25519 ppjYil2kzz2Smms/RwrOOyw/SAIkXqgdqt/N0iDVvIY
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:02:33
+fingerprint D93C 718B 3089 903C 12D2 756E 6AD2 EC26 C346 E694
+uptime 1663278
+bandwidth 788480 1576960 939010
+extra-info-digest FD3F065D61E9AE98E1CA1BD80E207DAF030FBD6B gp7WBHAHmLvz+nJdTNWJ8UmOT5W3E55mK93tuh1OS+E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMppoH09yoP5aSMkaLLuDXe+sj5HYeI15+rtxf8SLJss0F2jUlrX1EcI
+7dX3O9poQOtE15jxN/V0GajUfv3pEnl9nXBRmsmaZQjXGLvUDxp+i3pgkwoAuyj6
+y2Y96xvR/mH58GDHveyIB37M9/qoiODpQ3LW1wCAhk9C/EnxzziLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALTu8CyLpk0EGePU0CHDv2uMzqTb9oyWE9Av30KCS7MieaLRGNmmIotS
+yR7RbKxV6jpWVHxOr4rOK/dbCJpoF6nec9bppJemtmA+B4qIrLxiYUFqrA09HkFS
+B3CxVYIKEjTkfmsXzVJegjCXGElUBX0cOGYNZOsT7lsjsMAJ4wtHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ilkPO2PFtnfI710wxXEI6e5GKtdSw2WZwMJLwPDUCzVwWCQwENayGz8+7ow14i/L
+34mSC4/nL6BMmPP7TaPdgX3gDiyzDh3koyAwgubSqt9Qjy3BGuX88LYElzS0qZ/U
+8cFutmsohOxQKdP2QPudRDver0G2m5PpPGTFkaj3+qU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAaaY2IpdpM89kpprP0cKzjssP0gCJF6oHarfzdIg1byGAH1WCgxg5daL
+n0bkPE16dKEktmYIuvZr/WLmh1cehVdg9AidgWqhNgJqf2wbAIRXRe0SQU6DoFfj
+UELdccb2swk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Soft Spot <softspotalongside@gmail.com>
+ntor-onion-key AqQ/iwe36k296nzdieF5J86wOjkkXcjUmSgIkOXDPy0=
+reject *:*
+router-sig-ed25519 Fm8gdJx7J4VkID1sDozkmHZLiU/PAbZ2Wgt9EELK/jKIh9B/7xSBC5WiWMuD/vuR0pCnVoF4gd226nG5CC7dBQ
+router-signature
+-----BEGIN SIGNATURE-----
+I30zAG6w6NHwMjRTwjOcn5uff0o6ZGHzsSiR80SFLnwDCyoYKunpk1XRCWW/5PWn
+9PhtPXykpDXnGs0+fGS3cdm79iM+0stT3ugHJN5s5pgpOhblmXjenvMXe7p5omY5
+sxDY1kzHhflNc/Dug/AULurVXNfB9i3WuRX2E/5PD4w=
+-----END SIGNATURE-----

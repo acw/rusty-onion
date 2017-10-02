@@ -1,0 +1,49 @@
+router Potatoe 139.162.232.28 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHtASf7ScFC835DmDdmY3vvooohM4BKijx7nT1Yv1/lkdKlAQAgBAA9WrHX
+/ZyiEWEYVoZz7xyRaFShpp9w0ulGRV0jTqqUbAwBjfG/zGW3v2+5f04l4c0aw611
+0Dy0x9iksNSh9c0uPhGQvAn8YPki3cnQJNwg2b7HLvptlXmN4gq6e7M48QQ=
+-----END ED25519 CERT-----
+master-key-ed25519 PVqx1/2cohFhGFaGc+8ckWhUoaafcNLpRkVdI06qlGw
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:28:30
+fingerprint 41F7 BECB E32C 5E9E 6B3A F1B8 D2EE 2CD4 A76B B8CF
+uptime 14255136
+bandwidth 1024000 2048000 1229875
+extra-info-digest 74B57A751B38495A92E82BA360E561FE655F4AE8 FFig0G+hLAicSXu03GoM6DVTme1NswW7UgqOgrCvlCs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANLkc0rmOgYNZrHw7xpRgTQ4ePqaRvNv7HTfoRk9WBshRYMIukg3ClaT
+/XWPIujgwUxZJPjC5Vp+nnDrxzpKo0sVbupgOOEde8ukYmGs3khnmEHMs+1mL2UY
+bajUgASYXnHfK/YqogoHLMapt2Jb8GRO+Y+4+IryzxyTFAke+aSzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANlgcKyIfQPQBIFUwl0z/+9aZNEy+wSKN8mHsmIUUHqdYcDmyZIdEkeM
+1wEmEpz2pOTjSrA2t9BBXWDrzW91CIMkM/LymsmES9DQ7F3Dj+83kP+XWJXc7MfR
+LWYT5mcJeBvqh7w8T+X3WZ4xNKRJJvOYOEEF72lyARjE/iurTC2BAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+j1k+CuILYQHqJYyLGXDc2P/+BQ+23SQiDr6lZp6JRPv1bfdwOAUen2oG4MxKpvBE
+jktzNABMpDIa6iPRiB0bWA9q0PFL2jZY3qbzIsTTKJg0WHmYcbjr+RIaSWQneihW
+YXdl37BpCjQLUOkIC8PZaGX6Vtabr+BI0/9O7XAfFfU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAT1asdf9nKIRYRhWhnPvHJFoVKGmn3DS6UZFXSNOqpRsABZaWnavMIrM
+aICn38XoRShEc6MRa406K/WqMtSnZG8ULCDdViwG/qGMkVQ19xOTtfirsTmKOHXq
+JicvwDO6iA8=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key FsOWKxzgUdp7cMY8j73xy0EESCAS4zUenX9QdjisBVU=
+reject *:*
+router-sig-ed25519 OKK/lhgyJpDJ3hZ5t1bBb1L7jRmF39K0wY4dIiV0VlsTU+al/oP2f3GmGMqkxLjTHYuWt7IzialrThKd28RSCw
+router-signature
+-----BEGIN SIGNATURE-----
+Gb1966NpBan9oU4ixyQRorWxfGbHoZnIZHHUNUZ4XhWJYvq5rSXGxPsRfiu+hpYe
+RB4If20Kp4+dGrx/mabJZy7OWJpfhbp2ZNE+YocpJx5BY3392s0RENW/AdEq/l2h
+0Fo5llRoL4pqKsD9ESRIrS3QCNNX60sbxbpCq7nxT0E=
+-----END SIGNATURE-----

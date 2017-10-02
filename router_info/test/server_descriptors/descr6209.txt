@@ -1,0 +1,51 @@
+router ManInABlueBox 109.91.96.193 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGPATHXBaFzwnAQxHjj2tEeXqOAGLPp6BKL/f/9mFb0JKDPAQAgBAABTo8l
+q+Vpl3qSAwUS6DkhpnoJ9Bj7ciuouo0Dc+PZOJO5KrdJ6zWR5mUuIEiv04FCSiW4
+pVEBETk3sfLdlHCChCKmNKi4XB937B+kTWOKYmAl/exHQUnQBXM4dwwMBgU=
+-----END ED25519 CERT-----
+master-key-ed25519 AU6PJavlaZd6kgMFEug5IaZ6CfQY+3IrqLqNA3Pj2Tg
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:48:14
+fingerprint 39DF 2E68 0372 0BC0 750F A698 72A3 E3F4 3210 8BA0
+uptime 1063897
+bandwidth 307200 409600 375070
+extra-info-digest 41CF4FE19869242427C78A5EDFE5EBA46325B2A2 w/VB5J+UUSchpgB+0ZvelhUuFBE/sm60xBSgoGoyxys
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMqRASzvCtc6JVwc9YWk2XAOfSJAKnwIKHwURM2jQdFi1FR85h/Rnti0
+zQChRHp2Zaxslsddar6VvupjgUsaPDAhODtY+wlYG+jqvWsy3UFy3hoFP7gcoPt6
+SeW9gEJ362iXimVkXE7yFLTDDDfD2+qTM9ZSJAiSp9dCywk6IRd3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANhfTuk8yX2YTPCLhwfNR2QFbcX80mFpdCA4Fn16xV9nqTsNajz3+wMu
+ktZPlECgdjJ9p5hz1mnUZlSmCIUGo8yxsoanMgHDp9fSiSs6QVeFcw1IPLDdeTEC
+Wk3IrkpQTiCjiyFKhbFeBTbLmergmf/Cs5kJ/g//Zmdl6W3zdY2DAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+YY5O9bm6GJNKiUr7Aj0q6lyKq00QTgA2WxEAedR5HxGuuQnIbUsry82/u3jFVUIb
+J4jKGyKh2i2ic2hBxVYcLG+Et0ruTSj2l1pmK8V+7KsXX/OzYX/4H6UO4O1NgUhu
+OOjmCIwJW5AU+Mhq+MTmlUFxd0zGlIJf8Cq/Og4sTN0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAQFOjyWr5WmXepIDBRLoOSGmegn0GPtyK6i6jQNz49k4ABYjaP9AF3pJ
+spAT3eArSmscb/Zd4Knu+LR+zv7IKOCzclEVgMjQgqWRZessNigqAQWVDR/REbU3
+5JdqyXO5zgU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x00024BD8 Random Person <tor at intrepid dot de>
+ntor-onion-key OJgT5p6QTaQr3dDtprKD7/ML5ao6Pz+wTXnolFeWjWQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Dagh9+mvMwLSpF2ToGwY6DVhGAjEm2NuIHNxB8YRpvMSQ2aKEVjnX8gy897FC9xLCiYPRR2IaWpn72+OA+BPAA
+router-signature
+-----BEGIN SIGNATURE-----
+sbdHXlhG9En4+bgpLL1jlRG5v9QOQzYzCxf8dV0suac9qO7pm892mlbvgslT0ZqH
+UPaXevYi+QEvm35D0lSkzyIUm8ttFckooApz+74VM1UJ8bMCOBNHqTZmk6Y/znSX
+ZmoGJcJqnpB0l/Q6CD6AzKIq9G1MMBlOJkDvJ57bS94=
+-----END SIGNATURE-----

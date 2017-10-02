@@ -1,0 +1,50 @@
+router Unnamed 192.71.245.36 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCtASLnDER4ronn11kIWX8rUyb0scgFPW/hSarVma3Co5lQAQAgBABcXzPu
+DqVpF4YKc/uOrcwbez3Gk9Add04PrF9qb+TZ9ZLLai8vTw28vx15wvNE7hOwuhaP
+KR35ZPnQkD9nCVCtEFnoj2eSnjGKZCMxjr+ad3gUd4ob9r4AQvX+7iOQjwc=
+-----END ED25519 CERT-----
+master-key-ed25519 XF8z7g6laReGCnP7jq3MG3s9xpPQHXdOD6xfam/k2fU
+platform Tor 0.2.8.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:52:15
+fingerprint 438D 74AF 4F86 6B13 A956 0A74 6D51 7314 02C5 D9B6
+uptime 32204356
+bandwidth 512000 1024000 633815
+extra-info-digest 95825843B3C273500889490DE1134CF5C5956B20 DFPR6HqScyeNnxOv0taKO+U4X/BZJrs7srBNWmNWHNw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMWWBVaEEAcBoxotoZY2MO2vozpBI637KCMDT9dqEBbrwW7iYTTe3n18
+xTbfJCYiUG8ZKqCk7Scbs1SpACtU4egWT7LyfcqnB/V0+oxntCllv94zxE4seSmp
+cB12XmFFufuoXu5pUnZa5n/VymYhghGOMmJwzVRLT/C+R3+I3mUHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANEkvBkHfK5JEg6fAeIDNGdyV9z7NZGdZQcit5uzHTEQIUW0ZSa3ingr
+2Q2/KTUH1YqwyHaKsQds+dApqa6wN9tkat4sVVxTmiLE6XYXKga46o5DB5MGD14U
+/JfoU7MidiMz8NrbPTYKLKaBlO3Az2dTMJ8rgaIyEPygcKlGom+hAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+LWpOoSR/Xl1IJWYOHt7Rwags9tktXMsqfbpNIP13cy9k9KR9fVS0VbCLOjdTI8Tc
+bI/JPB6pc1WI5VGz/KUCnTWBbU8MRdfqQdiGHhMnMwDn7al1hTXAw40537X6SAzn
+CiOQePeTCdxvqOWWpgfppj5zUqxgDR++JoUWq4EGLmM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAVxfM+4OpWkXhgpz+46tzBt7PcaT0B13Tg+sX2pv5Nn1AKYF5SUhKPpt
+ARBuca5jtEUie1tL/8jTQYhR7puAfh0uQR64KOk6Z8glwuItnRQ1EpyLAEAi1M/w
+nI8bjmb54wU=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key hm+yCzn75MszE2PnV4b9RpISiOTOYYfDLmDDwBUiCnM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 xvN+84eV0jQVwOquw60YOz+CUN8kVd1NltebIZ/92aRNPkuS5ukO+SKI0mIPFC595FNXuAsx8zdLbaxxeQNEAA
+router-signature
+-----BEGIN SIGNATURE-----
+r3GQsEWW5Lp24Rop/eyrUcXjWD+GPJawE08a+26d5S7zBu6NV1RnXbwW7y7TWAj3
+M1fhLYSxfIinuxSC1WIYE8SKlsO8P2jAQoqpQZIl3sQWgevAniZxZZTRwvyDKBK/
+cuMzObdSN9la76VaqKtO96kLT+MOsxaHBM85br9y9Mg=
+-----END SIGNATURE-----

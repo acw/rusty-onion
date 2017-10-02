@@ -1,0 +1,38 @@
+router doofer 198.101.8.214 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:56:25
+fingerprint 5EE1 7FFB D692 3F01 4D84 A61A 615A B5E4 BDFC 71EB
+uptime 1209449
+bandwidth 204800 512000 266980
+extra-info-digest F9F7BBE79B44421522274F361F8BE8FD8A29977E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMFU383IUCE2e4awwQ5OdF1JNs2C8VQuIC43Ll/9eCAPgtGjqKuHfZbq
+iKNmyu//wP8ax/VXn7QNHz7O/Dnno5ClZnTS2JYLB5DGfeGzgmHD6Xyx8eG0cOn+
+aeRNa9cdLSXF5627vZVmnJzu+PjYdvBxLGnzXDtWdIFxQh5BPD7xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALWiPcHNV+azOqggIs9cWST3sH8JsIT0gxfKuUKG8O1lSzf5ghB7QIU2
+SRfLVPmw68DXCmaW1GuuCsWPTljLq/QDzogy68mn7+XZcAFXQ4HvmAc67tRt0juC
+dJKXQm3miqLBhWy3M4b7PMIsedO45vpL9YRa21dp3KIJJoh8E8lbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact DCP <tor@doofer.org>
+ntor-onion-key ouQlRdJdOPuFs5Nv98pLO/gcuBBWD0u9DdC/T5feaho=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 198.101.8.214:*
+accept *:6660-6667
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+dqE+firsfIYgnSQlZR8BSvPUrshyfUrff1zb/nl7HLmlW/tRfryRH7OvVj6SnjTf
+t8w+nkZrqkckDdvj9kMShNHQTjmk0wRKWhed8Y6wjhzhw3/Yaafi5eqfbluKZOOc
+dUrFDpgr/pC7AufCPzDQDIgpr7n2WAYnVD5YRYeGDYs=
+-----END SIGNATURE-----

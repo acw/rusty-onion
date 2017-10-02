@@ -1,0 +1,50 @@
+router synfin 45.79.109.55 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDJAfHaUArh8HqqZLCY5ejkQqrihf2HRTcEYG39HGdHfEsvAQAgBABwJjXc
+3rxDp48CfCcoCzTaAaq4l4ezsDszHbaCO+FhfT2USG3Qezo3YyNPzab9GOEJot/s
+94UgkQRgcac43qc+0TSb4tIMOPUE2Ily6BV3+DZjp8zAD5RfiWAdJoilgAM=
+-----END ED25519 CERT-----
+master-key-ed25519 cCY13N68Q6ePAnwnKAs02gGquJeHs7A7Mx22gjvhYX0
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:09:01
+fingerprint 9F39 A35D E591 B2E8 769E 8AF2 E0B8 11C4 792B 8ACD
+uptime 1227373
+bandwidth 655360 1048576 760088
+extra-info-digest 4C82C82C9849F2D2370B5F2EA9A89D89C24DC851 OBYPYNGsK8qAjl8DQo70dsGws0d4ePgy2bijerXiENo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKtD0PaCvYyCJPNRCUv+3asQPypqAzi1nHyMBfeoXQkfWeVQyy1YoSz9
+Cb9i5ejK3WsNI7MeZJvEMBwtyIR6ev8Gza0NO543I2UqOeclMDEVzA6N7pZH9IrP
+MPOH58t28eB3Dm+KVPIv4jSeWVmDZkwiqlv5++NS5UeNeOzjKV2XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPrb8gxt7d4YHIM637A5wXvwDIOe9ZT3pI1saCxQZNbIkaWHQ3tzWnMZ
+h2z/gdWSrekYTIBXNm9pghiejZZKScn3NyuQdErBg5FjD93qWKVtm3XNi80z0JKw
+DfL9nm7mUQCPc6V6D67APUtmSfbjA9ooFrGmw1hmJhz6eoM5OT+VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+nlBEdUw9hdVf5K+IfZ3/jTdLxKX7pmYuDFSPPNMsDZSGRcQCEKlZvKbyQB3Bfdbs
+Us3Ip+FkHA2B1HonKhzBDRbYlUTvMqeCMrerrEh+vbQo3MUyKFqmwoYIMIYVkvRo
+rMU1Zq/9GjLnHsNCELUezhZUCFe1k0oHcqF44+AV350=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAXAmNdzevEOnjwJ8JygLNNoBqriXh7OwOzMdtoI74WF9AF9JXNl/T844
+sgFamyj9d/akVdB0SOqFyUiad4Tyv1INM+iNaX0eRh1VDZHmq/n2ZAK2QqZyRahd
+QcELNjqFZwI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x880ADC1B Aaron Turner <torrelay2 AT synfin dot net>
+ntor-onion-key +fuWqCJPgNdoPNj5YGXqThM06g5Vn42wCMuuHgMfB1A=
+reject *:*
+router-sig-ed25519 XtDC86Y4mJV2cmHF20cY0zWFa1Uua/P631au5PLtgAuz+4Za/ckjspYLIN10nmTQk9PiUHSGREf5rIlEEUR8Ag
+router-signature
+-----BEGIN SIGNATURE-----
+l17bZDsZ2mBG4NQlWMqGyrFTsw2uSZuNrO4NMiLk7qkJ1Bq+eIIfFrOeGaHF/t+Y
+g4WrLGKdWQ6zKmpEpNA/DX3+LBSrfyb1K7rn7qywJrhDn4jVRG2NGpzPZiBNlIIZ
+VsUzUs6YE7mXi13liyg7QEyDxpdYxbepe0dBJA+7z60=
+-----END SIGNATURE-----

@@ -1,0 +1,53 @@
+router GrmmlLitavis 163.172.194.53 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDeASUwYUmdbA3eMq2ptd0MZ4gtyuUNQQIkXzDhGIgxsVZWAQAgBAAvbcdy
+2BptKsRStwg/KfnuVssJvqHRM7GhiUui9WIzgv54vU7Qphw2ACzal2t8+IbJ11kX
+frEiS9lqzzJ/Kay/WOzL4/JOoYsCRUc8CZ+sv6S0sD0UoTbTH5V1d1YKXwI=
+-----END ED25519 CERT-----
+master-key-ed25519 L23HctgabSrEUrcIPyn57lbLCb6h0TOxoYlLovViM4I
+or-address [2001:bc8:225f:142:6c69:7461:7669:73]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:53:23
+fingerprint 8C00 FA73 69A7 A308 F6A1 3760 0F0F A079 90D9 D451
+uptime 970441
+bandwidth 20971520 26214400 22957906
+extra-info-digest 65EEB26FF041BF536A082692D78B9052AAD7611B uuFNQ/I2gOYRIrLzh2oe6xYGbDg1MonBFIc3VwEzzjA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANPjvRtbyVRC5PaWjesW17o36TzN4+1C5EPuul+Ort0uJLDGMCC1kNOd
+OYJ2tma64Nb4MmWCXNkSZlwkrePRG9LceZnnC/Z95f42N7IjFuZZOmlXjF4w8j/c
+COuohStaWptr//N64rfDWvUQIe7wodc0JTGWD2dfKD5OKJShlKEzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOBWufLWdoni7dknyPsuxMAhXRHP1MB6CLi7jEHoztGN4P8hpJKXYOx9
+ro0R1JogxTbGrZOM2PTHnsIHqO1fxIyo2eHbBZjfkCjuZSJWdDyc0HcFXhZp7sAd
+uBcb+qQaZZpTxcG0Yki07Rsyo8eIOJmKbgGeBrQcdOzu91H/mWcrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+DyUFOyPuh3RUMXXiTTciR+Z50jWIWjKfotf6tub5PjjFRLwCItdZOCx19CxjNyZp
+6RQXDsT0QO0yTY6N4frLlgc2LviLTs5PrTjSWNTdNOgX19/7cEp25ZmKVZrr0+7v
+2kFwlWNMgTlfOoSmWY1M/M+n+lFd0QpSrrACCghve0k=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAS9tx3LYGm0qxFK3CD8p+e5Wywm+odEzsaGJS6L1YjOCACrhug4HqHhY
+GnlpZpegx4C32fAbnrRbfaOgm7410gonFekXY6pfgLuKXDVkG1eNpKpWMw/H3vUY
+O4E4w9GdGg4=
+-----END ED25519 CERT-----
+family $22DACEB58D1623450EDAA2D93A5692A43077CB6B
+hidden-service-dir
+contact Nurtic-Vibe <nurtic-vibe AT grmml DOT eu>
+ntor-onion-key yUZBVXUWDcjQuM6dRSkoaZML4o52PQI8jVFVuRSxCCE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 DLullKQjACGlqIZvlOUn8vJt7BS4m+WY5GxdyZlEjRwfhyvh/RKhdA1293TstGk2l+Zddb/GpVRLBCcidVVjCA
+router-signature
+-----BEGIN SIGNATURE-----
+FrD2honpIE2DRAVpN42mSD16o1RBV3doZf9Xi7zwI6WN1Bs4JJEVhDsT+efWuZA6
+HKGQrGFIJ39eQcmdTkI51m0XkA7vk1WmDd47SW3c52Ld6I8AdmuGacU0/8iUuss8
+soddkbxYMcN8TT5tiFmZN0HacqFCG3wCapQJiPVyCkM=
+-----END SIGNATURE-----

@@ -1,0 +1,212 @@
+router Biverse 178.63.97.34 9001 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDrAZAqekm6WbsORpzSzn5wjWPYbqgMS8WYiB7e7EFNYTmMAQAgBABKScBW
+fX6ZyVYMMHtXRUeB6lxdhDy90sXdvUAabRNvI3MSnGkpkRwaDaK/AeqjQTKU6GBx
+C6WX+X37Jy0vz8t8VkV+Uy0AAWZh+S0ZhJYvkjtF6MTleDN8yitFx5VFVQ4=
+-----END ED25519 CERT-----
+master-key-ed25519 SknAVn1+mclWDDB7V0VHgepcXYQ8vdLF3b1AGm0TbyM
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:42:55
+fingerprint B706 29C2 9A03 2979 E5AD 00CC 51D2 3308 45AA FD6A
+uptime 270301
+bandwidth 10642880 17985760 12838946
+extra-info-digest A96329D6CC071DF5C9E7648F742632B73933BD75 iXvZCeNsMiPKeXwWrLM1N00OM/cOYg2B6Yy6GOh/6hE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALp5S/ZKiTXSl3ZhvtnlWW5bjyx/IE/1kYR4OJm+FwJD0L3WTcKavkg/
+4B+R4fQBF3xou6QHbzd1PWWxq0cxLKC5znI4gHu+02TbLq2r9SL0c6xh2NTtZASS
+XRsW9aiOLiAC+2bSs5bHIqHWMkkfFT/b88hiKZwfuWOfVXSTT3rXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO6L6cEj1cKQUG/kGagWVEdZgFgVp/+nR/Qw8CjYBjz6uMVMikCwm36h
+KHk3AJ+ng3IC05FHAP50GS6wPr6uzZjja3a6RzKRNMx6GKRDkzT0ae1NKt2Rfhl9
+kTva8urxgSy2CPejgXUL25rd/E+brYei1XKHtvW+OQNAgoI/pK0pAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+WuIDbvJz9kHsz2/cOLuPGA6RMx/Ub3P+MvSbQQNX/xm6l/Ot0b7oks13AQ4/aad+
+r1dGrzAIxHJHJXIt0v7AL6yWE/7NhVvkj9C1wOtgLIl/W0C9wjlNItGw6Xjoo4Wc
+pyBO6+ZbA9d+DTbBxpnL05tX2ZpQ4e4dsAptS4ktHfk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCDAUpJwFZ9fpnJVgwwe1dFR4HqXF2EPL3Sxd29QBptE28jAOrNqJPzL7pt
+oLMfK6nrV2qp6x9GiDh6lrly2jbNjnNL7GVwgY5G2pR5VFL3D7Ar6M1F2xrs/ej7
+OEgZS5ZvfAc=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key vqYHsh+B2tr7KN0fpmHa52QxnGYZpn+GmoFIPDkO30c=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 178.63.97.34:*
+reject 62.113.219.4:*
+reject 88.198.9.155:*
+reject 69.197.161.34:*
+reject 69.197.158.250:*
+reject 69.197.158.242:*
+reject 69.197.144.138:*
+reject 208.110.82.186:*
+reject 208.110.80.50:*
+reject 208.110.71.58:*
+reject 204.12.248.66:*
+reject 204.12.243.58:*
+reject 204.12.243.42:*
+reject 204.12.243.34:*
+reject 204.12.243.210:*
+reject 204.12.237.202:*
+reject 204.12.220.122:*
+reject 204.12.217.98:*
+reject 204.12.217.42:*
+reject 204.12.217.250:*
+reject 204.12.217.218:*
+reject 204.12.192.250:*
+reject 173.208.163.242:*
+reject 173.208.163.178:*
+reject 173.208.162.2:*
+reject 173.208.154.90:*
+reject 173.208.150.90:*
+reject 173.208.143.90:*
+reject 173.208.143.194:*
+reject 173.208.143.122:*
+reject 173.208.143.114:*
+reject 173.208.141.154:*
+reject 173.208.131.98:*
+reject 173.208.131.178:*
+reject 173.208.128.82:*
+reject 173.208.128.74:*
+reject 173.208.128.50:*
+reject 98.126.77.2:*
+reject 98.126.76.186:*
+reject 98.126.42.26:*
+reject 98.126.114.50:*
+reject 174.139.250.66:*
+reject 76.164.194.226:*
+reject 72.26.196.194:*
+reject 74.86.210.134:*
+reject 74.86.210.133:*
+reject 67.228.206.92:*
+reject 208.43.40.148:*
+reject 208.43.31.8:*
+reject 208.43.18.12:*
+reject 208.43.17.44:*
+reject 208.43.157.96:*
+reject 208.43.102.220:*
+reject 208.101.27.72:*
+reject 208.101.27.44:*
+reject 208.101.27.108:*
+reject 206.217.206.8:*
+reject 174.36.237.84:*
+reject 173.192.135.99:*
+reject 173.192.135.98:*
+reject 173.192.135.102:*
+reject 96.0.203.98:*
+reject 96.0.203.90:*
+reject 96.0.203.82:*
+reject 96.0.203.122:*
+reject 96.0.203.114:*
+reject 96.0.203.106:*
+reject 173.83.26.34:*
+reject 173.83.26.26:*
+reject 96.9.183.149:*
+reject 96.9.182.101:*
+reject 96.9.169.53:*
+reject 66.96.224.213:*
+reject 66.96.214.53:*
+reject 66.197.251.69:*
+reject 66.197.161.181:*
+reject 64.191.38.165:*
+reject 64.191.18.149:*
+reject 64.120.153.117:*
+reject 64.120.149.117:*
+reject 173.212.243.114:*
+reject 173.212.241.50:*
+reject 96.9.182.197:*
+reject 96.9.180.21:*
+reject 64.191.59.245:*
+reject 64.191.53.37:*
+reject 64.120.144.69:*
+reject 173.212.241.42:*
+reject 173.212.214.194:*
+reject 96.45.189.178:*
+reject 95.211.128.25:*
+reject 85.17.200.13:*
+reject 96.31.81.44:*
+reject 64.22.109.222:*
+reject 204.45.121.58:*
+reject 204.45.121.50:*
+reject 204.45.121.42:*
+reject 204.45.121.34:*
+reject 204.45.121.18:*
+reject 204.45.121.130:*
+reject 204.45.119.90:*
+reject 204.45.119.82:*
+reject 204.45.119.74:*
+reject 204.45.119.50:*
+reject 204.45.119.42:*
+reject 204.45.119.34:*
+reject 204.45.119.26:*
+reject 204.45.119.2:*
+reject 204.45.119.18:*
+reject 204.45.119.10:*
+reject 204.45.118.250:*
+reject 204.45.118.202:*
+reject 98.141.220.226:*
+reject 98.141.220.194:*
+reject 66.79.163.102:*
+reject 66.79.162.86:*
+reject 66.79.162.138:*
+reject 69.50.197.191:*
+reject 80.237.219.54:*
+accept 129.217.26.0/24:80
+accept 129.217.26.0/24:443
+reject 129.217.26.0/24:*
+accept 129.217.27.0/24:80
+accept 129.217.27.0/24:443
+reject 129.217.27.0/24:*
+accept 129.217.59.32/27:80
+accept 129.217.59.32/27:443
+reject 129.217.59.32/27:*
+reject 195.214.79.0/24:*
+reject 87.255.38.35:*
+accept *:43
+accept *:53
+accept *:79
+accept *:88
+accept *:443
+accept *:465
+accept *:563
+accept *:587
+accept *:706
+accept *:873
+accept *:993
+accept *:995
+accept *:1194
+accept *:1533
+accept *:2947
+accept *:3386
+accept *:3690
+accept *:4321
+accept *:5031
+accept *:5222-5223
+accept *:8008
+accept *:8443
+accept *:8333
+accept *:9418
+accept *:9420-9422
+accept *:11371
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 KTZQB3bCUQKkTxGqZoDIpnYoohHuf2vOoVmJW1lS6aTuJhZv0YXiyzaV52gKaGHkLX53B2EGKhu3R+eMfbL0Aw
+router-signature
+-----BEGIN SIGNATURE-----
+0gUhwNO+pGd39KzCqWRAbrzZSIWDp/bK8JqpegAv2K7xzG3Oh25FKAsoMvdwg0qo
+g6zDjQky5aXF+3eF5vfJsBC11bgq54wOrJEmCeGW0i8xlvgoCA2VrQDE/9tIWe4q
+xCo1fPqR6bRNk7jXZvdOInXb+Uw36NaszV5IDLcCw6Y=
+-----END SIGNATURE-----

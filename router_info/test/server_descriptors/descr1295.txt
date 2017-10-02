@@ -1,0 +1,51 @@
+router ITSecLuTor3 13.93.114.153 8080 0 11211
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmG9ATpLdAwaO2i4dvKLhW/k+VjzCUGws0PvqYJJcE3/3Rz0AQAgBAACSsfS
+E75mtZKcx3+3Lng8ilS0MzOP6NA+Izu+SoWm55klFfxhi0MNEQvvrGEVxK8ZJ586
+yXnOjR6hWAjsr7dRSqJ9wOowhnl8/ZdwxryF0dxhapRLV5O0jcZsVhIt4AE=
+-----END ED25519 CERT-----
+master-key-ed25519 AkrH0hO+ZrWSnMd/ty54PIpUtDMzj+jQPiM7vkqFpuc
+platform Tor 0.2.8.8 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:33:43
+fingerprint F421 435A E6B3 11C9 3D7C 9140 B364 033C DF0C FFC3
+uptime 4516324
+bandwidth 2048000 4096000 2449896
+extra-info-digest 1951516C6F84B7D27DE8723B67111A50DC944817 lThKbu8ksZ/zdl+xRpIVaBU6FAKc2YSUIh8nTx8SMGc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAONbtXvmgk8rXlKfcmnb6IHQfsBGTKeqj3Q2NZ7grQZGKbyT6m/sqGnF
+7Fq7gRsQPCMJDVBGI/flNDZl0kjZ33N46yYzTCCkEnhuYeZfiUbCOb0PU4CKRYIw
+9wIRkFnexYB6E0E0G04LtJf4TBs/IphfRG+4YxhH2iQooO10fiNbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMF20DavSh3T/Ldi9LCWfz/z8VOrnWmAToGvc2B9EB73hCpI2JS4gxWc
+icHtCA2J7zFymE34NTZWugAtJzfu0rqe333rBksMblYRiQFKPVbRAhIh5UxvVbER
+uff1YBudeDZnJlamCZdkQ13uSwYRhmuRzPoYUaEKRxTiR/oO5XvJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+GS1hbcLOvXGHsaIQpor4iw8kodqZdkkfKGzYkJ3Y/7pU00uv6rbVJOe/nmvlT6al
+Pe7+kU24aUxu29QHgCEmhH5bBafv6/5aucT+HyFL6/L7KMSVT6uyd70ee1TW1GH4
+LGYwFN4lxOpERES/0md0IRYZjx86PjsEzVVsSIhKTu8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAQJKx9ITvma1kpzHf7cueDyKVLQzM4/o0D4jO75KhabnAHzav2vko0hQ
+jdICBw9QYTfRMmtNOA7VKp8f0pHcSVkM9vt+Mgms9+vzS8yqZawhAHqhvYcraRM1
+4ooTcqLEQww=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xC7C11908 itsecpublic@doclerholding.com
+ntor-onion-key 3xooeA3Bu2xzueWNM3mcl2i7Ud9Ql+77bFzPTdZxQRE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 dtD2/wlRXANK3WYGCUbpxA+ub9z/PYdJu3X5Ed8XCmYwQMGzIxQ/IUCwHALSeV4HyTW1mu2tQF9NiZJqSaOwBw
+router-signature
+-----BEGIN SIGNATURE-----
+Vd83/pS8vnrNpOXZdNB9x8aly4O3k5byC/eFVv1O+yEWp6EZrtN9WxJTA1xOhi8C
+OtbGmFA8bEAt3hvtE2Au83Db5N+ikptPGl6n8wzLycbWZD9GSiqvR+QEr5IWu8fX
+kbPRiFezIbZe+SI+OJ2PyhQFWSuwWsbRWpnyhrWr/lc=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router PetitOignonVert 185.21.101.50 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmG4ASUhGEmxLgrh+np9R1t85CE+Uz1Km86weoHQZZKkZ1DHAQAgBABmzQw9
+YYmJFbEYGxMLTnF84KVMqxilNA7UOQ7eQfAihqC1IBpWJQgOE858otUf0txQZNDt
+cesjm+oUjtm+8aoxBakrsd7xpD5T45U4czHXMVNeb7i7chISieRXWN4b/Qk=
+-----END ED25519 CERT-----
+master-key-ed25519 Zs0MPWGJiRWxGBsTC05xfOClTKsYpTQO1DkO3kHwIoY
+platform Tor 0.2.8.7 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:00:13
+fingerprint 355B 0F9A 99BA 5E40 76C6 7F68 8A14 ACD7 5B47 24F5
+uptime 12
+bandwidth 2048000 2097152 2408824
+extra-info-digest AFF688AC27F6CC7E5B583C72BFF3C773348B5E65 3oPNH8XnrT1oIsOCDGdzosr2MmZy0P53VG0v0/q93Hg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKDI6wUa2HQmQmb95IoBUwGY2Oa4S+DMjS3x/Qf9qmo9K4l6aAehLCua
+bkrbjAhlAh3DO0erH+aSUe9TQ7bjlX3G8LhbhQ3sX6mM3fG8e1lx2Ywa3baYULmI
+q2ezoAWklR9n3P4LeS1ufjXbyDWlKnOkFQFv7OEWaL3E660xbzTfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMzYdBDBwlWzfDbbvme/wYR48criRSRhfzJoUIEskI8tLryAOaGS9nsA
+hdwS0mIJrffo9r4WefQFbxHtlJiIZIY2XDVU2BGnU5RWGNnZWu59PAnG8GZ3gctN
+XtRQp5dGol5jm56Av2vqkg6qyDdWU1qgkOgdVw4+hRTwQyS44vOrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+GW5k2qJsFQQuRmXiX/m1/vccxCRRM7SUMyV/WW/2dVoZ7a0TbCOu+HwBFOXQyiik
+CGvNOVKJbJYfJMpscgxQyzB1sKwoA1aMW2xK7PQG9CdH5aQU61YVOH6yZXvhrl27
+kdLkfoLuf0WHfdA7q2YgPcI6exfEhpVmliqlO8q1O1A=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCPAWbNDD1hiYkVsRgbEwtOcXzgpUyrGKU0DtQ5Dt5B8CKGAPl7VB8ndv0s
+Jj1+WemwDkea3DC4IbDZaXXzIIIoT/ivwwxl+9w/1GhTvH5ei5ZM/iwlH4SUPh2V
+vLK7ifNDiw0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Mike mail:===mimkr===at===gmx===dot===de===
+ntor-onion-key uIpDbINUJA+XI5ZK2TnbARTe4p7BjuUiCOj6Tu5F0jw=
+reject *:*
+router-sig-ed25519 esK3+PC7y/Q+pS6Jm1Tbok4feGh9UpHX4IgscJPwVqLFAJkQefjBGUnDugORFeZs00taqEU2LlgC56oMESTqCg
+router-signature
+-----BEGIN SIGNATURE-----
+njd4EKEPCAQhJSA1DxA5N2TswM/aPxW/0ZoELJFP25bcLD5JI+SXZytp4iDM5YBu
+k7Y/Qs0YpA+FGTnQzgZF3XPdT3VyEmc2k2MHdf6l1gcLxge6AeFlc74lqBwMpWYW
+p9BwiZuvB7cadbtCBa/r1xfF0UI5MXOSS3b+lW5/ch8=
+-----END SIGNATURE-----

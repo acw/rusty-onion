@@ -1,0 +1,52 @@
+router Vinicius 95.215.44.105 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIoAX7hjls9VA0RHVIekC9bcwvNTmapxfvW3ZNE0fBPaL7sAQAgBABo2BTc
+S2Lv4tsFGoPRoONwkWJPkE3zPnAWknT/fKO3LXq2qjOY6edva6gGN+MRrKqs4d/I
+eUQ1zjdjAm/6aaJo5DT89bB0KBMbqoYrN877bXoz8nY+zPvhQLSKJPTc0ww=
+-----END ED25519 CERT-----
+master-key-ed25519 aNgU3Eti7+LbBRqD0aDjcJFiT5BN8z5wFpJ0/3yjty0
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:05:41
+fingerprint 9776 F3DC 3C0B 6286 D0C7 91B8 7012 E1F2 0F73 B14D
+uptime 255000
+bandwidth 1073741824 1073741824 12628774
+extra-info-digest 44CBF15BEE558F7E488AAB10717D41BE8D4938CE 80FkJk0V6ti7/Ots6yqGw6W0NJJtj+T3EacktklQmN0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANmvipw5dERP9OEWriAWBMLjY9nPaF7l1sNTllsgwoZrbJ1zNEBbEwMc
+h5PFkaNnBg6N7b9mSLV+fhj9Krh8Mz9F5AjK4c4p8TMlfg14rASVxgV1vzghwX5I
+r0Gc8w1Use+Ce+JA+9o9+VWE3l4K9ikUb0d+Kv5lMH3A7hK8/VorAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALMxSVEnSbtiNqmzLiq8Mkfe2mFjzbnkxtOsfoUNKEcYXKR6IBOwzQ0q
+TRkWX8kfMV1ajoGRA+zS2HXxxPsBd4txO/WFrAVQU+5xp4V2bCLXJKcV7VWjVuFa
+npZj1iRWRxcoEOuZ7EWOC8eeCRWDdDZM1RW1VzMFH3G+bix6yFKLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+jp9BqPe3plLiNYTh7Ph+h8h2MWmNTYpj8VW7zEOORDiSfiKznFOj0d2JBCqxhJQ0
+Kel5WFsKeYK67UOwTM0/pHo+CybUZBVkyDqBcsCk7RIjE7C4xXQk9aLTO4F4vXvI
+EVR8ltwC1dvTdja8jt3KmfaySelwFCebGfbTQT6Kwnc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAWjYFNxLYu/i2wUag9Gg43CRYk+QTfM+cBaSdP98o7ctACnQbnNFjzD8
++9qREaT3NhrDwDSMJYJXANF3R0mm5l9LILRVl1N00WKqRHK5fnWNbV5zgFRqC9h2
+S7efirSo+AQ=
+-----END ED25519 CERT-----
+family $1CC5979211C8C6E19C1DA39754CB62FEB82B8901
+hidden-service-dir
+contact 0x9901D70F Vinicius <username: tor-3742  in THE domain:   vinicius dot sl,>
+ntor-onion-key xaj8n2w3GUyVn+Jmv9qEO9L+J4wjyfrHYJ95k/F/DRM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 usO20j3YkOnpj0eYU8IlsGFhQhfVPvP3zy/evccVt8VI3KLAob1Pt7oRMhmF70GlxMB8//oH8KM8tfZVI/OMDw
+router-signature
+-----BEGIN SIGNATURE-----
+FZ3jCSGpNqoo4Z1EmZaWrzRD7AMmJaoPztteUIWSKUm0B2anL5GuOnYtdYsUQkGV
+VRGiH9xRZfJxdCG3OITa6ksVH4OsWevWarWovPo9VtFsLZKzYyg/ADYSqtPnaURP
+ke8SDxiqh6oUja592QwDqKuOqvfEz/qB38hoKsoWX5A=
+-----END SIGNATURE-----

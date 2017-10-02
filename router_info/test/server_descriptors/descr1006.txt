@@ -1,0 +1,51 @@
+router Evey 87.106.249.118 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI3AWz8HJ3VhB47JRbwb0grLtFNUWYzjubRmZOpYPkixo2lAQAgBADFFqjr
+T1b4LSOzrx2J86GxB6LzaFw+F8tjGlk4+3ebT4vFC+3XLMbYJ+/qRTxivpQBT5du
+mdVtwnz0/off/E2p75gDb6r/9ODsPT6a5brDGqi5P6LFdcik21idX6K5hAQ=
+-----END ED25519 CERT-----
+master-key-ed25519 xRao609W+C0js68difOhsQei82hcPhfLYxpZOPt3m08
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:08:12
+fingerprint FF98 6A45 7318 5A69 12A0 FF28 3352 10CC 05CE 00DE
+uptime 17806054
+bandwidth 12582912 13631488 11878785
+extra-info-digest 9C014E685FD167CB0742D10A11F5D66329332967 wG7cE6uHJ6/3C7YHfaGVtKMVCLMxXFzf9sOnnuyvImY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOxfJuahN3y14YSmqEceQEvg4jtZGBf9fQ04z+4tx+tTu+WLWA44Lyie
+iaDYOI6RiRCppMPzRKPG4BQZYswOgcI7niZrQyQAkjrbTRkao2J444J5OUTDkuiO
+gZe/f/EeohJU41VYBMRE7Hl5NAXzolVXmJki/wxDsm/30k55d/yDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALHzsjOUaJFYXGJhCMf2wjBaNruRN4eR8GwHNHZ2/3VHgYHts9/ovtbv
+9HQpXjd7JDfkbmr8/RCddUgtWV6WuBtaMEeai+4kH1PXHQOWwPVmPqEwjkdze5d7
+R8IdCgTo12S6tWtmI/U08PC2muLxihg14aNuCOE78FvQCeyImt2LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QA0EeE5e1B2Zo7zSX7F+o5IrPY3OU7RyJYxkAho14WoiB5aQcynLfGcw4hu5x1zn
+jzO6qfph1C9aJuzBBm2nEH2O3aBd46eoeSwC5oV3kCj0ZL2XRPlEw5U+vJOnsoQT
+okzs79TErCduplucRdKTudEXLiuFqGMo1CCDKzd3SZw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAcUWqOtPVvgtI7OvHYnzobEHovNoXD4Xy2MaWTj7d5tPAEOtV3iN2c0p
+USSkzAE62pph1isC3vdhUWp99tr+gwkMtQxL1kB+6NjBvqosBhaj3uRhSQjofdaV
+btwqSPSdpw4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact jordan AT posteo DOT net
+ntor-onion-key URzYOrR+uogRIeJRURtGT/428uUweAbZax0UlyVPYS4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 nDawFQBTEJ+Rg+wxjQSSezQmGM3OIdZLOsD2VxFVP8b2G9bk9wVFVhMegc2g67LZgCju0AaelJSmamcS5vhHBA
+router-signature
+-----BEGIN SIGNATURE-----
+pm+GSt41v9EDkLEUJoSwuTPOCBzP+BoeiW3Bb7D6DwIggdhC4TZVVD8z9zNkT/io
+ucqGuQBWKIXMwG0YBDmJ8G4NXvxaSmm0gBiNtgcyx6nzbXiqwZLGUY8NvInEAdvR
+YiVjYlsArmU2SmSsu3HfsKBhXkxJJivHsPCGotz1XPs=
+-----END SIGNATURE-----

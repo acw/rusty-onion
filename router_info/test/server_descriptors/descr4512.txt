@@ -1,0 +1,51 @@
+router Unnamed 91.236.251.72 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmB/AdrgrTr5KzUh/lodQLq7ENFBu/x5vwmG2xQctCz13cX0AQAgBAAhoQZ5
+v1tFMM+1QsQYOd9UMfq0jF6rR923vkpXxiNzvjs84D4Tp8OCBKFTDSMzVeKP6N2g
+PJ/2rGEDjiYoabSirlTztBpeOgbkkmuzBiuP0fkrJ3nows+MIFkC3DZ7Yg4=
+-----END ED25519 CERT-----
+master-key-ed25519 IaEGeb9bRTDPtULEGDnfVDH6tIxeq0fdt75KV8Yjc74
+platform Tor 0.2.8.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:30:41
+fingerprint 7C8F 045F C671 0FBA 57B2 C84D 008F 91BC EABD 6A36
+uptime 662704
+bandwidth 1073741824 1073741824 4813680
+extra-info-digest 6AA68B5EEC3487800C2D45EF1362FF3A6A7771FB GxHzDfTq7r4WiTyCJeBahHGSjHu7NnuBuJ+EWKFMCKs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL/E0fbG9+pAMwSbgkCATELaBftnDVaylf4uJoR3SQd2TjCZL/iFui+w
+lllhJYNMnRbB2xGGVGAVTqbl70wJt71XGxRl/96tpir7IKMWeYpVjsJa6ok2ror2
+4meuOcMgMtvueZZt/eLjkRKO6aWFoAHMhEdbhyzhtFOO5rnO2YapAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM90O/mywedTCdO0dDxbiqZGWlrNG9JVM4EuCQL3NgsfxvXRyvVGAMoZ
+9GEfWtycutwXkQxyfYVZAqf9mZDTr018MK5FVOZiLFstuBJniYsNqVWt6ejr+XSm
+DT0KuisJSLlxijIepgj36t4JC7vX41lVc2bS+gxr0kPPAFzpTDIFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+qV/8ZL2oTmJzQsbXgGN0ZmKwO/eTuS1VeSSQzIGjHYQ1BtSB6wyIXSdBb6njPkTJ
+RuTjstw2tjt3vhDkhtA45KSh1WbRAXtS4EsJxViG1vhvCkJQNwvCJeUtlkfMXwPV
+2CjO+gB+EENaGvRu33KPx/TfEMvWh9awN+YkImlfdCo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUASGhBnm/W0Uwz7VCxBg531Qx+rSMXqtH3be+SlfGI3O+APtWvYb8D//i
+eKCjA1aMV1Smj50MG70u+j6GSahsuQYG+/WzUrkLoPpIvAxP4LSAA39w1M0+9jy4
+TrmEL4JfJQ0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact messa-tor <messa-tor AT zirka24 dot net>
+ntor-onion-key /6ZUEpOyQvOpGBH9KuDj92aO+Ra6pelscSTGjYZKZT8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 2gttLs3WffSrtraX4aDrVz3+fjYPuGa/w171hliixzZ/k0lP1dAL5k8OiEPoFdf6wY4wuJKlvnVXNkjydwCTAw
+router-signature
+-----BEGIN SIGNATURE-----
+QGyuXc2ajpfYeeS3bDRP94v5uvJNbr01kOmgyydPtoQIWCg1tbSLL92ngt1rreZC
+CNk1KWdh0SVJTggesmKGmvm+V4j/mcLnGvV3MRlE01iu70j9RepWdTC/U8OVHDI+
+G4hXoJS3JF+VCNeC4uZNcmUEPVuteHwnPUGBtXVKVS4=
+-----END SIGNATURE-----

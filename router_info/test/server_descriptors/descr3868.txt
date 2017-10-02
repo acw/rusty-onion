@@ -1,0 +1,53 @@
+router TVISION03 185.163.45.244 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABl//AfFD0M4/pYEhrMz07TdnUCFyDTgMcyydQ+nUXtOXuY6cAQAgBADOhiHd
+N4jr0rrgX3qY2Mphyjrqjz6eTO3PEY4Wm+B3LYRf28Dqb8nK2zejX/gsJuMEmsQM
+1X4KikO1Ateet7ANU+I1bjJm8mp5AJIWrOY67JSTQcIR46nDRvgtVVF87AA=
+-----END ED25519 CERT-----
+master-key-ed25519 zoYh3TeI69K64F96mNjKYco66o8+nkztzxGOFpvgdy0
+or-address [2001:67c:2db8:7::6f0]:443
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:30:44
+fingerprint 943C 44F9 B497 8F7E 5BFD 1A62 43A6 07D6 C1C7 4682
+uptime 233281
+bandwidth 102400000 112640000 5091586
+extra-info-digest 302F32EAA7C4372811A36F1644CBC7E95739E89B irM7YbXspvMSwZi2veScFGhWO+9k/3R4WwuNWiQNtF0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMRJFdQajPbOwwzrMhriZDTXoMR1zEXf6Dsx1U5eQR4DaArAaInDm46m
+cYDT40wK7u0iHdNeoya9AyA745gFXY3qyWmTq6UUPcxdui/kvhnUlz5nt/Ndc5Ph
+hzhHmIrn1GMFnDkPi/owLuRzV8aK39c77YxuV5pDFOx5dAxORr1xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKF9HpCp1FuxfutkrsZ5h6KscNoAe1ydRx/UOaWdltAeunYDeL6QOVkR
+qqki/GmdVqQknxccG9f5MLezn7pvxFXqbjuCatMqdG6shFcFsoxRbnizimz/0S+N
+EsYeH11xwBH+kFDtx2AiJm11wlGTb9WWuV+wN2ZKceiwP/eAVZQJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+N+1NY9A+Alqc+rPFT4AALMS4/TwQlqOCJKC2l8T+MgHgYF2ZTqqzusCYdw/84xcE
+e3crHLGNtO1pgiNn+kI1jcbG6az2gzuEm6imMfVeaQe9QXY2MeKtIPTe93CIqlu4
+Bo3EmYDlR1JDpIhlCOMpXjJ2QNQ+GazCbOjy+Q+WXhw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJAc6GId03iOvSuuBfepjYymHKOuqPPp5M7c8Rjhab4HctAFjSiRfo64TU
+lBB4yIKs3hsOUXd/BPyY6CqUVWPn+95YLF9XsRkMfCeDWuQa4cssggBqNy1WQ3Ul
+zjoNm3zyAwI=
+-----END ED25519 CERT-----
+family $153E44D099DC6F402D9BA055AB2D20783916C514 $A941E2008BA8FFFA3B09FA68108B7B4E26373C0C $BC6B2E2F62ACC5EDECBABE64DA1E48F84DD98B78
+hidden-service-dir
+contact Jelle Jansen <tormail@gigawebs.net>
+ntor-onion-key CgifzOHyKrZwt0iL3OjWqBiAGUxnQ9Xr6G5R1S7GvUM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Gi5r45Dh/vFHddmnzuE7/hzoP6amPqC/4TFudfS6XJxvAMkjFWxi2bMwfVvv1YlYAMw2ZW54/2cV0NFzEtJzAQ
+router-signature
+-----BEGIN SIGNATURE-----
+g5QVBIIT+Bo1ljpQvD7Rn+bltWeNf/Y4mY00keRIEY+gweA/jfqvsFFEWl5W3Q9A
+P75gN1uVvRvsT+EWXkhgl8VKrnEAaTEDl1OIhOtWAenJXIWA2V+tpCczub92C8yY
+336V4vnk9CZSYBtKbZ1YBCv3/ztphr0fQ+MIB3cBokU=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router CepaAtNeptun 138.201.106.213 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJnAUNIrYAQ1KfR6deyoL0kkfIGUcdPOGkiYO557AVUMfbfAQAgBAA2LPw3
+38f8ebi5931+SI7NRXMr6ev7YuUoO6OQLOB9qQR6k9bkmvUWrVnGAxBxTNRXGZ6C
+gy8OhnODT9PoZcNh1tUxtOuz/q1MmdMoX2MNU4LaYtBXRUPgRakvt56hJQ4=
+-----END ED25519 CERT-----
+master-key-ed25519 Niz8N9/H/Hm4ufd9fkiOzUVzK+nr+2LlKDujkCzgfak
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:24:18
+fingerprint 549F CA8A D9A4 3C82 89A3 2D77 02CD EDFE 4702 9A43
+uptime 284414
+bandwidth 1073741824 1073741824 4037771
+extra-info-digest B72CED8F2E4CD436E6AA151019275D844393AB28 TYurMuD1guti/wjQlEzdbTO7r//7ZwLQWjE2piLiRLc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJo+Jwl/COq2X09677A0ug4/9cZyXOqXOAR+qojxx2a7E9842Z9EBEvM
+/6EXYH0M6iysOsjLGWydy/gadUI2N/P5fd8vwlBUleY+FFsDZthYNuIVUUkRlKB8
+llNabbKrZJfL4kc1Nc1gWONqR90oEgmt11a7wrE+HUSpa/EmtnKZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALiCT+TnqatDP5GT2YqpKYrGAI9C/xGhu+CzsXSEerPlHxeaJhkK+/YU
+/359tmI50pApr8Sym2Kmodlc8D00XRD+RFAUREGx80jrscHtPAoj+//THaYwVNCJ
+Hcsuntv5aZdTbv4ZCQ5JbN5K5yDfZQmy1YbTYb2cedlaIV2oe6I1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cARwKcJzVFwsHcS6qwpBUHNR0IjmD/fMp99u4UIIxkfzLHdiU74zKRQuAu9plOhL
+jrn06eomumYFYhI4ThCuGcIIKPPvFf1KXwHIlfsXCPNf2m/DIQt8yCED3oewsGNh
+LY8ABPDCl+ZNXEKc3XkP5lWQIjr08gXSp1pSFhm7FDE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPATYs/Dffx/x5uLn3fX5Ijs1Fcyvp6/ti5Sg7o5As4H2pABqJ+I5Xls1v
+UKvYKgWQKeAQbgeZLAPx7Neu+e480l+QDtbKzW1BCZ035O0SvHvrsNwm8/uEmC0p
+Jy8EG/VLDw8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Vidister <vidister AT maschinendeck DOT org> (Fingerprint: 8B17 67EE C61C D3C9 C3F3 4630 6906 CF91 BA0F 4319)
+ntor-onion-key TrGU5N268Rv2bt3T4iZ1dJcGzRhBvmunJxBDsGRDnWw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 BLdCy6Gxxoh9x9wp/+LtKpDyccnv6mTZRlb2mYLpkBaeF+WCETBDOjTIe/BB6hsT0llQEF5PDd959CDqkOmNCw
+router-signature
+-----BEGIN SIGNATURE-----
+Bduwm2rGZfK9HXpoByC42cJSNlubiyeRi5kctgNCReXsUWisXmIyx8R3MWgrh0h7
+KVeIOpED+n2SVJqkxOKPISFlZIVlpSCtD70Y+kMFucstE5N3T3LBvK1XRXCPoQkv
+b9Uprz4+uKXLUq2q/whCA9cjQtOVrULXjAKVTGocOVE=
+-----END SIGNATURE-----

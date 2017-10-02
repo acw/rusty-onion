@@ -1,0 +1,58 @@
+router s000001 82.211.34.97 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmK8AUKw87ZSatvOnH0XhQGHtXPl2Sk9VTLh/Wd7XMh5EIj4AQAgBABySwI9
+u7IW9tSswyA3uxZa7fjv+4s64dAHuzxwGrUeM7MLbwf9toElB6maDyE7KmrAa3ZP
+kwo7bSya/cUdsEra2frPpMG0qVXI8k9dXGvTQoYnaCpUlTresK4MrfhjbgQ=
+-----END ED25519 CERT-----
+master-key-ed25519 cksCPbuyFvbUrMMgN7sWWu347/uLOuHQB7s8cBq1HjM
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 04:05:36
+fingerprint A506 BAF2 575A 73D9 B827 D4E9 80F7 35DE 0D3E 2450
+uptime 4176240
+bandwidth 1024000 2048000 1272040
+extra-info-digest 05F762BC9C8AC831359AC5FD2562AF103C8AEBE6 qmaPzyWe4Ibj0OloXCC4zbUzqTmNzUHvzKbWip7qPyE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALMb1X0kqf+Mf9JSOhQfEWNyqDFN6fEGGofzU7CrLKwl69n6Z78ZkSaE
+LGvMiJjY9Pib6KuatjVSkuzJB8ow2flnfKplD682P/3YK58bT+G1bS6uopnRQ1Kr
+oJ5zpru4qLF/DXbOxBQfT4N/CQszlYHfJ9GGxNFEqXJ3iPS/ypL1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANZpXC0SgifnP/Pehmop1oWDnIhZNR67/SUSS9LjcJBWBoyIGMY5NrON
+OXnWe4T5nnVGomJNdxMo6J/wXnWHARHDgCLkmoGcVCj+ejFBqTYGc4/0cdtMqr70
+26KUSOwlYGT5eq5nSyG5MNvcsL93gQy5v9/lpYwG71Gf8Tliumc1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+pTF2VrsYPKZO27jLQ6tK4iPtwEVhu3M+HWPDyWETD9mTNr2y3xRNMTGy8H/Ovacz
+QLVaHQItuKrMebaQZVteiO5UYVAHKGNVzW46nqYaSuEcV6KiMLN/sqZOUt0eI3O1
+d17Yt50jHYuYDpjXdrSL7mUV9f26urGkcFIny6W98Ok=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCVAXJLAj27shb21KzDIDe7Flrt+O/7izrh0Ae7PHAatR4zADlUghKtSQll
+VZrDuKhhJFFFv5UJJFM1y+/ooFUeWAgq4znTWgkhBtkeBjuINy6TvIW8wc/tykno
+cMy6Nh3qBQg=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key e/fMbSd5edY/K/hVn+GrFjNKeFzZ6QRs67ksV2jyDBI=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 82.211.34.97:*
+accept *:6660-6667
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 oPT6ALQgTn6OjtxwDsuhY3K+LEKmR1aIuZQQLro4AeNqShOfWF/ISUz3PJsRZPOG4WtW/K3AGJ38JMRWZrdEAg
+router-signature
+-----BEGIN SIGNATURE-----
+KRbgIVZy6csJsbG75JhnEeFNXEsO5qfidJnMWNLJoBnS+7k79bX0JnZ9HliJpFG+
+pq29i+Ev7Xtalw1p9/4cYZ1twXSjM++UwT7mc0fwJQcrUYcj28otgXoWjw+eq7Ty
+MPiexw2FKtMRiLIcOcKFo4aiNa5y4aAa73bjwX/Mrew=
+-----END SIGNATURE-----

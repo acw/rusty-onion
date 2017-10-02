@@ -1,0 +1,51 @@
+router Graunephar 86.107.110.51 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF1Ac9OLZ1v4dqHawS9iCG356f70mudUKQUmc0k4wn5+4nYAQAgBABWuGNi
+OKk2afhyiQcYa1J2lxDvU6rJmt3beEYlEiPOcpyQrQ5AkOpJXImN/Xsu8UrgH/cc
+LxUvYlR3F2QIGL+It5SpMdOLjRZH0GXeXClddQvEfAHKz7z+hDu/gByTegU=
+-----END ED25519 CERT-----
+master-key-ed25519 VrhjYjipNmn4cokHGGtSdpcQ71OqyZrd23hGJRIjznI
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:53:37
+fingerprint FCE7 0D66 1A40 2131 BCA9 45AD 0C15 9B41 F200 B0B9
+uptime 1170789
+bandwidth 1073741824 1073741824 4217046
+extra-info-digest F9C39B21632D37B8EF4EBC7B25A718BE802F2CEC GU+x4kU/mvoEYP3nZTjZy1jw3nO7/13Z9U5mLJ1Bsso
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ1FPRG6opNQONVit/QwMn5j0FRB5yvS/R2QXvTe3n4jgN0Q6y859Z/y
+GdjCfkqU8uhLGT24ebX/0KB0amunmeXjLlpjqwG8SlLksND8HFcPP9/wpAMevzz5
+1a1ohUAPC/uLjyDEPenokGK7dWeZcilEZBS0RnfCC5YrMcKQXl4pAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMhJsY5feZedwNZRFrP3qippOqK4TcyuW5TEchUsc4YKDAFjzK9TT7XF
+PmHfE7ECy5sciM/pAwv4PGIdRBMvZTGKVSdtzNIaMSb8sr//fM+A5YqkJVU9yCFe
+/d9CiZMwmSnljYk+D2nF7tMVv0KpEU32KsUtWtS5/DjjiepUeDovAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+VQ5hmHty/C1iOMOyfumoIuMKOwOG4zubqOKtK875YP4IDC4dxuo2pjy7Y5aVnYfl
+99L61rKT/mXPz9vcmRxRIF4B3BzFRRVFlswc4CLWH+tCnufxCqsImY2QWsEmEjOQ
+WETSgsp8C1aN9WevKxMXiyXTsyeZrG5VtEX52cZPc00=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAVa4Y2I4qTZp+HKJBxhrUnaXEO9Tqsma3dt4RiUSI85yABR8UaBJ8s1s
+3v3ThqVxzNL56i0jsoGVcYeBovU90mgXzlg+q2gOfWub/WrSea4bXWftAjyimozM
+XhqdDZF9NAI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Graunephar <daniel@graungaard.com>
+ntor-onion-key A3xkTV1khQarXlHjrlfjHF4tqw3Rtes5gTHgcsl8y28=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 16SmsgKAHC/edk9IHMm1V9aXZC0mqxST2fSKNg6xVvoDg5ju+MsstWdmVx8DBlRM/MVRxSoUHVh1fPC1o19+AQ
+router-signature
+-----BEGIN SIGNATURE-----
+bxktkwv37wOMA+/E/dlnkJoGB88viBZzAOk/tkSLEtCHp6nEbntf5NSkE7o7IEDV
+0JGyXWN8EH0xnmYNmIKbVMDc7E06XjIPQ3Aukmn9OvRk7A93QUfCotPeNClEfVFq
+D9ST5+DcT5tWCGRoXNQCAqYdFHhSGgVmyfAjf2doJ6M=
+-----END SIGNATURE-----

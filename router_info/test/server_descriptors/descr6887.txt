@@ -1,0 +1,52 @@
+router NSA42 188.42.216.83 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBSAeTjWGOkqHEoUamfhMatRbwO4yduv/RrMrq1NAYfV7VvAQAgBAD8q5RQ
+24YoBzdieJ954tft1G9SXUUVgfHolX6O3SEQsiDZ05txtdKPvZyNJJmKNKILdfv7
+ber9E3yO+ck85HIvGKH0BN5vrHnxr3dw0ADKYQRxCTTDHI5Qluvfj72THAI=
+-----END ED25519 CERT-----
+master-key-ed25519 /KuUUNuGKAc3YnifeeLX7dRvUl1FFYHx6JV+jt0hELI
+platform Tor 0.2.8.9 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:30:33
+fingerprint 2019 8F4E 1A0E 23F3 2C62 65DF 749B A003 DDAF 79B1
+uptime 5223555
+bandwidth 5120000 10240000 6516397
+extra-info-digest 06811A7055C26CAD3ABFBC15F1CE8BB61015FD74 pldp43GZhi/pIF+dtyYSiap+Rp0DuaxKsMwiUDV0RLE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMzNy/rGs79HMd33NfLbA1YNFRj93Afhlaug+TouATYfwOjygb1jp3tz
+uWJoNx+GIbYGySMwNMugOmmioms9myK1j89VBzv9JTuPsFc8kGtNK09SrDdSIxpY
+g6/9ba9xxIvNwx0Q0/SdVMHxwvxxf9zT0u519Cg+RQiJ10/2x6chAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMblQXw65A9ok7QYLNqeeUmpcfjYaAHfJT1rnXANTR6catbZ1adED/l0
+OqA1KdKyme1t7Dk9mLRDZ1bjK908+vrYEuHAVsUscmx3vCWsyL8xMe1kx1wfoDPm
+p4v+YVbirI8+lrWhZsKcpYvTuWpnpfnVwP8m+e52aKD7KqA4Mht9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ky7iVTVhlkwvB5CBXs8VyJr2KEUWkjonumb3Sk/olwTLKnSskJHT1GxfIYrSZwT1
+oQh6UggoV3gifSM8qVFESxMSKpP/OdMx4GHTSwuhoOWmsbRUl5y4nAjl2MTRfqfv
+8fwpnrIx4PPMgG6NeqUYGGLWJIVmrx8Hb+dV1+D4MHA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAfyrlFDbhigHN2J4n3ni1+3Ub1JdRRWB8eiVfo7dIRCyAObFj1xXEQro
+/lRuJfF04pi05gBTSjFPCv7Web1W917HhbAbRJUv//wFD0rgxEJR9l4o+c2ZpyNj
+wUk6BNN7pQQ=
+-----END ED25519 CERT-----
+family Haidir
+hidden-service-dir
+contact George Shuklin <george.shuklin@gmail.com>
+ntor-onion-key NQo/x6zIqtGv2nhR01HNU/zYt6GtliLcF/H3XbyVcGs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 FD9sn4GYsIHZZ8vqwnmsn0Mf7fSNVKM5QEmbJdir76evhzUjMgu093YgJUip0la7VgyIz259A2R8z2FfQXAcBQ
+router-signature
+-----BEGIN SIGNATURE-----
+lJouXkOleWJ8qsdwNl1WfBFx/JpS/IXo7TB10ZnRdCDAVCnQFajOpMa7VlupbSML
+MI31ORx3fna6SlEg+J1ejo5OlM79wREUdG+KZ7QDBdFSUH2buiC0IdlUoHzQ1DH3
+YCKSfRp0IngtjCbT/85Y6jgf4enpyYzy3Mal6VxZVvk=
+-----END SIGNATURE-----

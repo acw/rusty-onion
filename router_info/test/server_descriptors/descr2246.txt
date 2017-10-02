@@ -1,0 +1,52 @@
+router Unnamed 85.90.245.11 9001 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:15:13
+fingerprint D000 D50F D2C1 EE33 B7D3 650F C1D4 6D44 4022 EEBD
+uptime 2430913
+bandwidth 5242880 10485760 0
+extra-info-digest F29BD3C3DA82C18DDBFBFE9D040D5FCC4251BA35
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANAdhQN/MS5PcGOrQarTOSYZ0dW9wHKjxL+Pe2Q3MPt7fPF++A+Epk82
+czmT4i4xwLHEYmXhpfLFZuDbj+NnsQygInuAAhon3oAOt30lK+/Z2B40tWB38yww
+ev1VDQ+1kuahjugzFFReB9ANB1lZUaIC1307cZk1V0v2U925OYsnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKkXUgal/rf3G2NsZ2zEYuwSHloe1+/wZfszj8/VF1Y4nn0TLYlSXFYu
+P6Di9rgsMQUF1yEb/Z7wZpB3EHyYnQMoIneKGnMWQWE+hwV2Bha2IjzvQaB5gAU8
+hu/H7Xmp0reVdybC6diI2LZHe3s9BcCMhzlSiTWS+/3GsFZKlLvbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hibernating 1
+hidden-service-dir
+ntor-onion-key P56cbAwF5XUDPAYwi6c2TIezkQiTvI/JAtf+Lw/So00=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 85.90.245.11:*
+accept *:22
+accept *:53
+accept *:80
+accept *:110
+accept *:143
+accept *:220
+accept *:443
+accept *:873
+accept *:989-990
+accept *:993
+accept *:995
+accept *:1194
+accept *:1293
+accept *:9418
+accept *:11371
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+eJDH7+hOWxdLVOKfnjnoazfKttxAGBUbXVwynLVUiTjwUgAd/V3qJhGbuDPFOIGj
+m9L1vXnc2kB6q1xApRivkBgnDi7UxVDqz0nQLH2sMkue0hdIWbMus4UzRU4ycRUD
+pJfJDtptWMJMslpSStDcnJDwbQGDpuVF39/nwNlgbD8=
+-----END SIGNATURE-----

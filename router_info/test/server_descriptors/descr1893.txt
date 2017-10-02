@@ -1,0 +1,52 @@
+router grenouille 178.33.183.251 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEvAce4p/nUFNL3ZnLdd9HNm8RrQKVtOWFwGkuWQlA5fikJAQAgBADSVGgM
+nAtO+zSSKjDImsLIQKIvlCdiDlCS0RmL+5ch8qGuMpGbRHg0cme7h47JTNLI9NQp
+c2sT8oZtMVjpAUIAsJ8BGjcjIsT+iKqjNFP8/XknDF1ffv3z1MsuHULq9Ak=
+-----END ED25519 CERT-----
+master-key-ed25519 0lRoDJwLTvs0kiowyJrCyECiL5QnYg5QktEZi/uXIfI
+or-address [2001:41d0:2:a683::251]:443
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:10:33
+fingerprint DD82 3AFB 4153 80A8 02DC AEB9 461A E637 6041 07FB
+uptime 84719
+bandwidth 13107200 16384000 15349178
+extra-info-digest AC56EF9C123F658B76A8FCF83ECC5E11FBD4F191 8cO/p9QmPHr3LDDLYxlUvPhypTejmRwexfAKGAUPg9k
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMSZ7hS59o0bw5sf2gciZEBTQQW2rw7wKjmVsNvw2jZumuXMyH6Zqxr/
+03uHTqh7a1mSez+EUbrE0z4+JkfOOqrVL+ZfA1cVEHCS3TPP0tL5CKLSwl8OT+YT
+MfvTxWK1Wr98FCS0KD05iCDtKGVxbJPJZgtX7dOmwqrWK0kxvHXDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANiMMo3EPQIkjt4MYZLM+H14E/u/b/RZaz8h1uBrYQHVSxi+Z4UVorx8
+lJ+7gQNPEyqUzHk1wJMK8OkJCo+osa5czgQc0+U6fC7onlpCxl4aF+I5UedyBNgL
+e177W9Bzf0Np19g0d74Ws578FxcYxDmb0Va5sqp73eyRG+HoiVZpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+WeWvor+U3EFKe4xfTbNRz/IEaaoBPnDcuu2Z77IkLaLTQMKIPP42GXxZGwPmvCLq
+md7EO6qpYC7lZcv6D1APidWKbDFka+CkRy0mZs4yjapkUCPbji35zHlJ4hDaDpNJ
+C3M1PLA9IwQQuTu12uR9xiLB5HZ0SUkXLA1Zpgwz4xc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCQAdJUaAycC077NJIqMMiawshAoi+UJ2IOUJLRGYv7lyHyAKHuIDvNiRg2
+tPtwvGdRALh457Q8s1AqjFZASpKKYtSBRUDPjiqkZF3JOse8FSRfpA6CCsLvutBP
+yfanIAk7vQQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Arthur Fabre <https://arthurfabre.com/contact>
+ntor-onion-key 1uiWYvJ2DCrMe4KN5uygnbz805BRiDRhmkQsOnUH0Hs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 3vvs4WFDxFOrxT7qfJfwfb7xz2yXiymcs2Yh9JEbEOaUhZU14GDv84VQuitTWM1pnv1FoEeZ9X7PmrphCaEnCQ
+router-signature
+-----BEGIN SIGNATURE-----
+ROLeEEGBkdlANy5pC0PZxkEoxOx8d//1x/5tlNyHwwU3+osc4OQjZVCj9Kjkg0xt
+5Ohu7njHRHh1WVUh3I3L54PUIAf68ptrDjlChIelT+fTUQlv7lX+rHIhmd6IYrfx
+4QZL6By06jgNr79VRezwYO/bbf8hjiQyfHN+YAVz/t4=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router IhazTor 84.19.179.106 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDRAXUp5I3yaxHN8POl4aNoalajecwrdT0xw8xgkSilJP/9AQAgBABlRuCO
+qeQBe/3DbA6FUVhZU2KI6z4ptU4udSDPi7rd95HSgQXps1NoSneqB7HgGt1XUZap
+dPsT4kAgt/X0O8WIirWo5hsFVUme4oz79Gwm3+Fjz2Ud12A0HpbFDMvlMQk=
+-----END ED25519 CERT-----
+master-key-ed25519 ZUbgjqnkAXv9w2wOhVFYWVNiiOs+KbVOLnUgz4u63fc
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:47:40
+fingerprint 1E55 FA1E 6B94 1711 0C81 055D 46B0 217F 3169 8428
+uptime 3623557
+bandwidth 1073741824 1073741824 1409155
+extra-info-digest B81B330128E938D9AD0956FE503ECD968F271932 Z+pdKlzB3rDR8BHbcjpHqyRJ5Wr2OC5zfHMcCgMbNUU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALjvieMtbW0+YlG7eXC1tSa3dsgz9vV2W88GTw7IZeA6v43qL4le6/kk
+IcCixUnzZ5fu7SK4f+NT+W7iLF574j4+Qnc9JStXv/eFQwXO5OBDPPac9zmtcAQ2
+qu1qz6/Wnr17fDKcgEwwzzltafMhl4sfotVGtJ7BPJxI6u8g65mFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALiI51MULHBxl8PP8XHDu49svtNa60vNXmooPoafTr+DrNaC9ii239Ds
+UrkQVIYMYzmaQhH1B5XNhwI0+jWdq1W18uGrByEknXlZ+v3vO23y9/69Ri5W4rGL
+tfPioE+s1jqziBcsAxRxwkDlWiKm5Za0RpcyJMrlKmFVfWhxjZc3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+NCLCUu9bwpT8jeZTZfMvJd/EnMAWSbSfG8OLejFKenvKJI7vspYERjv65fgL2uQP
+6CvFzb40DgTIEobcM/XUM2sb+yZFDTn0c5qAXNA/2i997Gr2JJyP8DoMd0jsC0M0
+VpOHXE0ZMWvX64iCN0NCmKAVG664/uyYZu7QHkOatKU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAWVG4I6p5AF7/cNsDoVRWFlTYojrPim1Ti51IM+Lut33ALIMqF2RScAe
+xSQM/JZS2TpAiotHRvk/HyCrhZj2fOAiHOEpjqp9/yP0Fa2NNjtcp4vwNFPN+cFZ
+n3OVdwYfxA0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor(at)llit(dot)eu
+ntor-onion-key BO/2T9lsQpjZ6baC0HuF0RtPBJiUs/cOBdnp7HaNsDg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 6OLwhXbltzaA4/g+TMHKNMWljBOw5D6SkzXpJXpIWTJY94s4w6VPlS3jgiPDVRUzM/q7nOb5vj1G5LRKW+VBAQ
+router-signature
+-----BEGIN SIGNATURE-----
+eB+P35B30DkQhgVLGrqfiCZfBACyB3pqqiZEQcbd84TNKMeMBS2qXH6jFZgO2+lk
+SAZT/sU7hk8YtC18qTtSPducoTp+na1lZuZcGO0JqbvOBE7eh0JcH0Po8q9xxbMb
+645e7DsIzpz3GmuX42Cqbe2qHvcbxhOMOQEBBt3qD7g=
+-----END SIGNATURE-----

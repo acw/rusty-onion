@@ -1,0 +1,60 @@
+router mergesexit2 78.41.115.145 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDBAaJe4KAPmHdGQEx4+1PgWhxM+cT2QJc2TvqOGTwEj9yIAQAgBAAQEz/K
+THudG0NP68hrEfX0w8QskVsqWxgUAOBudeKyIXCMgFqVKTZgMf+ce3TCKwr83RDF
+qkgMZsXuFF37UVQSY1UlOYPA8NiXBu7qFw7lDxKGnqeN+P3QVwRIEUKQkQk=
+-----END ED25519 CERT-----
+master-key-ed25519 EBM/ykx7nRtDT+vIaxH19MPELJFbKlsYFADgbnXisiE
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:44:57
+fingerprint 3C79 AAC6 770A 4BFE A0E9 BBE3 A339 046C 01FF 559C
+uptime 1177998
+bandwidth 1638400 1843200 3375231
+extra-info-digest CA27A8FB1D57940D1A11B831E9F44877877B3B77 OfZb7ExJew8hlCvHWFyVczSpMNRC9UYtleNlWOGIyuo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOPHml5YwltdpWGUJVxL+L9fLkzSAFG9ad5lyww/nHdrFPc48Z9PCCIY
+PGuuY5HRFz4JkSVpPWgxOoYiRxyGEeRXPKsvlKdxrQcv8QbpJ1Uum1eHJimLl+7I
+r8pIe5aXd//WMx+3tbxWzuL9tQRf983irlvVSefBwxQqcsdaCmJbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKA6RuHDDPplbGwycGe0U9lio+iyYDud9wxnckGux3FXXTCoMrLL6dol
+kw347n9axHJVTncl/TwzCfMLPpgjX6T52Z2v6yjv6Wl/tP+3HU+ibEL3Swqy+5jz
+8yOGm3s2L7UnKAJyKzz/0pUkPHX3Mc2jfp9ErXDgVoOC4ITquHLtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+0nqAbB8jwlqEI1gU/puG0QbAwOId4lFZ//9YREqVa+JPf7ifIyZ0a9hdqqhEIgoX
+z9UP402AmgxaqfxvuWW+/dYA2E2fwuBk0aFNc8jOSOJ5myo8toBKb0sAAlhiK7ZS
+IRmiacwZzcCibMepVtAT/FVWLLr40rdezaBeOA/hC8k=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMARATP8pMe50bQ0/ryGsR9fTDxCyRWypbGBQA4G514rIhAI1a6WyxKu4Z
+vxYz4UcNoh0DR2lJlYU1gBRYIvI448UKlvylFHxcyDmmgzuRbgJaGN+rwSgZ8/Th
+murIuxTRwQw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x5AB387D3 Martin Kepplinger <martink.tor@posteo.de> - 1Dx9akfxUeHSTXf77AiFxCKJb9BFXH8hcG
+ntor-onion-key iOGu5AJ8WaFCaXhq6q0jXi6wEoizgUC0QSDbQHaIS2o=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 78.41.115.145:*
+reject *:25
+accept *:*
+ipv6-policy reject 25
+tunnelled-dir-server
+router-sig-ed25519 oKMZ12WTQHD991+E3QuJyB+sJ6XombpXKdf/hCM9OKVie1SzIzTf/IPvEEvKPeJAWZV+ETYP756ljwdA5dYMBw
+router-signature
+-----BEGIN SIGNATURE-----
+XOqKNp+rMxv1pA/FwqhTzNhuXKj0acfyJ+NR5IAysip8LaiAMWy/1rAEtwGEbyoO
+P+iTS35cJsSgs8ZMbgD7rB8/+BKJnfa8LLXgpk6RbMOMveHydADnV/GfE3armagf
+n+d/aY5vuFCxTSt74cDldUohnE2DCLgvqFygt5V12fg=
+-----END SIGNATURE-----

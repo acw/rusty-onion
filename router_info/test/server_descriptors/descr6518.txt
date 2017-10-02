@@ -1,0 +1,52 @@
+router selbyhunter 158.69.215.7 443 0 80
+or-address [2607:5300:201:3100::1c62]:443
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:17:36
+fingerprint 2F54 BA72 31B4 3458 7BA7 7256 5517 0078 A331 E87C
+uptime 8531887
+bandwidth 6291456 7340032 8436913
+extra-info-digest C0FB78539457462E4C44085ED8D2E34CE06B07C7
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL8td/D0rk1n5ay+J12yW7AHJaP00KO2jIu4hOD0JTqrOkPZVO6M8rLm
+2F2MHbjS1fwAZsbqY8dZrfej2O/+Lj8EIzHlq2Xh71Ty3nHURpjToE1xNyVPjRAs
+8opKOes/uomd3UV7qpQD7rbVCjd7tM/0FiHAzidtc/1ZnEDChatdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAP7cNH/wpgqCKd9HPuK6R+MMvuG5rSNY09qECnW7E+eTL9YCmPBDNoi0
+0DqTQ4S4xKOzIoppEJZ70zTHPGTjzqkrkaVHBONEWYkIlPRkvuuwjz/xNSv+QWkw
+ugL9DtV21UXLESkCmrf9zieZsZtmjYiBjzaYLL7lHULMa8XtyvFNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact selbyhunter[AT]prtonmail[DOT]com
+ntor-onion-key Wy9svpljCSwiFgHX5TFuzmWB16cgcYfV7Sz8ZwqsCAA=
+reject 0.0.0.0/8:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 158.69.215.7:*
+reject 169.254.0.0/15:*
+reject 193.70.39.41:*
+accept *:20-21
+accept *:23
+accept *:53
+accept *:80-81
+accept *:110
+accept *:143
+accept *:220
+accept *:443
+accept *:992
+accept *:993
+accept *:995
+accept *:8080
+reject *:*
+ipv6-policy accept 20-21,23,53,80-81,110,143,220,443,992-993,995,8080
+router-signature
+-----BEGIN SIGNATURE-----
+AtkEbc9nXKT+sTnDYY4+DlgCBEIuHZeSvau6cdwCuxwBQfKBTil8L5pnUO7qbq06
+oeRxNKGiVsNw5maVf/q3PnuJP+linLmskO/6RIWSvlF0iEScmt1NLhGrfEKKDqvs
+1gsOXt8GmU3u0aXhA3LLnoRyf6mn35JTMJV3kkBh6EY=
+-----END SIGNATURE-----

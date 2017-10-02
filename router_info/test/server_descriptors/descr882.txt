@@ -1,0 +1,46 @@
+router Nikson3000 109.62.219.168 444 0 9030
+platform Tor 0.2.6.10 on Windows 7
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:28:02
+fingerprint 7172 661D 1D87 4153 2188 6233 8B48 A21E 2B3C 46C0
+uptime 4
+bandwidth 1073741824 1073741824 0
+extra-info-digest CC4235865081E2DD3179A025FFFACA125010F58B
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN/WfXqBJ+n3M0H0UTEhQuS1Hj4y8O6Vo1iDW18WyWz7QQYxNmOzDQzX
+5EdvtpESjX0wF103r2Nl4aEqiurr2UCOQpM/Zr2SXHYvf5OwqgDGajovIujEh+3x
+ifnWlnBcbWl7K6tkJTzR/qeYf097rtEGtWpxAVlVCFRW3XnrgYFfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAML9bBLw8ZBDpmNqBP6PwvOci5U03nDMi2zo1ixyJ/mQ6eCC7PJqAS3O
+kujToQPoBzV2Oej9MAU7B95nu9WKDyWYvBeDfOyrYoKLtjbd5AJgHNX0SnGu4yWV
+ST4VF3HwtkRD4IbX6mxrNkNKBnmciPTdX8jBq1YH1kJR9cBUl9IJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key 8BhfWAyfdd4KfsAlti6zN3w9E1pP59aNrm4EuCqPU3g=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 109.62.219.168:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+afCfYLS2UxrtDO+KPvftLAouYRJwYKHVKR06GEKz2mSBZxdtTnmlF1A8S84+OtuY
+T0TJdr6oJ4BC2IZYVI+xcYddzTdQwgiT8RF5M3s4V2EYXM+WQBAHa1U3EjYWVVEz
+0JhzKV0aQ8FZ077ZrTBKTGZCiuuIJ3rTJmmdZKeJBvI=
+-----END SIGNATURE-----

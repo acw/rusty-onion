@@ -1,0 +1,50 @@
+router frell2 85.10.240.250 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmB1AVzHZR6H6CMk7CGKbsUJCaH4bi8OEirttDrrcvO0Dy6MAQAgBADJWHVr
+JMtZNicJiiCvOLBUbJEaBssfcbHhWGBNbK4lzLDmap6pwTFBKEBG5iCRabDs6rRR
+FmDEdwWIGViaXbin0SjxjPIDpgkzZtXuVH1cHsZdHMPKw0l4c2b8MzBytwI=
+-----END ED25519 CERT-----
+master-key-ed25519 yVh1ayTLWTYnCYogrziwVGyRGgbLH3Gx4VhgTWyuJcw
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:04:45
+fingerprint B638 FBC0 3217 4CAA 9409 B83B 5CEF FB49 06D4 3434
+uptime 6752700
+bandwidth 3145728 6291456 3971477
+extra-info-digest 51C49F0641930F8AFD2F57B7E99058E3577D761A 8vhPRAkj1uAx1E0qo0zXNrBihPfisyVFmaRy7q4Rsxs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKwAhQW6LbTosJW5F6iAVA7L2MBxcauwx5+5Wi7zYhIRMkyLasr3r0I0
+4LGet8shhC5Xgo9M2wMIpWABt7nbv6Wi4LH2TIyF096c+Jj2giyDsVYu6Grz1bNG
+JlDT8eISL3y84nn6LOd1DFHxIUapvM77povIC8CE+XXiYRRuCCSNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKEzMOGlij1dpH8RB3KDt2okSWs9DGqZ8MlR2hDQ+lKv99hTrHxGZgA9
+l9JwDqD9T7SuFyqgCsuMEArXhzHM8iGPGnGZK6DPiYP2fR4TjT51dhxiPeImSlwQ
+UciHEPwJkGw4tlnA8tElrjQUMTinDAt5mDrHFd3GsVOwepiSFXAXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+HxQc9GTQxSpk+UpYjyo7459Vmr/GRNovOCJ/0w+T/UjIEV2tfKVBLfsV6j6ZtvMV
+xlMbF31td2G4p2OONvCki3y8ZCRkEdpzU0O+B2rQ3FPRpQoCBFanoVk11XFFjl+f
+lneYpxQZf0B579wfDQxMyOXVJmOxjvPtDxVUHixhP94=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCKAclYdWsky1k2JwmKIK84sFRskRoGyx9xseFYYE1sriXMABtMrPQkoit5
+kqDE8Nmljd/Y0bIyGG4IP1aCCblNy9bvYERRpw9Z7Pa9T+YRh93wxSZRWnxY5SB4
+hWnHG64PyQs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact remops@frell.theremailer.net
+ntor-onion-key obYPc6T1qzJXY0xkSi2j501akHAs52No4VZPXaVDf38=
+reject *:*
+router-sig-ed25519 s5Ix+TDqgrQJmeKYDu6ZUXkbCu7eugi3poTEsv7A5HMRlVAuWNa3dyNl4h9g+be7HA38QPOVmI4JhcZpw+fTDA
+router-signature
+-----BEGIN SIGNATURE-----
+NKS6RBW2ubmA1ILWhG+c0pyCiiQ+IK5fz4nJ+KC5+BAT4tQHMRt0nIq0kplyj5kR
+H3T4ydVhQFYD7utD0047n6CLugSF5fmePJjESNlZEU3CFhHnh1t13sOZwruA3sNu
+gKSDcZRhGzTdR9H+jDkLEY4iDHrBokUpiC+kvoL0Es4=
+-----END SIGNATURE-----

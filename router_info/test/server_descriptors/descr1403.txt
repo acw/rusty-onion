@@ -1,0 +1,50 @@
+router Besafeguys 35.160.177.122 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmK1AdcIox92FruNL/6CZN0rrt06SuBMVRbHYnJnA583nAbRAQAgBACcTnIg
+697LHRGzlh439VzzlnTBi2DQXWe+z/zqnPqWFTy16X0rzenAIxOQ+PoKWqRSOQIg
+6gboffEKFt3xUk5SMai/WwZ6bomXFF/U8I0nENtWBTFzfYH9O/at35Bzsgs=
+-----END ED25519 CERT-----
+master-key-ed25519 nE5yIOveyx0Rs5YeN/Vc85Z0wYtg0F1nvs/86pz6lhU
+platform Tor 0.3.0.10 on Windows 7 [server]
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:20:28
+fingerprint 9A92 BA87 15A6 F752 6B31 4FFF FD2B E721 F3CA 034C
+uptime 61
+bandwidth 102400 409600 58368
+extra-info-digest F69E9A6647F105723CDD038D9595666577F777F6 g0mbgw7JJ+ASpSPKiD23z/f4uNvfs0yuByPssCeHdfY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALgPB3Zns4thwZwdaZ2+9iPZvQUatnaq0GaNcZavE8vE+HvFB24v4CNg
+vN86+p1moat6ekbAE4EXfzAdpF0eCHOxuF9lCelN4W9CUk8q4Eb4NZUEwb3PTc6l
+Az+NHcOSf2Q7d1sWCeBCCFiODg/dsvNcS1nBk8eC9eH81OtKtV0FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANT38I2uRrF9p4m4nVZbI2S7m2RFW+H1tqParwdrrklL7D3fIWpsyVbq
+/yX773L26g+w/aGl435oiASc1uZx1rz7FGhk47XIIhalCE2PPmWhEcHd74vtIEBy
+rno5Ph9S1yb8YnW1zSLpWHVd6VZTUiEaMCQi9Om3dFLqGitFYJFtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+YncJyixfZy4Pw0fOKH4sK/ySao3zQDv/DdOTWIfxp4htKtoiCzdjnEZiGO+1r/v2
+0LktoZ3yZBM9eUVg9fsYd9vDF9UCCfna5EbRmfUe3WRpT+ZZJQUDhslRmWz+2v+Y
+4jNTQ/H6AZOpi4qwpw4tQP2riqO0T7jIIqAansSBFdQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAZxOciDr3ssdEbOWHjf1XPOWdMGLYNBdZ77P/Oqc+pYVAFClhnWmaXX6
+O5pSGEb2nBntM0PxzCmuIryGtBW8hgN+wFBxsM4TwstWt8X2vx45uL6zi8kN2M+c
+sFYfrscuKQg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Abuse.Tor.Exit@protonmail.com
+ntor-onion-key Ym0pPFkClXbBF0PAIaBt9lD5Gw/ObcUih0bXw7jncj0=
+reject *:*
+router-sig-ed25519 bWE9nmoNNCc28hDlgFlp5JuBo69ZqTw+UScCY/fLE3n1XyAY1qBRM49c5Ctq8HokjJvF0dJSP4Do2atKwdYzAw
+router-signature
+-----BEGIN SIGNATURE-----
+kJSXHNoWBZTMEKdu2zTROKbocLBBU7ApUEcPJVZb4IMwYgM2kQ0KPiQBO73/uHCV
+mVyeCDWsAiK2WR9vOo5YyJkUPq3U5W8hL4Kh86ZZgwaMla+oXV4a/gmzvfQaK78P
+0kyd7Hyu4yzAhtwsDETpKUMO+PU5H8tAgrh/wfnEy1A=
+-----END SIGNATURE-----

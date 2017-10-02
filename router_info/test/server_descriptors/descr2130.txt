@@ -1,0 +1,51 @@
+router CcNode00luckypig 188.97.174.190 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAaAZG8ZOq4psqNe0Vsj3Ovbv4OssCuGU1RmNIrr4gkiUSKAQAgBAD+Xlat
+r5WBYXLcj0O8w2ag3ELIx/gyImlUy1LLp6MEAYU7HtPArPqM7RDRJOpq+HUbp3Is
+P/gtBWsbBj+mnB4oIc13M2k8gGutlBj+m4hrgQ44MlqIgMp3TEaC5PHsxg4=
+-----END ED25519 CERT-----
+master-key-ed25519 /l5Wra+VgWFy3I9DvMNmoNxCyMf4MiJpVMtSy6ejBAE
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:29:49
+fingerprint D45A 1EC3 0467 1638 2F8F 6EF9 9964 14EA A28C C8CE
+uptime 421132
+bandwidth 256000 512000 330340
+extra-info-digest 40C06881F0FDF339C94449DF86012FB831A817DA OdvtDX93YVI0T5O4I9yXktjt2Iak0m+WcYk2ISuDxHE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMH9QsYEJd5O73oBoy3c+LnjF04F61+LVlyxh1caoqkv6dkgtT3o3/xS
+c5j79DRuBoAo1yNYhjweoeHiS7o7TTPxuH4aIOO1MZtcgUEY+55zKdAsDE7JTyj0
+7vHUaitYhET7dILEoast9863/5FAa39Lkd7TFhmt+3hpmatAC9xvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKGK1VomUnbeBogFaG0CIk8HrM1658xkqskCfZiPLfYIkMRyGX4fD3/x
+nhoWGE5vQeAscHWmF2P9NyhGlZytBtiQMkTumaRZRf5a/xuLQsC+ILbrK15CTQdD
+40WxjhwZktCSpdMmXRQ4ItBLYKjbV32Bdy97AE1jb1PMpOXHABhHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+F40kPTAHlQYCwUYJS2axGWZRWmN4yZ598xr9+rWRDKfqXujcG2pAInRXDbid9UHO
+C69czGGJR7ChdjlN52Cp6LfxQU13pmkBYzzak+cKosaDNpvXjuZxbdkr0M0+arVt
+m4mZjv1oukQ7LLzpU/4pOhoSljylkkraF5lW9vrNumQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAf5eVq2vlYFhctyPQ7zDZqDcQsjH+DIiaVTLUsunowQBAI30Elr3c4I2
+Njra+OizRla4vBTfNtXGvtUfZ+qoHnAYiLUy4xWgrTXZovuKiezOQWdsYbP+G4ES
+2Y7l7Ow4cgo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact ccnode@mailbox.org
+ntor-onion-key TMnCjYGifTcvhUGFn+viZejZMw1DRNp1dGbzyr5ePBc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 pBardfPsmDmneWbtQjGr5THt/fNXx6BtzTkRvt9ZpHVH102hD3/iK+vlvz6z8YNYhWPvcWPtcaXSlLcn121ICA
+router-signature
+-----BEGIN SIGNATURE-----
+nD2egIoMmsqAvcqxY/CItwp5fTi76G7wLaJtRulUvsxxAnfZXKJqsh60tDhGzglS
+bML8u6R+F1hZ4UzK53nsTEJWN4p3xhqYPdx0rhNJt/PgDLTv0JEw1OXqV+xbQEAQ
+cv82XHSt4efcYtzuuv+Tigsyvqp5iSTQp3AFDiufsNw=
+-----END SIGNATURE-----

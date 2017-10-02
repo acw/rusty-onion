@@ -1,0 +1,51 @@
+router SageNOnion 138.68.159.142 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIZAeXIwC3xoyCVdH5FHULgnKf3W/PkRFmOFkkClBkRC0rVAQAgBABZM+HU
+gd6evTIJy0Ns9AGag0knPUZaTt5auMAM0VMidZJ32s4qWwZa1gfcy2ijgs6Ilsj5
+YtOe4Y43PzqbMUkRWCKPpx6JLA4SA61yCyj34f5bIuOzxOoG+oCFSghcsw8=
+-----END ED25519 CERT-----
+master-key-ed25519 WTPh1IHenr0yCctDbPQBmoNJJz1GWk7eWrjADNFTInU
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:15:15
+fingerprint ACBA 8E0D F599 1DB3 CA9D A46E DA43 5EF7 A19A DB39
+uptime 7102819
+bandwidth 788480 1576960 960931
+extra-info-digest DA31D097F82F5B2E44417F2F1EFA989DA368E79A f0POMcSp0ggxXPlLlNDyF08Xqsl5rW84XdcD3e3zq5E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANGOm1hmOEr1H73kRugIuJCKUvbsdEL6NY+J9eGYFER0s4o2wfTilguf
+xaJnhFhmaenD45tD/MHINDDaubeuWi6oganR3dOGMyeCOEqUYSsKX3mUtUqpPAgK
+p0TCzuuGu9gz4DboRC9Ay+JLJK7XNstufc1NJUKE3ka81FT1xDe9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMNhptLAy7Rq1grmsAask4hi24roRXcTKn5JCkrhNz4PXzzREzCBxgCT
+vIljcKH6U/QeEi7x22mj9Dg7dQbxqn5odhQ0IzDmdZ4O8tOoxWTdzJ8oWbWK4D8w
+18ZeuiHKj/ezz9DZYhiHj7EsC2wBnqfg4YpCm2tme7tKPAMzfGp9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QsQoq6tJkocY7kQSccGdBt3j7gHsjk2gBc2LKAP9ILqSLJFc38sinaz2w5Ej/9Pu
+DRO4Un+ERcmQb6T2zwVf1XwoYe5XNCNtu7tMOprhYNAoA3czNuvgU+bVscKTrWWo
+/Pf9dSc/TMk0GyWjJqMmvKNpInl5gWr7GPOOv+OPnEE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAVkz4dSB3p69MgnLQ2z0AZqDSSc9RlpO3lq4wAzRUyJ1ACKqgObld12A
+ZodHyUBW4Ta7cLzVZehZ6FofW4AqDDgNxSFMiJUmA53A4fIui5q38c63DtkgJ59I
+UMCJlT386ws=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact SageNOnion <SageNOnion@gmail.com>
+ntor-onion-key RFJHxmuJhekvSWUz3IyX8ASZ2F9TYuzH8P1Pi20XVxE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Hg1IPaxngEu01ZEgnRvPvTcRhmRvfI+THukhmDnaLTqdyxjhY1gNFZvxC6O4Q2EDxW/rlE3y9y/2j/CReZPDCA
+router-signature
+-----BEGIN SIGNATURE-----
+qcN0eN2rykuoeJHYNIlFln/J2wNIT/kUuf6dVeaj7WLx3w7jyIixm1GyzTNFp13f
+gTzOKLGaCNClD8quc3LNsKOqzggNMnf6aKh/9SPkryEUQdJ1gdSxEY8KTiiVjyUV
+t70HZL2DeQnv0rM5ZtyjgEUYc2dJ8dRpn0knXDthJac=
+-----END SIGNATURE-----

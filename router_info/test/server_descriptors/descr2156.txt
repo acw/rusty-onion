@@ -1,0 +1,51 @@
+router antisocialdungeon 191.191.95.58 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFRAdcYESFWmbqv/e2JtS/p+dnWqkVeReUlZB4+c+dOjFIbAQAgBACc3klB
+WTGbGRRUN8apsKKDdkIwTOSiAPEOA+EbwEwyIWNyAjL+tQL3dVuDYYF0csNq7VP4
+k9YbcEOk5TCdCEP1E6knyVwQ2pN9QZgAcDmfj8ZcBzEXVG1palEtU7kZ/Ac=
+-----END ED25519 CERT-----
+master-key-ed25519 nN5JQVkxmxkUVDfGqbCig3ZCMEzkogDxDgPhG8BMMiE
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:26:27
+fingerprint D375 2213 99B2 4D22 3319 ED2C F8A6 D143 05F9 3911
+uptime 350102
+bandwidth 76800 102400 262370
+extra-info-digest 68A057F63B31828578B38AF551B7D6413FD484EF 3WnGggVeP/yGqSu9Fha0zi6rlmMcK7e78ZYZerrFvjg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOCkYC5xXVUo1pYxa8E3Wn3gjPfiIPp2e+pCVwrK3EfioJAee29TDZJM
+0YUdb8Gavhxcr7eKaI1nZwmQEJk41Z6qVOvE/SDLgiYqfbwywyMKCmEPn8bKITNp
+K7mW1v/frnT6GOmSsOjGQ/WiDV3wokOdUR2LHPrV5zzr7JWkqvLXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPi3T34zfCQesAQrT2pCRE1yLIJUKHrKIE5pb7Kx6i/RJ+qahrHXRzBM
+E2hKw/iNZJeE7nc98JYKNeimz0TVOPD8LDvEaxX04wq+Wk6qSLixjsxk+XKcNIqJ
+NJ3sECKuh3i7alO8zY5l0B9ra35PBggGlWLiIuFpvvn8eqtBDNpBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+gmXswYy2TKQsS5ncRewqa+Gf6Tu4rDBPtboiR5rfggKkJEQfTXG7dzRJ4IAuos8K
+lP4SxG8KcZAQTBVv2m6znXulzVIQsfh68a8mrh0ZJ/rOGir3eyYd68Y32CA7CVFt
+eOMDlIoqzgA/lvZ50lcePDZl6RYruGMEK2H/dvaKhZI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAZzeSUFZMZsZFFQ3xqmwooN2QjBM5KIA8Q4D4RvATDIhAPjte1tKLIzi
+QD5dI54l3zeLxuFWgFYo/zO/k+QCXRFkpSgxVZlQCkiNoBxOvCmvQZ0KdtxRfhA+
+naZB4lpa1QE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact weirdo@antisocial.party
+ntor-onion-key PnEIgr3p30eBEPNnlkI1vDXWHTl8p3TVOPk4m9TJsg0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 rC1Gnp7dxM6aOv1V+yF24tG+Ryt8eKPBonJWyw3DxEK0Ox4XNcEfmeax+hJHSNeKHYU8MAkxBIwKrzI8PrdWDw
+router-signature
+-----BEGIN SIGNATURE-----
+gaiz7B0+kxZ740PE7pY7h6QfDmr3s0/xQGzH6MmrMOOQBXSJMia16gviMiWwTm+G
+KDQYmmMiCHQfOxLo9HgVEp845rWcvBhfs4xKG19pYFugYxyu/pH7/0Jh5Gksg/rn
+pk92WiGCINv8xaWBomED9rKSmMcmGOE7OjZKRum6PEc=
+-----END SIGNATURE-----

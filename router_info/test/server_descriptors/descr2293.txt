@@ -1,0 +1,52 @@
+router cain 37.235.49.124 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJZAaHI6CQ6gUb1twgcwuwThxKnoayKWgcPDUA2E2v9tBMQAQAgBACfnrMp
+r5knhVcmTNnHrwu9Mpu85JIZOh/4WB8wvgt0yashs2Bs8R8SfXe79Wt741z4w+hf
+CoyIJtpsBmD45BhyYWs97NJFTpnyHtAjcdmjAjebvQ87jfTijqO0R1xNdAs=
+-----END ED25519 CERT-----
+master-key-ed25519 n56zKa+ZJ4VXJkzZx68LvTKbvOSSGTof+FgfML4LdMk
+platform Tor 0.2.9.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:22:36
+fingerprint CE16 B422 0277 B436 09DF 118E FCF8 DE74 A519 484A
+uptime 18793850
+bandwidth 102400 204800 89896
+extra-info-digest 94B5C5E3C3CC464AB83C4684DC32DFCF2DA9ADA0 Gd6MEF0OushG8eALP03+fwBkTTxydJgixMQTXcgRUmY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKa3vG0d6tB/wWb+o0/rrvceChJK51627RyljXb29DZOkhFXAdqBbXbn
+DZVxvko5S9ca2J6xq2zLEMySlHtnOFD7S3x98Fd8ruGBY7J5FmYbl3Guky/cADtH
+8AmFLsJVzd+LBcbbevKPejZ5OGswPL630Ic4orK3jRPWayrQi3ZFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKtyyrKDLuUrtdNwI7qRkSpOxM3Bv/fzqq6lhjfZwqJKdSK0g+Dl8OIu
+5EpZmnwaVM7OOZsVf6DoBLZ2X03KgSUABEJ7br1mXAi2d9EZaa67xcVqg5YWtOWl
+79xQ2mFwiA1KSUA7kUEZiAZ8t7cd2yMcqQNMajw2ZkiFYeQlEB+zAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+NB2WyKU2EeQdqiI11Q/+oDzkoLtbpJlEMvT4nsx+kU7uKo8+lMurb4/ADS0a04+5
+ouA+RFZiJxTSD8QDWxXL/OHvFuJ5OZIabKXd7A34XuQ2Fj5LuaTK7njjrjZVPXme
+GuFIjGHRGZYq3NVBwFBplgp+76O5odcPjhdFlORor7U=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAZ+esymvmSeFVyZM2cevC70ym7zkkhk6H/hYHzC+C3TJAHP4lY/qcLS1
+TWkiPpPFvS16b4zZPLCIv9pCDSu91/UA1VKPEWZODBf34Xds57L7x42XbF8Ne87H
+2O0RX+0prAQ=
+-----END ED25519 CERT-----
+family $0FA72BDDCDA850B92EF15CD94054AD8FEF4E766D $D5981825AF8B1DEFC9D8F2445729A11B12581384
+hidden-service-dir
+contact 4096R/A2D1E972 Patrick R McDonald <marlowe AT antagonism DOT org> - 1MrQvL1XaLKPwbHUsAfagyt8MTXXVWqhbr
+ntor-onion-key 7QYF5abYnSEwWjyBBo19StuHHflvH9TD33je83tVIz8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 mxvNfZURKYGdfoeLfIeGuZLFTXx+mCvTesApqO2OdgG2f9b0uk7cBGuiNSJ/YGvT15OYgIbtdMxYfTuhvRvUBw
+router-signature
+-----BEGIN SIGNATURE-----
+DfNewMa7BGXDxsr7MUdu1ceOi4LpvpI8QNbc4JxTbHofuUel//BAXK+hApFmlbIA
+LjUtkVk1sOkxJfsBB2Bcmoo3eLORy9Z1fcOHiRc7EZyEWE7dhaCDRFt/lkVTYGCB
+Q2/TQxeCQ5rlUBC/Z8ppGHQUT6pYNHORenAtLWzdRbc=
+-----END SIGNATURE-----

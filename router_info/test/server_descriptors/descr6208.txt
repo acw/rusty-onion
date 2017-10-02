@@ -1,0 +1,62 @@
+router metaether 198.50.191.95 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmACAcZkIfvyrOeHVmKj0D+9idZM7F1TgZOJEGzwdTJtzuVNAQAgBADx83Yg
+d2CvJGVdltEty+8GExpgNGjzMIAgTR38L7A6lXLwnuDXf2Uf2/lDFqwcYLTQo62T
+N3hoHkVw+BigonZGCD3yLfYGI0cQy32uc6Wk8ZiXKPxwp0i5U/4jVt54yQA=
+-----END ED25519 CERT-----
+master-key-ed25519 8fN2IHdgryRlXZbRLcvvBhMaYDRo8zCAIE0d/C+wOpU
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:25:33
+fingerprint 39F0 9696 1ED2 5769 75C8 66D4 5037 3A99 13AF DC92
+uptime 16547025
+bandwidth 15728640 26214400 12435545
+extra-info-digest 5134AE1C3A54EABEE9B33D90488FF7A6EE46F930 rfd2HmdJ4RZLijSm7n2uDbAhMYuXamCtxnXPVJ4GA5c
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALAXFI6qjLrSKhssF1YIZK1RxGMM22Io+sChmamBvVHJiWGMOyH7i7PX
+J5PiSWe1q/dhO2cLO5BwCHqW6nQCP0k9fY2O3OfGe9nsntgYwYJzhE+0F9AgnzT2
+l97dEatPKd70tRdmrIZ7cEFCzNmx/17hDhblAWsMfSAEPUko+VHjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKtkdBwLmWrZJPLIRRUBCpkC9YL5jg4DwBJGgKvkqKqxkhmH/vQEuSIJ
+lk6raXGipmdw55thAo0rO4J+idVxPifjHXlCJdJOvJJjtSmhtFG7aLaJr42fivgg
+gP5wAm7o5dTFxWNCpSuUpvz0jZOu+0z12DKRWg7RQ0AhW27ts9mnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+c8KfqAA0Ieju58lVcUUsNUUAQZJrO5SawuLVWDE1mJRUt3pstcaaLEQwZQoSq1ll
+HQb6go/+LJ7rc/8KLFX4t0vMlcHVc3TStdBo9g5FSAO2Ra705uP+Ai6LZSia/HBl
+qJE/5qLbfCYR+sbb2yDkSqrt2o5ZH4nw4xOt3zFXFbU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCJAfHzdiB3YK8kZV2W0S3L7wYTGmA0aPMwgCBNHfwvsDqVANxk2XeTJz6C
+uuOU5G/Wi8NRxAr1aqejd8ZfzWKNEu/5ggb8mdpZxhOUf3urkZP5ANW5tGnS4NrZ
+356i9PeWbQU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x8A2BD353 Sarah Harvey <postmaster AT metaether dot net>
+ntor-onion-key tGl22p9TG5mxSMXQfA7XaUS2fGevoW1APmygVhUTkzU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 198.50.191.95:*
+accept *:6660-6669
+accept *:6697
+accept *:7000
+accept *:9999
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Lbb9nfcZ6ufzsP2KW9gv0hij4V1KywHGASAO+rH6Kfpmkw6v8QrHQOCtmaIeN2T22HFx5EgPfVY0Y4ZCNY0VCQ
+router-signature
+-----BEGIN SIGNATURE-----
+Z/pUIUlsfWsycXrI7kVo3fJtIGDIO8z6+hWsAHQFccqx0j+EvZR0wvbMIHJj7vpl
+A47gSZqt9s3CT2zXhOkoWGaAelvu2M02LlEZbNsz1RMx1Pi+U3GUytHH5+3GjJm8
+ZWyq8KTh/GZ/O2+5TDocqbS8bSXE9VT1IbWxYY3FknI=
+-----END SIGNATURE-----

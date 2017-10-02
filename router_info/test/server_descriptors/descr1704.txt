@@ -1,0 +1,68 @@
+router Mikemacke 217.254.186.197 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmC7AXWHRtuKn6z3yCuvSXJFTXFXGtO3oUEG/MMyrEE8VSmxAQAgBABd5Pb2
+SAeWbikNHhQM/M+YhlQcxMXBA5nQPY71w4jMqzaOYpqOUuzddRrKzcGOn79gVDYx
+7JyyO6CQz4SzerEEWZjFwPFHcBxFU1TSiaapx5JZudTW0/q81DJ7dkPyUgE=
+-----END ED25519 CERT-----
+master-key-ed25519 XeT29kgHlm4pDR4UDPzPmIZUHMTFwQOZ0D2O9cOIzKs
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 05:44:59
+fingerprint E49C 27B2 9A4D 4E66 504C 8FA3 C2F8 34EE DC1F C45E
+uptime 1320
+bandwidth 1073741824 1073741824 0
+extra-info-digest FB293F0E13B6E6049549400B426C76F6AB026BFD 80HdqEBc88VzfUhIYKBa+UHcekSOFXEftP4o0PrIFrY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOn75VQ57myi1F5NvFRsAQasAnRObDwL3J5R2yIYq+tNJi8rPdBq19R/
+Gi5ek7W2pF+fc0KiCVspZbW7rgx7mkJpQawMztebOip3/SLMGDV+7lyDXZwO25r4
+zg8T7UcD0Vu5uRnFVF5Yii+QtgxCo/l+tnuKdKLWBhFcndzN7V8NAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMpNuXMnB1f1XXoN9okf0cqPKmiXwJz7DmdoUEjlYPiyLn96jepMVWFv
+YyWiagjBpMUCi5HA4fmQVA9d6bOl+diy9A3+x0OLe8w9h3oi9ec6W0xISQ6n2aiY
+CnL2mhKGoVjuCGzS9HescjL47eQRXvuAuPK+nKHcMtOT8PdpxyZLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+wgGnv5LYbRBZwd0r0Z8ptWuVzgokjpaOCR9vshqLgfnQP0B/zUEUmC0Lde8lpCVy
+xC9hoDNKgbGqKq/58v/Wz1rmQNC3tj04RKzWQ3MP3iDmgLMS5Upyri8Y4Nl70IDH
+nDsYnhrg9IqX5qgRgpZble2HBTCjwcB16cIYsw7FXws=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmB+AV3k9vZIB5ZuKQ0eFAz8z5iGVBzExcEDmdA9jvXDiMyrAK7Sggmkq70k
+kfbPpmBk8zn8WChdXJV2QZKfydMi/GClZ9eXgOZNqT9EBu/BxIgoFam3GUHf2sYC
+wvW8O6BYWg0=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+contact Mike Macke <mikemacke@yahoo.de>
+ntor-onion-key 4Hw7fwGVN2iO2oAVUtHhJTltKB2DNJc/c9Wbh2Dl3kQ=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 217.254.186.197:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-sig-ed25519 DTB2RoU32uj+yfoA3CCzV2TMoJnk9mVW3VhAdWrqcDfQm3P5jnNGq+OQxk1HwKEETVmZdktVg5PnwVIOkR4KAQ
+router-signature
+-----BEGIN SIGNATURE-----
+ecatOXhLjhoO9UfsSQQS7eYaYneTvS7dHUlGaxQnSyNplczGRJJrhTKv5NZbGCGX
+2RJ1xymiHr36BBp0gbngufMFlEdQKv5/gBlSQSbTVOT3DEtbcqIOzbsjJKzupiLc
+vmHmf/ABpwBuN18SeAOCauFknXQ2yci2RGcHCLzWwj4=
+-----END SIGNATURE-----

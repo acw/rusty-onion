@@ -1,0 +1,51 @@
+router Lif 163.172.35.211 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKpAQcnlJyqiftz2sQ99QXfJ34fQ12h0AIYKCvBXMm2ARf5AQAgBAD62P+7
+mNDLcJ7yJpPEcjgh11fiXsKQ8PBiqzdONAALTWXuXnbBn14qqyXFC9fhUzQFHAVY
+K+FnOJw6RDJRXwOQ2/HlOhi/I63XDadVWJLgkkyx/JODPRCnrlPtWGub5Qw=
+-----END ED25519 CERT-----
+master-key-ed25519 +tj/u5jQy3Ce8iaTxHI4IddX4l7CkPDwYqs3TjQAC00
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:42:07
+fingerprint 3406 2BDB 5E1E D5FC 46DF 0784 07C7 918E B462 7C01
+uptime 2632220
+bandwidth 104857600 134217728 16574072
+extra-info-digest D35828580A111BD0DB2B7E5D25A2DB888A77747B crJlIgf787Qc5eh4L8RgQoAkDIYn7+Vy/4Dshr5QrhU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMOUN+i0vBtrLykBdxb76D2Ot8FtvKjBjyQCIQ+xaBN3zk3d6vEts4Lj
+/9CP7IPgEG3dKgErSOH05rVhKsT3ATJ1tDE3T7EgmpfbfptIsPGRssNu1/Qf+Rpu
+uU4YFZ2bEJtjVUjGEdNfyj+iOHrEEeJdUvn08JqIPsBxiUbOHzOvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOVKjiScNqNyg94ReF4frwKfkc27uFkI39/mKbpP7CTcvwF6a+7dohhN
+3Kw7/FSbBC1sz13HKuwR9Jv3d38DuML2rTcmw1NtjAyoNV/MMQUoPDsaBK4owNvm
+WR8e1k0xSA2ynXHxeWMc+bQPqFZvpFZO1LPqClQ382ow1LXf3pO9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+K2pk89wkqPp4BiVJMrJagr4Cp0FboVXqDNfXXt9bw87lHl+ti5HZeqq4Rzrw48Yg
+L1fZWL1gPGrpdvLzmWom2+OsvK1q1jk9wD/GxUtJXcNTTHK2vlgRH2xDRdVFz1jn
+CvALMF5I9xiA3rEF+vZBTNEQf950mVXmYXW1xTenqc8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNAfrY/7uY0MtwnvImk8RyOCHXV+JewpDw8GKrN040AAtNAIB3mt+P5xnf
+i+8l2j5/Fu3vXQvdLyG3QA1+LH2ftFtXJeH3LA7gnMeueiZvOgziJXOI6yQmo2+w
+porJkMh7OAs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact cubox at irc.freenode.org
+ntor-onion-key cpYrBC2bJ3qdF4k4d6yx36htzCGZkuvjX+A0pUkftQk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 266FcO3dOIdOnC5+2BSS9+xmXIt+0aa6scpZtDlRMLBFrGlYboRDbxkF913jnmax0JfBK76ChwDm015I9lyCAA
+router-signature
+-----BEGIN SIGNATURE-----
+m/s5TF3GfpTXfTZ+QTYqrqzvDksnY0MfBuschM0EskTN6CjmtkTKekoLUh2KEFrf
+/5pO1o5d62UqFP2TlI1IAW0xL1eD+6vbsn519y3wIuDtBMyTdlCzlGUqK/oRy0+J
+hkBYd44gBtDgVpi09gu1UBhcpo+PBqJFk8qlqo0lPsE=
+-----END SIGNATURE-----

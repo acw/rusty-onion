@@ -1,0 +1,51 @@
+router yzq 91.188.125.128 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIiAeXoBiZW/OV2SeRf8T4jwOd0Oh30d5baCoKCFtSwMWL0AQAgBAD9s/NJ
+wLa01niktTL7H4gjk8mtcJXw/+qwfVXoIFXBUfCMUIFGdT/WlrFuEylanOhwBWMV
+dU87hxnCKB1eurs/cGq3+zdJubMvTPgq1ilsXSkqHlzdohvhwOeP0KiDQwY=
+-----END ED25519 CERT-----
+master-key-ed25519 /bPzScC2tNZ4pLUy+x+II5PJrXCV8P/qsH1V6CBVwVE
+or-address [2a02:2430:3:2500::5fa3:1ef5]:443
+platform Tor 0.2.9.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:19:51
+fingerprint 4076 3911 68B9 478B 1FBD 8F61 3BD1 4BC1 6233 6D98
+uptime 1538028
+bandwidth 102400 153600 99557
+extra-info-digest 8A210FD8C4621F717B13DE7C688FF57CA7FB87CF k6cgpebbPvX+yG68a/khAuchWOuMY5T2CyzPGqTa1RI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKjrwkKdrykAFFlmOU4HgvP2Q7aUqBkI2D//wC6yLhXj1OGr8lE/WUSl
+55x0dQ8ZEKXKw75dmAi9IoetnPZYtNWwiFY+qH0BJdv7P9ZD8YvSxcqvD+r3BxxT
+NA/SlWH0UrEziWcHy3sBksaxzKh1Hidq3QFsch5G3guwaVkvGaslAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMRDHyG5OVVVUGyKK2VuuE8O7YBk7yMfKPqZl7Iu7d/YVFcUwFo6fBYO
+tztBvl9kMpOwc390LNYSYomeaANfmV0ondjmbELnPxN53VpP8rWBBSApxsGTpWT+
+al0xeB80df4WRyCmVrBp6+MzfBZ7wpsNcfo2nlBeS7Z8YQ2/0ma5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kpLRSWI+9M65UbyjHgEa9K/Mx1mMP418eFydoB1uW4XfZi2qjj6FwwnubYaFXOGf
+1xyE1NxSDX0eMs7WuWvIPBoJv2Iyc2l9lBpQ26NHr7lpnvilx01DHgyaIFaOwKfj
+lxQxw5XFkB9p5+dCvohBnsWqoz3QHlAgW3qkjmnzKWE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAf2z80nAtrTWeKS1MvsfiCOTya1wlfD/6rB9VeggVcFRAKduSm6wuc+N
+nEWrK4hB+SOjvN3r1WWQAoyV9D8K7BRF1Wj5D66sIDiVk7/U404TsUhGn3jiy6al
+XZf9CRgL0QE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x9ab744741662523c <karol dot szafranski at mailmix dot pl>
+ntor-onion-key DBObmfyb006jvWn/2MJCT+loYT2CnQTqT2kYs2kzcQU=
+reject *:*
+router-sig-ed25519 JCbmIkYzIDxa+6Htt4gw0pXLrqxvX4HWLyWu4SVffXzx7t3Xw9is8Mkzw8woPZbtzaeVWE9s7zlE4ZoFo2C4Ag
+router-signature
+-----BEGIN SIGNATURE-----
+U24Enl6iXftST8W04fQOhpvz9iaReXN4VjRzV4TUp1ImdiKdj83VHgJTqlyEvTdV
+cGKVFRw3WghPy6+oegLvFPal6kVLn1O2nnn9i48P8d8fq0xzS/Y6vPMB2fA+FgNT
+VUk58qu747IxogN0ZnT0XzrU29VcThWQ5OmUcQ4gzaQ=
+-----END SIGNATURE-----

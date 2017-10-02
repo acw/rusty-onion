@@ -1,0 +1,51 @@
+router air123 217.224.40.102 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHrAVcW2GQJ/0Mp8TkjZZcvuJtU/GIIMc3JgO7wdeyumexJAQAgBADUH1TW
+mItZephkYHaT94m5x/blUQYeCIH6tWUvUF15b0bg27YmRDUR4I3bmLMwEmrtpMGm
+Ict7NO7rJjC6CF2LNi+W3T2AUxPbVv8MBCs4NBa2xbfWMLtMP6s0cR7+Kgg=
+-----END ED25519 CERT-----
+master-key-ed25519 1B9U1piLWXqYZGB2k/eJucf25VEGHgiB+rVlL1BdeW8
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:13:42
+fingerprint 3B25 1B4C 668D F4F8 8112 DCCC A4A8 81A8 EFF5 EC32
+uptime 5
+bandwidth 1073741824 1073741824 1222068
+extra-info-digest A134F6F67FB8D162E2E885CCE5A78A02BE14E400 6lPuuIyUDBhQopvPgBAyj6szwojR0XVXLHqFAmCthN8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKdKokwgEPErtJmLh9b0+2EVa2dcRhLKi9PEUFVs7NDfpoAIWC70TgaX
+btMd518frOC+nQYya9x0Jt/ubIUClDryS3Q2JmLZ47VsUFVQ0Dh1oKEBDyhb84a4
+yngyDx+pPWHYW0H1AJs/N5E1yYRsynoRG6t2yqK9HHEluOA/1UUlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMwkPb0jIC2/pax5E23u5K7L0nxT37rPrIlZdCTenZsCWIerw2472oyh
+XF85IF48X84ESHFs4nc4vXUah1IT7Vjf5YLUInwDz96LdkovhnVCrjnkMr+pdsiO
+0QPla+1JjkITsPSKOGcZLDFGCAKbEMXEwITE39WJZgd7itnyxEWfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Tb34mJQZXOnWn+dqM2f+nTk8ZCG3IGTiR+LpqGjqqRhtmtpk6l4dxGMoSz8/sttH
+F4XeDRNf9Pu2eXucXyWv1vYSQeWJM3QsEVT+nlMfuF98mWX/4q6dUaQUiqHn/T2Z
+wADsJwbkbuprgXgrfRrZjgvanEkRBliX12tvw7t2orc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAdQfVNaYi1l6mGRgdpP3ibnH9uVRBh4Igfq1ZS9QXXlvAFJhzQ0GNxnu
+gHfzlKopCxYARPDK1IFwqTFXaEUjTf1DhKUTK/F9X1+oin7Z6kg1e5+QnbBd0ek+
+M8J3M/QHiAA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact paul(at)ffggrz(dot)de [tor-relay.co]
+ntor-onion-key U7jR6AUpMjz+Su+Wn+3rCR6XMg9FGK/zVuzAUgq78gk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 iiMsPBzV/OcW3/a9C6BC5g1/q8wqob+kZ1AknjAmNU5z9UWLScOXipYEiDcRBY64Qxz+4QPGB1XDgosa2ukzBQ
+router-signature
+-----BEGIN SIGNATURE-----
+fAPy1FTdeVuj90Zrq5zidmEVbAcCXng+UetlEu9lHv7LUlrD56CF0h4411Fly+L6
+f+upHvIuj6+L14ixEj4K+p3nSsYw+v4Dilv+1maHuyXwqIFLoJKQZ50/UhWtJrE+
+1BPg/UF+nMbb5AhMqTvld0VmsR+PzM8/q7EJLW1wGh8=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router FreedomBoxOL01 84.182.189.161 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDBAVCBEbk4fQDTJZrQ1XCTBXyV9kfDGc/opxzgLlfPJDF+AQAgBADMkqAt
+KOELoiCfj7+g9Qa6ajXjg3HlxFQSpdSU5fyo8DwCSh5pN0Q4zzuOU6X7aT6CYF1F
++TwX9J/sa6Ijdn6TtoO6nVVkOFRTTXIeon70q6gM2DdRrhSYzfSqc/7diQI=
+-----END ED25519 CERT-----
+master-key-ed25519 zJKgLSjhC6Ign4+/oPUGumo144Nx5cRUEqXUlOX8qPA
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:10:43
+fingerprint 3CA3 6107 5B0A B770 7198 9948 8468 76B3 B226 5BA4
+uptime 689725
+bandwidth 4608000 5120000 4491835
+extra-info-digest 74BD68AB015B08B70787EFE04CB0B9A285E5C29C +Cg5TWuXVxOsy3ktqz20kh6Xa5J6BsskgL5tR6eUCjw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANjUwpFx0ak7XjFLjcWxRRHZkmJHqDvarjUy3deUeLCA7ecgTiM/L/6x
+YyNdRzFzypcmEEJ2KStrVIyMHfVEoRQGf3ae/xtf5Da9jhg7E9oAE+Teip548P2M
+pgmvSsEEjwPgI7/dNs5J1Nm0vo0Mq0AofwtA9amPMk6aG15TVpuzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKsCFv4cnmajfJ3xE7Oci6rSVuXYuRD5APPyYF/G2ZE4XlHthE/Qa26p
+n7iiJCN0vXDUnSI7oWR4eaMjTYLtMf4G/KMH8Cd8RRBqe+PJMYLIEmb1NdsLgXsf
+oVvDPNVK8EvplJdH0ljgs25hiUWAnaoRqxZVmttlL78MO1gUpf4bAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MmyajVvOLk1I9Ns1MWqpG5Ka44kQ6sLYmYFRvqpVft4J3OkKpJbAfSH/d0ta3bzS
+4N7twHhPKo8wk4hMaFBA/bcEOzudNH5rm3wCyNjNNl2XRVGRLn2z9WQ5doiFfKVH
+aORdX33stVoQm3UAYSy4MDnvLsqBogCTuzuUddsbZLY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMAcySoC0o4QuiIJ+Pv6D1BrpqNeODceXEVBKl1JTl/KjwAFtO6O/Up+yk
+Ssyn8g60rjBZDQQnlzHcAoc6XKLrROvLHdSEIZslZsKHegghQBaN1UeyTZ7SEgri
+CSRAw7V4SgY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Random Person <abuse /AT/ weikert /dot/ in>
+ntor-onion-key iVCTK1gZ1WB3ec/spYU2WlLMMIbaR6HZuzAHS8PqYUM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 U25RMDUvkQV6WeP0NoAS+51i+zB+MJad4xuHLtOOFxaC1ZRXTpv+EFFkLAP2ChlSvmiBkYPw9/bghxv4ZjGvCA
+router-signature
+-----BEGIN SIGNATURE-----
+WxxvF8Ui2RDYe8i64PE9jljG7ePZ1wRcQ5O2Asub9YcIMzW5HeYa3jStRkLdn/lD
+D1TJfNM27O8og1/qtmn1+SRyUbfA0m7yqo2jfOu4cQdhaVJHFSFIwXRqUxcZZTvZ
+OsMpCZe4Ny/vFTiaBu/kpkjuQGYK+Cm/FonXjS/W3B4=
+-----END SIGNATURE-----

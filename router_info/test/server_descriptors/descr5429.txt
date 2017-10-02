@@ -1,0 +1,52 @@
+router Scipio 163.172.86.92 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBdATxiQ6V8CkGgmXcy0hHJA6Dcqse9vONLb7qcy1M993O7AQAgBAC8UJyI
+k0CfQLtxGbq/Fr6DhZENE9ub910Wwi8AS+3IdeK0TeOo1gq94GjRePA5GXYxozRN
+iv28mTtOHnl7oe28BvmY7VIxRvuxTME1xl5ySEoqCkooEdSSz5hkNiXE9AQ=
+-----END ED25519 CERT-----
+master-key-ed25519 vFCciJNAn0C7cRm6vxa+g4WRDRPbm/ddFsIvAEvtyHU
+or-address [2001:bc8:25ba:100::1]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:53:55
+fingerprint 583A E8FD D1E5 C911 0137 3B90 D0CF FF59 E1C4 6F7C
+uptime 784127
+bandwidth 13107200 1073741824 5821090
+extra-info-digest A86A0E8DD9442B87DAD3F814D932E9053D0039D3 VyG/Zo3gB+sXUtalNEKyg9eN0mpVNRJtZylhfi2DXXA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMu4zo+ob8v4XNn5hEhur5tGFh3KdEIsm5OZrGJo11eLIBoj21mISG8H
+QlBC/XA4qu4AbIvQcXvUwHIheugC+Yi9jLrWkVdfVuWNKJzXj1RY1Gxv9LcPhbPy
+II8Az/EmzPtdMTO1pGtoZs1IYb4jFKt1j80J5ewbA0SZ4AZHO6bjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKfhi59tzYkWF0ymEWYOikdZ3WCCo/remZIp+Xb60J81pwQdLC59i7PG
+r0GzTwKLkD2PokXNZyk+DhL1TK+fQ9p6YNFGI1R0JGmwwm2fArjPT5sktRQS80Rr
+MCHvySsWqv/ro29eEmJyHQR4Nn9x2f8QiKap44FP+P6YJXi6K6RdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+w1skTjmoKBOHUk17xYr75eAZcavZ5+lS1+1+J+8S8coAiJVY+YBAG9FyAa6G2HcI
+8MYHdlvJqTgVGyVR+vkYO7+GfXGBI13vmiIZQolHyYcuzEoeMHG7mqsgfY9fnF2o
+4e82m0p+of/PRAQTzmyjyj34XcIyW3Gru0hvxcM1edU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAbxQnIiTQJ9Au3EZur8WvoOFkQ0T25v3XRbCLwBL7ch1AFrG0Vgti5K9
+SmXewdVyW6Afe1CH6ZTllQi3oTbiNa33reYDqNLdQ2/YP5zY1rPoptDLV7a5W7eS
+pv35F6xPCA8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xCC0B4FD8C1370233 Jonathan Elias Caicedo <Jonathan@jcaicedo.com>
+ntor-onion-key UUi2Ok7yQGZx5AhEtaRekJUoYe+bKgWsnQcDM1faQSc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 dUJm2G+nuVWUwkMUuvkEWHoZNOjJQd/qAJB9oOSqVU67TJBOJqgELBLlq9NVN/FqT9lEPXhMSoKkTChuU+miAQ
+router-signature
+-----BEGIN SIGNATURE-----
+cvyh73D5JfFQshrgKA6Jn2nT2rBxMeQnDu6uSzE8TZ6eYJmgJhXBQwFrNAbV9bwR
+wt8rdwP9V6pEv+EB3zPjqefHZnrVBmun2++GPXqQOCMF4G7J6gn9EAF9vec47yG5
+3foqyjSm1e7vtofyiyL0chSyVcAeCs7VGwc8x8ncY9w=
+-----END SIGNATURE-----

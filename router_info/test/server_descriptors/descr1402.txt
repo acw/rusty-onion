@@ -1,0 +1,50 @@
+router icanhazfunk 173.230.154.90 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJJAYSqNAlNT5TEOVPNFsBwO8giEU/2MDBuvbIa+Gu6+KOeAQAgBACl4XC5
+LvjdpgvPE4BS6TQR7cbXEQIzj1mnY2lw9ZHoAoQpeYo7ZRDhsweRpVVXEqO5sc4Z
+xkYFai9zm9DsvngaKZkcZrO4gGjtaw5TCddudUWDI5EEKG4MD2G3YLQhRAE=
+-----END ED25519 CERT-----
+master-key-ed25519 peFwuS743aYLzxOAUuk0Ee3G1xECM49Zp2NpcPWR6AI
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:00:45
+fingerprint F075 C093 5F33 1763 ADFB 9E07 E4D4 D35A 74E2 97D7
+uptime 44
+bandwidth 7168000 9216000 4508731
+extra-info-digest FEDF7386111298D8E2E8F15B5E57F1D7B7745825 duKSvE1hew6CVNPHH73EqoQnogNIqtKwHred67jkWgA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALdqWuOdtmjbSN3yHQcfF0EV+oTANlHjt8TOOkXftnDRwoHAf0Y0xwO6
+bVGitG0De2zjQXUBASGw4RnvXAxWmB9AgpI+V37oX/HVYNNEDHzGLPzCGj8PHPoJ
+MNojv0JpVoRZMOrmnBlK3NVij+zYOFlZF4oQoIr5kXTXvNUlrVExAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKzYkSiefbdg6kVPh9U5rXQxzRQ48UNnj/rcJUJZFgclKLiPornPzhaf
+aU1Yfx1JQb2QyiTQhlBJoU2w3aC1PXJtSSo3uD31qlLk3PoMjZDnZyAIURcvuV8E
+56vjF/zI4ZTTOkvKsMNrTgxVVoSHZ3XBv3dzJ7iItKYWiyCCbupLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+p1Kxgg4qIRnLYnBCFzVVv6KdrKQhD+hXtSqMfbagTjE7pgN6U4C9usQRVq+ZKolh
+dNELxKwx14kH09ZGzycFjWyeHzkeM8KX/9Gs2a6PjTkHoNaz7bZ9p3E+iIU6gvpQ
+xzAsoRD1ADDC85Rj9Hwu3QsEBlEIimDPc1S6NUJJjUA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAaXhcLku+N2mC88TgFLpNBHtxtcRAjOPWadjaXD1kegCAFNYU+1eDaFF
+56rsZwO/elzZE7KMAM6QJ9zssbB40/pcACfE+CFEhMgQAE/zs81wdapPIpuxC5BG
+HSiEILTKegw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Random Person <nobody AT example dot com>
+ntor-onion-key iOiSvfLxoXW0yHwE6yj6LQTiig6JnOnI2EFLTdsLW1Y=
+reject *:*
+router-sig-ed25519 YoV8QYmnBUe6LK0qAoNr2ysk8AoLf2XBT8K9PhTI4yqV5dngjlVokApHA+fIAjKqjuMV5APipW1I1+AS/90FDQ
+router-signature
+-----BEGIN SIGNATURE-----
+SUNB2iiuI6g1WgYXl4yjJQbzxkco2ce/++Q7IXTYA8mArMe0FSx0vvPPgmDiXcql
+syxnLQtV3AuhXr/TKDM0I2hRc5kVuWwdGlE7CGQrj7NsRZiLrM0N2848jFV1koPy
+ra5Q+a3VUa5fpodj/cYCKxXQTcjfnEuRyeINqyYxq+I=
+-----END SIGNATURE-----

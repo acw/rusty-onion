@@ -1,0 +1,51 @@
+router anzu 45.79.106.247 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKhAaSAG8Dm5byJym/e2JpF2V+c2yL9Dq52aT/7Mtx4i50cAQAgBABjrI8G
+RjXSMKWghQZRRQkV4tgk3swrUIq0iBsAf8iB36LHZRj2qJxxSvgC6YZSWdbLyqGf
+ltB+A3DpP5rhml4Fpy8fcWsC/Qr/JDZxzJk/I2JPk+k8c3+M3DS36TRJ/Aw=
+-----END ED25519 CERT-----
+master-key-ed25519 Y6yPBkY10jCloIUGUUUJFeLYJN7MK1CKtIgbAH/Igd8
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:58:57
+fingerprint F07B CCA9 1EC6 6A1F 0473 1C00 1055 4AB8 9902 B31F
+uptime 153061
+bandwidth 563200 819200 662306
+extra-info-digest CAFFD5D544661085DCCF76958159E427CE1BA8B9 63YnH3VI7GA0WZzz7/E4A7mjg3JZjlBGyLrnwUtOjX8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMgfzQiD3oSBlG9e3SQ3tQVcwZRI8rVu9bSwXqpCXomihKcthPOELBZc
+xgC3xcdLWq4+7LVXOhHNyThSDK3gB4rN39wjXiD0D/r+TBQGBiakP2wKnIIX+8rr
+kynhYbAyNNWw8lZHpiN6P1Y9rsNV34KIqRL4jYc9gV//TTnuv7PJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN0X7PV1tzVnJvdR+f39/XAufOS/bns2UiUGnNZKdGWETRMIwdk+w7No
+v4szIDw9+XUM5fIQYViMxyEIdziL3S4e/SgU7D6PmuxoJP4lFTVD2tagtQTtDmxi
+qyuHP8Ed6JDUZd3tdrHjB2rlOxbqCNfdLQIF9WmOfCZtfryMppJNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JIlEiw2c12AqnDd6j3M2PyRyy/yt0cSZkPIQKyNqMoF6O2dKe/UwzP0qh3YtDGxN
+8J5MOZhm8KxpUpxnnXZpwgRHePoqSPu74WYmpHuIYiEp17oepDnHT1zk3S1MH5TM
+cRckbXz2W3nDDOC+g9NWW5pK7QjD+oxCUoPsQ47meY8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAWOsjwZGNdIwpaCFBlFFCRXi2CTezCtQirSIGwB/yIHfADXiNkNQRs4s
+lrw72OSSkvweMUSz5gHsrBRaHbt3DCBznUfPA+ihdDZ/C9+2EmK+3Sx2C4v3DLLi
+UIY5ACBIhwc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xBD1FA61029DD4D11 Dan Ballard <dan AT mindstab DOT net>
+ntor-onion-key s5XzAQY0JzbSvDDQVV4M19oxBHIp4OyHGKb84lmiuxc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 cJS+DtW/hWAgaXSw9JE8Oy5lRcBQpqHk/pk2S6x9WFZ4BBkyEBOg24j3BL4jny87YJMP2M1AzVPsve56h7DxCg
+router-signature
+-----BEGIN SIGNATURE-----
+dUlOcxiRdpgkzPx8qCn/t6qp+/54Mt6VB3pFSG9Vqq3ngIV4IccgCU8DOMtfmT1m
+FCWd7jNKGJDa/sgHelM5NQM1T0kLkknU3DGzUzm9pZH+J1jH4Oc21NqXyC76G/Py
+7nuDthe8txN7UCnTUMpGYh0qcCBMnafgvBs3eW46UEc=
+-----END SIGNATURE-----

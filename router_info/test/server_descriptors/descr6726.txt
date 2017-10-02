@@ -1,0 +1,51 @@
+router Reptilicus 80.71.131.57 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHwAcJys8gxiZSzQnyjQ5dFBICUURa00VgBiM/GWMsoq6tnAQAgBAApF3u/
+cPxQLgUVGOyXczul37zwbjr23ffL3ojrX8XurbopVHiILpQudrLJ6CyaK7GVi2kT
+2/a03dDGR+qDF/NiHv6LjdY9613Rfm7hlq4fgqJ+lh0+zP8pXm1QHBs3zg8=
+-----END ED25519 CERT-----
+master-key-ed25519 KRd7v3D8UC4FFRjsl3M7pd+88G469t33y96I61/F7q0
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:26:55
+fingerprint 271B 638B 6731 5D0D 2B35 6F6D 2F32 196F D042 3436
+uptime 64816
+bandwidth 102400 204800 78894
+extra-info-digest 5671F7BFE63A9DAF4A90C840329BCE09C3132558 lLMsQ7PgD7ADd/BWhCsuVHD7t8ivwD08p3my6x3SL9o
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMp9IqxhhyiDTb9jTmKX94fskEotE5EM5fMoSkb/xSVTTfsWbMeoclYE
+mxIev3ZmGHXaRtr7hH7T1lAW1u8Bw7d4xDiTUQ2tQYYZqQWPeGUpCC9uqcloMxBx
+7CeIikXh12JsclFJ++zqbj9z/P6U2yPzauo3QOSyuhageilF78mNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALdTNIDKsKFSMr9VjpSEejvEwW0DkOHxVzEjglheUUQRF0xP3HiZuDK/
+UaCmsmAQcNs0pDsQU58wzy32aZWQUhx3ywIEoUDJTTn3pHNCT4JMOSaQ5wNjhpus
+ypkvGzZHFRPXMt/9X3njhqTGOJgAw83I37IP38esQnPcmEBiKvDfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+U3Jj56FbHW+ItDPQqFEfWsndCuLMddwAT6XuGLfftNnlEaBs30dAnUA/HVToeKOU
+Lsc//t65TCjmTddQ4G6fwe3fo7WLdQKMloZtGXHRgHtv1hlIcuF4A0u4mAXsagEw
+XdBh2FKN4JJwjyi1H9gN1TrwqozoOE0Pdge1MSmQP5M=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFASkXe79w/FAuBRUY7JdzO6XfvPBuOvbd98veiOtfxe6tAKyruYJxSGme
+8Y1vUWfa8lKUxtynuTNFJziQgxTryc53QMW3kn0ozADUwGXyfg0OD5LAs6q+rrKa
+OHD72GRH9gU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Kasper Laudrup <laudrup@stacktrace.dk>
+ntor-onion-key Ev9iMWr02d9GocqNSpoC9wlBPhA+J+EynfBBzDrvlyo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 5/bbylu8jY1fx7jro+QLFfBbuIs7SG/PD/SBEYnB0zmUNdA/mc7oJNLF8Z54t10VMvOxHHJh7eHXbacoiOdwBQ
+router-signature
+-----BEGIN SIGNATURE-----
+ZadKgHXNtc8lXrhL/JPawqgKdaUzrmQPvqjRW7MCZ4ulTmfmcVaAch6lhmt3V/8C
+H0R+pDdNnNvv5TKb4U/eS1U/pYztm/WeEBIP32+UVhetceRQzg60TfbEFzCPA2ED
+S6mRdZ5UymvZDQeryIYCMQQZQYBqvU39AoHpL3LzPxg=
+-----END SIGNATURE-----

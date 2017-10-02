@@ -1,0 +1,50 @@
+router sipsrelay 144.76.53.125 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDkASGOM2R24PKDzZLDb87Zw7TPyQOdG2JHkJ0sozKYpA/ZAQAgBAAVThBV
+WHVyQMPc9qxE99gxmmqohJqhoMmiS0vyqHyZ2zROQuI7D1pMZcvDhFcRJF6Nta4j
+P79MSE+lqbyUuKU03JkPoH4+aeEMMaja2Piw+0NKcfD3f2xzOJfoIzMvKAw=
+-----END ED25519 CERT-----
+master-key-ed25519 FU4QVVh1ckDD3PasRPfYMZpqqISaoaDJoktL8qh8mds
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:57:37
+fingerprint B013 CA64 C82E DC61 6BB3 EC5D BE35 BB73 44ED FC2A
+uptime 6823629
+bandwidth 4718592 4718592 5153632
+extra-info-digest 123E524649AC381BD015B0F45CB0CC84C252FE52 Rpi+ftF2cNoK4I2DeRdy3xvVlzJnZBH7dOF6wlq80PA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKuJFs6Ooiafnm3B7bHeGwu/OzeoMaEyPWTHeEXqVaGrQuEhIBt9cgMp
+j1pUGQEWOz8uzvwXxzmVU4WLUDqvRqPY61hpDniGHYciQ0nxKfrjdCHvDCUIsAU2
+NyeUM6iEryk/yJyz+zmaZbgy1V4rqdSq5qpbX91HlGrYxaboWLHFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALReOS3YxHPC8wzUeiDsdxyVztekyLgcavpzh80LYTnnDYc9rdKOu9N/
+qGnRRs8L4PuL9TDv4n4vrKRInuTbJ/TCVGV6pUYc05C9TKBGlmnPEi19b/9dWS6T
+hsM7q2TeAkyJUpQ9IUk8I0W7Xv6180uKACNwlahLzZTFN32cO6ixAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Z/BKUJ7pRmujdmp+gTp/fr4lvqmXm5xhHo/I6OrLUGhWRzrOsR4+sWg3G5IfBxN1
+M6UcIgGov4+wOERcvcr6R5RWozSq8gw1JfoPgqh8Yid+X3x/Q0kuDZRxXXgKwQvK
+AP/qLs3rm5b9JiTrv4Co8xxxfqrMNlQkuBce8k05kFU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUARVOEFVYdXJAw9z2rET32DGaaqiEmqGgyaJLS/KofJnbAG3jVl1jjY0Z
+cXkCcVcdwShAPHsAfvH1tz9I/V5HPVs3qLyiDjFeYRFkftOPQ+uI9aMuy/69XlbW
+fTggHBkroQc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x7BF9099A Johannes Berg <johannes@sipsolutions.net>
+ntor-onion-key 2MQ1t1e1pJI9a/xvwxKH02Suma5brDDAZn/nL+M6bQg=
+reject *:*
+router-sig-ed25519 KuQhlhnLKElqTcnsTDjPpqY/esGrzslwqt13fflbaGZpdDpbBfOhUHnSZC0jShYkTR6uID9+jdN6Y7ogchMABg
+router-signature
+-----BEGIN SIGNATURE-----
+A8xuBNt3BL+mUlO6qZRMBkQMtKfbea2EWSO7M6fjOJDSs4MqC8W/FBMGWcoGuPFh
+5LeoNj0DWLhZtvPLObk46fGJZmRbGu6wWuB05hyPbF28Ks/8RghYnssu+N6Zr4/j
+W5/20cqhTw3jpFReBMtvsfmugaH7AmkEhJvO+ghAvX8=
+-----END SIGNATURE-----

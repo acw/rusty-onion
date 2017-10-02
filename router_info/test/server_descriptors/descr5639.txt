@@ -1,0 +1,50 @@
+router jpltorrelay 66.191.220.212 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJsAcmCfN+M58Ayr4QhiJ/EECwVoOThBBwgJ87S9WOjwsu5AQAgBADcaTJy
+1wEnekPvx3TBu2/KGnIpCZFq1Sw0Wo67VtESsWMOtioRiXmXAp1cwcJVyi6IEkEt
+8K+7ZTYg5ucehfC9eHsA87G3XdXiDRNnbNiuYHGmVpTKS+gEDRg9athpSgE=
+-----END ED25519 CERT-----
+master-key-ed25519 3GkyctcBJ3pD78d0wbtvyhpyKQmRatUsNFqOu1bRErE
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:50:33
+fingerprint 4F78 FD43 EC5E 8632 AD5D B6D0 B24F BF59 FEB9 7B3B
+uptime 1346406
+bandwidth 102400 153600 89524
+extra-info-digest 6B224BEF1E8E47DF5477D603EA829DF6123B4FA4 KpgsW874jJbjIefp8OjJdrGDXFhpXza6QoVrRZyMNM4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPqAMHShviv5eNnDdAOtoFWtDn+ZtSZYHLXcZ1anjWA6Ppjh6Gz+lxqh
+wq74cx1vVYrj5mw4PwJ4HgcTPL12DXhlzyj0T55I8B23fU3/i3j6tciQdrEfH5k7
+hhIPEnVfReEWbSNim0R/DwL9D8f7EhOpsGhghFr0Sg1iPnMgZ2q7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL4xJcymIqr9R5CXPNGDcTZk0OHS0L7B9FWSoG5EOo1L1nNFuqXZqFKw
+vDrxKoZwdG1mzJyBJBSHU5jyHkbRkhvIx59fIzLKVQltFaK+zAvhj1S93B4/I3+N
+3UgnsGQNekUAKFsebDq836MRIEmbGeAuaASdLuZ4y8uustCpj5IZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+1GPlcTMOJpGUjTrnt6xDEtflDmgc0gBeTuGZsTyRz4qzGAvlrcjj/KHhISsq1Q9M
+hiivftuIjyg7eSddPNvvPHzxK0AKc6viZvXg69JVW1Ipkan/pwPmORK6S69fr6XN
+be2nDH16PVG/iyx0wiC9y6+z3wf0An6WVgyeWyg0CRg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAdxpMnLXASd6Q+/HdMG7b8oacikJkWrVLDRajrtW0RKxAMepi4+wjC/z
+5qy0ftAmNOcshyZi7IB+6MbKeecUBuxY6Leip2mdE3v+ijNbkj8zZcTYnesXTMyQ
+XGJwxPjBNwI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Jay Little <jaylittle AT jaylittle dot com>
+ntor-onion-key ocutakCx1ZZiKzV25ChdWCDaU+DatvFQLASbCe4pdCo=
+reject *:*
+router-sig-ed25519 2207k/frp9oGubhriV6WxAHwP59yt8R165Hb/TbiUN1kXxEzJZoK4HZIhc6l8+S1Bb8VGqvEomz8/JwBRewsDA
+router-signature
+-----BEGIN SIGNATURE-----
+iYvcuW7a6aB8ixToN+UZ14Xv0G1plUuU8PbD99+s/Al5SYcB6kad10W14DqvjVHx
+ByOBHGZXYG3J99HqS+jlQe1PWFcWHhkDtcB0m5apWCPwO9aL9Ep8q5n5QwfwWpo+
+f/+1agACAIkfx9y/5guljqPWWtPiHjmOpyEIv5HHm1s=
+-----END SIGNATURE-----

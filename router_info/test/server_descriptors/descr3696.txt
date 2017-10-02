@@ -1,0 +1,52 @@
+router NYCBUG0 66.111.2.20 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmK0AWB1Khi1OuGyGyjRyBX0dYq9zGLIUvjg/yOtduMDrFrSAQAgBACoAiIs
+wkHhala5u2hUmQAnf5+aqXVL0k+Uv4A7PY2CSpTbXnF+8kX6gfCZhqtRLbN9aAjV
+VvSJAakXMFF2cbK+VjES4OTvXkv4eeVRsuhthBC9SW8tdaFSPGbKliONRAw=
+-----END ED25519 CERT-----
+master-key-ed25519 qAIiLMJB4WpWubtoVJkAJ3+fmql1S9JPlL+AOz2Ngko
+platform Tor 0.3.1.5-alpha on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:10:41
+fingerprint 9A68 B85A 0231 8F4E 7E87 F282 8039 FBD5 D75B 0142
+uptime 1191600
+bandwidth 10240000 15360000 11107688
+extra-info-digest E8CC4C698009DC90321D58520BE799C87646F6D5 IwapLlWAHW1cUJbNgQIwYnrMGJfOj13t//QwkrukXJQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJMOpRUSNcD56Ke0ks9C+sPEkrNPwXo0Gr/yoXefbfs35wJUKAB9r49x
+gJCpsQWv/ozSNa/02elSoxD1KNTNNzq4O7yAAvJ8/WAhO8AgyjsGgzajRoWhOzU1
+dbg1pgaCZHW0oqNiE3h7issHCesPLdboZsjI5xwNRplsVRjhL9zxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOCkmVKpErvsMbdYMaONyLP5Z759QxZcFpdaX/VKTIw+lzBNb6jO3kqs
+EZ/dEaZ3sIksuYatIuy+Cn7NU7QRQUA0fKFyTBx9o5ec0OrswNB7ZEpUbTGwA0dX
+qXto5x+OdajooTgnTvf9DlRHSOurEwWGFIZlW+wWwpAil9vwDnA5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QKU1HnkRS+e15JANVBdslqrcLlNZGGXeFMPo0YNTouEOicaECJ4LFR66H1AOSEa7
+RxugiRc/KmsPtTscKeBeBgyD+o9MzeAxzeb6czlro3y4gKNqqSnlZc4GF+0rndUk
+U6xi0vw0A/wXaB8bo//q3eDlLUsgpMdIm+i3d91kwFo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmKIAagCIizCQeFqVrm7aFSZACd/n5qpdUvST5S/gDs9jYJKAOyvDbVFI4mm
+zeLwaFVo9JcBt2MvuMEIcfsOltqLdv1c6yz+t5x5jCGg7/8l4lO2FNPRGBgnZHRW
+t4v2r38yhAQ=
+-----END ED25519 CERT-----
+family $3F092986E9B87D3FDA09B71FA3A602378285C77A $577B81CD1FCE5B3E7C1BD286774758608E50AEEB
+hidden-service-dir
+contact Admin <mirror-admin AT nycbug DOT org>
+ntor-onion-key QyIaQKfiAhWW1L1OuDdmNkE6Wh+jGigPwKFiguEfaiQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 2+PzgWAOYk3o63XpSqXP5jucQABMW3T5sCnC7dndku8ZDqcex2xvpEZuL7U+qaczk5FjtBa9CVte+h+OIosiCw
+router-signature
+-----BEGIN SIGNATURE-----
+ma9h+1mu1QkhhaMT2z+NsqM+5JTVk4BZTzlMt2hlpm8YU3lxlaRGgdJgTNhCmuWE
+AiuijLANSx67JT4h3x50V6UTP83/La1uRz3SixxpN076O0IWWdQMhQAVPZun+tHt
+iF0QteOmnTK57cyBEdd2GBg169WRetC5jUiNXgrjzhI=
+-----END SIGNATURE-----

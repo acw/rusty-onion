@@ -1,0 +1,51 @@
+router xep 192.166.219.194 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFNAYLh+ntfmh2EwunOzZO68Re+nb7O2X7+SxKpyyP5V5c5AQAgBAD81z6F
+zvcF5dSuVravvHtG8wwMo1pJgJJHV63H37lRPerT6uGETqWuEzY0lKRl58E9QlAi
+m6TvW3N0I5/o1DBvJi94pa1lIZ/cy0Z0yYrqNvq4+ssWbmKG8PXGPkjBPwc=
+-----END ED25519 CERT-----
+master-key-ed25519 /Nc+hc73BeXUrla2r7x7RvMMDKNaSYCSR1etx9+5UT0
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:25:59
+fingerprint B338 020D 665C 9300 6670 2D13 0696 A7C0 2113 8B4B
+uptime 3553136
+bandwidth 20971520 31457280 1213797
+extra-info-digest 71B1A70A0347429D8B1E5EB1AD4036D0EBC224BB FH5bpLCJrXge0I/xgiF33Kv+laAQsO6l+wra0pOF16s
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALmWphwoW2sBje93CjZ25vbYnSJ9VLqxGVmIjMdf/TA99pAOdtpDnyZX
+LtgjPLWnbrV+id71FBtXd9PM3IjPv4ENVii3WmrrVJg9Lk6zgjvcHmht4yo1RPYf
+2Y3ixSX3zrsT1UneqLBaN0PomWAwLa9CGakj3kdQhuNupDVv14UxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALVYgWkdZZGU4DjV9g3dMIXRwWzrgTIPl+vIyVaDxQZOT2i1Cu9pM8Q8
+TN5dZKrMU7t5gTAE1q0Q5yikNSeMArEVMNIGGCQwQpjHWVzTW4oFMv8oXLPVVsWU
+TG28is0DODILcpDu2zdYUlksKOXwgp/YuTnZ9LryjltqiPLKY9+NAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EPT7ECiCIaXXxqvzX9J9yZKaPySwsam0Xp5tqEylpoA2UB6gBABZKSe3vwPJJdf2
+bLigcOCRblY7f9eHBCcNjs2azmzwDa9MRk9cCeuzWeAeEudCRMif5NqYUFdOptBT
+KnS3PuipF1pFM29vALT2DZlpdSOwhUx/hlutjJMbLbQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEAfzXPoXO9wXl1K5Wtq+8e0bzDAyjWkmAkkdXrcffuVE9ABW12j+CpR5I
+7NVa2KMV5oUXshTb40A1UYbbQ1YdCmf7jAfxB8xihhgkbIckUnD0xtxOEmEMU+iE
+mgVq1/RlagY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact admin@piotrowski.pw
+ntor-onion-key uKYu/5nWy3F3P5On/WL6TQ4Jw+xefpDFOZz80EF4YCo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 0HzUkbf660ovXsFHAJW9W+WBNDgRZ5pCsGXrz4UwV+qZWXY0mkiP3uy8Mgs8zqddN2IxX9lxe7FW3p0O0Z7uBQ
+router-signature
+-----BEGIN SIGNATURE-----
+RLPzQ6s1x2OwFUF5O1ZypcrKbffdzuWUpkc/PSXUvrjSsAgqPnqK/d/cbNbJ3/kS
+QeXlx+T00T/qEg57qYUjJQWmKcxShpgMMg/MHKb2TuJl/NbMFTwdP/OM7Yoo8Uv7
+NioXQFzptN8YTx1P5eBFhqBpopgFu6AddTe4rJiItBI=
+-----END SIGNATURE-----

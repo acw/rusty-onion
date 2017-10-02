@@ -1,0 +1,127 @@
+router CalyxInstitute05 162.247.73.74 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAyAW7tzar/u8SjDUP50wIR1XMGIT3N7EYIAsmAi1GrSt9OAQAgBAAwkNht
+jr/eKXL6O+Nq7hrkfmLBE/KmNkcOUqO33YKhWjFJtjYJZvwsSQw0bJokjqHkUOSs
+K/BqV3SgsOn6FfQ1gLNFyGTwpA8XSfktZGBs4bE4+10cW9TMdNjuT1d3dAQ=
+-----END ED25519 CERT-----
+master-key-ed25519 MJDYbY6/3ily+jvjau4a5H5iwRPypjZHDlKjt92CoVo
+platform Tor 0.3.1.5-alpha on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 06:55:38
+fingerprint 3329 E736 CCA1 6449 D02D 567D 4268 3BF1 FD79 8676
+uptime 902604
+bandwidth 7168000 7680000 5888297
+extra-info-digest D4FC3D64EA73F802C58F4B367FC94E798EF620B0 vm5gsMzvrT4o27sU1JjtcFXAMXY6G5xrs3JfnSVYbzM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALuHQRgIxogR6WMkqkuRxsAX3QQCb/xn8UNppNCF9FgWlkoutflMZcSm
+oViYhhMrOGmm/9I+yCkMiOe3h4/n8LdTlE1JhENp810tKWKLmoziuvu4nyJNkdqY
++ASkG4+w6MOK5xIdphQsZTxw2C4IyKfQrb3+79rq3JF4RpL0mdzbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANhwCC7cRWmvnJOOIo2oWSQv5EHODWe7VwGgaeoVtp+kmrTW9ZbgMNUM
+2rU2rz3tUendm9z8kq+akaAB/qYBOsab+bJ1nQtr0xkyRpjgpkdRGkSU+4CaL0Oe
+cyYivJMunxWPymtvQsN8Sckyi5tiQ7M6scU2AAxHvE0A9gmKXORZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Xy93DcrtfIbQjR7K49yZJTFMjXOZi+CcwVbKOBDSKhwqPh6c6yOU/L1QVOJoWFB0
+xiifjPJgibKdHOdVxFIOxlEpQ68+/5T9QMUf9+9ZDUSH8ckVtud1C20prfMPmz9L
+g8yUkwTVyULa5HZjXWTGeSU5iArDUpnOyJYxS2+mAPw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmJ3ATCQ2G2Ov94pcvo742ruGuR+YsET8qY2Rw5So7fdgqFaADI0j0Kb1TTi
+cFLCVo+fqLFFy2eJTtcYRIM5sF5+wMYYiEbFv+mtRkIfMBzbfBuj7yOwdnHekx68
+wfbqTo9TIgI=
+-----END ED25519 CERT-----
+family $0011BD2485AD45D984EC4159C88FC066E5E3300E $0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB $1B9FACF25E17D26E307EA7CFA7D455B144B032E5 $47E49319DD67784F1E65B5793371BE467365979E $501B3DBF250B094A05CA5DBC424AD4C3D46721A2 $6C143720FFF8469EF6A5C5B4066366340CF6C0D1 $6F4E9FD00D4251D98BE96FB1AA546FE34676A95B $7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2 $84D361B736A8CD1E8818D0FC186892E91AB76881 $A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E $B34CC9056250847D1980F08285B01CF0B718C0B6 $E4D1F25DFBE484208866BA4A1A958B73127CB0AD
+hidden-service-dir
+contact Nick Merrill <nick AT calyx dot com> 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr
+ntor-onion-key SzF5WCkUnwosLiOR8rzks4Ieo2669sWKuWIh6ltNT0I=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 162.247.73.74:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 NULqgBIKRqUPz/jI046IWwnYEYfrHymbycefWmGwu2GGONATUHGVjKQaDkLNnu52M1rPNOzpv7xFsL9q1EeGBA
+router-signature
+-----BEGIN SIGNATURE-----
+fgsDd9pkfPXPyx4j8SZfGc1r6dUPSwzBq43ezZeKcmBljFAUGsSuzD8DNqRbKxMW
+RalDUki/mpZ3fqVEYwrPzEVKhAYGubQ7Li+PxkAVM4owON1/YFBnRT9lPZ5Osdxp
+vbxfE0n1OraHZezraAjyOtfgQT6P+M7716qq51p+ie8=
+-----END SIGNATURE-----

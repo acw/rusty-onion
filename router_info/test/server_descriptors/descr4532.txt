@@ -1,0 +1,52 @@
+router dannenberg 193.23.244.244 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmTVAapDcIMfRsdyFvc4WehPyX1mUVrpySZVKvkzwghT5DsNAQAgBAD3/EVt
+H1aDEkCNWSqMJ39L/nkPWKpsB5x8pN5qLq/8SHOAJgogtLAzT7kIfIFOVlEekwRp
+XGHEu5Pzg4kGA5Da8YYREBgNDDWfB+x4ZPxLkHH7BiH5C+HpYzF/u/sMQA4=
+-----END ED25519 CERT-----
+master-key-ed25519 9/xFbR9WgxJAjVkqjCd/S/55D1iqbAecfKTeai6v/Eg
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:07:38
+fingerprint 7BE6 83E6 5D48 1413 21C5 ED92 F075 C553 64AC 7123
+uptime 4215328
+bandwidth 12800000 25600000 2877275
+extra-info-digest D96F18712CEACAA6B6ABB89E1DF60A8081C4755E 48UOW6sPDBio8u3fFdJA4Pj4AgWT5L47NFi8WqjjFwc
+caches-extra-info
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKOKjZnRHQJmOZXB2GTb6+R31ksCeIX2/eNt9LDWxid3/efLkwy3oLKv
++51kfJTcu6758mrusFnQe4NlEhOmpydQwDkBH8ivzJH+Rqk44BC0FKljAV7OgRgU
+KYPy94N2Z+nKCC/zEw+4gMAiKRkHglDBKH68c+PUn/pGGsfMiYdlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKs8FLryN+QTw6XBRqkOF1Z3ztMW1DC9heyCz6v7QX+NGYVgjK/sioNy
+MlqgZ0j45ClvL16TzFUR39vk/4JBMmYCxfr2T95BojufnM67Qo+2aoc92secL3ol
+LAn0CWjPmMS0tgLz51vN7/FlARAl7A83PfINXTkvxuYPkriTSJE7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ILJBwJAgpacfzYxsZiC7hF3WPTe2wMZm3pZNn0fXuVsv8OhvBdaPVNqAjAxSWwwN
+0GrVuXRy+7jaDit2ka0iea8IiNw5WotOMT9s+uJJvlorZmNpmzxtUNvIoZXxUQ9i
+oZbtwgylRPYIjviePSIe2Sq4tCZIyJy/9aO0WgQmyMs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAff8RW0fVoMSQI1ZKownf0v+eQ9YqmwHnHyk3mour/xIAKISzoTFI7fJ
+CZ4StWiCOoVsACC+P7N7sh5TgRpFFoIbH5x86P8b8vEZXSwaUxFLIWFrSeHC0Erx
+GJaon32DuA8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Andreas Lehner
+ntor-onion-key 586Gp7HZEPPtPGO6+UC01T9XUGOawLBRzZTv0o7I/ko=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 hTX6j0TMt4RbRDDfbC4/fnwYkZoVr0kFlT6GMCCWXPCmkFOxaxxiqLHwBFQom+UPJIwxr5yhBaBAYQLcy+AIBQ
+router-signature
+-----BEGIN SIGNATURE-----
+GA/eEBwl0okfWTYYlumiPPPqb1R51ojXlilojGHC5+dPkzrSNSpnu6f3n+ECU1E8
+wYRGN5n1bimxS8qBMv3gfk3MF+jCsyqzVYuwSbRFHCza9gPXKkokvqly6OnOlV3Q
+MpBuRjCmdmLPpqcYSjJra73HMrm1TRDwB/luE2Op75E=
+-----END SIGNATURE-----

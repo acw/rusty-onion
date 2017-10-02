@@ -1,0 +1,128 @@
+router marcuse2 178.20.55.18 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCLAe62fsOnYL+NALyObKlg/X0Dtoh1oWkQIfxtZZPVT0KgAQAgBAD623bM
+AH5+Vl2T/ECFkxn//tZQoOZZPplA+uZwOx9w3xBLa5fhhqxpvJ8PLJK8HksE6jCq
+1F2lyQEmM6cscymoG8deCuasypU4bVF0OUJT94Y6YXKgfeZR4/oC4p8wzwc=
+-----END ED25519 CERT-----
+master-key-ed25519 +tt2zAB+flZdk/xAhZMZ//7WUKDmWT6ZQPrmcDsfcN8
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:47:15
+fingerprint C656 B41A EFB4 0A14 1967 EBF4 9D6E 6960 3C9B 4A11
+uptime 969306
+bandwidth 7372800 7680000 9101072
+extra-info-digest 19A7B0EF947A5A192393D9F7E6AF2D34C82DC4A4 MKkkohMoy+Bshc2reL6uBkAKYMj0DtQwdg5rtju7YhI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKV/tbbIQz4nLHFpHxWWZysoLOYzjtaMuelGgvREPT0S4licyGjmnzcX
+0+cVRdrL5ULK9zHxO1/6OV1YnaYQnAJWCNYXXKpBaMRgtXcpikcXv0V6IMbnYKGG
+02HWd/PA9hlWuU/YS3wvzXtSie8x5NxPGLBOazJwvlEUrqWxj+CbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN3k6my/CqjX2bBVjK3FbpBQlJUz9CvpVBskuR0ySuzL2E6dmHAFte3E
+C2aOqWQDg5X4VhGEhd9PYTHrZOG34PYbOofxLWimOwsePhTI08+U0dJDqLAVPS5Z
+sUP+wie+OBbqz+KbstV/ue6JKRDGBYgT2SWFdAtJ441gA9NF+xcnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+faK6yztxsyk9K3/iRpYSsWJgTes0Oi3vLLjEzaIz98mR8XSZVrOr8iEPyNbujKsS
+D0PZ5CD1LpPnEuQwN280kR7noSMpllVddECplVcB+VnFi2skvLogWuIACK6GjCLu
+cnbEFf+3opkdMOC0XQm2FBn7ZreYGQ72hQ/VGeCNRco=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAfrbdswAfn5WXZP8QIWTGf/+1lCg5lk+mUD65nA7H3DfACJ8vzJQfn2u
+OuNndAgfTceff2BHZmvkUlOl3iZ3H7xcVkO/Pz5CVE8CwGP4/O6BYxFf+pN6Ep/l
+avHJbBta6AQ=
+-----END ED25519 CERT-----
+family $578E007E5E4535FBFEF7758D8587B07B4C8C5D06 $8E6EDA78D8E3ABA88D877C3E37D6D4F0938C7B9F $90FD830C357A5109AB3C505287713F1AC811174C $9BA84E8C90083676F86C7427C8D105925F13716C $EFAE44728264982224445E96214C15F9075DEE1D
+hidden-service-dir
+contact 0x9F29C15D42A8B6F3 Nos oignons <adminsys@nos-oignons.net> - 17WLwtW63FrHeMAEVkALnwhfmizBxGXDW1
+ntor-onion-key orVOQRTmg7jF13dRm+CzbitRfzI98mQyTf1Pz3Y/6FA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 178.20.55.18:*
+reject 96.47.225.0/24:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 et8jZLe2PhG503o/hHikUZMTLemeeTtoev72wIjvO+5CnoNd0/b9ROpzyRa+3jYYpuCk7Sv1vgvj4W6i/xt3CQ
+router-signature
+-----BEGIN SIGNATURE-----
+NT6wJf91IpEi2xd/3R5nfZNlPZ7zkvrHA924E4dNKKTY82/o9Lv4PWjNRHw+W9a4
+0c7CS2l+s2eHL5pS1AqlLJw1IM4Jye3CVQnvP+TvJoiTMaXLR47Av+KQwFPNn4bj
+LnSI1ohLNdfH2B68zrdSrLh4dDxSrJ7E3ny78p5gMeM=
+-----END SIGNATURE-----

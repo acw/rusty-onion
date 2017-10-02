@@ -1,0 +1,51 @@
+router pivxproxydotzone 45.62.235.29 81 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEDAYMlkir7Nn0SnBAKCYQ4kBkaO4HYe3a/zVpJnVQ+4g3jAQAgBAAqqJi6
+CLib10At1+wVkGKq9egiXIzEYi+pCQUJ1KixKGd2jT6RuwlzyoTat+GLvhaRcgBp
+L3tQpUHVAuz7SW75kVQ0h3GcbAcnhjZ2yiuAoSk8muSnBZnTskl+IgivnQU=
+-----END ED25519 CERT-----
+master-key-ed25519 KqiYugi4m9dALdfsFZBiqvXoIlyMxGIvqQkFCdSosSg
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:02:24
+fingerprint 4119 0966 5486 E2AA E1EC EB3C 8386 F7DC 156F 9156
+uptime 440108
+bandwidth 524288 1048576 639951
+extra-info-digest BB68ECF985ADC6020A025FBAC88D3190933BBC24 uBw79cnWZUoGPfz4u2RPRKqyzqwE5MRr1aHkeZPAPnk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN2cOqA3+ArF5HX7X1XbG7UCno8LReu5LTVn93YP7/Fyd1SNRSFuM7Mi
+ekZkHFWWoZIzS4K0yYHffTmuIqDNMJpvxOYDAlNBNPpOPZZ6YQ9D3puP8c9NSm/o
+DZE9lxmhwbCTyUeNrsIRxlPvYVu+JGYxWnb23Z5CyYiuOvmEtiupAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALEBLpncmt0FS9JbicDANUQ3IorBYtafJIIhBZab6o73yAogCARHKj3E
+KWHbK6AsgzDNlsYYtgTKQ1VuIkkYfz00e3KndrZAmOY5QD5Z1JRauy27p0gyNF2k
+1cDa5bFVkBIkDXwnNjRh/V6FMj5hh/tUCD+s4ijnAfhk5d6qJCdtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+HnrlrgR65M1I5dF9NFuNT7UqNdZXXf3RMLQGppSmS668Wi+i54lutdqpssUQgC6z
+XdEAxNyCG8Ugq/kH7s7/qxFrZcNswgWZy0aXe5dHX95LzeOtPK5seoe4SBMklPSB
+75FRpw/d+6ZYA19WaIsjpGY2Er56eKEt5XmnJ0q/hD8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFASqomLoIuJvXQC3X7BWQYqr16CJcjMRiL6kJBQnUqLEoABOntSVJFBhm
+q7Cy4b03wGlzK+AypfewnOJIOuH4lS+/jyNDhzvHeEsH/vvGzQPiaeJ8dM1REEZU
+NxJJ6pJFBwo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact forum.pivx.org - PIVXFX - Web Proxy : pivxproxy.zone - pivxpro76ckdeif7.onion - addnode=s3v3n7xhqafg6sb7.onion - addnode=pivxvj7kcklujarx.onion - addnode=pivxrwvnsol7ijxj.onion
+ntor-onion-key 3/1dLRe/oTqIBGGZz1NBZebo1pQnFZYj7KBSFsZB8Eg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 leyZfVftPvxk6IddTmQ4fhq4Dfp3uQBcF+DJNguSnl/CzAnv8JewWi0LNhBNR+tvNCB0vDZ3diZJXsXbyHXvCw
+router-signature
+-----BEGIN SIGNATURE-----
+Kk8T6nIiUnRbNcsFEl72r0Puks/5Gl8prIAVo3wS0BXZbBYUg+5nCXD3weyvUnhC
+pcqBPKsyMvQp4OfHX1ni+v7+JHDruQgVQLgoAs5rSVEQhHlSKCUtesvPQ9nloumb
+8CJKPYpHfZal3gfrPkTOxf/Afc9sGHAT6CVTnZ7dcz8=
+-----END SIGNATURE-----

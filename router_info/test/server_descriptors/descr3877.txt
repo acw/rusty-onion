@@ -1,0 +1,51 @@
+router petrosagg 178.79.163.169 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmD7ASsxG0U31VJvhMpKWGUoz2bdZ4fyHNOghcMQEErfY025AQAgBACImisF
+SuedKPkjN2lK8GmjSFdnJutml82OeFHCbZTT25jrpakTlkLdrcfTKmGewoR658cw
+V9AGKfTkOcGQbo/dOWlL3iEAt/sRNOJgWLzkbbF7++hemScQP6ue6tMExAs=
+-----END ED25519 CERT-----
+master-key-ed25519 iJorBUrnnSj5IzdpSvBpo0hXZybrZpfNjnhRwm2U09s
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:48:24
+fingerprint 93F1 DD31 6F10 44B2 A173 F21C F6D0 84F0 DDBC F62E
+uptime 9979349
+bandwidth 198656 1048576 317431
+extra-info-digest B609D574AD0E0AAE77141DE1F89DAD61B7AFC7E4 TqcWtgyoGtApVhJp3sl5bQgzZby1YTtUv8I9aKaxayE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALe+4WyIRx/9uu4T3SwSAcFXTm3if9kyrS/Cwbb1LZah0lxmh9Y/0zMi
+evBV1JB7DzWdMi6teRlPq+irDdM1/AjYMpUpVbDX9h+OeTJ0k3OouOm0ovOn2V3k
+9eosMb66wdxsC8M0a7ks1R+HoCw+TdXivlwAAeyVmbBCEmC5k0jtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALES95222ebAULE5Ux8G9O0vfn0icW+601HBUPU33SQuCcB+oI7/uBs9
+A92hNARHYHqi+O6EQlGPT++yxIUQx1Z2SbhDuhV4iTPPiifAMUJyqjylSjYsmVl0
+abEFRzMWqQ8cEB6/Sygf16ZfkRA/owpLzlobF9MbXjmtGNw4T+aXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hIWgY/cpvCfiWF+ScUakqjCYLCFVJQ24CYrR8Bs+tHIJtVElAyJViXLgtQ4TAUpU
+KJiSqi8F3czuqpAplSuspfHliC6lKQt1tu2ijd1NfQzJl6kb0debt/aJICsN8vtJ
+61TkbfMJtOX9UnFFYo5RW2hyJZH5qWal9ntyfJUdvXY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMAYiaKwVK550o+SM3aUrwaaNIV2cm62aXzY54UcJtlNPbAJ9KQ5JeWeDQ
+2GozuMZBehVdgiiChbBpXDfl2ApgOKj0cPWYGKBEnshij66HNAQHY/wOpawmWt2T
+KOf5XzhJbgQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x92BF1079 Petros Angelatos <petrosagg@gmail.com>
+ntor-onion-key GNI7Urzunh/nrFbUKjxIjL3wptTJT16dseD4n5ez4Ww=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 3veUzxnp5mMZpzvYzg/SU/9iOL1Rto8sGOIWSe5bWLETpWek6Sr+nFQY639RRnNiaIcF+dNxOmSgHviZIysuDQ
+router-signature
+-----BEGIN SIGNATURE-----
+lDT1WZOpm2+OERohtS1CfTfIO1xVUgsrwSBaE5iAdrNbU2IGXzIKZzOp+55sKzAJ
+z4mt+Qe30PE7RavOb7NLolIgiUw1lH+CsigA5ThdbLA9Lc/dQbRgZh8iiAYPkZsw
+9VvlYCIjwSJNVTy7HhXac/XXJHNRWfqoA8jAWMeLCpM=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router PoldiTor 5.45.109.62 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJLAXBotAjqyfEP9WTeoH7RJTIbCEqNHfrbNGxcemixLswMAQAgBABPTscJ
+FH7ThLnUMIX+VRcs8an5XeTLksiNs4rs2maItwgQiATCmgXlLEv3FYv2Cebk5Qrr
+luC+pkN+Ih254vam27VC/tcN62xapkNuvgWVhdLtLfJMobGeH/3r1htf7Qs=
+-----END ED25519 CERT-----
+master-key-ed25519 T07HCRR+04S51DCF/lUXLPGp+V3ky5LIjbOK7NpmiLc
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:32:51
+fingerprint A935 1E1F EF68 8AAC 9351 EEDB EECF 575C 62A3 4090
+uptime 0
+bandwidth 204800 307200 234496
+extra-info-digest A29CD5B842AF861F5F45A205FF388C6B271560BF Cl1q4AlqQ1+ZNWZ9MHUXEdYbZuLxhkODt3a3lMoHeDk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJeguhi++X7Hw9b7ZTVwusJDzxaht4Vl4wJ3YsVIaMzceDFzXk1aVYSr
+D8e/W9sOUS95BU7hKdjJqC3Lg3/HVrHda60f5Bs7mhaL3Alt0GGFoqkEOyd+aSv/
+cyKjodpVkDdS093E/5e0/OSUUnA9tR7+Be0Jv+CLwHhUqBC5RqrtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMdqJ1RywrzuOOhrLIgSupJ6DwoPmwG3qkofsPoq1iNtqto5+3JgMtUT
+KiICEALjJK4pK6lvihnRSdXu+0e6mul0u/WQOH3wbCOyEdZsHudLa0F+2cLYKDoG
+aHPPL70kyJiZddz4LSEHHcf19SoEh/lV0+pw+1dcbdLrmVQh8q93AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+PaTI8s5G9wDNP/18B8JdqMLSSlhDBxDzlOqwmsDY7yf9EcrdQ7qEXyvmVxjvw1Jz
+6/dBC7n6aMUrXRIg0bjculrYf0Ih74MOPOPzzC3URu3/hUg/zae6wbewZLUccKJX
+hFXUFiBBIGlMeTBtd9KWmXzeMgYw+1ypKCDE5KgY+IM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAU9OxwkUftOEudQwhf5VFyzxqfld5MuSyI2ziuzaZoi3AH6drwIw6PS0
+xF9GoekeQ6Jj57pJyomMX8D0b6sIE9AEFdbOSe+eNqbYIcXLRrWrPz4LB2cFMqbJ
+vnBSBhOizA8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Patrick Voigt<patrick-voigt@web.de>
+ntor-onion-key WOLzXkZ/1flOxVN8uoyoPaUqcAYUFuY0x51fM8i0HRk=
+reject *:*
+router-sig-ed25519 fAXa4FqSirv+Q7iMh9C6EjeoVYuoIdY1TjHyeFfOJGg/kCw/7wrRS1EMfjhKxpKFmx5MP1lfNlQQ5QgOdUvQDQ
+router-signature
+-----BEGIN SIGNATURE-----
+SL/ZvIei/AjPcBs+IUlTNueIDmfUBUcKb207hcR1+LDIJmcnQc9HUUvay49iHQqZ
+GCHTee89yKhl203U8wBl1FJjfyL9LTHJGKe8EnUuXxmlRHHKzdNgZ2koXT5eaRPu
++uAlRvNrR0bz0cZmbS2FJ4zAxSrELomTy9cpZ3jSvUQ=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router default 46.223.179.31 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI8AdjikoTeRafw8v6uaeVzJOi4pj/KEw0qiCLn5PhkZXu+AQAgBAAzNRSM
+nxb/lHrFzmGdN7M2Q00FlkiwbfdBzr1U7VCoumTwCSD8WUEyiyb5judQxW6SYz5l
+Xq0GmmJPvao7buyMBx9RSJqQAl0gfuWAJEgrpiN3VnWTd0lAt/DIc4lfiAE=
+-----END ED25519 CERT-----
+master-key-ed25519 MzUUjJ8W/5R6xc5hnTezNkNNBZZIsG33Qc69VO1QqLo
+platform Tor 0.2.8.7 on Windows 8
+protocols Link 1 2 Circuit 1
+published 2017-08-28 10:26:28
+fingerprint 7C10 7FBB 9D59 8148 0B13 72E1 40B4 52E1 C829 B5D6
+uptime 3
+bandwidth 5242880 10485760 737280
+extra-info-digest D10B655B6C504B44E558303CEFE647D205AFA4F9 zSBjOv+Xap8Xw3y9eKgIl4iEcAcvg/LqmgFh3/KcwlM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKkjez1C6BXkwQv/s+NoqJ/BByWGGFPWwguUhT2KN0tYAs2ClvMZo4Fz
+7X7zfJlWhwUYNwkSa0srpSvFdqeFBaPUIFRusQhY7FqMRUrQ5DXz/VcnENETtVQj
+dlrnC5OsXkhyFeoFlDcc90mlXCogUjz0troKR3Jnq9pyZQo3l9yfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANZK7JH9StNFxE4O/6lLewtLJaImv6G/TAVB9zUneThTggCooIUHm3Qv
+ij23oovk+9556YypqJcgrBXQQ7l7RkQvP/KP1EtuWZwJHsQ5ohHiL8CofA5AlkFt
+JRzAh7jZHtgcnnckiEEQx1KNFisN5KAwzj2em4qy/0CG9zU02rbrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+h5jy/0vBbR5UgGbH0AMRItahtqkEtbqipBGTmdHO01GzwisflH07kD5GybIpPbW5
+4DTp432sMlWYrPEYhtjHgCvnzM5ZTV2Oq3SRCVFLzbXjbRp/37Ozo+YLGVQy1ZP8
+gv3k8JQEIIIfnf271ssFb60e5m8wHXqZdpoOwGsEH1g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDATM1FIyfFv+UesXOYZ03szZDTQWWSLBt90HOvVTtUKi6AMpJwv1jpIti
+n6ch4sK3pkT4K1oXMpi3/ub0PDaRPrn7zvJECzlqnvH8/9wTEzHoRjqk6w3j18Sj
+OE/Fdrht+gg=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key wo7PgB2NVoHiCCSbs/DEHKb+UJAiZBrL7a0eClxp/x4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 v3qMd8KIBGQgDasy54osA+kg8CLrAwKzP7zuz6iAPyFN+IkOACPtmkac7O4GH2HiYP7qtrc72HgEuGqACM5KDg
+router-signature
+-----BEGIN SIGNATURE-----
+QVahuNCLRhMzNEuV1ata9UQ61rIJ4rD9k10CK3Z4ptR3JG1Y2vLEd3x78JDjz66O
+46j9yBVno3vni2FDk83XFo6/ZzdN1HdMgMXyJWPyA7vwial3r3NiEZatT2JTPDy3
+w9hZD6mDxSHFb2w6jBdzuoueFExC+eyazrHUpkN3aqA=
+-----END SIGNATURE-----

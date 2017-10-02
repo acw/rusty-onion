@@ -1,0 +1,50 @@
+router nx1tor 166.82.21.200 9029 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCFAZCuIs8Aqdn3h5UvebVDMhvsiAmn9mGDl2nC1dI7yDi9AQAgBAC+3z+u
+r3VFrppxtF3gltxmuD5JXOWy6Ej4p6lsE34PYjTcADb5mt0ba/oSJ+P35yI67rDU
+qRORlnjg/klzcaTWe6vX4f9xrmgC+c2SaYb1rrN+QDvCOiiHNVyldBCFcQo=
+-----END ED25519 CERT-----
+master-key-ed25519 vt8/rq91Ra6acbRd4JbcZrg+SVzlsuhI+KepbBN+D2I
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:13:09
+fingerprint D5C3 3F3E 2037 28ED F836 1EA8 68B2 939C CC43 FAFB
+uptime 4537619
+bandwidth 20971520 52428800 8698
+extra-info-digest 7B5343144807E83376D4E3D1865521118915F68A d189d1nDGSPJhpb5dCvF1zAcFYI9E/gFO+eVXXHBWFA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALZzDIxsIwgkYhvw1mE8JXMN+xh4PlvCQd1gyICd3UKc2JrCeb98HD13
+uUYFH5VZxNa3EIJ6uL3kCs96BDyk0mYL4DbVQXyMwtRlYVash28M1Lfwt/P/UCiq
+qsE9Z0PI7jPNh974Bn9KVrDkBYSbJ/CO8UDovXoTPke6NEMfvGKjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOFDtzxGo7ERMxegsz8DUQmwDlmSwnHmp0ygybYCib+7tUoQTLPnw0dc
+gPzckln4HgctnB8kK221FT1o8sl0r7SBwtSIEnKpHUzdF7fph/RDx5NWP8lA4tOo
+f5yryjqAQPbPoCT0nyz2w+c7WiuZFz/GZ+RhbZDfyTnm2mhV6ebHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MYn4lCxcqlalkveLBHw/VixyyYm3LuJwDjvUMVIw1e7NB/NAbsnKgZWyZF56SoiZ
+uXl3iPqPhUYms8wgxPnXZ9iOqgIsB8SeyUc1gBWtwttT8mkFIVJOua6xfotdZmCj
+PuTxlWmNkd1nEMqTSukrSbGwudO98syF0xqcm6XGA1w=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAb7fP66vdUWumnG0XeCW3Ga4Pklc5bLoSPinqWwTfg9iAKeP7aFbZA4U
+IombwEodyDBGYS7LaaqbnWNnPoioEfAmjyzoPWRL0+2YgBgamXlwNnFdoOyzShvn
+LrilRP4QUQo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Anonymous Coward <anonymous AT nullhost dot net>
+ntor-onion-key pNusi8JXk6HoS8ARtnRCuyeWaQGctvb/KGUp1x7SIiQ=
+reject *:*
+router-sig-ed25519 VXo1dBpGFaB+/iVecG3FHFSyhAt7vycuLZN4ypcKU2EdhEtPboh5DDCDOL82Tyxz+xdxmYwY1IwGNYvPseiaBA
+router-signature
+-----BEGIN SIGNATURE-----
+lHciOunUfeMCeJvn/4cQ0mewO6xQR2kzVT4GbKP5c324NC/bu0/+uoqEPapMAWPv
+NCz91dJOAlPH+D1Wnk5NmpPpFt5bHeO8KKVn+9q0ToE3ltPgMsabILd4ZtMxox9i
+kSplb2dhBc68VJoUfeZwDu4LmalSmqpSjV1Jrk0s/nM=
+-----END SIGNATURE-----

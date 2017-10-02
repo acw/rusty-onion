@@ -1,0 +1,50 @@
+router chanticleer 210.3.102.154 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKdAaioqVqVEiQEO/4q+68mc4WFONRVveqyOxS2gYDtWOheAQAgBACmbIMJ
+R4ZkJJQMtFGUxjgErBxBA/BDtaiHDkRpMAs9nnuzEs60BTghDnxAWCcX3Ubr2mDx
+qWAxblK9AgGtzXg0x5F/ABMpT8i6+bE8T2d4NhGiSnrRDjW1pzGUlB3jWg4=
+-----END ED25519 CERT-----
+master-key-ed25519 pmyDCUeGZCSUDLRRlMY4BKwcQQPwQ7Wohw5EaTALPZ4
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:24:12
+fingerprint D562 D07E 446A F3DD 4DB3 941D D0B4 1D3E A9ED 780D
+uptime 5100783
+bandwidth 1073741824 1073741824 502073
+extra-info-digest 38F3AE94B8C1F64C03EED93244DE647E816790D0 koXnyYiu+T7pgLBIb+vHU6D2NzaxtWAxK2dPYkK3duk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJgDWUSQYQGuldD5r1Tnm37IVmKt7/3kBEr/Kvk9QWleTYwTI0lO47a+
+EM/VPPSRLYQdMBpJ5VDq45MGF2OQqjZ/PJGQaapaIUcH8PQ6/BaXYiD6gkiWHdBv
+PsOOzRoKjAdIvCAWNwO4ZVp+CVhiMeESiNwxKQFfxx7kgHRPLb9FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMzkFOobHdJthfEvcRB9BtReY4yxgCd42JBMkEX8mQ76fLPnqGAnWdBw
+/Kmj7jwIkQmJaE1sEQ252rrVHxIacdPs4BioJMunpbhzwI85hQb5fFbM8fbb/l9+
+/teEoJjRiQFHtMO0FtLMki0HdlMoPjdTRL9uOyKeYQV2NyXD15wVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+dV8K6gE6FVH1O6eGxj423DoHAKSDYR+3BoCq9v+68DAMbrIWBKnv9XC3mrvXI1Gr
+lvTMaBzaUyQPArln1wTJ6k9AGFqxyMOo2SrEGNFi3RsrlNeLkvpAs29H5qnY/YXi
+gdrRKFffgWmp8auvsfbTrAenGwtKs92t9B8F53BJXeI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAaZsgwlHhmQklAy0UZTGOASsHEED8EO1qIcORGkwCz2eAIghDBz+AfET
+Qj5vn40crHBCMzWYVRFQ2z9/9auq/IGwzfR5JZBOY+vq7MePyZXrms3vgXokroZJ
+eqb6TLrNRwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key 3CuaxoxI8kDZg2fyZ1/vSr6yuGZf+VcoNIftmujHMRw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 8/bUo8FHee41EuY4dQhheUGXz933fTcpfZlH5crh5La7ZbmH+rFGebR1AIld8FtZQYuSzxhdlUElCoa0ih8ICA
+router-signature
+-----BEGIN SIGNATURE-----
+Zm+0xyUd6MZd0DNgthmb4ZKOESEHUgbi8qculwqvk2jsfahO65QFnurTXegjMo/k
+L7SVdRjEAo5voAihfZTboFUhAj7zcDcJdWJSAt6ijo0rQTfyxde3RD4lvcRZ84PG
+03AVFfvlurusnhwZCmRz/yHmjzAFi6dB8zp3AxuIwOo=
+-----END SIGNATURE-----

@@ -1,0 +1,59 @@
+router poseidon 194.218.3.79 80 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:01:49
+fingerprint F149 D45F 474C BCF0 0DF8 E4EB AE55 474B D0FE D2E6
+uptime 21068995
+bandwidth 71680 256000 124691
+extra-info-digest 879928E5A1545D564FF58FA4ECEE12BBE9532D3F
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMEMYLSnkMk8gy0h15eTKpHe3mB7sTfzqd8ndhYvRbsqNJynwmTdj/4j
+Qeglie29AhDz7xpw15+eF9ciEKt+42RufYx0sSYwMlATa7z3kCW+8XWfn6wF9EW1
+2QZ6sJLCtL1njFbKyFk1m+hhmR/3JfmVHqRlUGHFGUTgaG33gHUJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALRNQsH+TPA365sIASpysY2IdRVKIn4ecE83k9+zGfpf0VuXa5SNffXF
+wQ9lXOJPPFCwZyXBtRnHIf5Dhgo7HWcNLh+CvEBwxyah0wsL3RMeYA2sD8SJgU5W
+V0tYBoSRfCz7jAsWBhf9oRPD/TI51ahH3p6YmY0CqcIjghFVH0eJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact 0xFFFFFFFF Random Person <abuse@nypasalt.se>
+ntor-onion-key BEVxFq0mNYUN84Qjz9tlS+gqNZM38sNC0WY3k0MqRz4=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 194.218.3.79:*
+reject *:194
+reject *:465
+reject *:587
+reject *:994
+reject *:6657
+reject *:6660-6670
+reject *:6697
+reject *:7000-7005
+reject *:7070
+reject *:8000-8004
+reject *:9000-9001
+reject *:9998-9999
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+lcV4wYPo2l7FuMbm9EjRA1IwbAkQn6SGIyhr1fn1xnUutGL/LHgmCw+iOMtaJaK1
+UoudZTorXuAanCQgh+LvxQdoB+mqGpxsOQZvYp1hXBnDbHOpMdZwjPnDGWM2+tLq
+iRaRoihjXIJd+qa1VLO4hau50UJw9Dmqk2zAOnghCko=
+-----END SIGNATURE-----

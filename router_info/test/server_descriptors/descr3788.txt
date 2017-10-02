@@ -1,0 +1,46 @@
+router BBBRelay 52.15.183.149 10802 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:46:34
+fingerprint BF0E 33F3 897A 2109 D03D AA2F 73AA F8ED 25FB 6F4D
+uptime 2
+bandwidth 1073741824 1073741824 1142784
+extra-info-digest 695CAFC6D58C2EDC3440EB994DC03233DEBBE396
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANhq19zruejaD0CeR3qWw2PmIDh4lCwKFFNTN47x1GFEyMGTlltI34wQ
+g/4zoa6l0NhUd92lK5sPYq1Z49i0rPQ4XeqLMHwnG/B7C3w4v+0UowW6h8da7MrS
+HD7x7iMoiDBP+zet3DHDIITKp7aVIP6K7mOpY+BdJduv5+WC5ANNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANG6GC+vh0ZC71FHV5B0P0dxSoqzAxXxnvYTKM3DK8E0jTc7fiAo3FFS
+RRny98c2SuWv0dxBoJQORLTcQ/e9XT9qqcGF3u/JbeEs12FuIud+uptJCcSwvt0g
+zZwtoMXfK6X1MccxlugIqjZfIbaclnW1V3QfXvkoLp/QA4/mWltNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key J9RNeXRwgcwBszDbFz/TDsW28qMDlrJqfm8Kq7eQcVw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 52.15.183.149:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+IbMb3ChhOCkFZLW03UmejVVrzoZGvfIoBtY6sTUCK1qux3PqldUP6RakRyOu1PY4
+xf2r3qqe82w9sSUYmrKvgY/ZwE35Uwl0l3VLWj5bACiQe1DS7IsTKBovq3ck7AVw
+2LX6ssRKHafPDya5pUcolW2vUGdlQV7o8um2IjtCy0s=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router Progger 176.196.98.66 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCPAaPdRv1p+KG82Wr3YqS+uJ/chvONXGKhMy0vzqytlWWeAQAgBABokAiI
+sAi8OIvfPk+9b7ikbZP8ryV77Cp9XkR1kwyW3xafe03eubdqjuh9ECxI8Yubx1OO
+MaR35JRQ/WN5Nfdb+jlL/3zc4F4etkXQsWKEdVtel2+8HD6qBDtcNT7z8w0=
+-----END ED25519 CERT-----
+master-key-ed25519 aJAIiLAIvDiL3z5PvW+4pG2T/K8le+wqfV5EdZMMlt8
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:33:35
+fingerprint 54DF E45F 0B3E 90BD 5ECF 873B 61B9 34DD CF91 C0F1
+uptime 299046
+bandwidth 524288 1073741824 1079884
+extra-info-digest A8D02B8AC9756D835CF45BCB264D31052D5B78DE 83fKhQMqfp3sdSEbxEn4P5pdCYmJtbTTwd8ZjMWQN0w
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOUhmhveF+yR/kzVGKgxuJrEUN3l7t8nv/uROXYBgmbDS4jG3tA7mBnm
+O3vqRJg7+eWS1e7puteFcuKgVTtyvCdKJRxg6sJ2FNYtg3xdFO6WQ1n16+ABM0PU
+sStQOPv7NRZTkiBhIswqQy1soWL5fIHsjVGS/iO/74utlZQ9BJnVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJoQIXX57kyDtwWDDjtcb7LE6jX0F86n842XZpywOV3eDuEvmxSAZA8b
+Ea6pO4wc0TluTHBUkfaW8+pU6o9e+liFwmfFvHTT0gQwcQ4+4YVO23+rpLiWsSVr
+gJZ0zfk7WBkxPT1xvp6yEHx2IaAfmx0sVedxWHqIpquAsY6/nSG3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+4+CzxK1kj+wez6Gmtzh55CO+n/pTx+IkWac+lT/XfI8/42nnB0+K5QTaQnj4mSFn
+IPmcP669/tOY1QQkW0wOM7TFUZjDYjJPQ+Gir8KL3M0anxhUfEoCgjsV/PwhSzU0
+1McVj7vwrdM2h/8ODfpVQdtndF//f/MDEcNQ9T3K9YQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCDAWiQCIiwCLw4i98+T71vuKRtk/yvJXvsKn1eRHWTDJbfAPuT2qzRy/KH
+EQDf/CNwtwRWEvoOnH9M+Z8SsxEUaxRpuldjlQCPzuhEzLGWAzch+D3apNsBtBNR
+pYY2Yi406gI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Progger <progger.ru@gmail.com>
+ntor-onion-key kSysws+2r++m3ej9qGlm0rz1h7JZVUESNEFZBA5zbxg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 DPtNPZb6bvs27NbeEq00xIBvaq2emNUS6Lv4ZnmCRUxImcTAzFc3MmCDDSeoMakaGtURHetDA6/B42C//trkDg
+router-signature
+-----BEGIN SIGNATURE-----
+g6oAhtFcVp9otImwfxJDPd4PBatKAhphkajIKCKemf2RGoyCNzYgHeR+8IWxMU6n
+zEXarTEYDIr7HWq2GCHmd0t1UMfs4PKnVxjCBPGfQOgv3iuI6kFnvAhJ81j4/v20
+1/VrU2qfpgYf/xjadj09uoEsZr0I5FywViXNG6MhuHc=
+-----END SIGNATURE-----

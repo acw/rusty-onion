@@ -1,0 +1,51 @@
+router laeviculus 51.15.77.244 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmC1AeN1VQ8v35cP4+YwLpd50g2xYg/95oKWoYkcvFRBCEEZAQAgBABBYo2q
+9+IFgU6ZRskAMZF8ElYSAnX+aLpZVFeDoNOLbNc1k312phUvAfCL5wdEUgi/6c43
+OMiwve0U2/rxdUAMsjcPxdZXf7oA1EyzvjJUAgW+xTmE1tGbSHl810LT2wM=
+-----END ED25519 CERT-----
+master-key-ed25519 QWKNqvfiBYFOmUbJADGRfBJWEgJ1/mi6WVRXg6DTi2w
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:58:54
+fingerprint B523 8076 703B 7E45 6166 C7AC D933 5921 6C91 9C4E
+uptime 1447037
+bandwidth 125829120 209715200 3312962
+extra-info-digest 92A0A642BC265262694008DDD020D2B21F1B5441 +hw3YmQi1EsITNQMAOHutuqCvntLGS5tMktg+oo3OVk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKk59zpZZ+szGDi+bfveFy+bKf7YUD559vH+TZv8gCMB3lf4fVthF7Jo
+iHGyBSHv3rq3A4sg38p0sKjlRJXW14cSrOKuT6DyRHem7whT69FrCxlHtlIp9w+O
+1l9GHIollI8cudzMpqpIOG9cBrql1AOsvX1X3xZjdlBSStaYo6MtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANozKbObgnzJgxcrWSl6Qg1yIOXABmoxZFszf4+hupqf70DZDvjK+t6d
+ZalmScdpmD010jI7l+FXTOwTOGi0y1rzJUtxyVpIEDo6vA6zQMme9ZftpEVpGFvN
+C/Ng3uLSf7KCxH14odqJ41EXY3EJleCzKFyTb/bQmxW1NXTPnD57AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+KgL6gR3Bqh1i4QQr+6ulFZzF4AsJJeZOcqcmXMolLhMX53OY+F5nctrGVv2IWZwh
+gZSc3UiwmZEQpw1uOzaJkIGUXzZ1uPXDXL88U+xtPFwIptinngs0V03uK81ZdUqU
+r0ZE5FrG/INoX3EvaeuNOxuO339TxVUvqfMQ3G725GM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFAUFijar34gWBTplGyQAxkXwSVhICdf5oullUV4Og04tsAMplKm0LfY5b
+9dc5Nm/MxlO10JqEeeOQxdB5lC0EPLmDNxkycuVT4h74ySoTqRjfj69x2tg68zym
+4k2O5HqZQQY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact rdl7e64dum3b80r
+ntor-onion-key CUqgWdzAAI0TzQ0rrz9Bbd51brKXAq/jGdJj+U+nGz0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 o8LU1DItvEmFgOWr3I+/8q5dsLTMIbxbZMVKQvEHM1ViYTRV7AOGDhhWANzHuTcByDIFZREEs9fva4Kg4E69CQ
+router-signature
+-----BEGIN SIGNATURE-----
+JiQqJY5quwIflczWOiZpAWtBpaxXXHr4uePUpB2P+BH/pO7FrAiVc57yW2P/RtmB
+vBqTy7sL2Nr52r1lzve0j3DhaHIgDvrF/J+GobKjHnbEzSkHow3t4XmBpq7VgySU
+0RlnnW3oXgLNGhNC9o9FqHrUYvYEatIAs6kpYSc746U=
+-----END SIGNATURE-----

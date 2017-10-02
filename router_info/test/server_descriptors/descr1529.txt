@@ -1,0 +1,50 @@
+router Dargiuscarla 34.251.231.72 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmArAX2oI2pjevzjoDdJqHv51Rq5AYvZxZkTCoXDOFA0hls5AQAgBADbja+r
+sPxO9IZjhfRMuETSaUQOfeHzlb2gYti8PGQvZzfZgVabD5yaj6jB/IckOWpxmyGY
+GAcAz7Bz6Bh5QwYLYmD7YrSuo6K1Yh4+7zeLjCmfUvmmZSxndeHBGXRhhgo=
+-----END ED25519 CERT-----
+master-key-ed25519 242vq7D8TvSGY4X0TLhE0mlEDn3h85W9oGLYvDxkL2c
+platform Tor 0.3.1.2-alpha-dev on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:04:30
+fingerprint EB49 15FA 1095 3469 3660 17D3 7F1E F84F 4316 FAF7
+uptime 1508399
+bandwidth 122880 235520 146408
+extra-info-digest C6523916FF277278994BA4BFFACE6DD84B223176 CSJxAogdnlDuSLj88U01DOe6BPGRVAerrUdwZD0IR1U
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK0dgWqw3KEC9O5NWF9k8o+B8yxCNIK5a9Xg5+r+V90pXQMX6O72vw0I
+jwKRq2JjJWS2pjqc8Gd1TZdXgYB2Tgvp6shjmetMdxOKzXw3mNmjkgDOTlyshEzw
+p1QqrO0P0+rlEKBjkj4rarulzDngN7eoa4Tlqg6TsBkJIW3FnOfRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMi8eoh65ypY5soi+4zFnplgMGhlHdkYCCYMg0wHp+z7dC1+bqJWVydf
+0Y12xa641ojg1jq5eBmCBD/Qau4CaObjHBddT2YZEjKy2dbX0IhOBL2qRVoiZjj+
+PupGIFztSpY9AI+MuHDq18bkhShm7lS5Wy4ERWoaZ9euTVlWskT5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+lWceeG/4+D/eMKAT/DQnQjpkLjuu5HbHHVa6jVBVNS96PlNmD3oBkK/6Ew8lslv3
+vITe4ywh4wFqkzge39DbZB/XsjTAkHiYF4RJNaoiogwTqljgurntleFPt+PkNW1p
++Cv2nwIOdWtFxYxOukk5Nu1QMk8HKD/FR+tFsJRArcQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKDAduNr6uw/E70hmOF9Ey4RNJpRA594fOVvaBi2Lw8ZC9nAIf2hxIYYI4e
+bEAyUpGDJaKtLG+iUF7KHqfETr3Hcc4DCuoUlMbyR6cQASCZJx3mHjcs9OSO28hr
+EGbfT+GEHgQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key oMyEKfXkj8CWlw7IIM6+/qHKEGib6+9JtxkvNjpFFTU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 iJAo8d8h1RRmvStJJG5PgCiWNVaCfRCcVCrBEk+l6IP588bxrkwPL4sjhkxZvhXsMPUi/wSskfolnuuy4+PyBg
+router-signature
+-----BEGIN SIGNATURE-----
+BvUIP+aX841jZFe0lg2udsdULl9Qp32uz+7bPaXtuy3c8qB7BBVWBhLZdfUsgU79
+8Q6nSGdFO/OYiKNuBHR/yv4zyJllWm1o6nFRB2/L+271h4iAPNaJEbwwqohmB8Zr
+OqplzLBt49unOy+0FuV3soYmdA9UQ9GhHqeMHm9d4zQ=
+-----END SIGNATURE-----

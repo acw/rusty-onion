@@ -1,0 +1,51 @@
+router Newton 51.15.52.120 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCsAauTf7OGPiGsfjD4aNN7f8HoOx/SdLwY+GD5F7Eawk9eAQAgBAAu3wnm
+KdC02XcaIfU+nWSyYwaNqHkw7vDo9ArD4lvD+qAeJnMtbaABe0yhKhq1xP25VnMm
+WoDoPFvgP/JTdL3PDvfTWMCxbh7niOjF3V02j0yd1j9VN9TCGUea+65scwc=
+-----END ED25519 CERT-----
+master-key-ed25519 Lt8J5inQtNl3GiH1Pp1ksmMGjah5MO7w6PQKw+Jbw/o
+platform Tor 0.2.8.9 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:06:04
+fingerprint BC79 3ECE 4655 14F0 6FD6 A7EB 9DCB DBDE B1BF E14A
+uptime 2357079
+bandwidth 20480000 20480000 5677277
+extra-info-digest 22B3ED098C6669775DA739DAAD00767E0D41A49B u73K/79KeUywqDR5QoFivVuyurBCIcAUUaa3YeaYMbs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANHRvCwSuae4STZZYRVzBkIqkykwukS4wGOzGLkuwlHizNlvJVZX+Xjw
+s9t7mUKjKxnAcXIiK1xNylQa+pZ1yEdn8Kb3kqVgqFj1yLmicllYsyvoBgDfz0eW
+lUVbAu4ARGnmB6NDBcaD65EIcZUaBjU+61y/+qrI0UZICM9wu9+lAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANtbaKxYz9WoZw/XihbRi+j7EhWUesgmfrn6zaIKkMouNY95iQJrm4Rq
+tCoXc4jGj2GfYOhe2RbVoPuDQgoMNIofmsFrFS5uM1WOqxDOcqpZZfdqjSsQrLwT
+/e8aYjSRWNCH8RYP6SfR/vQdJKdyJ3W/vSLjx4qKvhMnip/cZSO/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+lMlUkya6p5dmpq4jzJBq36lHuvmKCCdQzp2W2UQTc4/SA4yIeyThCpEZZfUs8/6H
+8xyREWxuDr8GpFldNOv3o6eU3QUI8C+qUyGzMTXpZM/LAqH+RenlLH9NR379R0vW
+aV7rb+muz4VSZ6rYBW445ShgD74AGVP/wDyeuU+Ebms=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAS7fCeYp0LTZdxoh9T6dZLJjBo2oeTDu8Oj0CsPiW8P6AMaJujnnR3TY
+gPcaMsRaXoq1+kI8qPK1hyz1Cid0wntUnRwtY/TKaPVHQZdwY3lrMNxLKEEgCE4S
+82zPwE8zngs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Newton <torgos AT protonmail dot com>
+ntor-onion-key 2VerZmbNa/zjo9v2pqRPMb2CHMBYwrCRkZsy0Py4Hy0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 5g3+qhrRPaO3ZgjUC5Rsp79eQAhiCqvhaN4Lg3zVNIi0U/9VmtviSDiHX8WK8ozgj6YfHqzGkGDH7s2kCcs6CQ
+router-signature
+-----BEGIN SIGNATURE-----
+xsykhoocZlPg8S++9Ag4EFVzbfLggLa4wkTqaa+i7HS39N7QCCxCJbP6w3JYhA1B
+TIQItYgjJB3So5UyQZwQy2b/l83jZrfSF8H8lpe7DAZmjVFKksNTY0VscfC1A6VM
+Y+LUkbYNECI3uTNMKXbyv/1zJUug7aeoe+7AN1gqcaM=
+-----END SIGNATURE-----

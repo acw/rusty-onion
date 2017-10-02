@@ -1,0 +1,51 @@
+router openbsdnwiowa 74.221.46.242 110 0 143
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmD6AXnKjiM9og8elG3BmQTfS1IJzcPWWtFJjBKwWuOdBPN+AQAgBAByjip9
+LZxT670m3hzagG36x8KlJ2ah52Mrfv4Gr5zK7UoPF+qQ1vuTybOMAQk9S05Zb4jt
+NAxvvAQ8iI1SGnQXGTwpTsx7IuAPp9hzp9KVRT8ekHQ+fM8jBE0mSpAKYQM=
+-----END ED25519 CERT-----
+master-key-ed25519 co4qfS2cU+u9Jt4c2oBt+sfCpSdmoedjK37+Bq+cyu0
+platform Tor 0.3.0.10 on OpenBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:33:05
+fingerprint C9F8 F221 9CC3 9BA9 CD96 5517 AE85 5FF7 FFD9 9D0C
+uptime 748239
+bandwidth 307200 307200 339909
+extra-info-digest 7127395F4C415425591D106F39EFCCF936F85152 L5/NcxvkmWlVDe3cuqraJKQ82Bwil2YbbCEqL15cKF8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALZo4CuyJLFGKZAckjnXmd80BT/5/unjfEjCRMve97fpTB8UC8P/gk7r
++peo1AWXJs0fBwL5Ve7U+VSOB6NMrrf5IH3fdQe5e8Y6ru4v+7Q+yh96yYzUmqP2
+vx7QW4VOrds2PcxDcybkUjeTs/lC6Seup7IpQVGadGmLXggXSuClAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOr9x7UHJRJ8f1qiTEcLzI/K4PVC3dDlS9WdX0PjV2nSHnCBYKsP7rWh
+xwstFBzJoSMfYF89fhmdznjh8fBrU2EdHT08A3SEKGCeSHdVXiy0DAhTQ2zOUZ8e
+ZrbiyBcbeWxwcijidK+W1aHswfU9z2aBecPKmJxmHF894Bktx2ZpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+dW55seJKuU/s6kmpIKyHQTqS93INq3omA9kBgJvrwgUOXhoJ6GI5VHWRCZ6hd85K
+UJANby4l/7Cvx6sqDHbEHwfPjMchwYd9BI0B68ApH09jCiUVw2c+xtgXOG3rhiTl
+sJ+k7VjWM7qo9qGG3VzQLiIbOmJonX6bj0Fcamv9AQc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCDAXKOKn0tnFPrvSbeHNqAbfrHwqUnZqHnYyt+/gavnMrtAL5urXOEq9JJ
+KD/gEaXRtpzou5IlM+CCs95kYMjsZ/zXzdyqmhwyPR2ZovpLdCPeSka1Ox+F07VG
+PpsMvRwErwQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Josh, Owner of Element 14 Technologies <elem14tech@gmail.com or imagejpeg@protonmail.com>
+ntor-onion-key +MBBaSINyOI4ExekSqy9Ny4fLcKer3utkv5q5dFHswc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 2Lobsr1d6iGSjNcnKtTYDXYBdRIsHYEhrZ9WIhA+lRFyrBb4pv4HCyTkHC614vzqLOszQj0PJNmzFS8F6BZTCw
+router-signature
+-----BEGIN SIGNATURE-----
+mQKdwMyiZZIjtCBPO73zuddftFb1YtNEyRKtRfJRVuxhrmhoEzNllrLsm3IN7nEE
+yfaJ3CqWwHQlxKZ4W3IwZk2KrJVpl2LxWIh29W1Kbo/Zbt28EWOXRMaBRWB89Dgt
+Myav7lZ3vKH4zFgfZhLgeVplxktm3uvfbeVT46822Ek=
+-----END SIGNATURE-----

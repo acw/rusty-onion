@@ -1,0 +1,67 @@
+router dscotorrac 104.130.169.121 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBjAXl5J4wewX61LMVzGqMv0KIq3AD15ELNEpGxj29cn66mAQAgBACRL2fL
+8d/5Sw3goniQPcNOS5hNmSl3A9OtXETT+q1u8KvVMcNY522LACZTvYKgAiWjZz1Q
+178y1llMmryI656H6XDdO+sqnX6Pa3de+A1l/bvwwWr9jNPIKYcEzY6n+wk=
+-----END ED25519 CERT-----
+master-key-ed25519 kS9ny/Hf+UsN4KJ4kD3DTkuYTZkpdwPTrVxE0/qtbvA
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:26:23
+fingerprint 4E1A 81B9 0F4F B498 EFB1 CA02 3260 C8BE C2E0 2083
+uptime 568626
+bandwidth 1024000 2048000 734967
+extra-info-digest B9BBA06EB3FBA9231985CC74FC52C81A69A852AD G7NjSFj+IQ0gnDHHik6sneEYr6E+PDcuhP4UdDKV0TU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALb2u748lBuautnGDvx9j2h2T91gfj5t//4kaEWP1i998KN+JONDwzfp
+LKjH4DRDW86D9uNooRS+eXQNmu13T+9P8NQHiXyvPbXVidKosvTIxoK1vpxQEWuA
+BnS49Rk54PYs5X8WHwYtOaX+qoop5nr+snErKHvjd5bpZPkmMOwXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANW3nm3Olz65+gvQ/aENsaOpXqqlXqmHQCZA5UzEM8oJruXGICmXF9b1
+5cR8D4bEatMI/ljTigEzLl1NKRiQnw6f5IwjhziFReWYNJsWlInLLgKV7hmKJvCz
+ivsNPrIl0d8knzkLULy2eBnyKlOuz+pkSaoUHwF3Lu+zNszR3AoNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+E2fiJZSPQIO+cTcktPxAzhnHNLlejsqaLqKgNzH4LIUUyBjX3GdsIwCWJXyRpOb8
+NqWI/jAHlnwh3AstJ0KEpS7wXslsIUL5N7ysCZlEKXvCND5GvS67bkP0tpaRcbto
+IOOppaXLK3NDvuncr9qPswNA3M3ks9BgBsgEnVZzR50=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAZEvZ8vx3/lLDeCieJA9w05LmE2ZKXcD061cRNP6rW7wAMeHzPg5Gujo
+fa8I1ILLtSpoAArutFF9LHUHXET+kuPZEebkLKPzY33+h4qXjoPXWZYPcQJqqy1o
+JbUtDmQi/Qc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xF3CC6386 Chris AT dscoduc dot com
+ntor-onion-key N7yKATdnQwJuzRjTTX/NijhaX5rYpbMXMKjzKkaaAmc=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 104.130.169.121:*
+accept *:6660-6669
+accept *:53
+accept *:5190
+accept *:5222-5223
+accept *:5269
+accept *:8010
+accept *:6679
+accept *:6697
+accept *:9878
+accept *:11371
+reject *:*
+router-sig-ed25519 wAvcmtzcizuqAtHctsuYnGNdVFuy8P2oPQGndhEkY8WD2jQCgo6ocQyDx36mhu21GRuVIb7CFDsNdNCIhDpFAQ
+router-signature
+-----BEGIN SIGNATURE-----
+uMkNH6kIZeH9ez1EO+mzaR7TLVFAulLTsbBOm+KEqz0UEJoiAFeI8lCNmHXF7eeq
+8vtyStO5s30pHSm2SYob3jqCUSy83X1QElYyKxVxWj6zgIk61BG8W38EE5UYglKi
+JetVi4vbEPMYxfUVV+gb3Jy9cvdZNpDaqZQZ9Lox0Uw=
+-----END SIGNATURE-----

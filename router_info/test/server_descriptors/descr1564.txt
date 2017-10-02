@@ -1,0 +1,51 @@
+router pelycosaur 50.39.170.83 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmB5ARcISyTQWPYWtTre3eVULbivl+xttj4EJaBD1Xvdku2WAQAgBACHGbCK
+bMx8bmOKqRhGEziGKGVkmFIqHvqDO2yBiWLEt68ScFC7fWK3ARdOtO6GcgJfMMXs
+JBGwxTKl1+cEWlTU/e16wcReQQxNQ2NkQ2ps2UXfASIFPPccjLSlXso50QQ=
+-----END ED25519 CERT-----
+master-key-ed25519 hxmwimzMfG5jiqkYRhM4hihlZJhSKh76gztsgYlixLc
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:15:58
+fingerprint EA1E 4711 A47F 354A A60E FF42 9A7C 4EB4 A802 A027
+uptime 459123
+bandwidth 1073152 2097152 1285665
+extra-info-digest 9DEF3E19B4A85679A25262EE3C98D6992688EA51 qtKbbU82Ds1p1lnli2TuvgTyYXwNnhUOs0bRyfjBBN8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALTQVH8WR/MHbuTI9bHkulaxhtVZkZkN3m4w7L6qnj+5+wRR1RjwAZpK
+Scjnmf9FbYd6A4ZX47ZVz3CBWoAMoqh3BioZQ2TVRpshYCmiFxcG71BrthlNya+F
+igNam1RpbELApnysFfhJgk5BJndovhWwR/NBD8XknI3YIaR9qFIJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM05LUX+qSMNyd2psuHJ9gVlFR2niQ2JPhaqv2IW26h+OK/NCqCb7KJ3
+hIiiJpeNHw883kaVZbyXe8Z2R47sdd1lb5oT5DWqA7fnHbaFxQJvCxO+CeasiPhc
+BOsla+tO4YJK627GsDNZT459tW/6NXfNtYqC/zljIvpXbwqybUZrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Q+SeRPYSJbJqDe+c9of4y/LfEdwb2Ca8s+EJvugBhNvx8jSkl6PHtUCjCywbis+6
++ymCxKLl11Y5ZzFJURwFHk12a+ytnpQjOt/oUzmtxJcpR3h5V1uJUiHvPiZ+OUI1
+kIbocxYuayAUTtaTdPK/Xlhsn/YpzzcwRr9eTjEH9I4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAYcZsIpszHxuY4qpGEYTOIYoZWSYUioe+oM7bIGJYsS3ACBUkorrA1pl
+QiIbLtXLnyUGagooNU8yiC54lyTZAeaOeoPe4tV5T4RnKQXlpgcp4QlRjWRw5AkW
+5xFkF3Q8hg0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x01861969 Michael Halstead <michael AT happypunch dot com>
+ntor-onion-key e+Z5KtBlaJZvJtvEnkM1k2V9+8OtQ4qE/MvsuE2D0Ag=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 draKc9NSwxAz5NiZBLcb4biRYk5jTROu6ga+H7fEPRv3SOuQHZ+NdF9rSAnXUAMNq/I4lcwWdeGn7Q/mRsl7AA
+router-signature
+-----BEGIN SIGNATURE-----
+VDAIrC2lASlOsY1dXYwKNZFFBKj05W4AJWs2AqKCCrhzolwJKp5N/+e3Q8b2Bz5y
+q4eCz+a2u+eZ//i9JZk1xbtOcBM/ZtPpwULGJqE1KNecVCjrvpxbMOxC0Uk8corM
+tGqkc4leXyv+FLB3eJOYagEMLfXeNYao0dspCVHfljs=
+-----END SIGNATURE-----

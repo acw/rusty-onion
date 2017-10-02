@@ -1,0 +1,51 @@
+router CLABS 176.9.54.3 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmK0AW9MXNGQQ9owmTbeHXszvZqy4oi6JiCe5hX7K5SncqZMAQAgBABF3onB
+jlRnu3ZqBUqRbWEC6GTomxDhXxwNDdCNM99kXFQCc8Hvi8MU94Kgz5ma8IfWa52T
+w+SA/+VYlEqiZ4h3/j6yBac/tGlB9vEI8ccIvxgl4AQUp0pOguLmlwAfnQ0=
+-----END ED25519 CERT-----
+master-key-ed25519 Rd6JwY5UZ7t2agVKkW1hAuhk6JsQ4V8cDQ3QjTPfZFw
+platform Tor 0.2.9.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:36:47
+fingerprint 9160 0B50 4D35 762C AC92 B2DA 8B57 99F0 7B02 FEA9
+uptime 13679495
+bandwidth 2097152 2097152 2353195
+extra-info-digest 3B16B20685508560FE55DE6C716536F7B284D341 l3c7Ag9y4bZgoRcg7mX+cWY7KSxU7xpWwIqXGcRwPHw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMJM6qE42Zkd3YGRrezm165qvLo+7tCXL3nMt2MTWdEAu05V5kZSbR+F
+t2ZOvvFJ7syL828+n3JN8M1Cv9ttG5IIGx5sfRAxXIJoJ+zRUsmGbXDVSOm2lJ7Q
+DE756VrBZ4baodPC5rc+5OGhpyc7G1U+wMH+j22HJUZFepe/ev8nAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK3xgf082TMh/4gTDeXUHHvoi/wMYo7KqM0xcXKppTRB2GrqR4Ipi+9r
+w51DiHfzfUpuDjejwsPT3kx8maK6j2xKmu4sns5bYcRL1mk2mXlkAzBZ7NaWngRf
+eOWhRzdDzQwKBy5dgdW/OX4jh4b+0s/hUHgGMGKvla8FJckguU0PAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+mHweKNVmP5csonIA5KiYwMD6OtHMcHGFDN6DPPKiQC2K2ykgm64c9LISoYfgSVS2
+Fpf2kCQLQVxOH33GOeUwgATysAEgMbds4u0rP1QYkCk2YuYBx0g/getyFangQpN5
+I3Rhhh20+xSYG1ezmZ+thOwZZTDCn0vdUxHg4lGQFEY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAUXeicGOVGe7dmoFSpFtYQLoZOibEOFfHA0N0I0z32RcAAR6g4EW+q0I
+WcMdUXwpRv4FerCFo5ukqDgXhgwcrD9FlFHfAh3WUXZtYGteMKRQspqEiLuHbk2Z
+wWdQioRHxgU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact rob <tor AT clabs dot cc>
+ntor-onion-key 0ci9l6QWz/Q0DiZnAX3/mHZuz2zZt1AfJ4bgIpc7pxI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 42Ne2Wvtcsmwx+mfg/6Pzbg2GtyQbCrZCB03JXTHD3iws35GKAsMAGwGpPQnGLjH2qDvivgS8z1xN2LAetUhDg
+router-signature
+-----BEGIN SIGNATURE-----
+ZxIwBgQRNGKtCQqVMixEn94PU79LOq6xbNlfAymC6rhQu4Y7DYjyoUvhqRUVCL/t
+gNMCAOZFFYzmDsCpX+BANnc5cthquy2b+1MDl5ixRAp/Cb/J4/q+wuitsFRHBIOQ
+WaWtE+I/Fi6SCHLQlzwVsqaMiBFl3+/mkqEteNoUfDI=
+-----END SIGNATURE-----

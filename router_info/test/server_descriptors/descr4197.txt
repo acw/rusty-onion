@@ -1,0 +1,50 @@
+router torrot 75.119.251.14 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBHAW/IPuwylfTpCazFdzHz2qFTBluX6tTvQmhrnRCZ5DuQAQAgBABbrxMg
+rfQfG+4QyQJMvtbx0xLTY2FwgbUirNtctqBR1kXMXzomLSCV5FJSpQavqhPN0R4w
+Rs9/xdJx0UGrtbljAphpvMdPztL1+W+2ahlu0YOlPPz5Pe8FDBXAprQXLQw=
+-----END ED25519 CERT-----
+master-key-ed25519 W68TIK30HxvuEMkCTL7W8dMS02NhcIG1IqzbXLagUdY
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:06:27
+fingerprint 87CB D3EC 2D5A 1548 701C 1B84 2A71 212B E0DB 5EDC
+uptime 605562
+bandwidth 102400 204800 115197
+extra-info-digest 234D66EC924D399B5AE2AA77149D5317AA75A357 uXPbxihIJh4a+OXlkZTy84j7VlgcJpRjKr6X6ofMfjA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOs2JBq2MBt8rSITodVBohGeVEI4j14D2kamOR/nkbyEoCVWt8eiLSqj
+5Gd4IRqzEOnbmE2dVKBHu/sn3c9enSAITjB4F6xCX6osLZZkAc/gbhxFJmEqk5LQ
+bgla0TSSsWRwfg3x10s4mZbJqruAmfJb4jlMiZgK11YZNvEhsLmRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANUvGJd2gIdntlS4rOVPe4o5Zaf72YbYYrdoNEnU956kPmvjrOkMSdKK
+tO4wKkYHqBA+FPh04Ztvi+S1SWCQLLhEK/3t8qSXYmF4Jy9beXqkoHs4y4wD5A4W
+T4MUEbYa27A/PpUi8yRYH9yjYowscMEmxrfx/6dLf6FU+zvRKSWxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+k2aumgbHK+VP9udCcnvjheRIpF+dskt11YSAe8eL8l+YPgbvMlLWyd3hbaYTxpaP
+MZ/XLAo1mrctsByZfp+Zfjyke8CLw/I5sw/nDyK3AywCUtjBQgF8EIxwWwTnxO/6
+Wh2nW0xiaQawn3vo+jMFqjdWrKi/VDAdp0DmzKSxp20=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAVuvEyCt9B8b7hDJAky+1vHTEtNjYXCBtSKs21y2oFHWAMIo0Ziv20x8
+DO1ks0tIOiyPC/AYDLYmLFIABrhGKDVf9GrZPlmSq0muQA2BzVbNDG4KoDyXlEpm
+0ERENwocZwU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Ernest Kugel <erik DOT kugel AT gmail DOT com>
+ntor-onion-key b6UmQzUx9GTMSw0Uo8U4P0jXFG0kcxbHYVgS85PfBSk=
+reject *:*
+router-sig-ed25519 ikTVQRG1ak8zfQxt/udnIhRt7isiwPPGLFmbeVku4OugHepdFmqRqsL3ILxsU1rq1jZhy2DihsAknUimNVRnBw
+router-signature
+-----BEGIN SIGNATURE-----
+UFJREv2ZxOnChEkWKQFdum3X5FNs/QatjJJmTC2XZhC0gjhwBTazxXP1MSXFkC1n
+LEjxKTgLvaGxRedFQhd/c2a13Z8Csdq3nbeNLHDjWpSdYx+KXv/R9cZa4xnoNVsX
+vIX2qZq1Ji+RWtGRFyODpFlHyJ3CYDS/3Fiu2VO/pSI=
+-----END SIGNATURE-----

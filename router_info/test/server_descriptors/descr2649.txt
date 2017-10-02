@@ -1,0 +1,51 @@
+router torrorist2 193.138.118.94 50001 0 50030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJfAYfGSfRORfgpGWkCpAInvjdDOCBVhUiNlvTPbMAZcGlNAQAgBABvVCrz
+IDuMFCT9ePBzrwZSpnokarIt6J2nWPxfUKk+3opz4CWcgU+jBRxzotG5/mM9YXVJ
+6U0Vh2kO2KlB1xBx9MCJvyG8MhaALZdZPSHtRjEKokdrk8EafzD9H6Y97wM=
+-----END ED25519 CERT-----
+master-key-ed25519 b1Qq8yA7jBQk/Xjwc68GUqZ6JGqyLeidp1j8X1CpPt4
+platform Tor 0.2.8.9 on FreeBSD
+protocols Link 1 2 Circuit 1
+published 2017-08-28 18:01:40
+fingerprint C210 F79B E90A 39BB B635 925B D1EB 0100 0136 2B2B
+uptime 26207666
+bandwidth 2097152 10485760 5000726
+extra-info-digest 9C4835AC17636E5CE7C026A91B194861085AC391 hzHG8PDNXdcFaP6MHYcSbFvTtJ0+RD20quaTcGiwzJY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOaDHVEJeNR2uK8v9KRRIPvvcwzVWCGpxGsP9AmFehEcqSnVp0xq0P3Z
+q7ugjHrEZ8zdT+d8cIQ9TIn72a0uWTDFR/LRIPfMnI2QZsboiYGMtpAyStVRSKOo
+6ugtB71VvcUE7K2s4LSpGIyIMLezIru3ewjt1h2RzvK+pruzWiSXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALND27NPztae9jxeJz04dN+MXm45iwUFMtklICRM/2Zm9IlAQS/8Zgr1
+6oLku/jHnSe1xICH7Xt2+QB9GQZpbLfu3gaUUk3oz3jzAa+covzq8k1Kbmgc+K4X
+XsCe+aksXpbtguIsAFrgm/oqEQuTcDrNc8UsGjEQe0zZ2dEZ+EglAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+PQ0nUUH3CiZNbRQ6lDfY8hFGS1VvFIbL0fYOSEChETQMm6JKMLbiiPeT0qd7EoVJ
+2DTqMUWYLQYegtBcw9PbX8vDXroiDpkj7mFNauQvUdnZqiVQ8rHGq62KoUOpeMEo
+bc+3RfEzVOUM1Mu8tJbn99MAgYYLdimC0KiAdSCv6zQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAW9UKvMgO4wUJP148HOvBlKmeiRqsi3onadY/F9QqT7eAPSMKOnxN5bT
+vhsj7K920eTVBRou1tztc+I0SNe8qNfr4Hf5nebAzC290qrn1ceL2LXeD9NhfItz
+iPgwvc61CQo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Nette NOC <info AT nette.pl>
+ntor-onion-key mwWBIYuHsRXsrKvtyFlvgbPSeVqVbbrg0VB+pbbXXVs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 d6bL1WeGRwdZaaJupgiKKLAPkkpUdyi9XAP1B1a3b1ULycMwzSWNy/0h1sBoWVwmpyJ+rYGnD3M5WR2MtD6QDQ
+router-signature
+-----BEGIN SIGNATURE-----
+IZ4bTqKri0Pz39JR/I/6T8fsMe04QaJoxDta1/aOoxIcKcR0XwHAKt0JpAxwmIka
+JPakgaD7F9EsRkeUm7o3qMuNMX/bGBLPhVz7wY+vrw+zATo2tiP/6QKEHXIPlaio
+vEfSV49HS1I7LvHvf0NBU5Ch41qznKJV3jlNHmnAatc=
+-----END SIGNATURE-----

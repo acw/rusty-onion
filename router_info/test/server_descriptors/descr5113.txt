@@ -1,0 +1,51 @@
+router Heimdall 178.32.71.248 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAVAdqHvtzp8AXlwZoUbqa5J++KaG7ii5GOa4TD8pOBsYdqAQAgBAABItIE
+kE/7XvXRkdkwHQptsM0hysMJznnLs1gmwXg/iox5TPtMFCEl3GJKpbUFFB9ouH57
+GvEjxtczTig06mq1z6RL3GwOkxdbW53T8zcoG015AfipXogYmvU5qbrF4AM=
+-----END ED25519 CERT-----
+master-key-ed25519 ASLSBJBP+1710ZHZMB0KbbDNIcrDCc55y7NYJsF4P4o
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:33:22
+fingerprint 6493 7BA6 9DE5 CC94 BCFD 970B 3F64 FA7C 600B 6312
+uptime 620028
+bandwidth 8388608 8388608 8618958
+extra-info-digest 52D8562FFCEA03B913E06CDAF3B0673C8DDE7684 PsCVF76CkfwodT9uK1pBICTYtWCJ0i6Bsl/0DznhEVE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMzt/If7zG69xuBk2jgo/9Y4Ohno1WiKR7avUw4N8sqTV7UXTdtP0JEW
+PYjn8taR9vC0tR1SuhlnyMmsyneiKXHgjA/usDepkl0sYCk9pqbX7rEFLaOQDwpf
+n+hgfwMsO4aO0gQ8QpxosA7KNEUUGl6lhMA92zJOZJt42qIIswelAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPsa2J+izpGIWWLh2BsrCenU8bRk3uRo3bcW42b9xDEq+t2/e+9y4R7u
+rGLuDOP/9seidusYAVx6SUgTfcmu+n4hDIGeTaEKLlrvMHvxMRONetNcVh6et6je
+ozJJyyxPD2xDCzdilJeNUoDQyR02YizkLzakY2KFgbxcdeRVUhwpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kNM7JfnF/yNW5e06myFHoM/d68JV94Hu/mUMbz/9MuK9BZMVlOWQ2xB9ByuIBB5q
+igdv9l/L1+LERPfHlSk4AhRO7HiwCyv7GsnNjLwVqrnN6KZsGpMKCQS4ljgReiV1
+TUF2RA3eXrzIASJsU4puyOnos9FibmbCMp5RFbFo0Bk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCGAQEi0gSQT/te9dGR2TAdCm2wzSHKwwnOecuzWCbBeD+KAGQcMVYkOvCD
+Vc8pEMiMvXwmtJNi7Jwi0JYh3bLLx18pPfeUMmwKxCwUQUy+aUyzI9rtUHcCA4DF
+UgfrAB3ekQU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact shadow <shadowalker@milliways.info>
+ntor-onion-key GAoMjdSISBfvl2qZ1/WIuULl5FmvE8sKu6nj7SCJSUA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 tsx4TqrDnvc074w+uSx0/hk2AxvXYBCLCkMGIuJbA5IqBJiHjlg4boLPj+QBpdxwLZk8eMVIJCWM327EbkXYCQ
+router-signature
+-----BEGIN SIGNATURE-----
+nY10V9iM40Al6Ey52k8mft4gmTs/JDQk7zPTLSUzwVA5gGTHNG9kPviTKyDJl2q7
+whIQ7UyzPR0XFlf+AILYZFNWnVa9CWoRv2y51+yKDAI6sCvse2mlvJMhpziWeyJB
+VLqn/T1UV9fIxM9RV1iv9NaWzdaJX/rfbGXhT/gXxEA=
+-----END SIGNATURE-----

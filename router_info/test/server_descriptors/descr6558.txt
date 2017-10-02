@@ -1,0 +1,51 @@
+router Bergerie 88.178.86.202 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDrAcVVCQtmOmWAXqduCwCYsSqiZfr9cQE6WPeTccmW4Xp0AQAgBACUS+AD
+De82GxMhpqGT7Sq+uC5WIBfSMM0IzCNkIQf84b0el+/2NDVzeVRcWRGVnWc7M3nV
+DOwqHjVTm80Ja2ZKRdc98jzhrzs3qRRXxtadhkKphgyEr1/pmAyYX8qnoQo=
+-----END ED25519 CERT-----
+master-key-ed25519 lEvgAw3vNhsTIaahk+0qvrguViAX0jDNCMwjZCEH/OE
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:10:53
+fingerprint 2DD3 617D 9210 A811 DBA0 C3B3 6385 37D1 1423 2FF8
+uptime 682476
+bandwidth 76800 102400 82404
+extra-info-digest CA7D79A0E04EEE60190CE78D4E05ECA3D4DC3306 PGnSNdzCj84i21qDcajbZpb3bcnUxPxhLLnHlub712U
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPEBjnWLRg5YF7Ub8Kls3JEvYeZEUWWs6tnkJQHA9YeNHc6rInzDjaIZ
+UFxCNz3RtBoNBgJLX+god2o7lu3Rvh++h3JxwPmXMxyj07J55oDbD9mAbj5NbZwQ
+KaSr9EBmyX3c1ob/hBBSB3vtCAStQdOzPF7kKw/eVsJ4Q54+/xPHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL4kx3p+J3qBoTtsgC4hEFqhVIsRQUcjXhwvfl4L8mN5yri07wDKlFkn
+TXccwrfR3T+9zEvQ9dYUhZynnJGWJ69asbH3Mk9vyGeSks5mYuNiOV1oTCt0P5FZ
+rTIV1zZQs3s6p0yHYXtVskecNlK0Kn7Q4/twRv984ZJX+flfMT6DAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+1sFZtQer0NDXxGo+NWm60ZuxX95nSY1I7Rsdt41z1cowLIgaVy91tXoPAKoP8AUy
+HbAWl/faiVt6Jrv3+eEFgya2S14sauOiGSOy4/bXf9gjTBCqW6HAJMoszOUD8hjB
+NJfTWRjt/c4AIuxlOZIIiLs5oS9jRJHCwtLvV/DHNS0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAZRL4AMN7zYbEyGmoZPtKr64LlYgF9IwzQjMI2QhB/zhAHVGxmScKgiy
+G3RvXJmJbvvnBeWsPxyQ+njo12scf/67SFI5yOFZL8JLjmvLmEBoxIIAUW0hGTSK
+tP8onB3diwI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 1024D/4F03A6BC Vincent Stehle <vincent stehle at laposte net>
+ntor-onion-key 6yXpthoaZQbksfDVz7B4AbeKB+yRKuDfxjHFyJoAmnY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 5fgCgv7k6cFtszfczSugfqUCofI2IpFxXLgPH+qiJ/ZH+s+L2mSYuOVMK6V9PGTuWSeGrk6q/k7od7QruSlfAQ
+router-signature
+-----BEGIN SIGNATURE-----
+euMouTpLOY2lwLB3Svqi5y+kpglexG1lfzrDZHjj+f6mqE4NpOvOHWZr6zDDMqGL
+PMBv2V2vW2Qk3MiRBUwlcGvP4L8fE3/OwDxdCBkjUIN0CR4OEqTqI6TyjUOwKBQO
+BVkPP6KawfeTDneQp8BDSAyHlqpqJWs1WgNNUCKpdbI=
+-----END SIGNATURE-----

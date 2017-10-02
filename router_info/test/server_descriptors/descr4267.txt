@@ -1,0 +1,51 @@
+router Logforme 85.230.184.93 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBlAd14BLjiLkNoRXLUOdUK1hoSSyv+1Qq2Xj1naXHuWJU/AQAgBAB7KBkt
+/aqxGH+o00NKeabqfrKNtDXhkIiw/KvPy3hndrZ4aE3U8/ARw22/84mJjiWsTJcL
+SIrfqgRb6ODeRiqfj+x1agRL7bBAXOWgLQNeEFE8XCNNRal41czQnuwVnQE=
+-----END ED25519 CERT-----
+master-key-ed25519 eygZLf2qsRh/qNNDSnmm6n6yjbQ14ZCIsPyrz8t4Z3Y
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:40:55
+fingerprint 855B C2DA BE24 C861 CD88 7DB9 B2E9 5042 4B49 FC34
+uptime 4704575
+bandwidth 12582912 13631488 12542715
+extra-info-digest 10BC6EC86EA71800DC9631C4609C5E0DDAA07FB3 /unKZaZ6hil+7ROF3X00xOap33XnNT6PhOqAF1XZ/GM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANLaZl2beqLc7f3oMUKMLWo5y9eI2MaCaLygTX/GGd/w6k4Jfg3Bdg6w
+fGUe9oagpnsh+fF2NZUWiD9lvvL6gbeQqKrBrq9/MjWQFfvdcolSnQ/KPgCjWeL3
+5g5z2cPrb/fy+fMvcAlTWGVv2GsupHsvdIhWexz55kNH6dmuhohvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANu+hVw9rQ/domvgzS3ug6JGO7eq3dyi6GboHxVSy1pozZuPFsBz2m7D
+7wonsZZihwHHOLC34C3ZFNA5wwLOHcqiSxAGv6y8Tf3fl/W4gaMfgGsFK3qDxlX7
+mo/CXFFxw1lsWuRxXAN2mwD7r7lwWeZtyS8q2RFPRSUN9pqJS3prAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+z7AVdzxS10bXRXASzAcQtknCPXZKsVLOr/qGLWt37PGstbhWIDnKQ6vJSLPcLTZx
+0JeNEU4v3MWJazvK9toGT+i49OkdMS8+VeYYHuO601hXj5xTlPV/moifkNC1gmfb
+go98h8tq2YE2BwZ98QgT4JR7qxmRisInYmA8q+MPicg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCJAXsoGS39qrEYf6jTQ0p5pup+so20NeGQiLD8q8/LeGd2ANfbAW6H/XFi
+s/hzKfiJKgzilN7y7KEj/5QK/YzIx6PoR5JgHebRpI+f//tDvwpePThxHamCe8m4
+l6vJzDfv/QA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Logforme <m7527 AT abc dot se>
+ntor-onion-key bAPedqJF/R9VQ7gVXwSuNDeW9nQZyw+l6mgCmm6DzHo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 PLhUflfPK1f8J9/mXnffI3ufPbwz1Lw70D55RpmQ00vxyXePnKjprioVXxdNvG5LlX/A7cJuB3YXYKlKbawnDA
+router-signature
+-----BEGIN SIGNATURE-----
+lVky2/pRGqm3+kOYvJv3tk3K65yuZLIuktMAB6hVeqakzBslt3m7nsCeyBm9oXwx
+bcA6iZMtyh9xjLrv7fddKe83/I9O+xk9+9+xd7Nb4epcE8KuvPVNms+AGPog4StI
+O1rDmhR6B920VZ2ZIHpU4OveUJvZaLrF3E8hf0OxBM0=
+-----END SIGNATURE-----

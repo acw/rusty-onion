@@ -1,0 +1,51 @@
+router XOHwilhelm 92.222.181.123 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKFAe3/HThKnUaEWjVj26OY5TNPAQWjoSz/Qe1z58w/+7oiAQAgBACL78He
+qL1kX1fPJZZAQ3OTTe3PQo/5rNKxiwjJBiTJ+v0sqWP0CCeOAbiQZnETLy7kYf7D
+ebHRuf2aNLO2kGEoMGFpSsQkurO13V/gLiB5pttvnyYZDvkKFoSjdRRe2w8=
+-----END ED25519 CERT-----
+master-key-ed25519 i+/B3qi9ZF9XzyWWQENzk03tz0KP+azSsYsIyQYkyfo
+platform Tor 0.2.8.7 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:14:30
+fingerprint C84C 479E F1E6 65C0 2DE0 C4A2 506E 1786 6BE8 8C72
+uptime 2173326
+bandwidth 1073741824 1073741824 1094370
+extra-info-digest DB0D12C39C26C21D0937587AEC4D306196B699E7 HqxpZk3WeLjwiD56oDYZ1DVZALZMtvq4SzNkYQAqtLc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKs/D1Aizq7EsFxOEW+99hNzxe8sABgGuvNI3bsd3pW540Jp/6hmh4R4
+5IM9EixWbiXHdU9KicfSshih+0FFCZ46tUAQBmyE9Z6/w1wau4YS5PyDnWrSoybM
+GoWODc5SccW7Wn0XpPUlYmoF9rF63KFG8DwnvBc+z2Qgb78tWordAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMmdOBV5X04lpU0yaO4m+Xw+ieQMSnen7ZdZEo+i9CyYZBavFDYkNspV
+Yx1YIC/OCnJR8fCEAlH/fyTYlUYTF11rK3d09mb2ZtAojsdtw0cRu4p62TuFCgjW
+R/EsVSUuTBcuYAPlGurC/Sajllv38Fxghb33MG2NakOhzjxw61ohAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+bvozhUIuTW1tBpwSNyDf5XplB0snE0pHsIF1K/pKn8j6ppz+ZJUErpOL+pBygoZO
+9+FXIOH1TBIXLTU80n4fIrFBfE11ycTCHKFC/HDcqQ7ai9JxAZ+Np/oNfSOIAlTW
+fiiN9ryoneKmH3M2xOHVlhyOj7XwoDYn5lWEXjf8xwI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAYvvwd6ovWRfV88llkBDc5NN7c9Cj/ms0rGLCMkGJMn6APvenP+sDSyi
+zycEHT7tzfpx4bcGKsnlYvg1TwwU2tSZd0nADdS/ATjvpQzGKvAjglC1d7yNtg0D
+ugZDeeY+qQU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact xoh wilhelm <dinhara AT me dot com>
+ntor-onion-key dW8SROp8WhYGCqrSfiZz8pFD9/D7sHtj71WdC+UD0jE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 y0Jxu1foWoJpqbnCP2U2hK2FrL/TzX3xFteSaI0q0I2281IwTJBcfqElSoYZzWFgBT9Oqa5wos72M0kkkL2yDA
+router-signature
+-----BEGIN SIGNATURE-----
+PE+YCWNT663dVj4fvo7SFE8jt2j/cYFDVtiFD8CriBDSjF8OkY9Szt76//aQRhSM
+x4XGowGGiBqWXuJsEb9VKMMilvqMbc6YLFOUo+AhUykkiE+mQC+hPxjf+5R3hxxC
+K2X2Qxr7SpO71axtTlD5asn/fMtdVy5u3sticJCBDoo=
+-----END SIGNATURE-----

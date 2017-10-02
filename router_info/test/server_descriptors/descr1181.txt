@@ -1,0 +1,52 @@
+router torushopyard 71.204.188.148 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCfARPkFssX3WlLhsGA4aYldVrhlAEWDtmse2zPL95jv0lBAQAgBABKHY2L
+CwVLJflO3/llnuOu9oZ/2Ti3naks1NzuIXSvLcUUmJa6Y6XXsEhcNw05oRYu6k85
+9cfmdkTlzjgizU2AkwortW1cXHkbOJ6Z2r4HHnIQFnYZuylCWHAg7V3ihQw=
+-----END ED25519 CERT-----
+master-key-ed25519 Sh2NiwsFSyX5Tt/5ZZ7jrvaGf9k4t52pLNTc7iF0ry0
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:37:55
+fingerprint F864 BDEB 66C8 A11E 2094 5684 6499 C2F9 9543 5797
+uptime 64867
+bandwidth 524288 786432 635275
+extra-info-digest BF609B9F47C92772B238B9F11F50A98E3AB93DED 6iJNU+2aIqAFXUhHZ/anlDRlmuJ0I0VfzLTtm9F2YRY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMMkgSa19qsfmq4yxMCUl1dAyu0x9OVmNhLdsvp1kTI1J1ICoC0WiiSn
+pfqWwxDvyMf9ulKikN14XBWjZHSbBL9aPzAe/Uj4Is7CsKxKqNKo40iXRyKLG/BY
+JBTvUsIOaVlho77+IIrq+drNTBGYk6jH5SXaGyCytxj4AQkq38BLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALUWx0Qc1bul2BPszloh52sdHeNUFQ8Knc9k0vUz4ZUfbttdPa/29D7m
+TjaWMpgE9c7nmzo+J+uw8dAx8YXLeMZOWGQHbqfa4y050rYsI14T6pfzKIQ27j7i
+GeM27JuCu6yGHE9IksZgP9UGhFCCILIEzvjxl/wHr33yay6v5AGdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+p4b5NZ+lZ2GXWr4SjOVupCZ3giVSGR7D/j3Jpqq+LD4xhsPQs9WrrmCdp6vq9C3b
+PwKngZwaP6PpJcvthk9J8CRAx/e9HlDZSCR6C1PpGCZKZm8WNM4/90/QnGmVjU3s
+xPatzaUhrrArNfJ5gRnndis79oGELeTYo+6YbHw66d4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCPAUodjYsLBUsl+U7f+WWe4672hn/ZOLedqSzU3O4hdK8tAIDEg9pHiJt2
+BTfayqnfdpvDFybUNj/cPUDvXHUEnW4RoIlS1WGMMsBJ58G17ImYTMaVhh0kRoRg
+t2yS7g6lHAw=
+-----END ED25519 CERT-----
+family $D25EE92116D1635A41A6F7E478D93F6D08C037B4
+hidden-service-dir
+contact CK <tor@nerdbynature.de>
+ntor-onion-key iVJ/7XlJjM2KCCH0foO9wBNbFeqvHVOomDoCoKEeECU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 9LCmMI/iWPeVFajjEQZ6VXkWs/9wLkzMvJUKbyOYIZjltcp6/RIIKSf4Y9hK0WLzLRpI38/lIJoxVRPssyKLAQ
+router-signature
+-----BEGIN SIGNATURE-----
+K02MTEt8qbno2j9tqvvtK1kY1KUuKjRYbWSxdpXiONrmaSUMcWSLscJY3r7wBU6g
+O4Sq32nQVFo9NtHT5C3dHovn12sI49IhRVbNUjr2NW2kRKwY09plt/Wu/IRDdHUd
+TivCjYOZnOpDWRBSRc6udgo4+N4dKgn0eXMJtZy33ec=
+-----END SIGNATURE-----

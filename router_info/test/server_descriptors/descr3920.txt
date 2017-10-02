@@ -1,0 +1,51 @@
+router hexersgate 151.80.40.72 143 0 110
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCOARYKOaqRgBCUj+X3fdIMeO9shv81pgw5HhW/HPl90xyJAQAgBAArZvsd
+rtLEHW0J4KK/HQSNqKtfK8L/8P8cngQWouJic65ARSPoaJURz/+LwefN/0ixNXKq
+XHJJb7CR+X7CEBf0rCHXaX7LsgaD5UdxtZcOnn2jetJc3r9HKYzA+2klUw0=
+-----END ED25519 CERT-----
+master-key-ed25519 K2b7Ha7SxB1tCeCivx0EjairXyvC//D/HJ4EFqLiYnM
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:29:28
+fingerprint 9263 44F6 AA5F FA5B 64E6 7792 9BA1 18FE 222D 2B10
+uptime 198154
+bandwidth 1073741824 1073741824 4610898
+extra-info-digest C22579FDF37274771FBE6477C89A621E5054D63B eabRTCCAbn31/QIIqR81GceUkZ3fH7SxobKJXEVjYn4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALuWhi3lhvV6Gpkb/IqPcxD8lhXpQStRLOCc8DWauPKeCyrcALu9T8h6
+PA2/7DhUkGswa31v7vxsK8GidekwWDc5Qcjmdfdk1b+KSBey6vHnnKHRojRabr4s
+cKfaW5Kx8+e11Ank5VrbFNawMKkxRI4OKBvBtGo5rmqeGB2wUr8xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANtwCZ8ATdf5ReL1Yc5EB6O5RT6W6g3l8SJBiPkH6XeVWk17PsD0wrMM
+QpkFOie6wAkypoimoUANOTjTeimsZmU5RO7KlfcA5vdz9N5q7kvSIhrUVv/1nA4a
+tASMXLtIOZeFJjw7ww94bcpXOX8v8ugcFUaulf/wOvYELJD7UGFXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+POQ+J4c5W45AWrzS1YgrayLBkQ8YIWPhkRdQvHGacVMI0FPpI1bqi9MSenVn9aIn
+CMlAZlRxRh+ewTTEx2W3mu7xh4KvoErKNsK1DU1bzBoEjT8RsBGjTrLHNExrJ/nP
+p7DFxNQfQOAqRgaGEmGxZzWv72ygfLkRdQ8tANJOVBU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAStm+x2u0sQdbQngor8dBI2oq18rwv/w/xyeBBai4mJzAPvxJIi6vTAN
+BNH/pwlOOY442ogr7M7UTbse6w1nQ6INtOI9mdtvsCVPnhM7klpVctDJdCZdUdcd
+7T35Kb3qWgA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor at quirty.ch
+ntor-onion-key 6rTuGYhT0oWe1sLm7VAveYpkWdqQxf+5rc5om0CmSGQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ElAMTIqGSA34Eeqkg6hYydJexu+0bIip5fg4HQQcuoQ+ZjYatNyyYf0Mqm5oIAQVnKHxmFW7K5Y6F/U22QyCBw
+router-signature
+-----BEGIN SIGNATURE-----
+AvAwvofQQPdZF3CmeCvgXwgDRxbA6b9gRwaJSqaSKWsE4Zd+mUzYaS4f9PINEtqI
+skWCBjedF9QepHcyw/enxPK1Iw80sREVNgIRwrjJhdKzBcAc4OWv4EUQ1MoFJkm3
+THF09NGVNyt180p4aiWeB7KrK9O0S2cnGaJFmZxCu2U=
+-----END SIGNATURE-----

@@ -1,0 +1,30 @@
+router MagicalTorRelay 73.25.143.5 9001 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:58:42
+fingerprint 4EE2 3F74 5C2F 84E0 71CE A4CE 0ED1 AC76 2A97 57DF
+uptime 405168
+bandwidth 102400 204800 120457
+extra-info-digest F9F32A17782C1398F2BF0EDD0A451DE9F6BC8CDA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALeVcZH5q+zJTndL35UrDcuuEZ7CHUq8y4Iginq047+NmkKlJ1SHcLHO
+ZeusK81lPQSFTbtVWSNMbDOAHz9bwCPmF03jEU1/vgixdci/Xl2ReV/1qwhcqKik
+2ObkBXPssb1Yn93Bf4H/ZeshIwo31WwN2rNJ3NLSyT/SerQJsmNBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOn7DZWd3kVrLrQiv8+Gl6JHwkiEX2HqY5ShA4ptQHayFxnQT5oD6tuw
+/sS2eRHukYasQCjPBuX6xWiKMQthCA+1NR+eeJgotVH4uUjI6FdCuQUnfyLO5l+X
+wiFGi/yPL2k7nC4Efwbj+sj6KYaDZPgklvwNPc/LOVhMAVuifJd9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Email: MagicalTorRelay at gmail(dot)com
+ntor-onion-key gM3/pW9W303imBkKDkVIx0sCabVG2UBjtahWdmGY4g8=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+GsVKZ9bGejylm8h6jHEVCYmmPfh5NqkE5KlIP7lbWeRX14oFuTp0f/Pt4Lk8jj4V
+NAdsb6u7WDD/bxZHfC+VEBO5ZYHJ0zLCSWcGlQvwgzg/3QCIPfG8t41Gy+Y2TQUM
+duyOw3QEubgwjqTP6DiX5zcbN29lbzys0LjzxN23n9E=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router ufm 31.129.166.78 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDVARjCajaFQ+eWhhklzR1Kn18HcEncKzsf1LAANjVl+4YtAQAgBACCHq7X
+VNDWY196Ghv3Kh2YaBKb7q0/0EoWUr3fCRBfAgekN3nIyYwLW7mr9xZVOHEhhHP2
+fxkBiq/T+zSXA6voNjZY2cgfPlbwOwH0JZij7d0RhCoJABdsX+dYkf/T4Qw=
+-----END ED25519 CERT-----
+master-key-ed25519 gh6u11TQ1mNfehob9yodmGgSm+6tP9BKFlK93wkQXwI
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:44:33
+fingerprint AF77 AA5B D924 3195 10F9 9B30 CD09 32D3 2B01 B5C5
+uptime 6040845
+bandwidth 17825792 26214400 8423207
+extra-info-digest 15AC39BE1BC4B43E7F72EE50843C3B809CC5AC95 72QOGX5PMYCb/ehg/dI1TmtPY9VO3HYemPeDE0N4oUA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM56WzL9FF2shPkGLOsTPDqYB+lYDVccjob/kYs5NdmkUk4IJ6pYS3oA
+hS/1du4KFvxOF2nBydLtz3P3vysUw1Z81HaKMyyxldI8I8nLfb2afWIraAwh++7C
+3frCVLvgm5AAG2YCRdEeUjJOas6jR4ZsLT38IZwyzVwFW02gUU6HAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMC7ZN3ovhXR9/CAiFt7ugHvSskvXyqBJfD89yeg/YbtvL16yHlzUXKn
+2V8xi4Mcm0hrEmdzO5PRIu73RqhPeNFJM7G/TgqYDDJafN8M1yZ+/ZZcddoigXqe
+7ZhjGhsbLUMcxCg0LfQm2hU/hLSsYAKAshgsYIaHko6ZGxI2PzuJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+vaY/uovvOXb+bQnu98glYTFdaMn/+lRUKUmHgLciSPDD91Q8VY+bkjF2qDmP9Lay
+bAFQHjCqwnWeGLZoCgB3OT0K6xMQ3e4LzhAeskSJ5MY70SYPgi2uAlfCxvRp+RoW
+I4xELQy+n9I0s1zWFgbHkjEBgKSw6snO621t0g1Wa8U=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAYIertdU0NZjX3oaG/cqHZhoEpvurT/QShZSvd8JEF8CAMgRW46hplmj
+SN1+MV64NrzmEU5twf9mQz3APBIQlnzovhxrBtmSSu2lENXfr4UW80z6bKGW5qvb
+mS/TmFS0rQY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Fyodor Ustinov ufm@ufm.su
+ntor-onion-key DiHexfPaecasAc2lVgP9fyTo4mUotPEtHMAtymFNTEA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 lCbtFvOD3KYKHJNsz2+i5ghPwwYHMO3zku/Uuz6xdfqbDvVtOretbNryN+gi9XC5E2hcy/xZcIzoNI0UC4M4CQ
+router-signature
+-----BEGIN SIGNATURE-----
+JPH00636U37yykldiDVWrAVvdxYi+1dgeF7/W7AGJ8jsIWkLzFATNOTqUGlZIkv/
+dLEIcOrVnUW4UioDnVUn8DWcEXkjastE0sEjiiI41+d413mXFFSZrvedGFz3hm7/
+27QQU643FYe9uFVHP/TDU10HHOeUQUPFk1VWexOU040=
+-----END SIGNATURE-----

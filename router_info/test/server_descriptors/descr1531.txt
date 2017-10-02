@@ -1,0 +1,51 @@
+router PSV 78.156.114.237 8443 0 8444
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF2ASfritPrVcYOmPVZ/1Tma1pX5P6lTrKsRaP+bmsRJHaxAQAgBAD/jkzY
+4x7M/85V+jOzeduKHXFlKfMHg/YZ6YjtLmdk8pUQjwitCKPkeAVkkDFsfm341+Fu
+FsDRXHjp0gDLxAoe6Fgk26UW58PQwApOI9JMWZhuFuPkCRsrVxC9oVyTMgE=
+-----END ED25519 CERT-----
+master-key-ed25519 /45M2OMezP/OVfozs3nbih1xZSnzB4P2GemI7S5nZPI
+platform Tor 0.3.0.10 on Windows 8
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:32:56
+fingerprint EB35 E154 FE80 4EC7 4407 3814 9307 43AD 118A 7F87
+uptime 1520374
+bandwidth 5242880 10485760 1955709
+extra-info-digest E97F43441A11F44236205B6A5DFF473114FDF2D8 gb3NaS8inKlisU6mTbu7KpT3mjTssmlTk6zdqRh33jI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMDNwGoBTS/wQfEva6gQNk/xIXQQqIxep5w4fiNIXGoSWZ+LntaCM5gs
+u4CAMB2JNgHiZJk4L/gO9OsSOFicoqUZiBwkRDEHWj/x8Qxt5fiSFk/+haUAqgm2
+ZrFLHb70OSYz4x5N929k9pMR+DMeLzbOVVW9F6gUSTYblmNmR0NlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOnKljtaYZiBdLkST4Fr+lOpWg9S/1qsWQXihHOxbdsEvx51d7/+w0UQ
+ZMDcK2gL3KHA9xmBG6llJOIkOX2j8AVqbKO9RlRX6qh0sVDGVgDW6RTdV3MPNGak
+O1+CGF9DViXsC8j3AsfRtVX0Y65rTNUTTd4FfDqa41JywlteqGfnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Hzs+LUdwnEsus8L2m+tcbY64jvJ4kEYySEUiiuf/8LH0FgFgXm5znZG8HpgGwnic
+k3D5jkBLMwf0TgG384QbXeR58+2QxxOJoBaoS0FV91aCvAyl+wmruK1V5DRkqTrY
+Ql+FQVP7vPJLA7fjtVeMCRbFxLAyiF0rydIesHyCT6I=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAf+OTNjjHsz/zlX6M7N524odcWUp8weD9hnpiO0uZ2TyAEstRzTTgcQ7
+06qBMocNowe2TuwmGVrVuSd01kF/jah0Zaq7Aj+Kv5fawJvKmOvJNiy6E1NYjNq8
+z3x7I3bj5Qo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact eehomann02@gmail.com
+ntor-onion-key M38MWc2gBRj6Xz8izPcv3qutNJ1BSIzZ2Hu5jjlR9HQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 m48ImSpqsey/Y8WBPgDArXlSkCXmJYw2QLYJSE3or3RSOCl/fKTkiUr78hHYXRoHPMCSj8rG2UW7BAOBq7PUAg
+router-signature
+-----BEGIN SIGNATURE-----
+TM7FSwtGgeMW2TSxcszz6Cc6dbm97lcXgHudpe3/GtD75EJcSv5FnBpuLUAGcm2r
+XHT0iG87WrP1xvi92eGdHk6rPYRA+e7CNW8CRoHU2aAt3nb5wRq4DMkQ6VnAI9zj
+eBjkA0KIWDp2H4vILYBLokdG5MxcUomfhs+gVwDVfrQ=
+-----END SIGNATURE-----

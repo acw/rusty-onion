@@ -1,0 +1,127 @@
+router CalyxInstitute15 162.247.72.202 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKvAWhh175u//33A1diRYfWSVXgAOB2Osr59MjhOXl1a/lDAQAgBACJT3tI
++mbz5oj1xRAd+94icF3WY/zTVzKxt+h92w1a6aXvVVnKLvMEOwv3F/C7uqri8jt1
+6Ltq/bwucm0z7poDN8O2k2/C1Ph3msY2MmNgkC+DfXdQ7mvvRuv2LmWgTwg=
+-----END ED25519 CERT-----
+master-key-ed25519 iU97SPpm8+aI9cUQHfveInBd1mP801cysbfofdsNWuk
+platform Tor 0.3.0.7 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:50:37
+fingerprint 47E4 9319 DD67 784F 1E65 B579 3371 BE46 7365 979E
+uptime 7168682
+bandwidth 10240000 15360000 10605627
+extra-info-digest 70C5EAB53B93EED93A219BA9F449E531840BF885 yVwMXw9GRW+omIwq7ZSfqmm+naAfhehuQrxtVv01P0Q
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALtRiywlF9+fNaDl69fudl4UgL/Brtq3Zz8QyUz12tSNi58FOZyghS+H
+y2sIHEWHYVSnidzPKS8Qqf5UEKOXb9EA3Zq6Oa+VoTMRhWg9PUP6cBN2jsmKvcJd
+WAQjmGu6YSc9+V274lA15c49dmbgT7OTKBQ0UqjPtJlMAPPE440DAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMhOdhtRnH7hjhOEUkWOlLUqPliknY3XMZyEn4DRgGGnijDoCa2QLI4i
+ppba33MZ+hZxN6UwtTLFw96nEoEWgi1ECqMMiyGCXJfSPgRAOi51sKbkk87+FQWu
+HagctXFEGAWpoHW8gSfiW+EghSyib+KVyrDmCbEDkKj4d0hXZZ9HAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+SIc0exHRCXZsqze/KUoC8TbPC+PQj6PPRpa3PvHwiypZ3PpB4gmiF4iRlUKpS0z1
+JAZ4X4E/d0TK9VZnqmC2QIVrGi+99vuizLSVpqUs7rZCWzjfnGMVzVo3mKfkjWXB
+VIf6HK4q9E+BRsbFpPwHEAhXugIHSK0MOC7/2iKOFLo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMAYlPe0j6ZvPmiPXFEB373iJwXdZj/NNXMrG36H3bDVrpAIEgwwFc4MXm
+UWDxw5cJawKXUyLbXERsUXNUBgzH+jJt7dlJtkC6lnV/SI3O8RuvjRnCVI5QSzBX
+/3+8/F5oRwI=
+-----END ED25519 CERT-----
+family $0011BD2485AD45D984EC4159C88FC066E5E3300E $0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB $1B9FACF25E17D26E307EA7CFA7D455B144B032E5 $3329E736CCA16449D02D567D42683BF1FD798676 $501B3DBF250B094A05CA5DBC424AD4C3D46721A2 $6C143720FFF8469EF6A5C5B4066366340CF6C0D1 $6F4E9FD00D4251D98BE96FB1AA546FE34676A95B $7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2 $84D361B736A8CD1E8818D0FC186892E91AB76881 $A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E $B34CC9056250847D1980F08285B01CF0B718C0B6 $E4D1F25DFBE484208866BA4A1A958B73127CB0AD
+hidden-service-dir
+contact Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr
+ntor-onion-key hl+I62rufEbV77OG706BZ3P8wfby3F53lVG6J1tuW2I=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 162.247.72.202:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 vwbaVVg+xpYWcn6qkAoBs8rxHxOfwOCYyUTkDVRTLMP9bmUZITKeusqyRnzCEmEf6UdPkw7531BZf3zcjziqBA
+router-signature
+-----BEGIN SIGNATURE-----
+TBq5jPJMtkPaj14MujoW1LjE429rLMQCswtOum5mQkHe2GPmhAqaU+VzW+Cv5+Nt
+8kBhl4IquKiFnXnpoFgSMae1YOUSuTuBDoJPw7S3jOrPTKe/rLQjzrSdqoVg54tD
+vCFFp5VxSqDjkPw5R/f7CdmWxO/z4O/OhcGNgk5ijR4=
+-----END SIGNATURE-----

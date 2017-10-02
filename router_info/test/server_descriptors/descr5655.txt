@@ -1,0 +1,135 @@
+router bsdexit2 185.62.57.91 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCLAY4SY2QVKCyrHrSrW8ZsgHFToV8ryjQIyO5ftTWLYzZTAQAgBAB4H6eH
+SzzhZFHxaruB9OiwfXPtKHWw0Rw2oYcf3DD8M8FfLLGOasWbN9KdO3nuDRirJC2Q
+Fpvj4s7mCw4virW3LdQlNkr4vaiolyXZxxE3no/HachEtN92DfFEabjuRAY=
+-----END ED25519 CERT-----
+master-key-ed25519 eB+nh0s84WRR8Wq7gfTosH1z7Sh1sNEcNqGHH9ww/DM
+or-address [2a00:7b80:451:1::5]:443
+platform Tor 0.3.1.5-alpha on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:38:25
+fingerprint 4EE5 92C4 D2EB 3AE8 EB9E 405B C4E3 C11C 2335 F8F4
+uptime 1184288
+bandwidth 1843200 2048000 2384054
+extra-info-digest 44DD3CA7596CA108E820271CA2CBCE0661BD67C5 5XrB++TDi0F3RNvVCFOqCD+/QPDWszeB/eTYSBJpA/g
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALeZ9/QVcWc0a8wy/Cayw655VzFRd9r+eqMyAn40gPiWWBdiUUk3Pfl0
+WT5nsXjryJcJp1jxtNpAH5MlZ2brqqf3GLz532jq5JqVph1S5S5eiWdLG33pW0z3
+OQQeL//flnT1ySWt0kXq5KdKBB56C6jmFuAki7rKOCsgd5rZHAU9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANSJoEkxO7Ox7+kX4DI8JzNbeo7jc5cxgwbJq4aAHRdpcou4/obZ6G4z
+bv2lg88+cpWZ1tEemjYgLetJV0Ihpy/vLh2Hm64TxgFw5VjJ30/9BsgUTjs0JnCC
+CHC7hGgrfcOVRiY6nGZaigfuoW9d+S5l7doPTtoyUyw0ac+YypiXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+NtHxRMq2Fqf8VQlOA2R4GdhimL9/CZwyzTAekRx7XCU6MjXZbE8VbsFXntXN8hrI
+ruLp+T7AUIvJ6ikku6XWwiVGcKjSo6y3TIFtJla5295LhDyhGLNfmYNbPBj3Ae7e
+XmZiHj5A7q/04aTTqQfCnu6Y2U1JNEWtdGuTMeQoi1Q=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmKLAXgfp4dLPOFkUfFqu4H06LB9c+0odbDRHDahhx/cMPwzAN43kigzeDTe
+Pd+zAQd+ilF7K0hlGLIYD7nxzzV3043rIUBiBWvTHKTrU9GPlk3nQ55sQLVAliCx
+Vuwvji9pngs=
+-----END ED25519 CERT-----
+family $774555642FDC1E1D4FDF2E0C31B7CA9501C5C9C7 $A853B76224569BDEFF49BF35EE3AF8B0B4607698 $C2D9A75B336EF4860B5C0C3E919132BA5656667F
+hidden-service-dir
+contact <demfloro AT demfloro dot ru> GPG: 6B12 4FFB 50E9 10CF 84C9  1535 D8AE 0C17 E6CC 5F1A
+ntor-onion-key e+hAnDrQGUvkw2ANWqrZx2jVzkAe6eAfSdzchU/bORQ=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.62.57.91:*
+accept *:43
+accept *:53
+accept *:80
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8444
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+ipv6-policy accept 43,53,80,88,110,143,194,220,389,443,464-465,531,543-544,554,563,587,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8082,8087-8088,8332-8333,8443-8444,8888,9418,9999-10000,11371,19294,19638,50002,64738
+tunnelled-dir-server
+router-sig-ed25519 xprj6P5EM0qwryRC/hav8Vd4LdyatfBDn6aHX5ZN2QqYOLKgHEBrrqrCQb9IT18BI8d6noVqzOyWc5jUo4djBA
+router-signature
+-----BEGIN SIGNATURE-----
+no98AeFFYGjG91qdQK9xa/pb1yFh8BxGkDGvSW1VEsgdhKSMkovftgqDqnRc3ckq
+CT7K/Dq3nCalQxrU1WZdgeP1oXnOI4IbLxyjCXrbGsCCudUC1Y371DcJlXSr/RHl
+hRCZ/4ILeL4n87qHMrRkIMIqZkDHfxYq0SNJWE4GYQE=
+-----END SIGNATURE-----

@@ -1,0 +1,82 @@
+router sorrentini 128.199.76.145 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmG8AQD2wkHduRYUETWhuHO1HG4hq32rJGhogqlhkGaBNzx+AQAgBADpkqcx
+UBgQJwILiFx0QzbguYeKDdNmm9W69fwOQi1tz5ze1G3dlFF/NCF5KXbTuR0yEvDn
+H5XW5tPDmDHKm5jKvOakci9hv5DUHJjoarse/pekqcuOjgo5QFj/olyC0gA=
+-----END ED25519 CERT-----
+master-key-ed25519 6ZKnMVAYECcCC4hcdEM24LmHig3TZpvVuvX8DkItbc8
+or-address [2400:6180:0:d0::18a7:d001]:443
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:33:39
+fingerprint 5E76 2A58 B1F7 FF92 E791 A1EA 4F18 695C AC66 77CE
+uptime 1801158
+bandwidth 1073741824 1073741824 0
+extra-info-digest E275870E3F9A67220FD6443F6D288AC304B295A1 4VZOomwqIY4mkdH6aOvbC4L5G8i23LA8h8jB0rK1NKs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKa5hH4SkkWx5c8+VgrlZ7rLkBpqqNr55LPq03Bxf2jduZgw8wKewFJM
+ENuuB4+jbm0hr03TyrbRdAXaxhTydtMOizRIsg/SaQytFl/B2KFTTQfeepuwCHBK
+TX81OZ0fQU2Oq3T825HVQK8Ueb2UXJUak0HSfmQFDFGoFBt034jjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMcFm6QomBKSr2yaMNa0oEZ6UEOk8s2XFzfYemqZjn1Hyw6IHHUxHJDp
+b47fGNy0ftJWi5uWLNhAiJCBonlzFMCvyExXAnXR7Yp8xtjgL7mQzpXPA52T8uGN
+vasorifvrzqvz7q+8ch7cBWMxzl6HgSHZSQsvX71R1LjZo7ghALZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+OklTDtR24Nn8SiDBoalv3qwOEd86MvMCYrrRPsiKyHO3l0pIDWfHwKnrKJFZbKrf
+0IP0d7Boc9R46Pwbwe+mn1fIkW4s0iRTZW1jPu7NSc49aTYKrRuae7hP9SDLtcN2
+t6fKm2Lmdk+jinD5nQ1Cbilc01grGIJs7W+UCJ7TmRI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAemSpzFQGBAnAguIXHRDNuC5h4oN02ab1br1/A5CLW3PAOMy8D0wsDiX
+h1iLOZVeq8FkWTMFmoD8Tcv0/a75WMlNw8cRu9YMnrVW9aFdpF2Xkbti+K5AaLOU
+05eOP1p0Wg8=
+-----END ED25519 CERT-----
+family $376D1BDFD317C46D76E48C155026D6457E12564F $5E762A58B1F7FF92E791A1EA4F18695CAC6677CE $82C92FBAF2196EC346670D12BB9650FE9FF55741
+hibernating 1
+hidden-service-dir
+contact 0x44BB1BA79F6C6333 <gfa AT zumbi dot com dot ar>
+ntor-onion-key 6MTEBq6csleMf0vMNDdWupNtvkJoyeyxBMhuuDVEfzg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 128.199.76.145:*
+accept *:53
+accept *:80
+accept *:110
+accept *:143
+accept *:220
+accept *:443
+accept *:873
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:995
+accept *:1194
+accept *:1293
+accept *:3690
+accept *:4321
+accept *:5222-5223
+accept *:5228
+accept *:9418
+accept *:11371
+accept *:64738
+reject *:*
+ipv6-policy accept 53,80,110,143,220,443,873,989-993,995,1194,1293,3690,4321,5222-5223,5228,9418,11371,64738
+router-sig-ed25519 H01qKK7A96Vppo5SBez/HgBb9Uf1l3e501zVK9pNO27VG+4CSQVUzfFx5SlEH5f3epAYHru2zrUglhm/xJauAQ
+router-signature
+-----BEGIN SIGNATURE-----
+NCEfCIt1BHQGuhtDRdgIU7hkZjdazL5Fzd9WODYOvR+I82h/+rRblfhOkoJfPkgG
+bQFHM+S0dbHEwmWvRBNEzLijUij2Xw9Yci+kBdiS6vOpQKqltS5s0BB4z+3xYIei
+92zg/T+XKA0ihkhgpmIwLM2vnvwhMcbYenbt02vGq4w=
+-----END SIGNATURE-----

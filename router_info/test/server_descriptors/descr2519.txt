@@ -1,0 +1,58 @@
+router hyekm 194.67.214.123 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBYATQphWaT84SH9w1fhMZDy/ll82g0jZXcm1Qwtysu3HuqAQAgBADM2M7H
+c1Gk38huFDhfy9nUDhqQ6Bvrk7h1Ze9EnkhRGNDcNbrZuVdyAuaSsCe9DhI/WT9E
+/YhQVbgn26m8ah8zshXsUPJak/YJszVIkXRfCanHzMRTM9V3nx4PmCYppwk=
+-----END ED25519 CERT-----
+master-key-ed25519 zNjOx3NRpN/IbhQ4X8vZ1A4akOgb65O4dWXvRJ5IURg
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:36:33
+fingerprint C66F 8EEF 8593 ACFE 39F3 B270 CCCD AF8E 94F9 2B6E
+uptime 2283610
+bandwidth 6553600 13107200 7984266
+extra-info-digest 371ACE7C05C8A2AC1A6A272AF8570199726E3A82 x0EtCj7J8KTYGZEwH3RZXyW4sRlWTnDA6RcaD0r9BVQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANIAKu7bADfhwLh6QFIfkYb9qmxaIzt1bKvD1H5CUM7T96G4shZDpYgF
+qNn92kUsWe7xlN3kBEsUX089nwc2qQ9/fNsflY6tq9pwvACtpV9JZSodG7+6pJvL
+RrG7KdJg9GMJYP323meoCzy5g+ntDJCNHyErJo6zrnBu62eecVUvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM1Mp0bF/H35Rpp0wXxV9bF9Wj/FE/1yckvLM4D17zhpHdw/ZwMOCDsu
+Z+pob2oRqbsul6KBTBFMjZF6DPmRYRN0Jc7fyIus2m4EkmJD8QKYar42fMafcvgz
+E8mk+e/JRH3SUpGMeeHEIaObWRy8EwTz5CsWEedi1mK+oYoqqb3PAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+CFNJ3p2VXIcGQy7+izfs+GuF4URkLXx/j3zPrTBeO5zypnW3sLAehm1RI4s446u+
+b/5CEP4/IOW+7u5NlxXOzUeEn6NYl7JX1n8b/lPnIIhaBFFkwTAzjEhkNCkyrK1n
+dB4bIfGoxQ2b74ZQHvA8+Yhj98tQ3+IkkKbOdTzpaDA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAczYzsdzUaTfyG4UOF/L2dQOGpDoG+uTuHVl70SeSFEYAGY0daCM+D88
+dOoU40uYLZMwljSrRwFRR0ZW0GtDPaHtvb/yJIaOs3NWLd4BoE1NgnDqRIrQ0iZa
+MKBqTwPSAwA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact yekm <tor@yekm.name> - 16pNcVzQ5auyfxNuqUAAqKqPgZYMaraWqC
+ntor-onion-key ePu05EVQuXVt0NhgtCqwKQnAKbfQ8VIkFYxLFsxhnU0=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 194.67.214.123:*
+accept *:6660-6667
+reject *:*
+router-sig-ed25519 rFkEy4WRJ6WQN/zvdzYJo2GeVIUJU44FLOMDsDNpCmfTeb5cNx0FF0MWPUJyjztYeRFjHhbmeO+fin6GEt+0Cg
+router-signature
+-----BEGIN SIGNATURE-----
+VVYR+iHQLKB8L5yStKkjc3e+QSa2CZ8rbZoM2yU1FPMDL905+WWLplryWV9as1LY
+LjG5oknLCG+9zEkzxpQCxlbWP90Hv/DJhMdqJGBVyR8XAkQZJD2wYW7sZmjdV/D2
+MGPlA8HM6PJptXMrp0ieC6HrBS3+YouzSilZro5hUWQ=
+-----END SIGNATURE-----

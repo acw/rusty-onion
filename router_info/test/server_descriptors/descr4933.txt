@@ -1,0 +1,50 @@
+router dockeRelayDO 198.199.104.64 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJJAfSlPhrIY3LVmxlNEdtn1j7uzbcrOVgi7qrzVXSZb08DAQAgBABl0V9m
+Y8Su60CJdQhsMceFsF140UIhQ6/ZIXYey1AqUmzbf9kWSp1EZOSmucbp0OduZIL2
+yqWhsoGvvi8jXoCHr/Ibd8OFBUk6K7GvDb2DGWke4XrBw1VVGDup4sBTIAw=
+-----END ED25519 CERT-----
+master-key-ed25519 ZdFfZmPErutAiXUIbDHHhbBdeNFCIUOv2SF2HstQKlI
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 13:41:57
+fingerprint 6C0C BE8C 4A27 138B AB6F F61D D100 589C 8A69 7302
+uptime 357399
+bandwidth 1048576 2097152 1259278
+extra-info-digest 00D4053769C818766D5A28673C3156E0D9740853 lKGNrjj9xkFgiI4mNPrpzqEuXQkzd5Ftfno5uIBiqsE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKtkhT3+nFJhhF0/ReYKRX7aatLJuF5yCjBjgka9gU1HNXfZ6cIfx16v
+U1cchq4MiSZzj64OWntFLXfQII3itIKWa4fab8ANxg99IfiPCGqWNe/8SB2tTYVc
+WSa2D/v8bArjHCvUrBthuZqDSl8H5N8gOn6zmhOsTJSa8lcDDWqLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL3ha9v0wFkEGbQa4n6y1e9otwmzye9FZd6CkYlF+mm/Vik4/GDiVAzw
+HEB8k/8oZaFiir553OTptQdQaK5sOUyKC9udPzazsRlTYrKIT0rNaawF+vpbOGFc
++T6XbRcEg+6PM0lb4H7fBHiupe6qFLsQHPeZYFQIaoAyCnCVB2VTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+XuIntH43wV8NzVNilvio36As/pefZK5m9VL4jcxyaTvJgWFU5kOoXEvoVSm2xTTB
+LdNXhqkYwkaO4+TdxgR9PROeVL5Rt307F4M0iQnyEN+ZQ08tnSTWaiJZZPIZS8TC
+hy2MyRUz9n+QxRV8MlbmpsUYHv8WAFvdOzZo7Ze+88A=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAWXRX2ZjxK7rQIl1CGwxx4WwXXjRQiFDr9khdh7LUCpSAMLHiaMxWA8T
+rfyZVSCoExiYqDxbt3ax1/3vBvqqnVJ1TR5kc+gGYh6r6UKqsVWk3vUGsM8cBX2/
+UBk6kkch/ws=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact hashtable@calumny.org
+ntor-onion-key ctPfhjGM27+PtIPwU0mESJJThygC5INQPc1tfvqM8Dc=
+reject *:*
+router-sig-ed25519 RkrbhJYuYnyezXCOI8GckalgLE/+ylAm4VPGblhtcq+/o5xXCqOe7qC9fWY9+W0wJp53RtRaWyZR8LI+D3XLDw
+router-signature
+-----BEGIN SIGNATURE-----
+a2vpt7GxWHSqELHMO7iac2q+ak2k1hrsP1Nm2Ym3hXff1ITBiOkD3QvmRi/+Cloz
+l0BDwZYdHBfXkQ+vjw0PyDnWDm0ePL5AiweEaDUw86tHipP95439i3Llp6XGDEjH
+rnqaXniUx6u6fSW0tvbD7BxGggzdlpgoKLGmqYNFcOc=
+-----END SIGNATURE-----

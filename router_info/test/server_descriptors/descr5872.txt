@@ -1,0 +1,134 @@
+router MrSaturn 45.33.48.204 443 0 80
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 19:34:50
+fingerprint 4647 2C16 B65B 1783 1B4E D1B9 C285 7885 97E5 1C4C
+uptime 4765564
+bandwidth 1024000 1536000 1716014
+extra-info-digest 2BF0230B1F248EB2198A3A68EDE0E655CD109780
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALoDwwu5WtNTDoEwChLDRVxlevXEtk1yQu+GXBNKseMwoB+G/Nz6qeaI
+QSkQhlDbC36JM1Sjcnbn8qXXfsGeOSSg6+b14K1lEO2X5ZaZ+yOtBKx+llgNMQlx
+o+AWJiGY6fBAsrQNxH4ZY72ZgO/gCAmeSIN2GrBMh5CIWseWaWANAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN9WQxTZfYNnHCJmxTHyscIfhUobaPiZpVWyWGfU4YjaMiKIUlnELEEB
+apDKjqJb5cyzVXJVECggHWXOVvgtFn+DmyYJIyQcElAzWlueEya9bpovzuahGgAP
+P+rM7YePF0kcY+iWNrg+Q/ZCXWB0TAwxpa827vMMDH6HrfJbwSmzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $598ED88523E9AF37884FA6A4BEBF8DB96DE69A3B $DC75EC1990E018B63A4DCA2863DD7FBD8C59F3FC
+hidden-service-dir
+ntor-onion-key 54ixP/AevqmKWvyqDP5u27MSgD3a2AYy25tXelHluXM=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 45.33.48.204:*
+reject 162.218.237.3:*
+reject 173.230.151.0/24:*
+reject 74.208.255.225:*
+reject 192.195.77.128:*
+reject 23.56.113.168:443
+reject 23.73.145.168:443
+reject 23.59.196.129:443
+reject 23.78.166.218:443
+reject 23.56.115.183:443
+reject 23.78.173.139:443
+reject 23.56.122.140:443
+reject 23.73.150.40:443
+reject 184.107.100.64:*
+reject 185.50.196.0/22:*
+reject 93.93.64.0/21:*
+reject 91.192.108.0/22:*
+reject 195.78.228.0/22:*
+reject 5.145.168.0/21:*
+reject 193.106.92.207:*
+reject 5.39.70.21:*
+reject 68.169.51.108:*
+reject 5.133.182.0/24:*
+reject 192.10.0.0/16:80
+reject 192.10.0.0/16:443
+reject 96.47.225.0/24:*
+reject 198.50.135.0/24:*
+reject 192.99.160.0/24:*
+reject 192.99.125.0/24:*
+accept *:20-21
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+OBtllpLB8ozVUs1bt+2084onWpdwLrRz1OAo2hcJQ/qYhQDSGdeRhv49xU/2QeoP
+hJDSVtFczkbSAK51snzoIwQmstZTwFdQSZ7dqJDJ137TmacCea9bCszTfqFUAe1U
+hNnElZyrcnhEkP3DbgL9djRfEj/ALWOm4hZw/rtsO5I=
+-----END SIGNATURE-----

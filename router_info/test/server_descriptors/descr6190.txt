@@ -1,0 +1,53 @@
+router colon 62.141.36.150 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJvAdWeIE4LOYPa48wBrUtMpw86Gqxkn5CPYtXZK37ixoW/AQAgBADUTLZR
+w/W+ti1fTUQ8EcjHSHekz3fg8fjhUl7cDCpS7MrX9j18IHmXQv+8Kly11e3ujBRu
+YzCTlqjuRK+qw2xeSmuYq2UdDNgvSs88I0Gc6hHvzVO26/HKskN/+rTd1gA=
+-----END ED25519 CERT-----
+master-key-ed25519 1Ey2UcP1vrYtX01EPBHIx0h3pM934PH44VJe3AwqUuw
+or-address [2001:4ba0:cafe:24f::1]:9050
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:27:50
+fingerprint 3A85 57B0 67FB E53F 168B BEAA 7D14 D129 8AE5 2A52
+uptime 295138
+bandwidth 1073741824 1073741824 9599376
+extra-info-digest A390AE54F16EDFE58C4AF640FD508851A70A31D5 bOfpc3tzZBg9fFlvUXj5Xoqn8vl2QJZZwROjMXwNu+s
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMwcyXKr2GoLiZTqvqrhBbEsyBqYVIxUkfl3dBaJb4il3zdr/+8V7EfF
+dUebZuy4U2nl4NoK+e4hr4BvN1B9LFYToOcVYgqqbpgDwBFy5pFUVsy/OtnGdHqE
+5tHTiLDpynCyqQNm+HYUAExFuYlNSdSId3sRcIqFU495E5UPQFj7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPj48hZtW2w31p8ZzKjTsRplHyZFhzxoS7YAqkZjIiBeX2HCw/rxXRxA
+H5djdBU2gGy7WOs7hTnJad4W0dv1WeZ/cWLY0wkVwG/lFCg15uE7PA9bXw8uIdKd
+VQe834VBXd9YituvRAbkOQSoJ62RlMqCHQjNr7u42cij8gWcc6l5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+leRVPiI1iyH9XS12lvQZIxp7v6liDZPh/8ZbQBlFvZSZmNwCZEHU+2fGyXosHm25
+bSoUnrzUQEmHjTZ3JyrfqOQK0G+nG5W0CDmx4+uD7h0HTkbhQ7esLrfAKKZrzCFH
+6BmoFNrSXWn+kxASMpeLN/JPwPa0gnq3EVkWNDK2q4g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAdRMtlHD9b62LV9NRDwRyMdId6TPd+Dx+OFSXtwMKlLsALP/6pBWJVJA
+Zb/WYxHLU73j+SQAD80sEtiGgbzj6MzEx9LVkFry+eFbAjWGCdwwgQSlNrr52vGZ
+zF0diIcucQ0=
+-----END ED25519 CERT-----
+family $CB782D396C1E1DAC5E9B1ABAEB62E13E9630BCEC
+hidden-service-dir
+contact 0xFFFFFFFF <tormaster AT kkb-clan dot de>
+ntor-onion-key UFmTJE0YELf3biBUG6QLhxfutzv/cMled4rJUQw6x2k=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 VLHNMusrdv18ackooJGljQesGx6lUlUC+nM6Umuj+moLgyPsUuhFxh2KxnLg6biP34FkufGonrd9OJTy7PXKDA
+router-signature
+-----BEGIN SIGNATURE-----
+4GKsn/jmjrQ6iT3tCHV78pXlyTd6IpnibA+bJQGSQjNkzxuIULDApVngywbUP5Ul
+4NmOg90yXBIbts91Ih8fwto4SrYJJxvyDLIB6v2Y8qP+RrqWVQ1u7U0XdLgf74kl
+vUgxrS4K5C4izp4kvAUEipECaPfhMzUJko25Cb3Watg=
+-----END SIGNATURE-----

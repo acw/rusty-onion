@@ -1,0 +1,51 @@
+router GIEBELWALD 213.202.232.58 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGBARMdRWNl0dj5mhPFV3ePSzTOR+MqG90GGlDClglCJXShAQAgBAB+BFjc
+aS4sHgFhotE/O3D2JQnAmeQdI9td5fbuwFZ4ue7de/y5qhtn0HvH1rUmUw7fFPp2
+5YduxX4/eYzEVbVjuOfNHoSvxTHkJCTL+8JNn1BIO65XiMndOrNRUq+oDQY=
+-----END ED25519 CERT-----
+master-key-ed25519 fgRY3GkuLB4BYaLRPztw9iUJwJnkHSPbXeX27sBWeLk
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:08:34
+fingerprint E62D AFC8 9409 0101 7C10 1359 E5F1 382B 826F DC66
+uptime 2208795
+bandwidth 5242880 10485760 6570761
+extra-info-digest BFB369E3FA74691F4C107EA4CBEA3394B5FFA3A1 E3eiUWDo1kXmwDYIBalO127k6R1O3ZyJeMRqYOlhNW0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALJcYodbmbYJlCc/FiZfDYbXgbof23KPsKorvgKwRkt4shytgZkjNgUs
+XrUx1YsfYO72OPUWPVDeX8CDhoykh9IyRrT0rerCH96fI6lzHQl1zP0gFm5IpLQ+
+DUj0UQ7PBYW4hU8UKfc6wEuffwz5EKugm9zDmmERe9ybRqBysByXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ702mtit6G0g9/hpxtZMQy2rygJ2+lt/Smy2FUgJaDRqmYyeWExE4Sh
+4M/KxdG7VDERXI52MFbp8P6+mSXXf345EQAEmWmvQGn0PHuJXbVYhcy3Cdf9oDJg
+iTyNofUwaUdt+3tTGBXxbul3GMTrAyjS1+fqJPFCVw6+Yrd1dekxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Vz7g+t7oFgBtT/Fer+YBytrKnu9s6T0W5vYlZFQe26F5hZv7EbJop2aby8uo+nta
+8bjs3tHNeF54dXaGehuUkZPPsPgCoc4/16l0BIvJE6/Bv0vWYdLj2wODZXVqnsEt
+vkjqNDMKjNpAme26m036IQrKhLppMxj7rduUU5Tebxs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCJAX4EWNxpLiweAWGi0T87cPYlCcCZ5B0j213l9u7AVni5ABgkPChdSFgI
+pR1pqt+Tnj8JJcRpqQWhnCBdn/rJgpAMYam9xQAa5qLIBWzplL5/gWV/rAPKjxEG
+FliClDupVAg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor-relay@giebelwald.com
+ntor-onion-key Trtan7YWyFr6uEAO7n0LbSh7BP4NjwFH/jQfXSEleXI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 oWDUfUQPYF4rZsFwT9M8bAXx8gv46l19M9cQbUC71OOVHJnzi03D40FWSBDhcJ0Vc7/3PD0MnnTNDT4Skhr6Dw
+router-signature
+-----BEGIN SIGNATURE-----
+lLSlDHM6ebRQRfwOp36TZg463LjupFtsr/Uc8KqoBceSjFL2FfEjXZ1kjGrdpLXK
+BAf3YN4QHdxyiTFVP/tQq/J2iMcvIW2jwo9Zwiv4Xm43mI1cgswbPyljGDV8ubhk
+1CXzuVVoHT2ZtCaXU86fPmDW22TN2LyuQ2fX2smkoZg=
+-----END SIGNATURE-----

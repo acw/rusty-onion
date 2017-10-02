@@ -1,0 +1,115 @@
+router Spiral 5.254.79.66 443 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:04:11
+fingerprint 6E64 DC72 07A9 2D38 E552 B73F 891A 5304 3562 BF66
+uptime 8467215
+bandwidth 1073741824 1073741824 16718457
+extra-info-digest F742882445FD510A4846664DE0C1BE02BA167348
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMQQ7M512GmMgSwPOkChBR4dyZJE5r0hXd3f9FjqUaqFoBnW2JKeNNx2
+94+fuPjyvw690+yxU3Wf4aYpR0C3ST27iVaZdZ2y0b3sLi9BKsu6E0aX/RSQG/d6
+80K2HpeEsnhxuVix9miGlazfnTaoWX+m/hI+JH95amyHJl6ukfcjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANYbcTvTJLwsSPmQAyKp/s9TWFOh2wDX9UocKScN2zwn49dkg3LFShan
+r5RuVq9JLlXu6ico9+OZDGAr3LOZSZnpzfy9ou8j8q15x+6bBomWlv7FHqBYKR4n
+mMWbaP7EtI2XnwRaPV5piLIQ/4BCZKq5m85uswLN4irtACdT/p5HAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Torproxy Support <proxysupport AT protonmail dot com>
+ntor-onion-key nZlL9vdz8KcrAwKFYK6wNVKf3eKPt+Ppfdo0ilIlaTA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 5.254.79.66:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8232-8233
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+svOaPjxypGiSjwPpI8fP3XIsfuFaX0clCEzekIPKDe6QcCula/AIZefrySdhKGmO
+JVNvK4nvZM9VKbOXkgujVvrXexaGMaz4QNh81LH3NlI911zsgNjzJF2iZRyZxbOq
+FA8ACbYHcONtIVl4Va8/PEKe136GnEx5naaL1esZ4Ss=
+-----END SIGNATURE-----

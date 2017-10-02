@@ -1,0 +1,51 @@
+router everfailed 128.12.177.59 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDFAYBc8cCYSndwky4H/nVQNbwPfphOMz2i33i51sRDQIxNAQAgBAC+dCZR
+cw/eKQkdtSEfpORFvyPyHX+xQVYX7ehIyNNEitkmaWzBqZg5wHz2RBPmqNLhc/Uh
+4GXpFIGXfgPeECrMBCayOCDWEpRyUCvgX7jcXF8Iv6ro6wE3MeaLdr6ibQY=
+-----END ED25519 CERT-----
+master-key-ed25519 vnQmUXMP3ikJHbUhH6TkRb8j8h1/sUFWF+3oSMjTRIo
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:38:32
+fingerprint 5C85 40D8 D4EF 0B7D A4E5 486D AF2E CA42 EDFE C9C0
+uptime 2302252
+bandwidth 15360000 20480000 4934396
+extra-info-digest 79ABA612B63F9000FA3FED4F42349E75C3C74CF7 ILdKEpF/82DGK/5ahVXxoUNFxF0VXwy9qlLZ0Tc9vVU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL6pmF+M5zqhSFYRscbZYmp1fBPV4FV5Ub1Yvqat9X5yW4aVnY7xV5o7
+ASfhyiapiIDL0nmg3IvdFEHsKbQoVSn/nYGbGR8oekWvjaIrC8xuYLUVOUOczYnu
+kbyAU3d0HMAedEYbMGQ55kscG6UtRnPcZG5zgghMmcHUEPZIL0y5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL9O1hP4LfRzQ8KF1ZxWj+mqXWWRPnOHf6J24t5dQa0im2r6klsM2pms
+/dADZx6yn8XkqAII4nT0whA0qLyKFvSVUvODbE2U8IjOaJPApyvY9jw2phNp3gL2
+Az9PtORwS+CwJDuI5YXT0AsFj+0K5eKh3C+okZQHUYMRq757rs+ZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+SbjSlUllHL13gMj1VAWOXd76sfxXw8kbcEDGc+tkp7yOoGYQCW1vqDfgA9f+htGz
+ujyTuQ50OjPNxQ9hXnDQBVZDAuHP1p8Ksj5TGcSK1MVyykSCYpbWSmY1JaU7PLaB
+qy2vfP0Y8bjfbElxvx/PzhXSYUn9UnrJ93Y98iTa8xI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCPAb50JlFzD94pCR21IR+k5EW/I/Idf7FBVhft6EjI00SKADnAr6B6gT/v
+qiA9knjsG9fdnZ+kObM3pULYNu4ZmgmaaH2Fiunp9zp8885SvkghTAgRXzYAdo3T
+2+C01rh3nAY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x9C8A93F5 Daniel William Hogan <danhogan@stanford.edu>
+ntor-onion-key PHhJOILXbqymATS1uS+ZUEW39WyHnGolCKGBEfx50XM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 nSIaKCGzY8eI7PvFhD1b3f3nbEmg+mqQBKOK8UjQA3kxTOcvnHo48hKyGVY8IVJVLw2H9GodEjYzs0qS+j3lAA
+router-signature
+-----BEGIN SIGNATURE-----
+m3N8V9vzQqyuL9KJxn58LQ03hitZ+LD0122i+Nd8FgK0w0psALkeqZsC5mIbCFj/
+ChfS9gx9V8y3JzJOPKRMtBb2Q+TqX3DBNxbY2fxb/+ggp//QGhnDlXtKc9Celjga
+ZAYOUTqnMoLcLg91IjDQW4+2moxS1H52CV5m3VH2xgQ=
+-----END SIGNATURE-----

@@ -1,0 +1,94 @@
+router NeelTorExitUSMdwst 173.208.153.75 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI2AX1ucBEgKQBfBoJngpiUUr2YYoKXkph1Dj3zkaUCYJZPAQAgBACcywrL
+kQ0jNgDLV0I9mc0c4VIkj5Wu59D72+eEwDCNxDwRnz8rypAW1Flj/eAY0Kgo0r4V
+fDsIBtZV2XQ4FEZQUvuaPuK+4dhb/XV0VrYqOgxUpJLji6ILzP9+FcN2VQM=
+-----END ED25519 CERT-----
+master-key-ed25519 nMsKy5ENIzYAy1dCPZnNHOFSJI+VrufQ+9vnhMAwjcQ
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:33:00
+fingerprint 4658 3FB9 E1E9 14D2 6D05 F807 3A74 0857 DBCD FE70
+uptime 423783
+bandwidth 18432000 18432000 9863111
+extra-info-digest 30B94EA4D127598EC3E3550CC789BB084B5C4B85 yEh9SUOTa1FLoOYCsfFaDrGUDfUauEV+5Xy8Hl02lL4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKiIq0JQ91od3on8YdayLUeMSHzA/TnQv3Ll6gTJLzy+39DdFXi8l9Q8
+Kvwg+F4gbI0e0u2YK47BVnawERtIA1+h/PM3o9XFG6wbYOSbxon1XSobHIF5JM6y
+I1fcj3LyvQ30UGdT+ueDvNXCblnAW3u6lsjDmHAwynkBdP6F7hoPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM36nZqyw+EDaoPwwukLxRuncMAOcIUUQ5VyqXInMMOaOwD4p3qe6kOc
+Ag/YnHbunDPBioL8MD04vX102kFummnE8Uy3vhMZpi0FgUlw9Z4AQR4u4ka8A/ua
+t167pKdGlXvTiQF206FuYA/keY23tjwRZ+rw+1+2Et2Rwfx45VpxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+XBi87eNz1FosvVmQ54wvrBAGmHy5fsT1XP+T+/UqwcZa7hVgI7/Gv4AT6tNZNkvV
+IiOHMHTH4EiQ1u41CzpKBDLgb+yplkp4CMZ3Z//seZcLOVXqC0TlGQOSVUE8DxfF
+ER2li15N+MD5C5E9tDzmsGKfkMTo6HmJ93hw1aNQ9G8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEAZzLCsuRDSM2AMtXQj2ZzRzhUiSPla7n0Pvb54TAMI3EADQM5zT2zgW5
+5RtyxzIifO5FZwpP1BUR6X59EA4MIXNcScMVXRZkblCBzt3RWAAkRUTli8xc3oIq
+thU4b7HVqQ8=
+-----END ED25519 CERT-----
+family $0D8211D34F29F51D690303E319766E1B7C28BADB $A20840A16CB658024B0D3A0E3F19A9C0E34C843F $D5B8C38539C509380767D4DE20DE84CF84EE8299
+hidden-service-dir
+contact Neel Chauhan <neel AT neelc DOT org> | BTC: 1KogNvxdcXydDUNrPgqgtgV3AWktKPqXpS
+ntor-onion-key apC1y7L/s6IE29j5MIviLCJsVT70d44LcyBIJhG8Gio=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 173.208.153.75:*
+reject 147.67.136.21:*
+reject 147.67.136.171:*
+reject 147.67.136.103:*
+reject 147.67.119.21:*
+reject 147.67.119.171:*
+reject 147.67.119.136:*
+reject 147.67.119.61:*
+reject 147.67.136.136:*
+reject 147.67.119.103:*
+reject 147.67.119.3:*
+reject 147.67.136.3:*
+reject 147.67.136.61:*
+accept *:20-21
+accept *:43
+accept *:53
+accept *:80
+accept *:110
+accept *:143
+accept *:220
+accept *:443
+accept *:873
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:995
+accept *:1194
+accept *:1293
+accept *:3690
+accept *:4321
+accept *:5222-5223
+accept *:5228
+accept *:9418
+accept *:11371
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 w/TexWc1pk26yH7+8o9BQkRnMc5A02tROC73vrENwTlhb4Em+nMsdmB3xpfN5Qogjqz3a6wZAJurqaQ6Iz7XAw
+router-signature
+-----BEGIN SIGNATURE-----
+ZdsLaGClUaaVRC1GPofOykkINzKYf7dBMMFFbgcL++vZoflSN206ImcqwNI2Puxx
+QAyEemfsCtkM6pPjT2VWLUgk1uPU8i8uRN+rc78TFh8gxpxxQTPUC0nlnuS6S8BZ
+WGM4Gpbff/OENAL8VNyv2AoxBJfRHcKk8WwbnVaCFiM=
+-----END SIGNATURE-----

@@ -1,0 +1,41 @@
+router RavensGate1 79.253.75.196 444 0 9030
+platform Tor 0.2.4.23 on Windows 7 [server]
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:23:20
+fingerprint 4905 E69C D357 D5EE 337F 408A 6729 C1A9 343D 217C
+uptime 2
+bandwidth 5120000 5120000 564753
+extra-info-digest 18F5E2794DFC180C3E6AEB75B0445617CB9CB97C
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN9p4knR9jJD1l6HXEOZK9nQ08GibpgTKR6/bWkah7jRv8RKeOwncXUi
+t5Zkp+xc54C1pWAfq3QxMZ2vTScmGHfRI7ZB67sa1sj20tASX7rGUbSnHKyArT8Z
+MVGxYmhNRnDt4ln5iipXZlyPfzEIbQm3j2ku3uYUDVH+j1yJf3nTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANuFSdmTWqdGx0eFPzZRWCKaYYPdTAuaPjfKtKkUrfusHbflgDhs70iy
+wnNNcU5c76ZvtO+hpkmXomyG0Bgxj+Kui2DxBQm9dSzg1+JpvD2twvmIFD2yN7Wi
+r7ABelwwirI8RyqMI2/xu3gkiIt6DH1gEQtbwzXduxaMZAWHPSo9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key YrgGqY1TFyKGQKNQSl39Qr4/w97vMdt7JDvOSAisATU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 79.253.75.196:*
+accept *:443
+accept *:110
+accept *:143
+accept *:993
+accept *:995
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+bn3aluyfa+BhsIt0Q4L0qiIaNST5q6cbJ++ekSKkNFuAL5mtVo3H2G1lWeFBVuL1
+OtFNoo37wiJB6ds9XfF77A67KUcXPaBl78xKxL5jlSsOxzmrfNe1N7FZNrC9ai8B
+zmPhavntOYVxYZhiR7KaqLto30ay2R6Be9acj2EJ7LA=
+-----END SIGNATURE-----

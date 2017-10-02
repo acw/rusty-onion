@@ -1,0 +1,47 @@
+router xtac 212.47.243.140 9001 0 9030
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:27:26
+fingerprint D4E1 A4D5 B6A4 DFE9 054F 54FE 3C89 A18A 7C2B C2E3
+uptime 1570148
+bandwidth 102400 204800 206186
+extra-info-digest 52AEADFF5E9D147D767958C5B282984586A93C8E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMjz2nLmo0m22FaoDQPpnu0oy9K88hDIdgN3pwtW6kCB2my9JuD+MnPc
+UYb+LexgpnycQr4mRTBicF4YsUJyxHG3CW/7IFH/U8ZoznONkOBhHVcJsigWcdIQ
+9cYPuAm6vyGFJ0j1D8WAbD11OAK5W4ID/5SbIkBU1pNs55/7Tz7bAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALbBUuqNS9TInBYDYYwlCs3D1d2OY43tV/Nyg6SoKVFgiw6+8pdgphpM
+PIP/ksaKO2BJYaUpf/2Iirgw4zFZIaHxsbSD269CxeBKrU42IA9gXcmGYz4NvaMJ
+J7pZoMpF/gpYbOBZiN0v6k3TPJJlwbC2Un56m300K2lS6jCk7Pw7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact freefal <freefal@xtac.tk>
+ntor-onion-key fZU5mY2rZUNhsTpbMlYLnXN6fAjiP2OhbbmZTtdjGDE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 212.47.243.140:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+aPPQAz7GsTUA3+i7Hn4ciWn6GOvIPukKdYuCr4JAiZKEv64BKHNom9dbOwM3ZGkq
+tZ2IGLvjdgSvFkuMEZCezsQzjpOUN+pAGLDCOHhuNk2egwmaPzLtw74HedcgKIwH
+dMgasOy/t8KR7LMbx8cPChFoLqvMxClx7SCJ+WabP14=
+-----END SIGNATURE-----

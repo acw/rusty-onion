@@ -1,0 +1,71 @@
+router PhantomTrain7 65.19.167.130 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEmAZzscB/HyQG0KTgds+A2NcWYeG7ZG6JkdmHvK3lQeKTkAQAgBACRiRhk
+VWEF7R67V8C/p1cNIZXd+tlWdOjQ07IGFk+YiL54HzYpaJewejxP1wr8S3lasnqR
+ce0ZR34nCoWlDlyKYRxdTcCDLfwgWmjFC8j8+SAG5XZpr1DzoRA3gqToXww=
+-----END ED25519 CERT-----
+master-key-ed25519 kYkYZFVhBe0eu1fAv6dXDSGV3frZVnTo0NOyBhZPmIg
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:54:21
+fingerprint 4B1E 3276 137A D12D CCEB E354 EA11 C1E4 7F80 4F67
+uptime 1714766
+bandwidth 1073741824 1073741824 50158727
+extra-info-digest B9989AD73C7A9A62C5081DB3A88E9C877E41ACD5 hh85F5jQ05uvu4xUWF7SemzcmF0GGBDIPK332piXKzw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ8FzcXp5GuwGW+DHnG2qmNUba53XUozpF+jpCIGZitOO85p/sU0rvgl
+OqOucWXmq2Hm8KGGwS+ha2xfWSJU2H+xXzjaLKJ8U8neO4xOmx4LQoaKkeLiPv0V
+SfAFwKk9Ja2cZvC5lwu9+ibwfY5Z7Ysq1wqEB5RPmqZ+N5QiJsEjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANLVovbU75IslXeC56gbmkqc9yQeZYshJcQ3T+pt3S2RCIYAKTngbISr
+vk6XQIelEEmxvBcV0+opFw1yyka5vPNAzv+c5KbTqB9pvZ9swa3G8Q2Zv/Jr2P2z
+i5GrxSooYlRGLhD/FhNOKUaYe3pjYjMmLfupK6W+7LfQD2UjinifAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+PqOM2FuvzSXN/096gzkiCpWFlGm17rxsnGQQ8XlKSKPbTQBQw28nabc/pwmosiDB
+dYoNsK01DMGqCYFz/PibWJFw6X83qqTftw2VtnUzURUKliPD/20zeGu/KFyk/kPI
+fEgwXFVOxXLmeCqPD0WG2QtSWbXFH7YoVEXDsZttikE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAZGJGGRVYQXtHrtXwL+nVw0hld362VZ06NDTsgYWT5iIACcnudMSW5TJ
+FdOm4hrHvGxJ+MytqkkfhEGsiiav/w8B/9CCmuG01l5DGm4VfgjY+2AEte8l7N/P
+2Uua52m3pwQ=
+-----END ED25519 CERT-----
+family $0DA9BD201766EDB19F57F49F1A013A8A5432C008 $12B80ABF019354A9D25EE8BE85EB3C0AD8F7DFC1 $C170AE5A886C5A09D6D1CF5CF284653632EEF25D
+hidden-service-dir
+contact tor-relay-admin robgjansen com | https://onionpop.github.io/
+ntor-onion-key 7UBvZVkM7zWbXhNS+1Y7t6s2yIUkjA1ZxpblMl8dogE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 65.19.167.130:*
+reject 62.67.194.130:*
+reject 192.40.113.39:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 BTOzVrujgneN5bz6jZDIK1lehqWBiEhuok2jKpAapJL2HMgwvePKlLyiRnsLNd/5EBv6KhTFpUmbkoYAtVoMAg
+router-signature
+-----BEGIN SIGNATURE-----
+JzeIoREg0huPxhBqD/su6btkDz8xrplWJSpgG7PXmOynDq2cvedaDj6TMGXZTw7w
+j24ZRCWY9SDtL0SDpyYntXQfNPREQMko8vZ9mHNs/NpQEtW6/mXtg6JosyUnPRzP
+mwXkmKCTh61xPmMa7fYk0wDo5YyD0xMuZVP5rTCSXh4=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router WoodChipper 198.199.81.226 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBzAVwXwrCYT/9XYfODdteiBUHa/rZohfgODeYoH+6aPgx0AQAgBABP/a7T
+vFIRKCAXnWevppgk870eGgGfWsRjx6JhYznc7ScRmZS/EGPnTVEFxiG/rEGnph9C
+awqXjqwehX88xuNfmJa24qznXlVld1vPsoMKvqR9I/ylowpz3wfkI7kJVAU=
+-----END ED25519 CERT-----
+master-key-ed25519 T/2u07xSESggF51nr6aYJPO9HhoBn1rEY8eiYWM53O0
+platform Tor 0.2.8.9 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:04:05
+fingerprint C67F B85F B939 26EE 8F54 0592 8AFF FA50 732F F09A
+uptime 6323980
+bandwidth 83886080 104857600 5452334
+extra-info-digest 55CF63CC1A6F3A1A0484662E5B12384BDB4D6198 0dLFnSQI2/x8mlCqszH3knmXeikt/SpGxWZNSquJudk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMB//ZKM6RcuCBPrvIUixyhuSn8xORyAjG7MEl9L8n8p/eTcVeXYZRPu
+v8HGu6UTWDOYJI6XRUWhSGlbFceTJk99S5VMZQ6NZ5ngOXMrw4A6ah77lHa8lIBZ
+s4wXpJvsdkI91aNT6ktZ6XEiwzCXOt31MI1uQ1pq+pF2yTbMclszAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMjiHBplWlkE6hRBtVgBJFCV2o3Cn+j8n6fm9/PXH+lAHw4FXzn8jkDB
+iYDm7Cs2hg6lugQvwlxpwc6cC0IQjEpdLzWrR9SyC7uOAiv5K9HRUj0Zhn1kGL56
+Y0AC9iJ3BH0K4xHGhPEHYjF/zhY0/jRYd7l2bOegiuGSTOb1GM2DAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JJYxatdFbT7hbqOSoI4NUGJzrFD6HNt1+RDqkow3zd10ctY4jRzplZmvGvZkIWa1
+2TpcSCtaJDq35/mBmViirbgz8eshc2eGibsXiipL32Az54RY4kKZvG0rmrY5oKmY
+vy6f3pm76pDwI3YrdzbZBg0yciXzSsH9K4Y1ngQ95S0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAU/9rtO8UhEoIBedZ6+mmCTzvR4aAZ9axGPHomFjOdztAPackHKZ0kFg
+JBqkydHlDI9Pm05NPxWv6AXJOHRkqmywgCIWT8NWjQFr7bkFGSm+fG4Y5NgumVvP
+VHX77A495Ag=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <root AT WoodChipper>
+ntor-onion-key LYBmMZw4xcU+3FJBB+qin8yrbBmCwgdsnaZqcrGSd2s=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 30cp7uSR6m6+s9d/HjuKsbz6Zc9lUieG+rBnEQWlIIy1zquGHQaqDXQrY601hQBVv6JJ8jr8to8moGLZNXNKDw
+router-signature
+-----BEGIN SIGNATURE-----
+pw6bRgs8pSq7PTIMB4O4wxZ4yztbahPqL5HyonBAYtKKSNd5mHheO3Ugdp2n4NE0
+Tzd2jfSztGZrg4peQ4iEt5GtbzGLcFuKHpsMoadoIufaCenWzX677Zm9nBaQcvo1
+x2hBb+cs623OzyGM6SVuilw+8TFu5mZJhjBkS3v5m9I=
+-----END SIGNATURE-----

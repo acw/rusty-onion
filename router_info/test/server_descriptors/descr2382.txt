@@ -1,0 +1,51 @@
+router beroal 192.162.141.53 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAfAYas5E3X301uQBzQNLI7Vul3t5fu0s6fH1KdHfTFl2OpAQAgBABDckJA
+Na0HLEqTVfMK6ORxIj2kQGTY06xUrW3ZUyzxAelCjBU+zVvNzmVdoJl2Taa3XUc0
+Wamlmi4BHZgaDvQHJZY0qIbETjf76jlBj6F5bgtJrUo7/HRdpXCYPDV3bAI=
+-----END ED25519 CERT-----
+master-key-ed25519 Q3JCQDWtByxKk1XzCujkcSI9pEBk2NOsVK1t2VMs8QE
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:14:40
+fingerprint CAC5 903B A74B EB58 5DD9 47EB 657B 1958 E25F 6CC3
+uptime 26280
+bandwidth 2097152 2621440 1177810
+extra-info-digest 46E5D8B6F35C898EE56B70DFC3CF277A7E0F0378 E63WMKIVVg0TbDySZoHLjnsit5VtQxebqmlnSkIitDM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANEOeaBNo2eCgBSo2AkYnYu3TwXzNUPBJa4gImmFQYjhDQLUEPDAqm07
+lb1BsXYFh+/ocQQkBcFOxxRPwBugF3Wv0QmuEUsH2JleG3chsh7fT6j3oBSXpQoe
+5J/Vh0b97K9aXFN/e3dt+iPR+tbAoEcWq9msJy+45l9kiOUccJoNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL+XVuZ9STgdjycguLTgYVBgc/p7CFSI8kOsFj23ynG2n8vcCDr9O4P1
+sIAtOa/5Rf+iMeKqsHGucpOcGLPiO0L5ZN1/AKC6RZ0bmdeb/0E/oyCS+hKrBLtq
+A0UugPhqWdB2FTygL3lnSof1w4HqCxnTr4aFN6X9N56XSqv0rPSHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+SYGpWIfpjdEkQwi27zEIgNB+kbMRg1feKo4QS7iR3bNtgEXLFZ2gv8gpi0/UrJ39
+JqfmApVtUk6XRO/b3OLMWydkGGn+xL65dLdHE7e13hxGhOKF0DsjKrlsq56+HLfI
+M4sl7poI08WETNbkjjJdDn3LHPd1sqw4ik1D5rFK588=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAUNyQkA1rQcsSpNV8wro5HEiPaRAZNjTrFStbdlTLPEBAHO4paErRGDO
+YY6hM5qq3x+rnlVpKnjj+Xs7XI2t/hhGSXvISSGOwXYaHc6cJqRxgkvffk63kdEm
+zDrT4+aESQY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact beroal <me@beroal.in.ua>
+ntor-onion-key zIn/qlhI0MPo+AMrW3Oaf+9s840UPYYZicSq1lmzJhs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 QRXtiMHFLg/XrMS6BhDSdh7SlrC5nm8RElCNpaqNkA3EV3RGoe8VROUJk0T2jkb7pyXjuna7TjL/3LiZkOstAA
+router-signature
+-----BEGIN SIGNATURE-----
+TnFI222yjah7tw+GLAgmCi8XG/RutQE1DTHwwRROpvFHMYo4Z0tpdCboL5oKFp2x
+DS+NGCEC23mpoS0LCtAmg23UF+JnNyAxhAK1DzE1STHncrL0k8QyOJZXqAaXsRvL
+nSzVVGn23bS3wSvZ6HH5MIvjhqUpTQFJlZpipsyMwDA=
+-----END SIGNATURE-----

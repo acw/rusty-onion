@@ -1,0 +1,53 @@
+router IchEben3 151.80.41.230 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJGASaX5y/Xqu1D1t4kZwDFEzpu8RoHSvrNNoHQwfP/1YiOAQAgBAAR+rNk
+3kENmGNr/3ZObEaWkBx4RwcS4NwRbCSEqaoFkw7o/vlRu43B5bnw4z5eoWilosG1
+i3BA7kobjPOKXR6O93wWqK4oeBSv5YFwROkTddrgaml4jEsPKRySPC0GFgU=
+-----END ED25519 CERT-----
+master-key-ed25519 EfqzZN5BDZhja/92TmxGlpAceEcHEuDcEWwkhKmqBZM
+or-address [2001:41d0:e:ee6::1]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:08:30
+fingerprint F0BC A238 72B6 9928 3AA0 3989 9263 DF01 47E9 B48A
+uptime 799507
+bandwidth 4096000 5120000 0
+extra-info-digest C8760FEAFF974C14B70C69858133D46E9C34C319 w+u56qkmm6mLVI6eBy0CuzSBQ3HymCqqTG+csHt7FsE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMgCvzRZDLosUWgoKT75ltgzlevpe7k/tqqsrJF3FOFW11QhSDEWym33
+TlUm2U8y6oBEedpJGpV6O01JZ8RwqAu2IqxBB2NUDbbS2qxmGz7c+gMmJc/ZUAEJ
+KhOda5Vspd9rCmlClGSpq94s+y+MeDT92Q/AjGjNBk7uRK1ICmq9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOuuHqZ54P+tBKoFbX1IdiIkx0MVSJTfvkBxBuh2SUh27m68pzIWpEdD
+0EdWLpqHhHj+jnUmKZTkySEH3lM5s4rHF9rMPvq4ra7WQdUNLSOQzRMix+3ysW9z
+Lu8CjTw7qp9kyJAW58hUt9lnyNDkfPFRna7RvKys2lsWUWd2m4b5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+qYI8k2g1LV/nhxehMZf1K6ojDhqgIUmZnnapS6i3JSE8aLdajwyV7duRq+2lUbQO
+pwj38h+0dQYZAU4lyV4c2jutONdb2m1vHiVHIDh2Uy+fOqe7kHrfU8pYa2KO/iPz
+uzl7grNQHCDapd37AAyGqeb7UGsBKSPZwrvr4auE68Y=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUARH6s2TeQQ2YY2v/dk5sRpaQHHhHBxLg3BFsJISpqgWTAGwtfZkdECxp
+o1maaOPO9Anomzy6j8J1+mmNhtH6SU4y5FuAR9prpmD9/0t8v3Ic2dyOtQgLgJEx
+SJp0R6jsgg4=
+-----END ED25519 CERT-----
+family $3C001E6F0052423217645517717EA07A9CCB7685 $669E5034B6DE2E2C7CFBCF9EAC8D9F5A47757996
+hibernating 1
+hidden-service-dir
+contact <tor AT reichster dot de> | BTC 1EVjr4PCB721B6j2ybruUHCDE9RBsvyKJN
+ntor-onion-key c+ycS8wk/8EVF3RsdBo/m2nZZqbB4n3enGYozZZSRDk=
+reject *:*
+router-sig-ed25519 bE9xkZ8nL+SHBFfywAowSAn/CIazh1J7ZRxs8QuxL8D9e3LqQx21WN0lhov7aqR/YjgHcYfkMc/37Wv1A79oBA
+router-signature
+-----BEGIN SIGNATURE-----
+EKqeUJPYaMxHLKvHgd7ybVr43e+cnkqOScve98YnVY+QhYGqn8Rq76ZtWKxHLgZi
+S3NPizWZAAF7nwT0TS87BVumk3sYblsGWVaKBeRYYG89RlfkdMrbw/DdPofDQ61c
+AIotxqrZARFFUGfQRU/Astb6oq6K+Di8sNWn/5NeA68=
+-----END SIGNATURE-----

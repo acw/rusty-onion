@@ -1,0 +1,30 @@
+router Challenger 149.202.181.214 443 0 80
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:33:39
+fingerprint 2A57 46BF F32A 363C D3AA D051 96C0 F10E 7143 BBB6
+uptime 19028510
+bandwidth 12000000 12500000 11438820
+extra-info-digest 3F636B0ACC6246B5B4749F7AA0C8A8E1A8E9470B
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALex8jV/SSDxJ8aQeddwprxwy4AHd2uK7e+W3mhiB4EunTxVCgEmgGVV
+/nCvIOHZ8gNEJDKQkKNsT2jnfrvKAFT/Q9Oi1WEDdsJ/Ewk6uPXsdmiC+9vlNgkQ
+IvQT3ZT7/u/JZ7B9zFVQP0+5ynX6umqR1sg+fbj+pM6sq6csTBwLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALSLSpKoXczrdWSUmC0N9mA7Tn0SLIuanTi8z8uUWlAJ1XVzFI9yTmCJ
+dPXCmiZ1C/5he5DtXrBHt3GCgEHyo50Cyww7PTtw4yowzzWEUGQYvibZhFNthMHz
+oxb6QzuPPxSbs+mKK8Touvy8fsTDKtvBv4vpPfU3A1VRdWb968k9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact TorRelayChallenger <tor@dnet.ovh>
+ntor-onion-key DW6tNUJKTxoXThd2cv9UAkZ7Q/+z0g1BxzDlynQMdHo=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+LR2CQ7bzUfxyzBuRMF4mn0ll/HIQDaeIpyo0/iz8brshAsfkDnGiv81fxaWbsnuI
+ssp3FNYwt+l9L87VxnSFSXxxMGJ8A6RxrW2YbQizKBHtsmSaKRiluAlso4ioySlA
+JzLT043Q2dTZIfFKKMFywwLKko0qsKgbSvz/50fjGcY=
+-----END SIGNATURE-----

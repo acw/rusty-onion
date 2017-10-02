@@ -1,0 +1,52 @@
+router plan9rijk 194.126.175.157 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmD8AShL5Olhp1TOSx6wikf0QpjwuYP+pCofW7EgNrazOKqCAQAgBADzB8Y5
+kcmV2FNmN4gN1tlWeTNZwkrE0Rtbqp+1UNNIvCVxKW2NnbBSfmZU0iHYE3JfSEeo
+ZSmnqVOHbnSC7kVpa+Rpg+yl7yzxIKO2/qSRHbEKJRt1oaFF2E5Fi/Yu4QQ=
+-----END ED25519 CERT-----
+master-key-ed25519 8wfGOZHJldhTZjeIDdbZVnkzWcJKxNEbW6qftVDTSLw
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:36:51
+fingerprint A4A2 5EDA B880 FF42 00F4 C213 16F3 B9E0 72C9 F466
+uptime 4082071
+bandwidth 1536000 4096000 2030592
+extra-info-digest 80123EC0B3986FDCF35AFAE5A5C3E180625A0F1E dSIvMCuJuqaHhrzacXocA/9YFp+TIgI3fKTbgFKNNWA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALZEGeKezhBdnruL0Vl7aBbpo2ytFumgnCmKaqN07dOdwm13QvgXaX3S
+MhRAq3W/h/kCTz7w/Dg22gKp1ZrnjfBLUEjLr0BgbdVe2vd3ik4+kPAQwXbyeVdT
+VOwLcOoerYrTs1nl/J7TCAHGjhZbgaLn1CDLshrOUes6dDqTCDgHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPiQdXTjQ4A/xZzgbt/dZt/hA3xzpMVVcCeJlaJDo1n4JccRuML+0G8V
+0p5u4b2aHE9ATpwNXWxSBeCOKrKIWxLwbipOAQfC+4NXJay/lL1swRIKY5pM2x0r
+EtP49/YPQXfnPSpWLLdI28O3iqRe94K6YAjcl7Lfn7YxG5alHR6JAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+taEDcxwZxb5iPUJfHDL+EiwKrH2syfy25eH02oBJLhwUd7DQ9lTBQim6FsfGfi06
+teQRc2mIKYHhTLt756dR7/qE7JCxMYmf+zsmVDZKrfsqU8nN+xFYFyU3wen0i6U9
+v+fZu0trkXdMqHVl93mN3qG41zVRhjJEzBBwfe9v00s=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCJAfMHxjmRyZXYU2Y3iA3W2VZ5M1nCSsTRG1uqn7VQ00i8ADMgdv8B6JkB
+IaS09w0IkgAL9WD1dU4+nxgPq/Yu8jNXDonXUqUTA1CLeRtfehCxINDdw0Guuw+A
+AA9r0ZMAmAE=
+-----END ED25519 CERT-----
+family $A604086EAE838774F809811925A223DCFDBB1D17 $FFBC69467B37D6AC66598BBD295F9B0D74119ADC
+hidden-service-dir
+contact 15424R/6DEA2BA30BC39EB6 Marc Alexander Lehmann <schmorp@schmorp.de>
+ntor-onion-key PhTRqDFrCVHQMblRRI4iy4keDw9rOerOPXGdhlEZiBQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 mXuFAuLEUNOQO8lafc1VJ8DJIXd10Ca4bg1agBBrDlBWrS7dQJBnnxdT8H8pFiTluwgJXCx74lSfvyRSX1CuDA
+router-signature
+-----BEGIN SIGNATURE-----
+y3k1Zl7O6y9XmHS8VOC9Rrp6QYUXq9M1/jedmTsxjEGMbfhPccUKlWMl4ZANsHur
+pqetShy6Gc1bbqjTIY66cNMCzjbTUTlabs+naFz/GX7hY/usxayD2iJCCYN4DPV1
+rYP7RBou33zqlNDexmikS0RaSrA4sNUPVlQDdekzdyA=
+-----END SIGNATURE-----

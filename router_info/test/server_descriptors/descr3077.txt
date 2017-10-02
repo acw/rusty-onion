@@ -1,0 +1,51 @@
+router jasiu 109.197.63.45 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEhAUe+nGx0/ghkFKOL+UEyhYNR66i18Xi84xO+ZKvK2dKrAQAgBABaqHik
+mUST+PotoxqLG/zPbKLhLkOmynDLIxW6IWKwFiqduUKPvfphkfNJLetnbADLdCci
+UVgBs5ACgXsi89hhqDr663N67G8rHKkdI7TG3GPYvuke6Q6C0HIS0vLSSAI=
+-----END ED25519 CERT-----
+master-key-ed25519 Wqh4pJlEk/j6LaMaixv8z2yi4S5DpspwyyMVuiFisBY
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:58:02
+fingerprint 629C DD33 2DC7 A37E FBF4 6FCD 4B24 5410 DFBE 32D3
+uptime 288005
+bandwidth 655360 655360 718917
+extra-info-digest 652C693CD5C3CCAEAB85A67BB3AB3E12B19FED03 7dX65LgjV8wVGJIeI45ux1UkzSVvKN1zenSS0XfskpI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMfKG4XQKdh5egJxRA73Vzha5px62AiwIAdzx4/F6tzNlViVA+8ylSv/
+adKqknhx0mDSBngzroV1zroXc9UNE5faJM5oYiolHOeg9K068+PSkd+61rbQiBHU
+/dwV9fWaIFfFmBETVHrZq3WTTDA3I+2uYWC2y/uR4l46am8Oo7ptAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKxv8/dMwX23Pkq6T05n38Pp+JxtrQpi/gtgAm3zmOVtokwgewk2jqFM
+BgQcNEYTFsUrspJiVIi5oAiLNqpkv614mpnqzK8u7AahLk2qCZrNy8Jt+HY16fw/
+SboiUYFkoyr7my3qj3oY9rEskQw+5E7chx3LNEnq/zlLa9sIeInXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+RAA4VtYQ+d/wZZjobV8lamQuzrtuNlVXATC6YXRpxfBD1JwsdvfBuXqJmG5CQSM2
+FFJHSLw6eO99ylaX8Vk4soR9ApWZBvwut/cOXD9VvAV0FWegoeW26TPL4jTDwsGw
+xkQLjlUK5N8q58VNMwe16h8pEq56vABU8VhQBeAluUk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAVqoeKSZRJP4+i2jGosb/M9souEuQ6bKcMsjFbohYrAWAL2mfNMY90jl
++eW6VHgil23yyn6Gm7f2MwSWSpdzKdsSp7adgiU7YhfT8J+k6qrCHCMaFdJmscCH
+2UyfI0W5JQs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <slawek at janukowicz dot net>
+ntor-onion-key S/c2HQWdv8Ar/q+Cnhubv4erse76oLJgwBsyzHEKAmk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 YHcHNt6wOWgGEVsr+YEx4U++fAfHY4A0hcjCtwhKtyvNH1zfcLpO2m4B5C7nTMqQostLx5XkA15NAFcXdBmFCg
+router-signature
+-----BEGIN SIGNATURE-----
+gNg9hE6uqUN2KxFG3Rew41bB/xTmp2RX5JLd0tD3caBOz9ao9hJmeZu90fC3dOZW
+8Hv/HXSG929yTPdZlUttJwnB6mq7RwfOnL/zfgbOlTDVbaMrwgL88WWYBJOcRQp9
+aLFL+cYJvkW6GJDA2FZt3hapNGB6ab10mwiumrE6hho=
+-----END SIGNATURE-----

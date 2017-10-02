@@ -1,0 +1,51 @@
+router discworld 99.52.176.162 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIqARCBchS3TRE4jNXE5W2i6bP4TtfX07Y9O5T9pfG2rkgkAQAgBABbbLK5
+4Mwq1/MeSIpATDdSDWQf5tkkB2p1frw/wNgiOBkkRnkyIxSgVwlR3N7heXiU0nzg
+M4l+P9LT+2wJedwWvM74ydVHS8j9TEtqBwChtJlM8eJHrtPSmXOYeUCL4A8=
+-----END ED25519 CERT-----
+master-key-ed25519 W2yyueDMKtfzHkiKQEw3Ug1kH+bZJAdqdX68P8DYIjg
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:40:57
+fingerprint FDC6 59CA 486A 75B8 6889 AA5E 3D3F 3739 50B3 D3D1
+uptime 6454324
+bandwidth 102400 102400 100586
+extra-info-digest A9933A1F82838B175E8592D0D055A2AA2212767D 1guh6Ji7PkxAmktwqsOuh2eZb3vWBUfrQT0VqLefe20
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPfnhRuZO4DyV4ckYSJ862hjbHQkAmx2T2k2HuaBgajcB8ujr015eZh2
+5fe55LktA5ee/Yta5QaC0JmVbrfLB7fmKqWGCkZtLahQ7Llm5tDFWmT5kd73eHXo
+kTWDwgaGQF3RLaQj5XCcfiTP6F9pblyxQm4nzfKnUk9g9/hEtf9XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMVl+7Jut2qJ3LdAcC8LZ31K+rK3tUUODsVjYynPpq7Vukvq4+Jgw8xH
+nijD72fpiKDVyS8pp/AaP9+/cFZbM4why4Mpwp/JmOUUfoa8Ju45x60uqB53zYlk
+/vW2moF3u+W3H1XeKXeei2GE6LE8aCY0ATgUFdflml4IxLplhQ2BAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+T3/H85rmqZG8jLSiJ8mJlrNd0OWa20QXLFB2XdI6Ilxi2VTANzp4xl0PZO6IxgZ3
+m8M4mXruc3mLSgYJC/qXIIHuYA++HnJXMFVv0yMW2ssgYAv51N7qrxzl3iIVbn6S
+cO2f6Q1JNTMmD8KYPb4qOt1d6AsBtEMP6gpQAhysNoY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAVtssrngzCrX8x5IikBMN1INZB/m2SQHanV+vD/A2CI4ALdwEpDgp+rv
+7ujY6tMZf4uBBPw6vfzeimH+wZBUNCY498VRC9uoE+gffkiEV97PjJLC3yhQrjhI
+E34VnMncBwk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact john@os2.dhs.org
+ntor-onion-key EBoqIFRciVup/d6Hm6HUvFiwrTnWd/62e1emL9KiWHw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 n1fvPueWPCTPWxRrhE0Sxle2uHc826HfoAQ5BtRVAGMYL/RZ0m2ox2mtabIRVRQ44HW6SFhhBEvSHqdf0QwzDg
+router-signature
+-----BEGIN SIGNATURE-----
+OoKXZEM+YXpP9zy41xx7rUJc4aJZWTxgtSlLQMoORcwKo/NtKcSwd0sxBgRPZ58a
+mmDtkKguorN1lp4vSSE+5mX6s+4J4qXu9VgHzVRpaej/Qb8WGm75tlTAX0n3XH10
+fVeQ0fmI/g4xd8DumBIb9aH6VJdiFHu5Tgjm+5uK1FQ=
+-----END SIGNATURE-----

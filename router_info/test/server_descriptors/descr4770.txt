@@ -1,0 +1,54 @@
+router etortest 84.2.34.74 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:02:13
+fingerprint 7237 39A0 77E8 3D76 8E1D B46C 5B36 6944 CF8F 68FC
+uptime 591639
+bandwidth 1073741824 1073741824 5303269
+extra-info-digest DC360446CF00E55127B2178D52638B2AD6E3CB61
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOQa03kwvAFU7ImVS4mbB3CLgNGNK4Jjz1YSVPGSdbdJTZjR2S4QjMx2
+38T+BuRcz48OmWoXb/SVsc4X/YK4D2FTubWJBfuF85vzi2G22vdw0CwD947Hf5rx
+iAitKoyrxmZzbuIydEfa33xchmJC6gi5OjjkTahNLRbxtVcdasTlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMskxIojwxK1xEtY2AqEEQhSleG2eG6aoDrGYK5/NKY/SY4uklVy/MIf
+jow0+dOk5Y5204M5juJmeLy+TlqKAcrFZzv4vKsYnhbWmopPNuibsoe9VX4AJG+i
+xCaRX6MHOElqJJfK21aXnBCmH46aM+ZABd5laNvlVAOix7NlzWXnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Test <nobody AT example dot com>
+ntor-onion-key kZ/CPyICKBfuoQWcomGnJ7XEbs+qbIuO/lGYRAxO1ww=
+accept 84.2.34.74:*
+accept 104.36.83.126:*
+accept 199.16.156.0/24:*
+accept 104.244.43.0/24:*
+accept 199.96.57.6:*
+accept 172.217.20.196:*
+accept 216.58.214.238:*
+accept 216.58.209.162:*
+accept 173.255.118.158:*
+accept 103.21.244.0/22:*
+accept 103.22.200.0/22:*
+accept 103.31.4.0/22:*
+accept 104.16.0.0/12:*
+accept 108.162.192.0/18:*
+accept 131.0.72.0/22:*
+accept 141.101.64.0/18:*
+accept 162.158.0.0/15:*
+accept 172.64.0.0/13:*
+accept 173.245.48.0/20:*
+accept 188.114.96.0/20:*
+accept 190.93.240.0/20:*
+accept 197.234.240.0/22:*
+accept 198.41.128.0/17:*
+accept *:53
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+UMY6HIQ8l2cU8F9JeWTjdeMXZxsnmrXBeJv77YHxtdcxAexUW3gG/jl47DxWhy6U
+0Uhp0nRURoE6/cEZbKcofjGVOLTlh6mwv8cX9IyfoMknnteeY0all3GEE1zTWq5/
+nF/fJ3lIhGgEaeL7SPKix3r3+9i11NEaielF5DlJnEg=
+-----END SIGNATURE-----

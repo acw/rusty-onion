@@ -1,0 +1,51 @@
+router Unnamed 85.179.94.100 993 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGhAf4pPorHYrKz/bbR448cwkKd1571Wdm9/q/o7+Id5eJGAQAgBABrKvjA
+x1FZuzyWBM9MJdXXgJJjLfeu3ItETqYb98MN7S9ljecCqBNBacHnjygu5XpjWQNg
+EzTXCrqkN9K0pIzZjPiqdkMM/JXuzL/fwjH2f7LWKm/okQwxtmD1sQT2Ng8=
+-----END ED25519 CERT-----
+master-key-ed25519 ayr4wMdRWbs8lgTPTCXV14CSYy33rtyLRE6mG/fDDe0
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:16:02
+fingerprint A36A 198D 2E09 1C99 829C AA88 9F06 3AC9 5676 9317
+uptime 2
+bandwidth 512000 614400 627710
+extra-info-digest 19B51229552E1725F59E68862C375022181786B2 33de+ya5GfWPU4y5yVUhlXnz43kG3Iun6/qGPreCBgY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALqPHOC5MIN166I57noHjftc4tqDErL9BmL7PW/WzJ2N7pyusXGm3o8b
+vlYaajNRSVjw/9nyft3tWLSmRAxFOseo+L4BVWEQJ8j1gEK7HeC2WKBsYOlC+mJR
+e5v4X+q6gRT7MJcISqViF3R834q1H501iVe5pxMZV/OAU8Pap/5RAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN4k+DBErwFOrZKrmISVswZAPY8G97sFWbzh67c5Y0kA3WyeiBj4eZeq
+Owyj+g5DS7314ftoKlKSNWZPjadJ6WPcBFAWg0hthc/ZG1SJEBmWyr61iV84uzv+
+Ozop2EpTRoIfJ7WILDNwIMn0FpetS1ul3Gh6I1s7Nur8CYLmJSWHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+B98p/X3sg8sEefX6ckBuxjKMGp7tUXY4MMBmCbtLO6dqAzReLQ9h/bAAZkvzsPka
+TMzzY4RnCqpJNy3XcZ2alHM1lMUSykAhUmtWw3Hz5hYisK1DBCYu1en9Ge+nOdkg
+dyENBIz8gZfVXCqZC45ALnjogFdrkltgxAbVx4Djmks=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAWsq+MDHUVm7PJYEz0wl1deAkmMt967ci0ROphv3ww3tACXvXaZ2ZT0t
++7xuBNwCXJRV+COYT/b7yTzSPjXtWk4vVjg5So9baK4lDLa50lSjtl+13G0+HjKG
+cnoMS/dNIAs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Nym <tor.20.sokrat AT spamgourmet.com> 1JH2RueDoXvEaNEdQKByW3mj1C3HquWjcw
+ntor-onion-key 6dDArEK/LoegoLWf1h2h1bdCHuydJqex9MGJLC1gRE4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 GF9oVEQkliHQ+uBlJfjQF3WYjtVZ06S1ZalnxvaLtIN9Jy1uLDxEUNh269wdnpHkVDLxBRxZsqK03SqS7EBVBA
+router-signature
+-----BEGIN SIGNATURE-----
+Tksx431+cFFj3eQIWl9GIneAFQ9UvqGWx70ZEMzRQc33dJ9q1vmyykoYvkJFTUz6
+LBJ0wTD4mDX578IX9BkjLgGv/Z2PDGCEo4jXQxCA40LDHcsCcgdtykexmmbBHToK
+70rroluLNDCB6cWIx5PW4gY/uGkGNfWyvmNsDI4mEQg=
+-----END SIGNATURE-----

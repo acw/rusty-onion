@@ -1,0 +1,48 @@
+router TheCat 37.187.117.138 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:28:36
+fingerprint 8DCD BD28 EA5B D979 93A2 0E1D 467D C53D 943F 5D52
+uptime 3751622
+bandwidth 256000 460800 537477
+extra-info-digest 98436DAB9B8AF51F1EE30C0834E7122DEC1356C3
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANQr/bf1/EFQlTpFDLbZU5LqCllVnuruuIjl+VYETlDrslJZ6E2cvq9n
+EfFfeZHWnZuqZOIKa/dNv0zFNjdYs6ukYFXFYRFNcUOMIEfb1RmOH+Ai5aSvlSP5
+CHAxoXnrpnzo7mAoNvu0PlmOTv4Y6fvgiPkNE/NY8NnIKUD6S2GJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMttxPt/YF8tbkACK1fNQnGdfM7GQNltIHoBtw7mEpRCuXagoAKQvlSL
+UYmm4QaXRQ5CthsqkeBgco6sd00Egk5RL26ERdnow0T3QFSNpnfoVdKLHsCxRdFv
+hWOb98LiqEFJVCqQmGk3bd59hy3rHOkKnX5aEYjZgv2X5byz++RVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Javier <vanshyr_at_gmail_dot_com>
+ntor-onion-key 4IrQXjG1Z6aosPnaXTyCsyEYLPXnyXNPgww7678P7Fs=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 37.187.117.138:*
+reject *:6660-6667
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+dArPz+tppYsqdeAGrvQD1sl9rA6lD14cHSk3jgi5Vr53dnvMj3pHkBF5isSIhRRc
+vpBJqsjewA6ei4ka7INNATxsosar4op8sNW8rOk2HptAWt+l+PSkvRfXfxTUTvvn
+xXlFNCNS9rk6Nyi69CYf2w5ZL+f8EteP+OlNmSdV6g8=
+-----END SIGNATURE-----

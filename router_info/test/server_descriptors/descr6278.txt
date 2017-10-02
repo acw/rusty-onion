@@ -1,0 +1,52 @@
+router milanese 139.162.103.248 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF3AX8lLtb0FVgdePMQhA6Btui9KQU7mbyCL4dBUHvthdx4AQAgBABpUDXE
+02CK11pRb2l75dMJYNbskVvsm+S9aIb9kTs5puAPF9OD3ia/wqFvttybLSadQT/R
+A3FZ4w/zXRRcd2OBcssUCjxqq4eVnsS92/cP3bevdoj2apZGlImJw7hweQQ=
+-----END ED25519 CERT-----
+master-key-ed25519 aVA1xNNgitdaUW9pe+XTCWDW7JFb7JvkvWiG/ZE7OaY
+or-address [2400:8902::f03c:91ff:fe24:5dc7]:443
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:19:36
+fingerprint 376D 1BDF D317 C46D 76E4 8C15 5026 D645 7E12 564F
+uptime 2395045
+bandwidth 1073741824 1073741824 1091580
+extra-info-digest B4F9D22D16118A2E7020D8817DE015BC8A6667CE BQwA0Iu+O7WJ2zawGM0xLs3xcMlLI72d4zyQoydCY7g
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJGWUP6m7UL0Wpke6VbHBU7R3jH4eoVuhjNMLuK6vJH/t55ThG9VE7Cz
+UqC6cOCkGMQBYvzGh/+eDgH9FQc6jhge2zKnjkMcDMQgAdm1xQWhyPbTrpRrG5kk
+AtkTq2rt4Aw9YZLlLEzNh4mteD0SK6DkmQTHmTpWA+GzgFNS7U0zAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOD4inHXFMe2FCx++hn2oBZAb4TMYAyBhZdhsEJTDzwRzlzrotNRRgME
+BPV0mjpFOUgnHDhyH70L78j98XH7/ZU7cMwSeh2jSQcsK5G1x8rpJWaODxHKGzps
+z+CrtoycOCjXj6STq/X5gLl2Wwtfxh69/QtXz3QcromtjToHto5/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+PhSEoqYE3pZHyqpec+E5p2fHS515o7NADtgvGHqVxQttKZx5nJsYYIWg1RwHS35E
+49u86J//lEc3hVKuc9CHJD/1nKMKC45To+1Hs1xi5kw1Iy77ikxEVqwkXN/7mKOo
+nCR836hQV13TlLYLOb9h3C9gRFSRXYHASqJg1VWSZho=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAWlQNcTTYIrXWlFvaXvl0wlg1uyRW+yb5L1ohv2ROzmmACUnScVqISSr
+JrRp3r/LktIg9PtTu56DFqXUUdRxJrhUsyifvg1UvwPwVJWc0QTW63/nefTMtMuI
++1m7q7cSAwE=
+-----END ED25519 CERT-----
+family $5E762A58B1F7FF92E791A1EA4F18695CAC6677CE $82C92FBAF2196EC346670D12BB9650FE9FF55741
+hidden-service-dir
+contact 0x44BB1BA79F6C6333 <gfa AT zumbi dot com dot ar>
+ntor-onion-key AcQNWCvPI1sE7U+GgCKXGj15KiYUhajNopbt5Q9HnmE=
+reject *:*
+router-sig-ed25519 uWr/3kqLD4ogU471Ur6FSOGUdjpAy2MjiApOUwEQAne+QPS3WxKgIlOvnCq9fL1b6LKg2eiKTfd5wN4ol7n/Dw
+router-signature
+-----BEGIN SIGNATURE-----
+YlMpn5nQbo8DjsfC/Q4WOEZX+tyOz+CV4F6Mrc6TuCXSWE1vN97zjFnGBbdcxqhT
+cxlkKoDkx8qqBaavAcCwPT8wWNJ+4KK3Yr58f/1i1weNlMOI14VavwYSEC9pGyib
+w9V8qwuLHx+qZynVqNuv0/BzhhMIFp+qbgguoso7KaQ=
+-----END SIGNATURE-----

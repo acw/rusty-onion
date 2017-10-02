@@ -1,0 +1,51 @@
+router IPonU3 145.239.82.223 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDlAeXwiMHffkgYTjVbw47EGBcezIoMFKkWybEpgahOHSADAQAgBAAMiQGE
+iLE+XDQXAHpfwke82HuA6aMnEOWTT2yVJlr3rYPKyko7FRZy7YME71b5/TxDdI+Q
+yANolrXdinGYxG+SYHCpB51iAIC3uo+TtKpIyaNsVZp59E65w4xDLT87hAs=
+-----END ED25519 CERT-----
+master-key-ed25519 DIkBhIixPlw0FwB6X8JHvNh7gOmjJxDlk09slSZa960
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:56:35
+fingerprint DF54 ABAB 31C5 81D7 EA81 8761 39F4 335A 3278 950F
+uptime 839948
+bandwidth 1073741824 1073741824 5273968
+extra-info-digest CCAA68099176B8E67282667B8C4141B7F71E8829 YuwjFws3CTCVO9fhNtNt1P9fvt5n+VzwWz7RV3BqQ8A
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPC64nQH1k4ukqRj/wbeMMn+Z91hIHC5FH/StA1KgTPMIKKJSwVG/rBA
+pz8eG8TgUDepqyl+0reg2mMrsxUFZhhgm0z2rgQxgBWzgcJ+rYtvKqz+/24Vx4G6
+zURNErL8oNicDMpyFbEY9yx/x6S6ie2BV3y7e8hnCOo4NTZHbU7PAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALx7Mn6TImPGvRfImZjoYSSNtlOpn4w7aneTTO+qc9iFMVKTCnJd9EvE
+JFjkFuaofi8JyhbwrpcEcvfnBYhO/c6m7D0M74pl6VRBkl95xjYwqNdhK8GFcHGG
++JEA+Dl5WsC9NQB/FKUmO8s4eA4e6rSX19xeKioqUsOnq9ha0nNpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Y2H7ced8rOanU8osES9VKyS8WKcThMRVLrwyeqBEW4xBjXSQO+OlxNaYWGiyuMXq
+qD9fGiT4QCk0Kqglav+4rMkldTAKlY6SAMM9xppE6T4kNBiUSBC11ts/JMw7cJe5
+Gc89ltpY8jKhDXKCI4/TmmwnrHWFsFNdF+apJmZe1N8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAQyJAYSIsT5cNBcAel/CR7zYe4DpoycQ5ZNPbJUmWvetAG98RkR/WGQZ
+I3GWi6vIIcTQTQBPdpepuwXLGlyiGWAI0I03lhbh/CG9y6jZo2byoM2EBqEEMWc5
+ugb4ZujxUAE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact contact at iponu dot net
+ntor-onion-key n1xuPgQPqC581GhJjKDajYsvEjcNnLbPM0z+sWpdGFE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 R4TUbV1z+f1FTxuzT2MNz71HxDbtOOCr8UhOUcTYcpt6RZlyNNktPb7pHiWY0s+JdkKVGkiwedTG9iHL/4vlCA
+router-signature
+-----BEGIN SIGNATURE-----
+rNKJbdJogK41hswB+ChXVpAar3MCA3qU1H4N10eyx7C6VD8Esm20JlNzVaw2OLj0
+OVdN2m9/68MuAyDNWZ7ZRX/i6vGzd0leE4OtOL+knPGgw3J111QstHxiQHz+qq7k
+tEsEjd0NMUa/AT+rk7Q+rCQ+gKA2XmhATzgva1F81J0=
+-----END SIGNATURE-----

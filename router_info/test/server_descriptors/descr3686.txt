@@ -1,0 +1,130 @@
+router DigiGesTor3e1 178.209.42.84 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBFAaZqwxfV2TMhcJI7bPareDYATiUfpf+RAVaokSx0wWjnAQAgBAAvvImZ
+s17ElEEWIiNhB88dLtS0xVt01rtDQR4GL2VpiDXi8+0ZJKG+JfbG3iy2D8vg+h4g
+3fEtC8BczkovcoK416haYXb3xsgfbpDZmCJ+1k8Nwb4nicv3eHwZSeFpLwM=
+-----END ED25519 CERT-----
+master-key-ed25519 L7yJmbNexJRBFiIjYQfPHS7UtMVbdNa7Q0EeBi9laYg
+or-address [2a02:418:4014:1::5]:443
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:47:15
+fingerprint 9AA3 FF35 E7A5 49D2 337E 9623 33D3 66E1 02FE 4D50
+uptime 880092
+bandwidth 16384000 1073741824 20071032
+extra-info-digest D50AE84425E11FD8E57E3894B945100CE48DE60A 8NA5/BEQAVFJNZkMr2yUGbn/2U4D8NtnX6AE5E84rL0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL6JOQGiJaRVh1YrD0HUZhxXvd3khIEo/EHSqor9Smgd3VoBXJvgWQzL
+LQuYH7JUPjB8t2vw5RFjaxk+C1aPB0HhIeeB4ZitHw9SWR5TvPlTVAldNYAFvY6k
+lxhnSoiavuM4IoMputA44VKpBBsFQkdCLT+MMvp4XM+T+78QFMiZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALlUCk3z40LKS9/VxMNL4nybb3p+N9sjQP5/V8fX9KZVSFCqP6lRTJpv
+CKLC2UjTrmlrIyP7eRbJm8ruapnko4nDIhmbAbT5jV2teT/G/6wdLpNvg2ES0o9K
+8umwDjmJyeGI/7IX74coPPyaTHLwbvh3yMf0Pxj1SLFIRd6gcCOXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+muknsEmw5viouamFmIHQBw3cUaDucg42Tmw7nvLEZ3y2uEQOnDWxBrJarsVgB1qn
+gNA6z8uSuDtEuodR17GOyXMyzyqNtCcS9WTMtsC2nG3wXGYj21iRcGxXuR9gg9z4
+IkJUn7+bV9qtzMqAO6I+FMhC8HrtpbBeYG6niYYqBHM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAS+8iZmzXsSUQRYiI2EHzx0u1LTFW3TWu0NBHgYvZWmIAJNMW8jSq4ja
+Xia/rXeYGl+9xMDThD3AKdBlhkpX2v87fM8WGjrb4+m1kS7e/Vb2S57Er4AsFS7t
+BsmpAww0aA0=
+-----END ED25519 CERT-----
+family $0111BA9B604669E636FFD5B503F382A4B7AD6E80 $1ECD73B936CB6E6B3CD647CC204F108D9DF2C9F7 $2F557D4881856412B5FDE8C735D7A8D5C58E9167 $311A4533F7A2415F42346A6C8FA77E6FD279594C $62DA0256BBC28992D41CBAFB549FFD7C9B846A99 $88487BDD980BF6E72092EE690E8C51C0AA4A538C $95DA61AEF23A6C851028C1AA88AD8593F659E60F $AD86CD1A49573D52A7B6F4A35750F161AAD89C88
+hidden-service-dir
+contact https://www.digitale-gesellschaft.ch/abuse/
+ntor-onion-key ckOLriHIr5tsbkrzAO6J8+3UL0WT0C8i79pz5SiTICE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 178.209.42.84:*
+accept *:20-21
+accept *:23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+ipv6-policy accept 20-21,23,43,53,79-81,88,110,143,194,220,389,443,464,531,543-544,554,563,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8087-8088,8332-8333,8443,8888,9418,9999-10000,11371,12350,19294,19638,23456,33033,64738
+tunnelled-dir-server
+router-sig-ed25519 qQOPRFfZg8rztX+2RjuQuda2OJklyr3Q0boypSSV2Hb+cdoo/XUYvFZCRDNKW4Oouxj7/7jfv2L094UxIT1GAg
+router-signature
+-----BEGIN SIGNATURE-----
+tlgHPQBma832fNpGKiNV5TfMuSYslSi407Bn+MngUw0Kd25WwfhYo8Cid99N/I2X
+PI57jeD9Bzd8P9f8/9jujLybLWpNhPzCDuszJ3+XrWUOEfY7+NY1xMrBoRbK5BS+
+DuWIu0qxqDDhW+boMj1/pgPPoEWl2AEZ01QUl/nE7z0=
+-----END SIGNATURE-----

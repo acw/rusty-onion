@@ -1,0 +1,51 @@
+router MrBlaytz 86.246.45.6 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmD7AdoPCn5R0niAYoO4KLD1hz1223Yw2MsqeVcg3lnHOgKFAQAgBACEA5HC
+HTmS6EHFgC2kopTqb2F7p6SCviQwRIpe27HAdCyxp+wfRsHzQzhisniz5IuOoVde
+4lcb1VmRl0jfpkA89whhoSVjA2vCit5kjlhnTfhekCOzefHKsQOspZAiZAU=
+-----END ED25519 CERT-----
+master-key-ed25519 hAORwh05kuhBxYAtpKKU6m9he6ekgr4kMESKXtuxwHQ
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:38:07
+fingerprint B8B3 E140 D66B BB80 CB48 930D 819C 9312 9BED D636
+uptime 93540
+bandwidth 10240000 20480000 4574223
+extra-info-digest 0759E19EDEBA00FFC1CBD58A1B43E22A06DE6499 Wa7zP21B9t4B458P5V7Zq1jDJcKaOWKXP6+e5spkHc0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJqc388p56vRLfjpFK94xt883ARtjI+Px1iLLCiniPYH74ZIMqei/bP4
+Topk50OffAsd0bWwsmfu2bmnsLHdLE9z6jpgaf3hguJtVi7YMZQXIsGxaWr4vYUM
+o1qiZL6lRzBFW49h1me0FTIwbDhNHv2mYCvTWpfJU2nH2DgJg8KpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKNYLEIL+nrAvrrQKlLQaRePp/Zo94vyT4EzVeYnI+lFrdo8YURbNOPn
+JPe1WCnYXnJ8vIc3PNHqGaAIxsNW4z7I7zTJo4cQ9DxwsaL4xRbdH0ADqcq9iQkn
+FYQrmNDERmUCfkcRe/pD+4LlnzmcN8+ADSazy9iZFmeZcJfIZIq/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Ekd+2KUvNHaMkYr3hExtCh+E43mATG/c0zaexy99yCzBqk6D6XpNuJtuYHGbV6qG
+wzE+N5vNp8z5FxJKQz/j9m02IUSBJfJyJMVM9ygGFfHCFJ2SzbGHk52v04gvnydy
+vaul7hBlwr+e7oAbmEzWuRF1uGfA1WNuPw1E8ImFQe4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAYQDkcIdOZLoQcWALaSilOpvYXunpIK+JDBEil7bscB0AFKYBbz4twXN
+Mbx8J5ho0lWykuWVJ1C69MASg29artyRetVpAD4ReMNmEugXS3CByL2LgYjmqXqi
+G/ihWgTbLgo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact mrblaytz@protonmail.com
+ntor-onion-key Jo+4u0mBp9vZ4JVzOmi99E5x+iEZOpgHTeMTeKjwNCM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 xZRr1sVlYYhjYQyJ/P3as+D7z/qPjwusi2UsGqjUg+U/LsvToCbeWVW3O7/LCf1dQZETyuGdddlyaY7YfMoXDQ
+router-signature
+-----BEGIN SIGNATURE-----
+lo4AhM2wH4IbDfABiPNNFje/uoabErjXHfs4P5CGAzsExNThdIr5bh9QZoOPA/+e
+amVkUSBrVojY8Yy2gf3ahQtTgKuT7YjxSrUvTMCt95OrKDBCQx7hxPUsBQsq7oM7
+g379BLkmhU9uckWhA6mcYuc7fIgqOSUU4LhyyvkkEeg=
+-----END SIGNATURE-----

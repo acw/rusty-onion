@@ -1,0 +1,51 @@
+router BlackStain 104.236.90.134 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHvAa7TAKU2Fm9EEWBt88twZCPG/tkJ7qbubPB97RnkTi34AQAgBAD9Pkzx
+4Weiy4i+/1R17joX0Dm1ftMAkrU8AsOjbEWRRD5Am6dLEun45NsK727DZXXmvFFg
+XIB1ncL4ljEMaglX7iWMj5RvkAvTknF5yHK2KpfcqXcpfCG2UGCOyOXVlgc=
+-----END ED25519 CERT-----
+master-key-ed25519 /T5M8eFnosuIvv9Ude46F9A5tX7TAJK1PALDo2xFkUQ
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:32:39
+fingerprint 3DE3 35AE 4A7A EEFC FCEE 58BD CBC9 7D40 C22B 2C14
+uptime 734408
+bandwidth 102400 204800 118914
+extra-info-digest 803A306D50419A009D3A1859A5F0CED3B10CD946 70awdxVZxatjLWl9JxrlFW4+8DmGvIydrsislwn+ysc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK4JljMmwTu1qCJbDTMmDD1vuHe1Zlj+wyZzR1O+LRIt7DxvDZghmYl9
+OWNgsNKCsMZWJtlj0drAgwLqD3YRJgC8lOoja2HkFMh55xcJr1thwxINV+rddggf
+QgvIAFmixtGWEmNmTXcEJc9rcxDuP1gJbSexhrRA5P7F1jiu8yobAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANYH25//D2nGsrAuhoGCXrB5uNwPozcSMvDPXF1QAC0LktS6sAnDe0C/
+OHw3RR9N8CvB7ubWAVlpbVCCjISIfDh+krOlkYg2jcqCBDAqVfc3mc5B4ukCEIht
+e9vBXE+RCBduCXnsAsf0LXf85MNNTS02qZsmavJ0Oo+oiej639bnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+E3CVI3jfMRWb2x5WtLMm+PcXpT+GLBtyXxc7cx+4c/OodhcKUh1xnzntMIMDt11l
+nZEwKOutNoCcIrVAgbc2fVsbBMTqwWuPgMB35Hl6kMxmThtiod8H6+cr9WGs7Deo
+geaZKKaSUaH13jv3sVLRtHNSZhl7DRUJZuYhe9mT67g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAf0+TPHhZ6LLiL7/VHXuOhfQObV+0wCStTwCw6NsRZFEACrEbdxm10kQ
+E+Fg4TAGoyzKmv5ZIr/aWJZaMy4FVt23p8d733JMeZl6YhB7VmvJzs+O+Y68ekna
+reU0jZvm3AA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xCB3D2E3F Cristian Rasch <cristianrasch AT fastmail dot fm>
+ntor-onion-key cbUDo625v6NxdOO+pxiGH6kMA6tgUIiqsrKyuY8NJgE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 S2sz6+Q+vavPjWvdRVDtz4B/rnJN468t1TR/dJzsmlljPAOFk7/J5Om5H1HBbEiR3Eon04fzP+LiND3jPnxjAA
+router-signature
+-----BEGIN SIGNATURE-----
+A7wOtN3NZQsHyaV8NUJrjoGxP4BBRXgUIKlnvn2dxDBVqS/h7+DjCLdRPGr7W4Dc
+5vXF1wmjkuIA/TjgC1KTObZAzauLTeAGx+RNhsCT0K+3rCFDnbImXrSLPxcRjKQJ
++AYgyv2CJT9BJ74Ihv/Iu7tD0w2nYq3gZxbD3O/Kkd8=
+-----END SIGNATURE-----

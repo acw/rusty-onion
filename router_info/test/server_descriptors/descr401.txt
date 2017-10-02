@@ -1,0 +1,52 @@
+router Alysa 217.182.76.240 9001 0 80
+or-address [2001:41d0:601:1100::4ef]:9001
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:01:12
+fingerprint D04E 5040 62AA F76E 5E35 3AF2 4DC5 F30D 9A19 E7CD
+uptime 6603199
+bandwidth 5242880 6291456 6166733
+extra-info-digest E49B331D9414B5DF1B2AB3C98FF5965BF39C1151
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANBZVZD+Dd67saUfoqJbKtli7Cs7Kp7LS3QoKIpWcyGd5QRiuC48XvRm
+2liGj7wXiPTQSikep4L4/QNhjRT0vcUHcM6UNdNdz7SQ5+LIey8o/7DCETFWLQLy
+CHc9Ec0EsXmXwILLuknD8IwK2RnwGnD+T26pM7YDdN5ezEn3KbelAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMUgT66Z+NfG6OfNXopvQZLi8ueXfHEkASvlV8s0FioX0+M3SwdGNXx5
+KCthk46f2EI+cIft5pU/9FLhegIO1AUbPl+AlpM/2md632ctA94xGnbsh1gZOH41
+TlniqqwIDGJ5o6tptFhT9n7A/Y9yG2R/emcUN4AHbbqSMPuAb3ipAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Alysa
+ntor-onion-key mxOEdgbEp6hPbY1sDkFYLuzzxMc6Fjrtpxiep5x1A1g=
+reject 0.0.0.0/8:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 217.182.76.240:*
+reject 169.254.0.0/15:*
+reject 193.70.39.41:*
+accept *:20-21
+accept *:23
+accept *:53
+accept *:80-81
+accept *:110
+accept *:143
+accept *:220
+accept *:443
+accept *:992
+accept *:993
+accept *:995
+accept *:8080
+reject *:*
+ipv6-policy accept 20-21,23,53,80-81,110,143,220,443,992-993,995,8080
+router-signature
+-----BEGIN SIGNATURE-----
+EI4JVbJp6/1NHlr0DO6Ra3PliUxcYiX/p2k8zpQjZhxtOFGxmXu33nMXg5WU+V+W
+hCZFVTCMFd8xzKy7Cn9uIAvl3ItZ1C8wxaczEa4SE27pwSjqGGru8dgY3/AIF3iX
+gd6e8TUCZSAD0oV7Ag1O1CQf5PDwfOqIvaU7gb7cohc=
+-----END SIGNATURE-----

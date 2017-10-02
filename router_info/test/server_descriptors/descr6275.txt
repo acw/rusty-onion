@@ -1,0 +1,50 @@
+router itsarelay 108.61.96.230 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKEAcInjlZ0jlgY18eLUV7xVcwTNO+vEJkjRFHarP03RxOoAQAgBADNI7nr
+Up0rY8QcOmfi5c1YTtZzrOJPZ1nB712TH8en/QkyZ/QR3THL7ONTVjvUZ+RNfMaT
+xLH1ZOgbGU2Gm7m5kbpREMw/13t+vM84CEQzgVS/MUeYftxzX9lXdZvQgAA=
+-----END ED25519 CERT-----
+master-key-ed25519 zSO561KdK2PEHDpn4uXNWE7Wc6ziT2dZwe9dkx/Hp/0
+platform Tor 0.2.8.8 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 10:58:02
+fingerprint 3791 1E00 E59A 3B69 1AA9 5665 B29E B071 2C0C BB00
+uptime 27741728
+bandwidth 1073741824 1073741824 503221
+extra-info-digest 27A822242CAF482C9B015C4914AE9BDF755F041D yJyloDCiZ2Hxn7HircUheiF2A6XmVxXCdgyesUyLz6c
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALt8wiWcAX2y4nTNdN6aDiYoxhbfN7gL0InO5Nl7c2ZWt0HnnognnX0c
+HDNwTFUiezncUmZaMYG1XCVLRPA+62evLlIv3pfVmUgtjNvQfdjP4IP+0swdc0Qf
+Qhxx3J2Fb2iepDdenYSKSM6qdfo/UbPupBpfzn0vT7NUhXB6N8STAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN8EvdXUyFigiTIJ8toj5O5DwoE3ghSHZhMcKC8Iis38tNFH8SINCqUW
+nUjRgpsNUAxNIDxYxPYEVtT2+Q+Ch8sB9v3U/0Ryxw/G4cm+Oj3dxoPTX7dm6Ufv
+VolugG2EH6xHrP7qlk8x+I4J0rJtXATbaqmFY2jpzHCHDyvMl/olAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+bYGM/ME4SwjACi4ZAUGWjK2dvk2bLju4dTCRLtW70dqqTMgMmGWWDy+MJEvXz3Ll
+WzzvnxvpS/8ymAssKoHBNJzUVfucWbPO2um+J4bvHDKlLH/z7qweA73Ab7s/0+Q0
+pkgeYCry0J6IOBopZlYm3tGc1l0iLRU3tIIjPkmzrwc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCDAc0juetSnStjxBw6Z+LlzVhO1nOs4k9nWcHvXZMfx6f9AAvWx3DvRRYM
+h5PHIpNwLoTc6Y71mLUgdsiEPe5qzWNtT7CzL6nShwX0h8frKlde1MOKgpenMCzy
+PjbWKexbFwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact kitkat
+ntor-onion-key pOy88N+dpyZ0EbtS4/CqIFBSHqMy/QxQqNkoV6h4EFw=
+reject *:*
+router-sig-ed25519 yyCyVkXbtdq/3uoXM0l8pwynWgII6qrTHdcCXcpOFOgkmCzlYLdFfktjg5EbK6RMR7X8DjwP/5ciABiRyTJ6Dg
+router-signature
+-----BEGIN SIGNATURE-----
+LANs58jHHv1VmCfEIpbIcHNeDSwpLIQVcKoNOB8PUHQh2QUzj7u6W9umApTQKGZb
+oLFs+iJWzrafZt0NpKMf8mx98je+mmziZ0FWLjo745OJhI6nGVxA3vk0mQq56ePR
+rozANy/zaMUDHOozPlz4veLFiNUfvjAAwTNGkC5N/vM=
+-----END SIGNATURE-----

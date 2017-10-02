@@ -1,0 +1,30 @@
+router CottasRelay 212.186.71.38 443 0 80
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:18:10
+fingerprint 4F30 56E9 D4BA C38E C210 0063 7452 2155 3630 ECCB
+uptime 5781405
+bandwidth 20971520 26214400 2522861
+extra-info-digest E20C9510CEABCD80368239A5BEC93A84BDB88891
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKjR+mvP7imsAPW8JpNHMLkY33wejY6C7xUFO1UD5mHGAC10soUrpyVg
+zZqUeeLaL4C4CgqME98QKvLpwGqjN1jxDoUdH+O1e1JZ2cBPm0/MnjZOmtE0MJFG
+IvD7n45QCa3STWyk9nVnUUNB6txLkPAzL18yYj3XlnLpFxYM84GZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALCTAjuebNWzbn2necyl8iXoNF+OiPN5C2qsYA9SXj11Pf/57nGu5Q8D
+55ilCYftq+3EGbdvpjZhY8EQBKJUtVQtAQeViHpvMWjzPqiThCTMzodsxQ2R6diU
+ALcCzLGWMk/NGr6t2+cfquvRjygCQgzx7HsA1V6UVK7x641WAYdbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Cotta <cotta AT notcompletelycorrect dot com>
+ntor-onion-key 7QOpmgrX0a+OgKoZpN016K07Z4L1XIZNL/UJs6bt0iM=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+llLOHtRILBFeIiKb5P+0levg4vGe6s77aOC0Zod8mluvVCXOuFv6OPk6apgRTydb
+4IS1I1iYPlhGq1YgS/LRE4q3/AMaKQnFxRXoAF0LGucPukAi5TW/8KHMfkyy8jgY
+6nX4jQ2B0/N7a2bM6F14s2+oyBPtJqUaKhiJAfxWqPg=
+-----END SIGNATURE-----

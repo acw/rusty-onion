@@ -1,0 +1,52 @@
+router FishersTorRelay1 138.201.3.75 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ6AXt6IoKqQR57O6WvpIIaZos+f9ZSieYEya+bA/dxNpj1AQAgBABnuSYl
+N7Nn9EclJDu4hDsMTn+JmsXaKzA59kQALroyOfsPwpDWyk/PBOA3l2HZKDJGd197
+uWamnLGep5oYAMyVXx4XoUUkp4ODuM/bKfoF9QqZUzJqsmlpcUcX/XbAdgs=
+-----END ED25519 CERT-----
+master-key-ed25519 Z7kmJTezZ/RHJSQ7uIQ7DE5/iZrF2iswOfZEAC66Mjk
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:30:23
+fingerprint 5678 4608 242C B15B 70ED 6CBB 8F40 EEA3 B62A F69E
+uptime 3554720
+bandwidth 10485760 104857600 14516835
+extra-info-digest 9567B744C290554BAC96D79C274D8C919B27BC5C Bx789CsLW3XK0rne0/k2fDGhSR1ISKiwqLCBki4vKMw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO9Lp8gAb8R3jokTRzvrJEoco5Go7aXlrfFdudBQZ5I/At/0GLS+HyN+
+5MZTFuacJq0JeMkV16zrjITApQZAZtFhDbVpFCmZQxMbvEsIQAD4CS4ilzfYwQPQ
+36x3ev52IOGbeYMzDTDtCRDo1cVEt09mUwff0mXmndcueEA9kJS5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANaSGdugmqDFiNsF3b4uHYgp3ixXrv7uvTfhqy8SYIELHwiM0mgyYdlV
+a/Raib7fgellaeiNTAs2k9Y9zfCmrTcG/UGyoITadhqW3jo4krkztWrxRuCs2d10
+2GdfEwEdQRYB7kAKryAEhW1iDzDBnWYIaObd18Nzqq2sInrxK0ahAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+AudrNnAGShV4dEIkQWwMj2v+wiUPi8wYC21rhqfUW/C3grG984gqZp8hCqiXgkcZ
+1qqsTI3GBaz1Mssv5V8lqIkrOInytIazNCTrj9v5E0uZJtuY+NM8ZOvHIlirNmoy
+wm0klyhvX/U6/oMUn4wDA6RgDmwtBzfZn7+uDYe3kMo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMAWe5JiU3s2f0RyUkO7iEOwxOf4maxdorMDn2RAAuujI5AAZEdZA0ABBD
+/gihDWpR+5V2Oigj1TWKsQOQH1R4lR83LYCa8MVraWWERTmc0TGqkzWObqBC6Yep
+nWY6ioD+jQg=
+-----END ED25519 CERT-----
+family $40026177178FE1663109B375A5DB0A3F18654B31 $AE679AE75ADBFA291A598941E1EC23BFD5C023B0 $E8F8D196B3AF0A4C7F376380F9FBEFE684683A96
+hidden-service-dir
+contact 0xC443B5A5AD274F30 Simon Fischer <tor AT simonfischer dot info>
+ntor-onion-key YPdxaACpsMVZxDDEb44m5qGMwjb10rLycURcMg3fXho=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 pV2H0LqN9PpU3jCE3ZIkuOEuMKCdZ3uEhMZ/qwXpyj+DIxXryhtJ5InZIyzh2Xz+C5wksOQX4B5Ig4wdUUl8Ag
+router-signature
+-----BEGIN SIGNATURE-----
+lih0UuHG46bWkXw0b6qNB6KfpdKMijVceXQ9xhCbY+3omcV9gReJIt1y6cy+BqUW
+mVLyAmQzPDRFMqWhFz4yEt9kadsF/eVDlptA3oLeYxineZHfg+CpA/32CL6nZ6SY
+yjqLMN1/6p+7oydwd2AR2gcLJFuwO1fkWNfSGYb4iRg=
+-----END SIGNATURE-----

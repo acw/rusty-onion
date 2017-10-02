@@ -1,0 +1,51 @@
+router Smatek1001 97.42.192.183 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAQAbCBOKyilPfGu092OY0+pCL8ci+E3Pal56rtz219Hp54AQAgBAD4Onpg
+ymyt0GqbOczC4wL2744WaZeBMto2KTa52YbLMr7GYIfrEnJKO5GvzdssgyTpmxqd
+yJ6GBNoXteEvXhMFpaUXTgJgnJALNyMfLBpAZKZ0bm1NRSqL5w69Jw26hwg=
+-----END ED25519 CERT-----
+master-key-ed25519 +Dp6YMpsrdBqmznMwuMC9u+OFmmXgTLaNik2udmGyzI
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:59:06
+fingerprint 8280 94C3 558C 446A 5C60 FF2F 7BBE 43EF B395 CA44
+uptime 829
+bandwidth 512000 1024000 57828
+extra-info-digest D7B154B296EE87951DCECB743107C49553C925F9 mrNiOlU00M1Mx9GJAOOlg+Y2zVqefUPUIB/QgLWxc5I
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMcMuYoVGh58q5vQaN/uir+XRKr0d736Y4CSt8d+QkT5TemYBW8kuSNc
+uNik6stM5aTwbaPSxePPCnEtNwCipgk2VGu70pOC/t31KtG19AX3XXegY/oPUzv0
+JCen22BYVIP4rSJjOhDV2KUxhAcik8bgG2KJ9KYSfhHzTrcuo0u9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALlWb4MhPvJDNngaNuWV9hoRizGu0/XkBX6k0696vVJCltkGGNG62j4M
+u9FP8nMOYEN4kloK0I0OAuTLl8R7B3RkKi40gVlcRfdFNqOXq7xKbaRl9Qw249q1
+si7k3zSoQ6eMp1XoKntI3LTOwrInNF580cnw0A08KpFPq2w5Xl8BAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cttLnoT2GO+KZCk+APUB977echtiPuO8tsT3co5pbWlSkF1B09WZi/EEohDGECjw
+JwpwTUNdy/yCBIQkXSfjHKdBFltkKlYYsLLv+MJyzYXZdW/PPV4YbFntadJ/mI14
+HJ/yk6O1N1HvRWZRGKsTv1cyCV7Q3odtfvDMbEOOsj4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUAfg6emDKbK3Qaps5zMLjAvbvjhZpl4Ey2jYpNrnZhssyANKlmzMnGN2b
++vGS/JgJQ/RgSaJ1OeSeJDBTh6J+s2NCpKsIjbJIFA/xa7BtnEvoE9ZUMkr9pL2q
+XNAAhW1RkAU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Smatek1001 <Smatek1001 AT gmail dot com>
+ntor-onion-key 7jT1b/rmZceVBfp4ra308pSu6v/L3jBr8LbTIUMkRUk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 EReT6GK0ksJ2aICSletm0GJ53T/v+v9zPMrg9WFfxf2Y+HFq05cIhk9cjevQb2iW7PeLsW/vmMmmKjuM450HAg
+router-signature
+-----BEGIN SIGNATURE-----
+ixaBO1AxdD6Pc8sJs3sllwA3rO8XiziqgTKwsEBEMCtF0WVJMuKoaVM88/v18drq
+2wCu8je4gjzQJS7llcv095s1h/cDyb9ctBisN/ovxlux8zZ5eCRNaaWbGpwaiGEm
+f0jVZic4K6ybsHhOchsXOCZIIARkd016KkFQ62Ng2GE=
+-----END SIGNATURE-----

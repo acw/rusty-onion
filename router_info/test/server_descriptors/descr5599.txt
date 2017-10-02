@@ -1,0 +1,51 @@
+router ucube 74.109.249.254 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF5AdAOinyM8ATGjuXNWdIgm6vBXPckv/d19HRciDPDHcATAQAgBAA/vj1g
+ofz+3TAKIBY7KQ8zkSuoDDLu03YpmSRqB82+bSx8FgLlLTF/WllgjJodWFzLNZQW
+rVSPaVDcCID3UVKyjx2V/1RUDsFHjufxMShoED7QqAdMGuuBQav/bdwjOQI=
+-----END ED25519 CERT-----
+master-key-ed25519 P749YKH8/t0wCiAWOykPM5ErqAwy7tN2KZkkagfNvm0
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:39:00
+fingerprint 512D 701E E6C5 81FB 9959 E764 2FB8 A2C4 B2D1 A462
+uptime 866009
+bandwidth 204800 409600 273088
+extra-info-digest 00A30917B535C57EB4D90C65E35A09B73F257FB4 4KfJ/CRdi3DtFfpxkRoXEBoWCGNabGydTEbktUcOJn8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALMFIx4MmTQw+x3qlBfzamFkC9TEvRorSFtynB9eoMAVbKw9l96zF3vK
+RgNb6G92XTUACHQ7gWhPRlukYKnVJCFZq1GTyTT8PW/k76qe+rbKEwu0TLRR5v9f
+lzzvhVx7hLsz0ZiRZ8tvyEGWF0+u5JepniPT0IfB3DS2QXtqLrRvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKv8cJAgytVWq68xGsk9tPyR4ndcRMOYjPWng3G66/kjjCx7PMqRIEOo
+WiBro6TqxxopYllWTBpIab/w/7ydGw6FWtwosTEKmf/3ZXfpc376o/bE667JEylX
+Q+LDFO+rlzvh5ego64iyhGAwr+VYVXaARzqiTcJxE9l/gIMXkI2/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Zj5CXDuUrIw/3FFzc1ryYCPo3f2uYk+Hn8IdpkrluqQ/LzNckCaDSi9L7w0Iyyx+
+3gS/w+RHAMy6RaTSaPADyUNuDk5B2EDnDVxOh09qEj47A/6qQOGvqIWWTBLhMky8
+pQoAZpFliP3jLdJxSAQjoiJKnKOteWyv0iEgQ2dxWGY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCJAT++PWCh/P7dMAogFjspDzORK6gMMu7TdimZJGoHzb5tAJtE9CKKp2N3
+Qzm97JnCKiS/XgS6fOunvBY/Txt2ql1q1CIYpFl0ZiNJU3QN9CiBSB6CHB5D2mWS
+6tl4tCQDfgE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact redfish <redfish at galactica dot pw>
+ntor-onion-key 6jF9RO1Suh9yM6G2VX0yogGyJtzjp/lGk57GasGbdBE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ZMNN2jn6OA6Lcxpxfvyc8RkiKOr48jEUJeYfMRnzMIh4NjRvbqlnl/2KGT+NgUO5qORCg10Zc5tcoTo1OLRODw
+router-signature
+-----BEGIN SIGNATURE-----
+hm7h5tMJ2iCbiqQ7wteFOP6bCq/dSx/C2nWwJUyUVxsLmZ9nMUoF1cmRvPcC3jg6
+V82uSCGMS5qgMl2gclJIvUBzZNoewEumYETRXHzKc+RiCLHmmtk58YUgp5YjGFF9
+x/XgAG1QlmeUGaJBmckb/d2lGV3TcxALW1Jhtj3iI8s=
+-----END SIGNATURE-----

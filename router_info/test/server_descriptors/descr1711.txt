@@ -1,0 +1,52 @@
+router AsiaArgento 163.172.94.119 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEXAQJcYEeFohEofyMR0DOcmwNgntcn7+IcvylgnCKDNGXoAQAgBADxccwk
+VXzHynxAIgerhXksMV+C5itm6QDQ/E858d9Y3vMuc6rfDuIG6PjVPhU0N1qVowtf
+Mx/5DWqlI+HMoW+bSPE+VQby3wdO35HM6x/8C9AG3a1BbdzH9gtMCvlzrAY=
+-----END ED25519 CERT-----
+master-key-ed25519 8XHMJFV8x8p8QCIHq4V5LDFfguYrZukA0PxPOfHfWN4
+or-address [2001:bc8:208a::]:9050
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:26:44
+fingerprint E459 E023 74D0 385D 2E25 15CB BE70 7EA2 0896 6BCF
+uptime 1476074
+bandwidth 1073741824 1073741824 13405148
+extra-info-digest AEEFA117AE333F644229C27C0EF88C654EE2BCD5 Q4EEa3P1VfV/xU8Uyl5EMkNMwQcE4mIjPXkdZSa+AAQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMfAbb/3zsGrJKy9rW6u7Guv0anEAMYEMCtxgoqcw/4YpTOnQGF6hKxN
+hYPW0uahLciSmTlbETA8WmSovxiESkR2xmnUV/kmk5Fgd3E0tV+SladeJdXHqO0Z
+hej9plgCSrU5BDI8OFhx07mXHqdeR2a5SRhlc28nDkMqNXnPIierAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ1gA4tBQ9W8wltRqEWmKMDOYXGJ5xaHoN/qxyM91FbvkuhPv1m6cn07
+1sbF6lRZc447y/ltVR7mkZBH7wD81zrkS1ngiszrCnGLMVqXSi/dyUxwPitV/YFn
+cpVRAYR2sGh4N7lZzPOvkzq8fQw6WRF9V6AuiI9GPPqf6V7ikBU3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+VS1TGx8S+Oxoj+3PTNCfHSKbDBFc9i1ccofW8EHrkxvXldoLn5w6aDzIbamWRf50
+GOheUD/CyqW5pC6DZ37403w5QDeO58XqvGAzEDU7kw1Chw/YATTpEN07BPQ5FzHc
++8x6oJHKvYfNeWG2G36xWwb/eqdiNSMbN3VwIIhqOa0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJAfFxzCRVfMfKfEAiB6uFeSwxX4LmK2bpAND8Tznx31jeAI9/vCHMaq3Z
+DbfTTr9RSgsZNkQHygSoZkfr7gLIfszrVWElL07FHmczESw4FUiubFSEJM8iPHoC
+n9qO5rlAigg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Decio <decio@decio.eu>
+ntor-onion-key Per7+xgwIruAbXZyDnOpm7/3yqwEJMkKGR12QQ49/lo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 bQHLEvyc6wSjnBhyuna+zszr+VRVLkgbrd+S+bV8EM1uJ716HzbFv7lU9lafNwRZpEkcdDXZGYdR1FKSc17JDA
+router-signature
+-----BEGIN SIGNATURE-----
+c+brne9cuGCdWK3u0oAFJHP4BEGvdBTlDd1+qXCRWNd1zliPI4DpkGQ09lSeTH4d
+OyLhZZPxCnWhGSIPZwCRYIVziupXwa7gdv+0vFAUaaJG6ZCn9tCaGi6ZWgtjHJzw
+rV+3GkKvXWPX0Y9ZtnyhKJiBQw7vtR+rVvbYm6AgbRQ=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router AITUK 92.111.4.177 9090 0 9040
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEDAYrNjLpSWqtytXZIIYK4RGSyNKf+v3XV1DE1WrnfKJ0PAQAgBAACen3+
+uaVW7oWTqWcBO9mqlUdxw8NV84xx6VatSyQm1h7/Gs53Dj2xQAtphz1FpiYU+J4n
+5OdVYjRqmnVTPaswLowOTaIE4Nal0a2EuS+Bi6LNjF4Co3MU3tWXu/y0QA4=
+-----END ED25519 CERT-----
+master-key-ed25519 Anp9/rmlVu6Fk6lnATvZqpVHccPDVfOMcelWrUskJtY
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:57:43
+fingerprint AD86 73D4 703E 01D7 68E9 1382 DB7E 9C79 5C68 3C26
+uptime 5623079
+bandwidth 112640 112640 118439
+extra-info-digest 5212769D2BE4C17F81A021DE30A308F7F6972B70 MH3KS9+VeeHVAJ9ERUG4onnWIug1x5hNM/cLLXNEM2U
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALXUGfBJE3Ytf+d3mPCnSkqbNlIKeqY9W6a7u5mR42DCMnotb3Q1G//q
+HTxi6CPOoyyxlomAVVfwbW+OkqwyiChf4FIzbrlZO/Yup5O9DJJyYuzeW9hYDQdr
+bXWEyZYrLsxsGAb+xrg2ko+Ep1nMHE4RtOf2AboCodO7oeIH1+65AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL452TNV/8ikzHYfgcXhRensK50EDcK3JGfATD+BNN4G7tPWfFqUTDAH
+PPUrpepvHA3bCl4+JIkdIyv/zlJa1D8DWJUkum5XsEN8zltOle3fLAFV2gF5HYiY
+MM9j5NqFDOtFCNAE5oCebOApUv/s4UrChQzs5Ka0A+lmC51EO4chAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+LiJt3yvWHB5COvCKgrFatRm6RrrogCey6yTzI9O5hNiPfH9MEzxrkfUPUUSdCX4v
+XTsdzLemwzPxJBEnqyoPrtvWt036/wwtqOgJqtd4sYm7z+jWO1Nz9zoZl2ByG3e2
+15hBhwCB/FCdg5+TwF8dJtSxd2+f6V+Guhbs9dhQ7NU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAQJ6ff65pVbuhZOpZwE72aqVR3HDw1XzjHHpVq1LJCbWAND4xwKQY+SI
+7eTEoSDKcNx1J67flulzmJferOPYiYClz5xIBaCg4Rq215BdPkESvsD7ZP3os9oV
+zgFd53zAWgk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0X2FD30E6E0016EC61 Thomas <thomas+tor|a_t|libremail|d_o_t|nl>
+ntor-onion-key IKw5riD/d4n42XZJVcXRUTS5kLUONFko/BO5Zy8rElM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 UppsbIENhvYToaAFoEmtSaT2jCxHBRTGxlxypzATzazqrsbo19I2L+iX5FP0OvWIit3Q8pabsYr5eRx9MD3BCQ
+router-signature
+-----BEGIN SIGNATURE-----
+I3LamZrWAI7GbVnSuJc01oI+QEv8DoW7bweUuqxXeNl1SeX0ytzPVwWcY4+7mOsM
+h3RfpBFi7RG+T8N12NVov39Srz/jCpHSzcgLzKtkJF84a8X28inW0rEBHc1YJzzS
+f3u8x3L6SViHdfDCb12887IIOHI2P1rlTxnW3DQQVnc=
+-----END SIGNATURE-----

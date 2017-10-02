@@ -1,0 +1,50 @@
+router toromatic 65.24.56.15 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEqAY+jerZo0jzxOMJ5c8LbB20f6wgx5wvwqIrbkf3A4gCJAQAgBAA+odK+
+qQHCdtKdNolh7g816xpuAufcBQSRAluGD15/djEplErC0MAM9zdshXC5XKAgfoa0
+jqqFcIAeXw55ImQsIYJ7etl089mjBpOMLYuT428o9F5ODOeek4ahQh4CNw0=
+-----END ED25519 CERT-----
+master-key-ed25519 PqHSvqkBwnbSnTaJYe4PNesabgLn3AUEkQJbhg9ef3Y
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:21:08
+fingerprint 22DC CAF5 A3B0 8D13 5A71 0237 8606 DA0F AC23 254C
+uptime 52462
+bandwidth 102400 204800 90112
+extra-info-digest 53AB685DA1DDE284C21A70806A48B5E64A28D7ED hRDfyqix+uquA/Xs29QsIsY6dXsf/ls0yW6d6MwQ3MA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKVLP6L/mtIJczQZZFu2JC7Oq+hORosMVROgJs3Od9eAB8++qhF6xAB4
+IFk0Q2LQNvebld22X5rhGbZCHKnfStrqUDQIkCOJG7ATnFALYmds36qYhorBQjG1
+8tHmkJXJhCLbuTSPV1roQjFA35RvwTDcj7wM14RDADmYAn+eckCTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALCNaIi8OM65d9KkudeCP0gmoyUXm2YjTaDmQ85wEBjATfh4ZFJ1kcZ1
+yaampxz6vevPLbRO9FZtsobY2wyE+yftBLs4ZrcOjZ60f7vwZxOL8unhKXDmOA2l
+qsDNT3rLZnJPJZhhnDHaVti99hNLqjgozk11MDH1GQyaDUlyShepAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+OOvABxcEqXEmUdd3fwTmJxCeiqRMDM3isBnE7rDoBwd1qVhT9MyHtr4e1+hjwSUd
+ap5EFUvCsbGZqO1/aWuAK6hnR6nM9q4ktDxDQjiFAgmb1njgyH8yz8xsCX3Nwir9
+mnQUuqLl8CC5RRnnP4r5i8Hurwc5qD3G/zzo5qqmxzI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAT6h0r6pAcJ20p02iWHuDzXrGm4C59wFBJECW4YPXn92APSmbjvDlWAL
+B2hJALdDsXr2P/eYfBH9sz0P9nOM22kxiMettJsT7OqqQRU1Smv1nOsftAqtzGBc
+LhaT4vdjegw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <craigATbendenDOTnet>
+ntor-onion-key tdSeOOBvhnof9WCxfxqnjkClHPRLKZq1T9Shgy9fOD4=
+reject *:*
+router-sig-ed25519 zKLRTFJyQOqQlkCVOIXKeLPFB4N/gWf0GcvYn32qhcjiyWHN6Ooj3fHV1Gl1I/PsB1sLVvbE8uU/bwKdSuzyAw
+router-signature
+-----BEGIN SIGNATURE-----
+L3K70bGqUt2fV6XtQp1nNze4Ho4uHscZyMEDHcmJDOuKiRCB2vZHvEnsZPgQQFnV
+v95eBjyni/7/4T+gUbjqxcVY3EAtKSB32eOjFgxJqH2kNyx8meIm43NRgzFQ0/gn
+wNHcQzwBiqeqK8T80C9VUDfCoYuywzoYRUQKFbIgMqs=
+-----END SIGNATURE-----

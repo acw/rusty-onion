@@ -1,0 +1,58 @@
+router wrogregpx2 176.121.81.51 1443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKJAWAQJkNpssznNsN/TqNSuUwCjnn0n38Kq5cbQJeIblU+AQAgBAAxxQEJ
+PEAUZxCR+4zk+KfLHJBd/w5wV+RcYhf8FtEe0rp3J9DrpiplhTdN9ObXbnvFkVr2
+LcRIxmAs7hmaU9JGtIS8rjpdpb4uUMXEixqkGbQdWMYhs5bGAvzTWWwR9g0=
+-----END ED25519 CERT-----
+master-key-ed25519 McUBCTxAFGcQkfuM5PinyxyQXf8OcFfkXGIX/BbRHtI
+platform Tor 0.2.8.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:28:29
+fingerprint EB5D F012 4A5E C281 E82F 0038 B2F4 5FA7 EC7C 7C75
+uptime 144059
+bandwidth 131072 262144 157350
+extra-info-digest BEF0D4C89DF06DBB656C7EA5CEF22C2497CD18AA lixFngDf99Z1it6sRq8RFVA6narlTrKqXeuUD/N4gOE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOwt5EQHMpo4hFfa4UX1iEuQaZkAFr0YtAQO6Obln78KLsOmnJfxBxCF
+dDf0Ns4SADATyqNB7g+F4CT3pZCK6HRysNTsZInq5QRoPDDijyKprt1dwvsZN+sa
+DxORmYTEMhGoRU+UHV6HZF2qwrzDHeaG1jb5j/8FGOrLmXAxncGjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMMA3FgDVVipLYnInKhr3Dd6vrz5lVTIcYIVgw/b0pFnvmrYfR84iGEr
+oQ8fx01u+ztcVgbABuj+GfHr4a0caFDQx59txz/HRjF6A8prLKlrry9lp9pLUMXY
+RhwD+MTF8knmoosBbj4cKhCjFxb6Z/nru1pvvDrDzE9S+nWGmq4TAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+aG8kcH1WH8Fg5FF7ezEI8Ca6XBm7RI9QjGP3CQWyW1IIVWAYJyfcjnIAwhHydRXE
+vZUKp//Q8TFM7tkYD9XPGDsffbcaGldAnmZfJ2TNJ+ba/ClIzp2me1I3NEYhf8G1
+TINdaK9EvnIT+2Yo1gmULzJrFG2jlPmW91Bfow4bj10=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJATHFAQk8QBRnEJH7jOT4p8sckF3/DnBX5FxiF/wW0R7SAHwy9r/UOCD8
+J9J4M3sQy2PAkXtMVET+P9zxXHrmQ5WJxSLnsOtWaApQ/aTMGAZUa0gHQB+0SL2Q
+WRgBVGHdsAQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact px2@funetia.pl
+ntor-onion-key GuGtPWuDGNXg8+gyYTqYMwOSQMP+BR6C2Nb3BjCi0wg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 176.121.81.51:*
+accept *:6660-6667
+reject *:*
+router-sig-ed25519 bSdGDU6eLbB9BNcbPJaccz2+VmXdInPTIcqTqUza3R2eRNbsVHQ1Nzu5u5n2m5aJ7tArK3ICmUGIuhD7mD28CQ
+router-signature
+-----BEGIN SIGNATURE-----
+QpGcqVVtKmnlMgNNGmsyHw0r0Sg6i3j5vtQbRpBh9MgfsGWDtHWX/WWIqYxvtTmq
+bDRRGgR17s4RefeXN6e5C6hGCd3mMzIoYQmvGBUieGWLO8qTH6Bm4995uYooC7C6
+Scxn8UVW24tMfEyc+yOYwqoT5g/Fcb6mNRMdnRZzB0A=
+-----END SIGNATURE-----

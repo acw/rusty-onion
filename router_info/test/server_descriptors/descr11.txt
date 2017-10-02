@@ -1,0 +1,57 @@
+router Unnamed 62.46.162.243 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGNAUWSi9JSLr7jn12ZLRMW74OgQuEcZLXdF03WfPIxd1YkAQAgBAALOnnl
+vEA1ptLS1vGRQFraHsrXblr2Q9KC5MMfS1/FGSOiaO4KTsT0ewNFwtyu9sPPjmoy
+/TXk/CS5xiIfIbNnRVvN6SlyPcmFtCQrXynBV+KFagHJRCjxMxuvZzLSmAw=
+-----END ED25519 CERT-----
+master-key-ed25519 Czp55bxANabS0tbxkUBa2h7K125a9kPSguTDH0tfxRk
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:40:46
+fingerprint 0E17 732B 47EC A3DF B1FB 8671 0CA9 8361 F6D2 1B4E
+uptime 49920
+bandwidth 1073741824 1073741824 0
+extra-info-digest 86F304CBD07512FE7A44CFB0F9066831578FDFCB gFhfkLPmvoVipaK2GRhSO+uHkrHPAYuY5U7oCz0X5fY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALWX6U7dTckotj0hTmsS13g+WyHKl7QueRlXW6keojyhuJAHl/7IjjPQ
+Tf6VlzigWrpUMgdQ2jL8r9P3f2fI2OYbXSTmoyLpWJq3CVEIBqzTpwpsAgx0xj3h
+PsDR5AJlE549Nu8g+m35o9MwHaTBslY4d/cRfRjA8RpB09aG73snAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL1W8KzcnXW9Vcpx6090F9tIcyd2Mfs+fM+fZ64NR5XD2aVtRNUNciy5
+73uJbbprPA+lkDEs36Oi1+VfnRLziEEgcmmM2p2/uMQCZKlpKJK1FtANUAOE6nqg
+48HH3P1f3k32Y7w89njJoUiAUKHk6rGAYt0EELlKu72GLeFvzW9ZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+UfNmtpwfjcw1TRuY50Ht3ejO/5IMCmsC6G3BL+3P/WCMce6hlggXVvoqZq6zZltA
+vmhhFLJT5OxkLoaYwUERbfxiv0RS3E8W99/90GHCOoI7r4a32z1KdbnY3BEKWBFO
+OdzfPFCfnvJvxYUiDQGxXQvBZgpqc0uiK85qPSLk9lM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAQs6eeW8QDWm0tLW8ZFAWtoeytduWvZD0oLkwx9LX8UZAGbPB2VcOvpp
+FQkk1b5oj3AVYXGr8l593A5B7GM5ncXPZsLG7OmqcUQkHfsoWetc05xjnI4PeXCk
+goAmNXHLpQU=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+ntor-onion-key xtztYvrWA3A11ZmaG41hX+fg4REiuumIUkqTJsygb3U=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 62.46.162.243:*
+accept *:*
+router-sig-ed25519 Oc8ymzareDlCobXrZbhniG11BD/VhH/sWNx+2rhEVC2mGmUqK3zWll338LVVvD+UNwcHxYguKVqWrZ3irKfPCQ
+router-signature
+-----BEGIN SIGNATURE-----
+FP/BDtU1yGKQJgLziniJYQA6vLflWsRpgKFzhoFsWqlvqETpz1S3RwdHLapz3jo8
+qaubJg25kvcSk/OuJuc43KgXN5SyLK/Z91aMXulaXjQXh4DZIAVD7TUgejcHvJqj
+Joxakue8/Goi5A+5S/lxxm8bL24BGVgbY3JazMo/iQM=
+-----END SIGNATURE-----

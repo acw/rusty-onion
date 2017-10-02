@@ -1,0 +1,50 @@
+router DPNNetwork 45.62.116.32 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmH+AYM6sRNhAzcD3aDAxh37wWyRs4CjSxSLlaUjuXCh9RHtAQAgBAClAJ2u
+Y3i248ODwRaT5wVRIvgQVGRTZhTJNYi8do2rte1gfjr1NAWcNnwdxTzETnOrc3F6
+N3RMAyc0ldT6GmUB4obRtusOodHZpp7CQZugGGy8oiUIf+EPmUySwd+Y9wM=
+-----END ED25519 CERT-----
+master-key-ed25519 pQCdrmN4tuPDg8EWk+cFUSL4EFRkU2YUyTWIvHaNq7U
+platform Tor 0.2.8.9 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:06:26
+fingerprint D25F 04AA 9BAE 9764 0B23 3CA9 B13C CE47 9B25 9F79
+uptime 8381022
+bandwidth 102400 204800 120537
+extra-info-digest FA5E2CD1DAC9A50287156D6908DFDE8DCCEA67C8 0F3Jm5v/72K/IEfTNEwg3rqlKj9i4uXjf7SiDIx7PNU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN4xIJQDpbeTpXEJToz+o9EIVqPNp8Y9isrNo2wqBfjFp8ks7jgosgaa
+j/8rQdrWiTeKdLnRctBTrcfqCihORUXqd5Ggy5Of7XIacNIrAYCps8UzvXRcFP0+
+AflKPyMYTDKxUI2oaJvkwY0OgLWlStX4L6D3OT1cg/PbPDEnfsttAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANkx3pxV00jZCAycbfbFXjiEPCvsx395GOrMnfFjN+mcVpJuhqLJWzXw
+6kBnj0HdkjHuRauyTN0VQo54Z7jJBnFnHll90ZhPzJsx0UGCk+TDCfXJ9tzmCoWT
+F3CSqlyzBTJ0rvkv+Xjv2hLGA/cdnRcuGOHLmKAYdbpv2DjSw4nNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+lC2mz8xTH0/9RHQ61Ye8bsB8GRG6r2aQHPm3GBUrk0BMFzp6K3A4CuFfz+B9T8Zf
+iWrgjMooFz407KnqUbwt6Fvf404F4RmZqm96HX6s3PWBFDnyBp/kGIGrIGq/zOf9
++3b6YBhvsynIYfXSvFsEwkgknXUFe8MGiSLkWxSCN0M=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCHAaUAna5jeLbjw4PBFpPnBVEi+BBUZFNmFMk1iLx2jau1ADyQ+JC5pI9k
+w3J3xcD3+IvMFDXetSbeGTiZCdB8rZj68PRut0nqJFcKaEZL1vvx/zyEYyGqWGsB
+vD7YUr1sLw4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x2E937532 Niko J <tor.anchor@neverbox.com>
+ntor-onion-key tV6I3MAbs5fPOe34Tb8AC1ihY7Pn25Y3IqTmTJrrQSA=
+reject *:*
+router-sig-ed25519 M+b41x33IGTEkP0+Y7bU2NIhqVJxpuK/AyM7Xvtw9gcuqZgEcMKHByLYWl6s6KFpuMgmpGhMVWeFfsFqgf0sBg
+router-signature
+-----BEGIN SIGNATURE-----
+zHlxC1hTHpFMZzdG9U1ujuzqNETJ3cBWCa8v+Nb1EWtHM9v49YNORh3GULsWa0WZ
+8dEsHyjhridA4JVaLNZdaT9OEJXaf/vRxeyjaHPARTkStliH0LRFWWZYt+A+Oz+P
+vbxsES0xTHQj/+0txorvKHTNGTXHMk3htXglVld+qfQ=
+-----END SIGNATURE-----

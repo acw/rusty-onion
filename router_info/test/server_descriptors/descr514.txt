@@ -1,0 +1,51 @@
+router FreeTurkey 2.225.141.134 9003 0 9032
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDLAS5yFHsHogjJLwt1dynWUIfr8lBztJYZgxc4/Gd4Q8YJAQAgBAAO8E7m
+6qU+HY1u3/gjlb8S6szKn1hwzSMDzg+LDzHSAZwigQWv454GCfxyuzfiYrMp9rFZ
+q2BoX6Kdnx0ImJdSXjnrvCpalScQVcScmElcVs3Ka5XNfBmjUmps8DLyHwo=
+-----END ED25519 CERT-----
+master-key-ed25519 DvBO5uqlPh2Nbt/4I5W/EurMyp9YcM0jA84Piw8x0gE
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:28:10
+fingerprint A9ED B4EB F9EF 5F3A 129A 58AE 28EF 92DB 4B50 78A3
+uptime 2793169
+bandwidth 409600 614400 505322
+extra-info-digest 23D7CF9C019D6DA0B7F7FCA74970D9ABE9FBF0A5 otTBRAMz8oG+9AP9tiUJmSxFnfTTLdLvambx/wMm8rA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN3nGl4dbR3Mc55Sn5H656YhNjGaTIg00oeirPMcsNh4LgF5VYaTTUXZ
+Wxxw83k9/UDt8bLMzdZHEhXClSY9/DKwgHVSlU0xVg+zkDIaFi/aLzAIkOIDmxQv
+ie3uHzpDpqgdssYTGLhY9aJzK9J0SJA+TTv4DJPiC79gbtVNMD67AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK+PmWsR+uCRZywvtYip5GliK/vJ48qux+6/1sGBajFgagClUdbn2Uil
+4xCeDpvxDu3E0NGwQYdwukHwDfIYZhexZzdNyMrAX2MznqJY1NfyumexcIHSzjYW
+6sgK9HJ3YaDY+HzdqXhAkIPca9MXlMXCmOlecfagpwt04s4mF/YlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+lWlqcAMrVjpZxIpuY8oiWYBllRB2f9HT3kxsrZxyAQuDMBeIx1EcKWUjmVrFLGXx
+uGThBnkATAa5xRnu76irUYAtNeOKt78fA8d4DH+Z4mibTfTeOnkC78RrDyNzcfIB
+T6dFO8Uppe2hBtBagpqNrum1BzIs9u/uuzP2dgRQEO8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAQ7wTubqpT4djW7f+COVvxLqzMqfWHDNIwPOD4sPMdIBAPsz86fOlgpN
+PLOe9ofmWXaaBWK4kgQm0mvSFS52Jmw0XNeznSOfv58F2vdPYO3uFlf8fVdqlajT
+74SZEy3zvQY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor_manager@autistici.org
+ntor-onion-key 9nKVx9O8B2gRHnUog5LLsdEboAfsAzCuvdruMc44O00=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 cKC5dlkv9oBE44tbdRlv8Wl0XrEOBGGoC9aWMPZdvXFmI9/o/YM2YZMp6gTMdnffM4k5tExtXmYVJwYA32d2Dg
+router-signature
+-----BEGIN SIGNATURE-----
+nL0cwfAtwA16kmmqG7FGCGn3E24sdCLyFGtR71nwq9ncMwJKt/4uheulykoZPODT
+x/Ww3h28a+WFTeShgpENgT8uqYJPYTDI+1J6ETs6HdPWDVubi53mXuu8u8FKXDof
+8sfEbUgNsK7k9R2IY8nGPWirpV9Rkyh9c8JcRL2pHsk=
+-----END SIGNATURE-----

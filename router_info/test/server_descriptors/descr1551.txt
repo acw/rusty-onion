@@ -1,0 +1,51 @@
+router amnesia 178.32.222.21 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJsAYDI+sQkuVyZOGVw87dmcTq4p6VsOrWKyidcLMIDVfFkAQAgBAB12f0p
+0pPe9dCzJbajC2wVxACeH094vS4WF/HgB0+wXqpcNilrM/6W8TYPtZGkgpAe/NKW
+jAhuiAJHV+hFN8uYhg9QM+nAO1dBVT/RHyO244NwkMRKs2ZI7E/4qepSEAU=
+-----END ED25519 CERT-----
+master-key-ed25519 ddn9KdKT3vXQsyW2owtsFcQAnh9PeL0uFhfx4AdPsF4
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:24:47
+fingerprint EA88 D516 CF71 FF49 BF3B 143D 819B FB03 BC05 D437
+uptime 11250257
+bandwidth 10240000 20480000 5752728
+extra-info-digest B5967A9C265740986E76B229D2B4F0F73BB4ACDC w4BNscL3f0Yu4sJSGh+nDLcxK5tLHLICQSuppyoQjhc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN66s646Mj4Ys8gnNnn4gf83zyFKSOol54bMX7iaqX9okXek6+MtfNAI
+SFu/d0TlY7KgjGfW4yY7IdQPjCApeSa6zz87kakyWeZlYjNAMKeeDVoVtAinEyys
+EeMq3Ettc8sB8wX0lGo2ouR98jXYFS7DG7PkEBw9gsReHkheBn7bAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL7ZJzJ0m+4yB2VJBziATlClowTTBaNr47r75ZvOKhDCaFwaCjQvGlpt
+EPe5S/kKTsJlEmHlk8uMiodMopaacfzZLbpqLilMCoSTV+mV0tr3Elozu/ihRK/w
+NOyVX9jSkh4qvBRTnid0wf08iEle0O5HbzdYp1z+fgy0Ql5M7UGNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+psyxFJ88/xjomNIh8WQQxmWhpSaySzOS183yZzlXOj6+7kM1u9qoeptVOGnXeoAf
+cInfwHHV30HA8Nk5bbPbI3YbkrNNaoYahmbf9gTbVvpSMXwW7lXcIP7sURF5iWnn
+PV6th+wnLwCuATuTuyGA6M8ahc1OSR+6O3I1JcNebJs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAXXZ/SnSk9710LMltqMLbBXEAJ4fT3i9LhYX8eAHT7BeAPXdU3N7jAQn
+/+Tw7DM3wMFUFjjxt89hUG+oXyC5P2G8JY7x0GAEEzVjkZkMLrxvqDO/Ynd3LQIs
+ddNq8dDYVwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xF2B68260 space sub <tor@the-space.agency>
+ntor-onion-key /7x2mPzdXLL9L9u/4TkMmxUTOWv96z2s2K2R2qq2YjE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 4hAYCMFsnSvWBipwf3noPSPL/kpVhtP2ioya7kzqIssICNDXh+YFo340W3PV547lRkbgDy+FHof5ks3DYXSuAA
+router-signature
+-----BEGIN SIGNATURE-----
+JwbH0Efh16pNfFCcuKKXO9BNyXEevKAeozk7PxNdibqbbggWnN3TU12SAG/5xxP5
+DOYTtjpK4KgQ3Huw0jfJbU+3TGljqgQlD5H2HKyEWf4ib5FO5SGfdtTdqVZuAShV
+aZPBs5k8Tamdvw7a4dQ6JbL2P5Pvu8LUV673oc+VXII=
+-----END SIGNATURE-----

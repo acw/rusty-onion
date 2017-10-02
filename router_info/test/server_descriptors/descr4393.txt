@@ -1,0 +1,48 @@
+router vcexit2 185.100.85.192 8080 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:58:00
+fingerprint 80ED AE98 D669 97EE EB69 0FE0 FF84 5CC8 3524 3014
+uptime 4698795
+bandwidth 2048000 10240000 3247775
+extra-info-digest 415E2B137C017040DE86A1C3C0DF44248000A7CA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANhuPAenpFdEbumqdqFeU/XfAYMjAf0vyrZC+AIV4RrgNI5FVO2vdD52
+OVUdj8D6N0kTQBqDec6oN+ySTNMd7/QEKHOANB4xU4gtAPaeHLe7Ndig5XYeSBbm
+OdazjvKr9/HvGw+FOzmY5CH8StU4wX+RXI2yRdxNtuJB3CfozWc7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKucCR3DyKZ4lLID4mqnpvffDZfrdM+oH19rEEHnOzW2khgEJ21SBi6R
+oDslu2y0L3VMFk7/TBmOHcvEPSqkAtKVdGNWEcsl+0kG9lfTZ2hddr8zkOBPS+xs
+PA81lJAQsFVdLRIxAUBW0rR472lPpDP4qeSHPMXFIrjzGWbDd9e/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $9FA32DE321C082EBA664BBFE1096A9B470A1C78E
+hidden-service-dir
+contact 0x71A5CC1B Vincent Canfield <vc@cock.li>
+ntor-onion-key I0as/4pTKqvV80hRPg3TpRFawWF221hX4raJuV9vnV0=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.100.85.192:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+RZdeSJpKx85/we96EKx1CUCPpiFNDxXH7ZaodCs4k+Mr4j1Leu/5cTXhTBmUQSWD
+EfvRPPOUJz7/7PtDbKwmBoHcdm4LNvUUZmckux3cdn9GsE/OLYC7yw0aDiXJLAtw
+TuZBk64hgEfAfQLCpavtYUrkAUdk1JKG1YWZCMp/PTM=
+-----END SIGNATURE-----

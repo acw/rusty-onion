@@ -1,0 +1,51 @@
+router Alastor 62.210.123.24 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCKATiow1THrPmxfYW4RVpn7Y8aFGoCIPuonwTnNJg/TnJ0AQAgBACvQjDl
+zgaVi7+6bibA9ooUNVZI7XJDIz91p9/vLMqABimkC/UPxiMltv8xHetKcgvKY8ZK
+/twhFMhFHtepxN4IdpjUEDiYsTKdJNPwWqS4m1EjeN9AkqUtHb4I7wK05gI=
+-----END ED25519 CERT-----
+master-key-ed25519 r0Iw5c4GlYu/um4mwPaKFDVWSO1yQyM/daff7yzKgAY
+or-address [2001:bc8:30c6:100::dead]:443
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:23:51
+fingerprint 2EB3 C230 1806 94A1 E848 001E 20F3 6F76 A228 7039
+uptime 6047192
+bandwidth 29360128 131072000 32298809
+extra-info-digest B96BB2BE874EC44CF1FDD12653C6E2965662C382 acrCIbLfF/9MZsrwJfcPqbIC2ko4K7tWD2vrGIg2Pqg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKuHTAi1hbpvZ7yTiKSKxRPKJ+S4crffXUPNCcyX4IablEQ+iIJbeTrB
+21clJcZN3IUmwgzMyERcNAqWXCeYPZzji+9kwuMcjPrKCe8u6sh3XiJKvIL72jvt
+c8Llxq/ta2O4o+1P4gneomsD3/HY7tP6F8fMova7NmCVzcazrqC1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOU/qmdWzYvEH07tQFAgStLk0v/wJIY/AwqHlNTN1+i+f5MKRXmbYnRd
+Vm1U7x/xaa4uKn1qW9nahQyDlhCBhDONTotOCyIoTmYpTscqbkKbMYb8yP1lGZMN
+p3pEqI9wxMKIT5MINqyn5SFsXjYII1R8ZAVCiWWLfaPQAOYQAhkpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+c4Rl7sZZ0M/0vA8OBUAhpRJKQpKi6F61SF7ArM8ZdoVEhEpF8eXqRU1OfVRAfLsK
+LrN+iVkFU2ooIXZf8hmGDyW3fhyrUb6eUVePwlZeJX+bCCRSSSh0aE6sETnvzkd1
+wWAWsohbH3XqT4R55BbRvIju+O26HxNgTti5YexnUZA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCQAa9CMOXOBpWLv7puJsD2ihQ1VkjtckMjP3Wn3+8syoAGAHxcPuQZTKyH
+n1d7oSQKzOPuoxbzQfguG1VG2I0jvrC8GApOyfovp6lTQHOLsMmrrZ1HeApqgQZe
+UwOrXqO2jgo=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key c7BHZSys5BStbQPxYwZ2eQGIGSpNSVoKJBhGIqtHIjI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 yG+EFtWTRT3noDKgn0Q8jMhraMOo+gBzttK1a/nfNgyOFNXaii9emThmw3hny7DOtzLoU3/f9S6AszwVMAjZBg
+router-signature
+-----BEGIN SIGNATURE-----
+YLmtEsOufUajgLYW834OcvmhECj/O7vtUqdnqfvzvAUfOHSxEW6m10NHqx9Nw6Jm
+wH88khjiq6/K+peoOGpmlJNdF/0rtlSfGIL2aBKpu/oKfgTPcQqTrc1K8PA+LYZd
+hy9+ni9qymRXBVhdS86oOCymd+dumyx6bnejcCZsB3c=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router redwood 192.187.124.98 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDyAXnT6jZ8WfwbHULxyzG7nfblTM/Taue7stg30vkFP+yNAQAgBADSx4Lr
+4h70LNWN4AAZqdtPwj56djhF20uuwLj6mXiVvDfjJnSfQ48RTWK5bCDVCXuPlSAw
+uhj0DZ9bAybsf9r8i44PUYIa4yAZyoo54ih7TracI8jrVriqgr9s3LYgsQs=
+-----END ED25519 CERT-----
+master-key-ed25519 0seC6+Ie9CzVjeAAGanbT8I+enY4RdtLrsC4+pl4lbw
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:21:30
+fingerprint FD18 7185 4BFC 06D7 B02F 1074 2073 069F 0528 B5CC
+uptime 581625
+bandwidth 78643200 94371840 9454287
+extra-info-digest 8686F3F78E73D570D29EEE86DF43DE308E62B7FD i75OfBJnijkwlPuzOOBOlrMoF/T4hQAKGPEU1NQix+0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL9ZP2GzCXVFvi3M+t7kUfiSWaYrd1fYybFHwetVx711JTlIKYXJVFlZ
+KRQrX8v32xZ6zaYxVr8crBi6eTbfvAFgI2emElpPUXjdwXSqdegDQuM7vnHCL6+m
+JSKD7RIYf6HpbFJ/+7V2YMTtvM403ly0m28XhJmlQKYERFPnIFarAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKRl7RAWCsNCRnVZyV83caA7wNSe7QR5ssQ1XfHQPBqUaOmjWiPHwvQD
+qU7Uleeu654AveklSzCIyvxaiVvebtFEmfn9Aa9BtpZPIYUlvmhzbtgtgL1bwhQP
+cP0UZhLaCKdD2sLxg8V7dHoiVwPPuRSg7ZfvieOxlQccpoYmz0sTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+isZlyf6EJ7YvARsZ/5d4y1f3UY9bBIZ7y3qzJS1/1evc9irR2+yfwRhiIKgKZUVq
+4Rp3mkCt3ppGttkQSiZl57CiEJi0vB+sZum3cHPvyrrCHcUl7SrXbD2dPinUud95
+vMTPj2l50EP+pcORpd2uvE6RAiw7b1oubA5+m15AGVo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAdLHguviHvQs1Y3gABmp20/CPnp2OEXbS67AuPqZeJW8AKTOCNh/1qVw
+DBMpao54HZazRplmSRYDRHZvIwZS4NNxHfFNiooaDZl+j4PQB72Igs2v9iULG3xf
+f2BsxDDbpgE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Knobee <knobee@wetworks.org>
+ntor-onion-key PGyKpDpTB+C118MLqS2j/vIC7SlzGDyKkvjR7BZ8DDo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 bTD2cjX8moiryiRtFSsPZmF7qZO92UH+XgtaAiP3j4VlLm4zjFmyQdCV5+YZD02UVPHHMnL0e5eHdQMDJ2tLAg
+router-signature
+-----BEGIN SIGNATURE-----
+JoMoGgAggqWMrKAjLs9/8g8C50VUu/qGD1gO5oyyq2r0Ye/L7B0v5i6ReshWV8go
+oVb2cSjFUKk3n9R89Oy/EZpiu5u+1HTWHymCc2s99WkDInUlESNs7nt7aY/WiAtt
+KESqToEP/fWOraipfURgBwS7J3ZTjfdl/BX/RVt5RDQ=
+-----END SIGNATURE-----

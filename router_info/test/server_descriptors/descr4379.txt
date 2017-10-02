@@ -1,0 +1,111 @@
+router noiseexit03a 104.223.123.98 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABm9fAcZALPrk+BRDMWCnJQjpQZFtLmVVq5ArMn5Z2+Z5Q7i0AQAgBADTbtdH
+CmCvrdNJlbT+bG6HyfYYC/FcWv6fE+rbsCWozomU+lrjaJ/rBrz0X5YcIgHYirDG
+bxYW19riGxquq5ns39UxzokikwsGqftmlEK5Xa87F5ulK2l76Yc16wG9mAo=
+-----END ED25519 CERT-----
+master-key-ed25519 027XRwpgr63TSZW0/mxuh8n2GAvxXFr+nxPq27AlqM4
+platform Tor 0.2.9.10 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:04:21
+fingerprint 8175 A86D 8896 CEA3 7FDC 6731 1F9B DC1D DCBE 8136
+uptime 8274923
+bandwidth 16384000 16384000 18357514
+extra-info-digest 07CEDCF01E31C9D3CB7AC1B941D1BF10E4FD3580 zk6akEN42lKtxsBTL4I2z/XKLstZy8nUdjoH5xUQ9X4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMxYZUwJz67uALfRCso7HshX4p1WO36Do+sWUMqsASWsuc6CD5PHYK4J
+AAsjAqpHcWor+JH8BNoJK048XPIQ9/KaB4xdvTzZX/ZQtzyeRK7LH+Ha3MhjMy6/
+LKSeKIju3w898zdNvUGJTrgIv7J3ziv4DeSDhABCnzB/Ay+GZo9lAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALjij22TlvAOsRLCgNraxbZkbyQ5NQYRe7qAxmqsbsimt/VdOWoAuU09
+P+l1CvZ4Sn7cU5FpXHCJyRMi1yMq2Af4104qHwHS/8AbTWIfXvvjayFa6r6naTRH
+07Ri5DKwP4dX9jLa+kfXL1xrknL5ZpGA80lygSfocz2AtCScky6jAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+rpFUpW4k+jDjYYq74kZiYuPOPOqBTz6jJ9Ncfrndp4XGQMHqAPHOvRyovWuV++nm
+swwP5vmYgqiUj0XpV+c7Ssu5Vfa3yicofGobE2GLkJTEkcDalFWEktSjz50N8LFv
+LH3zZo21b18LtXZbZMUO0nD/ZxMlPnGpld4nuMRABxE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAdNu10cKYK+t00mVtP5sbofJ9hgL8Vxa/p8T6tuwJajOAG3seoLFZC6Q
+5FeBQOKotFWzoNqUlMLH+PoZRMJdmxGB8ttP0xA8h9xd2Kc3D5BRFT4f9BZVa1B9
+LvjzphgsIgo=
+-----END ED25519 CERT-----
+family $02A627FA195809A3ABE031B7864CCA7A310F1D44 $3591E0E966309AD335BE62FF694E8A898F97A6C9 $45B8AE3EC44AA4203C4B180032211B34FE89D22E $7016E939A2DD6EF2FB66A33F1DD45357458B737F $C6F6B70AD9115C65B618B0AF3FD10B0432626CA9 $D4010FAD096CFB59278015F711776D8CCB2735EC $D42EE35F9B62769E782DEA2FC6358ABFAFE7DB66 $E93F05C9A7112544A2F132CBB7F6701877140F2A
+hidden-service-dir
+contact tor.noisebridge.net <admin@tor.noisebridge.net>
+ntor-onion-key lpAtN9JqX33/KLD3fDrXZn6d3jnb6ibD13EdKYQYaDQ=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 104.223.123.98:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:443
+accept *:464-465
+accept *:543-544
+accept *:563
+accept *:587
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1723
+accept *:1863
+accept *:2082-2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5900
+accept *:6666-6667
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8080
+accept *:8087-8088
+accept *:8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:19638
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 95Ygq/u1LTrrRmzm7qx4p0uLwwo236qNV4063pZVtxZzUV+GREQqLeRKnTEVQ9M3MUd8QaEzNLOn7o0N9IclAg
+router-signature
+-----BEGIN SIGNATURE-----
+KgUOmeMZpbYGPIWOnd0iMxgPmgcqzk+6PSsz1tlEHc6EtwE4XdQJj6rC7C2ZCJ9s
+OCx7t+ewsQXrxu+oMZN3we21zszXbxMmMyXQAXgu+edMTMQO6NnIfcJFP6iZpvST
+2+li5kyUWScGBik5dnqdwgJOdT1vB2qQ0kgYUaN+j5k=
+-----END SIGNATURE-----

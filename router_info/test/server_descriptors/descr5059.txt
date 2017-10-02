@@ -1,0 +1,52 @@
+router ToolspireRelay 138.201.83.171 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKQARVybLgB3knbjWgiOllGUu8bEw1o2TtgaNkLqCxIQ3YVAQAgBAArsj6E
+qBds9PZDOFOqI/K+258et+YlYzQ2ewsNmUD03oYEXYst6cWJn1TQ55KqAR02GuZi
+Jvw3qaWUR3hBLtqRKb4CcZsdaziPA4ZmL6eJ7Be7fU3Gd1er6t/IMSGifQk=
+-----END ED25519 CERT-----
+master-key-ed25519 K7I+hKgXbPT2QzhTqiPyvtufHrfmJWM0NnsLDZlA9N4
+or-address [2a01:4f8:172:1f6a::d0d0]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:27:41
+fingerprint 66CA 5474 346F 35E3 75C4 D451 4C51 A540 5453 47EE
+uptime 56099
+bandwidth 13107200 13107200 15032320
+extra-info-digest 08EF54FF3421D8B9DEC2015546FBF9F4BAC51AB9 xpPiuAbjKdQnCeMqC6uVF8k7c+HJFtYd9we5xdUnexU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM1847epyNv5kPzKvoRRb3f7+p7fyaCWiYgOj93CU7/am97QCNjoIlqH
+DjIe9LzANaEAZL/sN6o6QNBg2L/MTaFSRllPV7apdcKrfjUYZAz7BncTxHp2iRE7
+OtOEreYAV6kAj/vN0VZe+SeDB9Os6WNglUSO2tL7YBgIXahdWqG1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALF4yRdpVxBzx50RpIREkwcq6NEpazkPgJEgC1C7wK37pqCVnTSw7vGb
+ytMY9T8YVde2x/p+y51O42sCYx2B/DbhEXAyOqtJ9OmyPWfZ7uqfKbQUhAJuwOSo
+GOO3YZObcq+vs7Q6fBkyqHZrIwgwWtKvHawkntPTTe1ofDo49UlZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+lrJVYqwRiMcSnKGtZx24Deh745c/pdf2HIIUOMUUPrKEhMhiZa2DqTEixyU64ggH
+FNeNJRG0/r/+1ijdpGi7QnFi9qX+/dEDrq21hlvDr5VaV3HPQLK0YIF5G4ursYpI
+OMWgpPp+JzHTKUMUUxJzV+FpmQWxyWVZqerdh1SnAi4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLASuyPoSoF2z09kM4U6oj8r7bnx635iVjNDZ7Cw2ZQPTeAM9YT9pjqCeu
+F7OWTYqp3TGHsRQqpF1mr6tHygsDP9hq8r7K/oYyRJ92UwYx+3cHcaQAyxr/SepW
+yFMeDSMBWgg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Toolspire <postmaster ofdomain toolspire-dot-com>
+ntor-onion-key +rDJz8BBvPOP4KPVpBY9doFv29Ljskh7lwfuzKe+X1o=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 7ExROVmA2BnvEWW9HwYnQ4OlGJ6P6gsJkC3FzCJ23Ak4Vg/S6OKu+XgGrrMfO/vw/KRVMsVPiDnTFPn5ypGiAw
+router-signature
+-----BEGIN SIGNATURE-----
+gwl+vaL0wuih8PRAY+q7nYrNEKV7Udisk4Kom1shdZYb7nxJgpgW05vm2xEgnZ2c
+hgJyl/yEw4cxw0gxDHPEre7vkUGtRXRRkfio6XRnzb3FrKeFuea1SfnaSo5abkOX
+B8xlhJkRWn02bLBUKkwMK2TrTpd01CSKPSsPv38ASrs=
+-----END SIGNATURE-----

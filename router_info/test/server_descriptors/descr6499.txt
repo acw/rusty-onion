@@ -1,0 +1,50 @@
+router serotonin 213.239.216.222 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmETAfPEYJC58I6+izF5VD8XQ2HGL6CYtyssSC4T+wMey2+eAQAgBADT7mZI
+rPR23xnarcSnfZjPbjdFSyQvQegyXxw9XxvGOMrIIRzJmuNU4lPyZFy7BqwCrNdr
+Q/4JVsCO6aD+5cBS3IvE+0TD42ZgDC8RUBddUH6o/OV+k+R/gBeF5y9HSwY=
+-----END ED25519 CERT-----
+master-key-ed25519 0+5mSKz0dt8Z2q3Ep32Yz243RUskL0HoMl8cPV8bxjg
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:29:31
+fingerprint 2FD0 BA57 A34D C279 2AF4 7039 8F72 F37F 9E51 DC2D
+uptime 12093294
+bandwidth 8192000 12288000 9722666
+extra-info-digest 7C74A3581EBF2C3F6929E0FA7F2F5FDB22F7819F 6tatdVvr7IzntOtX6BF748T6ailnCS1YHypYff6TGWs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMy7YnUxsayBManlsv1X0v4IJevu//kKzhQ9AaAEVJItSpXJ+/IULm7x
+Mlnq+8jpKFWjgF5pMq4VZbOFF5+9hNpaZhmHj+emATuv3O9WswWb7/Hp8sYLdGPt
+Gq2qxps/4PfRE1HT3RfU6rVHp0fesyjFIin5bgW8ilgn+AtKG6FbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALtk0qDnFm5qrrekTOjjbfwPFvqm1ePdBM0aF6QfLJxsbnbPRYQZNUbq
+Yvi/vTtC/05AunJOp2TC2Sc4CO6olYlTlwGFLvmxflcARffV/oCpTNKEz8oy+Sa+
+/2fCn/NYRPA80VGMtdIyuhbnkpKc7sLfe+ow2g1tWzZwf7SpStwVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JXcTrjmxuWRrS04POGy281puefSSXaAG8lpWJMholaBGPAVF3NXaCheiN/Wvl9zu
+SyBuvG680FioJz6vSiuzIzlsyF1Fp1gRnbwtIyfMjH6PIpAuXlrrlC7RQOJspgtC
+MYTYGPdIoVrGGuN5aEda1SedLaOpZIyQRaLuKu408BU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAdPuZkis9HbfGdqtxKd9mM9uN0VLJC9B6DJfHD1fG8Y4AKMbaN081D3w
+pmtRCBBjrsCAGmXDIGm7LbnNU8CNeF2FMNc7pbQfF6QDafez9i/K0OIWCG1wrHVs
+x4g0HNfqygw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <mknoszlig AT zeroton dot in>
+ntor-onion-key Id1DVVg4jCuSD3lHoF8Rc/3mCJ8vFCNA3uoBtDXFr3Q=
+reject *:*
+router-sig-ed25519 9vtffN1MD64BxHCxX8UPw9J/92lzwW4hnmRD100BP4GD8yypcGT8BO3rZ4DGdj9QErqPRJXW/s7ZNyvy7OSSBA
+router-signature
+-----BEGIN SIGNATURE-----
+AceneM4fARZrZ6/Q9BpQp55WTWdYifLBRnnbdYcgVM6iB944o5I7CDFhHmiLfH+W
+mvsZpnRMXgzbjVBslbgUp1vqEOwrBdTbokWVEUrAroQnsv7t3LFHpbxMJzPny2K6
+1DHo0Or3waBVAVp2cFYE0V0BYqi1CtFokYiydRIQ8oI=
+-----END SIGNATURE-----

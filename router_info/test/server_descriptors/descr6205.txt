@@ -1,0 +1,51 @@
+router TokenLow 37.205.9.131 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCoAfjqWFDV2nRaoiJ1jaJ0zozLEskpq4IJhCztfjHerheVAQAgBACnzZJE
+ui8oz3F+1wWGW0Ylqy6st6HnWHU1/RBqXLcgXptvCvMPA7xckq28SA+4MrwBwbLW
+mIYUoj/BH/btYfwW07yGcH8TwAo7g7EMxNTbSmzZrgouUunfIlypym9JIQ8=
+-----END ED25519 CERT-----
+master-key-ed25519 p82SRLovKM9xftcFhltGJasurLeh51h1Nf0Qaly3IF4
+or-address [2a01:430:17:1::ffff:159]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:26:03
+fingerprint 3A1B A3B0 813E 1FD1 1833 C9F4 30F3 5076 62A5 8F43
+uptime 150122
+bandwidth 524288 1048576 629352
+extra-info-digest 6878C2DA64346D2EB872543D77EB134D436454E2 G0sr8vuhe5+xjg752rsIG20uTJUUbrtVIx4sWH7DrKk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMwwU91OkMeVMasffqL75h6hIZpTxcFJhgb8fqnDs2kNGxBNr4iOWK3B
+xiafJUy9fBmcS9olzdHVJF0loNQsLDPQk+gjUXRXYaC3JiIH98iLbaBNwrxXVWSR
+uvoifs1+ef6kEE5y+K3tuX6HsowO8FeRvv7hiZHWTLjQhvZWFWunAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMP9zDBaYz4PFaT/HbCkT7N5uV4cSVQOq4QqTN5G1AUbQCVQpiB1IdwK
+seP2YkoU4A1gPgZnZLdV2zjIX2C4CFX2GkFPGrx1rS+43ysK334LiGBTZk9CHw+N
+CN4PxnX3thsizlVJTHFNCdL2OfymqwFSKY+WiEqjPGSbEueiDML1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+tF8OZg3o1uo9Z8nOnHUs78TZu/7Co/uG/qbPoYGvFb6Op3LxYzPobK+T/DK+pYrA
+t4RMPwl8WfB2qipjBeIJyJ++QoCLEQW3MHlDgEF/Nh48HNplOZnGXunIVZfr67Pe
+uzaB+iAO0p75fEK984/weDgEXFFjoqSnMkzwvdSgrw0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAafNkkS6LyjPcX7XBYZbRiWrLqy3oedYdTX9EGpctyBeAAxJ2kM4rDDZ
+fTN4ZSH9DyinK6ICp2q/SgaiMO369eMUIj10h8tzejHw/ibQDhCgJ92BkY2/15LW
+cg8btL+tdgQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xB181A46C9A32C67811871EE65000F2608D62BB1E Ondrej Mikle <ondrej.mikle+tor@gmail.com>
+ntor-onion-key 1pl7KE8Wa97QfXV56Dpk3Nr1pecdAL5CVIPyGa2qwg8=
+reject *:*
+router-sig-ed25519 l47EjGqJxPL5kUDrduoJN7uyfA0zXNclyrxuJvai00XiUek902ojEnjvymfgCzK/RXacubq/rJYZplb1x1P7DA
+router-signature
+-----BEGIN SIGNATURE-----
+S3yLRq0LW90/0m2Scz/rtc+7nVCmrxx/01x52vdPMfjDnCmw0MXUWNjbE9TGFqUA
+RbCc20B70UzIe1ci2rz5e7LdZjXFvPTwtCmgUsfBb3Kcu1DIPHmpzmhVfqDJaox2
+a4A8Y4/jtonG6MadGKwqSyPAkIPa+n1++oqTfr/WUog=
+-----END SIGNATURE-----

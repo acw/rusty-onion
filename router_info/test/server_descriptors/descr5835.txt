@@ -1,0 +1,129 @@
+router camoList 69.162.139.9 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCWAdHo5ecmPRMA2rv4T3M/Sv4u0xk9l+0ADCkLmWUjC6yiAQAgBAA0sQ1k
+G1UwhAV1xt6CvzjE6EKJmDFYy88edX4+iZGRyTBE++28BVtwPVcQxn+5JxIC++M+
+PjoJA2AhlgL84maSi3RmBX9GMr9Z3JJ2msko5GULvwJRfQveq7QnXb5jUg4=
+-----END ED25519 CERT-----
+master-key-ed25519 NLENZBtVMIQFdcbegr84xOhCiZgxWMvPHnV+PomRkck
+or-address [2607:f128:40:1212::45a2:8b09]:9001
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:33:07
+fingerprint 4791 FC06 92EA B60D F2BC CAFF 940B 95B7 4E76 54F6
+uptime 37106777
+bandwidth 1073741824 1073741824 7879880
+extra-info-digest 28A511FDF090AD69A427D82106A721BA645B6577 QAR4ACaJRP71kN4X2f+ORcgcoT8KYyWThbaKDiVym2c
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMVslPxfFpvIuLAhjdNIPrdkNKmhEa26shxnPYmUKnTl/Rw4H+ZgIGj4
+SdI44krsDTXexZjpDJyMfLYEFIIjw0aJtHRMZxXwe+SYTh8b7sI/p12VpFDX43TZ
+we3wFOPdWqDPEZnfQr2dewTVbHBjZU7FU5acK67An0aDeI1QyUBrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMS7L9wVeeJJvyAXRz4QC9uPi+VazYDdkpGDN0u5QK6ONO/38RP8VTQ1
+geFU3cF3kBJm1D0+ELTkDqnnhl3F/7Okp12zWHEiR7euPT9umXfrphwWxEOMP4NE
+hGyFRP83LfRzmOuvlv++qr1O8ODdZCOCuZ261VHtTdVMtlWmsx85AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+YYs/XltdBsOfy09pfB107GYSuJlpp2qPspqDPJREZTk0BNBkqonUPOuaB9Wkr2XA
+j4YXI/BZtEHo5DpvBizX0kKunk+t8rYCJZEIODPd5UOVRBVXJx28zXqmvw5OrbPr
+jBTAB1+SgGLg5dK9ir2NwgtFXT2bBVO+6pyfTedi5mg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUATSxDWQbVTCEBXXG3oK/OMToQomYMVjLzx51fj6JkZHJALl5XfBRQ3EE
+m0ZBcaR8jfPeJHnq95kFNDDieRZpBbDiNgfY3cgqKIXgYd4/zCqZn1wYoNWjKGs+
+cFKvpadALwI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Steven Ruman <support@camolist.com> 1Pyq6Qp3hSsChbZRKrt5eYqYT2Nty6q6UA
+ntor-onion-key LODm365kWNdr9W7zYpjHvtjujm+O4s/rUsLb+8UOyTU=
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+ipv6-policy accept 20-23,43,53,79-81,88,110,143,194,220,389,443,464-465,531,543-544,554,563,587,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8082,8087-8088,8332-8333,8443,8888,9418,9999-10000,11371,19294,19638,50002,64738
+router-sig-ed25519 KDQAWsMb1wAx0/THBC+rKrFpXr98R5rfnvmMhjHoVeWtSCdviEZ47Dy6KoQX+dcqFoT9syJuFVZtz+3OhyOQDQ
+router-signature
+-----BEGIN SIGNATURE-----
+qWJ2CFPynVntlnYtwGMfpra0sw/+6rVDcwk2+jFSxUpQPGsJEw3OxPAHGdqQfsxs
+DLIyC7jrbUwlR1Xcg6pMj1RxYR8B8naP1GiMM/rLjZv0ep7uec9wPE6xz2BKN5kM
++kkBXtznRhQ69OhpOXidz5Xjo/UshIjA1mRXjJ5BQ44=
+-----END SIGNATURE-----

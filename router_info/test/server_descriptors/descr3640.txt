@@ -1,0 +1,51 @@
+router juefried 178.26.130.176 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKNAes8tnQ+jLWvoy9ljRp3VBYQILykJBP/kmUKkUrrqYeXAQAgBADkfLYB
+sgWKQFc+WVoqYLI/rAz/SZuTfHJLmkPpydjjpz1bCrZACnGavdvU7ND4ld1+Ox+t
+CqhpFBbAGiy5Tzm1e9fwfovTyiC4HqLF8JJxhKJ23Jb4mOrIzrQSYW69ngE=
+-----END ED25519 CERT-----
+master-key-ed25519 5Hy2AbIFikBXPllaKmCyP6wM/0mbk3xyS5pD6cnY46c
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:17:19
+fingerprint 5494 5187 8D73 8EE7 52B2 3F64 96B1 9449 5640 0416
+uptime 158407
+bandwidth 1073741824 1073741824 726112
+extra-info-digest 5F152F38EA4440A2958D9138EF5318DAE9F28E83 dsg4PxSE57WElylu9mwtmnKiMszqlSTre+TC+0O4xAo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPZ+Iicz2BjLCHKB2DYJaHuEGiaxNsE6yUHVIPnK7/aX481TrymBbpeQ
+HV6hUeR5bbh4qIZd/vb3CIap5gTUZg2/zt4Ovjz5vOJ8o3x1C/5/P5aGowYfnZfD
+3TWJ3mMzORcHRJWxW9brv805jirmv8rzzNUroB4iXWHDWKmgCK4lAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK06TXK85Sm8diy5dRqUBScdEvqK7pUnusuMrervLXDlf9H1XnKrQmRP
+SO1zN9iC7Z3Tl9Yj2cU7uty3mR1Sie/Rq9CfQ1FgG5b4fBp0xop5nt43Lnno8G/l
+oZxNHyTuUgBRdzI96z+iAuALjfCXKrkj21yBck1DoBmofJaIGFLhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+F6OO6QR+20x1wRmpUg0uOzwJvRRq0Alw+LYwdcgBQywR50lqJkXp7VYiy4zE/+cV
+zKqpEkY0AsqExISMOeTKkJCUPh1obI4+7qRuFLp3xYy4y52WJL15zGIpyz2uhJhT
+T6EoXJsMjI/X7mSPr1QWEyd1JsF4lrrKohpDrrCZH/8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAeR8tgGyBYpAVz5ZWipgsj+sDP9Jm5N8ckuaQ+nJ2OOnANAv8901s4dI
+OYm+/5ItAn3MdQBfuKWmjL14MbxEzS5sx0K8CV8+BoJUya9gmJPOIxQ5PJcQOkY/
+0GlkO5kctwo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Juergen Friedrichs <juergen.friedrichs@mailbox.org>
+ntor-onion-key wVwQCpmmbKMxd9o+uPJbhCbdVTUhSqUDYNshhpoArEA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 n1Db/S28qKClDFOX8I3gwm/R+gMIKbmdl8K4gF4ldwjxbiz8MjsBWgvp79of0bB2NzwF4DIRUUD6hdAC6HAoAA
+router-signature
+-----BEGIN SIGNATURE-----
+VgFzAQDWVFSWvj3pQyy/Cz20ewfd6euGvUHJoaQQvTs74mvmdrSYXtmlKAOI12vE
+tmSHZSs9nfRy6dncoNvbpcUXIwDnEkr80tvKVbgI1M/tC23qEepxRI4eoIihSMOa
+hhVa0LL9aHlyUxYAWe1xLHw7Y2x/Mj7UD9O42y26de0=
+-----END SIGNATURE-----

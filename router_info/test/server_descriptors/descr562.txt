@@ -1,0 +1,50 @@
+router docshclm 128.199.192.230 110 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJmARy/E74hacWUvXnNlrZ4W0LMGVN9r7WcJY0yOd4B4nFhAQAgBAD/0xx7
+CpFZzel+NWxznaqP0IVtApqM2q/KWt7rViDyeoK89mcpyxHeKhZNAH/cJpkOdxfE
+cNwiGbzcZdwiSXNGa6/cFxnzglyyhxfd+ECuLl/tzki+PWXSHD5dxsHxVQ4=
+-----END ED25519 CERT-----
+master-key-ed25519 /9McewqRWc3pfjVsc52qj9CFbQKajNqvylre61Yg8no
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:43:55
+fingerprint 9D03 5C4D 5FAD 6C67 E73F 9C70 7A68 ACB7 DED0 60DC
+uptime 4971910
+bandwidth 256000 358400 290003
+extra-info-digest 1F4A17EE69498816EE1410FB83969D21239A7A32 gaP17EtOgEyxhckNUGlZ9gYt8TpSF7GZQYMUOXYvisY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALneCrBzc2aiFOMkSVOQYboiIU8udSJDTD/HqXuzpmyEggcXEsur+MxO
+bdO4ypT2BhPN/JYcZr6ogZ1xlGm0vj7nxY7FyuUIfNg/TrNGRLhflsjCI9gIPtyp
+2jmhdwJmj3NwTHuhZWyBCYgc5ggZsrDVj9Xg/ujyDY7P9eG05JJHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALnOmYl5ngL2MXKXknRYfdxqKNOecW9tUZfMBaEeipD1N8yU3EaipA95
+/vK96tYb6xGMfJLFbRQjrxsbbwh8lVEThCSVCpX/8dTs6tkWx9Am4fXQ5/wQHNJO
+LVar0UwHiKTQL5rlFz3c2uOOegdA7S/BtcG0SPrFbw8xo1We01rZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MTWj0xa9WuM/lDIxQ0fZN/2mJhu6x6txL2j2qzi1A/zOR0RaMlcgHdPCchuxuO6w
+4hfljynnZdYICyzbOxYsEGyxurGR2FZ3mUM1OMTpFqp6cfK5EbmVmAWr/QJi7cZH
+o6gngvaL3B1vaLSSr4Iu53X8s6XG/CeSVSSKnjz3iWI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAf/THHsKkVnN6X41bHOdqo/QhW0Cmozar8pa3utWIPJ6ABlUdVdPDS4g
+SjjwbCMfMudLQXkBI4zRkhk/bQkr1MO/4fcizyP4+4fqIG1or2Rf0lu7U2gvC6B4
+racyk3PytQA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <cshclm AT gmail dot com>
+ntor-onion-key sM4+pB1QpVMrn23m0RaQBXf9OsvA1vhbojCt0JoN0wo=
+reject *:*
+router-sig-ed25519 fR/4XVNJo4x6ugFcOOoh2Q5LP9iUwGVt8Ld03IJQzmiin6FdfBmYZgnCjCD2NPRFTXoK8ca9YNSryFmFfIGwAg
+router-signature
+-----BEGIN SIGNATURE-----
+dxyHnf/xzwt0UaTeEwCqJHmBPf7iGmsFPq5vwJHF0mUeuf3q6Q3eVv+mbNv6W6c6
+ERAOo2L4RYh8aVl07+Nv+iOmliugNaZmDWeDPVLbjRyUomoe75WLiKyPy4zk6HNA
+Ocu2CcFjTiUUrrOVgDUbYVp596PJ5ztj2O1C3MtCHcs=
+-----END SIGNATURE-----

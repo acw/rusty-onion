@@ -1,0 +1,128 @@
+router prawksi 192.160.102.168 9001 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF8AXwLkp+8bRObL2/vltK7uE1tWEitPyQ8jAJqBP+QlhgtAQAgBAD/HNiY
+YuKSil0gfsSjNfkbxkDzWtiBePWSRtAaNnp4WFhieAR4XGZ+XLqApItOkPPIAfIF
+cw0O4YeNlqTdl6ATbESLCtsPJ7cPBc4rNbh1LvMFzsmhhL5kxMCGE8r+CQw=
+-----END ED25519 CERT-----
+master-key-ed25519 /xzYmGLikopdIH7EozX5G8ZA81rYgXj1kkbQGjZ6eFg
+or-address [2605:e200:d00c:c01d::6666]:9002
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:46:42
+fingerprint F6A3 58DD 367B 3282 D6EF 5824 C9D4 5E1A 19C7 E815
+uptime 259250
+bandwidth 1073741824 1073741824 34389009
+extra-info-digest E6B620E64DC81382625906414B6F5BEDDE631927 nxVbK+JH1uLWg4YBr5Zcgr/CBiKnH6RzPtDYxbjxLAU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALw5g99z185aAV3YFnyWqMYMLdHrn5oed5F0EKBlUE7kqVNdxLtZKl+e
+Y9fSmSObl/Q9mhKfZ4WAhPTsbO+4pWER5rzHACadJRfeYACzrAkhu2AQAEmctV7p
+dxKb80LCOAqUZFrIfdi4irXQDthW+7XIFIe7VzL3b6G7EdcwIjHvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOGJOAY7BNHP4UPdeKiWkYXXwMrAmg1UYIU7sdOQeSg3SidBX/Dy8x82
+DqjNJvRdhfUq7pLCHE8R4CqUHBRsW9g/RACYoWorBsejcCTTSvyEgAEhziERm2oY
+jEvOpfrM5VGgeFkD66JGGjSF0cjVPQBW+HMRSGsaGiC+pL1whNC9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+rKQm0/cIO6ewtVloff9CwGKJYOPXOB4qaX40P7VzHVTzBj0XaY5lpsy9ANEoPu2b
+2Xm9AKblsWUsrl2zdEULgIVIicrlnUyYJ5wzMN+3Xhs3pNzpNBq8OjTS/z4LrRBq
+IdLCL5zLp9ZAjGNYW1P08M8vr6Dsj0sKAKJp3AjZTGw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMAf8c2Jhi4pKKXSB+xKM1+RvGQPNa2IF49ZJG0Bo2enhYAMIz5XSLe0yL
+D7SXhLIfB+x8q18Z2+32NKeyoFWQfyP//3rV0yE1eKKxcMKB7q86XLATZ4Nb9Kq5
+3cp+R1ypNgc=
+-----END ED25519 CERT-----
+family $317172AB30696897E1F7FA7AA2FC97B47ABF384F $547DA56F6B88B6C596B3E3086803CDA4F0EF8F21 $557ACEC850F54EEE65839F83CACE2B0825BE811E $7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3 $823AA81E277F366505545522CEDC2F529CE4DC3F $AF51DB1858811FE466BDD4A194F37DD35A75E11F $C0192FF43E777250084175F4E59AC1BA2290CE38 $C90CA3B7FE01A146B8268D56977DC4A2C024B9EA $F843CB5729575D76FF1FFBB2179BDCF52C0C6387
+hidden-service-dir
+contact tor-relays@coldhak.ca
+ntor-onion-key tL+pkFz2ywm23x8UOYmtaMyJiyiVNBCIqFIIVFVH6RM=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 192.160.102.168:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+ipv6-policy accept 20-23,43,53,79-81,88,110,143,194,220,389,443,464,531,543-544,554,563,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8082,8087-8088,8332-8333,8443,8888,9418,9999-10000,11371,19294,19638,50002,64738
+tunnelled-dir-server
+router-sig-ed25519 gQFds58Xi1Kppk8uqZ7lf82Z/xFL1zF0gK76KGhjYnTd3p3jSQuxMbBoxTVd0IbEpdUh7g4+MzhFpn8j7kJVDQ
+router-signature
+-----BEGIN SIGNATURE-----
+0/K3wpEVw+xC59G51df2sxpQCBBnCqHAnHTqrKzI7ycEWFRVZ4o/9K81Re8RUJ1o
+hb8aanmun9ZuvDqdqxONYSMq+j+uEPmvXajlu+KS+Gei1w9I07dDBYWK7fIMs8LJ
+qUSrzAIsB9KDHWKqdNxPNSl92d23ifz0y/texK902jg=
+-----END SIGNATURE-----

@@ -1,0 +1,36 @@
+router tortuga2001 118.98.221.69 9001 0 0
+platform Tor 0.2.4.23 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:11:50
+fingerprint BBAD 6ED5 375E 1940 671E 4E67 62A9 5BAB BA48 8ACB
+uptime 30884178
+bandwidth 1073741824 1073741824 7799
+extra-info-digest 91609E0DA3E2544E87122E84D5A9C2FDEFA97022
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALopV6Od4jCU1Yv1XcTHbbedOll6ojCds1EWnY4mOEprNGJKcJxFHsrJ
+HKQVWHTGJHJ3K9bjsEYpXk1dbDDEkZeumzq869qvABm+UH8FMKULSkc0D/Ndt60/
+zeDl7EVNl9s9d1VjUkWdc5mAT7xHKpKKJDvNYoqvaNkHRiCw5MJ5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANtF3a9JQyv00fw4ByCmBN4SdCGjxjAxkybCjzoi9C8LUBs5uOZK0hvs
+DomWLnBZGt3zD/LoLSbxQC7PdRTXr+AYYpPJQiBlxO/haLJi2NwjWdcaHRwNkKAt
+JtSGjp585byURFd/j4WgjX8SdDK5RCY8C80bscpdKeoUafw13J2dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key Q9ifvMQ/Spr9wMoU/Ly+Pw/DrP+DACZSCW2wJidv6nw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 118.98.221.69:*
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+0TYJhtS/b3MsAu8avN+aVv7MPL0Ltjpq3dr0eL96t/82NveKfnJ9VhnDqiAmlYf2
+4DzHVuAh4LT+X+gWXh+wVd/lcPdnfCXR7iCoLcc44zek3YPkz6LJ3jwHCmh1/4ut
+yK8PYCEUWDGQ+Eh1kSFqHJ2TFfrQLihqEFsActJJD3s=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router belina 136.243.62.99 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEAAe5EXvuZjfyfHzp9tcccVKSAeiONqfteQtl3Dy2QvEc1AQAgBACT5cNV
+bILLuTZz7Y/qPu2u+QOUjJ5fRRrJ1RvVC2CX7yXUjpkinmvYuOPmySEIxELhgHNK
+JHvWa18e1q0MRWOK/uTM6OCvPT4D9HGmRyDs7tW01DxMW+wVhq9jqz2Sygs=
+-----END ED25519 CERT-----
+master-key-ed25519 k+XDVWyCy7k2c+2P6j7trvkDlIyeX0UaydUb1Qtgl+8
+platform Tor 0.2.8.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 13:36:12
+fingerprint 7188 8E06 279F 5273 F351 4B56 7FFF 1C88 F120 99C6
+uptime 6566744
+bandwidth 1073741824 1073741824 23565584
+extra-info-digest FEBF5250120BB0510A876A35672D63FCC993C42C LpE1/i+NLTexrTPd3kJMs7mI0XkTdHzc1NDndf6RnOk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANpxom5on0fHg48ggp8SX8IpuZAWrT1dhbyyd+SWoIgQOkt3AlCsz9uk
+Nz6AY7x4LFtq+oMT/9gPZ3O0yMsWY9WbdN/EFacJe2VS5ptZn1OIZErTqF4weCgC
+E8oJ+6Pgww3FHvGUGGRhhaDtmdXffqBx4rzfrqaSjzT3nr4uio1lAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM0fJcOOJA81ptHWdly61+Wn49KGz6z1mInBQOs8d2NQgqlI9kGkG2yP
+cnRW97qkjcSbOluOAOYNwPQW5/AAT0a8g9S/dnE1IPAM8QEepfgMgj1UvCaMfi/0
+kZuixKLhyz49l9EteS/jTWLZPUbAv9whh9xRj+03anDEqoeKyJCpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+GJ+VCav8StQP/cec/7XidkiiTq2qVmseWkxql/dSA7wQsJaEyRD/ahKD8gmtvUB5
+9TURT3ySNy/6DjGv8qHg6xG18Fg3yzir+DbpvHI9tAtmnKDa8lS8xDd1S+MaSJru
+o60YtEjoxrfbr2zwZKnclOc7GKiPaDF3ECK4QauFfqs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAZPlw1Vsgsu5NnPtj+o+7a75A5SMnl9FGsnVG9ULYJfvAIL6rr/YL6v6
+tPPdV2BkG9UMaSmRkreoPrMygyhuYVmXt9pFdJqNQnTtgS4ANv6waEsuANSzmHmi
+dUwGgle1dQw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Belina <belina@isurfer.de>
+ntor-onion-key qwlYdGiWxzGY4LQW/p8wahUC6ipPdI2xB0ONBKf5JTM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 7cDtmqR2Owo7OVX7BfzIA1yY9eB8OBk3kFTwIZjTukSdRbSMbWL6zP/Fz9kcI98t602xdFK6Fe+jLFhGNPZCAQ
+router-signature
+-----BEGIN SIGNATURE-----
+e+RfmYhZOVGWdvdk+DwNUE/1OlUZCgn57g1Lv5o9nbY0Y4Sc0L3xQF0ke8eRIUMU
+D7QRk61Cl4krbwJaeYWQwDgK9mmWdwnZcVx7heuID1yEU+TaC+2sLX4dWbw8WLFt
+3kcAQ/zV22qDSemdQHWVcM7jak9597JdkBcLlR2FPO4=
+-----END SIGNATURE-----

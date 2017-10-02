@@ -1,0 +1,61 @@
+router AnhDung 139.162.16.13 1503 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFvAdoHL5P8f+Q8jDhnOt1EEkJ70T70aIIkVU7nbLsblRFXAQAgBAAqlm0K
+OTPDVCxruxWXwDFZ6FCnjV1vywHYJtIV1t/k2gu7oiSlbpJBDURTF08XbqI9n81J
+zvw6cQ/lbi4/hNkZYgJHd5E1t8a1Bsrg0cFL1hyzoVizvpk9zuW5QwGGvAw=
+-----END ED25519 CERT-----
+master-key-ed25519 KpZtCjkzw1Qsa7sVl8AxWehQp41db8sB2CbSFdbf5No
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:10:19
+fingerprint 9CC3 06E1 C57E B911 188A 3F37 65AE 7D70 9A1F 4826
+uptime 32648
+bandwidth 1073741824 1073741824 0
+extra-info-digest CA5C2A3BA46362C642828C8889EE6B10363E272F CSAFTJGImoKVws/fohK/yyt2E93NlAMFS/ZS18CKbpE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMW5vLLrHj/8xP6BjrTbr9K3VFuvDzxLEYBUEd7Lm5VpX7MIcHOSxx4B
+cSKBlrJCJxZBdVpoHboOuPpx+Wx8P4J1KpiDnJLLed2ir+3FRXf9EoPFCacCM4hc
+v5YQyKnRKypgiPGIJnDd0XWh1ZCKI1TDbM5eOrHKXJ0wDjsjkYs7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ0ZyPX73bMQ1SHkublhVya+K2rWvPNinppo702HZiLfP5Qa8yMHv8Y7
++QejvyCZjQbZ/20OZs2HxEEA6ZYU8v0uu3cXUUqZuaeMUl4u1vcKRpdIa6Z1PKuS
+auP4XafQemkDbX7+DOuKLppYYoCZEHzzBdOoVnvGCDcebNDrr5nRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+BLhk0E8V8uiRM1UNr1j1kx3FlufcCAdC1Sbkz1ymiHJ49tzDwMauGukgHKB6LY1u
+bSeDiopuC/ZyPKVNZWQBWapw7R6fJp6IsT0u5g/JQUMB7e61TthxDfgTdHBquKUR
+KBzY/vJJNLcVE34gPQ/8l7zxlizpnfmmlBeVZG0Js/E=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSASqWbQo5M8NULGu7FZfAMVnoUKeNXW/LAdgm0hXW3+TaAMLcVD/TvI5N
+ZHA48XttK1sGysEGGg9USXBFS9+y8YdatBm0Wi1EiRKSujflWvbQE7W6Y8b2lUsH
+ll2KhgB3aQ8=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+contact Anh Dung <AnhDung8878@mailinator.com>
+ntor-onion-key qMs3zGthj2Rro46Ni8AN+WUIu/iOqjc47O8i1s8iOA0=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 139.162.16.13:*
+accept *:53
+accept *:80
+accept *:443
+reject *:*
+router-sig-ed25519 dPh1XlcLICHsnRWtQoBK8d/fy+F4OzSB/SRp/L5HvRb+atWBNGxQOuhnmkd2TlgDr/NbgsRCUa9WYJY5mv9iAg
+router-signature
+-----BEGIN SIGNATURE-----
+UwBFNp1Z2nWgPZeimjBv14TXxjeW6dLq2tDYecIJevDCBOYmsdN3dFVuUshILXWE
+cy4ZisFWFvjhgGlzqQMyAWjqobaC3cQpyQ+xasQST8Na+By2/Cqdwrlb5UvmOjD7
+SKGksl42ssi3ne2stoMOut/MZ6WqKjPKUe3i4LjXgCA=
+-----END SIGNATURE-----

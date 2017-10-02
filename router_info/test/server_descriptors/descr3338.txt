@@ -1,0 +1,52 @@
+router finn 87.98.245.84 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCyAX2U0vYCCiPuT5HYTatmEyh9kYYux0LNru2b890n/PRiAQAgBACrkxrL
+F6qaxcebpCIPERs2BKJEM0j8ZgsBhy49Ugs5HgTVNzH3Qvpiwzi7TYmxBMYdRTs0
+uAD+2P2UPinca0OYmFSsxiKsB43Y2VhnmV0j2lvzVjkUAORFoBC3uND/cgk=
+-----END ED25519 CERT-----
+master-key-ed25519 q5MayxeqmsXHm6QiDxEbNgSiRDNI/GYLAYcuPVILOR4
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:18:40
+fingerprint A772 AEB7 D39C D578 583C F0DD A708 B252 AB6E A048
+uptime 1282146
+bandwidth 8388608 10485760 9583106
+extra-info-digest 4076160711B877263C73305B6142F99252831E65 vOLwT6hWJPb1VEax0l9dcSIVKqnYEArl+XfCyQSi0QI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL6dlOu7lurxpGtq3xFr3YEmz7C4nKZUnaOtTofm+NLDRgMkqHqzyRB0
+L843q8CMIvAP1W2rC2d4cubjictRbYbHPQ0+PydoM8TnMEweWW1FT2FMOZrl7lAi
+pLZnvw32VJlwKtfgWgdrr4qbz0GGAXvUKmOrMONBK5x8nzp9vzi1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM1LrdI2Zz5CEfbKCIsQrJ/myQeOXL7lZa11RqaX5MVP5LYOJjTXedZM
+K3ALhwQ2RmTsr+r6DH60b0CarI3475IX1bANm4Kb1HyuVOvOhL/IVGOskYjd527c
+juHW5NbvrSX3+0+3WAMouyy/BP731gD1/T/yUuqNM/aMAIoqDD0dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+R1nRrCN/8RHQ8HJRzjz2X0cqRxq7hIPLk70vhCn+pWFlMJatLvyGQjSrOYcaeJfG
+JZAEnbUFcUbu1gpQJd0CgTnL29I85dHVyjnS4WsB8u+UGH4WL8on9KUdEvrXADHt
+v6VCnOSSiY6HKA1PAydeN9IaARkV6A3ULmY3nP7o6Og=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAauTGssXqprFx5ukIg8RGzYEokQzSPxmCwGHLj1SCzkeABhLh0D/fIp7
+LRv/TXa9S2Jki6NJ2zKTDe2cefusosxnXICgZc6w1LL6ynmhxxuf6v5nbAa+kXEU
+gQM7t6wTKQI=
+-----END ED25519 CERT-----
+family $BC897D06591FB83B76549378A024A44D6F7DC15D $F07C73895FE2328CAE9BF5789F156E1DBD78F7B7
+hidden-service-dir
+contact scholzi100 <tor@scholzi100.de> 1436DgS4kboHciWPp4sitC5swUQ5ye84n8
+ntor-onion-key b8TYAv4ODvgVXz1oIUMTC+iq5gj9yW4k8j88UB1dZHE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 r4p+RNoHxH4uP6EJvboTaDD6sCmEcEuWpOBiTed1wZPrfiDyKGXy2J3apM86wsNa7A6gZELxXMm2QF6gpWxjBA
+router-signature
+-----BEGIN SIGNATURE-----
+r6twXzBtOaWbIUGVsoj0hmqtzOWBX1fsLbSWuPgpp6mxP9b8Kl/CpDyD4keeFswo
+aWk3ZsrfjnuONr5j63/djEEkFQ5OeQhC7KyNacp6z9hvb8WwJu9Mu8lfr5tcRwCC
+aOdeN/let+GZnTQDhmMiYMuft4YYRhKZemqsQBYn3GE=
+-----END SIGNATURE-----

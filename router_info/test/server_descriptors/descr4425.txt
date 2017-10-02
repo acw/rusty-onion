@@ -1,0 +1,97 @@
+router gnirut 141.138.141.208 9666 0 0
+platform Tor 0.2.6.10 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:47:33
+fingerprint 7FF7 CAFE B36B FEA8 5942 D7C5 5E3E 81F2 6A15 DE9E
+uptime 1104453
+bandwidth 1843200 2560000 2761809
+extra-info-digest 29BC2F635AAEFD4DC5DA8475985BA0F68A0B7F06
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANkJqQ6iF2tOgTWX+hrVkdl1aKu2Rh/ZT5RhEH9PuM2u4Kch65v0uAdv
+roI6wMyU1neiEWY7Oqh4EqkIuu3X//Fk5BoJus1S7WqJwpJa9ZSfIMG2mDWXTL9v
+x2hEjiNz0RptpLCG7Wfm17CQ5sSYWSs/far2PJZplhsa+BHfekJlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALmCDODsp9IMz4iRTmybqM0f7HGsiwEFFb6XFFAF2u6CFsTifWn+AKsQ
+WOwp9t3ecYVPb325nBmQABX0Hfo+CnnSSShvxi6yxEMH1Hlnuhw9NtY6aU/MwN7H
+6a8BwvKqSod2cJZ1aDq8YqnuWOGKrvZVcW0VToDvaQOaFIqpPFwrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Alex Ishnaw <alex.naw1980@msn.com>
+ntor-onion-key YSgeuwqVbf+Kcq7uCPCXJGdmCSlD0pF4Xjdwvv5CfwA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 141.138.141.208:*
+accept *:20-21
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+Ei2f+4/zJEAKqJx6oOvDPtIeEOywDwVLCkgXSSMgWoDwgtCJuoju6dt+BMsFEIRN
+8uPPdgPKG5OKbeoo1Zxbfr+dXI4jKE7whoCUrE7MzKS5AHmpGIOOYPZMfFAo/4nK
+r13zfYv6eoxKal3/KQXozEJczZxdafTYtG4eWhy2FcU=
+-----END SIGNATURE-----

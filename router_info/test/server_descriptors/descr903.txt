@@ -1,0 +1,51 @@
+router whoami 144.76.163.93 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEcAa6bROtVoCKouVikCeGJcX6403DJ6Ifg8H8jmZolrG5kAQAgBABEFsYa
+swxrvhC1fpxEE6Z4zkdGxG6N3nwm6Siemq1Aj6Kv3lKc2LTleX8Op854tFnls1Go
+Q7ROk3JffdhFRPDIjU1JgCPoNu6oV9osA1ZG9ipmPLc/mK3ErVf8HeG6BgQ=
+-----END ED25519 CERT-----
+master-key-ed25519 RBbGGrMMa74QtX6cRBOmeM5HRsRujd58JukonpqtQI8
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:03:14
+fingerprint 22F0 8CF0 9764 C4E8 9826 40D7 7F71 ED72 FF26 A9AC
+uptime 8707020
+bandwidth 4194304 8388608 5104935
+extra-info-digest F9727CE3AD3A94FDF606533E816ED944F52CD68D lBkig6Ao9YNR7Q4LO3K4nLoFsJrnGOOSBcgXdM9ug0o
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOK7NqFHj6QIvuw1ndt9c4Xy+3h1FVLxX5danjwZ+/ofcxbXwSWsA09v
+oTwOAAz0VzF5hR4dmTtGd1xajk0pLaUSMRCy2IIdY1JRZJxCr0YUTE3bJm132DiA
+mHwBaSrSXkuudZ2BU9nVPVRVrO1VwsdPM6U7Y6hTpz9i9USFkr4dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKER+DeO03OGYKhc7GvFqIdRf19AOOwVM69Xc0E3fKtuTaYyPydvyA/P
+/5WXkx+N+NFSWObXkGe/kQpcDYxb6/XVPsb1F7rRSojNkNzAay2m1esZ4zMFE8Nb
+CByGAIqKZiEUVxenZvIFF0K10KHdbrFEPYa+/6b1TYN+MYGb8sq3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QN7yCuXd7UMNb1JiOHZsLknX4ENvDo7CUsbkKmyzN2TtEUC4WH82TsdD6tUgVwC7
+U9HF7XuRaJQeD9mmnVdSW7lr2t/l9xh3yRQC7IpHgZ6cXAcP848POZ4wpM/zA490
+iiflyGurI9HlHjwg7VK9WV7S8wXH4NVPB5e2ggt5cPc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAUQWxhqzDGu+ELV+nEQTpnjOR0bEbo3efCbpKJ6arUCPAL86ApOvVuxZ
+ng5kpHJDaC6Ndvk2yMouYygPj1xUs8XBF7R9i5lKsRebxDLOC4bMsiivgwsP32z1
+JmlF8b9OQQA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <whoami@dev-urandom.eu>
+ntor-onion-key 60YFCW1DltLxSFX+AjL+qZyQMVTx/Wm/yhvPQTABuRw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 F0IosFVnfJbtgP79uatGnD/Jf0UkraUsQSvVJQMVp4NPe1W3mORuVc99OcsgCVAMN4Z641DRzLvZ1b1fPwuMBg
+router-signature
+-----BEGIN SIGNATURE-----
+elS4W0eLAE1gdI3ZvpvvXj1p/PebEG3CLkv1NGdX6xFTwQO0TJcvyaKXH3HfNXz+
+FSjj5M/Bw6bamI3xof60xQD7D7Y5TCscoyLq0OHolsxop5KDg3eNVneNqdq/RP8k
+WM5CkATAZewoaKy7HwQIcKGccyiEwJgyeNUeCiahhF8=
+-----END SIGNATURE-----

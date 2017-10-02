@@ -1,0 +1,31 @@
+router TorForEveryone 84.80.85.74 9001 0 9030
+or-address [2a02:a445:9d64:500:ba27:ebff:fe95:88c4]:9001
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:55:16
+fingerprint 6C52 1143 9E15 9F54 4161 D2FF 94C8 F0FA A544 EAB9
+uptime 10687829
+bandwidth 1073741824 1073741824 759977
+extra-info-digest 1BBB3C9F9BE84424EB17BC953CADED985B6897DE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALp3b+Nm34FznQC/m1fQt+mXduOgsD4925oMnBYfxK2+duvCNDd05vqe
+3xMf3DI7+i0bESGAB5WL63WUyKFSpVyW0rChDU+3QeQKo/ONRlbcNDnNttDpJa7C
+Ow8ONLIqZU1d2gbIcr5sAkodrO6xIC6s2GRUa9q17TsnEvPPNpPxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL8ikf+mmCUE9r+xaIE3M7MWBrH8xITu0+Xzf7bNrAOgboOvKtZH1oJ9
+iVmIAmhWDMZN1FGX3c6x51+XaYJ5IK+EFopW/cJiARihMJAQEznqYIcMSh1nkrD3
+1lloZpndGnAlp6+p7FHgikob3YFRJC1PYjhd4pGNbAlawUmIzOIDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact tor AT as1136 dot nl
+ntor-onion-key ShnetrKy5y1fM1v2/RrNOetvm/vsSYzogDaaXqV/TRs=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+XGoiHMbgVFYkVVmM2yUG7WYpYfsC92Vw/ZTVRW5yBE7AgJqQRZznXVAb+3nwLm1b
+w4CNIjZmM6KOaNtkLgrSxjux5L29OFZIoILdheQ4ek0d3kIdEwtPddBFWcXJekip
+Gkr9RdFH2vqfUME6D8jdxcqnMSVBxWSsNybUjpyC6tw=
+-----END SIGNATURE-----

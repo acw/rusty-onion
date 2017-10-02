@@ -1,0 +1,52 @@
+router Yuishy 178.79.160.57 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ9AXdpK5qSYccoFmr3oaURDUvYoZpM1ivaYIauJ4v8cHLvAQAgBADEBW6h
+QlbpitL9qsGLzNbszFWfyYvKgGKiCPjo9G3lA02+YXS85XfwXZqTENMUC6Crzaw5
+OmrSipe2hGV99R70+fc0hWsR+yh3Bg5vxE0bVWbwQ8i8TPscuYqaz9wA5Ao=
+-----END ED25519 CERT-----
+master-key-ed25519 xAVuoUJW6YrS/arBi8zW7MxVn8mLyoBiogj46PRt5QM
+or-address [2a01:7e00::f03c:91ff:fe93:e774]:9002
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:49:31
+fingerprint 2DAE A9B7 3681 2B26 9141 ED18 2269 5349 9A16 DA27
+uptime 6714140
+bandwidth 512000 1024000 635385
+extra-info-digest 73B342465B13BC73A2C096A760758B6E72EC1FCD sQMONQY9NAfHXGFWVIgE+bt61RXka3mcJJycTssWp7M
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANN4ET9g0y2FZvB/hyAh2Kk403SGfIngvBTuhHG04Uxr8Rj3B+60MWMd
+rmXs8nh1o2Uc1bSQmDWopO5oaqFTmUvXNmTvCDC/JTVrMTY2oZTIng6qn6UEFuoH
+PvNkjD4dH/CruokGjfz/cGhfTGB5I/mID+d8ysmVWLcpjFaSwFrHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANSmqQTDlVVYvtVfUB2rpTlNwKQFd2vGD+JxaKQdRRO+jeFsoVqQS1dM
+hZnhPDd2C6LmWThWIZ5odJMdRiILsyDZ6zZtvS9pf6P78wXqjaDIHVB3S6SxWtQ9
+fNDwJrO41JnWvDw0u2QjnXYn4JLa1k4nhjmiRWYX3oJABfGFPXobAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cS8639H9gPtdyX4WdMfyVDbzfCCSSgID0MrNeh2aWVMXaepthaHg48LWeQF1aYeb
+6TdXiGWBuqUTS71YGxCwxQ8K4J9/1acjuorYDqYqz7YLnolQCr6h183IQcsuSUSi
+jVQ6jHu7C97Yf7DGHOs1eOh6V5pmA4hAQscLSjReMnE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAcQFbqFCVumK0v2qwYvM1uzMVZ/Ji8qAYqII+Oj0beUDACLlfhlNlDPJ
++d5p50A+gXoEM+sd1KIg6jmwX+fa/VS2ZOo+6/F7Gjgbmf/uIAOUYLV19tGlJ/Cf
+QreWHSQDagg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Simon Hollingshead (0x7053E7E7) <me AT myfirstandlastnamejoinedtogether DOT com> - 1KGbvk2a6uaYHaMmiAUthQARXp9WXJSD85
+ntor-onion-key YlhwnSY2FrGIsS0VsSX6gV3NAhm0EWMBG5zw/2xHcwo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 tbSaTJrG4z34ieTVKguIMDDjILHkxPS0DZKRmHzeRERKZM/TsOxkBkzTbz08wJ/dFvgtHgvNIC3n7GcvJgrdCw
+router-signature
+-----BEGIN SIGNATURE-----
+kPA3N6wZMXTydqWN6tO3pTZHzuCQn8R5SB3U6ChiCIgm+TELlbEbUqpeyqymxtEV
+cnYcNjbwAIpnK+wrQlKisGUh1qdiPEJpNZNZG8eEurJYuHuwWcPJWWpO36HaDIhw
+VvKjIAyatHTrqFGrnzcpDgKwSnPKDmZZ9zx/PDOOqnM=
+-----END SIGNATURE-----

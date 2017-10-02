@@ -1,0 +1,69 @@
+router x01xlabtorx 191.101.238.214 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmK2AWYiE1nO6SiLoQ8R3PWp0lD2VwTbPsdRx07dSv0hwhgdAQAgBACKlqxq
+ZqSH0hqYlifQnjEo2lwjKr5oTwPtwIYJ8y7r3QUHC+RlrpM+6gel2O0hNNcnKmrt
+OrCDSq9WnYbKKYpe4PXQEwB/3bgol9ar65CQ+8n9SX63TaY5+MdUrWneYgs=
+-----END ED25519 CERT-----
+master-key-ed25519 ipasamakh9IamJYn0J4xKNpcIyq+aE8D7cCGCfMu690
+or-address [2602:ff62:204:bc3:8000::]:443
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:52:03
+fingerprint B7E9 7507 B915 1112 E460 A3DD 2CC0 C323 C301 1B6A
+uptime 2403583
+bandwidth 655360 786432 0
+extra-info-digest 75E1C4ED3AFB225D3D32F690593F3A45A409598F aKoLyyF0e+2+qZDkn/ofCMDCMeCuN7PEhLPcyaHIsO4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPLRFhsckOl+D13Z0xN4UPmMw2uFndj+FRojZLW6n/Bk+KjkgtkV/GWI
+q1DHj8rdcljnAYLjORhN/QQ9NrxkOUMrFF4NWn9QIH91oPfRfixutn1mmt3CAyCU
+gs1mUzeuQUPT+lI5auUYOde9xLto7H6FF7iJtepuuMWPXmfxOTQDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOd3pXETAVzWc8n1UuTMv27qhAS/9/+0EgL+0oiiN8fKwcQsr1V4Ebt1
+QAV0Dc1JnX3k74czgPPTwRSeaYhcm8/L3lAnfxrvCjS81HadxUh3cCe7Ym8vDJ8+
+45DorCd9sVnssXKBn6CjnwMaXcQy+Nt4XBxbqASMMN77k4KmDbydAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cCTWL3eadK0iQp6JJmOR5ZvIRB2WvBy8grH8/+yzeEytkAQtCBDelSGDYbG4VfSX
+9Tf0yRJILH9t0zp2rNirF+LzgxNRSNttPNaUgzj6mX7F94HqDAmydMlekf/i6+FG
+UijWFkVe5Y3hIUuumvWf7gg8Z+TJv5KObJ23a7Vg6qg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUAYqWrGpmpIfSGpiWJ9CeMSjaXCMqvmhPA+3AhgnzLuvdADv2sppQmbbV
+NFwyfGmhOmhOZ7YZj7TN9WarnJWseM/Jt4tsRyPSJjONPOrCmu2xpCKkcdVabNLw
+ypjCTfVNJAg=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+contact Leandro Neves <leandro d0t dataworks at gmail dot com>
+ntor-onion-key Y81eIc7AqN689U+blUogzFhHhMv1wmK562yAMw/gIBg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 191.101.238.214:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-sig-ed25519 P+DjshJwx3pFLSLFFpxMFXS6CywnUcea5f1cBL9x9U5orQs7Q49rzY24s+tgjoAoaWQUPSI6D6z2EBT4A17JBA
+router-signature
+-----BEGIN SIGNATURE-----
+NVF09LraSU9d7sv5+nlTSlSu1a+UkXZcYq4+wZ0k2BZdsRFW7W0cJUsJIpcTaJqZ
+TuAPoX1p1oheenSuqOUlPMi0B+sEah7UvyN5VXPxtInYW5+UZAPQbbzfxT0qkJz0
+UHG7YD/GqjdeJyiFZ2tIcbs04AUrlq1VXc1mAgPVN7Q=
+-----END SIGNATURE-----

@@ -1,0 +1,52 @@
+router regar42 62.210.244.146 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIkAXN6orTEa1JEZHGH/SI5AwX/BsK6+ZOL1FtV1sZY/88PAQAgBACIBJ1u
+8Y42+IUnwzDah9LS3nvbkxO96O3UN/+vieSM1SQZVLp9FoOiRQmYHxAGaW2ypxAF
+qM2HdazzVKBhHxyPG/7N8R6MIqaF+LuJq+glQspN7FoNUm+0IUWXKdTTnAU=
+-----END ED25519 CERT-----
+master-key-ed25519 iASdbvGONviFJ8Mw2ofS0t5725MTvejt1Df/r4nkjNU
+or-address [2001:bc8:3680:4242::1]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:25:51
+fingerprint BD4C 6475 0816 2F59 CB44 E4DF C1C2 B2B8 A938 7CCA
+uptime 728830
+bandwidth 38010880 39321600 31241284
+extra-info-digest 8679308F20A55F7A95B620D7025DA99B561C342E 9MhdEHnWdkGX18/J7HiCHq5OF/qOF+Ad+YDdzSIYIwU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANcmdxor6ER3P4BHcZa8i+sFAfxHT9aaR+yld9ks1xG2dhoEFhMxMvUr
+nn3r47hiQqHZ4MgPHka5SWZEJedr0nA4sAwAt9wzMsnxlbVTSviEXxAQBoE29RWu
+ec4hwtaKiuaKd6ZObis8PGmKoBqJBpQhoXxSvmHmkvjgiPNstquPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALcj/eXWaUz+gKWECdXdjIkcNlzk4xYKi1f6nFKXn4zMECnMCvbwdDjS
+dy7NNlH/PuP7XehPwLU9ZninYABo1GQxG/RC8LG+NBgp7VAdqYpQDWSd4Le5Vt81
+0IGJObIrBilkq0gyNhEtXBFgY6i/6jJDQmESHo6UEcp7DJaaxESLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+PaMTq+R+uOIx2oTSaEAoEPwj/JhbzV6L0J8jqWrouFUkb7HkTbdh9uvYalLBzcbp
+K8YkRJL1WycWyXn4pPVBNprL18MUi8sjcLbmQCkegG5xdqOIc3Fnz2DkP715s9yG
+ASNa7HMSM3ujP1PbBxntpb1pcHRw70iYkFax2huyGrU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAYgEnW7xjjb4hSfDMNqH0tLee9uTE73o7dQ3/6+J5IzVAFTYjyWgj6+p
+5B1HPNnxGdM9KOupRVn3rSDB2/lbHF0Ohs5y5Y6CF0j9/U55UsjEO7vB9hjIsHKa
+I2EV86nx4ww=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x59205995C95D108C Sylvain Rager <sylvain [at] regar42 [dot] fr> - 133YWrEKFUe2M3xWQEUxGgFv78zpDZAsag
+ntor-onion-key M20oQKHoNuBG3U8khLXoaPHq+zytd1WwArbywyBV2iA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 aM59j9REuaNlHCzYE1lAs0QAy+34rpMC1ZgIAetoF6Qyl+p1INdY7YyFZl5+r73uV1KYGf9r69y8WYgEnESJAA
+router-signature
+-----BEGIN SIGNATURE-----
+tfZ/TZ6A+VItWts17nyghPUSZr3N0T/wVVGydsfme8uVkuN76rIphGUvNpfvtFka
+qV3afhb3/g4DDu34OPVUiy0/rFo2T0e5MQCGmuSinC6lUs7g29KY1kWFk3p/YsBN
+d7tpsn6S4u2tf9DrXB5RtPdinpgwdtXZyXkS/0dJkL4=
+-----END SIGNATURE-----

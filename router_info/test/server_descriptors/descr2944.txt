@@ -1,0 +1,51 @@
+router opusbit 67.245.122.241 9090 0 9091
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGRAXs7xtOwmmsKin2VXkWj/774JAgDKy5DKoPQLZgDESFtAQAgBABY2+fD
+SzVZZDT7b+HJPQdza1agHPmvayuBDtlegzX3wKM0t1ZGsb/+klb6dUOl5/05Nsho
+TI+TqbTlFuKURGLWrndEFFa2pN8SzB93u59xcqkyDbMemJwRqPux0h1fBww=
+-----END ED25519 CERT-----
+master-key-ed25519 WNvnw0s1WWQ0+2/hyT0Hc2tWoBz5r2srgQ7ZXoM198A
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:41:43
+fingerprint B64B 44A4 33EF 2B15 CAAB 2080 565D 63A5 E6DB C718
+uptime 9913123
+bandwidth 20480000 21504000 737292
+extra-info-digest BD0B54BEC2713DDB61E91ADD824039B8A8386F0B xRtBgb+Aij7oStfs/hlI8bd/YNbyfBSnPL3JC8YN52o
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMV71EiYYI0ePyfmCldqJ8366YhZxCi2jFcn5PZcm7H2SCsRrcOnTvzw
+fBnMygIF72u8VzHx9FbhkIPY5audJXEXjQ3mf24m+oEpu5lnnEdrAhTsdis7p4jT
+P+bp35Z/7abNexc8A0qQoaJrnVYUaJOrRODqvUmg1Epq6L5vlLL5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM5mUbBw885iNv6MSZNUxwsL79SNXdKta9ikE4t14ghYq4Ps+OEP9Dk0
+52EM+SZU9NjB37uzqOLUzRqk1lET+gsY7zvE2tjbSqy/l1N38B1fiKwXV1iiThP6
+80gTLQ4twpsgMc1TK2CueJFYW+3Sm9y6R70VzgZoLoX205Z0rkYjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+svgL2cZYqOnPtVdaUtci9V5E2YoXSssyDVPkF9eztDvvDzPXqZE5QFt7xFV3Nd+E
+tdC8lzqIySkbeqqLP278uqDxjE5vQkHaDeC/Zxijw4xiQW4qsLDVpPZOLXqTVZhg
+o4ITUKp/xSX1PRSjEKMcfl1wHeIhWIpvYl+y3akbxPU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAVjb58NLNVlkNPtv4ck9B3NrVqAc+a9rK4EO2V6DNffAAAD+gBrqMn/F
+LUW5ZuSdo4gQ3fMw7aCrSHTie8nPXYDWjM//w9uZVg0dDBHsi/tlPCcDmySF7wa1
+CLgbDNLoDg0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact ops@opusbit.com
+ntor-onion-key /274iIU5jt0seitO0ZS9TX1pu6N3YZYP7TYLhmlyLns=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 aibfYuQl1E1fpLjHQcAgwFOTvOPJsIX5ujpua2LQcQkygUnjzjd2DpZU9Uij5j/chMy4pbqd5Tm5o9O1VEJiAg
+router-signature
+-----BEGIN SIGNATURE-----
+SjVl5/tnEao4XdMFYcLo2IxONUHesyMm8OKILI4OeDmIQ3rkjUTANQyO0WQZjjK0
+5n7KkDHtYyQnIkHJ3cZG1HUiowf9eI5jb8gOpb4czz4So1QEMKjXtPnpdM2CvuAi
+rY+WfRysnRTnbNO1XHzBkTpCtccAprQkSWFU9OO1xss=
+-----END SIGNATURE-----

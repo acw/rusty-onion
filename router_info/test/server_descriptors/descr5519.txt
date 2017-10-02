@@ -1,0 +1,114 @@
+router theyellowsubmarine 173.255.231.125 9001 0 8080
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:02:53
+fingerprint 54A7 8FB3 7193 ED3F 69B5 A018 E21F D01E 88A9 8A25
+uptime 194573
+bandwidth 512000 614400 903930
+extra-info-digest 7E777617271AA15194BA20B1718CE8A0DAAEC6A3
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKA+Bg9QJOmQuTvcJL42wDQWS6ijjaw1Xj9+vkouxtVgOAtrZXf4N38S
+LbZA+Ln5OD/NGUz2gg7m0dUObQZ7+WX13jsG7oHuVvk5xNhUSp/HNvSXhNHG3led
+qrY53pE75YuOBG1D+z63mBU1i6FEPiJ5Cqa4ilFpODdu2ZdfOnX1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANFBQ20IeXqjT+k5z9kKAgHS0yEtqgsQrf1SDP7n0a8Aupujd/OsOopS
+qp6PWNmtuIbBTuJuobL5I3VpdhAX7wTw8bGYr/YYfhhZ02Wk4E9i84opLL6NPr6u
+kLCVAbij7PYSdZ0N1i6UIkQynwtXOUinb6c/Iuo0/WJ2Zu7+eYFxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact davidansermino AT hotmail.com - Donations welcome: 1AJBxPyenVWgC2sz5DibtdQJPk4iGxKdYS
+ntor-onion-key WcfRs7fqWf0LQxilF5jiXUAixYVnrWdjwpIoAK0ICVo=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 173.255.231.125:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+YQj0x0TWenKX5CD8VVCrJqDWLUx/UZCDXM7JiHbQ+UVlsJY8RhG7jYXN2IVmxObz
+U4wbvc9mTXdaYwZc6PZ57XmmbDY6E9A+6dvv6ggrj9LJg3PlMfjqzfxhSZsSrwWI
+i1CiJKot48fpZQeiUCd9ryweJUn+gkyd0DNZQFcFmzc=
+-----END SIGNATURE-----

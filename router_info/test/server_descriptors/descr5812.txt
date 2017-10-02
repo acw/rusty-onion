@@ -1,0 +1,125 @@
+router modio1 193.15.16.4 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEfAYETSlBO93uonw51sdZFt0GNicbHQe07a4zWDT8DWKCVAQAgBADlczOG
+pxd6yk6ZOO4H/j798MRqPw4FEr3D0e/TBWna+7jqok0JKcJwPMstK8Zo/RnkD3pM
+ifD9u3KNDGBWwb84Ir0ywGIA4fEPZqnhW+lTaEwhBQn5NYUJs72mJH1JnwE=
+-----END ED25519 CERT-----
+master-key-ed25519 5XMzhqcXespOmTjuB/4+/fDEaj8OBRK9w9Hv0wVp2vs
+or-address [2a00:801:4f:2105:21a:4aff:fea5:ad02]:443
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:30:23
+fingerprint 4895 A21D D2F7 91BF 3E77 44B3 7C9D 66EA 16D0 70E2
+uptime 1127629
+bandwidth 41943040 41943040 7116639
+extra-info-digest DEE7B93E9D57C5E872D599755C73545086B54AF0 Xm+gjaQ91VY80fZ1uB4EFndGAamdgPfcC9cdY+wVNsQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKyf3xddC0OsQDczVhGDrr9hyWDV7OiX+3VrB2hAi5uWBvcayaUFvjy1
+alBshg//JeS7bVmMRGQJY+zeNbmX84pJcn9Z9aF5+FkYpiTpiDNdcnMw129GunI3
+pp3BgghH6hk3IVhi9tVq0hGoPAzG8Joxk+NVjPpuyACv6PAR8fmNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOVMLJaveHoznciw2L0N09e+zNzkLTpuSuJITw+BQMHdXmd5nceCU6HL
+ch46w09TGY/tY6Eo6DP0DxTXyilAHFWqY7i93Bc2268PDAN9PiDVgdrP8ERKYX07
+lngdBZ+Ec+wGRUpmF5VgeQWqCspIA4gtR8DdvwXjh6pU2zYlrXiLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ncCQKyjJTDNbtx/qLDVVCk9DZ2xUMQa1npXtndOTx2AHk9XnQ6zT4n/qh5WBFoz7
+2XFhwGgQ41P6o/E3yLneNXu46SS07PlkdlxdvuH+0HUNUUKpGMQybGvG3ObwQ+kN
+XcVcUNL6DiSp8EN1YjBSdQ2et7FsA1jmDNhq8f8I45c=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAeVzM4anF3rKTpk47gf+Pv3wxGo/DgUSvcPR79MFadr7AOQ5imMnwfYF
++ZP0nrWwDjut2yzsXfMjW6o0B9QQRL0LX/I++XkxQYzevv0q5Ywa/KhiVUemwgwS
+aG83P+FqOQQ=
+-----END ED25519 CERT-----
+family $0A9CB1B43C780634B80390A9093C7490CB503880 $2403121E35A830A7131C388EB643915F06842FB4 $366F07B6BF490F1E78D2B6B05CDDF5E608E37570 $6C39590A230311BA740499516756233FED406C70 $8D3E65A90F455E77DEFAA9ACEAFD7392221E2C9C $9EDB9965625A06F41D84581BF66CAF7D79919DC4 $EFA394DD66A8147AAEF3604B37CBF77DE2C7D895 $FB5BECE11DDCE8444CB2EB0A41303DBB7093EA7A
+hidden-service-dir
+contact <take AT modio dot se>
+ntor-onion-key 2y8QixN1mwAEfdbVt+kVpRQOsEhOjKZayH7PQ4NIcX8=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 193.15.16.4:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+reject *:*
+ipv6-policy accept 20-23,43,53,79-81,88,110,143,194,220,389,443,464,531,543-544,554,563,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8087-8088,8332-8333,8443,8888,9418,9999-10000,11371,19294,19638
+tunnelled-dir-server
+router-sig-ed25519 rOf+YYnsYMDlte3UCzCtkRHToj5VWeVNWbqvmESUl4dI8gT7J+dKnqawJg8ngFBMW2gxjKEhfLBK6u3tzlu5Bg
+router-signature
+-----BEGIN SIGNATURE-----
+wLHxS5QdThYoynlVLaylrjRpdGvvP/GDjRPutlrAGYs1l/YPlm3D27kjk7mdxwiB
+QQENFToE6pKAIt1olI2nJ/gPKVW/eeSWpk+ZNWpqJ4n2Cp/IJY884qPtUWyuMGVX
+WEBby/qanoa1furYK5Xz/F2LifmR71H6XgXm/mGt4X8=
+-----END SIGNATURE-----

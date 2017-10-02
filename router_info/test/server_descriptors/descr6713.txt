@@ -1,0 +1,50 @@
+router LebLibraries 173.14.173.227 9001 0 0
+or-address [2001:470:8835:4:5054:ff:fe7d:4dd7]:9002
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 18:01:41
+fingerprint 27A5 FD22 519F 0AF8 3927 CEF1 304E E194 8424 7582
+uptime 437502
+bandwidth 4194304 5242880 2162155
+extra-info-digest 83DBA54EE69967F770B723F1ED25CE2C6334C3BB
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOZHBTUdYcjtfp/udm4qKiXqq1vJLJf+ZRde8n+DUW1/NtR7/A/wgq5M
++4aXf4wovDzYDQcZX9q8VsfB5NvlNqrSaL1x8EmAGRgTtOsr8n0yAYXrS3sTLfIF
+v2qxsUQn9rbjzb5Lud7BrL2zeudyTIgD4RalW/muGNuOom47WXl5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOIpg9nSibKcnQ07/VjijDDRJwipBv6yxq1DlMveM3giElDDwoHl1NxT
+iqqimxszraI0z3xgBhu328G9PdtKowZm2ozixvOk+YkpJ3r+5CqNgP5nL1SKzK4T
+6NsRA1UnZB+WSoTINtpVFYKLz2ZbHqQXcN7gLJoblPFkKgZPW/jbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $F37575798AC696F1B72E7547B9B2EDBFD8053772
+hidden-service-dir
+contact 0x8652413B The Lebanon Public Libraries <exit at leblibrary dot com>
+ntor-onion-key 79fMml5TD/ZkGYIc6vUazv2A+T9aciBn/MzAsFEPMBo=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 173.14.173.227:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+ipv6-policy reject 25,119,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+router-signature
+-----BEGIN SIGNATURE-----
+OZ3pfiqFtlMBg7seVdROCqO4ss8EjVHa1If56vVoAu74kKf7c4qDsHxVLXcO3QKZ
+eLIxQilp6yZJ/f7RQrZyTw68plpZ4S9SoCkdMtJRn/XR6rRJPJfkz+20Rh9/CO6A
++A+tFJ+sc23GLNCpKZ0gAaZ6afBDUljZE+6tTyvy5Jg=
+-----END SIGNATURE-----

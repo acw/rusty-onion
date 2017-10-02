@@ -1,0 +1,36 @@
+router FD8250E 91.197.234.102 9001 0 9030
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:53:29
+fingerprint 8872 7875 0D02 25A8 FE2A E130 34C0 D619 79B6 70E0
+uptime 19622852
+bandwidth 1073741824 1073741824 11388889
+extra-info-digest 8113F27D04CDFEC6C9167F1BBBC9F784115DCB1D
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANi7YjchVfcN8Km+Jd3vGA85S66EArkuUFwGrVnpplOIeO7eFGJNJUl4
+SRWkub9JZT3jRy48HLMJIjf7BXk3iQPy3x3KYSbSTN7WFlYysZZgjxkDX8exlqgV
+ReweNrgP8z6XRE97UvCNNQYt9M8xM5LZJU3QMb0t3+92gIoEol1xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM/prO200wsXb0/slVgSBZY0eQpg5rDpZXt1ET4QDiC4FGlMqiTc9i0j
+kRzJeQsbqSpiu9wfFDkbqn+eluJNeG9v5sCbXR4WaSr79ZzuGBGNmzu2hPlmi99k
+AyLFsEiK/If6IDwKWIX8FGfGq9yM7aKE0n4bANnVVXUsLN2UDzFJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key US3rIu5BE7lst2cKDDS68yRINtm5myPKK+6ka+c8WU0=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 91.197.234.102:*
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+ApAbeyUBJVqjtF3Hnf3/QdukNDnGVKQobff/uhDML35NrfY07Wr9M4opUTJhu16J
+ER+hywSizDmM5whyvsowfm5JdS+T84LNLypUNnCghbdJErQlaYxp+ayekqEms7xU
+mZLi/rr/338M0CQD38zCXbsfVZGoJArj2j/CDmp7LVU=
+-----END SIGNATURE-----

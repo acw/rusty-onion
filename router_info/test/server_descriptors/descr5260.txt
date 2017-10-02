@@ -1,0 +1,51 @@
+router Backplane 172.98.193.43 80 0 441
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHnAaBrIi0UTsedI0NRuNE1GlXcS1/dizWy5aq4hCnGqi+mAQAgBABssRN3
+oUDj+TcrBLP2bTW4LowZ1T1le247OJbW+mBz6QmxIeTSSeROiMyOZfs071cNupjC
+mOIPHp51CsNJi2ZChf8zhXLtFlaHo/yljjlr+AIeSCAE2KYRe6CFKSO6wQA=
+-----END ED25519 CERT-----
+master-key-ed25519 bLETd6FA4/k3KwSz9m01uC6MGdU9ZXtuOziW1vpgc+k
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:52:04
+fingerprint 5E56 738E 7F97 AA81 DEEF 59AF 2849 4293 DFBF CCDF
+uptime 2829205
+bandwidth 1572864 1572864 1791080
+extra-info-digest 305DBF11849C767F5C204ACA4B99DA83284AFDCB 4JEIl0S4ueIBo4L/HAwjB9iDt3ayyhQVleCDwfRZGg8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANPR9hHy22fgWIIH0srvpzKogW0r5CNt2jjxr6fjDqLU2LmeA7WEoXV8
+y0GAymhI5wrdbTZb7jxngdO6gWmC/5FpYvc6r/NFjU+EtxwUR2zMuhYTFZO5fHJ1
+iPSc3jb4DJIbJ1PEGEC9lU3yVsastFdCGg/Sefz/DEfWQRkNFW6zAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOdsH1K9JY+SuSxMT672Ghpizs6rGZwqL5v0hWUzKPc6TH427Jp48IzV
+A1GiYQaemCDq+pGQAMzg0muy5vMbhnLlZxBbzOqJgzBXP8zETnNUOJeVHk3eJdjx
+B3FvqtUoigF/15w+FF/pmPKSNKLPlvTjqW932rsEp2TRsJ+RMmVZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Ka20WaD7nZkbvt76QckoiXVWDNHtzG4wqH/hfKQEgg5dYnaoWZXhdfhpLvELDzU6
+6EzUNf0L22Z28SOxx5XsZEgPU2FzEibYOWXLnT4Qc2N5z4M6Yg2KVMIy2fRB/QO9
+YbGrBvvZ+cc/Icvti2pdgyFJyWYew9ibcKhiS3tHe+o=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAWyxE3ehQOP5NysEs/ZtNbgujBnVPWV7bjs4ltb6YHPpAKVF7/C/2wtK
+GdowvURxRJQGYq1zYfvtnIAoHkb+SqfkJ51NGTdT3Tsl9bXOW+OG4yErNID37O+e
+dv1d+kr3fQc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Dennis Emory Hannon / BackplaneDNS - abuse at BackplaneDNS(dot)org
+ntor-onion-key FqVeCxvi9tWfMWuFs7kdVLgr1IAUj0KErKLRlgHDimc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 N4RNryfUzrGDw5WIEGYiAHVQdMXk6xDyfCzN0OJ47kMfm/UuENN9I43hR4ddPhIiZObn1ll6HKW5zIlBtK5eAQ
+router-signature
+-----BEGIN SIGNATURE-----
+flQJMiqsp+/XhCjhJFC97L/o2ZDd7/T1v7OC7tWw3fpoelsWg8RUZIINXxmaKeuW
+S/bp6BlTYJS8YYyPewdJTLOb/OqFHisegWww5jNYI+HfuOm9i+nyynpRQBCTCYNL
+BLJmFp9B64dJAGqDrqmxdcuj/KtszEoorqBFyihCt2U=
+-----END SIGNATURE-----

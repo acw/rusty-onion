@@ -1,0 +1,38 @@
+router Unnamed 176.31.200.122 9001 0 0
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:52:54
+fingerprint 39B0 350B B6E8 61C1 A569 53A0 AE01 46C6 E0E6 4E8B
+uptime 6860670
+bandwidth 102400 204800 116623
+extra-info-digest 2316ECADE1A662D132E7AC8FA729EB45B8AE1F26
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM5+VU0gLYaxbTLCyn2aGnM3fy7Jlo6M0Tb8qEAkoE7CK+3oaG2YNdMm
+m1fUQxT4j6HEx9hd70TNEo3SQz/ZG96Xam5hy2m8pWUJ9qgYIJEEPD+SlHunQaB2
+493nftuPJS2nLnybQNi5MwkrLgRwlK5QGswQthKLt3stshrLOqqJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKKVxQ7M0/TGRNSM7CUoWfKCC3xQvcR3bqE9eX7FRbxhaw7uPzwg/FOV
+P+dY849wW3ZMqr2keOxqKnSW0OrD/BQlRugt80Eo2xCaHimiDRaMUx5ks1ymhANO
+ZEvXPr7pzhi7e89pBQDLPxjUkskN6mrsDef/TED8bIpz4e4Hrc9BAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Rio20 Admin <admin AT rio20.net>
+ntor-onion-key 4MMYmqPkY4EFfU9p0eq9a+X5DzPJNU1sF1obZ7vlWRI=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 176.31.200.122:*
+accept *:6660-6667
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+lxSwXtIv1Cf/oaqxcNcKKlBft9DHprQKVVEPv/SOz2w2Fc4rOzHTK7h+dJDV9NKV
+o81UeKySWAcO3YXPCtX+4D6vj4zl/yGC5t27AGyFhI/3HGYd3mtPCxwAXFK+rgaM
+7IvTRNM8wTn2OzuIFsIIUYM0Io/W0Ar4knMUnj7R6CI=
+-----END SIGNATURE-----

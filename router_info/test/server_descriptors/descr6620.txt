@@ -1,0 +1,51 @@
+router storm 144.76.26.175 9011 0 9012
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFBAbEdBfwKrcos6rVYVHiFoiLVNxjBChQ5B6/ZnP2L5jzNAQAgBADRz3eM
+3a98CBj12vIZwa785qFToxWugTcVFTRoqmjFzfInfH8ClJUVdeqvq/XGzHKD61Ye
+mfsdOE36n1sK8LCmFMGQr6DC5clh1Dy06L8h2+PepEwlN79S0ObBJ92JeAw=
+-----END ED25519 CERT-----
+master-key-ed25519 0c93jN2vfAgY9dryGcGu/OahU6MVroE3FRU0aKpoxc0
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:14:08
+fingerprint 2BA2 C8E9 6B25 90E1 072A ECE2 BDB5 C489 21BF 8510
+uptime 389042
+bandwidth 8192000 10240000 9562375
+extra-info-digest E209144BFF319CF38EEF6734E2EC3E794BEFD84B Q2dOxUTUdOn0iCn9NGynGGSSRbbkR0+VGuEBQb7NboA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALUL/+vAp2NhS8XQdPziK0+lTTQAnXKm7eIIBl9a8I3+e2eMpNBS580l
+YslQHvNS5ZKT0y2ZoJBO5sPVm9Ux8vNvaeDYKUHNyqwBF/d2sRqu59Hsxetmw1Pt
+cQX1aHgBsIGX6Cxo/fIlbdniNb5gJoMyi/a1nQ72caf2qnqXNmGXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMRujw3j9iLfD+w1p13lawky7VOpnlKAsSPSmdhpMMB+Li8+hlAkOBbU
+uz51HXN4nUqY6Y2WBiyw9e+g7I1eVy41XOD3hMQCi2LjShyt+kPGgBrGZ3fytQzt
+S2XUd+E1SIxAtMusMEdK4dHwmLVCsCnjqD3zql0+q612+j4Dmd5fAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+fFLoDpekZBRTSvV2rIc/eg79wnDADshE1WLqO1UfSFENNfPQiBoxRC26gFksnO/a
+yjdnXux7/yFn8NLzrN2fHejIV0mnsZHkLKJ6OL7tv9Q/SCuRD+ufan/sienfavpk
+0nzzK0QkNc+TcWL58guT9ynyi7g6Yd0HFTKvxgWm9s4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAdHPd4zdr3wIGPXa8hnBrvzmoVOjFa6BNxUVNGiqaMXNAOJoQibU1Ya5
+nczpdBQ/i9p10WUAVygvsq9dRkAWWRaOH+SDtH9P97umvhkF7Xyv+xjhO2upVyWt
+rOxVkwGgugA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor at dereferenced net
+ntor-onion-key ef2rv7L3duGV01b2DP0a+kdMetJioX86bnk14/J9wBA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 em+X3qNustaIoe638W7y+cT7AcjlHhzyzaYdsEBs/BRg9cEEN4rOtDnoDVakvZShg3akljXFsF1qZTtSWcMjBw
+router-signature
+-----BEGIN SIGNATURE-----
+gpSRCjZDJyBZ/BAvVYElwwHBcvBXD7WsI3aWGttS0OHAImHOQGSjlXNIoSCPiqlD
+Xyko4AK6JWNshmdi/XYE52JU6I7ZLpH42BOcIsrSm4zNPkuL2U5s9lKgjtBbM+ys
+cqBwB8jCw4d5eWAs2kkJ0Q8QDFffpAHnh3K8sMyLGNY=
+-----END SIGNATURE-----

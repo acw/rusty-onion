@@ -1,0 +1,31 @@
+router PlBiRelay 89.161.96.14 9001 0 9030
+or-address [2001:470:71:970::4:2]:9001
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:55:59
+fingerprint 6385 FDE9 F12E 4839 CE35 1D77 5842 84AC E0D7 69DF
+uptime 5892112
+bandwidth 1048576 1048576 1152906
+extra-info-digest 25C57CE49875CD3FB78B0E7263161A4FCD26680A
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANurrXMLFZaVzE0usAd6S4i9QJh8uO1qVprsSO5zUPktMASnC3mu7fhC
+wHiYxua6NKPpSh4uTZLUg4DRyVUMvxx3YimeUeM1cu5+jkZGTRjC80kxaRL5vYMw
+R6hpr8pi7P5Goh0axVUuhE/3yteNjNkn8/9qLfBn1yQzaqDk3QIbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK2C7ZIL7iyAcUTRFUIzbgc0BCoolUa2kOoHUIg2qIjS971Vc6mxHOEr
+MZKGEZrPQOFtgZBvsObMebqGTPE9M9mPAfNkzL6FpK4KcdwOmyGFrDScvKrA7YEu
+DZEP0x6CfQ57m0lD5mZ4RFwloup+7dGI1YFSBKceKxYSxUyW8TrnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Rafal Niewinski <tor AT rafaln dot pl>
+ntor-onion-key yNODtt/7uTrdH6thWEP7VLX8oMAKTunSfZP5kBHLC2U=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+kTYR5318lloHlY+KgQHrADsoIFYEJK83//CGaK8Sdba7X3/HeMADr4Q5bQzMQSEc
+RuQOc4hGkXKwTV22J8mFifWqpYNFmoXl0ig8gT8zxVZlZmA7/ZGWhtm+/ws8QWAo
+m7iadqmzW7DapylnGKfVEIlgNBeb/MDfHX1AVNzEQZM=
+-----END SIGNATURE-----

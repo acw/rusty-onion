@@ -1,0 +1,50 @@
+router angryrocket 104.131.245.55 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIbAcXgB3+S7OJWe3ZoLfsTXnGaf7fyp9H7Bi9oqwFz5F99AQAgBACvWf6l
+Z0Sdf7oKHFzcQKhxCixSt+Mo9AF3St0Wq3QTzXAWN8iukzGjv24m/O1Qp/3Ep/0H
+nyaVk+R//46a5zXij7FpNKDKJ13+Z+rZRlXffRQbW+jkq5DK//7R9Br7NQQ=
+-----END ED25519 CERT-----
+master-key-ed25519 r1n+pWdEnX+6Chxc3ECocQosUrfjKPQBd0rdFqt0E80
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:54:36
+fingerprint FA20 DD63 2DC3 FA59 7DE8 A2E1 5EF6 77EF 31C0 1EE2
+uptime 1386915
+bandwidth 524288 1048576 628949
+extra-info-digest 9F9F54FC7DEC351BD2A8B3773B263F592A85D68C vGjTzuqb25EBRp3rI8ZFdnqF+fSRBQVjuCzCuY8XE0E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANn8+AlLS8xfrMvQ83svOQWrWuoCamJodCYZEcVhfSa3DwjDBEoJuXoH
+NF2U4oJrNScKdcflQRf+IMaVTbBbD/1pAhIVIrE+P9zHfWHItUw9PzasSEIq7/ii
+FdpFBlycbOBwrSf1rd69GJf54oAyQVlf2KDsWWiUOQE3yO8EjM9LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANxE1ZqeOsYNotUsAUVczTF+XCOPosREVGZ98xZ59dFjPXQifrLb6+oZ
+3yVFo3XqlIxgIHzKhBFXDuCA5QS49dqes2j9I/pWsoAXXPvrWYR48IePiVmHx2V0
+LMtvCtUmp74Lt8DdtUVlIq8ubDXzrxvSTrdFrRswY1DkRl1EDDGHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+YgHpUAVrowmv1JrMOllIjlttuCXQ9f/SIQU+yvfa8waaL+9dPXBuZTxxNN/SpiZ7
+qckkt+zgRJuNfwi3Ju8wtjnsmHDThhfriBuDpzvEUQfhnnVY9ECneRkukahxVbPo
+1+NRiLknB3cTwLkcvckHKaPGJRcgUZN6HX9LbvcXlwY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEAa9Z/qVnRJ1/ugocXNxAqHEKLFK34yj0AXdK3RardBPNAF4HZViC5qdm
+Q1hwLtkhST9P/7QsBz1LXN+GVR0A6H8w6LS0hfTITlVyE7wq7hk0q3dnL8BK58kb
+/e5oNyPGfQ0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Angry Tor <angrytor AT icloud dot com>
+ntor-onion-key uGl3CVHIs2hFfhuXDyNPUuV73gX8YUxRBwn7e33dwEs=
+reject *:*
+router-sig-ed25519 0ZbKlwnG5l5bc1H5FiVeIir2dIgrhYA3nhlYKuLLU+wN8fYQ4+ndHDqxNRlH6NabGZwnorazbpMuNIyFwSLcDA
+router-signature
+-----BEGIN SIGNATURE-----
+BocwscByjyQW1Gc4dgqENjq5mtSSgmEiYg5Lk9xXtAiult0BvSqPrdCeqbTUacH8
+EuCcZ3atKICzwlYcU6zgGbixMd/ddXLbHJn0NdRhlDXTJ+lS/VCcBt1wJT5PLf0O
+9cGV7Dp0wXKALz0x0kLP/fux9YKOfhOiF0xjgidMMCs=
+-----END SIGNATURE-----

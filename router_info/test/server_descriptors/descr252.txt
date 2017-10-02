@@ -1,0 +1,50 @@
+router OrbotRelay 200.238.199.168 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBJASi09Cl3GddqDaqjNtgcgZ+Zry3Svn0tnSwOmspiAXg1AQAgBAAkhYh8
+J9XKJUcXMe7IIH99vc/OfDGXaZQPi7QSubG+6t8+KGEsBoC8LTNgszR1JAjeGLpa
+Kf2aONl/jDq2m18aHNp5jzBAhnAaDFZZyBvp73qtghLSNV1+RD4WpgdEsgE=
+-----END ED25519 CERT-----
+master-key-ed25519 JIWIfCfVyiVHFzHuyCB/fb3Pznwxl2mUD4u0Ermxvuo
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:17:02
+fingerprint 3895 8D85 CD36 F434 3597 FF88 FD96 2B04 D04B 66B3
+uptime 58499
+bandwidth 1073741824 1073741824 171514
+extra-info-digest E183C60803083AE77C9F520D2681677FDBD9E74C DIVBwjdezQ/eytPQuPdcHAPQjZMn4KvVrB7TdYwXYWg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMc7PwTeHVxoZMg7BE1E2T2oxt5z1p+sOV1FoGfTWMoFGkLyqaz8BZlV
+lwi08hSfvMgEOn1TR7V56OSzgJE1cfmzrrkzPbYbzS7KArmYaeCjHv49cplclCJi
+NuCE/79aqj3WPyW0QGExUcdzg5duX0ON+I9OWPOWhCwLFBLjprexAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOjDhUZvti2gStwLjfBKEaSa/V3Exv2m1UjBaSRTMLXQ3Q8M52tJOZIi
++rxwUtKa87hrGx/54/Y2RkOUpTooFU1hQMOZicUGmc9EyEJIQebAwdSF8/U41859
+ehzv/gGYNR9BOJnCtlUuEhb69DKGNdmXLlhslzd3nRC5QecbNcOZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+PpRdRsAwZBM/2DXYk4nBFF62L+a+jPIzNjjp7RCFWGsNATU1iBTqaMP9vUNY4eAK
+pyCdHdiqcKV86TGk3KuCKIR+yGXKkVmvxuwkqswFfUKhXPKV1Agum4ukekGYTUVz
+I8VXdJpMoWV6VY6k8BJzaKW3W73ShHBOM8YNc95FljM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUASSFiHwn1colRxcx7sggf329z858MZdplA+LtBK5sb7qAKifR6M0YJK9
+zm1ejS0kjSzGNLDoowqeJ3K/bPqBTPw4xkVGj7Jbxnfb5o7rdoLT84FiQjyT6f0w
+h142dByH6wI=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key w2wGtymoToPlIVUx+GKWWSDP26zvVdo2PU2rZmJJZSI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 HpzPZ7wMOu+o8cnhPhNeGesEo6m9luzih7KXhGV+5JD2LrThSC+2lL/wq/DEPUUOs5AQBZhNGrkes5ap/TapCA
+router-signature
+-----BEGIN SIGNATURE-----
+Nor0o5ChW5Vx71f7yIWjG0i+QGHr3y5jWOubeC2roTDd0w2i/zbtlJ6QXnFVP7AR
+4ocStFHJrQ9k9VTvM2xIGy9Dkx4skdc037EiwcmjZWXcKiFedK7NsMtT3gBn/s1e
+sfLBos3A8XKCK5acBRFDKr0tIe6CZbaOrTDTbojzxa0=
+-----END SIGNATURE-----

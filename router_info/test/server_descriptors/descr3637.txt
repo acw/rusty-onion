@@ -1,0 +1,51 @@
+router DeepGreenResistance 185.165.168.170 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEuAY1S1gMvgZMuzMh/7VsLZx/J80pUuroPyG+dCU1Is6r0AQAgBAAD0KGc
+2vigTdHlZvGbp+EADoO/EUKOARsGGWlVTxbfwiraqB2hN6N8wKWU2gi3mOYbZaVh
+r8S16nGyUt8zsEdeYcWLmoQNWHP9yxqvYhvV29H0xgKEieNwTgQdjqcm9wU=
+-----END ED25519 CERT-----
+master-key-ed25519 A9ChnNr4oE3R5Wbxm6fhAA6DvxFCjgEbBhlpVU8W38I
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:49:48
+fingerprint 9C2B F9B1 E30E BB1A 3836 FA04 BEEE 8CC1 92CC 1E5B
+uptime 2401702
+bandwidth 1228800 1228800 1371379
+extra-info-digest B8D52C46992CCD86042B0AC29CBCF08F33FEDAD3 bXRJcF5AFkb1xqcD0DI2tJFdXEhHfLpHP9fDtYcTGEY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALictqwDktEbtPkBCVahDd0QaLiPhs683J9nux5xONweVui/5184owh0
+0FGDr7rLofVEmPj0uItiqW48KrbPcLgvP8uixGTYgmfxGq3lLRn9nSi4PSJuMBA5
+aOL/hKJVe81FBI03s6HSXrOrcAoR7cPCU6tzB9OhP6baGoVwOI+tAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMCgVZz9EnZDA4Mr8pkjoqn+XRFD/wdy391ZZEBEcWD+nmRDsrT0pHzE
+2by+/Wc+MFIkIwyYq5LwrLH4qYvMvTyqzKMgGsPqkHk3cUSGLtTu8/O970P6c0eO
+iFQUH413bme5OvZUfP5tWVGN5zT7xwL+cKlyB1cqey8NVAMeJGUZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+GVcpq2L7x+qT0qMWSkA1tJ0rEUsnz3nbZPagysoSv7cKzQWhvpcJbFVBnE9CU/sL
+0YAgqbhqm/o9dBbMJuXWMu0BFWyxEpq3dDkbCYTxL2LA3m3lph+lawweLU0DskQU
+SJUNG9GSaFnVUdmR0YoasaIyNK9SvqRHF+YTLeN4WWU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAQPQoZza+KBN0eVm8Zun4QAOg78RQo4BGwYZaVVPFt/CAC2CptInJYBw
+V/HZObMavgY0Elcwz7N19QvrKyfZ7BfTrbAZHvRu+59xOOK2C+t+Ayfvy8mrJa17
+jtyvQ1PsiQ4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 1187 EF45 9760 66ED 5AB5 5D50 9755 3391 D0BF 49BA Norris Thomlinson <norris@aktivix.org>
+ntor-onion-key qihXpNS7b5Ue7Nu6j8BaELepfgwHLrDLIYeWPy1i004=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 dN/Lf73mxdufr7ykSWVHfdb6TA9jfwqpB2M+CjDj1YMZV4iGp7SMeeIoPszmhWVTTLeOi2D5tMN66J1o23nADQ
+router-signature
+-----BEGIN SIGNATURE-----
+F+Uqe6XuLYABLJyXUFYLSPrTfecYl+YjF1WYdTjZDvGJlbVYs+IOQ7PgGzt9rV44
+sD0NokIcaHKFfXtHeoY7/fGXV/Ig2smi65ZjDX0iYbgKZOt/cWlUDFW1pHRRrNkf
+og+nh//sHFJuKK3w5wLzOty0xomqJV87kLNYO9XEKsc=
+-----END SIGNATURE-----

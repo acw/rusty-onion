@@ -1,0 +1,51 @@
+router mytorrelaynode1 85.214.110.151 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJMAXmJ6uX8dTYN7tsC5rDWwxcQCo4Y6oydYkeqMtvYoHJEAQAgBACO2lpR
+af0DDubeKm5sNIJMZjPytALttv146NI2GsnDlKn9Tanguwj0f18UtA6LI+R/hRCz
+gUfR7JcdOQgWl6qEkublM0ocbbrOaw4Ba9tKWh1bMwSWst3GVTH3BrPpogg=
+-----END ED25519 CERT-----
+master-key-ed25519 jtpaUWn9Aw7m3ipubDSCTGYz8rQC7bb9eOjSNhrJw5Q
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:26:20
+fingerprint F014 1F6A 2BBF E3F8 6371 E570 DC9A C62B 0C85 DA86
+uptime 2211861
+bandwidth 1073741824 1073741824 0
+extra-info-digest 258F1B2DA742CA0FBF701B5C2F1A5CB1086A0958 7JheffzOO4JjOYqIMUcbRVZlKyMWjFBauVAmd0Ri3qo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALQQApsUmuD0zaYVv/4kdJKLjrJmlFVer2IP7aw2jgxVCH5xotIL+jCg
+HPaiMOarbTe1BTFJdbHOGiNbtm9t2ct0kfkUgORMp5zMWSd5qsTR5C5bn9AEesAN
+nNvgWtCHfVjcjCXWi2ybU573UInKgIOKkUm11WZNUYLNNqz2calrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALKS4Mg97NECX3apibaIzGVDk4XLS/8HtGaWNzgFLEFX5XQo1P7mfQ3J
+ASJFRQ2OvcjNK4BqG1OPAJFaHSsbaUOfcjIEax+891n9KCFRIt0jPxQo3Sy32mBx
+D6fsHeYiQuokWQDVIcuS+QA6mGwYb7WuGY4haVGC6i4/iBzNXD2rAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EpvO+CIJTPh7Tmbo8f3X5kB1Vh7Ltmbj6pFYbeJm0lB2NOF/yiNIXfyZA8+s8QjX
+mWgjA4YLcHnceNIX39lv4203J3ezzoR3zLUilX7JdC/W+2kBlyBxaCJDJTseH4sO
+Eod90XnqUM6WzmnW/1aisCk0B55MXAcFnCyr9oTcTZc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAY7aWlFp/QMO5t4qbmw0gkxmM/K0Au22/Xjo0jYaycOUAMRCaJjhMJwe
+mOCpC7um6VBifi/o5yyTs4XcP4vyXX1aNeE+Gylt12tk/mVGd0nlE4R4FualLeV5
+azUO72HSvQY=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+contact Tor-Relay-Admin cl1@bittendorf-online.de
+ntor-onion-key cAIQXZ+L9BotU9xkAjCBj5D/J7xaA15qjWvcCpGpP1s=
+reject *:*
+router-sig-ed25519 1fDDha/maJ2+RzWYZP61INvP5h/rqBpoUmNLAyb7zE1Vylj5PVC9fr7bTrHlnk1ictXNHHx5hQXq+8Brwz7EBA
+router-signature
+-----BEGIN SIGNATURE-----
+DrYv5aFNjlBT9gDf1hkktN/5otvR11dHFUTlN71un4y0nOP6VtFehOu01ID66FHd
+VgGi9uJdzo+mdqdUYWaCLNFLBqxuvKBkjmrMqeJu5Ayfy4/R9zqZrN9Z78iNVWqi
+0Ep5fH2RYXg2chjDxGpNitE0ImzxSpCEH1BvjTGBTXg=
+-----END SIGNATURE-----

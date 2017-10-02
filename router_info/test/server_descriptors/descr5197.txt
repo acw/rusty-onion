@@ -1,0 +1,51 @@
+router bemyak 95.165.166.133 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJHAcRmUlizV32QvNwyXvkBiZZ1Bkz5HOuY9DAzcmXgqbk5AQAgBAA10czn
+dr0jJXKz8ON52vekB25tdojRm5OXBWTfjXFZ5j35OOiuuOw4XmhrY+SoBtHE/jv7
+XVgKUxpCNgFLjb+KVPqmaZWrNQ+F1nIUTzztdqVyAbfkmYZ9YmmpBV+R1AQ=
+-----END ED25519 CERT-----
+master-key-ed25519 NdHM53a9IyVys/Djedr3pAdubXaI0ZuTlwVk341xWeY
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:55:18
+fingerprint 60E1 587C 0B7E A146 2B67 FC07 06C0 C729 8A7F 64D0
+uptime 1155970
+bandwidth 1048576 1585152 1242013
+extra-info-digest 7AAFC793C2BC3D98C628BB67EFCDF7D804376DC6 eGKZ2yfP/zzWduToM+8uKzIwgswwEXBuitdRZB76uh0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALKPMQbsYvdOOOZY2HQTlHxpZTSwemJQwRLqRYsc+eE9gNQa1qW6echM
+P0p/KXBDyC+4zr/ikCC9wL415vMtADnj+7Hl9ySsjnuzsxRDMBMscPgKwK222vcC
+etVmY0hLvnF3dhM6vk5PVbmmaokH8OTjco5oWnY8p/RIH+sidVsJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMBfko2o/3BF51/nO4wx3CM/L1UhHsc8zWo74+8S4KAW+uPEs5C5s9EQ
+BPHw08al+5VpOjXDwMQtLfKoa97A6ozgY3MlOPiBhWh5j02jCi2pUq/IcHRjbs2q
+Kvz9zEQKomp8wVrV9HVneHYpJUGdYRtWC6Pf5bh7ToA4DMv6TPq7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+m3WQYF06dzrTAHpI9CtOaHX52Fwrz4Y+VRT6X0X7EuPONpJycgRbl0pYC3k+w8fd
+C67vn0sAt87EfnqKuZD6TAm0pyjBHJ207Rk7Omthf9A13Pmxy+K0+VmWPddPWgWn
+ALNlPCvpQCq9DCgv4+G2AAsMRvkoI6jDUPiJd74Kimo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJATXRzOd2vSMlcrPw43na96QHbm12iNGbk5cFZN+NcVnmAIn7mG6nQMB/
+JQNhJ3xLyGyGaQAuQBErphCaMAJ5XJZnSrur/1g8xf3Yp3Svbh9zqRahxLSaQXxk
+t26f+BCOtAM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Bemyak <bemyak@gmail.com>
+ntor-onion-key acme3cExG1Lrqqf69hZck7VtTc/bYU/54eo/FVChSgo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Fv810PsZ0ETXtL/trtfJ5rbTKX3IHDOMZJMP5UgqxyebWv00N8+fa5SwxPCx9nqpYdA6NhRoj+/wfGXaXnpDAQ
+router-signature
+-----BEGIN SIGNATURE-----
+TT+Aom+DqSFjPXu07bxTucmn+kIYA4Ke1oNFP6vhLwEUur/96wknB8Ge4FnMdQli
+W5D9HXJCBbDO6kqS1sNqEpixhyyffr78i3FktNsr9pr+gvfvMCBAvMAN0rVNvOtP
+r4q5sDs2wcpJmcCMHl7PHusg8l14yVFFy5XF9GhBD+4=
+-----END SIGNATURE-----

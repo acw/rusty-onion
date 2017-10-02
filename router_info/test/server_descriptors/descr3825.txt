@@ -1,0 +1,51 @@
+router heartbleed 137.74.117.52 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGzAcOttUGRxATD5qFafoREAuRi23SmsvCttK4v4PtBoBePAQAgBAB9G347
+/sCkDOBBJyWb0vV0SXaxAMIAHcAkzPFbg4fShfEQGO0U4rXIP5Z/NaNl8mYXHnn/
+Rm7qf3px9LtFJbJqrrxDfTKWJgXINsst2rA91tgZ826hZFNmUPw/bZPQoA0=
+-----END ED25519 CERT-----
+master-key-ed25519 fRt+O/7ApAzgQSclm9L1dEl2sQDCAB3AJMzxW4OH0oU
+platform Tor 0.2.8.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 05:15:58
+fingerprint 95D5 A59E 3A0B 0A32 6372 81DB 54E8 3599 431D 940B
+uptime 10120571
+bandwidth 3932160 1073741824 8203708
+extra-info-digest A89D3722EC5E308FBBE74B0C8806E6B15824D58C r5g1Cuk09es1s+Ib80D+aHacJYbfCU/2IGIq+79If0Q
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALREQGBLhbMvraA/LS15mD7mOe1EI2Dld0/5Z7HzwpcaJ5KOfNgmAEM5
+ZjRam92L+U3N3h4wJViXb1ZR39OAsVi5+I7PfEwKqufSNX06rLxdjocQfS5UvyI7
+edtL6kehLf62Z/a3meSsN3ON8aJ4JoR7lKCHAcdH8BreCZcwr009AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMI2iINtsUR1ejcpRwY1nUoejsgKLF4pQ2ADTLBRx8ev5y/U0y85s19X
+t3xw98UA0lUycDqBbxRos+ND9k/AvgOQtn3zBjG5pHN3EJRHJpLGGgI/Y5TMa7W8
+GOJtgucjGPSVwxiKGDgwYqsulkTttdTGoEZOcaY98a+DjSvS7aS7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ZVoWJ7F/6eNpCxSflJFZh3G/Vla2YgpQbspiVgqp4xGUOaBa+ZY4p6lNAZZvrzkV
+UPXpWT5e3exWwQQN7rzjmfaPobgS/d2NFh8hN5nxucgUcsLutCjLnGa8SoPxqvbh
+ylgg/71Nky+j0DsT7x9k1RUB6bm/VJeqd69A8QKdUbA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmB+AX0bfjv+wKQM4EEnJZvS9XRJdrEAwgAdwCTM8VuDh9KFAA9SneKGmsK2
+SfWXtWDyGR8ccHeEtiv8KJ8DQN7bpIRy3aJYz7ftpfRsiyE82g1N7d1rkgfJf+Vv
+eKtIjQMK7wM=
+-----END ED25519 CERT-----
+family $628E8DC70840C98540649041E8FD39F3A9B1E7F7
+hidden-service-dir
+ntor-onion-key Q+RcJ9nCBlSYG62klMhYZmzVAhecPMOhflqNiv1h/jk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 4a4GXTxNhLhQ2EqiXwbTTVf/ovsi9gnKqcbD6sdedY3UYu3ueOaoBOTc9kqMc5VtksgWMHjd2vVjo2AO2HYnAQ
+router-signature
+-----BEGIN SIGNATURE-----
+FbMITX6StrpTWW8RkT3vj+kSzpmllooPk2di/yT+4SiV4OTufi++ynhLVljC50ER
+4TcTQ+BH3Z/HOYIYPZrGr9ikl4HFW27LQWMFJpfVjYD5kTnmBVdSsStCbXk2MyeN
+t+JQzmyEYmbsqY7TginEvkt/wH95cbR6F6lXtnN6nO8=
+-----END SIGNATURE-----

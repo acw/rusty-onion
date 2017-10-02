@@ -1,0 +1,67 @@
+router ctrlCorf 93.64.207.55 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDMAdtZncmXZHle/sOeqqsamGbSciCqzpzfeLADDeAIRR6rAQAgBAD+2or5
+1fx1DEhp8c0NL7fdLVELCLFnFG8Ymu+J5r1mYItyN4nuKZv6QRUmgNGrOzTXCstU
+VrcQ58cXZXHkmo7N7G6G4dIkWRxTDpVXFFtz8+8z8brq2WBn0jqZEI446wU=
+-----END ED25519 CERT-----
+master-key-ed25519 /tqK+dX8dQxIafHNDS+33S1RCwixZxRvGJrviea9ZmA
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:35:57
+fingerprint 95E7 9CA6 A16D 3247 EEFA 9522 2118 DC9B D184 4842
+uptime 14982434
+bandwidth 143360 286720 196325
+extra-info-digest 3E393C9ED12A1740C8035ACE36A3CCC0D5D3EF8A NO61EnfaeebQHGIGcHtUjTt0GPMWC0xpVoowmWu+AhU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ6y474ElUtHI5iXm/TcChWgI0oNSLINUgpUuRRea4tIiLgHJN9Y10ln
+SRsE7FNbiaLztAtFIFRFCrApfWPBZyJ27FHxN12dVAOaZq+NiouolTI78fY/V2Me
+M5clKK9ox4DJCeD0lweTaA1xtGnkrKhU3o4pW7GMeKVuFZmhVbyXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANUjFMNp0zs2CfTAJp8HwDSTB1jsBrMtPFd/BdJChxIM+bwu/20pLI+t
+tUso+PqBWRGiErBkCDFItJ+EXpxrCcnfRD1OmroIkxIYIepvkujddUi0Zs/1jM4C
+qSEI6P1qhJfoTdzEDKdSYmrJAWiB1P7ahWpBasvHLI0kKqO40giHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+I/ioTCpoTHAXEqG6LNxa2JYcGSLYBPdCvv3yfgkc/dV9VugExsuh3RdGV74dtJat
+zVltKeMKeaP4iAtf5COBxpAF9lc9zS8d4JT0rj7Yz6MoUZlk3/YsssmT5Tg4bZ4w
+czG3xP4BCIlsgvTG/7qYf1oT8MgSmgtYDTwnTVgcRIM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNAf7aivnV/HUMSGnxzQ0vt90tUQsIsWcUbxia74nmvWZgAD7aGvkpWn92
+WRPhV+bFIjoOolx4S5RAIIZ7eWPjajaPG4VYq/orQUDuPhjt4XF2+eNck6oD/3Z1
+hX0pkEi7EAQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x50205608 Mario Ravalli <ravalli AT corfilac dot it> e296b9776bb41c568c13
+ntor-onion-key oTq4ho1EagT8J8t6jw20iO6CTYuXUKLh4b/6PLNnQUg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 93.64.207.55:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-sig-ed25519 idAf8WzC8REw1FK4WCHCIwHU2QoQ0VCslOTvzm8eDJeowwAQL7yXdk+QPlBP0Ug3CkmJcZtND+loA3kignbeDA
+router-signature
+-----BEGIN SIGNATURE-----
+tR72Gyrm2k/H7L00QiYGMr5gsOwSZv1prGdCUvQgeDvIVJxBLw3I9ktZlXqNDpEO
+r1YVd3OpNDcNDghJrrTReoAaT9nqJFCNB5zCC/TU/FKfbOxZtrkANEhSFsqn6mqO
+vkWe/2Rtl0Z43oYUGzxQq/bpzDDi9L2BVXjqHWrFyHI=
+-----END SIGNATURE-----

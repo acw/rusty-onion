@@ -1,0 +1,51 @@
+router anonkaisx 151.80.115.180 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJIAW1hXa7aHD9nP3+FdTI+wwUgtbrtZ2cY7y8vYGbUTvN7AQAgBABLJjAx
+zU7WDKarPXQvGDOfEoWmRHG8N2u09hIchRIiy5oUrPJIkt1GjlfaYBfKfySn3Ezv
+k42NVZVOkAt60nOmozSZdw+KGGZCzlIcAkIOxjGRegIEbEYIfSObR2jH2QI=
+-----END ED25519 CERT-----
+master-key-ed25519 SyYwMc1O1gymqz10LxgznxKFpkRxvDdrtPYSHIUSIss
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:57:48
+fingerprint 8646 2266 90C1 D4F2 DDC3 021F 8990 9A26 A8C3 2A27
+uptime 1615805
+bandwidth 4194304 5242880 4866128
+extra-info-digest 332EF005E5DE17C6340C919022DCFF253415CE30 cUz3Tr/fwAdyaQqWk51dICnliqhQyhE2jVVULXu/rGE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANamQW5liKUlAzBDXJiDAT/JrU4p/bGLBN1ly7+YJmIYNIT87zVCDHf1
++SJLU+NcteywKr7y9vEZEED97nm1E+heBL69TGC88lm2VXE6Lb+uhBB3CNTHwjCS
+0rc7HbAGGP3/joaWARJk4ck6zD+iuV+0c5XHjUzRmX8uINCXEY15AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANavgZFwQhHVtSLD3sagiHbDnKfNfuoGaxU5JqEG/G+MagRM5t/1RBaX
+ROvFLsWv8YwoiJ7DKnapk7oRdh8pFE/expU2YXrMP7lDGxSSywG9gximkIl/HaZh
+LRgCgF3z+miW5hTR57zdeiJFdU4Hf5WoBB5xdIX+tHchmZwkU69JAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+VVS1P5tV+Ht0DyDn7oIgfrWFp35hRN3Y7kCfOFrAS/8a7JGXnbzpb6LwqBcRKotX
+EUXHQ2sUzszqWmckZhO1eFQ67XDfm7rkV3WxFdiEZHKjHPFnnDZx//q+Drok9MiF
+2FxUz6Qaeml192S691PC5KcUWoAV+63uH8IJ01RIyjg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCGAUsmMDHNTtYMpqs9dC8YM58ShaZEcbw3a7T2EhyFEiLLAJPlRBfuxFMg
+lAQH48jzN/8X0rREjuJm4QFy7DrQYSyGNxgdsT6WHC7g7vErx0iBxBE5VOoKcm70
+zZPfAvTOfgQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Kai <anon AT kai dot sx>
+ntor-onion-key ijl/ql4CTQE33EqnxdA/5df75DsUEfQicHW2N5sKwF0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 m4nJduaAAhAvfTBDduQCKoVErz8eNOQqhARfOm1CnaTQ/GJh28dLgUcrseFtYDwW5vfhyHMoPFH56xvQ2UAgCA
+router-signature
+-----BEGIN SIGNATURE-----
+eH3ED1akO+nCWOom2i8HI/oPTuGooXAKWkFIuko3Y5GZsoy1Ry4U7uLUYV1BGOWs
+PKeaIGsLEsLWr5Lj3AHvTpPlqGBknx0UKqljYXs+74r6SGsnz2dXb7FlxA3brMyf
+r8/F94OBwQ4vAG+iPie1wNnZ0QK1/b9f/lxV7gkryVQ=
+-----END SIGNATURE-----

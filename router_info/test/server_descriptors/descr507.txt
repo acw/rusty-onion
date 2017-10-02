@@ -1,0 +1,110 @@
+router raffaello 185.100.86.86 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF8AUreLnVwLoLD2RUlY0R4v1QF0a2LBgxJKyUqt1FzT8RxAQAgBABW8N6m
+77dynSplWhR2tHDS/5XQl8iBvQBH6jMKdzFbDZWU3OQtUd9rYYm9UsRFoslrLiJl
+KDVy8HAoewvUaehcH8hfUltS4hnuWVY8wE65igVF6nfMWyFkjSlHxGKmnwM=
+-----END ED25519 CERT-----
+master-key-ed25519 VvDepu+3cp0qZVoUdrRw0v+V0JfIgb0AR+ozCncxWw0
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:13:01
+fingerprint AC1E DF26 C7D9 6672 76D4 3E19 C15B BA54 225B 52AB
+uptime 1123284
+bandwidth 1073741824 1073741824 5132077
+extra-info-digest EA91AE4A96773838703F9B833E88B9882366D52C RYccCIScYN3ek6WPojuZut2LdVHB8udW9tF6Y7u3qes
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKwoca7Iyv9eQL3F8WN3kbWRdSzwngGwZXqAvM8dqTiqdhJPoKgmg42N
+bt3MdTOk0B2CGZUtdrptFGPHGPiZOluF2HIW5HPuuhOuIYf+qvG98TU4iyt4eaxz
+O6PuyJkBSjTxfRFCXa/0A0OgI5QdQfZvSfGZxQPUu3RUG5+V4JYbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALcWwZgP/I4Bbqxk6k5SHrMZqCYzXCUxrb0KxDtptSAyI22uAjV4s9cf
+lVvet2df7ZCudQXvJMKpizOYPyFS0GlpzAeOi3yp/RGlBWjWDo3IstD5NsR+/k2n
+YWCxPm5K5L7GLZeInw5jtm+u80FuUQCgY1dG3NYrXGY2rP6wBWLPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+DoeIeg+V3YZSWewzJ3As9Bub0M+YsChS7qh6AlAcwslfk3IA9dDd0rsuJU2pFj76
+wgqa54z6pWybM9Zg/MGcpygUoDPGfEHKF6RGdPzeC0tV9Wy/nhmiP3WtJVuntq+8
+LcwJTFeQ0cVNy/G1I7bwq2LRHswyM+dfXJDLx6rIkac=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMAVbw3qbvt3KdKmVaFHa0cNL/ldCXyIG9AEfqMwp3MVsNAJ9eTgvJ2/69
+Gor9wKw6k6nzGw8pZualCu/Y4dA8r5e8UkRWaQjEHmpKz6ZqhdJ1i1QmOmPYhC5B
+gxBSmNIz0gg=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key 3ARtWi5yS5wiozuhn5Tqr3JX3QOG1HEeoCXTu2Yls0U=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.100.86.86:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:443
+accept *:464-465
+accept *:543-544
+accept *:563
+accept *:587
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1723
+accept *:1863
+accept *:2082-2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5060-5061
+accept *:5070
+accept *:5190
+accept *:5222-5223
+accept *:5900
+accept *:6666-6667
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8080
+accept *:8087-8088
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:19638
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ynRcv4/5M/g1tnvjGeNB/mTTiQRXRwUFAwf9DxChek1oORCKQ0i7QfNEZIK01JPtlB+/eUN+aG8iaJVtBCDpAA
+router-signature
+-----BEGIN SIGNATURE-----
+RcwimYJoKzR5qBtb1F4blCSFhZ1HqE4BgB7GxLiWqU4UZo1z/acJ/14DkhY8EALj
+SRzrnTbjypshEyQTnn3id7X+rXK65QCcgysJSKFlmZ6bcjKcjlgzuL8OJidV5Aw+
+EVDbKtvBBL8YsbONAjShDqkVzvW3bRdqNoQdxOfeUqQ=
+-----END SIGNATURE-----

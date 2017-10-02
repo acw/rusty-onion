@@ -1,0 +1,30 @@
+router AurochTorContrib 92.222.39.183 443 0 9030
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 10:49:27
+fingerprint 91AD FDB6 2A21 57A1 9577 C003 FD1A 04A8 DFE4 0F07
+uptime 1604723
+bandwidth 6041600 6348800 6607523
+extra-info-digest C9487796DCABC4DC0642E951D1B65ED354062ED1
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMnpr+ooVgRf8GP7Ff8p5WLQYiBuYsjhHxTdzlE1wJaQ3KL2VhhIBLbN
+ywM9kx8W9s6gH4sZw2j2hU3pVE+x2GyEPOS02Al7BQZyECdXgrJw52lFkGVWNHz5
+DxAxP1OIQOSh6jgXPhJNTDYX6gVwK47wmoy5WZBsCSahTEbjmCibAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANTtuMHgvQnfTn+2u9UXHdzfHzgpW5+K2lYNc0FTvAiSIEOoWDJYc8oN
+KqryZi8OrQ8Bi16AfptB8ipwHDBwO3Gepc1YuYIbeWaQa6YY5iXPpeCnZTfe2c9m
+ygw5zwRbhe/ghRY4yJu4Dvi1v00p5I9xg+lbNtlMh+oj5xpKwK0vAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Auroch <sebastien AT bollingh DOT eu>
+ntor-onion-key xtD8ci8cnVv0Cu9vw+SpfolP3urY2bkKmDhNOMKAnEQ=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+qCdhkWh/KbO/vr4uijWJgUQfpkdkTw/iIQmLd3VCamHr5OrluPcNcMzM9SxT5+1B
+EYmdSXSWWJO/6sCExN8ZhQ7+NSd2PufcVfA+UQGM600dntp9ipuZ88W+Q4iMHNlP
+elFXtLtX+OBPCxnUlzU8zD2sdTBab5KZF/ljwh0NQq0=
+-----END SIGNATURE-----

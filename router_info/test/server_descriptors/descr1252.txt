@@ -1,0 +1,50 @@
+router wlnettor 174.127.228.138 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIIAfAU811VNc6+8JMf92C8i7ogrk3TJahgfSETp3izichIAQAgBACzynXs
+5LHrwHPItqjNsHLeBiBArHsVxs9I+aQmATFqA6i2xGqzv8ZpwCzCCKf62b1HEGJ1
+D1cBP0aHe3oO63g2mU8okCtndL9ZSjP4QnGNGbz/z8SV6xLKsCBWhj5KBgA=
+-----END ED25519 CERT-----
+master-key-ed25519 s8p17OSx68BzyLaozbBy3gYgQKx7FcbPSPmkJgExagM
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 10:46:21
+fingerprint F595 7C0B C97F 363B 8692 16E4 62B8 EF32 3C0D A676
+uptime 272781
+bandwidth 2048000 3584000 1562367
+extra-info-digest 8CBEF7D9CE554E294FEE15404CF3B05D58964037 C5HlZwCytN57ZvZefPAGfzkkPxNdEYejLB8rwmCYyc0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL94pt8ryqJPGxikvTOvlcoqGda0SI3Wps37prHaGLpKUnNnCQq6XJd4
+wAAOS5Rt9iD1fv7i1Tj3oQ+r+NLDXZP34rG90aBzoKuZP2zfc+2w7vMYUUItm4d+
+adYPrOIKMDBnB1QEULeMpwIa95B75H5WZfNBIMAYgxfn9f92DLlDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANd+4SKwpRGJkzRfkF6jMfk47EyHvOdnox4YUFfQ4GHqon0CcgjHke/j
+cgqZuYkIuXQX6qL6ew9bcr+irbWS99BTAqnmPeSRbbUt3gY5qQY8S3EfTNBsf8b4
+hx46Fwx0yydr9A6DNPYAg3GWCsTOcXTkZXNvp5PQR33FibVH95SXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+DUP33kgg/4rVyU/BuFt+0DbxGaubrorSRLgZ8H33h4mM//asYrUhdoYIUAIDXvMG
+6yKno4VUh4i2dLYFp0qYXRo3SeTrKD3YMQCYgtutkwV3PyLIQqoeGsGanjVIoFqJ
+xLuOK/lg5a0CqAtvWE4a7k2gTfaJhzqldRdtGizTTHc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDAbPKdezksevAc8i2qM2wct4GIECsexXGz0j5pCYBMWoDAIvyVHcW7dmB
+f3LtlM6qw9xqavnZThK/kBNyWlTJtIWVJwIdYDUaw+1fpfvav8hp17j72zX6118R
+QukqdCcV6Q0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x97CB312B Andrew Sorensen <andrew@wl-net.net>
+ntor-onion-key 4TfFcVQ9hUTDEyqzA2sNH2ZtCJZZZHS/cnivbyLwOF8=
+reject *:*
+router-sig-ed25519 KkmUEeLquLD/o364vfFE3ME8Uentg+8IirMccihMkpj1tbsmIG096mpVJfJWnaK8ZCCE9SmKatFBUMh4vC5bAg
+router-signature
+-----BEGIN SIGNATURE-----
+dLqwLCDGKtC8KDVnfsAxKoOBlLItCksYanyShWB4Pb1oFb4M0WxHRw/8/6m4rmSO
+jngB8INAYbMK+WTfQWAQ6WHLb+KbRuvyZifnWCCufC6Xfz6Hbm6HYT4zLLTPixin
+OdbqvHFjJLNM31oKaMmAPIwigDc32X/IT9nfpEDBD0c=
+-----END SIGNATURE-----

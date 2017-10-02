@@ -1,0 +1,51 @@
+router juju 185.72.66.252 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCMAQzEcZnHm/LAOeZeaXBiqzyD7maq/RtwMlFrk1c5eC18AQAgBAAKYsOG
+KzrFNpZmUuSGzqQNpuUkFSqzIZ1n2cpX9Y2sANkRXnhJ32rXSwocCTYs4NHd6ruD
+bFYhxAIg13hb414m+K1CvQBpTJw8Qo1HZUu0W+b2YtbOTsL6MFOVQZz13AY=
+-----END ED25519 CERT-----
+master-key-ed25519 CmLDhis6xTaWZlLkhs6kDablJBUqsyGdZ9nKV/WNrAA
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:13:56
+fingerprint B8B2 8125 F7F5 C6A3 14C8 5713 3460 43DA EB5D 55C1
+uptime 2559810
+bandwidth 102400 204800 117606
+extra-info-digest 7BE6242CF9A767B67DA35F5548CD74DE34A4EBA6 e4hTwGKdahZ83wgnKoV1Zn/OTPAxJZr2qOI+bp5F7W0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKYNTF/cQOOtq6DB0zVGYYAJ8a2erSJLx3Zj8gU7bW/Gbr4AHIypTFYH
+/KTOKDDGo9r1B6/dT0IrR1SHhDASU7oNAbn2isK9VfD0jz5bPnnV3z8dVEtTxSCC
+qWXJKBtIC/teATwOrGrZKSltxJk70/daSXVn6qqIhUPTPy87VSO5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKsFJ+gohcscD7wn959LWfPeiEiTRvk3MbAKfu6TGNrxjr+ued47EahE
+6DTUgrv3VVbVW+3JOKI8MCeABv6uoeZFavMWDNrkDMUbAtuyMtlnEVe4mrJQ3nkM
+y23fHtdi8ydEwBY3jhfbq6bVeNU2NLDxjjkYJZpdn31o06SU5OS5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+mwByAxM7xDEsvcWl0G/JNQQP25LqUdqC7hSfvHdBmCEjAoV2O911MEsh7hr3D+CM
+T4IxjI+H+wWHHYi7P2q5X/j6d7CwtqXuBtP452z30//wkrtvneov1wS4f0K6zu/O
+CxJFnarA1JCIiPDbTLGMw3PBHwPPOrh4nICPR8d+k7o=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAQpiw4YrOsU2lmZS5IbOpA2m5SQVKrMhnWfZylf1jawAAK7lc0T772ez
+SXUAA9kzlkepj1Th0moJfeiTphZq/hKqG2U7Il2HTdoh4xuiltxs4lBgDthCimSO
+rMUDVE3acgI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Michael <abuse@juju.net.nz>
+ntor-onion-key A0jiJ6CRC8KHbGHiTnVk5m5KUsmCp8pa+LFAZB3/TXg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 16wAnpGFE30pxMTjEPqrNPyYxqSnCzbfnUta/NWNDWZE6KgxqIQi3OdPg8mVbJVSNIDtUq8lCPH6KcPCYEPiBA
+router-signature
+-----BEGIN SIGNATURE-----
+TqqcXczeHy7ItpA5syvP07fzoRIKBWr//Q5x3WELW3rFwonZUp9iyLfSLFo//st+
+z7eNnEfQQ6TSzBnDGOWZByOzMQg5yso6z86r2Knps1vQMI6gQPUUE6czlr1jQT36
+9HHlmUsbc1+c6j7RykmXQLxNZtcweW/HsfMkIbCTF4U=
+-----END SIGNATURE-----

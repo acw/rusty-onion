@@ -1,0 +1,51 @@
+router blubbera 88.66.245.136 443 0 9002
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHvAVQRl76/Gt0Zi1jEW9bHqxpjAMUSvYXvRRD4ExIkcrAzAQAgBAA5ajWb
+NUbPgCAT55OwQyHZklX417SXDWHWhn1azGoCadNnFG4saAu5fh83HQYe1MZ4RdRW
+spJ3rKATWbsy0mzB1BCEvLrYHHyFKdJlRQ52e6cEq4LgP7+RTDqTbWA3nA4=
+-----END ED25519 CERT-----
+master-key-ed25519 OWo1mzVGz4AgE+eTsEMh2ZJV+Ne0lw1h1oZ9WsxqAmk
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 06:44:13
+fingerprint CA37 33C8 774C CF86 3A47 153B 2DC9 D70C 1550 C847
+uptime 9
+bandwidth 102400 204800 0
+extra-info-digest 61172FB1F5F3941737FC34D0E211FCCA8230A06F FuT30ODFyfVNJm65A1eNtKylLWs2mi1XOKMnTaA7HiM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKaRzC5lxzCuVhaZM7R987z82aMvU2WyFjALVTs387pmufNiPxwYgdnt
+UFRcoKHPAfbkNW0RQimosExzlGnL2m7FYqKRJzpGRUucnNKZjGUKxM4kvkPMwPuW
+1A2awDE0wukQj5shcMxPI5xsgACcHVs/yk++nBpjS+DIRW5aV2NdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKLg2i500i8hnTFaW+9MHiG0/ceDvSquf1FpL5J73jHYaYA2LEtZaHhF
+B9p/SD2LILPgmjSjuJsotVF/iK2GihpA9eSRRiNIoJ3Gf+NFQEHvvayhhdHszKUi
+1yaDadCBjuC4nMXBJsD0rT8gI1co2p639+ki/wgQ8avVh4ocdP3DAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+WmWzOUkcCriQWKngZ2XkvHtgxao8ixPBiMPCoVK3hgY3At6HvHSehZ9+x5W+2v5R
+K/ghL6SN3ofraeTIkz8hP7XYB0/eYZ6oxh8CJ56ie/A8t36iEyJ39d6mj3n105oA
+LJMFtFuWlDhDzfDStVGkS4r1iswKnANw/46usLnOnaA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmB/ATlqNZs1Rs+AIBPnk7BDIdmSVfjXtJcNYdaGfVrMagJpAIgvKy4CqxPu
+8plzi4bmd3mL0dG5uLK7n3xg2o/a4WljhnxG0bcZfFnjIwI7hrxol4XoA0wymnUM
+yAcxZhGB1gA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact blubbera <torproject@ej-bap.de>
+ntor-onion-key YLNPLhs72Ayhrmz3z2v2K2eoZPp8rL8TH3fKVZcgPgI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 KZnXetiBSs8+RoXkN2BJSQE6i6nHMG33Sj6UyYySeE3v0OMXHXyRXXurF7t8KUW25EotxqItGWRGv1n8EogDDw
+router-signature
+-----BEGIN SIGNATURE-----
+DAFCxxxX+XD9gKiWGB6ey5JBvLhNjtVCWG2rzG8Brsdl4K7s2FgQjWC29U6R9hiY
+x8j9+zFFxXm7fPKP5GU23lOmZqMtm2jqneL4xxmKEAPQLIio3nf5m0lBjcgoiBnX
+/HGLXxx2u5k7rHHzYqYJCOnveI6aVY5IJMJCxKuu9tw=
+-----END SIGNATURE-----

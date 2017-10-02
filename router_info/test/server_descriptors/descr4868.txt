@@ -1,0 +1,30 @@
+router AustrianRelay 85.90.146.47 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:06:31
+fingerprint 6EAE AB7B E7FF 23A6 543F EA66 E80A DAA9 55B7 83BB
+uptime 317293
+bandwidth 256000 409600 317363
+extra-info-digest CEAE63EB86E7CE4E4234A8BB7F345EC3369E4344
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOvp2pseLD8Q5H3EAYlmdcs9ep+8GlO9hZ0ezas8Z1SWWJ9udXkU8Xn5
+LjtY8UTW6HTiiluQvTKjeD98uzZ9pWEhzibNoh0LrJdRrBHoqxhWMiV/OSWlTIP4
+TEKHWsFZXQzZTK9cHbBjfEZlOU90MU9S/G0Xqn8O5w+8JYtyyuTTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPXN+8TxK+lpK900H6/3zb2qEivvd/ytbxEPwPCz/u3YLBf5WGloErcF
+yxuWJZlc6CHSrswDA8ZuEM3uFfNyj7/2qZHbL41EvwXDZlqprH8J6hRqMXnLV+lV
+mnM9j1ABhDh/FSrCNQyxLIBqncTo+YRVkqmAimba6DkaS917H7s5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact AustrianRelay <austrianrelay AT protonmail dot com>
+ntor-onion-key go2BwVAt/a1LoY2A+uu0Z13XJunIveY7Kn+Rcfb1SVA=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+MSHpNm3W85fDONRp2+BJfhw8EoOEa2M2CK6SF6bbtwiF48vL280+ojeX3ncAd3y4
+adHrkOFyxn29t9zSDHbC3UgJArLd+oYPsm/ztc87bBsf3IAoxp2TvYp1UVizKNHn
+4Bcb4AsMn15+PKxkqOSpMiPV+HjOppxfScIpM7oOoyo=
+-----END SIGNATURE-----

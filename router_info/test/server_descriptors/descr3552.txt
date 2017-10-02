@@ -1,0 +1,51 @@
+router torboogieman 80.100.206.150 22 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJqAcD/xvIBLXcxh2fsHvNd5erU6Vlhw5kRGAaVytymGCEKAQAgBACZp0Ae
+r/GG1i360bhIHHK+BHY1txlOFyl3l3S5HJ48+Att8GExau5ykQ34Z7Pb6iKAe4vp
+26WqaGH5ecYA8Tfu/r/hRh/rkGTuqKLwvchMITezptvVEI0x8HgH4gS6Qg4=
+-----END ED25519 CERT-----
+master-key-ed25519 madAHq/xhtYt+tG4SBxyvgR2NbcZThcpd5d0uRyePPg
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:05:51
+fingerprint 9FB0 3ED1 3A15 0D76 61B9 C9E5 EE2B A021 67C4 6C72
+uptime 288181
+bandwidth 1024000 1536000 1245779
+extra-info-digest 921C3667C9FAC7AF78F9942698BE5347E498C29B 5G8SjuIM4yOSm3YTUtBp0vvcIYXtcgM4E2JNX/qJdiM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO1JE04lRMtY4BJunS9AA/Jx/AYp2WkA6ei49ZGjeiiRhaM8ceiJgxRQ
+WdFz/Ht3q0UJY1qASHuQHuxQJazoQsNcHwSkD/BKUV+MQO7roFlzR0Ytt+NLyBX9
+k0OjM5vTzLQcwaQUPvcIn5va7hJYQfFiXKUKup2vJSkmSIkM83kFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJjWyBUX7Hi4YCV9IORvzcUuED2wkcKPYWvW0m4CkvEy2GfwTR7AgxLl
+b3daVDSAgUZHG1REZPkTvNDo2q9U7kZAHHbx4qnVQDF8aCcPD0a4KK9XWVbrMvOd
+5CWcyQzZ7kxjHAf/phDwcQoekqmYrIB7RhBMDSqOewkbQF31swHDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+YiOr+IW1nztPAPARUjQUn703mK9ZxQxJS8XryselcCNniy3IQAGWxj5jSVQK4M3S
+rUVXljA2IXQ5OGUktXBUNynr9Tb+5d/I8Nqla0VzAZ6v1EItUKEP4QK8jiQ9TmND
+teQtudJlX5SjRDkubmQGqsOy6+5ztmdVdT7bN354zXE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAZmnQB6v8YbWLfrRuEgccr4EdjW3GU4XKXeXdLkcnjz4APW9N9/GGSla
+nAYBAjPsj036x0V8BnuATBDOvoe+aDmXNzg4v8RZ1d47lh4euw1Rubi9hCAlQ7HZ
+c4NJt/IgQAQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact torrelay@boogieman.eu
+ntor-onion-key zAExuvxCrWWb33EuFDZu5Ax4wAFvKHC4PBk+qxI2xRs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 fitChYh2jflGLpkyihwKsxjErcKYsF5tfhXXx8Isx82999yBbiv+lGBnJBhJvsWvunSXkvH7FM46zOaJFIDHAw
+router-signature
+-----BEGIN SIGNATURE-----
+hSGmj6STeeZafFmoS52sorpNeO790QSPP/GN6u5SW6/qyveVdquLKSHGt+KiGCAX
+1P2sn+Sw5l0iKaW6Ee3/feOxQ/2PFFDHERKtyDZp2hZQiQEAXhc2TUB4bXHGHVgv
+6dY7Qk91vxX7fz/fdytEujP+vu6izNxlNq4pE9JpcME=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router ccsaber 51.52.35.169 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBGAQ7wd9PQc7A/g1O/3O6G0MtYVkhHnpGpb20UZtW6uaexAQAgBABTdkS2
+8wHVgbLghUNme71yMcpbHjsXUOgt/wbeMvDVcQQ3OtItbm7oVOt8Z03xLAMVvIVP
+c2/XcRayaQmRFrBUG7xATHpvSy1sxZyBt+3RKH++lOPHdfr8f1hllsJgKAc=
+-----END ED25519 CERT-----
+master-key-ed25519 U3ZEtvMB1YGy4IVDZnu9cjHKWx47F1DoLf8G3jLw1XE
+platform Tor 0.2.8.11 on Windows 8 [server]
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:03:58
+fingerprint AB70 D2FA CE44 7C78 B3C0 AD10 9BD2 850E 03C2 FCBC
+uptime 259089
+bandwidth 1024000 2048000 1222608
+extra-info-digest 508625504A084129DEA7F8DD4ED7F2D10CDD7FB8 E3CFl40CO64GZwAMnFxunS5t6WFUraPlVKHtLfuIfW4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOs5hsEuvjv8cpNO8q7UWZ9CXVGZtsXbN1cfedocO3LACjJ9jFoEMJoQ
+xnEg+FAh8pnVjg4UOfv1blBidVEfoY8OlwMGuqElbjUjEWHzjO3qku3ZAvKo5Lxr
+P5tlQLoehFGYkknhyPnMTpXED6HdxxViPZrFVvGI00+WoPoeMkfZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALKZLn6QBiRnukcbdxJKCAN6J7+rxREIagwXUHPcLo1gFF9v0RhkeUTq
+4cWwuO5GP6CNCzvcenjV9R29s232vnffGwjzan3MoDUeGWywP0tHEhbRdoEHRwcp
+QJ3I3v+NUoB56g0kdMKZL4IP6bzOHmO9tsb3+p0X360cAamHO3+FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+xmvIpu8aDwII8HTOrT1XogbrP/BK+QeH+p97N3daT76BHM64nNF6b3vxq0bOEHfc
+vTUYcSMOSi6HWJp1ZqwRUPBbtz9s5rMODQsg4edo4tkd/maew8VBmtrsBnMiaB+G
+pUYx6KovZ4qj/gJ0EGhdoDaE91wioPeRzJM62v7qWVM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAVN2RLbzAdWBsuCFQ2Z7vXIxylseOxdQ6C3/Bt4y8NVxAAblbl004W8N
+OTswyEttb9gEgHsRcUKlId0Z5UAQa0J1pPBWXRh/Qs+WquzIsPMs845U8LOAx2JM
+gUKH34qX/gU=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key v4eOHSTp4jRHMUxea0teNqd/yRWQ4bE/+fpbH8GAcW0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 n0jmeofSg4IG1sn4K49iyWQN7mTwL35jMbDHcYCtENScs5LsF4X0k8whEx2hf1tGn+FudcURt90MVZekXNe1Bg
+router-signature
+-----BEGIN SIGNATURE-----
+AcG1QFqFN9IAZ3C9Pf4FKwbYYZn47o5B9zALIoh411RyH90s708TetP8PMRBIWIh
+klI42lNP6eo2vTvvqUvIbCR14V3+C44Q9lIjJhdWQsONGjubNSn0W0n/GMLJsIya
+7PIpcrHAqB7+z+d1wJIYnaQ20Zm40Z/bG9wOLb22bbI=
+-----END SIGNATURE-----

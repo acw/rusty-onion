@@ -1,0 +1,49 @@
+router PhilosofRelay 217.107.193.10 9090 0 9091
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCnAeWWspVF3U0dSSiYoMI1YRod4hh1IqBBRMioMRyjd7apAQAgBABPlD42
+FS9BfNO5bLH7jFHaNYGgsU6gLIBxnYF8xdjdy0s7nXwtBCow3L/yOUn8u5+H2ZvM
+45IvXevOHev3sW5mVQmc048ElDK/g9uuBL/vJYtux4NqvMZTl4jRt0mPbgQ=
+-----END ED25519 CERT-----
+master-key-ed25519 T5Q+NhUvQXzTuWyx+4xR2jWBoLFOoCyAcZ2BfMXY3cs
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:29:04
+fingerprint FEBA A229 8F9D 102F CA44 3941 2D3F 93DB 2432 3ED2
+uptime 2117554
+bandwidth 512000 1024000 621936
+extra-info-digest E8B0E0A661D4C9A08B60F9B8ACD343DF4A4C6B57 lN/1d5wbrKH+jD/QK1Q3adfcVNA4qI/11L/pG/ZZ5D8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANKvPGWMcEUeIDiqIdz9DBNyKCvAF03dupzZ54VFJMATZ3P15Np87i/D
+xb2IIwoTPveenKydIPYJouTeeJDT6yxEbaDYprIzEhG2sEfVh4rZORJh5xK/ARn5
+AcCmuzgz8aGA1CYurj+u6Wb01icGSp52BVjz7GYnNyPaRwxyvGTPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN1RSfKSBmxvuyDeJDRz+qKMgFqmIgJAYGLbbIBYNQw7IDtxWkxb5hZa
+3dwBl51rlFOzpjKPa8YQlQLbklw5OzPyqGjeXQWhYfdCTyKED+kMzvCkQI/tsdzq
+uttJXHV+kEBnKIsAyIQ9fONegI/2skedqITvvIPWPDc0cpJWugojAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+bvV1oitcf0zc6bSVvNOmPYlOmbwSuCmWnNZ5ld965eRCUrKLuMiyYI3F2mox9eBO
+Us2JpYwicLxx4lGOIWmCYv6Ilq6XnJswnyzvl1V/DrtONOpybLzf28B2jUutJNQA
+qfdOzdPuuTEdEkPTsyGodsCku5Bp6BmVxsq4NYJtb0A=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAU+UPjYVL0F807lssfuMUdo1gaCxTqAsgHGdgXzF2N3LAAYq7lrreHtc
+gcdmNKjog4ZlgZ9cFzB5++SZgns27BNd2JIbY7fJjpdwOhQByeRw/mf9LjmjcdSX
+NxXaHH6tnww=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key VsFeHnppcWzU7Pqh6/tWmCFzcX1fRrOa41tl0D6T/ys=
+reject *:*
+router-sig-ed25519 PEF6Jr4gE4UvAg/bzYF4TrPq7Ka3C/Ul/28JFGQn+qJfIyc2AR3GJ+1igsO6mWyaJgYLhSy+bFCJfySBb1DLCg
+router-signature
+-----BEGIN SIGNATURE-----
+QqF4RM/u/DVhe0cc+T02o2QRz8ceM7N42Xh8dSxr3TtLQBveLoScLl/KCi4Ut517
++tdmQ0PPeDUCVS6N8IEMkmloP2HBT5pNdOaX2H6NgEVKtOyRZ2YCovtzoc70NztN
+d3G+zsMUxw8jnUSuEnSD5itCg9c0o0uPrHxzsHqixH4=
+-----END SIGNATURE-----

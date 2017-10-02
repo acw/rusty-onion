@@ -1,0 +1,75 @@
+router apx1 185.38.14.215 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmICAUlmJXFkpY24OiUn4HakByHcdXciUz0ccAhDlzrh2E6UAQAgBACoDBRm
+oMtwQs029ay8ScZ7Cklkjar25rCW1lNNk6eIJFTWEn+ruMSMq+7J6ScX74SgFp67
+gtfGuh20jejMxWwcxZBr3YljZ8usiH4nmG+QjYgvOGhdtPC5rXS07mfRsg4=
+-----END ED25519 CERT-----
+master-key-ed25519 qAwUZqDLcELNNvWsvEnGewpJZI2q9uawltZTTZOniCQ
+platform Tor 0.3.2.0-alpha-dev on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:00:11
+fingerprint 5137 7C49 6818 552E 2635 83A4 4C79 6DF3 FB0B C71B
+uptime 648251
+bandwidth 204800000 409600000 54420902
+extra-info-digest D438B2B39AE28C886DBAE7A23AC6B18FDD89BE37 AuStYWVtxna++xaEJ+qhJy4xR8AUczolcgTtvFaU0f0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALB7xTymYHCnJTTv8jMk3ntWgwYeuL0wNP0R2xrTypDf/PBUIJhop9+V
+wWQgnZfa+N3oLOezAxvqBfKyIjO1AeUAZG3WkAvrZrrfTrNrv7VBCOcm13I3FHuo
+1j4YQEcYBgWfr6QshbQMQUl9Nrvg6Ia+P1b1yohfgUq7qlBkqXHrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN43nJ3ikRo2DvZeQ2sUEODqa9dX7qYXFLSNAr3gNnfWMaB4JtXbAx4f
++qqyWLwkINRcqxF39jSyC6Xjt9ruiSsTZhzSfsAV8yFrERCLuJPWQ+U/4hejeWEU
+dGBNkNVdAFO93L0PBppGqKBcGbDS3yX1F6xz1ppAlQfN291SAY0jAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+AUkNwu4JkOCiWlOtRbjDTfqnNphj370B0m5aYE4FfXNBEjr7zEF6GCx/bf805e1X
+ZdL3q/8os5Z38u34R6m0mEJJZ9+sxPyo3AbkPaGmnA64WBRm/80It8llzPFVO8D+
+Z4xlaB5yv9lxQttO+wRFhsPUOK1rXCcZPd1TPc9g2d8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmKHAagMFGagy3BCzTb1rLxJxnsKSWSNqvbmsJbWU02Tp4gkAGaVUYUb/5Zk
+v/Dso2EYROozJMwPYBuXLmQqkn2tcaavetmdg7tgRP9FGd6udgbIdoS+7HHmu/Qg
+hmVbyRJrzA0=
+-----END ED25519 CERT-----
+family $38A42B8D7C0E6346F4A4821617740AEE86EA885B $A6B0521C4C1FB91FB66398AAD523AD773E82E77E
+hidden-service-dir
+contact apx <kenan@sly.mn> - 114x2PzqXhfPjQUMVqkcpi8DZN9du8GJGV
+ntor-onion-key pQY3RGhqKOcnupaUqEWpqHF6PP4rDuqBoPEvuuiNx1k=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.38.14.215:*
+reject *:22
+reject *:25
+reject *:194
+reject *:465
+reject *:587
+reject *:994
+reject *:6657
+reject *:6660-6670
+reject *:6697
+reject *:7000-7005
+reject *:7070
+reject *:8000-8004
+reject *:9000
+reject *:9001
+reject *:9998
+reject *:9999
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 OpQ1SUfIZ34kUnKMgRYGUDu6hcVVYTQsIoshoVVoVb+3RSK11f0ZxlcWkUJaa/RJDpID2lIGhkucCLe7QVkWCQ
+router-signature
+-----BEGIN SIGNATURE-----
+o4bL+IT5+a2vh1Zg3TvQo9AaIpCfJubAYYM5zJqsmcMb9WI31d5KctWmAkBa4xHU
+VbqpxW5/evuLopKEfD8krArqB/HF8Rzno/IPnGWS7OyVkH+Jquee5n3JvKBBHa+w
+RoMShJIm9kKeJl8+T92YTI7j+FEWZgW+DuNKI8NoQmk=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router BARACUDA 93.180.156.84 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDEAU7RBq3/F3cGKtQpcRTm6DoV8BRq9DyHbM7ln/nw8EjMAQAgBADtjjam
+A3nqyOeF2mAfvKT5XV1/veKVhqKO2bCXuDwVQQ0IuUDHAKndbdrAyPGSUJOlDvBP
+v3qI+cXtKx9psif2qeBa1WmQJK+vbuwqc1ExhNhsclbbqiwksLr9RtuKGgA=
+-----END ED25519 CERT-----
+master-key-ed25519 7Y42pgN56sjnhdpgH7yk+V1df73ilYaijtmwl7g8FUE
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:03:10
+fingerprint 8844 D87E 9B03 8BE3 2709 38F0 5AF7 97E1 D3C7 4C0F
+uptime 5438950
+bandwidth 1073741824 1073741824 12791296
+extra-info-digest E9242D62D42F69F650CFDBDDEC6CC58B79B89064 tyj2USydcd1ZKodvggNNY0HOgvaWWR0RPiKqhgMNbXw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKeoCLLAM08eSHP77a8OWUADfIBcsmoeBA6y+cB64jPzM2SfI+Y+tlOq
+30VF2gE11RLn3ZI4Yk3NLQlqzo0n7Vh9Q+LzZRXyOIwUZlaXe3UEA5edkKeFnT9L
+fH4Uq+lJlLf6TWTIpDRrxbtwOXuUco5usIfT3MhKHTclkajY2rglAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOR2qXZ6xHx+vxFf7RBrCzF/5lVKoVLz/Ik53meFJ+JI4oUr4uuNtjHV
+ykcjWofNlWA7kpacvaAArq12/Kbgi6tx8eqWqXosDdR7RsvsEpzvXbrA6nq8uZZ1
+VsVKOgOcbXcYL5lmJ0JsM4ZFymvKaFW/X0z7rs6amXl0/Ta+KZoPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+an9UlfC5+3oAWZKUJzPiCRncpvm9UUz2abUQSNv+ZE+/UWudKAEyC+QXJ+jDwcVp
+SwVXOMSaN0J6u+KEeo4Yj+9k0n99lauQm1Sh8gC6HRJbZb5UUAzdxlCc5ukfse+Q
+155PupTEdaBx8HihaUwxthTk+uOQud2vE5Ud6VFvodc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAe2ONqYDeerI54XaYB+8pPldXX+94pWGoo7ZsJe4PBVBANiQHYTCr6YB
+Apt4tJrbJvtK2d3o2Avz99KUhd+KiHSnZN/aobHaOH7rtL5iTqq5VvinUFr9wCOb
+FlHgQCRVaAg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Alexander Bernhard <alexanderbernhard80 AT gmail dot com>
+ntor-onion-key wy2snT2+Jn3+FZWE6bedMMluKhDAONxTj+1JPcoX5Dc=
+reject *:*
+router-sig-ed25519 GeYD7TrNuwvJZ+CDXVM4c3ZeTLlqTg+FW96XLql/LcZF1VH2g7RylcT7iy1Tokb6kYm0mS17knFvN4UiXS5hBA
+router-signature
+-----BEGIN SIGNATURE-----
+ZTYXHAAB5aMSwPUbYc5s2L+dDZ7TkWAq2YPQK5IrsLnvNOWz5KxAIdAETRVWZiw1
+l5gF0IfPeIgyzqCOoJpwf6fdLK9P8FAdqnxesN6ynkqExJkvzwjn083F/KgbO1ca
+wWIYsYkSFP/+QeIY9ZtQ/CR6WkFFU/er709SgKphocI=
+-----END SIGNATURE-----

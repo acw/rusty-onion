@@ -1,0 +1,50 @@
+router Unnamed 178.32.219.48 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDNAR/GB1jPhEBWPruoM2EY8JYZsu0hWSl6e/ZQbZW4ojumAQAgBADMKl3Y
+HZUtcJNxNcqpjUisDfvT4ftsKyaqpzIpDEXtNCPWUD+ETCF6gfGKfuLkMOCuMkdv
+2Es/Ejbp89j0zSBA2XiR9AZBgjdH65STmXtPkEiJ7MiJOlYZ1RUGB5GXAwA=
+-----END ED25519 CERT-----
+master-key-ed25519 zCpd2B2VLXCTcTXKqY1IrA370+H7bCsmqqcyKQxF7TQ
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:27:04
+fingerprint 3C65 BD79 4046 11F2 892F DE76 24CD DAD2 1842 5AE6
+uptime 1728313
+bandwidth 1073741824 1073741824 6021146
+extra-info-digest 26FF43B967773F66F4F8B8D9D7B473F36350DF65 vmOXY5MHPxs1ygxXyslQb6pe+ouVoMauOsIq+mPCdmE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANAjIJ9Gd513szdgkQr6aoSkpRCVxOoPCsYGctNCvhJ92+67RFlInUN6
+D9gkX7saIRIFi8nS80lAFA2+qMLeNwUNkNZe3KRKBsRYjEB/uvW6UZKRjBjYsUJB
+leetO9MgNUSQmgiASWpC/GYpmqWYCfMw5HMEe0ZYrEKf3bnxiD+RAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKY2lLQwS+1GiAok4w2p+ltelNMU2b7E6MNIaQAIolMuzHJdmjgNMkPA
++xmaL8BjeZyZGI9fdsRvtwzFtKpMVTyIJpWsm+1XRNAn35ClyRtE6TH39yn0o/10
+BlGkrScY6yJvyLbTqaDJBtav00V0C2RXEV3NhlyQAOqUD8+XmrXbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+RNVm71t+qYRKtISYUnfafpvsmFY1Ft0o8pyn0dc4HDLvVlvtBf7PiSzmu7zPf6MF
+TK7Uo5pDu7QHG//jtrcMwy2ntg5Aii6sxuBTCv/vWHDA8LxYrlAXcgQMWPBhzlOb
+i57xcroU6/n9rjZcoBcmUvl8cnx0Jcf6e4KCLIM9D7Q=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAcwqXdgdlS1wk3E1yqmNSKwN+9Ph+2wrJqqnMikMRe00ADVyPc1cD6do
+aPaIHcYh3A9fyXvy2XWMTNRVv7cPkYdDK/chHCMuey+uUlgWIH9vw0e9CEP2k0IU
+2F2rHBdKXwg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Random Person <md5('Tor') AT crans DOT org>
+ntor-onion-key fn0WFvLHKBFOgu6laaLr2a6k+RQFHPzgBZ35mZPqEh4=
+reject *:*
+router-sig-ed25519 aIVICAs11EQLWMkOi0Z2WlD/aJVEV2iYvSI6kjF+pVUVEEXMSiR2cRPoYepPDezHqc5KtKjdtMPGd6rN4pvHCg
+router-signature
+-----BEGIN SIGNATURE-----
+Lo2s4AKR8qmkoVBTTqWGWSEIVJ/26xIMSYFuwOd80hcdff3kZLq6HQbf842yr2Uy
+Ams/92CAyr0VhQQggbzu20fmy0NyES2F0NZ/bhqDLl7RXaWtFwv/a51575j9cf7q
+o/i3UWkpoD1t5g/owjZda553trcEje4vgWrpfeYwOBM=
+-----END SIGNATURE-----

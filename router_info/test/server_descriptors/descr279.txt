@@ -1,0 +1,51 @@
+router avarnerdotorg 23.235.4.101 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIRAZvruOm2bATkc8p6Ekqj3P6pGRLtgUyqP+Dw6L53jY/SAQAgBADAxa40
+bjaD+De4hpnhu/aEr1hlPRwvxfI9uxUpt302FgYrBTwUwyG3lRJD9qh545QDWTcO
+/x5nla7wTH7hVlUn0yZO2A1cah/9PkE6ndZK9aNKsn27hY5cj98RtZGBjQ4=
+-----END ED25519 CERT-----
+master-key-ed25519 wMWuNG42g/g3uIaZ4bv2hK9YZT0cL8XyPbsVKbd9NhY
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:07:08
+fingerprint F919 A0CB 490D A12B B8C3 4C27 3FD7 65FA 32C6 9E55
+uptime 581170
+bandwidth 250880 501760 300744
+extra-info-digest 1B4E27324932C74E451839B7851C82ED52D043E8 yD6WtAMcAhn1nFV7+/ersNtN4ctE23MtVhyLfGtOnHI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMS3hh67Juw9jkgNavo/f0PK0Cm4H8KE6VCPPwUIiGRW7/9BJN4vgfUZ
+BgmF/da2fyW0b1jHNGwOs9wfn6ul+nk/HHQbqUH8aP4DlqJU7NB6U+eAqAypSEdl
+Oj9GoZuGTNnW/YCASN1A9dg+mI7sqQV1JQcGKnEp8S/MN00hVlbNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKEf0j5RThp/4xyv2frdVscpbtFR/pC1po2nkv/sEeunOhswYTDlBdFA
+I23larZOh5yswb4pmOC25qcby23zYI1xW88Q4L0p+zaKZW/sShs4uqBwfnik8fAq
+d7Z2gwrJdlWt1iBeIOeb52yVjGc3lny+2J3xjrHb9n7Zt/wz4Rl5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QmAXdJYoyY6EYxpiad5oeOUe8NqcA5gB93riUiuqklD36a0WO8Bf4OUiEQY5kaEM
+Ze774Egs8bbuTudR0wwMVMZIgWyHTFWoL1SrvzhIXTy9j4TemP/UVAMsaFc9OydO
+XE+FhPrdIS9wQkbhljU/Z8RZhTlsVvOwGYiNfUEGIv4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAcDFrjRuNoP4N7iGmeG79oSvWGU9HC/F8j27FSm3fTYWAMzIVn7Trqfk
+tLMAcy9vc+rjeKRpLKvMA7R3tCvcr+VhsF7c1MPvw25uCDrIGi3aWfxbZ9AnVfbT
+izPyfH87Yg0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Dr. John Smith: echo 746f7261646d696e2d6e6f7370616d706c7340617661726e65722e6f72670A | xxd -p -r
+ntor-onion-key SC7H42QYTfSjW80Ou8JeIs/BAB7jxwy+njwqvhjxh00=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 5m3vEpfegrCHkik4j3FNh1LdfSCkvcEFQX4TfgZAiYvY1FAuDx5nRD0pcxVRxSlpPYAL61T+98K9/rXeA509CQ
+router-signature
+-----BEGIN SIGNATURE-----
+OZcnOdUcsCh33CT/Ta/ldBnDVm14qFyr6ZkHECwH8tHhu/HajzYOtAs7vHmtGopq
+kk2gVYModEVXyzcx/ZYkZaJIiaVMr/bE3IQLljO1OYOF9KHxc/nrhhytexesiRzr
+AFqRQ5h3ijYc9nte8CaEKiQKkOg+ciVGjcFPw1Cd56M=
+-----END SIGNATURE-----

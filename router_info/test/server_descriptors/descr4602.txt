@@ -1,0 +1,161 @@
+router cmutornode 204.194.29.4 9001 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDBAaw5kkMqaQ/Ce/Ejc9z+A4p8qVrSfjRXiS9Mp3IlxpaGAQAgBADX94+G
+Fh//6hbASh9AvcXCL1oc7qlSE3HnTulTq98dt5ZuPlB/7g9lRK2HRUjLM7xwl/SA
+EahVS4xx1PDCydXfVBzvwdYofl1tjpyTnjhFIM7zEmv7LWUXc3uluNqc6Ac=
+-----END ED25519 CERT-----
+master-key-ed25519 1/ePhhYf/+oWwEofQL3Fwi9aHO6pUhNx507pU6vfHbc
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:11:12
+fingerprint 78C7 C299 DB4C 4BD1 19A2 2B87 B57D 5AF5 F374 1A79
+uptime 4583316
+bandwidth 3200000 6400000 4031995
+extra-info-digest D4FE3B4FB9898F5844DB2E26AB740D5760C05F16 p2do6C9i2h3mZCCeKfCMPnNWq9vXgg9RPWMSLE0FfxE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANWOohN6b7yu0mEMqtsJlO5yFDdm10i8fxj9EI2TDO4Z24bdlPHVAWY4
+X5XHljjm08zy+/UolUKonbDFYi6xAqEL+apu1xKiCBP432iy2lvul12VckKyVene
+UUc/faHctOeRt0746THkxzp987boRC8mr/ybJ746PYP08s+ki85dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMOxC139zzRRbF2TrzhZSdUiyMIBbK/n3x3+gLQZD3J9W/KdW0lUZkFf
+oJouHFOJkfsDefaiKUlknwe5fFcohST8CmssH4rM1G4nblHjXsl9svw/Ea/c5ozF
+XKpa3ZgM3NsLqT6N7FRGpn6Vz7UDUGWjllTbGFSamnOABqfMhVAZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+v6FW6PYJxNg9QxWe3lFpuT0g5bnFwvkf0REOjZzHLo43P6gTODTfRA5P1S63hyZU
+NO9oCTonl891YIdgdT09fTw2mScE3jRs4akiqt0xUhFNrwSlIhcqYGI2ofyZnvPJ
+ajb5ykY6/0sxM6cJb+dkcF8tRcyhsA1qSWTZ3dcM/eU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAdf3j4YWH//qFsBKH0C9xcIvWhzuqVITcedO6VOr3x23AKJ3LWh5qlkp
+/okJ4yrxPzNnbWMWcPU1A+vpZypsKXvO7jgdtiWCRIPP/FcN1QqEbKvV6jEpgQqi
+lv5Sfagg0gw=
+-----END ED25519 CERT-----
+family $B6C7FAFFFCEFC30541D38F33E25B1E0DB135C5D8
+hidden-service-dir
+contact Zack Weinberg https://www.owlfolio.org/contact/
+ntor-onion-key +brOUrDtY+Ag4nNYDTuYEZwnvD8IHGXYw060wqLByXA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 38.96.147.0/24:*
+reject 41.74.174.48/28:*
+reject 63.118.64.0/23:*
+reject 66.250.56.240/30:*
+reject 71.162.10.9:*
+reject 75.149.27.224/30:*
+reject 86.36.32.0/20:*
+reject 128.2.0.0/16:*
+reject 128.237.0.0/16:*
+reject 147.160.159.10:*
+reject 150.101.247.206:*
+reject 162.17.195.65:*
+reject 162.17.195.66:*
+reject 162.17.195.67:*
+reject 162.17.195.68:*
+reject 162.17.195.69:*
+reject 173.13.36.169:*
+reject 192.5.146.0/24:*
+reject 192.12.32.0/24:*
+reject 192.58.107.0/24:*
+reject 192.80.210.0/24:*
+reject 192.88.115.0/24:*
+reject 198.136.134.31:*
+reject 202.158.199.234:*
+reject 202.158.216.0/23:*
+reject 204.194.28.0/22:*
+reject 209.129.244.0/23:*
+reject 233.0.9.0/24:*
+accept *:20-21
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 hS/3awI4pzco7N2BHn2cAyfY7IBP8BcXRn1iIoAk0lV0W7lnpxnztGovdKYNld6EM6C63n6srhhnbGud5kfGBw
+router-signature
+-----BEGIN SIGNATURE-----
+OoiVo3ArsMKXUSLTDX0TjCBcJ5+0nV1Hvxck+BaAvZ8c6r1VoNIx2vSF/iseS7Qa
+oEEkwcAK9bf0EqPsZfODalCbQZF6/EB8XY1ZbeRLyB0WuxCjdtbv3YyOJ2TsuyJ3
+LUObG21FMJHJ/uAaep7PoLTMUbSG8hGFonNqDGiV4dY=
+-----END SIGNATURE-----

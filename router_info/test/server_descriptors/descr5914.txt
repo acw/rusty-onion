@@ -1,0 +1,50 @@
+router ParadiseTorRelay1 83.168.200.204 80 0 110
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIpAVm+ju2lbcUHizFW8ISKq1Uj4C7oUVtB4p2dHjxSGW7IAQAgBAAJgHFE
+g38SnoN7jho6C44KWXHzW183by8H5yHamAZ4nwOEdujirH0YPGeWzRuOrament9Z
+1j8CmXzTYEKtScOSF0R1tAOVQR7Y9FqY4vilvYKqYtQk0BwMmPb6HWEPRQ4=
+-----END ED25519 CERT-----
+master-key-ed25519 CYBxRIN/Ep6De44aOguOCllx81tfN28vB+ch2pgGeJ8
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:06:23
+fingerprint 44FD 6220 D9EA 5260 C85D 0F33 5C3E 64FB 36ED 094A
+uptime 11610508
+bandwidth 5242880 10485760 6302884
+extra-info-digest 81E5C429F34B2D5CCB580D70717BF5D951AFD48B U0yy2NVF58azkabUkB37hJP0EpiYGkZErUucCXpZfwo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMFy7XkGNZH6Pj5uRCSeqORSauNB0HQnnzKtfs8PpMI3/8Oajjgm5gL1
+4kfs46HtmASOzchc0SBJHNlUTu54N9Qm6LMASX6Q2AzgTLnaF3NJUNecvYOW/hiP
++rSdPizLYbeQ4/w2c8aPSO3C1V+QSdMTtXCYLX+sZvGa+ei7BJBTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANelSP3VQWL2K/6ZUqQuStx9nz/M6nW6RFvNTxkDeXUuJPSvxiqzJVcE
+Yo7+4ZrBY11v2Kn5fEXo3NiSifD1bkjUWlKJEzxgNQL/rlksI8F/dw+rMy99+xS4
+tp74tSN2eJn/eNgbhk2yWDqGQtiWNSsRPmo2YUEpJlt39D016jtXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ph13gs67vhTkC5Fz6i0rYQZLFk6fhy20vy4bExLEINV1Mj04K9kBIVcr161ciDrZ
+TJt+b/gAmUa42Osr6+eisc6dQ/PfNlsdp7+tgfX4/O+vnZ7xXklqS7+VJdFmi3NS
+bNA/eySHnoWDq9RlJgvXo4NC2R5d/kwZi9ccWw0Kfks=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAQmAcUSDfxKeg3uOGjoLjgpZcfNbXzdvLwfnIdqYBnifAC8NgwjTIfGP
+WySfcE/DeHl6w4K9AXSnwNLKnwD4klhqtKqmSfEVrF8Cr8Ux0K8SdQj4RhcWgyze
+BSqoH/6l7wM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Dave Null <dave@null.net>
+ntor-onion-key H+wqnRyB1YKIPLV89ErD8o8lrEOUiCZXubk9w+/2bXY=
+reject *:*
+router-sig-ed25519 3wjF4YTwlLBNJo259sjK2IQH9qPzTHNpGS7PVmJjNYyo2/7SoSCUnn/EyT5gYJLuE5GVUQsVgSjuSGFLAGqdBg
+router-signature
+-----BEGIN SIGNATURE-----
+nuvWo+yLlOOHHAvaQqgyxEQ2de9ks+FmQ73pLEwFxgBdBPvwehuguscymVKdfY4j
+FdNsaz3+dUDtZ8LqdIgit461Edn9+uLGTqAj3G5HDTgIdw7i74GY/I1fIJkQK9bB
+hHWYF1rU9AT8xnILWYL74HhunN9aiwjZaGeRneX+Qrk=
+-----END SIGNATURE-----

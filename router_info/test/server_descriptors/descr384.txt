@@ -1,0 +1,51 @@
+router darmok 91.121.154.109 20443 0 29030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHdAUn/zcuCkXGTevB9Bcw/gVT1pV5n6iB0EvcCnXUkEtrTAQAgBADkTli/
+ZFXQftnNPYQkZKJgBrz+wc6ZWWoLIJtbe3e//qy/OBm6NKMQupGs2kNNRLByAC5t
+LcMPT2ZvrnYXBucSrpabGJc2BklLzNxU7FFKcxncwiF9UqrPSiPu601pNg8=
+-----END ED25519 CERT-----
+master-key-ed25519 5E5Yv2RV0H7ZzT2EJGSiYAa8/sHOmVlqCyCbW3t3v/4
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:27:06
+fingerprint D7D1 2737 7E3C 6C97 BC09 B772 09A9 A0C4 E30C AD6E
+uptime 5420283
+bandwidth 655360 655360 779911
+extra-info-digest 3704B43C7DAACDB20649E0F96BD30A48A6441E29 yzGoAA4UTw323pRgt8AW9XPkF/p1gaQlKc74XhEuhN0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANVLMD217VwIzk1m2Q7FSQBwBlJLc0MGArQaog9Ctc5sDVXT7dn8fl0l
+CTyipH6QedWBxCIffB1Pp6UF/hBlmBnws3+ulUnOEBfHw15NsTTN7G0bfuwUKFBg
+cC+r/U+xuSbfJKR+3TxLk47kd9gmGvuYGUbD/kb1pMDBRSWgofkNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMqlQlzR5r7OLYAlKOGW1b19S5kJzDuQWEOg58vqEmZRgmgmEupsxWu6
+tBjT6SfnXSlnaDo7EDezek/8XDkGfknb6ERCvAf6FqUM84iXJCBzso34OHWDsrYh
+1AX+u9tI7WPfeWZ4SqgTm+G7AiTc1xieTWtt0CyAeyqo2kjoyubxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+eytHxHP55Dkq9ppwMESaPzkraXZRFiU/Lp4EW2lpP/Xb96QXDOqCwJ7EJTnxMn4k
+65LYIoydD5uqWFduDXQXyebkQmgOkf04J0boIu1aHhs6gmzu+fLK4dbXGiCYnc2s
+QdN1fUEPU3OIVLyD3JxtAZvHlhK/HNWmRDj9y3qLeKs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAeROWL9kVdB+2c09hCRkomAGvP7BzplZagsgm1t7d7/+APAndikR+FP7
+GcIU5JAQCs/qBiT7qcWwOqTQhu2P06IBgau3anOFBwm93bdaqxedj/LGLvGA62Yn
+vr5oBllvvgI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact relay-tor@posteo.de
+ntor-onion-key blGjEaW5FzxHkpNBUl5ePBQ7c+8nz4kZp6GV1zg7MCY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ASUDB+PoIh9mEmfOHGrCY4kuQXYuSlVbfwpFMOSQqmapMnaMTBVH8NgihJXP21CceWJxjoonOXkmRQmEMBk7AA
+router-signature
+-----BEGIN SIGNATURE-----
+XRcMe09+6REBcEwmpApm3JN3rHD8iaRPY8M3y9w3t11kYEN8V0xDgvzClFBAn74s
+JeQ6kxJjC4eno4QjNngTJHoZ6XnC7Ytbjo6aUDusn470H2rfQ75rrdXgFYls2uFi
+JD1hniA3nizUHieMeSRAWsDFo6LS5TJu5CnCgW2ae6E=
+-----END SIGNATURE-----

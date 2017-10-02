@@ -1,0 +1,38 @@
+router Unnamed 104.131.206.23 443 0 0
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 18:40:08
+fingerprint 6573 39F8 13C6 3A82 6623 414B 3196 1471 BAE6 D790
+uptime 6785912
+bandwidth 512000 1024000 613947
+extra-info-digest 791414AA7E1360E6465614F7718BB9689276D7CF
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMnOwsgyZwQ0WmURawoqw226l7AUtyJG+TGfufNrq9bEFKKJacozyGG3
+eM5U4LXC3kBs+KozIoQNpfEdRQc1VQzuBcQy2Y52hy/MCgZXbQ2ScjrdYxYjQDkX
+X0ZsqRE2JDJnIRnE8hdgBhZJnDaymY4myP5Z3hKFRFEjdIWoccUBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL+Ti8gGL2tT9Wx9/cYI7Z/PHbj56of+WntMYGmAa/efvKcoinHfjaQR
+52kLZnY4rnEIBEbAHXcjQyjTHM8GBaT5lO+IophmUFDXx8l8CubB+/TLtOHq7dOT
+DgCcpdj086boOgewzpFmtlIIvThnWnGsiQF2qmqmLQRQuT2iZqXzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Thue <thuejk@gmail.com>
+ntor-onion-key fcHIg1qlW/GKFHp2f3BCWGRtDPudVoF6jmga2vlKCEA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 104.131.206.23:*
+accept *:6660-6667
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+ZkjApDG2BNCotqQKAxJQGkv8Dj6ew4T+wapTGVMhO7zVlPHjFZzfNJXNnzdQH7fU
+Jr5Y7M0xKvDBM+H6gw8EhFlScf8Duaxkbciw3nX8CkCmEJeB6aKtpcuRyNL8NIVT
+3PAZn6IOJE4lTFAAg9KIwRREOSEd8DgHoZbHhp0hPdI=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router phasenraum 62.224.73.222 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmISAb7ViBu63AkMfEH78iIinEzJKxGNaRdPXIQYtABSyVI7AQAgBAAvumO3
+j17V0moYnCGCVHnk/513yepDpP38aemFuRTsdpoMLaieYyFasoXX1dYhxILbOizc
+OA8ydR2JhHXAMjRYPgXo+JzxqdpQM1TAt0o/pM2GIWzxLh+WI6jXm3MXogA=
+-----END ED25519 CERT-----
+master-key-ed25519 L7pjt49e1dJqGJwhglR55P+dd8nqQ6T9/GnphbkU7HY
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:22:44
+fingerprint CA5B 1125 4233 3783 04E5 83F2 8DC5 BA38 BF04 BF7B
+uptime 152208
+bandwidth 102400 204800 119011
+extra-info-digest CE20818361F39EAFD644C977784F530B3182B471 EV5nD0svBN4g9FutMFrRAXMstfeanzFYL4jcHMLkFMI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMUG7SlG3luPhNGCQCIHRrabPK0PvLD6IAH0sRTbUOjYYP+8X8uAMkEj
+elDGefsvQsuqWlV++lRd/4T4XBBwBbBSNM3izXlZVU8nyYA92jLmzYQPmnNAcu0y
+hmzUbYFdcwmIjkQjXdynQzoK5UjtnlQ+2hm+FF+j4gO+STXF2GQDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKOatO7BT4HzQHrZMsKXC8a+vdzN76PNdAnJOND+z7D/XKO+HTSyMneT
+PdOn+fBB4mGZ8o0WYXpcROM0Y4ypu4a8hKGZPWo7SYgF0UsmtNOkfaJCnznhvbCE
+h57Dj+u+O7c2Kk0n0chCMfk20iTyMrl29kMFtrQ9QmB77yMhgd4ZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+OGKt6LSk1BN/sYa7A+9jlQm+dywFfWZPIxnh/3o7sG+Y0/kZVVcKAtPqnRn+MGf4
+ko+c4KrrnHklL2OBH1eZ5olf2Wmuyk2lhNTh1dMWr5ONOPdinU2s3i7CggkVfwKf
+c5ckq8sMK/kz+kL68U0tJJhMh2vmfhj2X6yAgbDWc1g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAS+6Y7ePXtXSahicIYJUeeT/nXfJ6kOk/fxp6YW5FOx2AEZqfHKfj5ta
+rjYT6JRVYIBCIcXdnc69SEjc/OW5wGa0wAePwbwKTwvgaqUQP26wgThDrkBM5vWb
+N3vZ4wLyaA8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Phasenraum  <administrator@stampernet.de>
+ntor-onion-key 1gaze5tWXDXkGLmXca69nCFYDgIvbEhzd3/0GaOwtSE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Br+Xcs3lb2Ft3mFpYOC0HdCZDw6zyEuf8vQLLRlLfPlN4vz8W26iBILwu33uHR66O8g5abbS0w0BxLXlOyI6DA
+router-signature
+-----BEGIN SIGNATURE-----
+LARME7U/l5tWmxHe1rr6zqohHFeYIgiHzGFETgnyLcuaG7kqoEsmFIfA9iVxb6xz
+ad/lM4azyo6ZK9G+c5y4ZHOpG1V731HlWXVN6nJJxmHttyAJD9IUhELLDJ/tkCXH
+ARxlw91mr0Anc2fDqzTxFo80JuC7K5HE8nQYvwQBxRY=
+-----END SIGNATURE-----

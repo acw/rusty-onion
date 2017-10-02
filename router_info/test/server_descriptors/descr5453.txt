@@ -1,0 +1,47 @@
+router labaudric 91.117.97.128 9001 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:32:39
+fingerprint 5734 B15E 08D7 5418 2C4A F3A4 1FB7 4A05 E45F 990C
+uptime 174399
+bandwidth 51200000 51200000 3471915
+extra-info-digest 3E5495D2BAD1D8E51B11E72D9574020D6FD2EA8E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALROZ+d9Zz6buvPXfj3c0WaiRJQtghbhQLJTUx9KZCjKD8A9h/DUKQAL
+n8YsmhXbbOg9SoxhSqHPnEDuncWtLedbr4gHJatCfpN56vI0IAXOHCXNFVc29kyT
+5+WPWZ4+M4hR+fl7yyHGLw81z73A14+2Ix1ccnB+hC15EgvuYFItAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKVnmiLuzGYSXmDsHJvIlRtjexRAlQMGoELwZgiMA6sJbfLknF5uiQOv
+cVVNVlLc65ClL8KkT0AhU16jhCpEYMZ1z8UpUIKaJ3FZgTuw2bfPYXIvwhRzpZ8l
+PN7/EqAMWOVhSL56orx/gD2bYru9uLFo5+tZWYzBf1CzZOqZxWTtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Audric <audricdATgmailDOTcom>
+ntor-onion-key eNvlPleOYJhgs7G16vRYHS9K8RJlFlw0SnWADjAFPkU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 91.117.97.128:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+AIeIXrs7P6UGHk8hFtEHn46yrT16+TQeVDc5LHBDJ5nDoPEVhpnkPCB3ZQzHBmrV
+eIbnhqOCRwE8piYQgKAqMUVdiTHqFMNB7utYX5Ufm2v9Sat7MsRXwMUOkgs6k+8t
+iW84ks3sYZonmql62DucDPTUrvi1XJ6DStSSq36cERU=
+-----END SIGNATURE-----

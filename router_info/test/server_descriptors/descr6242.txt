@@ -1,0 +1,52 @@
+router TheCosmos 81.154.30.64 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmE6AYFIlDZCOvZl8ePUhlTOvNNLBzsjEh8jRAdPDTJe+RFWAQAgBABjMM4S
+B3ybAd5fDvGvQLWKibjEJTSQckhj/3AWNRDf1Wwirx7n8AnqUbT/GZJzOf+fggML
+v8m8vFbduBKKtCFUpBNUpQd6VxZxyPjRxdr+7qFBnCxYCcBQDruqeECC6Qs=
+-----END ED25519 CERT-----
+master-key-ed25519 YzDOEgd8mwHeXw7xr0C1iom4xCU0kHJIY/9wFjUQ39U
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:28:23
+fingerprint 38B3 3030 2F1F B79E D11A 468F C9DE A896 0B84 2B57
+uptime 6
+bandwidth 524288 786432 638841
+extra-info-digest 5190CD9E4F78F340292BBE6CAED8C7796525A8A7 7qDP7zcOiK9fUWaWL4xPzadX5kxHde9AMqdugtPsvgM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANU1Imk+mVgmXkXotLDq7l5sSO1u0Be6zQsgdIhSr9dzlrW1RxzAYSR/
+38B5nNICX+WK0zzriJ09XaGZ7RRPa7Ephadbej51mOt9mUAyETa7pnqbn1Qe0BBP
+RFJQ/hvzkKTDwzMmGiM+C6wUnFoPDfWIAlnIHP8GW0fg7H/uWofrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN+lkR+uVx7p9y6L8+7HWE9suV50xV7aeLFw+p5EDMe3JtTAZvmiRV/S
+BgUqnkVar9gT3B5/5CGgYYAXFtOzOMgZUsdB7KOh9hi4Ko25OHEGHoFT7Gtei1xy
+eXK/tB2QdI4NzT5aZ/9w2bFPDwWy3TXl+wKUivHNdSw1F5q9+adRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+XcTQ9vflgKJAzP6vGdQEJgYWOhN61ZgHlKaI57KPn4KVNUx7GSZvdgqxp6JsuMJT
++83q95Cf7igWKdRuP2YmL4JvEHJdGx5hDbkW5a6CrStIFO2nnGiSp5y4h3eWaYdn
+V7/pMPO3jQFPXraQIU/pIp2a+w8FwjqPs+7SEzVcJ/4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAWMwzhIHfJsB3l8O8a9AtYqJuMQlNJBySGP/cBY1EN/VAFPfpu46fZJa
+g9/2YIk9ZM9HFDxJfqFeYV2nnHUB0nec0C9VKtaE8xnMel7njxgUhL/Gk+aEzyGX
+Zm6RvIthggI=
+-----END ED25519 CERT-----
+family $FDB4FC238F13E7FEC99D025DB8B89A636EFC1EBC
+hidden-service-dir
+contact ><(((`> tor-relay [AT] clutterbuck [D0T] uk ><(((`> BTC:144wahK1EEsmTyp9oZZ3So3Wf5JWJ4oB37
+ntor-onion-key HN5fApR+j+eKEDRTsrv+6DtVB5TBWHSoSKCof/KsYQs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 xhNVh6tMRxYt5OxTVyE4jLOqAxGXpHnsa5kVgIS73fralHpMhN4Wuowx4eyR/9eMqdxt2BcwIwF1TAn6rSKaBg
+router-signature
+-----BEGIN SIGNATURE-----
+cRF9dPhlnZwpBOIwn1kbni8r4ViGtRYKPftlNP03qZcbRaTq4fj6zOzSWIosoXDg
+gIlH/LCbAR8pFP74XR1bzd2fdFdc2YhnMcAgRTZTQSPuv9mi5WFIGj2/OXcfhzMr
+hsnVM8dixYAsdjRWPdC8KenTJWCiMdY2mAki2tVdVkU=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router ididedittheconfig 188.227.201.134 8443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmARARPR5hSLD4bQocqQ0EWoAe5lURh0wr9YKPvfoxh5o5HgAQAgBADp/6/e
+ikErlOCUqu8NzmjvkGQkD2qZFTm5c+l+SnDr7WutBZGwgoMLyay4vi1rE/l6AHcA
+hkkvr5j+bbNX1dOqtTikXKokq5I60V2cyf0kuCWQWomMYHj0YpAMDTlwSQc=
+-----END ED25519 CERT-----
+master-key-ed25519 6f+v3opBK5TglKrvDc5o75BkJA9qmRU5uXPpfkpw6+0
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:33:43
+fingerprint 48AC 2301 123C 8BE4 324D A77E 07ED 282B A333 00A9
+uptime 1255153
+bandwidth 84992 112640 93881
+extra-info-digest 61C581D93CD3F18E6AB8559E53FFD5710E5CEB17 1bDhEIYUVaQ1fbuQNv6Px5AE7f3eY++F6iv/2/fFuag
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKlKTtXAKIL48U/Tb424NKk5nm/VgE8u1iYuTWlbtvK0bmiwjPMDaLRL
+DckhQiAeWdjOxHiw95HQGf76USb73B09hXMMPpFhShO9u7c8jKkrmYqTXUN1Iy8D
+oV6qXWUw5GceSaFfG0tuYJGdgd+l3pG9kslZTDjBv6c3e27PAGDtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMB9vVnb/s6dKWL5ON+mJhDonj6yXuX/NAr8qDXWeZNhE0AhlQB3/zkk
+scM1G9XARjjgVqIQLH8czG7gpvxH2CEPt5+dMoXTM329wmbwxxUqt+h1eibE/AHh
+pJSI37iv1SYNfr2qi24EqDqVNL6glmE9hr1gNSOLi9Eh1t52S+LvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+H94xp5jQ81zYx8IEqYHMrMvqHGShx5SyMGtDf7kXWojkkHj8d4fJaWhX5VoxcQzH
+dgNufLNFmL+wmE/9vh/0laBsxDpQxqmNuxDS8XWi8L0/YBYDybhP1fAn/7cJrbCw
+63H891MeUqW0w3nUuZ4UdL/dIli+2KyH5ZXkb1LSZ9Y=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAen/r96KQSuU4JSq7w3OaO+QZCQPapkVOblz6X5KcOvtAHkkDoGriL25
+pkY8n//o+V8QmYYuOy87CGxfcyQ9Ln3/GBKnVAluvNynYbg6eC+nuR4VaqRyxND6
+999EYShZQQI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact TOR admin at Zorn <toradmin@sletterink.nl>
+ntor-onion-key NMbv20PUoeSHADeZgElLtXXyX/I5+OR+s7Yr4jbu+Xs=
+reject *:*
+router-sig-ed25519 aLvciiy483SZ8HRD/s4gdYo4AmQmp3H57IeoW8C/EN66giiwnY/9KoyExaZ5gOev6uEbfVT8Ecgv5kxgh2NKBw
+router-signature
+-----BEGIN SIGNATURE-----
+PEwTO99Yn8P9m6a7JMGeW1kQ6Q3TiHszX5x5RHsc5KHGh2k6YU/czdalNxg+ZCRY
+7velXeFDnuftxO8yOf/20+p/TmbB5DvXdFImQeSd35D/IgUS+iLPPNc0sMvqsG8t
+oKjCYj0e7qROlqtj9tlFCqBTBsicO0kCkE1YI6cLArU=
+-----END SIGNATURE-----

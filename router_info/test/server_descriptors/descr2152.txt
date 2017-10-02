@@ -1,0 +1,51 @@
+router peleion 76.73.234.173 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABl/8AXYB3x03Vavpsl/l8L3t5FDb0QJhwlj7feob1XUop95ZAQAgBAAxDdJv
+ZanZb4bBymF59YqjcVq8SCKA2f6PZafPsPSA0v3Z0jGkIlrv5Xtbx7cpqtl9EdKS
+IDnoZdr4hbqGCWXxQ/oGj4VSog6GXOK1c5BuiIwzuRKxJl6kqX742Ld5ogw=
+-----END ED25519 CERT-----
+master-key-ed25519 MQ3Sb2Wp2W+GwcphefWKo3FavEgigNn+j2Wnz7D0gNI
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:05:18
+fingerprint D38B CD5C 4DDD 4E61 D5A3 AD36 91AF 328A 9A0D F052
+uptime 862331
+bandwidth 102400 204800 121788
+extra-info-digest 13F8938AF083C283FCA21819E0960C0703427834 THgL8ZmBGT5jswhUsdDnoeq/+hAEfG49d/GxQZwX+nE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMiCdcLni79QRIn01h3ZjvVjPq4gvyxEMoAiegleJoxJqQpEOdRhjDoq
+J5FbJb5pp1J6E0tW4KdPPMXrrZy0wCNIu/ZFOBqoHOy8D0uWql6bb+mN5QeV2gbL
+lPq3EES2JSVvflKEZyttbU+rvfQozHQAZnVjx52ojqRhVVvTopKDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANBrD7tlnxiXtzW0ulCBuWgtDNszvGh3SjVW8N29FTmGhAdSZH/3BVBX
+dwHBRp2CACOhk0oWJ3htp8ZKS+zc86nbEhK1jABuZZt2V74fA+hbfSgpL13hvfKf
+90c06froXPp8j/ranxw2g2APYbNSwJvV3F8Doh8dHBgONvDNkdp9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+RAlbxiza4UKhFULLJDYfTbehozongz+PsPz4rmKfH0XTllzUPDT2P3Ajj0YrBqL8
+H5gIeJCX+HlLLh6ykqFcZv9JXtl+3kmSMHlAwRSq80QFraleiAPKI6PFVtjTbtdS
+mSucy6nnlaebGuNfIuoYVZskgPU9VoN6CZ1jcQrwLO4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLATEN0m9lqdlvhsHKYXn1iqNxWrxIIoDZ/o9lp8+w9IDSAOB02AgsRZRA
+HqbV4dquiPSaZwljWpKQFnircipL9n/ocJ3l3CkZn9yMdKqE8shc6rU5tbXKKFTk
+mibLx2XxAww=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor at peleion dot com
+ntor-onion-key QDKHqvXw6emwAin+nYbv5l101/qAIE/FSZJa84z9T0o=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 fugaiylpU+cncy/1uT8thDVv5HeHb+0sS6jiaegO3huwnclvYgugwsisddRkjNLb5JFv7lT1lgEJzPuzgi+yDg
+router-signature
+-----BEGIN SIGNATURE-----
+cAG0VzvgmJKlyU7mgZZ0JzhQOA6O2aHGZk3ZAzczXOaMLA69bzhnL99VawHnyMzW
+I+EbYuEbrRMhuefFVhXGwTAz4fcG71Yq2L1zP7DXxUgyCB6yaGsHM5foy/YcwewF
+0gTtnsJZpzgRpcYKRQNH4zCcKmDmPywWPOpVuiQdXqk=
+-----END SIGNATURE-----

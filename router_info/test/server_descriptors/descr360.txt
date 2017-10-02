@@ -1,0 +1,50 @@
+router devseed4tor 5.189.150.139 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAPAYyNnbrz1QXYlEmSlW0hzYDiL23W7FTDI2rHyS4i/qKjAQAgBAB4Zezy
+bTd/nJAtPsb8g6TqggbeevrZ10829POGKYIojiT0GD8K33UNH23p0tNXs1SUEvtF
+Hf38oBujLH4mznrSVmx2pmjoFqzKQm+vtTeNnyokKR1j47W/Ph/0e7BGmQs=
+-----END ED25519 CERT-----
+master-key-ed25519 eGXs8m03f5yQLT7G/IOk6oIG3nr62ddPNvTzhimCKI4
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:29:36
+fingerprint E151 3F0D 9D0A B7EB ED88 3CE1 133F D25F 3780 E211
+uptime 4968091
+bandwidth 10485760 2118123520 10513149
+extra-info-digest BF67798A39CF45F1ECB1E6263B2E1E2C510486EF 8tzoGW70k1IMPG1CUAz8Z2TPha3EyXx2tTKD+EodQ5U
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMirHhcXBqVsW7XtXing7ZkNWSmxMscmBDMuA01b9tNiftQM1byq0pNw
+jikS3r/Ww80prygNZ+NfbAJC/qyz6jhJaymKcgvEwa+dhzJ5Kx1BXXjGrLAUcjiV
+rbwBVCfalTiQeX5yHkxEjQa3datY8FsLLXU1Ycu5DJfLj1BX4cP1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMeGr+FLE1JxhRa8xKl89Hb7PJSMbGISotk3MQAm649JkRzMumVeX4V6
+v469vyY7SIwaMy1LLgwWWqCUcOJZN71/mOp1s1Ztu+tB+UqewVq/aZaylSYV+6WE
+NQGZXfxdN+OKjJGMU1HZQBrwD3Jc1p8Azg0IXz+2ofxjL6QSsj0FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+TPPX8QWZ1RD5PXwfg+Fsgc8lytRg1c1pVcCDZcdVkVa172jrOEKteYK/GAOsvo5M
+FeIEA2wO4NAZE+GgwTqBcmyuWQkoBw8l3LASKUCWKvIC+iM9CvSin3cc4wcU2Zwr
+c4dY3rrz/sPmUUaQ/cOEur579Rw5KB3NZOtgxlVv1FI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAXhl7PJtN3+ckC0+xvyDpOqCBt56+tnXTzb084YpgiiOAJWIhgEOJzg9
+na6upehsYLNuZU8zjB44WpyhMUPSbC8IF/mzD+lUCGxsBBjiBhUHzdumXi0lTDkt
+NIt0t/RcjAM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact admin@devseed.de
+ntor-onion-key i+uf598WLt48929kmjV3rtjQsm1YsOtEJDjvFcGylA8=
+reject *:*
+router-sig-ed25519 d+0MY2VACyAPesgrmop1+R0De3+UNQox0tY4lCG18zLafjAUkDRr+fH4gZbTnZCbMbjb4NLsODEKEVYaX6CYAQ
+router-signature
+-----BEGIN SIGNATURE-----
+KQcSB2VrZZyCC9ZNiQ98ofq175Vr6IY01ndOQPQmPs5iVjNad4dcjRBZ5ofk09ZK
+k92j+m7MM63bwwEUCGXtZWDz0Z2kdke3YZOMa40A22dlWRETzAJ3Fm6m20q1q6zB
+7yao+YHuarinxEvhBKU3CD+EEnMBZUVxCt+UcHqwwnA=
+-----END SIGNATURE-----

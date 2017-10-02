@@ -1,0 +1,51 @@
+router IceHardGuard 46.17.44.188 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIIATr7UQ8oO6HargAwQ7Z+6a30nG3xeTznJS+N2LbfdiGwAQAgBABvCNAQ
+JVEthXZFh7k+UYJYKAF/OPCQRW5Dk2wtjEeHrQ9/tgM/FvEbfn9Eb6jtDUiycTuS
+MxiuMYf8oPp8LkBOUIEAz5AvaRpUjt/PsY7OK7sTEvx2Te+3JE/MhCR/Ogk=
+-----END ED25519 CERT-----
+master-key-ed25519 bwjQECVRLYV2RYe5PlGCWCgBfzjwkEVuQ5NsLYxHh60
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:20:40
+fingerprint F12F 0FE7 4B7F B79E FD5C 2F70 168F 98A1 00E7 A941
+uptime 2357005
+bandwidth 12288000 24576000 855747
+extra-info-digest 09C2D1FDF44E18A9F197273C6602739E0AD0F408 ZlTivFGNDw3OR6dKTF7Ytgy1rwcMD373jKtApehoN58
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKrxI0WycX40jD83Suu/DcXNDH44I0MEuwu+GF83FDuCZuNp6qlI4f13
+LZLj3TJw+RN0syZXsMTPh27NEg6w1MxM2k71gNcZEd4bY/gK6tZhIE7dJhc6i6/C
+7rEinnhJam9EFSF83QN4cZRnw56H5yRpG+NsxMMUIFvjHeBcET05AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMBg6nPzNI5mLheVsP6EQpSCHLu5nc9revWG+4EfZ6KyDu9SNx7CHz6q
++riXvC9mndoQykeO4oc1D79/UU0PiL1Bmk9BOLYTViCA6TZAGkfZRop/3Oz30qxM
+2Lyqg0UnNeqOGMF/fvBi4drgBknmuvPrsAWszJcjODYYch8j2HofAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Db8PQDA7L1FBd7w4uEfTv89Cw1Ow9ThuTIxcABuZJkDD+/HFD4NwXKN2OAgPkZat
+OxODXq7U5gEs13NzdzrMWRws8nI/9OxR6uCtXVbpBhvqTrKo7c0fD0CNgU7DxHkK
+/mcobOqZeHKu47gSmxFi/IObIIY1vMyLyjWkmHxgn+0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAW8I0BAlUS2FdkWHuT5RglgoAX848JBFbkOTbC2MR4etAKt5cgcTuIDb
+LgqoOLUoRd405Js+mG83czYqLUB9krVGq4hK2rpjZKcb6EyMHvPzkL3YrEsRRhpU
+pylI3g3W4As=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact IceHard <ihg AT openmailbox dot org>
+ntor-onion-key 3CthjaGUCDXwPbs+0Z+A+3z9ZZ8IJs1zbmxszD/Y4FM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 hbdTUEfSEe3ZnlCAUFvuS/stZ+o4qvz7njGTRyWmD3LLgVtQxr2fs3iJXnUKgN28+zP75WdG04JjI3camMrgCg
+router-signature
+-----BEGIN SIGNATURE-----
+jX7r2NoIEjTQNUVywt+Mplu2hB9/a83UMORaFbnxFb/iHl6yumgQ5OoRCjqMryxZ
+3KCQZMLdAceEVxvsCHS4banRKktUTgyuwK8XswWsuKHQNT2ekx/iYKHxoODgn6Wh
+Ol31f3++e6BRjG4nfPIqucOotr+rwKnNPja8yl01suU=
+-----END SIGNATURE-----

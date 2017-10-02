@@ -1,0 +1,62 @@
+router toBee 85.220.190.246 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDXAY2ZgG6/9S6Jp/B6wpeIkhggt2d96NivmdqjT9LdQV9vAQAgBAC+Jjd5
+oknuTiHTY5UgwaFJ2RPVACOCDDUeKp5WchCmAOol5ERwAZFMU83ABJiI+lt3Ma/g
+rriN8dqpoo/0bb74VdHHyKGq2gekrwmvMobH4ebeLFAC9/oI1Rc6YroBBAE=
+-----END ED25519 CERT-----
+master-key-ed25519 viY3eaJJ7k4h02OVIMGhSdkT1QAjggw1HiqeVnIQpgA
+or-address [2001:1640:11a::2]:9001
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 21:51:13
+fingerprint E738 E4C5 ACE5 C015 DED9 D1A7 787C 0A6A EB10 E5D8
+uptime 4233514
+bandwidth 52428800 58982400 8460111
+extra-info-digest 275A17A8D6FF479552D5A43EB1A1F7E2E49D836C LGzkiuKVQO9Smletn1yNGZ5LrY5H9tb9dfvjovBdEGw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMh1C2DjHtHfbsPbKQ54zJCL9mOJidQdojTne1iA9OV6uUSQx6uZbwYe
+Zb4vNxTnX39kG3p6SUHUhONpQYxlEXriRH+pWjKe/LPEdsAhtvd2rPGe+OZHNTgq
++7p3aZSMRSBeM7EgzmkT5q+kxPL5HZ+aKDbRz/rvpnMXBcsTtkNFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK6mz6VIUSllOR9F31jA8Fd7MIbWYTceKs01wfLHF4kYbuqlxRBEwuYy
+WQyoEh3ZmOnTUJAay9l6E1eKmhtRGOKRgGJ5gIbMFaHozt+0391StpVS1zN6hLut
+kGLgcdu0N2Os3ZzvQs7g/etj1bqLXEFX7RNkKdtJi/XmuMqs37X3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+sS6fgMPEe9wLEM512Yc6K0kqY7zAlZrOFPDmIiLNqw/YTotH7cZn2eDMwqRkkYgJ
+R0KChWskdskBvdHmWUJZbSeg51a6T3UFIOtCffERwJxo4/aFgLGdIm/b5lDFk9h9
++3csuxRZbS/aMS/Zp/m+UOg5/1RWeYeVUS1043Eg2F8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAb4mN3miSe5OIdNjlSDBoUnZE9UAI4IMNR4qnlZyEKYAAOu+yE89YEQO
+nviNv9As8eiHW0eE146kjYaFiJCQ0rZghiMETYHCZk2UXC4tgCdvA9OGMRuJm8FO
+92FKC0j8xgg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Tor-Team <tor at xcv d0t vc>
+ntor-onion-key KSq6Yy/LdUoSZQ7DoYuf9q01AJTYETIlDC2JVKnMjjI=
+reject 85.220.190.246:*
+reject 82.100.195.50:*
+accept 212.90.128.0/19:*
+accept 213.172.96.0/19:*
+accept 82.100.192.0/18:*
+accept 85.220.128.0/17:*
+accept 185.50.192.0/22:*
+accept 153.94.128.0/17:*
+accept 153.94.64.0/18:*
+accept 153.94.32.0/19:*
+accept 153.94.16.0/20:*
+reject *:*
+router-sig-ed25519 pXN8UH8l6NZb36KMnSEjZeMIkZKQ6PqxDS0FrEdxFYAWMsYKC+cwxjho5jXO3NoGvxfiLzuPzJ1PJ/+Z9OjZAw
+router-signature
+-----BEGIN SIGNATURE-----
+rH41YvKqhpW5Yn36i366/1MwJ9uf13XgyLL1lArjJZjrpTpmipQpwgcgfoaJEzRe
+ojsFtPGKpTFSdEEk50DIJMbrRBXpUD/eHcfTlIYrbm69m4y9ZOEEildt44VvAsSd
+KpCvPrZHOrIr9q6xPU7Q34hEMvj+vz1u+VT0baGQnG4=
+-----END SIGNATURE-----

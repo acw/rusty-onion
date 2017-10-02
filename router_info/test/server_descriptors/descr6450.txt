@@ -1,0 +1,51 @@
+router 1pyxa1 93.170.113.228 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIgAc9+vZosMox6rf3Q60+VRdGCbCefyKPl22ZrJLeBxw7KAQAgBACElnxC
+mKHlVfDKmx9hENalR7UXq/INT/080B0/BYy/HYYTbc3zCyKB/vFxfljqrTLuLw5L
+buH6KX3zMElbgJsNfb2vpwKo9ldwhGxe9v/AYCRfQBvsw6B+1gDLHLe4RAQ=
+-----END ED25519 CERT-----
+master-key-ed25519 hJZ8Qpih5VXwypsfYRDWpUe1F6vyDU/9PNAdPwWMvx0
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:55:29
+fingerprint 31A5 35FD E807 69A0 2FDE F305 6CFC B3C8 13FA A15E
+uptime 37739
+bandwidth 131072 204800 64008
+extra-info-digest B0BB45CF48F5B34A4DA169198ED42D9A137BBAC7 q3/c2tcGAcHj56rfgUc97avR6hlCW50feCHswNC+p/A
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKh9C3BAbZJmXTp3QjXrnfEP70sbEEJ4u9PJfXEWsGpYdojSknyxK6pi
+i3f+HpF/KVm71zCpg+xuxvurBaCtSw14uaLdwdDSVoQCc9WFEC0fe0eg0i/TZS08
+X5hMqQflDt4JEjjIveOyU1rJyLiRIW04cT5ZqCshvm19hloOYdklAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKvryDMEZp52RyVNM/auzxYaKPz2l/kS/Jm0RdLgGE3wc5tchoBujHlN
+tMWxhH27S5vquXrvFo5I55VxSQnQg8VhEDuJwCGW34cfFK2t0G3JQABPZ3Hnfp67
+JGkCZx9g5Md39gd6GmLZHZCSNQRpGrl8KvYa8LcZyQ2vn3oxwwnnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+FF+dKAu5A6FB26aovRPKUZ3+0IkL3OPbA8RE0jDnRqlIJe/oO2RNIp3VunZQUTkp
+MLioFfgJtk9kUaQ9sHwDuzY8nzUUAf2mjw9U6+vaPP+FZFii8rxHEz2wfpy0Vx2D
+Ey7UC6HGhcdzRFNMdLKb365jhIEsb8LYj38qzpc877M=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAYSWfEKYoeVV8MqbH2EQ1qVHtRer8g1P/TzQHT8FjL8dAOg0Rv1uemjx
++usOtOc+qj4wpC5/ZN7KDqYumSDPKPbGR3+XUOhp3PM3t0wwptuD4WEOLoQV0E0P
+5CnB7Ij9ow4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 1pyxa1 <1pyxa1@gmail.com>
+ntor-onion-key k1ekiZlLsjDxWguElt+Fym4oZfcwyjigg8p1QC1Y1Tg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 cMzsTA05ODlcFVDBb96eZPSGVNpgn9VKHI5aNzRiHMaRpfIMI9zIAMNK9Eo8wqe0lTRUXoi5yYWcyYrO0GoJCw
+router-signature
+-----BEGIN SIGNATURE-----
+fij4qIJ5HE76jFF7HPevGqiQdcezXGLWwZTzzK/H/1BcrEsr/X2fL+lyZ6vkAhJR
+vHyl6dvSIJNUUKuaiTTsEbbMHs8iAiNhL1S740X017oRWf2i+LkBeysDArrHURPp
+QLmrMILC1vKpda6nSe40mM0I9Rk3YzEL5wxiCCE2cQI=
+-----END SIGNATURE-----

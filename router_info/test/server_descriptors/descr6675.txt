@@ -1,0 +1,50 @@
+router PPgrnRelay 94.214.190.171 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHlASXkn4QqMTkFjQPh0O6tIW0/Grdva6KyHqB415Pav5pZAQAgBACzX3SA
+w7AdALfZb7MGEmk/WBSgKhR4nTUznq6wOZ6GXlPlHaMU81IrY0RhusntP+Kc73iP
+KoY8eBk/i+rx6TzPuB4JUhEagS3oDX2srOl3NHttQx55vKxsIyCg+blhjQ8=
+-----END ED25519 CERT-----
+master-key-ed25519 s190gMOwHQC32W+zBhJpP1gUoCoUeJ01M56usDmehl4
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:44:38
+fingerprint 2954 CF30 A2AC 7800 C740 CA56 F0FF 4EE1 952F F822
+uptime 6922647
+bandwidth 1024000 2048000 1273076
+extra-info-digest 1FCACA30A661F818ED4BE8A4E5447E41EAE613F5 5VK7/5uLAasvAdR3LNQzGEk5VBmfA2wCYw6JcALGBaA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK5GE50LmE8Vyd7+4Hn8QbaW4FWaFsAW0hW0/7KChBE1o9vDljmbX7S4
+ibW6QZLj25eKUJQ88b0if3PgVxQNDrTzowTi8hjBuzZyyPXXzO5OAZWHwOgCxa6D
+UtRt4Z+pdicxOfedqGPR5uKFMXe3OtVaBsQzRS9bGkV09R8GTq6DAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM/vPMgftc7d5JIRv7VC1mVpHfJzu+dd2KUQx2m36qCaAaW1AXJRM1cS
+O2b2VXmPlxXhiWMlkG6du0875bcQOcZ0DK6/0RolaAHl+KwtMHhxY9lZ3bUF8Ozl
+NuU4cUNXcnv1DBbhfUnKnh4I6k4f76xXRXbS9qsqZ11OQ7sgWAHdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+O+3/msPFcZ0QH5mg50vnIoh3L+zeCkUqqM8vrK3SYpXHynemFtxyyc7pWs6pUV4l
+exeny2ETwLjiJwIxYPHxpn6TRH3LDwoSUAGS2thh6LEi1mB7CjUg4VMJpgKijHLD
+k4py6PMBtqtY201hdRyV3lWRpPRZMuxUntb5H/drx7E=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCJAbNfdIDDsB0At9lvswYSaT9YFKAqFHidNTOerrA5noZeAN8ffv1oQzBU
+0Euu2l0lJyo9oJGSV5qgK1it5JZfr8kvaG01zhlzXBi4r8l7udCyfa6X8xHqtVbg
+CXcPWCMFqgg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact relay AT files4all dot com
+ntor-onion-key WEKWx7UHmWpnDu7Y6NlDXNgKiPs6zTeQaoDqTNQVTGY=
+reject *:*
+router-sig-ed25519 yp1BvbtcUOA/GDAjXt0zFfRD4MZ/A8WnAXu/SGIk+iE6jQ2C5k/b/gO+TcCNQ4g6fzjRa2ng/hu/Cm5hN1GSCA
+router-signature
+-----BEGIN SIGNATURE-----
+UJPjgaBs+dXR1RkOYWU18/bPuiYUPUIfEL0ig0UCdHfabpiL7dcbSM86NC7X1nDD
+J1Z038KWY7NXajB10u5/igthH/tv9WRCEc09WuauvuJPkqrpVp/WtBmTXy+9pUqp
+o9YDrVVS3W1562rMxbjltaZOg73RtsoYhWv5sv/8Bpo=
+-----END SIGNATURE-----

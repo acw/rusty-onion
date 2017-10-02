@@ -1,0 +1,30 @@
+router CloudCityTorRelay 71.14.188.3 9001 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:17:54
+fingerprint 473E 6D2F AC79 AB56 4D3A 8D6B 0265 30DA 0513 EB8A
+uptime 3161619
+bandwidth 1073741824 1073741824 755555
+extra-info-digest 31B6C40491591B6404E08E837C3689209416A62B
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALdCZkdqxzigBUMPNnGEzglJQP4J6U0zQy5iLmZgvFEcpCd8vIwINXuh
+Acv4Kg/ZKsrKt0dtNmFtTanLjNQK+8+t0QvJ7abVGQFL5sRpBoBEuvSNs+TR9R1k
+6IOEYFGb+kDkrHwtPzTkhRuQ2ekEXzsPI7TZH/a49XxNubrmvHOHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPVP72CbfavQWL/nTBUBO+qoQ7Cahev0FJyYdphLPerRcMDYL297AMxf
+oRgQ037ox1gJVAouf5i8hbq5LGpmjTFSyZ12kpmkjoo9OMRKd0ffqDzzmP39pLda
+i/ZQ5yhaV96eLU3Tim5DMTYRgxYwin74DcKD1zBafQk85LsHj/odAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact A. Schamp <schamp@gmail.com>
+ntor-onion-key 1JEwA5oACGvz1c5ExtuJNebLOHYmqDIwaztGnp2uMHM=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+UyVFtq2n0MM5U6zeeJsDL2VrGHXb8Yg9abQ0DbPNW9FvC+Dp3iRNiaSOAMrW6J1w
+AyRlUBQv4zbPGz16RBDRCtJB14r/MNi0y9QC1HOlguRvAZxFcr1n++f4oSbK+7tc
+dsvnFcCotf0Zp8kUDeBTGMVPrOkfr1kTriYkRN+3hBU=
+-----END SIGNATURE-----

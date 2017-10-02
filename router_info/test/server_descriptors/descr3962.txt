@@ -1,0 +1,51 @@
+router coTor 104.238.159.191 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHCASmtQxbyzD5FCHzYZfOMht83pw07bMR4GMVn3L/NMHs+AQAgBAD1IAmH
+RgLT7mdLo/80viJ2w7S0NloqAA1Lk/2AsG4J0lSwPXUw+uMOmVJDncQ1ZYZn0EL8
+kygaZWh+2so3zeP06x4KTfdTxpVC8AJVnMLwV8zQSLQK5W6tPRHjr8QNCg4=
+-----END ED25519 CERT-----
+master-key-ed25519 9SAJh0YC0+5nS6P/NL4idsO0tDZaKgANS5P9gLBuCdI
+platform Tor 0.2.9.10 on OpenBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:50:06
+fingerprint 90C1 E8DD D33E ADEB 67AD A88C 0E13 698F F878 AE51
+uptime 12071566
+bandwidth 1024000 1024000 1205029
+extra-info-digest 46D842340F11C594922606BE67FAE90956D6B1AE JNjl1nT4/zU3J5XrqApRTV35k11vujm9nsQGC9viaho
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALGTiD4i4G5HhnZLjNPGO7zoG1Isx67v7ldn7HS2xYuViag3V4gavOy7
+M26zLu6Oy6rCFU3BC8QD45mtDbn/EttU1kgWuQMePJStQ6utE22xF1ezB6wZyCfX
+rgCGJt+0f5Uz8dzv0cKPZXZHp3S+efwhXxNS1QzfwPdd1flTEVr/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN9Vr4esUaLN9Zeg4wcb3j6kpMMVyNknJnunDOL8IqWQQcYVL1f6zrsB
+Tklh0OtfxCjp3vjnPxZQI9rLI2WjXeDFH7Fn+QNHwzN1Ia4QtfedNO1wlROpyvl6
+GBDATXW+Ds8FYEf5UhyifY6tVfF9sqM7x2B1gMk0Qb4mH7ZXKQlZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Od5uEyFVROYwwa/VsVNWJocKnBCI5VyATAR8sAh8dLuRkT2DHt40UkcuXgNj6Ht+
+6Be6zMafhX2ty5ubjZmtBnNF6x9oCkxnQDlZYNGQ3tVdeIptXup4IZkutnjXST5i
+pBXQx+fJ/ocZoyBHVGVSqKuIkEFmM+664xkOc8Q3nWM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAfUgCYdGAtPuZ0uj/zS+InbDtLQ2WioADUuT/YCwbgnSAMdzhRaxZh7E
+rRSc+/+XK1Mja+IjXOU0NwaHKL8RPExpzdc2jAL2v1cGqrIanzznnJeP1zZAKeaX
+3KxmermD3Ag=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact cotor [at] countermail [dot] com
+ntor-onion-key 6W15BAZO5DNOk8bu+9Em/1G8xBNFZwTDswHYSU+dnlM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 HJ0YBDAfHpv9F8o1wL9T8O5+3odWmvb4Ofj4AsKw6kt6YDP7KovJRWUkcY3HSFKrucR5aneap66FFJpN0lvABw
+router-signature
+-----BEGIN SIGNATURE-----
+R93ttIWtk5MEhpWwX3xo8nOjdA7B0yAbnEbz3293dBOOeZclPJreTmOe3EgzaXqO
+NtvHtTWlH/qaw865HoFaHSEW+BPg+hItD/Yd9ri9eclFRIQ25tBb37LZvbHFc9UH
+CTF+W70BCR59k2QnIxHtsba7ihZNHMsBDrYdQl0XDSc=
+-----END SIGNATURE-----

@@ -1,0 +1,63 @@
+router lab6hourietcom 165.227.136.69 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHiAdhaq0T2gnrA48+JY8aCgvUEdzeQuQ9LRzAtu2Acw4PbAQAgBAAPzCBB
+TiYAbRrg8nW4XXuHpX+NlDEAMWfVmqIk3Qmq2CChKR84Vk+2I34Ua9NMODPi9fC0
+lDme2j3suZ2ZrKL5f24yGtBHglPoyCEbNX9yp4EjX2anOAIq+If0xXfwxgE=
+-----END ED25519 CERT-----
+master-key-ed25519 D8wgQU4mAG0a4PJ1uF17h6V/jZQxADFn1ZqiJN0Jqtg
+or-address [2a03:b0c0:3:d0::5408:f001]:9001
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:16:41
+fingerprint BD52 1F79 4BAF 6C29 B841 7A08 3283 D120 E758 364E
+uptime 782169
+bandwidth 2048000 8192000 2883143
+extra-info-digest A9BBDC0D064C0B90BF1E1ED2718974E29E7A23F9 41ZFR4+fzeAhYuaCzls+2qtKP++4m5WEJuhJM8VRgRc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALZJGQRGGdE3oanWQf4Nm8mNqieAhAzxxGsxaPG6kNrcMbFjttYi2FV/
+dJvXRUwpYxqooEgLFRuJ4W9fvRuZ+E4W/ZGX8FWSFdMXozcOLan12k43P0PO0uVI
+Y7vkSG2hoVuMBdwrb0qJGbLRjc6/4KGAg2SQCk/SlN+aaaTI5OOpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALM6m5KZ6rj9oEUnV58pTd4zr+vU9YYizF0XpZap3YCbs109IfAKZSb2
+wEgeMU/O8OraRjCHhSmkPwn7MRwKjNbHuTxM7/YUg0IKKwgKinVRTaQtlEhr9IRv
+78jnNddadtrHbiOpNT0eQz4ZlCx7/PtOz8wrIzCXyxeUsA9pQtPPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+jt0GW6bhTuzRn9bhfpaxOU/Ui+hGdjfWcXFQNW9mO21CGCF8AQwG1gLIxyeVzw3w
+AlBbIUTYIDS63yNe2x/XT7gTL4d2HHpi2UQ0SeJF449mZXlRreKucEQrgF4ibq0E
+49og8ipP2wNnTaDh8NtNcot0Zna2SIguOW1tYtsg8GI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAQ/MIEFOJgBtGuDydbhde4elf42UMQAxZ9WaoiTdCarYALrfPrwl7Sk9
+a8+akClDhtku3ZRlSM49rPCl/6/Ajd661zbKeMZ59Lnr9ztZti8tGS2Mbl1Saq3T
+YDuD6TPc1wI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact toragent4054@gmail.com
+ntor-onion-key eK9OZngH4/7b8o6qSHgJ3BsxMLzLT2I3TIWk0XZEjyo=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 165.227.136.69:*
+accept *:8333
+accept *:9333
+accept *:30303
+reject *:*
+ipv6-policy accept 1-65535
+tunnelled-dir-server
+router-sig-ed25519 159OBSTbgSvDzBE3bQBJ1K114mx/yMmWRfsQBkao56q86sOdfDTSAzsI5xhYSWjyh5QfTBYICAaXH1miOR9gBw
+router-signature
+-----BEGIN SIGNATURE-----
+QQPZ1r2Kzhu9wArSEH3eo06FAgAln5U0Kw+rSZN/GvSb9GkogGXT0Cw2/g3X5LkW
+IqZ4PNrw7qTbf/G7EQaBuWe2LdQsv+YoBvm1rQrPpvkWcS0W1aqDYqcNc6+B5dLi
+4NEusZx7X/KoxLlvlzP0YMvlU1NEqwcc//xOd7YlwVo=
+-----END SIGNATURE-----

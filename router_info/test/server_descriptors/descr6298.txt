@@ -1,0 +1,30 @@
+router RaspiTor 87.176.48.5 9001 0 0
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:14:38
+fingerprint 36E8 BDEF E73E 1D85 2FFF 1625 0A82 8EC2 C337 87A0
+uptime 64904
+bandwidth 102400 204800 60392
+extra-info-digest F39CA01802760D2C6444B3520C67EB25E78D2E9B
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOzgK6+pJuYCgN4ZSWkEwGjjecSueCWN4UXwCs01wtMYFxWNmc/ZjNgu
+39UJWcOUyOU/q5g3Bq9l4DwqhB4XAfOSY1WDk/aLOfH4LJFyh6HdUsbZ7q/1tkJI
+MDNYZA9GwEAt9NtCefEda4P8/o1MSm0X75q/WhLiH6fdTPpy9VlXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALwV6J5Ngd7NRVFrqh//cJLsSRiBOQN1ugIm6UZtoszVk2AnwQrmAT24
+krE70ieIBHAk8YOAA+AqCUZU0FJCYOi6mx8GuIUkTuJ0e25WNNDp3bHHEBM4QkyZ
+cMeMD9LL1u91Ii7T/Oih7jQ+CiqHZvZk9LZiIPhO1cBMZfY+jl3JAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact raspitor@habmalnefrage.de
+ntor-onion-key v362Zqcku8Gt8bYalP3pHv3nd8EaQeWEQyO8+82PrAE=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+lz50GUZSLm+X6uzBqC6lw+gPWPAaPiLpQoKJRipU1NXazQ10+KkDqsu2EMwOMC9J
+BgEmk8lC2xwO1YfkgSz5uhyEcvM9cxlbcmoccPPTdPNa1vu0DfJpzh0LwN2tV6hh
+aLq+7Ss/C/T8RPqzE1xa+GQ2i5IbVWw9JtYjUNiK1dg=
+-----END SIGNATURE-----

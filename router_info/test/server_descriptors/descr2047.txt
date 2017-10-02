@@ -1,0 +1,51 @@
+router Unnamed 192.157.253.125 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIGAWocnmo1lG6LYTJBsxNLqG/A9IbxyuxXI+DXgxkI/dYqAQAgBAA8bgBj
+z+QE6ptl1V8G4tCI7TK8rWyvBUW1pB3O1I7NY4BZN3yA3EPiNjRHbS0g1p7Ou2Cg
+nzzDSdOP0Ipd/CT9quzJOkKCivJzGuLe1TVHiyBqZuB9c9QTvjUWwcAQjgI=
+-----END ED25519 CERT-----
+master-key-ed25519 PG4AY8/kBOqbZdVfBuLQiO0yvK1srwVFtaQdztSOzWM
+or-address [2605:f700:100:400::b4df:ae49]:9001
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:59:43
+fingerprint D779 CB52 D412 F0DC AA29 6C95 39C4 ED03 E2DF 21A5
+uptime 1821583
+bandwidth 4194304 10485760 0
+extra-info-digest C3E04890012E1F894573544050C1826A5DF67BC3 BdMpj0I1tXW99kloAxfngBECBThshgMgMvdONQEEiqI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOHa28Z/CWRyrVoAOIj73K94lOxYsmfpHnZavRWu7WuJlNUYbh5fOpwe
+0OovU8tN4SyV7AsQdqi0Wz0mE+8/0LqcRCQ2GulVtx6bFbHM89PZwWpdiSkLqbTc
+elD0xGO2sJFVQ5UgxLFdTnmmPdod55bMyppTKSxlTujHs1oecx8VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMbT6B09D0xHfgk5TqlMIJ4OqeCMhut1SaSfkF/RoCEVrR9/kNXmdWou
+Qvz1kSZ6ivQ/0E8OfOkufshDkssiGFfVnzyH6/8Hg00zznGwnQVtSPVBJZ1mE9ch
+I+2G16R7zJvuQZbMBsD4Sp6SJBU1z7XAQc1MXb3ue3WTcVmarwtPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+tKILL5martSCPudmaJuQ/L3RAKX6OwQxuU6SyvQfgUxlX/m65QMOpWK9pACf+5bm
+yBsl9kxtwrBbLqqgAP0s2Xq4tgT4GjuvifRykM1BVkTPomJMgdszBBo8X5iWtGlN
+s75V6uqdzomZofMK3Mzjb8mZHJn91vDndDUGTMwuIH8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSATxuAGPP5ATqm2XVXwbi0IjtMrytbK8FRbWkHc7Ujs1jAB4JU5sCMMxg
+1DHQjwTYCtiZUQnnPdy8Q5KbZY/DCtucv4pmfIQI7ddtGhhrfeB9za6eqEdz9rbd
+y3TmuByANg8=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+ntor-onion-key fnG5naSkPeYzgoYkmKclDDrM36wV3f0r8x0Ho4kfqXU=
+reject *:*
+router-sig-ed25519 Kixsdo33/k5HUkM7kFljyqDlywtDtOAYwSk3ZeSic+ouXZt55dvhY1f2nTL7xPOoCPxDEbhie4/21b3BcJWaAw
+router-signature
+-----BEGIN SIGNATURE-----
+jxGUH5/Y4MiIuAtrLOf5auJH/Cy1qj3D1tQU5KfkDrwhKbyCraffNXqKwOta2Elm
+vTRYl4s2flfgrGejPOZch3loazmnFgZqxHl2nOOSYJdSUPLAGEQb/oEAYqwJ6RLc
+nzL2xrlyZrSXpk63oRL7EOA51NaLCwwCbKC10xG/vLI=
+-----END SIGNATURE-----

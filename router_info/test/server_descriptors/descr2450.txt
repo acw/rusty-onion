@@ -1,0 +1,51 @@
+router poofeg 213.109.56.200 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKjAUnhxRen/WmzF62L1Zqo46P211lbLksueReGWrNHye6jAQAgBADhBXI8
+pzEKdQiVNLYpYMO4x84hk4hWMhCGXeIngahDo/osYBmN01r7K+F+lIREWomIzP2C
+m562y86BMsS4JjFjzxqMLNfhxgXYEiFUkhTbnX1vOqvT+zCiW7ZlVBwgvAw=
+-----END ED25519 CERT-----
+master-key-ed25519 4QVyPKcxCnUIlTS2KWDDuMfOIZOIVjIQhl3iJ4GoQ6M
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:48:57
+fingerprint C8AF C02C E1B7 2D7E 0046 C10A 9C4C 30D2 9BD8 BA32
+uptime 2212349
+bandwidth 1073741824 1073741824 6157517
+extra-info-digest FCE4E6B4FDD84B1EF98269585D6860BE42A58697 MlzxPjw08OjOIva0TViq2sBgtuYYuT1XTHOM0OFC+v8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMVl5lBSHNk4c/r0bku8V9/1jChaQ24FsvYzPcjGf1xmvCEcpqPSj6a3
+MDxg35wSg6v0m/Nqb5UbVB7jkinsNHGI+sEIOdN9sCKUirGv0eAtr2hIykm/YYen
+liC7cglcwFtPCpa8hVzz83Ir99bWm4mT52ucKnB8UkBOX04wJXbtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALd/eMz4LrG64VsDzGF/464d/voOesCULUyZXq9E/61g8vilQgwhTg7+
+iZhlp9dYhEOjsAkrfqIEx0iZP/7p2JRE4nB8ZxuDlR1GBHk+KLBUgQCZ4p+157JG
+qQCgfIAJRsxlh/02pG9yN6k5QCA17W5vSUwX+46CmL5CGR6FjCmBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cuFGLduVnJ/D1jtfc6DvMalfp7l3SNy/p7pEp+YD8tquKeiLqKRRn2mFxDBTco1B
+Uwhtre9fqXoLoMMxyiR+ojHCHLA5mXSrOkzrBAM2LtZQduh3t7sTYI7vnCuPM6lP
+eJD8CogsGIyoZKuDSd/N8pqoILCLY9tPC8dy+21aq6g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCGAeEFcjynMQp1CJU0tilgw7jHziGTiFYyEIZd4ieBqEOjAFpzwcPzNAHd
+1wJ0WR/NmX0OmkeCKysYuolwlZkWkfY9+NsIW5T7Sfu/MG60tXaf5NDxvxsXxomz
+lUyAdfR/KwE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor@poofeg.ru
+ntor-onion-key VigUtCv/zR9o3gC4tnMKb/IE7SQ7zkRUIyvOyZfMk1U=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 iPqz1jdPhtFBXcJNKwXx0TfTDSXwVmYCyMaPrIYE4BEbPFFDOU67qHuhwpS1ETXx9caEQMf4bGOpvkvy+sgDCw
+router-signature
+-----BEGIN SIGNATURE-----
+LZ7FcfWSdMLnZdC0KJd1VfOQLPFuG3Cle3bzDiJu2hIkUJSXBs+Eyo4uReljqUDD
+wCzEdnPuYYc0KNiFmgNaWzJ7WBGlwvlEX18C9/FWNk8yA4YBA5CEVugznTktya+A
+5maKinYrTtcIIrJ8HZfY5X9SLiiwoPoRTj4DTzpxvCk=
+-----END SIGNATURE-----

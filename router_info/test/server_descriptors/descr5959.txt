@@ -1,0 +1,38 @@
+router zincnaxxfishnet 5.196.0.149 9001 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:45:13
+fingerprint 4337 9A72 D955 94C8 B40C 1B7A 7771 59F7 34FF FA5C
+uptime 1607383
+bandwidth 514048 2048000 861977
+extra-info-digest AC8B92532C8151D461E4D6709F3262E01275A7F1
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMKnp5ROKFEeDCALzQIXpi6kLYUbBIqDqV7tXGHesixsWqAYzZnDV5w1
+1WLjQpBWj9svANoDcXzOvpWCEnlOMxk6LFQRbHpcuWYcvvI0yWRtzbjYNdd76DRX
+s59aHwC6nK8xiaKCcbelV5OdPkdVBUZdT86s7n+4Wo/RLhKjX1flAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKZraayBE0d7iMEnEhykIITT8hFo8Ok5/v8iw5BUqDXoFylJ6XC+haBQ
+EbzN1evSe1GfXYWuNZ1h5V5IbUYvMIlH9X8vAfejD1CWfKQpLpAQG81fidC4+2cm
+stoW8jqbffEjkIV98lz/JQsiHEFEFF1rjM1xYjbpuWR8d8rhoDnLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Chris Roberts <chris@naxxfish.eu>
+ntor-onion-key gHNo2wPEHPhSEdB3zKtV4qsay6+ZKey/dFbFBYY7Zx8=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 5.196.0.149:*
+accept *:80-443
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+NX+IT1QAjB/rmax2DCKnASzk8nKhPE/nmQU+fn8MEkbDiRnEUkQIt+6MSa3IgvxG
+A14hxdzuk8l+MMWKdAv0C/8NVExVSJ/9paJ8khxrQO9EUBn+nUF+9sENddOl/wH3
+f1ZEtqUt7ay/4oIeFR0WCP6tkZAKSdrFB4gNh4NKxCY=
+-----END SIGNATURE-----

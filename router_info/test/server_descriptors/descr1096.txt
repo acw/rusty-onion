@@ -1,0 +1,50 @@
+router ThatTorRelay 23.239.22.19 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBFAVilomo4OhdESpUWReCo4Rf9sKYHzEbu5lCcPZTW33wrAQAgBAC0TcYx
+bSOAAZe/ASACE2tepoVlAk55/r4Pc9i0lmPhF3iz04G0CB73y0dHFtUwRs54QvLG
+LtsFx3o82QsSQBkd2+kRK3SaZpm/K0Ab/tpdlFcFHLNhwjby8N29bBRt4Q4=
+-----END ED25519 CERT-----
+master-key-ed25519 tE3GMW0jgAGXvwEgAhNrXqaFZQJOef6+D3PYtJZj4Rc
+platform Tor 0.2.8.7 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 10:15:40
+fingerprint FBED 59FB F143 46C5 6D45 9887 9266 777B 318A A0F6
+uptime 31019862
+bandwidth 2048000 4096000 2439096
+extra-info-digest B0A6B6960E22B7D4E6EF18907E19F00FF5FFF4E9 /MGbtnRBVwmV/KqTzHS7W1fzCSx003NA1unmCzVOrQg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL6avgjoM3LL6JiSCuO4YM6l59uTnIpVDMCBdFyFeTr5rsRXXoM5sbF2
+8Ylv8OOwDlbg3B8tIoFRukQRIMjUUIRpB1oTWgrGsJuzHef0rI1LdRAuwpGOODLs
+r8Vkvuty37h+vxawyh2lnJtcHN2rqvutZf91xA70ULDDblJHbk23AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOQjikIdc6BMNv/vJS7xRimnjB5kM+BaE6WYTr+GuIXv5tAKS7l4cSRX
+2Ai0Iz1XL1ils6qe43zG0m5DUn+sWnOpbEDpAjsZY5ci4LAdOhFq6ZIVZXsv9rbA
+H+xQI6VLOmQ4YRtr6dQH+2ItWUiXTrki1za6PfTdrTow0cGrRG3XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cdLbNJ7uJsllXLrV1QdTPx1qt8/02rr232FVoQTltxanVn9IlFbNiBMciMViDGyT
+rswtCbHb1QmKc/9YvoeBcj3r8pIxWKpoWa8BIyq7OwPI8uIvQSUOpOHLNkG8Awjr
+MI0rFCgdTTLFSqkOKND59yBXa9PwuWf4rrfV5M+7C0U=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDAbRNxjFtI4ABl78BIAITa16mhWUCTnn+vg9z2LSWY+EXAN7JukbtbOEs
+OUB1CK0Oa+DKCItpGeX5glzJvYRvuCnL4KeRIJO16ilmbhvgECfBTykYVoNc4CLx
+8MzJ8iCHzQk=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key 6al9GUNTbpqCYKkayJnjmaoLC07TrlOPuJ02TV0rvmU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 pSClDPMJb5RNFwY6YA6YgvG1e6o2snwgotBXT9pSFzMspjpvhCRKLBweNC75aYtS41PbnjHOHSDeUybxjwrmBA
+router-signature
+-----BEGIN SIGNATURE-----
+rfTthfSuE2yc7q9M3Xjy4jzsLDJzprA853/vYeERm5tVVsk4VoRt3d2cyka5co75
+xgWYiFXKo/9pbHBRbTucHIx5SUPiGy+LvFpOfV3BdXCZnYdh0eRnnQySDU0/W4Yj
+wJhElqsq2q0NrqR2fi9cARJyVITaBu66evJcQ0S1t6Q=
+-----END SIGNATURE-----

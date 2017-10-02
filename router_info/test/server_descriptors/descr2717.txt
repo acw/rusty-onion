@@ -1,0 +1,107 @@
+router ziorufus 94.198.100.17 9001 0 80
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:26:22
+fingerprint BF5A 6793 4772 1683 A1D0 F4E1 57BB 758C 1640 064D
+uptime 5287684
+bandwidth 512000 1024000 694247
+extra-info-digest 4D426DD2CF69C9A4FA9AD2FD43FAB51B05044055
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKfJy+lsu3oo4F5esALUhI4wCePmWb/ShfrlcodpPE3FEi5bIxV7skQw
+6f4KqWIx0EQ51FFzQivTArBzyPJ2YliL+2w5awEwYP1GnXKeIh2Z3LLJ2QD2cylq
+k3aDy563oeLwYG/ddcWiYQe5fJghZraS99uP+SSQbl4kZp0loaI9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMwvAtfiwbl0nytzZZn602iNa33TngacM5Tmwl1xX+UZd8qxFHbUf18X
+xww0oWgvagovT1SPBMoErIKnWUeTnksW5kRKp8PeC8/Vff6O3sej7JDvntnIAjfI
+GQod8229TWn3hfBieGPYdaci7Z5n94nbPBNvsfPHyK8j4MLmi0dzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Alessio P. A. <firstname at apnetwork dot it>
+ntor-onion-key nVYYA+3q0FkOKFXXPXcal6hI29S+Z4Q58xMSMFl2f2U=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 94.198.100.17:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:50002
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+l5plFIm9tRgrkRc/rBGBFzPTiTwm+V5oVyAxNRfMoXEGqvM20/BEU366+FmE0uFW
+o4CG5iDUQrpbJzGXZgTh2PQeRojlShJ0epvr25IgxFVvxIkAXCuTIoNQwKJBRGUV
+uckJBAjuGv0axKwQUuPk89Aat/WiVAWfqyg6vS4rlPQ=
+-----END SIGNATURE-----

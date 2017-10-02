@@ -1,0 +1,50 @@
+router yossarianrelayfbsd 139.59.79.120 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFLAcQfFPJxBgwpzLNPWLVgLSGamXV+DoSLzmcXwmAYj2JWAQAgBADE4gXP
+jfmng4FlKey4jpO9hbclHgIfoPjkzJcmjmeGXQxCq9mpkZcWtJ6brv3P3g4je+ub
+g/mebnVgeFmc+wyTcohHdhUudDc61jeNqGdnRc3ZcYgaXQ+gaIsDOD/dFAc=
+-----END ED25519 CERT-----
+master-key-ed25519 xOIFz435p4OBZSnsuI6TvYW3JR4CH6D45MyXJo5nhl0
+platform Tor 0.3.0.3-alpha on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:59:06
+fingerprint EA5A 9E04 260D 08F4 F9CC 5635 BE1C BDBE 9D54 18B7
+uptime 7814593
+bandwidth 5120000 6144000 1162396
+extra-info-digest 4EE2CE4F065E7CE7955EAAC9C8AD3EC8881E8CFC 41QtF5ojXYwSa6iCXiWqU5H8KRkGssyhPBpDf7yeFsc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALy4hLWfrjgv2qmooYQoqvOzyJrpLgZ6mbLm6L6zEApKgBtOX4QcJRhl
+6W1yExCExMOIm6YjeScWK/Dd8WR5eldoBywR8lOkG7PjRaz590Mq56qZGtPg5QtG
+zUyqdAQSgHSnvbJ19xXYX6eNjp1Q/ynlIwSWpkjO/JFE4rEtQ6zPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK1ZT4mmWdlkUzMcU1UpszOa2tBNM3Ty2IYmcLyRmiAiX8LDuzJpkhJy
+Fxd5PqjhF5plwtDB06YiiLzU72/wSlIbnIWoEoC4BQtaETN/91qgqg4wE/TPSj3o
+oZTHPdATz49tSR/aIn2JnX5BipVKLrg71yrsMeWJVyVj/LxA3Nu9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+rrymhS1godT67pdP52Am3dtYe8JCPWPVY5lJ+7ZfX583DuTn4pRJ9hKn52+dkj8d
+PHebY5ilqiqmq/Sq1EXQUz7UbdKSGP+/VcdM66w+lLOwqrfncsU577zSl9wNUW+7
+JyvMHi/NnASsH+vggdtfjoE01td0lqOP2yhczey2/QY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNAcTiBc+N+aeDgWUp7LiOk72FtyUeAh+g+OTMlyaOZ4ZdAFZlYhw702AX
+G2aADdZLS3C8VBC3OgYzQ9uvPMKCdWmiImOIevBBqMUxvei/k6x/+2GhdNIz3dUI
+BpHU5LFfvAs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact toradmin AT firemail.cc
+ntor-onion-key 9R7d1kVlE7JHCVAP/kTqUu6OweFOZWNt67ptDtmikx8=
+reject *:*
+router-sig-ed25519 a886av45gq1NGtpB4Nzqsk/5RHnEZEcULAdUncF9plIHd6UCSrcSAa8Ud7zqqFZR5HuhjegIVbSN9ihY7VhHDw
+router-signature
+-----BEGIN SIGNATURE-----
+kbKumUvK0mJDCoMOnxhVoWV+3VMorsshwUt0cBXlDTr2tWNGSU4DCmEGoASS/kK5
+0INrHJKBHl7+ASRvbZNuh4zvkoGgHklR2KKpYaRcLbgILjCfB94FJt8/yt33vbhn
+hxWH2Cy5/iE/PPSEqfjpEZyXQ0jjwJLJCYPOrt7hiLc=
+-----END SIGNATURE-----

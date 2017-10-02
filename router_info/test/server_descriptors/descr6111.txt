@@ -1,0 +1,51 @@
+router InnovateTor 212.47.230.49 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIXATNucvMrTY1hMcXkvR1FmBBgAxLn5HjrDgPM8sRHdY6MAQAgBADU05Zx
+2zzWJCw4j1YUed0QJa2iXGlTqONbrRsbUYOoNsE7GK6MtOLzwt3AKYxYT9DnRhg8
+dkmOYzpACOgLFi/ygJsAojBc//mlgY7s7lKa8+xvB5XT1B8RnmSPWmcrqQI=
+-----END ED25519 CERT-----
+master-key-ed25519 1NOWcds81iQsOI9WFHndECWtolxpU6jjW60bG1GDqDY
+platform Tor 0.2.8.9 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:26:41
+fingerprint 3D6D 0771 E540 56AE FC28 BB1D E816 951F 1182 6E97
+uptime 22831277
+bandwidth 1073741824 1073741824 4987902
+extra-info-digest 3E4837319461B38A1B7A92F14BD6EB9176A2A698 uZvbkdzVHLts1UiZDnuEUuwy7Emqk9P5edhPOF2PPcQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMhI36fooxmQASyykL1Hqm+m5aPTHs+X1u6Nv0AV0EiO6bucdafu9XOt
+lrHnf/PA/FqPYwBmUxPXBqARa5JnxBucWiiP3Z1kjC5WbKZP/iRWGDco/ruwx9pA
+FECcWzTKkNXxxqevhxWvExyATHigH4UWSe5tzGoWTWBPlhDAfYTRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMPWSEGWU7RyIa5Kk4L8d7PUYhC5oYGpBF0mpLfKfx9aWAQS1b9zBqy5
+WnmuCuNmMddBYgHtvAl3ev8mYGRs9POssgdS6C0aH55p9R6CwG4Kt28astmcEfMO
+Fr/wFdGGh9UdGzJ+qgXqFgp2XWRK3tDNc6WwMgmzRC8Q7k/1iAj9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+IFYHZuiNaMutLMC4bO6zaBsAm+hqj8Vk/akAriP3NVkCAPFXVjfC+7ct2rzbMiXz
+3WY3Z55hhyFQ5sa/8oknp4StG7vlqx/GfTXZsfGmXsC+RBdb+MHQLwpqf2WQEEny
+K549g6So+fS9NjnFQF9s+wvfEmitZL8mzyc6nwBnUWs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAdTTlnHbPNYkLDiPVhR53RAlraJcaVOo41utGxtRg6g2AORTCaY6d0lJ
+A+G5+jlrkhWN1aBtvNcpnUk7X3WwmoFpq9tv+wfYYT/2hZxEq1UZ71G0SGgnc1RV
+wM6fzXKZeAM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Maarten Eyskens <maarten AT innovatete dot ch>
+ntor-onion-key wXhNAk9IFdnMiNEjB6izbrK5lebwkTPwVKFGjg3BXng=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 MUDvBcIV4tS/e9hW5ReidOOgJodkRTn4dMaNhfG2T7mr/pligkgoRRE1S+l5hEdpZnUVPqX2FB6qaHzF2Ag4Cw
+router-signature
+-----BEGIN SIGNATURE-----
+JerTwollMoP+VA03H0u3oC4gbRInBHiAjwXhUpddRWIuNhc2BN05EwD7HwwNsXYV
+2qgXaNfGE9EVSi3n9ChI2UcTPIbYYTm3dFBC+hiBUchAfamnHKE1QwK6QwqGahNx
+FloHuw7TgkPtiEf5TmCF96JL06ZRWJUUayB6XAxFVSM=
+-----END SIGNATURE-----

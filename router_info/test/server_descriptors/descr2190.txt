@@ -1,0 +1,51 @@
+router tannhauser 109.255.4.199 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmE0AT0MUxXaaiNgdLwMPfEDLzyPwZba+9B3bSGb0DQ4fH6NAQAgBAANW51a
+ulYbsSM6t+q0kLVV0wQ+wd1b1eiRTxjPz5G0MvuOHRdoGuhP7bSu1q+5zYISpUat
+UDRxn4Sj+fZ867P3yvebjWxJMEeW2C7iZw7+2xJtSx4w5H6GAU+4Tdr4Zw4=
+-----END ED25519 CERT-----
+master-key-ed25519 DVudWrpWG7EjOrfqtJC1VdMEPsHdW9XokU8Yz8+RtDI
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:33:13
+fingerprint D22E 4092 BB5E 31E5 D636 DC9E 0551 2B9C 43E3 5E8A
+uptime 6292317
+bandwidth 1843200 2048000 1595802
+extra-info-digest B1E9A778F38B853B9D9E33C7B3A85DD22E254EDB WqHcOjkcMV2Ur/D00vjppSPvHvqdhLGAYJPdkCiEkw8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANnJhlgC70tMrYbuiYCnJdqr63TR+b6E1EC4poHjZoR+acZcc2k5YCt7
+oR8uawzuqB0lWHGWebjpJj2k+b1BxjElqJ8PTOBznN63cynoq7O0I8erVFV4y5mR
+nKga4DoXSmMaEp3UIpBHNymcf6x+z3z+G4d6xKRHEWBmX4nC6mC7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN0NHWW0NprAJ6CIqdGpwAroZ3FZj2A1riSb+o/ND9nePsuA8TQeC7he
+GKTQ3XmEr4dyJMeOYNsldkpQavf7ZfrPzX0VkFS8FAFoCo6AyUKewV1DQ6qCSKan
+7SQ/WkJu5eqTxYvYCDRPi5ecHmu1oEcn16rT9eGbCyr7GvdpdQ03AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+xRuL5lOWdxNXzrgfGxz2DETXVKm7EJXwbAV/8Nf0IqzfHRMsltlTDJTTlCaI+RiC
+nUWONAEXZIWGGcXaD1iubkHDjUq6mGtBw0bqo8iUXKg5TGMwsWY8vBeYMqyVIZkD
+aFGAHxKbH3067Aos8qp+p34GTk9oVvE9HL0Ai9b+zsk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCHAQ1bnVq6VhuxIzq36rSQtVXTBD7B3VvV6JFPGM/PkbQyAKPO2vHB4BoI
+MuanJoINtmmP7TdlcDBLojl2EmgKWs+QUv5gfNZUHFkNg/Yp7JjpVhObb5cQUoY9
+A2bajRTtoQ8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 1CMfoTXdkEafBAEcHrE9XokqxCf4VbuUcw
+ntor-onion-key mHSUB3ZiIcnrNrguLO8TspH0q7gyOjjkncwY1jJB4RA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 EU0j5+OwZPVzMDi1SmQZt5YI7u1i6hgnDw61nlvSpfuNn/kx4Jx12jF+eXPgCLK2t50KhvKSMn8yCgvZFBDcCQ
+router-signature
+-----BEGIN SIGNATURE-----
+kRmW/2briFbMN11HM+Gje4lpf7t90bVDDnLpTblB7HLywKeEQ20dnYb5c6k9FGj2
+BE4SDpK+t/Sv9/pRZ+cRkNdxcNL6l9VX7eZVEEexWbbD/rf+yt5Er7G2Gp0wdSai
+JdMDgBZRXdHf6urJk+hHGEK69hiRsnV2sGgOfW1dZqI=
+-----END SIGNATURE-----

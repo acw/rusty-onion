@@ -1,0 +1,52 @@
+router TtnRelaySwyn 91.224.149.33 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCbAdJMkL2nToX5E6hYNPnMBl7KXpL3gVyWUS2cKOoKomZEAQAgBADSYBrF
+GuaIl3o3bVWGDk2oYnDK1kPtsPbOItW5EfCcBfYBPAubtSbGgJtLU4hb7Q3Jgpe/
+Ty0OKK4Q+Xk0JmBVChbFRtnXFNI9QIoUBnGQEP9v2uRK1QvnhC4wzRvnGQg=
+-----END ED25519 CERT-----
+master-key-ed25519 0mAaxRrmiJd6N21Vhg5NqGJwytZD7bD2ziLVuRHwnAU
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:24:54
+fingerprint FB61 107E AC51 E731 334F D56F BD6C 4C4A 6477 14B9
+uptime 5893981
+bandwidth 184320 235520 221106
+extra-info-digest 0352FB6B276887E4AED4E3671F87784B56966EB1 4u+tEXY6XOHS2KWSq49nOhQ43uHCSliPazC5YhQ+p68
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMHc84acKDhoATagmSGw72i7tTvBDEyGFWj2jl9py6b5EcS38DEx49Sw
+O9tnRs2kYayjPaM+FDKJc9+bf0jUcAauqHAeRPLtK50LEu5CtHbcoL1aNuhFml+1
+l/SnRSDqI/7OTa7bG98blxJkWzlfUfubPWiEMfHbNq/yZH6N2WPbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMJTTkb1os4+0rlrglBWlyAbDBXApT5J6BYiugibMwwDO+X/55OsRuKn
+/jHsbKqPQ9yPnmx+J79MHW9ObLBhiQoKmw/MkUOn+ZFwkipfLyElNuCLmwpla9SZ
+Mdd3jEgKVhjsCnfaCRfxIo+TGyRBJjeMDYZaMllxdK+NmRSEKh5pAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+IS3Vs2GDxSrOHQL02Duy2PO0UAx1gGi4U3qx23i9AmOkNSXDBIoqUwk5N4yppsWn
+Qgjup02sMDKX6hN2THz9UaMBx4y2Yu9r1NzMp8sWqC/4aUERq9Ak09MZq7siH+MM
+vkn+DVX3yR/tIzZ2R3cMeCu0cKlOMjYblU3F66nwmbw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAdJgGsUa5oiXejdtVYYOTahicMrWQ+2w9s4i1bkR8JwFAEhtXs8FOPH8
+IC6/pm2CPruHPT5Ga28SkATV9M9O7AGZRX4XOOvQBUCV/hzAr6NnVqQAdDiBglLr
+89mkZdlTtAc=
+-----END ED25519 CERT-----
+family ttnRelayAlx
+hidden-service-dir
+contact Alexandre Girard <tor@alexgirard.com>
+ntor-onion-key 4aCm3aFNpz4OuutKAVy4qDg/bgteBxSnKwqy3IQyfEA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 +ojJR9HsMuUZeu+QlP1MW8JYOYscoNWPf3ZQ/4pzWSgf/opemR6qKm/teHYqGrqDdQRIYocq6ZgqP5G+pHM5DQ
+router-signature
+-----BEGIN SIGNATURE-----
+L01pWYujfGm6AYRbLsLJC2phTzWYEQhZNGrjmgt52UXrs0+dftaojUP/3BN1cLkr
+faICzAH6m4u9dQZZrMXOJc+FQCDRyKNXfi11wpDOUHH/W70+hdVjfFsSbRCTyMaf
+74NjpG5D4lOgukzRI8+bm8cjYNdzRPvte2Umpd9l9Q0=
+-----END SIGNATURE-----

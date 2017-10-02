@@ -1,0 +1,52 @@
+router torbsd3 200.129.11.7 7331 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmC9AfqQqmU7MFxwl8tXQKTwsXMvcKZbFh4E+ICjlit559cQAQAgBADEF15p
+FNwypBR1Lxr+39ucMsUUW5uoiqyZCx3J/sYar25gP6bfg7zmith9gGOlP91/txri
+sxZDZ0dDnw5dmaU+WB47CUEoX/DZFNtwU0IpvzHaQyMjZEWPzbpEd6D+0Aw=
+-----END ED25519 CERT-----
+master-key-ed25519 xBdeaRTcMqQUdS8a/t/bnDLFFFubqIqsmQsdyf7GGq8
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:26:24
+fingerprint F586 5AC6 2934 2BD3 A5D1 6BEE 3BBB BDC1 158C F997
+uptime 1354698
+bandwidth 6553600 9175040 383742
+extra-info-digest 52BFF410A3AC1C8C4001B69D841D0ECF7D4913D4 siQmLtc+W6AWOb4CrG3KaMirjq/cyfBx6iLvsL8wrXM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMa/EgzxjjG1pBwUPMHuJvSylZBVPymcLob7xmntAy26GlYMTXRb93Qi
+XGzf0bsr4adEyGUm6k/a5kt+ipZpj2z5IWnTLxqpRVa2Ga5EqyCuFTCf23doM57k
+vr50gWPs4ZF6pR4ezscW98yiFP9z9sloylQvqnMp5xLHenrPjzWrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK0m1pzilGNLzz4hAZBfl05nQmBxihJYftM5D3VnTeq/G0EzNZUgo6hk
+bcYA3xzZjSpBe2a8rURP3EJhkgBebV78SpNAzH0B3swN/wGSOpvFGUZOuCbOVXFK
+1ue5ZhiqGn8iluiaIw0idhpvQbLFSVxvyJ2CN8iEurYCDyQWrHI1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+egxthnq5bB8LuvTx7i1CaffmxsDkCTyRXYVJPg2k2JcsXcR7ucntHZPMp1T6qaz2
+wbHpoJyjNqi2upYTuSsxd81yHfKf0wAZ/XGml4HrmJn6EQ+BckNrCZQ68akNfeet
+hP1X1nAXPhyMkO8hjOV1Vun6OmQLdM4NbBGvACwvGa8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAcQXXmkU3DKkFHUvGv7f25wyxRRbm6iKrJkLHcn+xhqvAHjNziiKE/ou
+SqA8AnB3kkwb/S165x8fOIk3x6LTUvemURYtBYgrXHqUZHU2XFQxJ+WP0f+r/0hU
+pomYLAjDngs=
+-----END ED25519 CERT-----
+family $04C61633415BF15F5B39F7A37E1B4F13F6938FFB $4179776B48A72591D0A1EF058006CEE52CD48576
+hidden-service-dir
+contact 0x415C653413B43475
+ntor-onion-key AigXR5hPmHRCGzlE7W6uKSdSQWI1VmSNBPArNr5ryxw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 MvCj++vRp4ui/c6YAVixZjSLW32OeqZ4Bnd/0I6Ds5r+vLRjS01Bwl+PtG8MLcQSp/bD/PUK3K2kWMN8M/GICA
+router-signature
+-----BEGIN SIGNATURE-----
+kB/R0UcPmhmWew3/fqxot9xq+ixwFKCT762x+YQvZDaFiPjo/NaGiWEEG3xUBzIZ
+OYGq6X2ZnGlp+blCz4SZSYx5IieBhtl4t2vuF2bNB9wg5g6pPjHPnMJMrZ5FOt9x
+hvGhFTlxluTTb8xJ4svjH3154H+Zgcc7/+EoFn4K18c=
+-----END SIGNATURE-----

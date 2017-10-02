@@ -1,0 +1,59 @@
+router RunningOnFumes1 185.175.208.179 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGUAV4jQI81tUXFn8O7lUJoIq4LIbLb9T+nSWnCZAXPXVUpAQAgBABjPh2u
+6erx/oXP1V7SmllHzBGqkAT4Dh6oAvzkZ6ZV8Pw2DKdIa/3/E50zXnJmqbfXkFfY
+wuRvVXtyOJgbxvTd0v1crE39klXjYVtq32rffvHKfD/qtGxZFn5NRl8fDww=
+-----END ED25519 CERT-----
+master-key-ed25519 Yz4drunq8f6Fz9Ve0ppZR8wRqpAE+A4eqAL85GemVfA
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:35:12
+fingerprint C6B1 DE0E 0FDC 0008 0ABA B4F0 780F 3568 85C9 BB82
+uptime 1504277
+bandwidth 1228800 2048000 1521522
+extra-info-digest B75881CC64B33360377C8E4ABE7A6207D8408C16 1LI/D/RcLoTftm5QWXXTEcbwE8AG2ZQ5iHk9AW7ue5Q
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJzVlpiRAFXLbH9HYRAvHe9JqWopPtQ7D0ct690mhIAo+ioSNS0r/lXY
+JeyeErTwih2JHO5Ltsqk4F8j8zfX6tZu+/n/WWNckic1vx359Rz0Tq3bAwvIdAja
+1nbijMLyc8lrLHB64IzHhBZUpk/hg+PdEjadQRxU6hHbd6tk2g3dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANrGOQLnzEhrrdRcxT4bMbB128Pt5wvqTD4I4VYzlTkj8oLDCR4sSR7B
+C83rCYgZYS9LeDQv6mhheF+FmIBC9NKOclksmcKFkJsyRg6m4GBATc0jMPeYikMx
+SHkVdmZs9cIHnd0SW70mWbZTTO5saT7rvQsTvEzzk7+JYOAwBvo1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+fB/tO1aJnqHCWVPxeSMMx9J6vNw+hz17JrLVNG5BeZgjYE7pCpXXy5ShKEl+G5k2
+IRo2MJnEWCeutEIvpwUteYlfETLmIwAW5WBDb78dOcM+mJxW4j8N7ZJkzNFvgDwJ
+goHvuW7GSPQKCI6uyjXA9CUDWC8euG7nU+xXogvqENQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAWM+Ha7p6vH+hc/VXtKaWUfMEaqQBPgOHqgC/ORnplXwABRorw3uR7i0
+orAoa1tJULCyo1nXCOM5FIvPOJf9yjN1aSsRQh4QIFlBAzyYO2Oe3iC6yOVyp51x
+QWastOgV6Q4=
+-----END ED25519 CERT-----
+family $78B66EA0DC1EE688A80754106435AF0A61143E22 $B973F7C0D561288951139646B4EB83AE2E2C2690
+hidden-service-dir
+ntor-onion-key 0NoJ05HHz+01rUVM5ReDjesk2+1zd00iDREGYqQIenE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.175.208.179:*
+accept *:443
+accept *:6667
+reject *:*
+router-sig-ed25519 Vcu2MpCfCwjqChnQy1xFenT6mwee0a6aDML0pm5FGRc/d1/0RS1P+QwtEWeGCs9QTlRBvJykPxljF28jkUV2Bw
+router-signature
+-----BEGIN SIGNATURE-----
+RV/m/XhYoPI7OFzz7Jbveyy4XWTS/sgmybWSp9lfPdwGtk2DDxJM+fKPnDv+Sww4
+CCCeYmN00EezwL07QvBBX7Xy5XE1oI4vc8FbOPddRRW8wl6vBWrNQWLaWWh3a7Uu
+wQlDRsV6s9p6NzIBoc8RX+3WeBvUmMGVxRtqAxBWVSI=
+-----END SIGNATURE-----

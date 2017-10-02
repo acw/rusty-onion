@@ -1,0 +1,51 @@
+router myzetor 88.188.220.209 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHAAXJGYPfB1FAvpBhe0F2QIfZaR4daN5NtTHaQ5YcCGpCZAQAgBAA5FTZk
+JFhNSeAcdVetm/OtF7e2UrvC9fbLNs2+kb8LPd0FElDFafs1jDyI+76Lbz8hzRLw
+euSeWvjwbI3i93h+wwpt2XqNs9grYWwnx5ZYIgq2/PHezAbVU7IR29yIsQY=
+-----END ED25519 CERT-----
+master-key-ed25519 ORU2ZCRYTUngHHVXrZvzrRe3tlK7wvX2yzbNvpG/Cz0
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:18:30
+fingerprint A0A9 DB76 5989 7A5F 65CE D8AD 0F37 3029 FCC6 558D
+uptime 2106283
+bandwidth 819200 1024000 962551
+extra-info-digest 7E5C3E5B7656042559763A3C1981D621EB7D8258 ZXvpuGFJRJpmwWPL08tm98RZSNGIDZtnq2O6gba8eWc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOaloN0pbK9NNHAp0SQotH7v2YZnFpAwgzBjXoYHPIzZfhDQG3c+R0MH
+iqFiYD6HAzKEjqmHj2gyewuQoS0bRzwY4bwZ1sdfPuYRH32Y/WONZfq9wHC1NxhP
+vAYvjyyMtYZUlHOgtar/Dff3WtYqfNJQyUIKOOatm4UTE0DzzPx1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANkNmJNZ1h3r/iuiA9zH84zd+rVaF64qXkIxn93pLurgGNCKJbpkw+q2
+p+zc0jbbQ7o6m+SohcmPZXNzrpqhyGoY2ZBgqLWxfeumstsYCymD62Iz+c5Vg6E2
+eiCGkHBTy08KJxBC2MNFLlI8UJL3652pJyYr61bONF5gWdBE9BWtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Ssuqxm3Foqu0SA3tQUpfh0xMP22asrccLdMlXWqp1eAdIPBraKznrcLkmDdntcPD
+oNTevuGVdx8+vqA5tPxlVvQKunloXG7k0P9Qnz4q+mlyPzAETml0YBrrq4CCcP0V
+EfImMAw1Vt41O/bxuNsSceh+fLAvSPG600iuKueU1k8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPATkVNmQkWE1J4Bx1V62b860Xt7ZSu8L19ss2zb6Rvws9ADmHQ2734ody
+U21sWouJlAOXcEdFXNehvMntJcZolqt9qZFznJeiD0x9QP2wQaKbMoUAieaOB6GN
+bNtAqZUfCAY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Jean-Michel Gaillard (0x73ED689B)
+ntor-onion-key el8ZDqSLQE8XcUmIUk2vCXQxRVRnKyPVm/SKmzdjIxI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 5pDkTQsrj79a9kbVc0MtQHt0WxCSgTyq47zJRX+sEsnyen/9KZg+Fk9Lq3tfD/IRmHPJC6/085M2kn/WTrzHBA
+router-signature
+-----BEGIN SIGNATURE-----
+VZY5TYbgfKZ8iEgIhiLo+cK0LK6Vwmrn/w2d9zzMnEmQGsY66/9yL32ibWDWyO90
+/Uxx2gXLB2lIw0YLsR4neuL4f/h1ffggJMb/yrjsqCs+Ams0/k2fSHXsu1MbkhRQ
+3GYCqdwhr9faLwiaproIeO4q9ZXRzlifYW521eNdv74=
+-----END SIGNATURE-----

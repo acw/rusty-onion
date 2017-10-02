@@ -1,0 +1,31 @@
+router scottsmith 173.255.250.126 9001 0 9030
+or-address [2600:3c01:e000:b4::8000:0]:9001
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:22:34
+fingerprint 1C55 B5EB C6EE 31CF 1989 E3AC D4DA 4FB8 B64B C231
+uptime 5340982
+bandwidth 2097152 4194304 2513920
+extra-info-digest AADA1C54C6B9306861A3C174313BE752DAB98254
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM3qm5Jon+Pyb6Ajs4E46vCaRPCNmpxDCWpRO5JwehNDpR8Z18G0VRZq
+sI0VTDJCZ8dt0SbbgqUdU7cho54S0LkOgJJrWWUu3SWh5fGju2aq5R2MpZv9xUHR
+e0FzaICfSPwkf7mfWSGMXABsu2+raQ47HoTaeHfy1V5pNuZ+BggvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALEzk60OwBFOhGtjnDm4BnwDn/3ojXiJS6mnrS8zbQTfoApjY9uSQHAI
+YetAExNy8T0Xgi8pTIDeMdP4w1OQgEap/4yjv49nwUNiI7Hbc5oCol56Y5dS/cnG
+NG0HAv4kgycM++kxi1HrllgRfXszOV904p7h8Op8d7jnH+twAJ6FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Scott Smith <tor AT scott-smith DOT us>
+ntor-onion-key pwViXW3s+eitFtmp79f+SRdTZhAPC9oKZutI1j4WngI=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+nJhdGJMGgIMfDQdRjfyYasjTdQ7vr9R48IWUNDuHjhRebJ5ayPDtQ/qEhoK034FV
+hyYGIgMDV+eU5HQdfMaKGUjioZSegf4xNSE3mTIC9gSLAZJxD5w480CqQAjeOV3I
+md1A12BInGHrxYZaQ3Pz8mfaOKr98piuwCLbIEKwmwI=
+-----END SIGNATURE-----

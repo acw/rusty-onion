@@ -1,0 +1,51 @@
+router ovtor 185.157.160.83 50015 0 50017
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIFARSlrOqidyV5Y++EBs0vYxtYrGGOkmtKgVSEaqiHgQ62AQAgBAATHgG7
+aAqZs4Bt2EMdwReEI5bbdtOJ9geHaNzZ+cE42WIkdh683/sT8bdIin/7BGEfePM1
+jnN+gKEXaodOPh1s1bciKFJDEV4eeVqdkX4SGMKm/WTx89L5p9ZbLh5iLgc=
+-----END ED25519 CERT-----
+master-key-ed25519 Ex4Bu2gKmbOAbdhDHcEXhCOW23bTifYHh2jc2fnBONk
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:43:49
+fingerprint 3386 ACC2 1472 1921 BF8E C56C 17B5 CD4A D08C F73F
+uptime 388941
+bandwidth 307200 409600 348205
+extra-info-digest 376071C4AFB5F3D0A7B0F65AA25B2DC210572CA2 SXK02JmFwn0OrdZRQsHxH0XomHz7Lkb5k0Z3npbkiVw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMF69g5yfCNgkIJGvezy9W7ZO57MN5/2x+68cZpwC+kKePhxe1OE1Dsm
++RXeQ0OG8lD6b806DSghbtBk3W+2qDO/IUJV1TfxKHA8mnfrxoi4FIh6wUy2ZZWN
+npjZUOHn7wsuLsfysXbSesfRxyIMgQhYtpW+qCeo/DlpminsV3X5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK9/Glmc8z1BS3papua/UEU1XJKBWbuzcHbxrB7ZfMtLROuZnWFaxxTz
+fs29sVgRsW4Qu8On//I8ck1qXmRNXyZcomALBgXuPjzUzoqvZ2WZ+iMtn/1tDuOk
+JpCcL5cemCm2Y+b0iFNe78fvOW/fT9LCOTsxufSMXcsovcRFGDRRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Bm5ZHD/t0vHsaoUmtcJ0weQqJ6IMIkpGoKzpGs/q8W8/dEYV2Umz6/+tnY34RbtA
+5bcc3qqPQKB5gcSR4dUSpN2JPkRC7bPL3DephK+UsSUZvJuncqvsBql4YBAV94I/
+HzSBTzXDJEtF1hI4SwV9zhw5plJeMIpJ5azOJeRRPPM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUARMeAbtoCpmzgG3YQx3BF4Qjltt204n2B4do3Nn5wTjZAIK8dRVsNBVf
+pW86KqgB+o4rDL155lUjfT6M6omfcelfkFv1xHlByyLeVPGUgOPpGPkIwuo8Hwux
+5QdyO0Hywwk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact ovtor@protonmail.com
+ntor-onion-key ys62+HOYGcT7Zx1hty5FI+K/A01CScFAYrkeLKQQOzc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ms/KPgKxXYQvjthe6IWGzs+NbTD5aKM7y0DhMG9DYyf25ONENPaFdtClLKXGU4voyS9USW4WeAo9HCjzLKQwBw
+router-signature
+-----BEGIN SIGNATURE-----
+jq5D1wd6NmNorh8FFzfbvzu9RkyQCn1lNgylhw1CzseMr/SCwIxyh+q6D4hGtGJa
+5JI5iHv/xqSQD/UqJ/Sn+kFFAwZoT0P9xDopooI4IBfZhTwnVQ1PM2npQg6U0Xrx
+woKoW9rZK17MGrO+Q0pGGWWpC1SnDhdwtojqfF5VNEY=
+-----END SIGNATURE-----

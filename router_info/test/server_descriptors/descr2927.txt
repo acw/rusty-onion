@@ -1,0 +1,50 @@
+router Puzotopotun 109.194.253.88 48777 0 48999
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGKAfPt+Jw1PDZsxooPI7M+3aR05XfcQGmPoHASLEI7hLWsAQAgBABuwZfE
+flWmzNUtZtCay8NVyAjzJkdEiqlD6dM3P/+YnkBwGYa+bMm1PvIDzPwLEADzygn8
+6748UWusYNWTTupMuqH8qsBDziOhG5ke4ik1AW7oS2nUAuarh8KX7yL3ugU=
+-----END ED25519 CERT-----
+master-key-ed25519 bsGXxH5VpszVLWbQmsvDVcgI8yZHRIqpQ+nTNz//mJ4
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:33:55
+fingerprint B6EE 8906 5D18 6A92 DE16 1BC4 52E2 F3E4 6024 38F8
+uptime 3
+bandwidth 1073741824 1073741824 1443840
+extra-info-digest 55929E1F6A8014ACD0C39AB92885E3BA42F76DEB amNzXK+cHCwskpQl4aHy1ooy6jN882BW+cgLbSF9AZs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOxnVr+ch8nGHERwj3jxVLFXm1HmwhaqGid85KkVbX4jrRam8UdP98tk
+0y2ozSHrLylvDmstNBYTPDO7g5mkN2tWBiJVTLXJUkuXhKnZQ7kNUfWeZzUlxsTF
+YwN3Oc0Ln/2G9qN4TJdpEn43uKcOu5S4KBNANxDrJihzNYqmZH0jAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKkbq+Que/2cpObRc191IjSLNe8/RGoK4TWZFnLKYAfGfaabc7F5u5yO
+9YB+xZR0e/KthSV/noHfX4r7qseKIuda9C6fUDdbaQjiVFKbOORCI2KsUrLyeQQM
+ZbgKsAohTMH5M1SfYejdGWh1ipZZ3g/IeHAaRRRYqTie5+v7j4HRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+LvGh4lYSUzA2GzqKh1wFoeP1Kekpp20Me8/Cu6lG7obQhTp8cRWoWosGrr398yz0
+ey3zjHCuN+uhXLisnFSU8PBiGUJ3HdN2OTmB7Bq2tEPqKTqU1ayyzbZqqqtH/77L
+SWUYLCGQvy1EXSW+md/9ClRIhxotV+mflLLBMEdMwMQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAW7Bl8R+VabM1S1m0JrLw1XICPMmR0SKqUPp0zc//5ieAHWXijs8wS7d
+7ZMx0UqzMALdE1D2MqD36Ydb+XiyUjuTzcFRoFlHojPOmBN9jO62PgWmssjzuzCD
+mrxAY4oHKw8=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key /t2TY0Kv7qnvAPgeufeWLzglzHGgZZP0tKHmuKm3BxQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 jhVbhESngmumFDPrVeQNVJpI1oPIAcwX5d9waUD0EBSS8HF/zAkSk6ILTCWn9O/mr2HARMoK1MG8KxVZ3TyvDw
+router-signature
+-----BEGIN SIGNATURE-----
+c9GB/P3lGLopk1oHc+FayyzLqzQEBkaDeB4swQQ1oM97phhZ9gGeOAWseSVWBQ3g
+8YKV21grRQYXNEfz2giMiBycaCkhAejeP7OCnvK2uV08r/Uz1T1wlmzI1HspZpla
+njrbl77LlgF3ib3jooR39i62Jgh7m9LuW3MEbAnTPUs=
+-----END SIGNATURE-----

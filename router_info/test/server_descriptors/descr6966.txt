@@ -1,0 +1,43 @@
+router RelayKiborG85 91.231.86.101 9001 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:51:16
+fingerprint 1C4B 7043 C922 0F11 FBBA D5A6 12CC 7981 AF48 461E
+uptime 13651587
+bandwidth 2048000 3072000 2346878
+extra-info-digest 2F08B3C4E33D798F072DFD18010D7EE9AA8EB2F0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALsBxBXzn2KxKYiG9w+jEjcgaWvZ/wDLJ3iVhuRw3iOzAU8lm3VGRCQD
+GUyw2myLIhNj1UEdi1cIUWaAQqL1gDn0473vGSwrLJSLpCLGy9SXnSBrUlTJeFiz
+CEQYV/VownxB9BruQYk5xOUgAlI2LEfFafi1IJlm9Ia8B0Mhec2tAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL8SqgQ7Shgpf8TSZ9Si9bC7DUG1WZCtjfP7fBdIO2RfdO8O1VdnHjYM
+MpFxoLHLFQvUz62g9VEH+sGaPlQSJl/gPtz4tpDcwLI4UANdsAYgX3RMsKEfqUxp
++33ciUZOcexVqS2iMjh6LM6jWaLFHG/UfmLEva1XnV4JJQ8NXf19AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Mihail Kiborg85 admin AT kiborg dot in dot ua
+ntor-onion-key qq/x27gfl3hcPf/wE5iCZ4BYtq3BZbfLGCzgxwf2+Ug=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 91.231.86.101:*
+accept *:6660-6667
+accept *:12350
+accept *:23456
+accept *:33033
+accept *:5190
+accept *:5222-5223
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+nZXUdo13K1+7Ax+oOyYpo9e/Hhs7TVw5wrJops4He2bRAhCZ/WKIu156JQFaOh/+
+jb31+YYL8OTWPE/ha8ZEozpLhKGR6VZ+BS70diQvAjwFR/1GAs34eYOTcjn/O9HZ
+0MOSS2+rLUeWoP37ntCnhFQcHTaM9foeF2bo3/xgMoQ=
+-----END SIGNATURE-----

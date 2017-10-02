@@ -1,0 +1,51 @@
+router hirakim 84.156.121.79 9001 0 9002
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEzAWn8puN9YMflSdTzSzIoaNUpeweGHUw6qr4oEAGNW3o5AQAgBACGmd36
+oysyH/wCvz1InWmbC6mRH+mw6KwxmGKp0WvcMR3qOVZ+XD/aojsjFanh6xAhLKCA
+NPPKyrCk487CYjCnHqJ9QpKCp2jK/6BYzHXf4Mxs9ENUKyaDujZnVaAsiAc=
+-----END ED25519 CERT-----
+master-key-ed25519 hpnd+qMrMh/8Ar89SJ1pmwupkR/psOisMZhiqdFr3DE
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:19:54
+fingerprint 49FD 5ACC 42D1 0823 C6F4 B355 3293 8A50 DC9F 2036
+uptime 4
+bandwidth 1073741824 1073741824 1090258
+extra-info-digest C8C519F623DA3EA08009AB94DDC5A592EFFE3585 w8MVtQieti26+xPLf8rm16KzovbCJEbIXyxImRBc/Rk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANi0YyjrHGmZouP9HvhyvBEq2w11iVX3LYArCe5bd1msdDDlsHDr0Fcr
+vG5MR9JqOSLl8dgg9/N1gUYekRtYPgI6YdViyIsQW6ubHPZnkC5ptJSUI3B8rthg
+oEwnfCv1ZeKmTvLUOlhFPpWr3/kfx9fkxdpmkcoTZt1FDMfS4lqzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM53eAPVWSSYicD9Yr6okyPJroTAKuVihHcsY6pSulZ5UKtzsIn5Yu9h
+5GeHuq55UWOxzgpXPZtItpQaS81xnlU+CfeYHns0m2452jMjtRdT0341JdKFqUk8
+pwpT+5fP66ROOEzHqLFEWz7CsrDxwInDWsM+7ZI4mY9LDMNixdYVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ci9Yy5FsnVm5S/VQCRXLY5HjjJRzwgk3RPab+r1VlwD34blndlfj+rg12F0POEBq
+jOQmK6tOcGorZFCLVzUuyddN4afz5bFfc+qJONggn2T5SCJ8i9SM6R/qIka4uiHs
+2fCj6fD2/C9JpriCIWZyB50LmnM3jeNMUtj1qrvx5+c=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAYaZ3fqjKzIf/AK/PUidaZsLqZEf6bDorDGYYqnRa9wxANagvSEtqw4o
+9WaxYcQ8RFe+knjl29cNXACRKKE0wIvOkmDmsoOJwEiq1OzhFsGt0Gce/iwJa5BI
+ZwyTD5E2bgs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact hirakim <hirakim AT live dot com>
+ntor-onion-key 5E7HyWS3VtBeNctkURKDftgqbz1kj4Kpz2z2GDnknjk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Ji6KHzAx3ZYvtYLRUrmpc4oD0j/UF5bEpS8fgSCpVOBVoZ0HVci0nCzxaceXU9COF4GbdO/CyGX2Z4FIQs8YBA
+router-signature
+-----BEGIN SIGNATURE-----
+nucNx1LVoh/yyip5iJ+a2iOwmAtIeMLneSPlSu1ToUs7bzpol21CWwPDfguGUY8i
+AfaYYxhAmRkuLkucWaOMxSw7MesUilw3p6caWClnbXrSX8+Lp3hN921Kxi0Opj5P
++3FYF2GlRazkuVKqhz8de+HK1+esUBz4SgvyHgiLcdw=
+-----END SIGNATURE-----

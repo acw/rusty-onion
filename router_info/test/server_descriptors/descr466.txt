@@ -1,0 +1,52 @@
+router poseidon 5.45.108.48 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGkAZlwNNGPp2OHPxGP9/50mURa2PNtxv3ptv61N2oW8T+4AQAgBAAxux/Q
+nbLMnwVgtIrOZKKHyZ+16jvYNtC+0iv9WQJTmk9RNcTtyhS1VJzU9jvwS2Cp5EzL
+lQn+NVL5bIPhUcRZb7Aw4SpZGY+cUWVFShrDirp5/uf08Eet4CgKAhyuYwE=
+-----END ED25519 CERT-----
+master-key-ed25519 Mbsf0J2yzJ8FYLSKzmSih8mfteo72DbQvtIr/VkCU5o
+or-address [2a03:4000:6:2042::1]:9001
+platform Tor 0.3.0.8 on OpenBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:01:50
+fingerprint B795 8935 5A41 880D FF82 F522 5F29 4043 7CED E925
+uptime 0
+bandwidth 1073741824 1073741824 1439744
+extra-info-digest 85AD58CD710D4E8D25D4BCD8BD37AECB6CEF6AA9 8EH3Yjnr3WnXa0U+ncDtJjC9h2svXeJjsOhG0JRFMAA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL7/Q6eDNokrsW5HTGsFR5rZZ35hqeMtd4ZVpfLDSru/yoWCXRqifx8P
+u6cECUQVLGPrvG+2DP3VB1BlrJYJT3wZdn5WpFtx9a1VFWDWx/Cm+eTd7SzuSbUn
+DDU0E8X1yhRbIjjglpuqp2l2ARGg55StGAFlcwFcnAktvhztYdq1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMPQu5iPSBViO8XPPyGlt2/DsibfGL+7nOxrhJfRS3JvIa2TJ6I+Mp0j
+5FY3paoaFd2zQtIbhNJLbIfKefpZhtfotVb7K1HOgmwJQm84jg+lKqcTHRlbMg+c
+sf7lbtFnznjshxHzlnOzZSOqXWBJn6J3ngUp57WTVR0HNK4ll3ldAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+piMdQSayHiVBm4vXJ91cfp1U+D/IvCdf6I9+xVNUs5L/Gwr+nrV44/1atTKGbcHU
+rIGgnkGqZqK2SsivFuXJe87V+dbqhW2jUCqQOxlvMnFqFMP3tZOXxiTbD3MejMLJ
+ky5q7eV9fF5o6J5V9QYSmWTYZe7BHjsUAtHnv/3WfZY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTATG7H9CdssyfBWC0is5koofJn7XqO9g20L7SK/1ZAlOaAOOL46l/7oV9
+8vtJ4Dve67GRDJjHev4bzpvx4A+Sw08hj+ee+l9R4YsT+o1d4rW3M8YTLY8vmgMI
+GtiLTBDufgU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xDAC4CCB6722FF7E5 Alexander Böhm <alexander.boehm@malbolge.net>
+ntor-onion-key pa/43GR3/VrzHXxDFy7RSB+oL+k2CXMjlMcUuuLzWjc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Bsl+qDfy8PEx54rt4+k8Zj9p/SHr1o8oZrzowdP9NWJzeuqd4vOu7SyWy8+XwtcdBxCCMvRABv5F5YHnxCIXAw
+router-signature
+-----BEGIN SIGNATURE-----
+upJ0szjFKPx+X+eNp5N6y6xnYHWMmEkkjr0fW00pIAT+djnS9Y+aggLLjJYWtmxI
+rHP2GnP9OVVqWHv8KSWrSw5ElxCniDUtCVES/f2TVItuis41vOikyTKeHftrx4qz
+shVU2UBvIhZeZBPfusYUc0HHuLROMgrXTjn0ZKtVAos=
+-----END SIGNATURE-----

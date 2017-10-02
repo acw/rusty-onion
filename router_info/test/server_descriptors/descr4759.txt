@@ -1,0 +1,41 @@
+router Kaulquappe1 92.63.173.28 9001 0 0
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:18:16
+fingerprint 728B C417 772D 223F C22E DF27 DEB9 2044 51AA 9B13
+uptime 3649416
+bandwidth 102400 204800 131563
+extra-info-digest F68326E7EE17C657F5303127A58D7A2867EA7BD9
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL7wcbIMeCQYnETajvx79tiBOX0Bgg41WMU5J4YsTOeO7QspXIfy7X5f
+6Jf5+nU8zGitHIF8V6vx80yfx2wbSzvv6Vlnnvaalb064Im6pzblVJad28UXjytM
+so0Suv8IAkdwE3/kcpBS7NRHubtycjHSNQo8HrvYSOgzK08XsZ7HAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKV/Lj7GeltUkz8I7svVCmRJnSKVOlVDtSYpcjWJAbIwS75R/65s/b5E
+Xw0RNYyYkd3Hu22UkqxUuPs1+YC+8+j3eahjgIdD28dNXN3LuRGhq41NenwTG7aE
+29lHwES/5YzAZUXxI9kajePGDNoHPA2P4mShf1/O5ByD/Xbi/GIVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact tor-relay@bunten.de
+ntor-onion-key sLDH9BRSg24NbETyKNuylpC+vD8JQRgl3y6LztTaWGM=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 92.63.173.28:*
+accept *:80
+accept *:443
+accept *:6660-6667
+accept *:6697
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+apRXE1tKozlDD9bM7XO3LukBELwFZ1jyxo6b12zh1Uc5cmV7UYNBD6GfI/R/urnr
+RKyTR8hAX1IhIzD8KqY6av2j36Soejsp3moxpjMr85LqKjFRnSpOJv6Yu1pfoWg1
+Br750tkMr1/UwshMoM7AbFeIHzRpFKAQpb/+mQD2vRk=
+-----END SIGNATURE-----

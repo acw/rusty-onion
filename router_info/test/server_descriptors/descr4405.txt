@@ -1,0 +1,51 @@
+router Charybdis 73.89.87.77 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmE2AR8eYOaJMsjZl1nkhMMWV704HZjQd+HvJHYlajXOFugWAQAgBAAgO7D1
+F9eC5gsKKXS3Q7zh4OjuvNTgox0Gd/tDzbPix8bfUTQiMbA7ZPKzk5crIQ6mtGsN
+glVIDaoO7oFL3fJswcVP2x6oS/1n69B52jOHuJipOCaAUA9Jh28WSBts5Qk=
+-----END ED25519 CERT-----
+master-key-ed25519 IDuw9RfXguYLCil0t0O84eDo7rzU4KMdBnf7Q82z4sc
+platform Tor 0.3.0.5-rc on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:37:23
+fingerprint 8096 5524 38C9 B8AB 82BD CB8D 5896 128B 61AA FAF9
+uptime 856687
+bandwidth 1073741824 1073741824 3053271
+extra-info-digest 3E64F24ACBE7D10192668B09F7CA7228E02D8519 wJH1XF9CfDD+sS6wN/sYjfJuyFaKw+yjUmYJHeESaRM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANLWU0X/QOgDYOHFHLizi7t51PIxFDXnv+COQLoM2Fki9BUXXJAdhEhu
+5EsKIrFG8ZXZZo02nIPdEUCSG2CWIf8HoppNtWMv2KKo9vl3GpFGwGQwkZwG4Xa9
+zRT1ODDtVBJBHBj5+78PpKQCWyRMGJUSGPuQ/s5CmIIZIBNYy7n5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM4KGAtVbnz4JaPu7lFI++iW4OVcejgbmAt06zbjZaFUjhA7KfFt90EI
+eF4/S1E/cVj9ceKC53Iq1k1b29Hx5n+BMKS5BR4Yi08OLlfLQmzb4YIWTJPJtpwJ
+gGcZMhc2UeOCshHEFmA0MWtV3vqYQ6F+8c6JHztep0AoHr6mJfnVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+eUlr5QyXgeOUiDYyFyPFypauMg0EwtYjBe7buNuKR9e4fEMX5MZH7mYkHSHN4GQv
+2+G/kORgy+g4pAQDiM/33d2/63kQaMVsjHHOUBf2gQmNF4to0Nm8qFHbPWBTUFfL
+mFYEjY95pvXPUgjcKF+gnj6H9AM663ZxwKlQzngr5hk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCKASA7sPUX14LmCwopdLdDvOHg6O681OCjHQZ3+0PNs+LHAGSxTPypegRp
+UVxaIOX5bjnHVxWbpRwwWuTrSQPeg2OYcPBvUFdDkj6gLloPuvnhWgTlwyBo9WDu
+zHsZWcNg+wU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Brandon Kuschel <kusch023 AT nospam UMN dot edu.
+ntor-onion-key NVOE48BN8FmFYZmUKy1hPMsoE4dmsIjcXWBRcK1DMhs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ALsGMW3+EL6wC2IUDacYuJj12jmZNaEIukueMQd53M8G8/drl8uKVfvPhRHvZNl061mf9v/q0A7tg3JRxRWyAw
+router-signature
+-----BEGIN SIGNATURE-----
+yn+8/oR6LNrcgvXipfjL3SZ4owSbAk6jCWtYaJKPbhLEbYBhBYznAsdnwt8elLMz
+j3QTluXkZ0O1c8mCUbugNny0bolL+YSvebfpVIFqovFlGreC9XejAojrLioRaRBV
+DUo9aBGYOkIJR/aChYzufSaYVQeM8X7dqsEsvso/W/Q=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router BlanK 198.58.110.223 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJJAf2t5cgRIZEhOtwBS91KMYwhONQlaM/S88b78tNlfZItAQAgBAAHOI7K
+sRQr7+dqKmY+pYS+EjuO/iN8fULSdAgZM7PTk9UCfiAwYzRoXqUaTfIn21dgqtQj
+4rgLrRqkCDHTf+GI1oynyqGG3QmyzO2/PD4jFtkli5vhsBHSGz0EEuK+Jwc=
+-----END ED25519 CERT-----
+master-key-ed25519 BziOyrEUK+/naipmPqWEvhI7jv4jfH1C0nQIGTOz05M
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:38:36
+fingerprint 5FCD CB61 AC5E BCB8 F1F1 0979 69BB FAF3 7EEA CB5E
+uptime 383104
+bandwidth 2097152 4194304 2427888
+extra-info-digest 9B78C24992DB6CE34DAEB721EFFBF4029844B3BC mceodYUL6/VhVF93OswStCRMn7Raq0Cu+sASe5GxxAg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALjyLyMG/0DDcqtDDKyPUW2u5ugXil3e1XMTPQXgEgeXp5NNF8HPHjO8
+qXuadkVFS1KB7DKKF8wCSyojn6jvBcIIYSkME8wfm1ZSD19jbsiyz5qfcd+Yq3Vv
+gMIfj9ya2nuV16krBGs2jMiduoSxD59Y6G7TObn0klAgOLelWle5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALPyxPVnuK44N68UaIcyKswxhDG0/PW7Eo/5Fk1icFO+0AaLMt0BWetv
+X+WQf7mGWEUKIiMKbALgnJVgwizgQDZKcGpyQvItJ8Z5LziBFm/rDzOCxpqk0wQT
+wIXpR6fXHmXqyk5BTM9/TKJpHU0YYvCSlm1UzAOT7KeR/Ld1OiwfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+SofszL/3ADqMXbGzY/TuArcbsp/XBlyjGuOxUhZ8L2WsyVKojrTrunH4onJUW7HP
+AQ64eaj6gt6h+ITxH10og4EESzCFisc7OCifh7TPQL71w8rRHM3OODN9o+whBmOm
+8Q/OU5XMZl3u8sL4O/yoOsqp0r6Bdf46gO6i9pJlTPQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAQc4jsqxFCvv52oqZj6lhL4SO47+I3x9QtJ0CBkzs9OTALMJK1vEvMc0
+db+98lJvJpfdFJwChv1Q+rp/JzbhesVo4+xEsMUQm3hE5Ls0Nel/5/5M6gsbEi3V
+fnSeS9cppAw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Bl-nK <brandon AT bl-nk dot net>
+ntor-onion-key TqCbhU96gGiKN8JSp1F7feDKCPhmIaRNJYHSnKVOtxA=
+reject *:*
+router-sig-ed25519 HD3zKQQyeuuHUswij3/sxHUDDAYSGx+vpwyGlvx39o4AIAhc+WDjbwsNK0CaTzTGu+59JotBHBGityUBBxCYAQ
+router-signature
+-----BEGIN SIGNATURE-----
+mhV3XvIfd20R1Cx51qXhBrMd6aV7CaMJo0dy62iJeKo38J3BdZu8FRNxv7Wq6UP4
+lbRQSTRwmPyF4lW2UxR49RKMESwjXwJtmM6caUZ51ZAP70D6SIczAqc6m4qZIm5/
+rYe6bErsemqL2TrUeAomtoq12LVAL/D90FvG7cY2XcY=
+-----END SIGNATURE-----

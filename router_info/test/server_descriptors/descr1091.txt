@@ -1,0 +1,51 @@
+router ICrelay 87.92.163.24 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIUAda9NoPmGdmSyIsFf56sEfagBrzxQLZXO1/AuQJUdRlRAQAgBABDOSON
+uM9xS0NzNHXOX7ziEor631pROcR0A3uqD1fzLhaMnPJfXLGsypfTFkKQX/J3WNw+
+oNbBWniLdWE81P3aS5XTh7AI5rL9Q8DLXvOVO/OnxnzYHuNb7Cw1u0JuuQk=
+-----END ED25519 CERT-----
+master-key-ed25519 QzkjjbjPcUtDczR1zl+84hKK+t9aUTnEdAN7qg9X8y4
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:18:37
+fingerprint FC5D ABC0 086E 9596 73F3 2B76 EB46 EAA2 E7F0 6A87
+uptime 259277
+bandwidth 1024000 1024000 1200762
+extra-info-digest FBF99682C8BAD109CA8967007FDAAB93A04D312F V0Vyz53ysSPZM+Or6gLqQwl4hyuFa7VqE09umagXNww
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL1iYuRmYvb6H+aTXL/b5O/8Bi4oYDvpebw86t+uyArbx7uCSJPD1ucN
+Tnuv1mrOJ+CXlFZM/SE1hdzqamEy6kioxBELJYx5lltZp+BtZYBRKu61hb5x+0dd
+zr3DlwDDXWKu25NrwqnD26QpXQuPtFaUUefVPbB8+ziAkftKGaU3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANd8Pl4fGG2PJ/jvdlUDRm4IEHXR5kamWKWGsk7eLejraOmuSIEfvaq5
+u1M/4ghi0EA0X/HpCDZF9vFWeObwmqhIKL/GMArB6jPo1sJuvsVwEJT4hSklFBs3
+tCIIkg+h5kx0DsPqjagcfim/3HtQZnvCzyP4Mv+gtJ7VVhhN618PAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+eVh4K55TQ3g5xvN4nWoVI/ACmrD1dO90rSGDZMwOwqiKRY+a7QCECXFxdEd+XKhP
+UfsjxirK/HL2ve8XloZOo4BwYhUjXW9RtrMe/qkTGOhHyYEnXFN8tNGnR3MYkWfu
+UsGEeqDnfE2XoYx4AP+PRCRB6PYzltFlQH71kcdex1Q=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAUM5I424z3FLQ3M0dc5fvOISivrfWlE5xHQDe6oPV/MuAKGqtAJOx0qJ
+drCPUoYW7yFCFRzOYVnFSPl48WVCczpxmspvVOw0mOFnT6LLKeQJTZ8z7iA6ggCD
+TLNBQr1FAwM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Heikki <heke120 AT gmail dot com>
+ntor-onion-key /q0ZictnwjtxnHKDmo3m1pFai6c7NEYlUV8WTrJOFXw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 jgfvrtwojd1o82o8ndsCok44N2oaKMk3aOPHWf9ViIOYDLcbMwfBp04NgMnQKQUpwiFaQKrevzsnMOnDXKxTBQ
+router-signature
+-----BEGIN SIGNATURE-----
+rpePUAZ7crrLVO8IX5Q/liFZlXy25lAQgi+NdOC5tGNTle4pPHbN1GRm5C7sQUGN
+gIAINWGxBD4jcb/Lu/Oak0wucRClGBYC+4BnrP/VokjjsFSGldePiDsOo9GOLmJ9
+5x/ZXv5G8jC8i3TSOO1lIaX8sjgDCw9Ty1KnD3XrbN0=
+-----END SIGNATURE-----

@@ -1,0 +1,43 @@
+router uw0fr 213.32.3.27 9090 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:17:51
+fingerprint 668F BDFB 743A 07C4 27C6 AEC1 2295 BBFA 6B77 B1F0
+uptime 307933
+bandwidth 1073741824 1073741824 4270664
+extra-info-digest 2A25D27A60F6D5F69FF0F024AE05F0ACEF87947D
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMgwQcb11TL7ZB3n7k+6Bev+EqOUr7+xvRtd4RQfj4jJedaIMCxWp7Gj
+cnjMw4GQngAIG6XRrnLRMTDDX3t+DIfURqB/wGRqJdKowSGotw7FmXjEvIs5Chrv
+7bCbRAq6qZC9KsuHSQWU9RdvSg9tWVG/gKGJ4I/RXDv9wL68EmKxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALgts3kCSXFN5QdjiSquTkTdcF/ihm31sMqZGYxUuWK4w1O3+vik90aj
+oXeoqiu21SylkBorpvDbZ9jp4q4WW8WgPnov0ZmnXwJYfotyE/+m4bcViMDxhYfD
+UIQA5MX/Txt7ZWKScLr+hMzAmZhmL42jPfediXDZr+o5gXRpN51BAgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $C2B6379D64C5CC75B18C6599851F5507E634BB54 $D7337E71AD07CB6D8964CADCF4D220EC755021DD
+hidden-service-dir
+contact Miao admin@uw0.xyz
+ntor-onion-key sBVH9N3eCgBN0wAMxoiSK1GTbaEnpOdmdfRX/M/jNEA=
+reject 0.0.0.0/8:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 213.32.3.27:*
+reject 44.128.0.0/16:*
+reject 169.254.0.0/15:*
+reject 62.141.55.117:*
+reject 62.141.54.117:*
+reject *:25
+reject *:179
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+E7v2qSCd9yxHTX4YR4RCsG42iVMg7S3HApA2QM/h93r0fj6IOfsApjB+Epm0W0Gw
+Aitf8BOvtlSJ1exSqwx6Mcbrm1pT44WnfsusalkHw40D3cqMID2UmgYg5qWHqPFM
+o7CrXNO67VTlrJFnKA1vUyYiQK72CcQQ3USadPhUYFg=
+-----END SIGNATURE-----

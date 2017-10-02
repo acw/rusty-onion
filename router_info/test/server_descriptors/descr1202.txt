@@ -1,0 +1,41 @@
+router alumnicloud 185.165.168.42 9001 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:37:04
+fingerprint F715 BF38 3CEE EA71 D675 8767 0AE5 E16A A062 C60C
+uptime 954894
+bandwidth 2048000 3072000 3411423
+extra-info-digest C9BDB83CC0BB4E188D98B84C07E0A5B52B171B7A
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANtg0S47QlIleu/Eup3UDrtpL8Ev3PCtp4QlYZwW51lNfkayJrZvl05d
+6OhZQQ03ylNqTwdfjqqAmVWjuYCxRmag/q8Hz/GQqex61bs4LfWEzzuT0lIFl8zR
+Dh+DTJYs2fiMsR9B05iaSIu3Hqdeo8Ve/hpEvRj1nwDXPP3XSuFHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL8vjxnRw6UzHHAuf3U1sgZYHBgT3hsjoA1Me4nJu+LkwgxQmBQcWwvQ
+BUcJgEz2TPqPHkj8AMkvZE3awWKjgQPP48dVYX6nvqhv1ycPSMurnRojYRzwe3M6
+k6IiyPc+54qVK/MFReEt+dJnRkjvBr3veNdj8d4iIyoESb5jVcGZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact tor at alumnicloud net
+ntor-onion-key 5x3H7MZwJju4bFFpa9lOWzyjAF+O4Zu/I+oqztCltFA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.165.168.42:*
+accept *:53
+accept *:80
+accept *:443
+accept *:9418
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+JPD7g3PnH1IvV2ghjvd0VxmfMmvLmEN2MMTa/BmDPiX5obxtqeiiigkgPuVF6djJ
+kMTlW+4B18x1WzVQFFj1O1RP5ZKtCgeG8Qs2vtRhkQE5i16SIMS5iN8odfJVjkki
+/lp3a4nyoW/T6IGZaQWk6d93DjjiEkxBeXwkUY4i3kc=
+-----END SIGNATURE-----

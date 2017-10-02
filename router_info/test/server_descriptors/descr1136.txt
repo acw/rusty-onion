@@ -1,0 +1,118 @@
+router vetinari 41.78.128.113 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBtAeWSfc7lKEeI9IZajCSf/sCpNC69fikIWYj1xq/Xr5gTAQAgBACGpGuB
+8Hzo4ZVFXS9h32EQKskiHgDtGXJ4BMbp1XMQakwa/Fueq67fY2ExN5if5tyGpteR
+WjU8kQnRNZV4JxN0Z/BvwtHpvKIf/HYhzW/ve4cyKFfZfr9wUovBC66g0QA=
+-----END ED25519 CERT-----
+master-key-ed25519 hqRrgfB86OGVRV0vYd9hECrJIh4A7RlyeATG6dVzEGo
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:11:31
+fingerprint 17C1 975E 58FA DD65 5AD9 DEF6 F9D6 041F C759 257A
+uptime 237603
+bandwidth 102400 204800 130960
+extra-info-digest CE03542609B59EBF4AD468F404491E8888009E6E OKiX2MobHdE1s9zHYkKXb+tZPswDI+dbAG1D+GPfTuY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKp7GASUIBITgksoMDM0G3ZGXvjJZh33/6cf0APd5Ii+l6DA/urjV6vI
+LX5V+A0KCgY4uwagMcPI+XYgiNPLIhCGDygZ0/XQl6Mc/UxXHi1rB5iTA35ukETA
+pxbE1lJH++XK9ur896RAn/PDGf7kUPgUYSe2qdWcdbx0N8asxOw7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMeV4RYTrh4rPXAm5GvJ3Q+idoo1YNv8mkfSumSNjyKQsOINfT9fprU9
+ZUktBz6Rcb5i2VqjVXpfzLP9/LF9SzLq+npS8rEp+v4Rf3t160Y/L+j1Vxz8dxfG
+0q70FLuYseu8eoXWwfLZVsWePdF7t5QD7SwFUkVsOaVSevU4F9iPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+npAAWNJDq469Kl2mSC5m9gdcH/Ng7KKMmprJTA8xdTvyEnInCdxj61ouSu0K0X8h
+fdOpiSU2NvFBB2/kkbcvoc62L57OZaxqMC0VmNChlGAIi5U2x949ZdYI+WUSc3Xi
+RD8GoB61gTpyTcRX1/8GNv/FZY1FJ11kUPaXB+eg1RE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAYaka4HwfOjhlUVdL2HfYRAqySIeAO0ZcngExunVcxBqAEdKfU9fnZ0N
+B5kyBWSWkWEStOKBxhDsJ7dIL10isoyXnoMGgXIpfkOPsT+Vm1Umkpcmp8xPDBqP
+WGonHVKQeQ0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Havelock Vetinari <hv AT discworld DOT com>
+ntor-onion-key 4zRS2p83inD7qlhFEKf0z8tsjQkHA3E/BBwpDn71HSo=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 41.78.128.113:*
+accept *:20-21
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:8008
+accept *:8074
+accept *:8082
+accept *:8087-8088
+accept *:8232-8233
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+router-sig-ed25519 bYY9LzO1x3FtCKhb7YtwItkJ3OcyJetIq0b/nxigkhJB1BXWQCDEe8mDJoDJmxK7a5gQBqzCspb3sIKZ9XDfCA
+router-signature
+-----BEGIN SIGNATURE-----
+g+gOj3lNzwI7Y62R28FgCtmtxRaFkvPlAdo2gG1p7Wcw8ynfxxZdWkFv/N+CvaLf
+QkmkirHR0Rkkr0mKk8vIJj8PQHGSzzYkSZepncucbrCNnG510RpR9rvQ44h4q6ti
+uyDOJvUDNbcpGTS3064uXgmhgjxzJcwckrxJG30IdWI=
+-----END SIGNATURE-----

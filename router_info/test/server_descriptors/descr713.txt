@@ -1,0 +1,51 @@
+router Swordfish10 46.128.34.32 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHXAW5Q1yTN+VhP549z2NQplYCnK0fWnGocIzaGvA0R3NadAQAgBACaTeIx
+KLuMGIafiI256/iN3uWA+03xxiPauACPHpk2G2IjuzVk6pNvX3iQ/g+vK522HO5L
+ki6ruoMUok+kHuGoPI3I2U3SepLWhVZjbO9bzQPAdmIznV4du4RqplTaGgc=
+-----END ED25519 CERT-----
+master-key-ed25519 mk3iMSi7jBiGn4iNuev4jd7lgPtN8cYj2rgAjx6ZNhs
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:11:11
+fingerprint 61E3 7691 8926 84DE 79B9 FFEF 2859 8B51 4D54 4786
+uptime 65075
+bandwidth 1073741824 1073741824 1036013
+extra-info-digest 2B290AD380B1D3E6F69ACB43FF6B94FBB2CAA15C gedFQBSqTp8U9QRLd/W+nXq0Z2FJ58z+2O9n1+wk42w
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK8gAxI9ugk1qkNtKI0Iwxk1e2uQzB1X7FSEtsMe0QSROVUtzAp+StFz
+xjmDfAtSbBddBm9jSrHXx9qlECPftcpwvCWfP7IZn7/4S6mmNNuGeL264bVvf3o7
+78mxi980IfAx+yq+LvicrdjGqUgBdPyk7fxy7qBOIrvX5eqCXbVLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALng7I/NJWSeys2Crf/rxCWRyMKxwg9q9prbWaJpvmxwT6GCGO1TIq5J
+tt61MQLmYgyA6R+QS5fLFclNk8o0txeILE0GhHADTKLSm1vi4XFcIxczx/tBHdX4
+6uvV5xNYZ++fp0TX6leBu6S9BMukIGnx8Y30iHpQcQDZOvIAi0fhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+UwFb5Hh7w4vvGkCabXdDViPphN6ZaRe0HOo1wJ66KdKxsL+KWKXMDpNBGjt0qNlI
+QTJocRD9wEQ33CZcLNTfh57ujpT5ZSvGopTVJEy56D5PUfnNL6dyPJRXfO4PFeXG
+Mk6EWgeLtEuT5Yz7H9L0LFKgaTWbaOkBC6dJmChtoHY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAZpN4jEou4wYhp+Ijbnr+I3e5YD7TfHGI9q4AI8emTYbAGnEBH3xPefL
+qONfx3ULcZ4KNi8cOK7OD7V+xmzeq3lyDBXxZgAjKR4XwQBRPAVvKGQKvgGZgozQ
+24UA8gWGZgI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact none(at)ofyourcorncern(dot)co [tor-relay.co]
+ntor-onion-key 4UMuA+Yi/yZDiMsdh0NVMm0EzRWV7+2VVY6jdy7L014=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 9YQsf2DefEAKtG5NcN92POtuITHwehuaowolOjxStyAPV+ao31Mpo5VEd7qaPs7m4C2BFz8WVyqgoLN3v/FiDQ
+router-signature
+-----BEGIN SIGNATURE-----
+nUtG7ojsOkjbjwlx3q3S6/jf5EcxsFFzjQeUNTgbtbOPssjYfTcqppWM6u+xL2fq
+RzP6a40cMeIsSH10mgEkIpjbKRgnHemaiQBjzJnCVlSpqvXtrDIXsLfnz1IiGY91
+YLJsPyqUNoGYEV+8zdbI5CUDIzKHQqAhFfAfv9+Zfjc=
+-----END SIGNATURE-----

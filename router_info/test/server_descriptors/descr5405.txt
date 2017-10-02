@@ -1,0 +1,51 @@
+router anonrelay1 178.254.20.246 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKfAZloZ5lphTfFmcPzBiwMqdiPrEaIEfkGd9hkAIIDzr05AQAgBAC2i8CR
+hnijdrQMoIweRL5HQWFWf27xvu9J3Zn938RWeks6caJ589Fnx7uvBGSQA30s/RXj
+Br72NyQZw6oWwYDSlTnnxbGjzgAlGnqTx7gWTXheQ91z3IDHoYEPzGWSCQs=
+-----END ED25519 CERT-----
+master-key-ed25519 tovAkYZ4o3a0DKCMHkS+R0FhVn9u8b7vSd2Z/d/EVno
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:47:54
+fingerprint 5910 321F 61FB B503 8AC0 757E 5D3B 5D1B 1AFB 69B1
+uptime 3758621
+bandwidth 409600 614400 486285
+extra-info-digest 3EDFBE815D4873F2BB70765AA3ECD6F7652DE5FF Iio/s5rFiFYbpIqpd0TQJnV6euTSb44mviyXaq9lU8s
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANGXdEaghnNvz/0wd2q4HD6Hdc84VUSDd/PIEkXE1qN+xR181sK1U8tX
+VfSfMXhkBL4QAoW8mMDCRyq9vcpysPugB6+dhIOo/KI7ktbwZIuPUhHXAdavSRha
+SrHCviydE4w7lui/ykQ/dx7S+xVlS69cRbTlhwuvj7Uft+RIxw7vAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL/GMi0UNCR/LKyJemTK7Sr/xvQdhJSMc+emf7Ido4WqKWtx83My4Brc
+hcBDjf5iP6zAy15vgzXT0CaXHCuGuwvLijJuH+ph4LnMvOFn10E56EUQJpRy9/v3
+pbCTUHDlk/k277Qc7DAX9NsOxfSsaUg+IhWhPNENG7junVH5cYTXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+FcMCLyZS41I+F+nZkjn6eZnrVjkoBIiHqe1TAbefq7MmTSsnNaE9IVzvVbrosBcu
+AQc/E4QJ66PlimmvKvQq2HKEO/lSOcv+my/JveB0Uco6EARPdV44/sT8/6a2Q7WN
+xJAGBlTuLVUB4ihx1Rh7We3LAnIW8tZSAVhMEP1anfY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDAbaLwJGGeKN2tAygjB5EvkdBYVZ/bvG+70ndmf3fxFZ6ADusA3s+hwU9
++O5QJFzXBqCrNOQH0rv/EePCyrhcL/5mQFEy5DepGioMIMtarNmlwvUpBxmDUhRD
++76dWSi0mgQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact torrelay1@aikq.de
+ntor-onion-key GGPdPkKe04GXJz34HElUuVg+bVU8MIXDU9Y7BNUpkmQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 BElwmWesY6NYCeeLfzONuVdwXfbe5a0jwJ+TssMjeoxcBZZ87TKPS5Ef/PP0tGUtJeinrwR52Eh3F1L/cS98AA
+router-signature
+-----BEGIN SIGNATURE-----
+ciOE5Kmky2xjtgEJMpcScDj/X+T8URxCuYwCxZhZfrYwAkhvSoWTO4//h4qJMi16
+5OsF673hFrhNqDdRrFf2sVIZUKzep+9MWKrEoFMuD5z4Lx9LYmuQHuyZQOKwlVdk
+No1IEIiT+7FlYsRT1FR3v/a5kY7SgpoW13M6YkSc7Jo=
+-----END SIGNATURE-----

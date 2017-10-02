@@ -1,0 +1,51 @@
+router stoychev 104.238.167.111 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmG5Ae07wTfUG3RNAHeo5zfvvsw4CO/D/DFezpRrApqulxmZAQAgBAC1x2Cm
+53ksIrVwZD8eQk5zaPW4INhl79zJnfNtXm7EjyjpCF9qtenetxzdLkBxW4VL8sHr
+1+SsjFDjE+9ZscEAUdztIiXgZjR51stN7eZIfqrFOZAlQ1VOUJrwAz1vOQ8=
+-----END ED25519 CERT-----
+master-key-ed25519 tcdgpud5LCK1cGQ/HkJOc2j1uCDYZe/cyZ3zbV5uxI8
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:56:33
+fingerprint C5BF 2756 0E4B 0073 65FB A96D 32F9 E746 1421 8C8E
+uptime 1151123
+bandwidth 1073741824 1073741824 19295997
+extra-info-digest 460509468AD4847DB7F53CAE1321199842574A5E 3v9TddgHj2o0Sb4qAMzWTE1WahW6VEYY/7mKEsF+vyw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALxzia1PfSiFiUR8yl/zUX0iSmPUwXdnGZV0NbOdhNtQz1ZSkV6YsLMV
++NvS4eARithmWtJ/nAGU+mMdErpPQ52AR7uUVY/M3uuQG0XEPm9l9ccHe4S/muE3
+Vbw5D2e55SD62jfSr5uv1ncWutf5fXpplGE0n0wHjdbQBsnmZVV3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMjArt4dLnMrRUF+9FdaBSDXxUPYa5UVAGRYJ32cY+C9WnMpyMba4//c
+uj4KUwWNoOIKaNfrTppDX82LsCd2TTRDsPbX3EkPz4cBmUaMfwBBEwi1RBh5smMS
+B4WQVMZZTwJrf3eNdMVj6iNdKqBhvftaBtuiINwMnchwHSf6wXKZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+oUvZRggCoFj9V61/N2SJsgCcE18m+lCpd67xndBSL5HvW0mIwg17lhApg2su/Rtj
+TzbVHHgpNsRQQeZW/xXbxWl6YWRNTGjHmEAMM/3nv+TrKfFo+5urbzfXj87FlklZ
+r24qogzwSziADg7y+0Rv8uJAYzQUpGJBm6NRmFIqxrY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAbXHYKbneSwitXBkPx5CTnNo9bgg2GXv3Mmd821ebsSPAAKP5Res1jYK
+GUHLOtH6kgftIbE7hobi7rB5a2GDfCH5zE8v0lvTuQeIoagKoNPnP8KqMwy/JTwu
+tZMDbDb0rw8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <roger fillipo> rodger.fillipo@mail.com
+ntor-onion-key vGKHtpXyXNn6c6RZjQ1A/jtddhfFUdU2whXRBXtvyAQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ypMxBlMe/vQmGrXQ9+9uS6rQ+h4MQhnBQvoGbcEPpUevd6xws61Y0KnXZ53SO+/6wCncSGYr4850wBkIo4khAA
+router-signature
+-----BEGIN SIGNATURE-----
+bQlX80U0aEETyfkv1vuQol7R4zsJq8+T+ebcJnuhDGD2NAEpdzlTyo1beJWIyFvf
+aQlzZxqAjUWnnKV8SWlXo+X8WVXCkCxgWBbbV9mmPER25sKgdSxJrtF3O2UppFPV
+nw92gZP+Nqn1+d4qrSSrh55j/k1S3LAHV6FM2vPpFNI=
+-----END SIGNATURE-----

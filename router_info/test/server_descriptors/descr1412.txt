@@ -1,0 +1,40 @@
+router freehat 45.79.85.112 9001 0 9030
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:28:46
+fingerprint F015 E80B 64F9 9854 3B11 F71D E5D0 C3C4 2C23 EC31
+uptime 28538670
+bandwidth 1073741824 1073741824 157834
+extra-info-digest 94DF9EE965566A7213245A0183D2C1E3E511DD00
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMT9UmNPl7otszFBZSk6G9Y09hmfkjPpB7Jm2Q5O7JjdTZ6tr+I7YedS
+jlBjfrnbtNpSN98FPpYGS7t6SQ9VwrQUeE0IPoEL10CiPfS8lc6bWKT9XeFItVy3
+YMnnc/xN53Lw89zu8ssZuUyuqYuJTWCUDiT3fHUxCnIvsu2PmdPXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJph2fEb1wT0b2v7D6d0JPaCqIC3RGGAuocHyd0ER6w1rxFYQjhdB2tY
+2RLF7hDe/vX7m5MpHrMAfLGBqoOe3MRseLxUmSYL6qWU72uwliNdXdjY4waSlUmP
+DI0AVw7f1a9ZJOWpbagROYOExAuKB3tb4s3MZhNQ1LH0irK8QlxXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact lol@hat - 1o1hatMRch5hU6bshSo4sX7wu5ajUgan5
+ntor-onion-key Do8bJs0IfD73vfy+w2tW4aP37LJ9IVAQHHSDa62AmGU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 45.79.85.112:*
+accept *:21-23
+accept *:80
+accept *:443
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+F6mY1L2ZuvhnvBJSEKgg7VhNYI9UhSxzGgDVOaQkPFrRyqiUTe+KTuVnSGIAimft
+PQO7LuIlJ5VIGMdoWYf0HSWybbvGySjnjDB5gFxlAOgY6ZUKLFGsZ7yGgFcYdlyW
+gNZiWF02DOz2jh0duRYs2Ra7fnpBOonRMYt1yC9X2/U=
+-----END SIGNATURE-----

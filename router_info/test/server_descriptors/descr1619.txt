@@ -1,0 +1,51 @@
+router BlueswagTor 72.238.131.236 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmB/AUkc7BsidxVT3qyH704yRI2QA/xhj4KTddTtMM5qpiTRAQAgBACI5Cqa
+j4rXK1/zg36iOp0ikfsVVKSvXyUSAOXOhiIfmdyumyGN9xnJBUWKEacScDae3Bkj
+Iu/B1LE1Y6GTjoCd8w1yc7qtsYQinpUfH4yHarXBeqHu11yZlvTt0pw93w0=
+-----END ED25519 CERT-----
+master-key-ed25519 iOQqmo+K1ytf84N+ojqdIpH7FVSkr18lEgDlzoYiH5k
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:04:17
+fingerprint E805 5322 0336 10E8 3630 D89C 2B26 28C1 CA94 2431
+uptime 478325
+bandwidth 716800 1536000 803252
+extra-info-digest A11F9FC2AC9E1D8AE36977F34C0AB1550A45F143 SrBOfyVnRNrQrbZG9eA6fnsJA+rkx/GV4oYWFi51kno
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM3QeUI+GDjOgGhJMK02TC1v6mAsCdpcSvoY8B9cA8Z0SNyul32+4oGx
+th4wRu54BarbD3cXNMI9QVO4oPySXDaPNPxcyeokYpQuS3aHW9jX5DVTTMGij5ng
+XVae0nkT+wyf5U23QwdO+jaCfS/5JYFgWEjyvMqa0oXQ9H8RC7kHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALnLyO+L8f5D5xLRx+7jrjRUq6e0cdbmuPmQ8NdLDaSP76XAWhg5mEz5
+4IsboCZih0KjZf8E7s/r1tu2bBJ+3lwUSQN7igXWek7MyCm4V4R5Y1dU6sTnaYLk
+8SU8Rc0fcleyFwD1SNXp0obGfCEKqmy14CSVBwLwjdAMXDqBStqpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+qcsXT+sA5wVnTmY0g6WGE/MGxZjYndV5+ZbkDb1oAPSeyPQmqz6XdNIOVTERD/jh
+luMo8PMTDSCsmsF0tdbc6x/DW06jC7Dsmw7hM+jwL8qusTmuBVyysDFfHRMYbS58
+dIYdHL6pDuP1NOiF/IgPy7FdyZZG6YfN84TMMi8IMQA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAYjkKpqPitcrX/ODfqI6nSKR+xVUpK9fJRIA5c6GIh+ZAGExuA2D6sro
+vGcjvlG2yDAR1IyCKCjn2ehKG8OK3Vmf3SW1QwzYWZnJcgf+RMApqmtI4kl5KLCX
+grNul3osWg0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact blueswag80@gmail.com
+ntor-onion-key TLWiRCezim31z2FEFDGoh0oAjkBDJpK83RyuA89wxyY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 UFeO7cfCAqJCsNbwPT5fTGGY1ZPaCszUiaSQFyyZyoedWCDmOi8szmwOr1Ul/eXe2hI/Egvb2qA1tzx7aOZpDA
+router-signature
+-----BEGIN SIGNATURE-----
+qX3Q8qXwudCha4INfMyorIM66kPfASr+98Tj8oQRU033v6V/H69qh869YR55qiq6
+OA5d8JUB4EMG4vnAOky9eROFf2tKge9RnnhaOJLeYW3y3e4m28nn/j+1VBHaQFmJ
+2QRKa39xOMarm08s0ynJYY+SUikA+EROAgqL2zcpN0s=
+-----END SIGNATURE-----

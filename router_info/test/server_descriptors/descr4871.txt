@@ -1,0 +1,51 @@
+router torgate2 81.7.4.24 9002 0 9032
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGuAftbcYI8Q8JrF/Lb2nC4tv7RiI0vzamT/Qip3PrjGh+jAQAgBABl4wga
+8VaFbFsH0X0EYHh4pCdnYk3MH5Cfp5mGwHHlkNWGmSH/sds8XE1DeqDXhh0gAKw0
+397MXIziSp3f9wxs1OEJkieiOdxVp0JRbQx0JLQPt4aRWRJ2oN2PpoD16AE=
+-----END ED25519 CERT-----
+master-key-ed25519 ZeMIGvFWhWxbB9F9BGB4eKQnZ2JNzB+Qn6eZhsBx5ZA
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:14:17
+fingerprint 6E98 B0A4 3A6C 34EE 6DA3 9C0A 1352 5A98 DB97 EDA9
+uptime 15983792
+bandwidth 6400000 8192000 5704495
+extra-info-digest 6C5A261702719031A759B1C8C889AB738DC72B1F u9UZ9+WqsUwQ/tOXK/IpF7USWYbdreB4p++8YzpPBo8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOsBWaj9rVvzA5/FXskmzN26Jl8vsmUJlx00KcJwosbL9/6E6u+eI2V7
+4/sYpoA9KtVSzV9DvV7L3s7c5kPgKPjaKrP+GdHjqeRYl05Se5tQOplwUwMeOTHX
+VRZGRr8hCwVzXSmoYpiqdHPzqoh/5Rv53OovS9rwhnvxvM5dtkWVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM5mLWXYKeXiCjBIuZRGlRn1BtCZPiicMWwKAj4EBP+CB4DkAVaH83uY
+LScxENGOWqQ1R0JeznYRMeyu3YggZI4KQrGUvyqU+vulDMgmynK0JlqSmJXhUFjk
+uKd/Ycb8u6z3kLX5O8rMoSvhKuEhZsgshi7FrTiSRlkY3qp3iCg3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EHYqzkV88sQcCfuRvPItjmhQuwepXZVBFoy51mjE6Zwar1JhyUopjlmQjIj2t9Hh
+DoSae8ZNzg5fHeSNBSsUqrwTIasFFYbRTxHSDhw20l+3ZlsOmujiCEh8eB+jZgMx
+yu390rYpyj3Z7pbarlputbx+PHzS0gm9LGyADXN8lZc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAWXjCBrxVoVsWwfRfQRgeHikJ2diTcwfkJ+nmYbAceWQAIHNgq0lqVBd
+70DApUw2Pey40XhSH7wSDzyU2bD1nyQdZTTyFLLGyCOAupxb+TVU3ernAfWqIwYm
+S/bZ95+SjgI=
+-----END ED25519 CERT-----
+family $3DF62227303508D7F411F54084195E98FEDB545F
+hidden-service-dir
+ntor-onion-key w1nCqt0bPwSqdTUssf+h3y8BqbCRw7N3JRI08VlPS3Y=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 CBKfDVqpqD2mJbncuVQffE9jswnfwmOCSz+MhvL26Z2TT2IsiVMp2yIVdKt+/dAhBQ/ax5bFLUnYcWFliOF1BQ
+router-signature
+-----BEGIN SIGNATURE-----
+CsZYNk/iYES9wgae2/BXBYYywGODiinrSANJ4FDfQpDBBTwvofLGAPTBnaiume3y
+aKM3BicU5acrgPsZy+qaFGL771uwTLoqNOU62GzFlzBd300ZmfYgbLDgChRpPNqj
+uA2O0Plr5X52SCpPrmtwib4YbeBM4+I4zYDHd/0wpUE=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router FreeBogatov 93.100.237.212 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEAAWugMhQcyUM5gER0qNniVs3nc5J8zR1rKEgjBqPlHpseAQAgBAA+NItl
+HRLDPxLMA5h9XsKuNZisPgli5F9FwKetPIN0Q5WGKCfth5W6alQrgrhDU4xMdK8x
+wN6qvO0zelVP+BhBgtnQ18gzzF6arUzzl16zaw/6PqHMHuIDbs5TqvQk+AU=
+-----END ED25519 CERT-----
+master-key-ed25519 PjSLZR0Swz8SzAOYfV7CrjWYrD4JYuRfRcCnrTyDdEM
+platform Tor 0.2.9.10 on Windows 8
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:37:03
+fingerprint 1C86 AA45 0C89 8B93 733B 1097 9C69 F32A 05BD C9CE
+uptime 675740
+bandwidth 3200000 3200000 2463661
+extra-info-digest 0505BF8AEC6F4FF06C3F61DBDAA36BCEF5178139 86sM3vyfGadO1dAkCJkcXrUlfLyXhjfB9oXc2d5hF0g
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK54jk0zgS7H9meH1lvpfQUjPfWPwlXyyiR5s2EOamr9h1ftZUdOwHPg
+AtB9fSWIho4smkezBTbGW5rp6TyWDT1RoGcLA4ZUj5saYxXtjdBvebuJOs1QGtcE
+9gutTzSjaPBiPSFAMrYkbZ+dfqiN3gP52J6ZvXXw4WkWfUzihSrLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKlF/7/1y462N/dG4Moedq9Dr9TGU7pvLBEzxlI/zhqeY3MNOxMTX9aa
+QMKM554CWENfK/UFuMux4wxyBS0Zp0fZ8x05Q7EMtOdIpwQEc602bzuyJ+KcgX28
+UcMz72rgzXbA1pl/ZxIhJ9LhkxecBm6REZ1EukhP/3w4GMtknATdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EaYMiKcVv7PpL1MiJaBB0ZksUoW8xCnSkufKtF6rPWY8OrwzVDKjMV9Lqf9aBSo7
+sorAS4osTP8QNgweOFpwW9dgBtnWI3KOtDj/6WHArIAeXJU9vyTc0q7oyifUUynp
+v8Q+WJbgwTG8fc+5HM4LXsJS1ihsCxkKzjLiXNjv6MY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAT40i2UdEsM/EswDmH1ewq41mKw+CWLkX0XAp608g3RDAO8D4d10rWYS
+r3XmOqXxvgN0h7B13S9lo61k70zMvhucjurvcPgcNxYtH1LYYAhAyU0EYaJc1VeO
+SlTnHMbcOwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact designer dot aleksey at gmail dot com
+ntor-onion-key ZgsZ3Z1ppAdeXnn2thvAA67U9J3wHqAoBN+Q1TqbMhA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 2Eg6smA0pwrMu/aJbhcQbFmyQ2LVgbd8NtlZ6H5LDjBTAilWlazJG1U/NYYAs58+smzhch/nM1sm0YE660fjDA
+router-signature
+-----BEGIN SIGNATURE-----
+XXmOJvjfINTs/fqg4rR+ENzpvcQ15PTRbZ++KOkS7K70nubDZPog2o1PiTNTOWzS
+eKFI2uwZL8z2a/0HV0K9ohLXoGD2vSux/DpmsDiJ3U6KSxNxj0hviPlBjV/Fu3ww
+78SQoMSSdtBmmcrtntQxFLHgGrdtvG7bbCE6f2fCiBU=
+-----END SIGNATURE-----

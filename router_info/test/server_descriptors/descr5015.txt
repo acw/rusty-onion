@@ -1,0 +1,50 @@
+router Verton 46.228.18.237 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEzAf6oeesbWAZn2wv0wQrvFfEn9JQRaY+1HIlwbe5VEMZ4AQAgBAAY7gfx
+4y5bmEHNDbEsNJFbFLSd07Hmugwej1JfMcSxJPVJsU6ni4laG07qmwbIJ1E6bcTg
+tPjY1kZauEknD1jtSaa4X1Epl1GYwzn8g8iUkroeAOG5qJSPK2r5qJ1Knwg=
+-----END ED25519 CERT-----
+master-key-ed25519 GO4H8eMuW5hBzQ2xLDSRWxS0ndOx5roMHo9SXzHEsSQ
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 19:44:02
+fingerprint 68E7 4EE9 3B80 32E8 0F83 C4A8 5F2B 3CE9 2D18 5D6E
+uptime 2048957
+bandwidth 524288 524288 554625
+extra-info-digest 0686D09C0CE05DBE985019D2F0EC64C97C935761 IfjwXvPf0WZxoxG3cdUSNZis++05IOt5JGQZ7FlpE+Q
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMNO6neLv0ynOLGd9N2rsw+dHplrnto+/ShUvu6y4lRDp78lkXxAQgWM
+DrVmX2mItTvhufaeku8IqHNQebdRgDRTfZgpga+8eTPEEFAW7tOC0TytPHBohsdS
+b6fS9TKKai/VRdoSov/NiD7K9VR6DPZ/FmoRyELT3VXQ85kcvFp1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMI+Rganw+tggqWM9sY+S7617gOEoMXD5BsAja90zFxhfXCziJHoljul
+SWwAxuuu565FE7opy9C6kCkLSv6czDOfIk6R78J00N3UAMmwMnlg2kVkIwdS4DPQ
+KL2ZhawH0KuUaUdzl8Zze6KS7PMbmJCjG8hlfUl0xI4EPJSvttuJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+fxsqqlD/J1ECr98qA+YJLt/eIcjwIRdhoGg8J12Fgwxea4NAbgne5kgCb9gN9CtA
+UqD0FpieUTQ4rDZ3Ay+We9dan1OcsRGBvHCqbA7OOqOS7Suj1auMfU5gRTIDJH7Z
+S5Qiv+kHTjUc9QsCYudXGMHhcKROFiDtp+GVhRlxVcQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMARjuB/HjLluYQc0NsSw0kVsUtJ3Tsea6DB6PUl8xxLEkAO9QJWI3kgUD
+VV+7KIA3lr380CbSU2KYR/5uE6QIvvwcGSgNeXJ+T3tm+L4RMlsC2S6sl0Kl99JN
+L/dewDm/WwA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <A .DOT. Karvinsky .AT. protonmail .DOT. ch>
+ntor-onion-key kBxDqdRsZKELbTFc0hZMALbvCB2F3tf+ledeFS6Sb2I=
+reject *:*
+router-sig-ed25519 /sOSFXCfxulCnCwRDNeNS+vGNd2SAJJ/HSxYZyURW7PJ8alS9yDoRcv/phVJzjosQuYILefAyWdP3Dsud8rfBg
+router-signature
+-----BEGIN SIGNATURE-----
+ury08q9wZK7Q2aNHUKI1sArtA9XOpx7W5R7koX27YLylLW+/GPblwZlM8BzOa5VF
+xF+ZZPaxnaJbMdEg/9T7MPwA6Q0fGF/EhCQd8RWkcR4XRtUGaYPXVp4QvpsB8U5L
+cx1gxRjfGCAk1CphjHtmZ6uKIXXG3Wjz4XB26dX0PbE=
+-----END SIGNATURE-----

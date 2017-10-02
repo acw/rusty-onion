@@ -1,0 +1,52 @@
+router Vammelsulten 185.86.149.85 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCdAXyLmVNLgXWpwoCUm7/kNw0s0899cO1MLiVVC4/szQ4yAQAgBACR+5P0
+AHBvE3vQMYPLf7f2jykdz14VC9yZkdRi/E5iMoiUrvTc/MjFLNZntTaT5Bnz+mis
+qPY0XDMgI7nMqMEDv/aWmTQSfr3SepNU6mxDtPdOnnnT7T//MHYUBox47Qs=
+-----END ED25519 CERT-----
+master-key-ed25519 kfuT9ABwbxN70DGDy3+39o8pHc9eFQvcmZHUYvxOYjI
+or-address [2a02:7aa0:1619::fa7:471a]:443
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:14:24
+fingerprint CBF6 EF1E 3803 085E 76BA 36C9 D742 49EF 07F5 9B50
+uptime 389042
+bandwidth 4096000 4096000 4245592
+extra-info-digest 64194AE624778493D3BD323BB8F7D3974D1861C8 2muN822HmMybA+0lQL5OsnU9BlvFgycUSWDrGtLZ+AM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK8T3Ah6TEo1zncVcywaYscIq5193ORmmPixEEsQDb4uT2yBpCbxwd4X
+eL6AKf51knRYvsdEEdrR4wdgKdW9wFWtLsEv0ejKkSp2tOu3Oo5Rh4SwJs8iHnm4
+0YjkzvYymPojV+iaFDjYg8AKkwlHo1PSfOm2C3H1z5XdiuT9MVeFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALzsp4tzlzuUtV+ohqn+Sdo365+Ke3gCvAsk4KmMhZRfRMgC4TBsRhHt
+QFeJI1bxBIP4DSR3G6iCBbKid5+/chcLb2JoV8tvbgOPqdE3MGbym5P+h5eooIEv
+qu77mDavE/VRMcwk48RENLfDIuOI/YCX5CigO/E+mfLQnckzTfjJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+VP4PhY6Nzewcg5iFyHIx7Gfw6dcx+HgPUNnC88ryhZwsg3OOhWjFuDbFtgDV/kd/
+tdw0iQGmezRPJFKvEVdBF6H2iT3zhAcV8Qv6ehPYPv2kV9JEkNPuPfUugZ7pPu1X
+Jxl4aXAtfyC4IH6RoDCns3D4hdI6xicn7kLgxqUBIJ4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAZH7k/QAcG8Te9Axg8t/t/aPKR3PXhUL3JmR1GL8TmIyAHp/vSB13ElE
+ezZK1IMM30QUnRqr2RCy6RZPN/TrxfhFX0CG6GLLIQYN46s7vi0k2cqDBMHF2MoZ
+G+fbom+59Q4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact vammelsulten [at] gmail.com
+ntor-onion-key 04a0gJddXs+QFGeZPFWx6L9DijZ56pHbYfI1lMTraFQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 AgLViyuQ9r9QHOk90O5YOSySXnRxMkb1Ugp2i8eMz7evx7P87nhUdFDKY+zNkZtdfovxcMsqccU2FfaSJcqlBw
+router-signature
+-----BEGIN SIGNATURE-----
+jVTUk9iUS3F6cu/Yxn0QGxNKiqSk8v/OFkN4MNV2fWxaRYdPYIQ2LTU0aHbqSe+O
+hq7GYqridkP2s6N3X1ZYT+5OlMyu3S2io4VjkBbXyWKJpcjxGbTfRmCu2ot05mzZ
+TtRy8w1qRYOsznFftwIDM14bMrPl7pbzLMZeXri8WZQ=
+-----END SIGNATURE-----

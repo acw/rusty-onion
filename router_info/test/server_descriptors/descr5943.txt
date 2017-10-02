@@ -1,0 +1,50 @@
+router whitehole 37.157.196.142 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmA0ATeo9w2/lIAJTeLZsBSjbJ2gOtkKCWCvEoV24FIydHq4AQAgBACXwhoz
+3mbQTktEQF+1sSkVwfwGeyD/E9BazKgGE0nqL/yLlhydyD8Bb4iQkWqzH5lNFy9t
+HpgA12iKD/hPjNPgnfeFif8wTsbps3aIgcQCc5gxRHmbLNBrcrua/r0jkwE=
+-----END ED25519 CERT-----
+master-key-ed25519 l8IaM95m0E5LREBftbEpFcH8Bnsg/xPQWsyoBhNJ6i8
+platform Tor 0.2.8.9 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:14:23
+fingerprint 43CD 2226 7A8A C162 B298 4562 16CD 7EC0 51DE 3637
+uptime 2896407
+bandwidth 4194304 5242880 4718484
+extra-info-digest 8E2CB0BC155F28B3C2BC3FD5B6CA94F4C51359A1 naX1PjgkJ2MycTDXuXp/O5fOfogcrxRU+TIO73Fo73k
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOc30i+fjECLgn8heaJTJR27AH4EwMl/Y2Zt1jSyFBXSlk01cx4NhkUI
+Z6/dEhC91aJtAQwmS8IE55vzlPMWsxeWh1oL1iX1ySES1T+pIp2BzPpAOPArZHg6
+iksM4ZW/njXd+4BB8Vdye8kpqU17XNM3HhePR46KVhDDr0RI0Gf3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPWYJP5F/v+T9xYg+IGWTX8IiGmExD1xRuh88Ek0hTQt0siCsKyX9463
+v6uzCZJqFghG9PEtiXbskOLzSbKCperGSTDAglJSkLtn4NRFzEFNUaFYmt+W/Wd2
+db+wZ1p9GGMMbz+pDA5e1fnkTfDZLx8fXI8iZOlfVy6PcBbhifMXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JxHDgXq1B+Rw2VsT643xauKmE+4vPOOiUmB0JyBgqR/dxqo9f/MN81u7C2okxPZc
+wm0msxR6BMKPjVlTkYLAy8eFgD4ZJrJw45uZsf1ov2oWnF8U8aGCGqIvEkDXCXiR
+f9dGfCg7IUqfu5F4cQFAszzu93DWVcrMhIJDn+tftOY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCJAZfCGjPeZtBOS0RAX7WxKRXB/AZ7IP8T0FrMqAYTSeovAIfmz0SEj03E
+l08iEqq7qFxInb20gZoHZxQYtWi20yJro+lhQOjWMYDL7u2DJOlKzlYBQM5Xv4rI
+8FAg+Y9Niw0=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key s3T/tMktT0SoSwCGOmbYYoI3b9eRF9furwxP21A6n2o=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 GHBrR8hoDC5/4P2+hCVYvcOq0X1bRSZRbEnjF0xS49C7C0c7GIWzyzHXykoGbLJHRR4ooMKHxtlY/7JyZYv+Dg
+router-signature
+-----BEGIN SIGNATURE-----
+ACfov7S8wWrxLQ3SaKNOhisNuWRXUbpO9wbe6dC3unUVivvg2Et21/JLvat8Mc60
+3x/tTD1ZvOZYqg8S3ytlHJcqawndl7gZvZsz3uE1CahD9iMI2W2OsUBl3SRIdzQ8
+zH9E5Yfk/Ixp1q88PrkCSOywJhVo6um71JZcY54aZps=
+-----END SIGNATURE-----

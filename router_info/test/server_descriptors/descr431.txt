@@ -1,0 +1,51 @@
+router beard 108.61.29.202 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmH1AeA2m4B07ey81j90n2yhkyUSL24h4c8MRuiQwWPXcIjSAQAgBAAIGnba
+2lYEHc4+x42Ll6HP1xKLo0mgmsGcIiWvrQKUODi+HJrfUQzmAY/OTq59k5xrIF6e
+1IA/3odzziDf5TaLLtvLWBZKlGpPQp9i2dSA1u4v4i7bu4w4GgLu1TuzeQ8=
+-----END ED25519 CERT-----
+master-key-ed25519 CBp22tpWBB3OPseNi5ehz9cSi6NJoJrBnCIlr60ClDg
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:13:57
+fingerprint C635 E09F C715 E961 56D0 2A36 8954 F16F EC8B BA2F
+uptime 3218409
+bandwidth 1073741824 1073741824 5950822
+extra-info-digest ED76DCC3974D187D91189E2E2E2EFD97CB4AF522 pvktOhd9OfxCr+Sxu4EBJ0T45iCIFeyfJk+0byUZ60M
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJvtF9+yGGORxcnkVA9S0qIVqvTkPPaHHtRBNcNXl7KR4a3q9Zfxa8xc
+pMIf90JRxEIRiQxRDKdnmmavqGaoXqf1Oml2zUbqqu8BR7vZ7d5mKF8f5j3CwNDB
+WE4AfvJ9IG0DvRjsuq8rvOPCI8T2al1pNDtndlXSsWVKvkJq2klzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN5x46Fow1vqa2mmGmYiDEhSBEFNUbVTCqQNM/oxRuAPvYCifFmDFw8e
+8EWyjNqvrr24j/OHlP9oB+PmSv7VekaZ9mYshopuqMp/In1za0v1bBUUFeJo2vKG
+w2NNUiFJmuSmuE5dd6ofVISAe23mama/lQVeS1q/cBftr7uM55LZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EuIVFyLh2bTHglDdqQ0v/GPI7u1X6ZoNofyW2qMIOWvlpG/qNiO6I7fchTly1R9I
+bzCwwndcP8M8j1OuKcSRXjzFoQMRniRXycHKG8naRgflnf4glznxh622hHQDNmY9
+I7XvcS1ml0kxiheck1iRfdtdpwyyKUiUbuQlm2yUs6M=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAQgadtraVgQdzj7HjYuXoc/XEoujSaCawZwiJa+tApQ4AOpDvuwd4KI5
+OvWFh962EhwwrkOQzMnd/EDra0cSbWpVCkyIMt0GqHWMQ7MewoJrCLZAxd/v3EmT
+YcnopfJkFgI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact beard|=AT |protonmail[dOt]com
+ntor-onion-key gStSY6qBsqKCNMBOQmA3gqAr/rfpXz5AkYhwTTQfaVE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 X/H44fEqcpFL1tKNCe/ZbFmzA605iDBDbJEJ2+oVXD4fLH1HoHsH/s8LjVOhBWpRS28ulpnz3UM3lbsBMpztBA
+router-signature
+-----BEGIN SIGNATURE-----
+Du70XH++9oKK9nu/CEmwm+puTfCaOtvmHMWWoltBQB04Rf/KpZX4fcQlrL8u7MFi
+KFt4bYbCDlFvvLLQ/08tHnvqSnNJhifp6RdOmJd8ix2TOxEy34cMP+YAex6rjxrh
+8VC/ZEV16l536fefIRRSo6MkVt1y7XuEXXjxnWduDp8=
+-----END SIGNATURE-----

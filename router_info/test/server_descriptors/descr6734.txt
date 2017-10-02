@@ -1,0 +1,50 @@
+router torrelay01hacklabor 213.254.32.26 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBhAfFg/oyZY/i7s8n0eiMy7SjnajCGyVXpzFR/PNXbNvMSAQAgBACzBJMc
+V9cLkeLCEnSdqHBgqZSt8rAPlEmaXvA+GlW7njKtMLseG8lU8TMV/X245nBCLVLg
+7PPFWvZ75JON1DKEy+2WWx9jxTR3sIu7prV2Mi9Rg+3hUEFiO3wwaURQewg=
+-----END ED25519 CERT-----
+master-key-ed25519 swSTHFfXC5HiwhJ0nahwYKmUrfKwD5RJml7wPhpVu54
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:47:19
+fingerprint 2690 8975 5E31 E4A5 6D06 4C23 89D9 3BF8 DF96 60DE
+uptime 4481239
+bandwidth 83886080 153600000 4086385
+extra-info-digest DB376D1CC4C7F23121E8C2557501F5F537FA14A3 zKCjJPyZS3AjT5ZzT0zmutveO8cXuNkM4h9+/rR0oN4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ8/8W3xZm1ozZRe3yzYR1ZoFl2NMM/D6nGBM+EXyU4a+fNjycbh21iw
+d6EvMvC383GYvmJiJeVhi/J8X1B7MeAERa1D0rK48pDIBl8uigYshkoE0v2nuZRn
+4aLTr2PzPt80Lm79YwdAeHnmOebFuY59XV0FB+nOh6e0D4rv84F1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANa3Tmc6Lbxh9ZN+xZYFkX8S67+QQXLwPC7juARyq8YsxSVtsak/5WMA
+hYSkcAgIUMYlbnrb33uIQJ2Ik2kENx9z7PZ2m7IcJ1li6GEyH69SkyhsfubhEeXy
+i4pgPwks7K4bdJEV3RSlcm5AKuAcmLPs2W4sq48eqhfir/PZ7cy1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+VGoRl2wVJ53tL83VOSR6nD9H8nPWKco8myhC5d977Pe726bAIbZirh+jv7eZD1WZ
+2iuxvLO98U0F/EurTxm49kBTWrt579W/VZOqaiKRsOdXoXmYDO5f96z/U59UnpUo
+3RgAX4rOk9qKu2X3Yqu6AleMt/uoie0sU1SYKLbMX8I=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAbMEkxxX1wuR4sISdJ2ocGCplK3ysA+USZpe8D4aVbueAEOCVz3EXxYU
+59anwUAaIQ32e9UuHBRP1xcDRusIAAdT+wMIDRKwUmlXW2APNi/0rshm7L9TpDSw
+YI/ysSdleQA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact TOR Admins <admins-tor AT hacklabor dot de>
+ntor-onion-key ytgJVMoRppkBxYgAgoMsxO10X8feE6csg72ZM3zMe1A=
+reject *:*
+router-sig-ed25519 JQzFEsXWKY8vWz6nBeZTnPaEywr8KgJSxaHIAu8qukjGW4CYJpyoeLQKHqA31YJlDOTyIHy57USIBplKdO/KBw
+router-signature
+-----BEGIN SIGNATURE-----
+SukszMLzykck7ZZ9u9i+B7RLYG3IkNxmMzDUvTJvvrhPx5WN/cgs1TN5583Yp3CC
+rTqj7Zx63T2QtvqQbxFSNPUC9sNHh/i9DCDuMTMkhTuZ+2THt1QDbdJx7NKgI3si
+U1ljuth5KzfTNRwqLhTAXtxMb8CGFSWrg0qbBRr15Uo=
+-----END SIGNATURE-----

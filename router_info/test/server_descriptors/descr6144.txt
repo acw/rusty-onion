@@ -1,0 +1,30 @@
+router zougstorrelay 198.211.120.138 9001 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 13:48:50
+fingerprint 3C62 33EB A51A 7315 7735 08C4 6798 A28B 56BF 8442
+uptime 2141330
+bandwidth 512000 716800 583983
+extra-info-digest F729418E52980222866487C63C73DBF13EE94D28
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALR1b9WW5Tn8iqqNpPM0ldwfyYCFj7/CPcsVt315568KcdLMD7r+YQlb
+jRPhzRxz7R4ePuKiosHTjV0niEA6AHJJhRg4FRfFxCq/j4PGtwquHOs0GhNtxiAS
+tCWX8cRgdlmgeRdIvxLL6Oa/bjQpI37Wm0za30Cz74Dt7jJtYpbZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANAPVV4j+zWwYTQtkdjRpiqhYcAzKty8JSPklP2tUGiP6WvpdJe5mH2O
+woZY1Rlc2NC1xzdawtVGo8x1W0a43G+kmZL1Njc5eLJ+5c5ytfYXHSqE90C44iSx
+PhmJ0A6iIhNKr1frLhqYrygTsp7Ia2kfTzh6GnDegSKJZiKpkFofAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact zoug <zoug at protonmail dot ch>
+ntor-onion-key aBB7ew5IYsyH1XMfcFhMlNI+RtYrJhBNCEUYBkQVYG8=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+qZSym9isxF96LfhQahjhgx4qZkfUT/oM0UOORIgeVdRptactiehqIqWDPD5GNqpV
+kLUPGMiKE5X3aFyenZrPnrGp+zx5PbGtEwnJYm7XLVogUdeU6EEIZGMmxAdUGr+H
+yxxr5r/w4vi7DHZupFGuQgFnKT7lWo/00R6gHTSkVr4=
+-----END SIGNATURE-----

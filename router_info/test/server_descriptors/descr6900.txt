@@ -1,0 +1,38 @@
+router Toreto 79.143.186.17 143 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:27:02
+fingerprint 1F7A ADAE BD61 41DC EA32 0FE8 21DC 2CF8 E7E4 4B81
+uptime 5352099
+bandwidth 614400 1433600 755834
+extra-info-digest 5A3A7CEBAC4BC76C71E1B099EBBC788F469A3E01
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMR2Z09+HRGJcVK0nH/Nzd84kJ6oF8vF6mvg2PFj79odLan/Bo0eBfdx
+ZqM47TIK4LWk5Suzir8lUAJUxFJIORlHH46xWby+4GrdUWExg2faV8qdRLMyKm7Y
+0LH8uf+CQfAqbI+0jQRmn2jEf5qyZn+rfY70MxRymV5XKzLde4MnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK9X0e/DelUhpME3nHJ9sNpjEqiaAKsPU6hNUrOofVyAWsE5oh3Cfo+s
+8S3RObarA8Q52pFg/GcbAy1oTKmJReYeDVNvoATCi3oKVdcBGdIHIxZ+VhWuKLbE
+BzqeaPr52mnGxGS2/Tizk/ShhYAbulXKFFHJvmcaBUPmVTO+iq/JAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact t-1000@sigaint.org
+ntor-onion-key OHq+P3TghK1AASU2x9CPnSlhKIeniAylmL5cOj8qVwE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 79.143.186.17:*
+accept *:6660-6667
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+OaLfWrFjLuNcLQDcPIg50PuOnoDr3wp6T0/5mEzBy12x4+h5YoB68VXvJEgNd2jM
+765K2NBV3Vm3jaEasLi7V+p8h0j7g6peqYOB7lrwL7kbJC1xEBqVVh2qdUi9Kots
+KhMWYvdhw/zRfBsIcxYTmPctF+foTykSBEN0TxVuU1U=
+-----END SIGNATURE-----

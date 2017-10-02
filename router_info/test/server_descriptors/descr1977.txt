@@ -1,0 +1,60 @@
+router Ytegeg2 80.82.67.186 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJHAYDblRrQgmrTiRbGyfyl4c/+AgG9ofoGgMNrcSTZMJxLAQAgBABJvZPv
+Dg6jeSZIbrDYt2LodyBLb3yqA7+cNKyNk+FNsVwg/1tNZ+TJZSo5QYlbm7ca/hnn
+4j8w9q9AZdGjRg7ID7IlNWarjPjnP2QXptkLE79ZL5/HC/hB9tT/BTa4/Qg=
+-----END ED25519 CERT-----
+master-key-ed25519 Sb2T7w4Oo3kmSG6w2Ldi6HcgS298qgO/nDSsjZPhTbE
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 19:07:23
+fingerprint DA57 84FC 929A 8C61 491E 0953 1BC5 4D51 6DBD AB04
+uptime 7285863
+bandwidth 460800 716800 655274
+extra-info-digest 2C6C34D46ED502C0E35E94B3F93D3D7C12C9AD03 XzQtrWVqAoCaPEXHS3olRRTzPKVptCLedxMlpOT7QHs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK2tq5rmh6glRotGJ0Rn2OusxrZGaVvopQtyaCS8mJvbDkg9gz91bo/M
+lFV7OUSmTAZTRs7kovKDQa0RAEjR+z4KhwaXNw25dDkBGlvZWPmnzJjmG9zjBymz
+hlB3kQ71xIbqr42NGvYWM9+972VnPi500SHhCteE/2RbbxicC+dLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALvo17Za220jvlXdEhtcIr/JRxUkP6NbtnAaS+gHVoDy6+GEp4jpmONV
+jH5pFl701xlc9tZct6KELnEw0cayGgXBYfwADf0r+sUn0YyJeIrOVSpbn207QbLi
+R+H06XyggtIzgRvzuOY1BBNPcq+fkVj2mhYlygbDfKIZpXm1nG8/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Gtg/EAPB9tDq2doQpX69oxIjDj5v+JPRzR+BiYmtBJu+nKKmh44Z8RSx0oI7QL4u
+r5VbWqw/YOtk+jC+nZ5KuyJtyEzQzrfSuD4/Vn4MaaS1mzH3rhlXX05R8ddDAoAe
+3gHAy6T44NbvYdnwLS2VaPDH4NLvWQ4PQVv7Gd70ePo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAUm9k+8ODqN5JkhusNi3Yuh3IEtvfKoDv5w0rI2T4U2xAI/xbVzegjep
+CCG7Oa/xh2FEH0Zfoke8/Ssm9f2pu/0p5P8XuyFkJJRKVQncWOyjM1gFDhGv6NKQ
+eU9I48Lj7wA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Random Person <nobody AT example dot com>
+ntor-onion-key MpKud2j9PTYog6PqC8emEcSvgMgqV3TjEPVwr+63UTY=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 80.82.67.186:*
+accept *:80
+accept *:443
+accept *:53
+reject *:*
+router-sig-ed25519 IKVOG74tU8UEUiJk7ixmIqwk05z+i16Vay29ji2g7bH9UpIJFfOP3cfbSGev+mxzLux0kf25QJvHpDjkZXsmDQ
+router-signature
+-----BEGIN SIGNATURE-----
+LDVdhUEdSXCma+ZGKEEUJZTeKD95Sby3TWbZAxikUCMXN02EPNuaED0/V+OZwEwy
+bvXUGdKfDfsm55IB+bSX5/BZOC6LQV+qQZQrHrTnqYzU51GqlEUIpSSNKhvNit8F
+d5a0v3F46vvVRBgmcP/6oGgggVzrSKIubj9axG7J9IE=
+-----END SIGNATURE-----

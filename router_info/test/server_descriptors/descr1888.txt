@@ -1,0 +1,50 @@
+router FreeTheInternet 192.222.248.192 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDrAX5xGuRKAKz97ALZ4C61aNDVJ5xkzeGuWwmUGdhuYSxlAQAgBACEwR3Z
+PS0HZE5wWjkgK7bTLwoEi6DF1Ly/cq9jl4XtTNFMEs6jB7IkPkH74dkqw6oSvxql
+Tjk/6X0CZc3riIB02qtn9cKdyWhVPdzxhIU8IHGpVwEtQqu9lLgvgljGrQQ=
+-----END ED25519 CERT-----
+master-key-ed25519 hMEd2T0tB2ROcFo5ICu20y8KBIugxdS8v3KvY5eF7Uw
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:32:42
+fingerprint DDA4 A726 5A18 750E 1358 9236 D05E FFAE 9043 4BBF
+uptime 872516
+bandwidth 102400 204800 122609
+extra-info-digest CAB04C7C05AB30671990F5D89F69629C13BA7D9A raVbmc/fZoS7allL7JOy9e92+Gs33yxcrv029sIEjP4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOXuRpN89/MNJlCBxB6g6+eeyebMlH59L2Q78B5zN/iWAgYyJ9oQw0pe
+IDPCDFx5EjpmXqkNwjZynhK5+wqd1+de0EDnJH8e7BOCThKZfZwbtNcK7/N6RXsc
+Vvh243ExxkkdXhU7cT/MoX8yXX/mrnxO7UdQRfyGoVBDUEQKYPm7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM5T5DCF1gJ4SyIdXBkcVSnxy4Oj99y138SPaGlFR9doGe667ZCTdAYp
+yyBEu21f7/N0vEshdRzvbxvRDDpZvWEZk/iOOHbeDRVqflZuzWyby8EiRWvSQD1x
+Qps58qobRarOg2atwXvWVHGKNyPmLx81lqtzxxiu1UbPHbulTfiPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+o/V/UwqYbKOOvjuocnyiMXN4EfferkUh+MF2SyULoKcMk1+Q5mqTq8dNQVpWgZCm
+ypXiVCayl3zzYj4RkN3x/F9Q59uMfcFIHa/zMMD4jKxzgVw4LScglShzyn0Qi4+E
+uAz05vLsbGl6beh0uoAiR6ZM3ZOnwh0D6F2rwAKcrac=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAYTBHdk9LQdkTnBaOSArttMvCgSLoMXUvL9yr2OXhe1MAEMEUK5s1JE5
+TXvaxOX7EYCcjnWZQdJ1VeRkwDA6aztViKkAFcon3IwG7yIEHWG8+pWzNeH6gs4k
+AVcaTj55mgc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xDD237C00 Alexandre de Verteuil <claudelepoisson@gmail.com>
+ntor-onion-key mr7ZCWjU1M9v3y5SszK2y5IsvVCdW1bjfBYy0EguilM=
+reject *:*
+router-sig-ed25519 vkanLhzZ1SJCwatKfn0TmP/rCxLz5D/A8EcUI3SkzD+Sk8ozOphOSm4xq0pgiZkwwZgL9yA/zyeOf0T7D4PNAg
+router-signature
+-----BEGIN SIGNATURE-----
+awpMZq3nXtav2D/vjlVFq0YwK3VxidYakgp4YReQCh96yCErmrCytDhfDNyYloU2
+tcCJj3PL5FNjGq3g/CWKcmIvJtnXkjH+O+Yg+MxUZ3miGzpYBX4H4wzE8h0lJwRv
+VjQE0XYEG5xQlselXoelrKdulRoOfsquQivVfe0ufIg=
+-----END SIGNATURE-----

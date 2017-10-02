@@ -1,0 +1,48 @@
+router Unnamed 185.100.84.108 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:41:29
+fingerprint 14F2 1773 A93E F899 CA0A D48A 594C 5A47 AA17 10AB
+uptime 28853
+bandwidth 1073741824 1073741824 25326622
+extra-info-digest 0B19B6ABAA333AA1E68D5EC780D77905048A9C21
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALzIRMDuoZpOxRLtrRBEfEP0GAIekCsg6VeN5ceu7aUEBArzR3Asm9nk
+FSJmkX1Nuvr5VsrjX4cQ+400eOjUrLKeabqqCOczRAtY7uuqypoPAnvaruo+tVUx
+ZjvR4VEv24Mw9qu/bSpQkMOolfLqsEKQ1IU+GtPUg/1vW9phn2ENAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL+DDQwZ39HtWx+fTJlwcwssNIkDp6swZ7NKBTyT8+te+iYmpQ99orog
+BvA2X01tJtFo2aK2pLTkzJKUwfH+cLG4oVILEHp8VhV3BcXi1W8X3/U4oPn6pmi/
+RJfnjDS1xXTwPlKGnMYnvHKIvZWouRvC+G3Jo9Ye49lG3qHM9JILAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Minime <tor@truncate.be>
+ntor-onion-key JZwV1+m4H41iXgEwnlas/BsayifRqF/waOxkvQ53shE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.100.84.108:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:465
+reject *:587
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+NATgmFzHYru9F9gKlm26bpF6g4btk91JaZzZJXaPly7qTQ2fN/j1uhEIDZEtGYRj
+gSJxFW046Fv0RDdVYNQseK6HAH2bY+tJPODiuDNslcx3us8E9JS5OLENDRWHbqv4
+SHK230bdefEK8WE/lGoioIKUf500TeJuHwFKNED2CPo=
+-----END SIGNATURE-----

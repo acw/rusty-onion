@@ -1,0 +1,30 @@
+router Shodan 178.62.217.134 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:04:47
+fingerprint EE89 3C9E F161 BE92 9C08 0B30 27A0 D86F DED0 82DF
+uptime 14945427
+bandwidth 372736 372736 410193
+extra-info-digest 857835539C9DF8DB51E0E92E4C413DB8F11EBDAA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALkmNC5nknrPguMYrI1GhATg0KccQAQiOgWC4ShdsEPK1FPC1JrWoAIU
+Wm3fRNM78ilw35osEUruQxsX5NS8XG/ROF3NB8ktcHz7Aa7aJqNtJRC0fgerRtpE
+MZKjyyOh/LnaHm+KU48AeDDndP5D4I7MH7B9lPheB8LIEl4Fwy7pAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALZcqGF2GIkhSB3dsRbAX3RQAPyqayTdBYlABvHh0FegEIHkDN9htP/s
+fER35Ih7yH4CwqI2HKoQLFvF9v2XBLzwtajyKlFsc6RF1MDGDY414uNAQTqt4zrs
+Q8jyey7X64g3EOgx2fbzCi7BLHLiaSkwO5H4ZFhZcXtrNb5dNElHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Iam Shodan <tor@zauber.tech>
+ntor-onion-key eHcNcFG3WjjrrNhKj7iobD+B7hAgQNSJqNRSqkUHuBE=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+GGcNZF2EQE+OX0bZiQ95W/IagR5jo7odw1c8Y4Z5kM0/QMNhYuXwM8Oxz38VcrQI
+jAzv+BtbVeEFJcT5/iPV4kmCm2J5wHj6/AsR5hrKhmU+hIm861TJyztX51SWeo1o
+nrwVdo4rTHHJT16Zw32I9vdKz9zRCfLQbUX6qeQMEmw=
+-----END SIGNATURE-----

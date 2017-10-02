@@ -1,0 +1,103 @@
+router teddybear 154.127.61.249 80 0 0
+platform Tor 0.2.6.10 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 19:49:21
+fingerprint 79D3 145F 3E50 1CC3 B282 1937 5FBA EE29 1D7D D337
+uptime 13141625
+bandwidth 811008 10485760 1697975
+extra-info-digest C2D90F7C93A101432C3840A1D76345353A2AF1E8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANV4dL/NYlWuRVCmSyRygtYrMMFMeobTyMl34Jp0AQwyITe7b7vZ8w4w
+WxDeEopdJDTxt7qkMx0IZafByFDt+r6qSLkyNzdU1SbZuq4dnfdcCK5O3dWzOnrw
+qZU9odI+oz6RnapudLxRAP1FroSFbCE5cKOzrfEbc6qhI6HCCCHxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMW01zrb8yPNNICp42GLoaQr9uNc/PA4pun8lbG8fBRqj0ztsonwBvzb
+UWy2cOIEF+rmZb6/PEXSembttuFg7QOyAFfnfryzdLflHd2FAc3w3QmbcB1TsgI4
+5ylhEWD0ggkzphzJd6MqGWD0J8cQZGbSnF2vbn2+7Z1K5KnXh8A9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact <tor AT dot-org dot net (dot-org is part of the domain and NO dot com!)>
+ntor-onion-key 2PsoPyt/OzLEf2EQa9AaSnNEjC45+30/xhTNaL+VAmY=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 154.127.61.249:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:194
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+e7/klZ/80DXUD74id4i2wOOn7pjSJdNWflGRwixADb4R3SBR///TIc+KphE27WOf
+q9+PAFm58NL+xty+B6BOpDkX5IMZx84ffUy3Yh/uoeFs2xIb+7rfPnJAzM/neTl8
+7zBOJPFBMl6Q3L52g5Ysh6EhHqIo3fq7EihQKrDGaMQ=
+-----END SIGNATURE-----

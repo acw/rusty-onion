@@ -1,0 +1,53 @@
+router gabelmoo 131.188.40.189 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmzwAe+5hflnPRt8MjNhYsNoxB6PsenEHBC3ibltzBx6NydvAQAgBABdxrTI
+U/gqnJ2hRohfphxdtIA/Cy6iR2fJsmgLncL/I6N1sofWMVectTU9gX9UZb0VPXBJ
+hnvtfH4/jCw0bV5teA9ECW3chNycW0OW09OTrayFN9KEqen/N0S7sTIRaAM=
+-----END ED25519 CERT-----
+master-key-ed25519 Xca0yFP4KpydoUaIX6YcXbSAPwsuokdnybJoC53C/yM
+or-address [2001:638:a000:4140::ffff:189]:443
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:46:31
+fingerprint F204 4413 DAC2 E02E 3D6B CF47 35A1 9BCA 1DE9 7281
+uptime 1057594
+bandwidth 40960 125829120 3039615
+extra-info-digest 5670B92CC933438D920D6EC3552E3B5D4B040A17 t598Ia65zUXa2ufW0KF6POtRwYO+ubAxRjpJO+UX53U
+caches-extra-info
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKn2/oRJnpdLGsOeBfnJvLV0cV3jVTHt0d3Tssi+JiZBf0IxUhuNm+oR
+nrcLJVDZynjboNefi1K3LJGCxTKKUqUpJbbXInag02SFeEeoTJaReKYsuJajvUvq
+bgzgBJhFUyqBgB5udgjhhL/aCVDYXYQ4m6JtpxKjfUmGw7+kPkDDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMjPhp0QAN8WQeP8sDg+mnM7hnPExcXTOfsmt7Sl2k3fHcHeAJnYu10V
+/hb6RBhubi1HRg6fYF5PwZWOppxRj90WX3n2JEcQh88+4tuQNQ2jOxXQ/hBkyf0w
+klrx6Fh8ana1VX+QXInfRW5z3eaANXqvdCvDG5jfUrz6pj8WGPrxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ECc71vpIRRcwtF1PlxVWSU54S3DxI9J3gGO6TTXmEYTiKzhIqAbevdRy0qfn8urH
+8RtA4lfV4y5jCLp2wQDdNANY3nUUMLPjELqpPJqEH8G1dt1zYRLLfGjcxZpr9cE4
+y3sH/5QLJCuhu4bAvACKrV4qPdK3ltQoefoNyomqMgo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCHAV3GtMhT+CqcnaFGiF+mHF20gD8LLqJHZ8myaAudwv8jAA9mrbOtWBNd
+1tE7M2TZcAI/O3tNsi1uYI5rIGxR/5vAnD18sgTLsgLMKxEMAxSauSVk4i2AdL1n
+d7wOKlKwugU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 4096R/261C5FBE77285F88FB0C343266C8C2D7C5AA446D Sebastian Hahn <tor@sebastianhahn.net> - 12NbRAjAG5U3LLWETSF7fSTcdaz32Mu5CN
+ntor-onion-key eyaBH3oBvIKkq2rUqHWbIUyzsX+ie0NXA/8/4IgHfDI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ZREZESgNRm1DOPHaeCrtlBPBsRLVckHHUByYPsy2mSWFqk5W5f1OkkF8YaIhqWfzVDpd2yTFlfJ1QjwtOUBbAg
+router-signature
+-----BEGIN SIGNATURE-----
+uUYuMm3qW67QkcWeSheUlqhRMRjS929smRiKYCyqU0sU1Wtiif2ou0Ilv8zjNxgV
+d1W5rOwtJJoh1+9sdRfUkJFZGU6Ym+0Der+QjMJHr4ucDd5+u/0x0TjSlxWIXvej
+ab8OWjMoH/1FxpekpdoZtIGZjpi/jwAUw0t9sDQCFww=
+-----END SIGNATURE-----

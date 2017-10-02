@@ -1,0 +1,67 @@
+router milrex 93.88.74.114 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 08:44:39
+fingerprint 9562 8AD5 F230 A26B 7ABC 6161 CD3B 0268 5C5D 8A71
+uptime 734501
+bandwidth 12288000 12288000 6314564
+extra-info-digest 325E98EFC367CE527B77BBE743751FCD7849EB4D
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANZOqPhRWeaZ1Lc+WDPhrpgCwBdX/YxP/+PcZGG8G4Fant6Q6eAeM2kC
+3jdXlWqxzcdAvIn8QBb0Kd783GZlmR56UCZyqNPY1keojgmqHBb/Wsr501D1oFYK
+XoRtTXsK4Qnb2o/Hmr30TaPHQcXx4GEQjUEcD6FTFOR8UUt2OCHXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMmwbiPiLoD9FqAEuErSq2+nsHHx+REDA3cgRN2K2Acf7CwCtWxOvbP2
+RP59v1tEnaY2xOzUoGqBawdb+LFkn7dk26c5f6SOsK7NOT7xx99p/uxN8O5xhFh6
+EOwh+rCvYSWOOq7XwlCln8bfgRoFsFx1A2AxT5QrVqcK9LRiQXZrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Relay Admin <tmilrex AT gmail dot com>
+ntor-onion-key kOJaSQHOgTUnWNV6sk2tzaianuVfiEAUqXrQhSF3t3E=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 93.88.74.114:*
+reject 147.67.136.21:*
+reject 147.67.136.103:*
+reject 147.67.119.136:*
+reject 147.67.136.61:*
+reject 147.67.136.3:*
+reject 147.67.119.61:*
+reject 147.67.119.3:*
+reject 147.67.119.103:*
+reject 147.67.136.136:*
+reject 147.67.119.21:*
+reject 147.67.119.20:*
+reject 147.67.119.60:*
+reject 147.67.136.102:*
+reject 147.67.136.2:*
+reject 147.67.119.135:*
+reject 147.67.136.135:*
+reject 147.67.136.60:*
+reject 147.67.119.102:*
+reject 147.67.136.20:*
+reject 147.67.119.2:*
+accept *:21-23
+accept *:80
+accept *:443
+accept *:110
+accept *:143
+accept *:993
+accept *:995
+accept *:5222-5223
+accept *:8080
+accept *:3128
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+wqutC47ZJtBjKZ/68muPu0Y8EE+UnFOCisNu7f2a/Cgbz2h05hH76rljywJuOpqt
+AunwXkNRV0wNg9F9U0X1AGqWecfmWZ9udrNK2+seeUpKM3z+sibeZLL0di3ZMjwT
+bnkIVE3YYtdY1e09Ee5CfDV+oq9hFfKnXHJa8DHzJkE=
+-----END SIGNATURE-----

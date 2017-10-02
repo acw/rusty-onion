@@ -1,0 +1,30 @@
+router openbar 91.205.175.138 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:58:33
+fingerprint C57E 9C1A BA6A F96F ADE6 B25C F2B9 ED98 1CDB F827
+uptime 3584914
+bandwidth 262144 655360 337699
+extra-info-digest FEDA6F91A689F7EA9CBFF2F8EF36B85484D778DE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANh8afdqhHKGAgo4ob3El2vFkrPvYNfsdLtlUqrucjFB6zV4SKof0wWN
+3IAf64vXiPGWgJiXHNJHHnqmbp2npJUIof1lUBXN+fDdjV2dgn6rF6e08RUeqAMy
+b6XdXZvIxWW6SYLdQoNKM6e5MmIM7vDpIFdM0J8JTU/jkk8DgCfFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANow9CXGTt4V0l3tyzK0lvioh+9tVVihIK4fEc/Aud2J0s0XnpU8gGfJ
+1+UE3VOai6gxmAJbAKHcVTEPNXrH/hWfTTLt5Nfexh9N678e4vBjsgmdz7C8FxJa
+gAoCVIM2hrbYza48cFezBJpsFiogNXgjs9kei9JGeQSao49EhxgJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact openbar(at)localhost(dot)com [tor-relay.co]
+ntor-onion-key vI5AWOWxBCeInJqLAZH3F6BOtpt8nVuEHGqEFjZfiTo=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+2hQPfeDECUD5YzBAnCvEe60zsKdXvOy4k7tP0G+O8mmyRvAAHrffHCTkeURCfJ2q
+wjSvOE3WHn0KBmWisiU49hQi7bL+GB44n9Set/Oup7HPj/QMe9kZdG9Qm2FaHvGU
+6af2j+wnzI3pzqv0mnTue1EM6wwp2db3lvu8S5MpY/M=
+-----END SIGNATURE-----

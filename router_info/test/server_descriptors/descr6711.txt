@@ -1,0 +1,51 @@
+router ididntedittheconfig 111.220.166.168 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ9AUXirpfMsCtY1fva9rH6S4UxFttKkRNgs9J1rEhFkhcTAQAgBAAwyq8r
+gh4qVjNzSlEVf+i8sC7r8gFrBMM00ed3DbRfFo8Nu6nfR9t/LzdHOLz2jgXb6WSO
+X8qbbD8APKUgnUCCllwwZJJZAt4d0r83Lj8ra1zo9BjfgETGVOlkyHH0mgs=
+-----END ED25519 CERT-----
+master-key-ed25519 MMqvK4IeKlYzc0pRFX/ovLAu6/IBawTDNNHndw20XxY
+platform Tor 0.2.9.9 on Windows 7
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:52:09
+fingerprint FFC6 7F4A 4338 0D16 D3FD 0CEE 628E 3A10 7918 72AD
+uptime 8
+bandwidth 5242880 10485760 53248
+extra-info-digest BD30D6E12E8DAFAB2D44EB5094E7F13B25A4EC73 L/R4YXV7BpkTdWJZQkT/CiWVtFngVQFGz7vmJdKNe/A
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKlEifjR6CjojW7aCSrJmqBzTHtEVcSk2Kc+osWMxwyU9TIrPG+i2D6n
+B1U7kb3+PgSDIWJQbL2wadlWLQFk3VLl0nZcgEDZ82sDVD6qfbyBD0n1MeL8z3s9
+F1NlAT5AFCPUe0TD5yfXYlz5sJblHfj8hA5oKypJJpfmgRW4MIgJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALEAkxxmHXp30dFztFzz97APe5GAlm33vzqUUa3c81CQtgUfE52s4OaH
+Q00fmK/amNfJkgziXhjDG6qRKvD3D3rmaGpBhYgZCPq75SRDuJOPcupI9N6OBZu7
+CPPDHfuJiX1JUM+0uKouulra2zkKdzBZKS8N5yVVHpYjzzj3zeaZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+av/oFHBHxnxsOqkNM8aEtIjBD1Md1c7C8/Q8mQzCC4SYLl+Lbqp05ka9o27vF+8S
+B5jaTCbZpMOup7801Ml4/c7bRezi+NyBYcFoGUwL0/E+UliGYN3F/ccHq1jgP390
+l+5+A4TEMNmiraeMIgRRRmWXSCY+4uJ2PE4KEBSKv/Y=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCPATDKryuCHipWM3NKURV/6LywLuvyAWsEwzTR53cNtF8WAB6Ph9aTvbf+
+3jbLbpCdV3dBcHMrh9ytUN4ik98pwoANFSCPlRumsmw6GDe2IrOfAK9HU1I1EFms
+fey15BDaMgs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact noemailsthanks at fbi dot gov
+ntor-onion-key LQAWmXacuah5oUBK5cvoOnRFNjHh0KoOSk9bh7x7o1c=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 8BvfaxOwzQABeRiq+xrMrr7TgIfjCZ8tqb3U3/VQvfh5V++a2BAsL41dFjfOV4ZLle1w0SJnkyxmKewMEae+AA
+router-signature
+-----BEGIN SIGNATURE-----
+Ev54d/PAImpkCkKAP18aNCfHDUxW1/5x5LtvrICiJnLq/945B0fFPMnlkleZzSCR
+5FdegBpb4i52ev8jC7LxQqj0KRp/qfLvA/FMIMu32cWK4nqv8CTjqhfuOW0hiEwD
+FPOIZ3IVbejbzB6IIz3y8RTXAQddcVT4jy+ZXbu0qBo=
+-----END SIGNATURE-----

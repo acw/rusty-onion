@@ -1,0 +1,51 @@
+router FreeBogatov 198.211.104.110 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCQAdhRVSOddLA+Zj8gfdxD2THzdXjj3Z85qnzgHiiSAt85AQAgBADJJdsp
+UpuyXHPSrWxZiWEszIpsZfkLsE1TleJRtLY/S2DK3x/rKZ5/2i6WvG1oMm8TM+VV
+36TS9RcE81P4PltumRM5kWZBgFr/nitJjz/AqJ5Z338xZ0oP0AolCgrKBQ8=
+-----END ED25519 CERT-----
+master-key-ed25519 ySXbKVKbslxz0q1sWYlhLMyKbGX5C7BNU5XiUbS2P0s
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:48:57
+fingerprint 8C8E 0E66 65FD 5F48 F29E C851 C135 AFFA 3472 DFC2
+uptime 1944080
+bandwidth 1048576 1048576 1176187
+extra-info-digest 0C06AD4162C2246C455BC5F652DE9E131ABB6C32 cLBVd1DpTz778s7Ac7elwhreaG2EPsOVkwRUczOOh4w
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMpCfNkxsENBhK4nnTPIzAWy/VA4ZLG4Vf0csOias/Ge217aaNMlOaVH
+27uQgDAEaIZJyIwMJc+41rUg+9u1fQ07a0lGRdrKPkU3/VWhrCQaB2a55h42IQGz
+Hvupm0AEBhvLyD8HWEpBQA9/9VvvUwrHynDyUkYbU/EThtbMDkTRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMteEK0B1HH7gBVy6C6Qu8cY2CFEzNKlef3C7yyhSBegeXmSf/0IOuL0
+Ay1Shil7SprgnYAZWd1WX/16XS1w6BSGiAAh8xjsqXa9pyvT80FiF1LctuIuqEbc
+wNn/+4gHSZnCwRtJ9xpgzNqMxeoRX4Hz4JHjZUpYWUYVa7vs2m9XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+XoNp8BPhG6WKy9ia8tZOChe4rzvu+9u2AUiluIIZzc1gI3zPu02cFWsNd5dG69VA
+uHXx4ELmnlNmOvi4lKU/QGT9JUV6zyyR6jOTQlmnE55waEaWmwa98oOuV1QA+GIz
+ZuxJJfZcyZaa/9sn/UaI7MEQlZ9bS7SzMC1bi35FlcA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAckl2ylSm7Jcc9KtbFmJYSzMimxl+QuwTVOV4lG0tj9LAI1/fH/+QbaU
+K+k9WzaftmyzqPI6+E730ji6Et/XOBuJD3Om79FMGpprOw9om01SoEl0pB/vZ+ld
+cvcdypU23Qs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Tanous <sawtous@gmail.com>
+ntor-onion-key AOkIH/+ytCgYCFpVQ7IMpMJd5i7wW+WN+hIiBt1HTjI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 6OYfxQD6VXgg+yUXAE3pMmKYXBdKuO7QZEiTXwd5HUnxYMGz+8soVnvisl6UvGsXkptm2QSBgypf3tDh76P3Bw
+router-signature
+-----BEGIN SIGNATURE-----
+xQyM3hrnNrmC8tubaU7zssXmY2xBj2PpKAzI/7orE2f2SbQGPTOyOrNgsSVbRTPt
+im+eYcE9SfG8/moHIyN/pw3eycbbEVsHMcDO85wOfiArFh85xwBN13BoMmu22fVe
+a9vSKjA5YBm/MEC6achgokgFfTGm8xFJNT7Dpz6/tNI=
+-----END SIGNATURE-----

@@ -1,0 +1,139 @@
+router Unnamed 178.17.170.164 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDVAaIXsYxgR+U3g083IAL5rMixouXm1Y+hoXAaoadSa7oaAQAgBADViYYC
+j4299hhJqWFFnPkVhPV8vERAqGs+x5c9ML6hQzJq559djDNRqcquDAEsclN2kvCv
+WGguxJaz3UDgpsUufm0sUr5uz6NwH4GKkwCSdUMEYYXc+1ICLNNsofzPZwU=
+-----END ED25519 CERT-----
+master-key-ed25519 1YmGAo+NvfYYSalhRZz5FYT1fLxEQKhrPseXPTC+oUM
+or-address [2a00:1dc0:cafe::f290:7489]:443
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:38:45
+fingerprint 231C 00CD 373C 5DA8 E5BA 8988 3300 506B C958 81D9
+uptime 426658
+bandwidth 8388608 10485760 6402409
+extra-info-digest D09D736576190ED612C32097C87BB9CA565EE9BC KtXYbLHVQAeMvIUzdTLIR5R4NoDeB4/ex2VE4C3cLnw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALm4S9L96x7aOuNIl71vSi2vDmjKQraF/hzBtpawvUKuKaR0F727exJ6
+3lqWsn0d4CpIz3fM2BzkXNbciy/D6CieLisDTsbiidYx/UUJiWl2k4qMI1zwaqAN
+hWLMtHVFfAcz6tpTf38Isopkc3Ji3cOWda3fnvQ6ZD73oEOgIefXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMlTQO7d+fcvoXIfLIaBaCnZZhSxzFu5X6K+QgFr286rcvVd1H8JYiBs
++RVVFbF31F72Mj8nqUqLzGAeaMgAvF6bprmEQ6JKl+PuuPxwtTwUsOpkRitbvg3M
+zQD0dPxvpdRKsmmllDcxztBincZZG/1G2ULolCZBXu9PyUkENaCVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+r9KNYSU1xTreh5sYsaRQKPldJWSQEkKwqegeCq7bile6kvnRW25cHSE8EeeDchVD
+9TIM05oFTq8/Xc2bDW2p4e9e8Cos7PwkUthWNEk6Fa0i4pUX4GdPsPzDRq6dUEf1
+Cn+YDDi+zE2qzJ1gFI3PgHtOdF5SMHrHxEtObyZxRvw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAdWJhgKPjb32GEmpYUWc+RWE9Xy8RECoaz7Hlz0wvqFDAKikgPcocJyA
+au5Z2SgcA0tODs3mmAzEk/gU93A7X0oSSJQ2EMipoKX4d+7R+6MNyZDKkmGFcUFp
+qN+tcd5t7A4=
+-----END ED25519 CERT-----
+family $2A4EE908D1E4671A45F0C670CC309E73C98C98DC $7452E7D19ACD2C39DE10C0207032E6BC05DB78F2 $81BC28735C58098591052099D5D068F0535AAE14 $874786AE2D973602041D4A1A145D2A8435C88B6F $8CCE3E38C6325E53F9378C1CA7F50366ED2A9BD7 $970CE6B17927F083ABF157E9BFA305FD39E062E5 $A6A9B7824C3ABC5351F52C16840546AA0552B706 $B528636D364776B2D94B1E140609A3B88531C0BB $B5C6F712D656C9390056AA9BA7020C87EEE9FA30 $DF75B23CD14450068D74E11D31848932945BF9FF
+hidden-service-dir
+contact Random Person <tor0102.10.swsnyder AT spamgourmet dot com>
+ntor-onion-key wtjGeuRDyZBBzDo2xt2EFZ/y9gKtIaIRndJTJ+z1k2E=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 178.17.170.164:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8232-8233
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+ipv6-policy accept 20-23,43,53,79-81,88,110,143,194,220,389,443,464-465,531,543-544,554,563,587,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8082,8087-8088,8232-8233,8332-8333,8443,8888,9418,9999-10000,11371,19294,19638,50002,64738
+tunnelled-dir-server
+router-sig-ed25519 DNDqrXSIQNGFj9fpphFsZjdVT2ntyd0xmDPV/6NIuPTBZDrhM46Kk+JNR9Jqwgjo50Tog943v5wEK/s4aqCNCg
+router-signature
+-----BEGIN SIGNATURE-----
+NVkGC53YR+XC1er4dRZIjmX6fQZxYtgoVok7ipR0ueguMRN6HdesjgAruTykGOZp
+b1NRKgyGegElUzuSCwsuirTnCQQiUvFkwnCLxdelF6V+5CTRpH0RekBRy1YgpYOf
+KAGVOUGaqf+w23//TISjkTNtU/IISUnlnd86ZmgscDI=
+-----END SIGNATURE-----

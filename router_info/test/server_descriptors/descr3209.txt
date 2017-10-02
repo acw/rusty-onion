@@ -1,0 +1,53 @@
+router sputnik 188.40.128.246 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmK0AdIBU63ruUDWiorAy8f9Jf1SsOJIq/9iGItO0wMrDkKHAQAgBADLxV31
+LKB4w7IGRLigtBVsLQX73BLg0XmrU/rVbzSMvVL1kaN8Gz25sniu8sdWJbwAL4Aj
+eCypL4P89D79BN9r/CEsz+ZyYjMjbHlY87DftKz4vcOUFilsIm8+WAiMig0=
+-----END ED25519 CERT-----
+master-key-ed25519 y8Vd9SygeMOyBkS4oLQVbC0F+9wS4NF5q1P61W80jL0
+or-address [2a01:4f8:221:1ac1:dead:beef:7005:9001]:9001
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:28:30
+fingerprint AD19 490C 7DBB 26D3 A68E FC82 4F67 E69B 0A96 E601
+uptime 1023009
+bandwidth 12288000 20480000 14589226
+extra-info-digest 8532DBF21011D35ADC74A5BF3E92322433C6FA5F n5suILyelJn5d0VvudvbVDUrIXCj7NIEldjcQihxeFA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALwoDFYtHoxFgqdjocGrJutO2eztALOvm0cDgF+jYsqGmPgDnY6D0I3C
+qibx18syp5BQtD/8t0PHqZoFSSwnK8/qr43WYZUvDvj8m1sABExOh3sTVgLBbFir
+sRsiO5JF8XruoiLrf+TyE1v2+lr5tVJVEa5tHpKbYMyADXMs95p7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL/PaJXMy9dLSaCkMa/OAu5GglChdopUzWvjDQaqf1Lbukl990OecTWy
+O5c8nID0Gn0xu6Qt5oOXOzD83l0PF0lCRKO68GoPrE1wa5yPFzbZm8mZBguNXW+X
+n2h/PvydOYD4eZH1tc4YsCys/ntmlLYz+t7Y9wxtm6zKXc4iN6F9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MB3Jh5FBqQFQTEP0UxWyjfuszwkRgBIw2xk5SOZREO8qPTMpzgYA0MnSoGGwymEM
+2mg02PlsPDK5JxF/1CcPlRogWlE+TwjwHeDhmhFvcdNqotZFOjo8VYxjMBNPG3Zr
+BvuB3AM9zCHu0QQZ9vHNLvRk5CkHLWEEg0CFe4yMQsc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAcvFXfUsoHjDsgZEuKC0FWwtBfvcEuDReatT+tVvNIy9AAaJ7l+KiZB7
+Kv3bKPIqO7HOwSAxCPD9cazIkWD9Ekbeh1BWDleqNlqAbld6yWuFrgzq73/JJk7e
+35fytFk1ZQc=
+-----END ED25519 CERT-----
+family $F2DFE5FA1E4CF54F8E761A6D304B9B4EC69BDAE8
+hidden-service-dir
+contact 4096R/B0306876 Jan <jan-tor with jreusch and de>
+ntor-onion-key wEKqUGzxgK5xC/S8fKLGqggcw4elQaM7rQe98LYXP3M=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Xe133j2BLxvpS+FRPC3CxrUq8bkyWcsDFeoPrL6g6VjMmoAa9OMz/2X5rsJjvy5l9Wlc6ZW0WNlPLCa2Dm9PCw
+router-signature
+-----BEGIN SIGNATURE-----
+rX3mA2zhRxMir6EGtDB5qeKrtFXnmflc8oua676HQstJFbEtZ+J+bsuqXOrFmw02
+Sx9ZdBeacv4xBW3bLBruGIFOzg04oMmUnHWd6y6y8/KBCswkqRLic2YQ/I3dy9JE
+B4TIF9Vd3Y85s0uGVKjEhZu7OgZUGqG87qvFlfeJR7Y=
+-----END SIGNATURE-----

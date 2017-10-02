@@ -1,0 +1,128 @@
+router bynumlawtor 104.200.20.46 9001 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBDAZmq4Fad52phakAiVd095KuPOzGJlJ89ySa15wQ943alAQAgBACLb7C8
+3L678eo2eJkD/harFzibyW4hflvQJHpLpD6LNlQCYfU0EZ/q1WllOJCLM0zqEids
+34gZKu1UJP63Mx9FOLIXGFZZjlxH61ypxGMItxVgC4rJpHC8ctOX0WqBJAI=
+-----END ED25519 CERT-----
+master-key-ed25519 i2+wvNy+u/HqNniZA/4Wqxc4m8luIX5b0CR6S6Q+izY
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:07:19
+fingerprint 78E2 BE74 4A53 631B 4AAB 7814 68E9 4C52 AB73 968B
+uptime 700624
+bandwidth 4096000 6144000 5532022
+extra-info-digest D860C28E6589A2FB2DC24D064EC86A349626B22A NZihr6/2rfwSFG07tL6XxiE8+7yvDg7dJ6NK3c8ea3Y
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL+KsKIMiyl7kGC20Qe3D/raXMvMOdgpslhsRyn4UW0fzTk5BCcPHvRQ
+Vo/yqevFUlHU4XjijJMX+wwjZ7gsbSruAR/LYi8bBnEyQtlhG2Rt/mt4GrxLz8Hg
+x9v8MvC1+tf//XioLXe8yOFlA34muTmhF0vb/Wkg4SXs89EUfVzrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMnjZM7PZVGrhDIdF2Z6PjvzZILDaZgHbPy11/+r/2OmAOxPIEYXphlz
+h7dmPCyixwzLhhEJlBvWYkUB2KBfY71u3VcdkB0VFVKn9px+yAEvfwwR6snyLHxx
+SfwYZsft/pe23xNd0GgXG6BZPNexTSIgZQknj4BljTbDZmzo3Lf1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JbqUgcaAsmLklgdEsNz2EZGmZGoADFtngNmiPtukldLGGe/ce2df840OgV+GrfMy
+focgCNlA88NMo13GQgt9Bq7ljvKr7CXGlhf+hPytGOA1dFa0OfKRDlmfg6WqvKtS
+hdvLwnzesVqRPDauxHIcCojRU6mOezAXdjg4k4dT3mA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKFAYtvsLzcvrvx6jZ4mQP+FqsXOJvJbiF+W9AkekukPos2AB2omS5bKVwU
+TufEsUHoPr7gAn1niofyP42y9hl8MjrCxuTKHaNsFS3ixo48QmwobZsFvSgzWp5s
+mtPdWgQPCQk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor-relay@bynumlaw.net
+ntor-onion-key AJXwI8N/DukWlss0b1s8g6iSdPTdYJNQSOgLmy8+oBs=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 104.200.20.46:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+ipv6-policy accept 20-23,43,53,79-81,88,110,143,194,220,389,443,464-465,531,543-544,554,563,587,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8082,8087-8088,8332-8333,8443,8888,9418,9999-10000,11371,19294,19638,50002,64738
+tunnelled-dir-server
+router-sig-ed25519 vTTDGi40/EyD4MQXRYelU911Ml2s9yEDs7GSFPw7sljVs8JaRwpYc3O0CdCbn/2tXsYUnp4duhxMj9Rz/5eyCw
+router-signature
+-----BEGIN SIGNATURE-----
+dH2VPq+lYZE5X1qQAtpv18fONim+WDaWIydOHO381SzjQkX2KMFR0PjpxLbDBkqc
+ohzqU3/4FtlHaaBdRA8pQzmHiiEVSzQDKhwysozJrQNNfEn8sRJ49MibX/frDgOx
+28eAziG97GxK4/FfOtuWhsVghKAYHr8MvBdUaLsiVuE=
+-----END SIGNATURE-----

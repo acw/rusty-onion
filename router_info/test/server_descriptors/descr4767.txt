@@ -1,0 +1,50 @@
+router molorelay 5.9.50.84 29001 0 29030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCOAagHemMGZCfpKYlP+n/pQbFcv2NtshlfYJGGYB8emocRAQAgBAAFQI/G
++T99XGEZ9fp+jmUohelHzx5Y1qafqRDHJ8mhtx8ruhWJ/xTw1XMIPZU1tNEo4TAj
+yJ2T0R9/u898Uxf08zZBpX37+wIyErspCTDrv+V84aBOPBOJ4bqmPbi83gw=
+-----END ED25519 CERT-----
+master-key-ed25519 BUCPxvk/fVxhGfX6fo5lKIXpR88eWNamn6kQxyfJobc
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 13:02:08
+fingerprint 7243 0BB2 68B1 E256 0054 18B2 0FDD 534A A2A7 3D62
+uptime 5161942
+bandwidth 5120000 10240000 6270697
+extra-info-digest 68821C738C393D63AA4959454DD20CCDF618193B 9Rb8grs8hq07CFvjIpmFmGIYjZJJATYvTvcy+EWOJAc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANyw73YYQvrjgtNqLa0TFMIAmz0CYBGLeNK/oibXrJbMC6I+8Jfdb0wL
+ycRLmKq5PDjjv3Oj2V+PVP+bwO9AYaU2i/Gsjrt0Dzz4f1udV6/SNyCRdRc+HzmR
+8AjWDEgvRtbl0NbfvWP0S9B1t58uIrlIe1N2ST9hlWwqPBearemxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKxxn5/XdtGfVe0GrPXv62vb/Y1lTx/Z4ZSP0a5eZ3ZEv7OmXbUNscss
+UknJ5KC8EFjCZ6dweAgHN7edEMGBYrwkGXKnbtmpx6820+T1B5/+tjyoAx5L8eIZ
+NI/upNhE+bPo2g7e4ChX0eX6rD6vA+OLxopf5UygdF5a+j/PoH/LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+VLjsMf9VA8mEOOQ/zZQmVNv2Is2XVSfXvlU2TsAJezkvT9FVNO6Y6HfnmH8NrWhz
+yFdl2dO9s8inpQ28SPpz2brJhXygqIlJo5gdpevV1DiATemR1+e3pwHXh6ai3wNo
+d23ykrFBZoRWy2YMbmLSGBIeQgESdn4ZvCsKEOB0RmQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCGAQVAj8b5P31cYRn1+n6OZSiF6UfPHljWpp+pEMcnyaG3ALKVygRsC0kO
+qFqadk1l5eF8x1mvNXSBqELKL5Kg7726gsbMzPfr1v27G1pS3rASlQMecdiDRYrF
+e+U953dLwA8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x8D071DBA Marvin Moloczek <marvin@moloczek.com>
+ntor-onion-key iOJXk4cE5qfEayRRjvqtIvocweIyzivjLG/skhaDzx8=
+reject *:*
+router-sig-ed25519 /He9mOOlP48TVHWKdTKm7/eD27p1DcdFAW8+Fq0Txfs9VzihxaLQI9xikq326TpnbDREm37IlvWBXATIXBieAw
+router-signature
+-----BEGIN SIGNATURE-----
+YDiVvwH3VtTwnVAX6hQUDmdoZQcmg1BFLRB6bQy3mj78GjsU7TvN1QpKBpHDGiua
+ExDAgWT1WnfaQsv72UiA9uPTNJ9IGTuDsduXYpINAPUuvj5mmiNHUFlyWrLCFfi/
+6g5VhHiO9d5Q+BY15Qud4vm0TlqesW03VEiOSN9pRsg=
+-----END SIGNATURE-----

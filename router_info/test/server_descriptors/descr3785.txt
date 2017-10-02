@@ -1,0 +1,30 @@
+router TorBox 97.120.251.53 9002 0 9032
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:35:54
+fingerprint 9759 B6A7 2123 E968 2462 43AA B9DE 0318 5C7C 0FE0
+uptime 106082
+bandwidth 209715200 262144000 5402700
+extra-info-digest D2DF6DECBBE77C96047F541BEAB8DDE8F0D1188A
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJcebUR4ogfiO5Gl5nLeOi/p7EelBD1w7EQUpzL/nC90gXK215yANmrB
+bFmhnGfIk5MFb/nYyNEA+BEti42WJZmKjTp6i2c7Sk8aWIdP9oB+jAFauZtIoR16
+yoeK8pCPPEtOy25zAJ7sdf3J/meb1Caqji5LgF9YflTZK7C4ZJpdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALhffxeCdLyZOlvn1btmHp4eTiAP5pFwL0xFgRLe/X9iY+aZnAY7O9CV
+pO8OVnZETF6AZNYrbnjc1WdPcU2ggSwbr2XUboV+Y+7qZon42IA/LsC9FY+EMk6a
+eKu3wf/sf5n0Xj0i6GC9Lj/hrEqmtKZTe7ejFDbuP51Vgyzq4x39AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Random Person <tj undrskor ms AT yaho dot com>
+ntor-onion-key Kmwgx6y584Wbfwae5t9O9Xq/iMTM0Wc2nk9NDMK6kXU=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+fRLH0GFbV8y77IaM3WXYxyhBq1Y1TX+cRhUHE2SkPzbr2u7X/Ypei7l91KDL2NgP
+M+FktRcbyXIjEn5236Jtvvr6qcIT5RqJCRJ9t/qdR/fU9PxON/CvW6UTdgHD1IDD
+vmlaiiCllppq86IMlyfE6opfQTkP9FejvjAHfAF7oiY=
+-----END SIGNATURE-----

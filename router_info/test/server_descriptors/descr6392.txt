@@ -1,0 +1,53 @@
+router mullbinde9 163.172.13.165 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAnAY0veuZqqVs9NTo0q8GlhYew1fVp0VqXxGGBtub0/gbqAQAgBABM5Lsw
+P6Pi8+F/6nPUAme1oxp/ePLeLtEcmR8YMb5YtJZ2OO3Baq0a5MUScWW3DlHS8Vn3
+Fs1nfeDs4ds++rjz8kAi0746oP8c77tydfD4TSzAXcwkDMyPZIWgLRUrUQk=
+-----END ED25519 CERT-----
+master-key-ed25519 TOS7MD+j4vPhf+pz1AJntaMaf3jy3i7RHJkfGDG+WLQ
+or-address [2001:bc8:38cb:201::8]:9001
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:18:38
+fingerprint 33DA 0CAB 7C27 812E FF2E 22C9 7056 30A5 4D10 1FEB
+uptime 633617
+bandwidth 10752000 12185600 10492178
+extra-info-digest E7200990246DD077FF96D156B98B0BC0681041DC bX1PwqGAllbBqXZl7IdVyNpPEBtYift6kMJyswPRep8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOpzrDrakWmf3Z7zVetWJMssHk8aXoPkDgmyOGEe4aJPsJwLHPVFaLFf
+h3MopcNF1TfkWb87fr9RmygXPENxhMHFFuuJHYUDKUCKIVfJT8XHT5h5ySzbARTt
+IbFefNuAG/pgLV9WQPWeDWDUUEwk5aQHVNK43bHfacN7DtIOV6QhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL+GvZoPzQyUkkQPgL8T3C6wgV/EzXPobDfiMmYUj0WyIQvG6YMffI3k
+pXPZmkn6wN5gSzKy+iQMonEJVZOiHRXmqkI6X+6Rs760ktKUy+6mtevVZzvQ4vtP
+QP6RV3vEx7mAecZl8vfVBShwmQoLjr15rvumtOM9IGfpLDtKV18zAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+TlKlOHjR2shYC1WvgIlfNf3nRvI4SYytg+Zmy5ufdOJHG3fzd4chSA5rsmICni6Y
+OBwk/AdURZFJvcDc8YCZMKDUC0siU9NzDi/ZuLRsAxilMLxqjcrU9ZjdONBbiymc
++LjdKjiiMBy+Zu7ZAzji652HNb16IowWlrRVPtkpQ7Y=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmJ+AUzkuzA/o+Lz4X/qc9QCZ7WjGn948t4u0RyZHxgxvli0ABjofA8JIdei
+XCs+GXvTP6txl2cKJENu3rq4O+wvtnF/psBHYbgblCwCbSmShiJqmNyi9JOpo+bq
+SyzjQu7b3gI=
+-----END ED25519 CERT-----
+family $4CA8D07878F86ED5B64B4B89030FF4616067210F $5D100DAC3AC51FC4E8D6EA4DA0B650A12DB922AF $7F1D94E2C36F8CC595C2AB00022A5AE38171D50B $E382042E06A0A68AFC533E5AD5FB6867A12DF9FF
+hidden-service-dir
+contact hiwi  <hiwi AT nurfuerspam dot de>
+ntor-onion-key JKt7rCWslaMl4s0/0gLj6gxem0v7oznb5QSuCb4EPGE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 1Lg+z3R5AUjbarlIdVdzq8bwu/ieL+S7DkeRN1DmmpIjd4DHO3B42sGzZ5jsGrLdP5oQ9DzcnTUPmOd65sA8Dw
+router-signature
+-----BEGIN SIGNATURE-----
+G4TTKlIGnbPLviUnas5ahwPFYG9jw75MEseyHc5zsvyPWLs69guEO5kBXenl5d6p
+Rf+oNX9pyjzV3RN7ortMSyVBqwPJ1hbaKIGN9xhW7EvwiDIzYuVjsN/8j1wQIDvw
+jxhvehphQ6/cP9hRLjjsG8gSnn8oGWx8sJk9wqscbcA=
+-----END SIGNATURE-----

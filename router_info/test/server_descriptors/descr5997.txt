@@ -1,0 +1,105 @@
+router despad 87.120.254.92 9001 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:22:10
+fingerprint 36B0 E4D4 1F5B 697C B7A4 F9F3 66C9 6E46 99A7 4DBA
+uptime 403515
+bandwidth 81920 102400 93176
+extra-info-digest E7AA936540FD56444C52CD572836BDD5891CDA1D
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL6fDOdvrgjbEScCTH/3rMtEPlG2Fz62qkCHbuLtbrucfA1+SdIBAAZ9
++4fvErjSEV2JU8mmk2RHpvXD3HvGvAdLV9ni/QidfBVOUa8in7Q8LUwgkwJi7XMV
+GY9VnS4Hoi/C8gSCEcWDsOtc2ucDSsSKLkQ+SgB8SjVgdk8Qc5rPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPCRA3zhAGvVNrPKyrfh0qbwNJlOHXpUItOsogb++GGQGFsSFutWxTcw
+tspbsjxIh/7ko4XObrWI3m6GxbrTHrH4kZmWWVc03kUPg7hECPJi599hlTZXnw2K
+aW7XhyMM0hN4eWL3+gdF+9J6+9nLqRyt0/xQ2oMqGnaTPkmoQLOzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key 0xtGMBlwEh15DbCl5XBF2zBWZc4T8Q+yLiB4K6F3EUw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 87.120.254.92:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:50002
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+2Bld3Jt/619ubRJGD7E58pRAsPpDHVjGygJ34lR4jSdMyvJ9B59ylEehzJfvNSOq
+45mdxZvipeX9CpIODjk00etFUGLB1gMwK0ccKPCKaXKa/Umc5XrLrU9r3kmiDOx1
+ER6voFfDoSLAi/PcEC5NfFNoDTw9HQbzJBkoStcJs50=
+-----END SIGNATURE-----

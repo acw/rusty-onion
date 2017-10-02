@@ -1,0 +1,51 @@
+router hyperrealinfo 95.183.51.160 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI3Acl/Jtwt/dS0OH1rI2r7j3HDfEq+HP+Pt13m+/sz2zDBAQAgBAApeqIc
+O3aKaKxpHSrdDfQN0OfdkaFNYaoi+XEuTbdOB0NSk4q+/5RNOoWbzmT7foB/QXol
+R0Pyz7GTvs3lHDGiIW4DwwVvD4kZjhjc4WNfViGaH18AQbbL150+KJ4jhwU=
+-----END ED25519 CERT-----
+master-key-ed25519 KXqiHDt2imisaR0q3Q30DdDn3ZGhTWGqIvlxLk23Tgc
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 04:00:37
+fingerprint 35A0 C9C5 A335 DD53 4F1E 4E5A B91E 8F57 6476 5828
+uptime 1209400
+bandwidth 256000 512000 328940
+extra-info-digest A3E0A0F0D9DAFE70AD7EFC36FFB1F005A015FA1D OFl1dHracrafJwFot2LO/AP1+B7f95TwQHFhRz7eylM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMdnvy3dQuNaWoVmW2ExjZSEx3CW3LRfYQyT0F8/M0p75evfJmrzKr1v
+ogDM6mEKTj7vkvc/Rg+PhRl4ZJWQFavHsTEioiFtcRFu1LJ7gNuuNxDx0QORsyvi
+RzKd9dblwvlo64lbA8EZpbBZeZB/4Mj7ZEG2d/+bNCQoHyHEzAA1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALDF47Q8fpEAqDPme2eYYBA87QWEG95bCD6ZFtXtvFII6WobK2Yv3ue+
+FNsmnKeXt/RUkhRchNkACzDgOnrJuPiVSZHENQXWQy3O04HBM+3KrCKPPn1FOa8Y
+cqEF+9alBH3s5xiLuy0DJ/1qDyNzhcY1tnaoiUuWu2bYYA5BHuoDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+v2R24mIB2+v135FiumdlStZXK3cn/ErO+cMy9MJ+r3itHZ3U9sVknNM2jY2E2EpB
+g6LUWbMKsCBe2r/7eWA4rAbtQgf5xw66zZPgz4wxLCYzmj28NMGOGqcimNxjJDcu
+w0PIMtDGF/bvYsQo49EQdRr/LdtNfqC94GtYf7uQ/TY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCVASl6ohw7doporGkdKt0N9A3Q592RoU1hqiL5cS5Nt04HALVl0dU1ULDb
+7qMaLTkQiUJgiu+pb8sl86jC1cJ4JpX7/ZwCK9KZJ3EAYJjtxP/e3Ys5KUTbBMC3
+e8flXAPUWA4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Redakcja Hyperreala <tor AT hyperreal.biz>
+ntor-onion-key sgncbbaS63cnkUv91ogIv1NmmOBWi4rWqIhpacE0oWY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 nmp9lpZunH56ou5ZPEP0cfiqI7wg3h1wQkiz8Oc+McIZio7eVeslbiu2XHCk09auNT9MCS1lpJ2CSgeLFQhrBQ
+router-signature
+-----BEGIN SIGNATURE-----
+RcEc1O1OxDmBXpQnl5aMsTVwcfoL6QA/jg//mEb5mPo4ydEWIaOr6Z783Vk/iKmz
+oqaCCtLcIgmnBCKTqdjeCKxwbOadF1Frqlnn50YWdhZ3rCTg+5J43aM0LxxwWG01
+NL4PjMNBC/ey1XxeQAlRewm9285cLZbY/RaeG82GHj4=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router BungeeNet 138.197.133.81 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHOAa+zfEw/605CqkeqU1CZFHjpn3Z6RWvZ3ha2p1hQunYfAQAgBAA0H6GK
+EwaRjn37Htu4ifypo47958ZufabWxg8qOImZ7zGJEueyY24cLyoIz3tJL/oCKRCz
+KtfChmss6GMxVMZS7HXNYY8+1xchhYZr55Cwi67gxwE1+CoXCxyqvVdSuAA=
+-----END ED25519 CERT-----
+master-key-ed25519 NB+hihMGkY59+x7buIn8qaOO/efGbn2m1sYPKjiJme8
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:13:03
+fingerprint A894 ABB7 B1A9 90B5 F10B A9CB E668 E27B E6C7 FEDF
+uptime 74
+bandwidth 262144000 314572800 13131776
+extra-info-digest A07D31019F2E0D7BBD113F120443F61265633327 evc4AYe90PR2ZX+26Hl8xS3ieMCPsRhv+hGn0vYHkog
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMJ8p+TIpJFue1ORHnJrtVvJBfqv3gXQSaFPVipQXex4iPbwQ2zEPoya
+KF286O0k3nXjebrJfpu11PjnTV1/8C1goMYjA42siKIi4WGnuu0xjNysrWcUjX7+
+m+sborpAcA9wMcs8tJak4WiPdwlfDSLcRgYybgxFdtFAZPJJ7aRlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMj3bTAU/8bbznYLTuyaK2kd0fVahPG+PNAnHeKa6V1MA8Gq83G3ODEx
+vWvdx/aQ/Wxi/gkcifRzSiKWRSfIhokhbaJHYSEDsqKk0l0x4X156nZni3JEJdHQ
+8vztNpC/1iB4xc/vQAT0/otZl4lGZEJFbk4vxwZDEO1HhY2yjYAJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+TsZ6A8xciwBO2FCaVDdIsyzl2WvPelANJAMv2bOcyBIE+ijTlEdcAmZ+UP/sugo3
+PYS9epUfm0xLfXKeQNvpD4kVjqBTHLGNhSbcO5KBLJnG0xzUQhbdtYSGBWrx1vA3
+YlWiFDz+qCZO7aceFcgXPuq+Oskn9T2lnW7ONaTeouk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSATQfoYoTBpGOffse27iJ/Kmjjv3nxm59ptbGDyo4iZnvABry08YQ5hQ0
+aDdGz1ykqrDvwHmJs81UFgdHfiW4f4qnEjf80SzGBSLRlbjvdQVR2c/MbLeZbCzx
+vOJeYnqg2AU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Gabriel Girouard <bungeetaco AT protonmail DOT com> 12CkF47EBytFSP18DbnaJz2ZpGx8SCMfUU
+ntor-onion-key bMgCmICnKdB0Y8gJaS6I7DKzlquMSS7BRfFSfzk+WD4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 xpPC/P/czgDnk9Ez71NcGfHGXaf3dIDWZPJa0Wx0BBHxaLIcYwLkccbgnHx0x40Wy89zD4TxpQYXs/gRg1Q9BQ
+router-signature
+-----BEGIN SIGNATURE-----
+gJOEwMso270ScPEnwoZmWDLMZum4l1gTjISs5p5+4xKC7pGPdQ+7gznysaDxpglo
+0WJA0/ptPXjd7OR/rqIUmd9RixNMoJrxVp90wPJCIiGkVZ0LPWcz2BcyW90UIU4E
+1XnK+2hQPTwL7OkOW2jcB1/snu+4KmgKDjiEkERKsGE=
+-----END SIGNATURE-----

@@ -1,0 +1,43 @@
+router OnePointTwentyOneGW 87.118.122.201 443 0 80
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 21:19:19
+fingerprint EC3D 300A 312A 29A4 E716 3055 FA9E DFA1 86E5 E350
+uptime 1533662
+bandwidth 10485760 10485760 4479736
+extra-info-digest A3C5698D8F2EC024D3F5A3505EBA37484A221C8F
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOdPaaGB0YsDeWWVBlGnBPyy0PPD1kwb/nwxOU7zMYcdgCVkvSSJSrV6
+E03AI4FGP8EB+D00K9RlrMPAlbk4/N1Tje+G/Yh9fOriv8eorZpsSgjaXHV4p4P/
+yCtMFs5m9/oNMHWWrKqcMpAZtK3j01Zviv24fiVbknMWOglAhxgvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANCaglBXK13qpGNELXVs0ssXjeBAiznedBAcU2S6qiN6iy6t068QcJtC
+/WG1Ozwhw5iH5rmY8Um0LxzHVeNmYVfZNOuoMy77vTuSJiPyLfTeaPNsPOe53kDs
+0h5rf9vBGv7VE+idqAylzWGyhI8cfLGW7HIxf75OJcTnFnRQ/SOBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact jamesbos[at]geemaledotcom
+ntor-onion-key azOCnzqRhCevE0BWdEYg5MVMr4+6vMqkRHjV1VXRLm4=
+reject 0.0.0.0/8:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 87.118.122.201:*
+reject 44.128.0.0/16:*
+reject 169.254.0.0/15:*
+reject 62.141.55.117:*
+reject 62.141.54.117:*
+reject 211.218.228.21:*
+reject *:25
+reject *:179
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+FYAJiV0e42qVWbRvItkXmdnqD3eL4Cm6ktNDLTAthK4U4eY3LCf5pNoqGP8McJhw
+MqfCzWNEOvoInr72VD6EBcgsYiojVlMy5JotNFOW6apW1ffT9Fr/TiIM13zKkZCf
+S6fnxuBCZM9pN5dmJqa45LjafGFo3FWCH6TjUw5dOGo=
+-----END SIGNATURE-----

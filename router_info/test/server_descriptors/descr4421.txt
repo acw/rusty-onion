@@ -1,0 +1,52 @@
+router CheekiBreeki 51.15.40.233 9090 0 80
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:15:00
+fingerprint 8003 9303 10D9 B04E 088F 338D D9DD 4820 6D4E 05E0
+uptime 312604
+bandwidth 23068672 26214400 12517604
+extra-info-digest 8AB4C8D39BEC939FA137B89872D3755ADA4DD80B
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANDrevvBkkSO+VdAWxL1vb7Z5V8oIjlhUQlZwUIlrE1Tzo7zihfULawL
+FIbX3Eto/9HZHXcBmFstR5khR0D1UET+eUBfFyhSLYQYetQCIcsWqu7uUuVmpsJK
+fkyD4v2Pfo1wSFbNODcXZZ36DfqUEXFSh0sZCkrYcX/aDlBZu9InAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMF8oIrm+JT8qEf56gqgPh16QzRPNYDJdj7ZclFkbkRwRKspm+JJsG44
+2zJH24aZZARNAyTXI1gZm3pGeWMSAisRUC9Tft1ijRwFKwAzjxdjpXVgSidgtyR5
+U6jOBFypy3Qna86PN46mTauJEglS1G6luVnRHmoIIHN3ajLiHCmHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $8E3F0DE150EF3EDC9D1ED112FC68622118984703 $B733880775A1E86616516514D7746858F3A943BE
+hidden-service-dir
+contact 0xC84695B2 Thomas bmkdwxy1z4h94gs <contact@oignon.ovh>
+ntor-onion-key luMRtpw4KZJJnziIQ/JLkLitNKh6i+EE+cwLzMsHRhY=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 51.15.40.233:*
+reject 77.104.162.85:*
+reject *:109
+reject *:110
+reject *:143
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+Ft/p8fCVmVB47a92Lr1oSEd1pAYJSF+D/C3dkt9U2ZXDODjfigb+fg4ZsSIYdqqo
+BE8OSoSXAbrYWpJoIrPQzHsRKnExflh0X3JjE8dXkuENul1YgRq5EyzBbnCLIukr
+md4QPosoy61ToMR54JnKn+mFLFuz4qKclLmN4zFABeE=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router nocabal 78.46.53.11 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJGAfjSBso2TqrvDWmbCV61lOEUmIsFzUoeXlb3fHVi/ZYCAQAgBAAmfKAB
+8OcH7x8CsXh2tIZLCDAFU0mJJxThw9pkn2N7kbneYS44c8C7CW8gvc/3qBsKw9Cp
+MnsydhBSUBz9XOVy+V2wNR73bmM2ho+FMBhVgjsRDmPlm3wKlwvTHTmK3QA=
+-----END ED25519 CERT-----
+master-key-ed25519 JnygAfDnB+8fArF4drSGSwgwBVNJiScU4cPaZJ9je5E
+or-address [2a01:4f8:110:12c8::2:9001]:9001
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:08:13
+fingerprint DBD6 7767 6401 97FF 96EC 6A87 6844 64FC 48F6 11B6
+uptime 919184
+bandwidth 2048000 2560000 2403914
+extra-info-digest F1212953A6FF77401BA44A9B3150F0A8DE356433 YQ6A/i92RWkhcfg6NCC+Fvg2Cd3k+dyk2/vIh+oVVQ8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL0aEK3QEwdnS0xAButebweFqG3vOJX3BOagZzU95Lgk1ynSIj/BOveE
+RLOAfk1v1Gne9rfvykOqsnxyvIZYLoGydyL9Wih6uUmGvg94/4TH3u81EwUse3AO
+ainYXoXaZ8QWR6BhhqXRHj+ee46Zw4nirv8thQqMBvYAq7+zjx3tAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKAfuB/71NyFWVT7NlUlkwbHbwloIvDc4MzoNxyXhqaHsiASe39s0Y2+
+XO66OcB44zarJecfsJ66zcB3GHmw27n/BYWGLTLVecUdYxpKj/3hknyDT5TlQw79
+7m0v9SP177i+qaAKrLzrcQ4SFOoivvT6IahFGXcjXSFbMmwpg3iHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+DXNXIZYY7VAj/C8GVCXH6rLyUEb6EXC5HSOnkLxIcD8nI5e/Qday9p5grnhNQ/KZ
+SkZVGPPyOckArCOs1WIj9LevwmyVBOVoQN/oaqiABH3vhCXxkoYokf8UJWkDRYTX
+xGEaUmrDsUHDep9iLq43YwAYa9bzQUUAWslW/Z8pzkg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNASZ8oAHw5wfvHwKxeHa0hksIMAVTSYknFOHD2mSfY3uRAMBMip7GobM2
+iRcg5CETMqiMtvB0DTf2XxyRWd9YhZHQg7q/+QK+Mher6i0Lv0OwGzw7Fb7ud9z6
+xQhlulVwCgg=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key IvH1hVuFrTRUldcAqeTov+V77PQccl3LMPRpk3miAg4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 sSe68KGlgOWk+ajEuLNEkMNNezGlMJpeWhwjfphxzqJY0zZoeihurRWgScZQ2/5Q62cV4jylwv5Sy/gplgeCCA
+router-signature
+-----BEGIN SIGNATURE-----
+KagM7KE1FswKBcUWK7ezWEp1R/cFlRWkLjHGiaPDQyfL5naZYIqjvFpVwxHDKH8K
+ncxQFGHrjA/HjzE+rharMdgUHI8JSQ+swfwZOIW2uZZqse81vRhsVvEC0sHjBii1
+1ClIrwjd/6RKQqe5PXXV20N/jGArOXkZVlsh4qdhsLk=
+-----END SIGNATURE-----

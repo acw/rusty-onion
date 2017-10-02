@@ -1,0 +1,51 @@
+router daveserv 5.39.91.86 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKvAWxJxES8Qq4HFiMzSIJuOQue4A9kSi+4YUizTPOnByZFAQAgBABMUF+b
+j20RekZP7Spt+Zh6JqbAG9RvyCGnuG9YYYrYbqK9SvygDyOuELxgMiQV+ZeKJnLY
+7CcoJLgS5oDCg2q9m0+7imklW67nLP7z/Ldus1NDrDZeY/g4ka5Uo0hv6w4=
+-----END ED25519 CERT-----
+master-key-ed25519 TFBfm49tEXpGT+0qbfmYeiamwBvUb8ghp7hvWGGK2G4
+platform Tor 0.2.8.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:10:25
+fingerprint BA9E 1704 8076 E99A E359 207A 9436 B7C0 7D11 94C4
+uptime 775453
+bandwidth 1073741824 1073741824 5601381
+extra-info-digest 3CE33337FB01EDD10F891D54E8F38DFEA7BE2B76 bwTI4bHlptF4AMsbGtV8pS7Epnp6oXKujZKPujNlH+I
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANaNnG4tBMuwbwp6TsNre786Je1LtG754ocgvBR4FPoaU8eRmhrQqSbb
+iWzBeiBDWN2P44A3dLLfEp0EcG1li6w+HY5Z4mDcyuvP/hdoRc40GVrS3oXenOo8
+iDSoTJKkYzBmwI+/ZGrxI0Y8dKNwuJuA5T58n1Wit1ymi3aKMoFhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMHKh6aEA/q8SjZs6ojX1LdKcZUyCbbVoSrQnhOtfOa40FyO3D4wLYOz
+u1T47U5ktNq3wvc7CU7s7DhjocsvtqiggMMRfHWZaqrKakTpcLV/XM6w6097yxGo
+lJ7u69NGRE6MpSWlIKSuYhc+FQnx6bU6V01q+mmhBSNkodViV1VJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+E0wT+iIFbaxzZT1OCaFMs7gZyyv9X9EnzSrTNl1krVS2Woi7R0SILFoyg5iTFui5
+PufIhB/uPUffKxrojSKHlcee16jwuewgtqna6iLge1omdo6xrjc63pVFY90lM+Xo
+EWs2/5lX19eyiQOfxVLm8Mk9G5zKX/UX8KWQcuo+154=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAUxQX5uPbRF6Rk/tKm35mHompsAb1G/IIae4b1hhithuACWKdoDdsFgO
+NQLdzf/bSxV0pgqG6xOjsTgx3cdxs8eJPjWRcX58IehMTsfoJD2clhfCjWP+pUQZ
+WLcwBLJGSwI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact daveserv <dbserv7@gmail.com>
+ntor-onion-key EA3+G/9D85Bb4kLHCqlHTr1VG56RSSln3Y6KuqOCXgY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 wU8doLWAFN2mCYQpq9zMJZa7YrHhPPae8UNptlpamAdVODMhkOh+XhFa7selUnuklLqbUm2b3wmQOWQyb6oYAw
+router-signature
+-----BEGIN SIGNATURE-----
+QP2RaXqPmhFFnvDWWuoDBYcdjrkEJ4X2r1acCyduxIz9YatXynYQh4y1Up1tpxPb
+WYZ4dwqvnjl8Y422bYTjFdWMQHpXpZ1tqmrQPJ8OqtmeHfMr9f0e6iYVHk8SjMSH
+JoXLJjmWaIdwxR6hoyNMyW0Kp0OqM3qHpwEZei6yzd0=
+-----END SIGNATURE-----

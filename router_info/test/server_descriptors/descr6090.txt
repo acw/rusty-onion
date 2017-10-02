@@ -1,0 +1,50 @@
+router serpent 136.168.201.153 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEIAb9G9SBM+U4d6MIpqESpX0UoRgpI5p1JHAYssK4le54rAQAgBACg3bG9
+7xUZvZ+1J1mkFZLj2jURg1u+OTT1LtEX/3xBDOGvlnOslNtUrp9gIElKsDbNgsDm
+MVHTGjzgA5uuTvU2tlKAB1InHoj7/aEPPb0QlJdx6O3iujqUeFAx02AMEQo=
+-----END ED25519 CERT-----
+master-key-ed25519 oN2xve8VGb2ftSdZpBWS49o1EYNbvjk09S7RF/98QQw
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:00:48
+fingerprint 3E3A FAF9 EEE5 D85F 1EED 644A 76CD FD73 F789 1E7A
+uptime 64848
+bandwidth 204800 409600 242991
+extra-info-digest B9B4D4F7783ACEC761F983E7EF4B58B72AF149FD bO5BDxchnRiBolZmfMKRSuXQEcJIHrwAhtBPEhbFpxE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKvAvm6aXP5H9WkqFnJgFswfp+vBTbGX2H5eopANEc3qLDLhVWXqD+wE
+NQ65sqjgFEbJkheh2r2SHlsyGj3+VGblXmoORrWUnO8PLQHjChfzGGVBFflQQRVi
+CeRL/3Ovz9or/rH9UvphKOHV3od5jYNWIUAcGgs4dWwD0gcFsDA9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANzmKu0xN53UKmDtn9mt0h41kc+e9v+4SL7GCv+soF+ry59/c+ZJyTSc
+Ne1dBV7/NnvaaB21aeGN1fjArCpTGQRVQVVhcnoWGmq0pqTmLKcg/7xMNgMJsLtt
+PCbz8D0o0zDtrcMZCpHUzrHvLBYRSWzfQOPAUCIgcjplQTsIE/4dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+FjMIWcyxjTEa+Tc3469oKEkBCf5RH0agUDwu3InEHnJMh6r9vogDO5d3psiWKcrc
+cSwqjr5QP11gJFcUBjrwpuHVe14ryNeHXVjX2PaWFqlHl22Vn5Gfmq9SOA2AJSXm
+bK0T+GosAu7aYxI4xeuZnTErOB0XfL4BGB0W0TI5gK0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAaDdsb3vFRm9n7UnWaQVkuPaNRGDW745NPUu0Rf/fEEMAElwn4AXTuUw
+yrEKtVxYR3FTKfkinzJH3Kgq85aDWcINpGEXzRhicNoObDAeq1HI3/XS62z5Wu0A
+N3ocw87T+Ao=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Steve Garcia <steve@cs.csubak.edu>
+ntor-onion-key HIJpu8WRVnVL6S5EL12GcOYBD4SS1+EBLDKfsNK+Djs=
+reject *:*
+router-sig-ed25519 bXv38mb1OZukKbmRHZ+EalznmjGu62vs77t/6z29eybwFvBQdm7oFASvM/Qw+Z36YH7AFYSNUDyBCCzGRQqsCA
+router-signature
+-----BEGIN SIGNATURE-----
+dyH4G71OqOThzZq84kw0lfIEMXA8R7MyKrHSS1sN8J/leAF+WsAWX44NGd2G+p5i
+EPQqH1LjGfwxb6uNjrMiQgS2FTJjtKWTXyy6fmwLYR/5hK4tG4vyhaspvyCgxD3Z
+N83swtMSu/X3FUX781EciUZebkMi70z3miv+3ZqFc0M=
+-----END SIGNATURE-----

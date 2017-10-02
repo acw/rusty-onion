@@ -1,0 +1,50 @@
+router donatello 217.12.199.108 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFWAQVdyDVfh57unmxuWMF3GRGxrFVSo0YV2vS6R8DZyLZ/AQAgBAAVPzQZ
+R/UrPSObX4j8zeuHNc88kYtQtI4eGFi2QsICiOzqmWi/6nv+RPOWgShT8qDqK1gi
+oiFffwQACty3EPF0Eb4zWYQldKNkFT/gXT8mUMBpSFujJkd2NuTTWZFjsAI=
+-----END ED25519 CERT-----
+master-key-ed25519 FT80GUf1Kz0jm1+I/M3rhzXPPJGLULSOHhhYtkLCAog
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:22:20
+fingerprint B9EC A633 E711 D045 2C93 925A 5E30 DD17 B4DE 8C2E
+uptime 7543916
+bandwidth 269312 1536000 425172
+extra-info-digest E915374894B43166E2249A03C8B2600B9F66BEBC JBaS5LKgpiu9dNyrCdcEVMg841AyIF8ycG+8qxNtOTE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMX+nHOdBj1Sy0BXpz8gMWRSb9uwhOCCO5ZEBJKsHAos4vfx2/ErMxNi
+Maypw9uUEja/DakRqgAaimJM05Fr3mTIAnauByHqzxZvpWb4CDexzOlWG9lRXkDZ
+ogSsfoQ+2HglBKRqDSv4zk8qB61fVMPgDdJlbKOsQmT6AnnRRggrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL0z1bSP8mi8C0Amxstn1lSatnIASzcgTukUBkBrObEjB+Rpwgn7YYNN
+QrqIGlWG29S2jFUVsit2YnIKGR6NBtuoICT3M1u9KVLBz8Sp33jeAi76XjUs8iHu
+1C79ZxSswC/qWytLChanNqFDLplwhrBo5Y6ovYZFimWwGwcJAuH9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+pxOs3HWrvIQUH95zJaqVtQx/8t1C+8sw5Kpg0s93yCtU2Al7EBBq1gcvVu0/zJ+k
+rP4hgTIfZRscgmqvYAatokm1ENZjVMzyO/bppkAftIOUg5G9bFRCbyZAykOvLt/Y
+8vYjiEC4oJS1eqtfLooPXE1O9+YMKq4hk5KqONoz75E=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKARU/NBlH9Ss9I5tfiPzN64c1zzyRi1C0jh4YWLZCwgKIAIHPtZJZ/nBv
+A8E4d6o1PT0iYajSZxWuclb4tpqNlKZx0mW57cajpLlsBLzbkQjuIq8UDRILJmnf
+GwXSkjcc7go=
+-----END ED25519 CERT-----
+family $A5593BEC420AAE6187A7E5B6BA286AC128A14839
+hidden-service-dir
+ntor-onion-key OIDpMraHfYEnlQMdx2xL/BneYqqc3YN/aDRUmrBqIic=
+reject *:*
+router-sig-ed25519 mr/+3Z42Dl7AAucU2IArB0nMhW8PqmAsh37JlUWVsN/LM+FrIOmrP21PGN4yTjf9u/agF/sqG6e+CATLFKcfAg
+router-signature
+-----BEGIN SIGNATURE-----
+nscgU2IefHJ5lSdlmHlvKsMIT4xhx9n9m0V134F0Rhvy6K8uJO0J1lN0xubW0Sjx
+gDxv3go+s0rii8mwk4idRUDDtaxwIHwx9ilvXR4RjmtiG9yoomCLX9/SewcgnQGj
+zYWYR5uytffTPUATHcdsPYUFg41FM55Qz7/P/LgtYqk=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router InglebardRelay 5.135.176.38 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEwAf5aFDg/m38y8kr90uFotpVSfrGYqnT1mQfI+u/sRbXaAQAgBAAUFCRy
+U7uQwYxJBLEkssQS2bqs9BfyL7rqyS+0+cu/u78JgszspfbaTAFU/YkZUTy8Eom7
+WM5+G8n3PoKDQ9GMom744bfHF69hU2pRp0tYbBuTkb38JBBWlw9jq8Xq3Qo=
+-----END ED25519 CERT-----
+master-key-ed25519 FBQkclO7kMGMSQSxJLLEEtm6rPQX8i+66skvtPnLv7s
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:19:47
+fingerprint 2D06 1D65 53BB 0A62 0042 C505 FF57 7258 5DA8 BEDC
+uptime 13
+bandwidth 5120000 10240000 3926016
+extra-info-digest E90C0A9B7D76BAEE20213D13CF8D409AEF3A20BF TPQwvOCFDph0NqxePe34JObsSHks7u8sad+yfaWzBEQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALBD8i3CmXxarMnQt3bqzMjrm+QPc7sYMgKydYmnG94ElfpCmZr5ynn+
+FgnXzn2y2je/OQvftsJyKI0JEO7gGVASzdSXMF9NZwfmd4hcsmyYWEfAwALvz7E7
+b3dO2wLh8QQoep6aOauHAtDvE7VfuD8/R1LstebQ0tM6VYg/QBi1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANRr4na65eNRB6facAtdCzU9DzrvcXylZ8SIeBqhyWD64BAtcyoKcl0M
+Moi8ogk+BJMnuOPf454g5lY65IkoP6hPIjS8O+OIlDcUwLohEPLqj1TbqtpTfJuv
+XSQ/1/9X7vpljLbw/SSPSDckdGKjGNwROtKJxcDXjb18O8o3H0wHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+OAEkEVB/1Z/0FE4kllO3C0m8UQu4jxRKYdI/55sIubLLyC+yH9EQPdVOLcicD2Do
+xNzPnlL5JyCRQZdMrL1+965o1IV8Ujsgh095LTiJ7OVPbWaSb8l2516kx8kgmuS1
+5Z7fWEPfzWjnW+ew90qVFzMRxuOkImHTSMbslXiyuSg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMARQUJHJTu5DBjEkEsSSyxBLZuqz0F/IvuurJL7T5y7+7ABxOCjmnePYQ
+hjl2tv2Uewhk2YJF5D6MdPiXzSp0f5v910GVo+g35YSkx3j28YqtWGeze2n/DIAE
+HM5jFmsuOA4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Inglebard dav87legrand@hotmail.fr
+ntor-onion-key 02fMXxe7D7Tb4hIu81FkUqdtq2Orbmor+qMViZBK93o=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 1858FXEjL+YChVTkYzGAUhsZxVjy50bxdoXASMzGo5QzN4LEh2ddGYLqXSmdgEI27MQGuXBr6KPN4PvxpdSLDQ
+router-signature
+-----BEGIN SIGNATURE-----
+A/RxUvkS2Zm0cLfvwvd6OMfkyIimfXCHp97RzecdDEAb6PluKEuyd/CBAoHyBCXu
+3KsGSO1f805IZ8bCujIJpkna7ho6dziXzgt1vqqxkN6TqEf6U/2MjrguKftdJd1U
+3xg37HR4FFgRCDmS3TPI03WyZNjYgApEZmeQq3TEoac=
+-----END SIGNATURE-----

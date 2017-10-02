@@ -1,0 +1,51 @@
+router greenonion 62.210.170.143 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGBARSINsYnokKZWbONK3DlzD7TksGxLk+X2rs7pnX9+KRBAQAgBACW0amQ
+Sdc7sOsANyOWEI58JdID6Tm1dfMVYCwAiSYT7GtiqEmdyZ/MK0QjvdxbGam2cCF5
+xXIr1D9LjDy7b76zO+BPDBME4kKSzDEDa2ZoFdZPQ0ewKE53eezospYD9g8=
+-----END ED25519 CERT-----
+master-key-ed25519 ltGpkEnXO7DrADcjlhCOfCXSA+k5tXXzFWAsAIkmE+w
+or-address [2001:470:1f12:ae9::2]:9001
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:21:52
+fingerprint 4317 9DD3 F8A7 7C08 01B4 02C4 E108 3F94 6638 92EA
+uptime 10626084
+bandwidth 1024000 1024000 1189494
+extra-info-digest 2EEE3D095C8420C433E02575F96A4B15A213CDE9 ykVnd+E1jLA/5ecpPzVh3abScLcw7iU71pgPkf+K9o4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMJJRrP/lf0fscHchRnM5uGJLqlF70+HcfaOBXtOFYZXD67EaTZBFmQk
+spu/SfZnGQngZ5j6DRsLOD+AnflsNCOrZacQE5fzcLgkFcVj8Yzcdj/u8tTzx2v4
+cuRk1boMdLOBRyu9HA6iXU66ezGSIwEB21dow2nBbJdyP1t+KZWJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANiS6Ct5Pz+ezgrE2zuZ3os35lBziXLpAolKEn1OesUQxhk5CrhizvTR
+XtQ86Zgxpva8klhWSqWW1ieH3kOTJ6vUNGHJsA7holt5hxt3zGVPsdjFxukP2hWH
+WmeQinr76WGqbIMFQXNjJvH9H//JaEnUrLDEcsvvO/+3tvWuso6JAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+pYa4tXn8C9pTvlDHCpQdUvjaTF/k6xzXf5jLopibyszrUtBiXqmMaNlH2ljG+a0S
+SlMXb/cM+yTg9hsTWv2FLK/j74S4z6O6KElKQ6wmjXguzq1Tt/V3YQ/qyOacOMBN
+UaltkA3CHiIPyRtYPgiR9QblOz7Jp1tsLcf/NJ6ZnMg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAZbRqZBJ1zuw6wA3I5YQjnwl0gPpObV18xVgLACJJhPsAIScMUPgPjHa
+vzzf+c2IKZkAKRUDYFCwvqC1NLuyVYkxhsmhwJ13ph6OhrVWlNg9jXxXb/9PfKGt
+YPxiu/FPsAY=
+-----END ED25519 CERT-----
+family $C43FA6474A9F071E9120DF63ED6EB8FDBA105234
+hidden-service-dir
+ntor-onion-key hgElyhyKM/MFetB57ykldZ4QyniqTqf8NaBsY+kv5hk=
+reject *:*
+router-sig-ed25519 SM76GDjS8kPaivRnTYXPNG+a6fFopQRf9bzEAu/og5S11GrBBbdEaOeJXBWcLPVvmbAf6AuC+8BYpLv8Rg4mCw
+router-signature
+-----BEGIN SIGNATURE-----
+jzd0I+RUEGRcbfBlBmGq5SKmk41iZTCN6jjsiOOvQNCHPjUBXt2Sw/DX592KsLgq
+NCDsEyiyEPQjuRW8cq3n5tXFWtGL8ULULh7Z9JhvhUYQXEiMNAvZu0DufYpNJhK8
+O/w49PVjVfApK2xvryih9rFxfkcUvrSgngBU9wb8dVY=
+-----END SIGNATURE-----

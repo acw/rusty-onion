@@ -1,0 +1,51 @@
+router frigus 212.111.40.177 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDOAdOpcX2SOlDX3bOpdwLfPyLAUouEue8arbDPNNqx+yaSAQAgBADhPeUv
+NM04qqrQl5DhgSw6NFL7z+YxfT1W+L/8UIaxitzWIJ4UnG/RCIzM4iyV7DyChA7s
+LJvMisU2YcJzE5Oh2PLODF23GoTQh2veBRbEU64XCx094qNDL8D1Thhhewk=
+-----END ED25519 CERT-----
+master-key-ed25519 4T3lLzTNOKqq0JeQ4YEsOjRS+8/mMX09Vvi//FCGsYo
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:26:42
+fingerprint 64EB 3CBC CEB7 60B9 F647 FA1B 9A40 5333 9830 B02A
+uptime 1264033
+bandwidth 102400 204800 121909
+extra-info-digest BBAE3D7E43704C21CDE5DF7350547E9CB2089AB0 bdJgEx9Ioq6ur6XcM0ot8L7GKpCj9gawz85ORtJoE88
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO/nDYAFbOQd2Kc+kDLxh7XKm6X14aqZIMaFNHRS3ecaatTxS677qsTu
+76mbV+x1Ti4uansjbMKNCl9EMoUYNlB714h+2TVIO3wKIYoTUflvByz2IXttmL4v
+dtN5jGPw9BetgMOoKBBUwpDSoACtXnIDOFiT6CKa4K5toMkYUR/ZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKu0+JogDOzT6GMlFSW8smP8RmW3r2ZwVn4vUiyeu9U+RCrE0BuKXo6e
+3poUbYbbAhmGvTx7DzdISsQZr4QQEllttM2iDirKt3vTXm4x90cnJq0xORzjPr8d
+NDxoFtVMVyj097uKaTH6bGnIlsI6SUbbwK7wiqaHDUlLubpfmDiNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+6r3ExF5uQw0a/+OPFspJnwxP7gvrG2kt1Ju/SY4WCpH7K8AgW1aFatbl6aNmt4Nm
+XLtnHnUKLJnF2M4v0gWL8XOTBa1PfWcaf4ZyA7x6JOAhukAoG72ORqmMFnTnZtaZ
+XYrmZf60tx5ySZe3W/GIP7dpcaVM5iSTCvj2UX6JxJs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAeE95S80zTiqqtCXkOGBLDo0UvvP5jF9PVb4v/xQhrGKALrS7Pp5TkdZ
+CnKqeyu/fNqzvyc89XWnzlG1NPYCl1EOfUiOj17+O89Ak4CyM5G3/Vyt3Bj49xno
+xZJrBHDKlwU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact frigus at protonmail dot com
+ntor-onion-key skbtjG4AeKKXnUMpUrelIy1Ir2+1outiUu+rENUbCis=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 dKvOEhmxnPGERsqF/xqRie4gGZAxFyCZuAwFsK8x46+xSDdcBEcpRQwXyJv9XTajA9LH6xvrrf5Bt/DnyusYCQ
+router-signature
+-----BEGIN SIGNATURE-----
+J9gxN60WwGll6P/0I+cyAVMv83r2fsDKE1ThETXruj5Tt+B9b3ZnoisMiwJFOQuT
+LGnMt+ZuRf9ApB6qci3OqTGf3lMzWlYP0X/t1jSJFq3q328wU1LayUOWZgF3Qnfh
+X66fzuNe6E6+GbktofG0MvJZ1y2Nw++kvOAMVfxiCzA=
+-----END SIGNATURE-----

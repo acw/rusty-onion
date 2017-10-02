@@ -1,0 +1,139 @@
+router JustAnotherTorUser 104.237.203.98 443 0 8080
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAdAVLR2H7xs1s3r7Pk4xsW6l1haxUQu7fKi9x8egoIIighAQAgBABBclzi
+s4tD+h9gpQvgYCiJH6vEEbZ2cdCxb3mNLdQoj9bAnj9V57qAvgMkIXvZOwroRK3G
+m3UOKKjna1QPw00sQkI42hgpiulGnGk+R2wEQmUjO7s7b5HRx18m08ZM3w4=
+-----END ED25519 CERT-----
+master-key-ed25519 QXJc4rOLQ/ofYKUL4GAoiR+rxBG2dnHQsW95jS3UKI8
+or-address [2607:ff50:0:13::123]:443
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:39:21
+fingerprint 3D79 2BF5 A421 6F8F 44B7 2ADF C0BB C74D 1322 9575
+uptime 1415235
+bandwidth 1468006 1468006 2046196
+extra-info-digest 34B65083B6577BB7A05334CEE43CE6C76FC109EF VJq6X3F6e4UCNfI4TtRIqxpwPDuzmVw8Uhb4TKnpZUU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKH7dUaKdu/n1ZeNspjF5BqKr4APq33lRCPxg9DPRJm4gu0XbCi7kTpo
+WRF+sYco02cAbhlufR6DVgDk7eT3Q7LVqBUE08WhusRrPgEvqGW8ffeI+I5BToEc
+jfQFQ6uhJFA5rsxv8soamzgfQsqSVTF0vtQuUMvdTQmIscyspiuFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPhz4sbZKzUZoxXooyHSgAcln+LB7TCIQ6E++hSn5p979HG2QEG86f3W
+c6l94b5V5qgqpeH50abO3ybQQIewUmkIzSfEUXGKWfiPDFjynNppx0PGaAtN+9V3
+OA4IgkbE+PAnMSfKcfrNrurtRj2nruohhnDhNW5tbE+rbiM3h/RBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+UQV+Bg/0V+S0nbaGN+BhZhjpocZ8R3ehDVvarc9YlZJhn840Y1y0EKEEMMvMKGmT
+UyjwnHJtvdRSvp48kHoG5kH11rXSn3cvk1+lABuXmEDfLbgtGmWxR9E6ym0uStsq
+k2Rr5tmV9H3miUH8DITmQYOPGS/0NFwRWekIdIMuYis=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCDAUFyXOKzi0P6H2ClC+BgKIkfq8QRtnZx0LFveY0t1CiPAKDB9FP9vpk9
+Y5HU2b3+kt6bA6WCKlOtiqQ/OHbLnh/3vMr66b/dzK5EK6PvrgMqm9AevbWOKeM7
+7e46SEJFfgM=
+-----END ED25519 CERT-----
+family $4787F54EF398386F6357FF1EC3899BC35D0CCD51
+hidden-service-dir
+contact <admin AT kaiju DOT cc>
+ntor-onion-key O+Dn/yMgjNeg6IZbv/OuXoXj21G5apu8o+mJGgKinFE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 104.237.203.98:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8232-8233
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+ipv6-policy accept 20-23,43,53,79-81,88,110,143,194,220,389,443,464-465,531,543-544,554,563,587,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8082,8087-8088,8232-8233,8332-8333,8443,8888,9418,9999-10000,11371,19294,19638,50002,64738
+tunnelled-dir-server
+router-sig-ed25519 4MAjuTez+eNH3ofjV1l5wPV4SvZ8PEL1SLJ7U0va/H3xMHnpHNOIMZw14LwkECLe/OKafPwSD9cb+rzCZ5AnCg
+router-signature
+-----BEGIN SIGNATURE-----
+9WpVAzv7XYYOuYfC1qdf+uPJhmXpncmDRHrAekFTCn68n5/lowg3+sxFVUzliuhi
+du0j8AE7gJXg77u5dRFutazywD31vewBQlFxZ4bl8Q/qkogEerUy3GtSN/QMPFl5
+bm+mYdKEUTxWHCxqCkraP1HT4jQ4Qews+chiv1GadFc=
+-----END SIGNATURE-----

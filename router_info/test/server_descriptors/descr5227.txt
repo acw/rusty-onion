@@ -1,0 +1,47 @@
+router Unnamed 170.250.140.52 9001 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 19:36:51
+fingerprint 5F85 2FEA D9A6 1711 C5DB A946 7938 0EAF 9E58 F194
+uptime 3088475
+bandwidth 1073741824 1073741824 12353080
+extra-info-digest 545DC39D126A22BB2039671C0BD9037CE89BE4A2
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANF+gEDo5mqWUG60GnYZH8NQXLyLD8P65Etp7xNfADMRWXZz96tq8Cd8
+tzGbZcJz1cecs63vDg36dFQ1M5W6u83hpf11IGe33ldvBzpOH3u+XBygWm3V5xrH
+sDNK+BVC0K2kX8PrX7MT629XCgymr+KDvnNv0UjB3q8Bxp7QHNnhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALd5cO7GflqBVtBeWH6pzSg0ognCZq4ziQE+61Wiqt9N1V6EPE3ZA+9a
+W24EnmoB2I8jVHxbv0vrmbMErLxsHXMQAVQclFkDeTs1WjGWp58WKSewzgfJZaua
+f2TxeQbsplstvdyRvgxtuRdNfk35qAddGlb0LKMTmWyHHufB8lM5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact uwe.kerner@yahoo.com
+ntor-onion-key lGDfZU1JWo1yjPyriUU17nOq9GeeCTywrtR812YQAlE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 170.250.140.52:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+eG8BbD4JGoNWJk4Gj40jkIgUBSnDD7u9n58i/3Yr1oDikj2lnrqMyMf7I6oZE4RT
+8SlEtdLlKf0iznozX4YvrCwJVv0cfdd6qhlAf03c+Y1GCdyJS3Qycc0DzpTD5Uux
+/9qTcWm53tz2KP4E6ScNoCYtMz+oc1XXjI7IfMydE7w=
+-----END SIGNATURE-----

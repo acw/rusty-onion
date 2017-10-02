@@ -1,0 +1,32 @@
+router tortoke 188.40.41.115 443 0 80
+or-address [2a01:4f8:173:8c4::115]:443
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:13:07
+fingerprint F1C8 901A 569F 6763 8748 D7BE 9796 9541 B3EC C59D
+uptime 61
+bandwidth 3072000 9216000 4113408
+extra-info-digest 4252BCB41FF7588D4BD209BA93294271A75C8C68
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL4ZSJ82LghjR/uL9G45/N8rD+8ybDrHuDX480oAQtGz6g/WhbFkmHHo
+haj9+LuA6U6rBjvJbxR9O0T28mwFOS1QpKj1JxNctQlm0ectE8p4ILZvhS7SUf8M
+vFNm3D9nuOQuWt3b0Ge5dzZM7F3EQiZDEKINRwK2yCGBkExuqX25AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALu5WJKXHA5sWkm7YsJ+8WMIe4BmTUD5FFMIWtiEJeg+NV6uWy/MpjkD
+XH6+MMvWFbK2+08VguZUbYQ64rQ4rlSd/pzHDQvXxTHIPaPOCPiQ9e8U1eZ1umW6
+xzsFMmIRML5uLURsD/ssEV1rN1y9pABWbykv08okwxHWP0X67Sw/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Toke <tor (AT) toke.de>
+ntor-onion-key zthgCjwmaBKF7MKK5uEUah+fixIgc3ZlrVEOQdVZiyo=
+accept 188.40.41.113:*
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+trtzcmcR+KdKXIks3Zdqe2DcAYlkiEGgmM4cERmNTUjtJH+flHPXB+RQnzi3iugg
+sKaAcE5EpGfheCt4K4CGSzqTFApTppkMUe9GMGt3dnKOdA5NHf/D09NuJ4VKLjDe
+Pbeh1g3PLR4Nu4CfoaYtMuNRBYnf9JvfowHsRHU83H0=
+-----END SIGNATURE-----

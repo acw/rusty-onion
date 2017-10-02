@@ -1,0 +1,31 @@
+router PeaceandPrivacyGW 5.148.180.48 9001 0 0
+or-address [2a02:418:1003:b::48]:9001
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:20:48
+fingerprint 4047 AE1B 02A7 FB8A 8687 BC08 0B75 000C 2DA0 9B86
+uptime 3628709
+bandwidth 1280000 12800000 2545482
+extra-info-digest B744AAA4A490E69AD07E0C5AF42A2CEACC1E3F13
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANEIc+xih3ruN7i4PHFuxvBifqWv0Ja3qlI5QADlAwKKWUFmctRH2EOR
+D0HW0ihMj70EIU6NchejyW1l1+T/6xamhGzyovK4z8712DPTKubA4Ce+IcEi/ImA
+eM6K9JW7xxYL5RWodUyvmP9ebY//SWSNuqja2LxtKE+7CjhIIAvRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKx1RBSFepnNIP9pOuwIDGCCFb/KNBN6wKHnBzezw4JbEn69QcUGHA8C
+qch31f2luQkKcwjkWpYRAkvBHtPmNRjMt+STD6QiTquh3x/GTGd5YMIwQgLLMIac
+1qk4tRohjwSMcRkDDjEJf+vMbbaju0Dqo09t4dZrpZui5euZHq99AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact peaceandprivacy AT mailbox dot org
+ntor-onion-key TKqa/r7f7NGDg9cop2SAButr1hv5C9+VAYP2SZ8MMV8=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+KSBWDMII5WYfeaMvyqNUiPxp6ao2JUtnm+5+rED7EYBfcOQqwX3rdOjupdQPqTWn
+LxDifnz8YWhmn6SvFdHZKCzy0BfrKHRPvwCMxg5HAuwUppV21Hdhj5YG4KfkaI03
+MectHHv5l2MwJd4rZ9p19WdlSfeiLIPcjWGqZ7s4FmY=
+-----END SIGNATURE-----

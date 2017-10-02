@@ -1,0 +1,50 @@
+router boscotor 72.38.1.135 9009 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBJATGgx1LIxlGvQZ25QyUI2jtCm/VVNbiElnA54idK7Q1AAQAgBAB3uZtH
+HgosrmxgYEme/SDij6JMqRAoXAcdmg2DxLB/tzUjOCIXONsPfYBEBxg+cK/PJRPV
+vxhbb/AI0M5Np3P0VJ/wbA9j5g2vEQlvHKuHplf2vlcDxnluR8WAB6niZg0=
+-----END ED25519 CERT-----
+master-key-ed25519 d7mbRx4KLK5sYGBJnv0g4o+iTKkQKFwHHZoNg8Swf7c
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:35:28
+fingerprint 824C 53AA 448C 2492 2B2C 50D6 47C4 1645 0D48 83D7
+uptime 5357153
+bandwidth 1073741824 1073741824 305668
+extra-info-digest 052BD119A87C27303D7B7C4F308233416118FADA Jv5JuFzhqzDG03S3IObllFkIpayKfBm/w4JrwzqmFrg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALZwdsikf/b0BsyD21TW/F2kmTT6l9aAl+xFPeX37DeFHxu3vzwsJLkn
+nWx2PDMH2iDs8fgHvT6XFwMcjLtLPw4pl1P6kjfMTg9tZ2jImG9mmfrWwGQpYYdg
+tzkP029MQhSVNKuOGJ5ROxf5nrzUlzA1JNTn35L5u5sM7Mw8OJuDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM03sJZ2XmaPIaRAriww1xhJFiXqwPRLYNxu+0BNPxigzlvdI2MKFQWe
+e1+yUIp8SicCjc94unUladjYrLBFjKAGwU+1ye2Hla6KlmEE2RcwNft7hoUupqtR
+DaHXdDmRlg6Ys5LYJZyF+h8Wm99E70Hm7JHrTlo3fVuB75+ewhw3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+B6g/H+GrExzwu3GnQO1/eO+VnCy2bj7I3LVxlemKM8iXiBB9PBHW1FIKctEXzFxj
+ehja1ccpM7NvdbPRJ7wPjStcs1qm0FvJ+6h2JBDSe24zNvGfTuTH2n+b6BwSB1b9
+wXvbTNzDhKvH6Z7CCbFkhzjaWwbKhDBRUTFzy2sOe14=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAXe5m0ceCiyubGBgSZ79IOKPokypEChcBx2aDYPEsH+3ABW7QHi210MN
+cbOf9+6JMV4lwYh2FVhFGp6G60+Sf/bshfBjkvUFUpfGJXvVSPKHTOA7Kc7Qtq3Q
+zhi06T34mgE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact peter <peter dot rogers at gmail dot com>
+ntor-onion-key simMt7b28x2wds0+my99/apvnGO/7v0aeOS6gTox8XU=
+reject *:*
+router-sig-ed25519 oMyp/wNfpeVrKAIlm27STQ1fma/RhVNOm73kXLaCM2pRziVwnvafebjcYGOkm4IF2MW3o94o5CEsJfBcycysAg
+router-signature
+-----BEGIN SIGNATURE-----
+NQ6gbZmliHWkWUNnPGdzxdu/B6MJVbLhXS7FMQ6Zs8umAXB6LUjnkvBWP9MHXYbz
+mpqyyg1tFFq4TUFGu6CVW7zCjgDukTnJ6Rw+b64YsQRvFTUGC5hhyXuYrrFJ7lHi
+01Mp/lbqVG4n0SkqMUqy36CWnbAsDgsLDPEpoVE7/uo=
+-----END SIGNATURE-----

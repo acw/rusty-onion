@@ -1,0 +1,50 @@
+router justinian 104.236.151.160 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFIAfBji8V7I2QEHGa0kg5TZLeT0dzycMN/FPjF5Hz/1uVeAQAgBACy04RJ
+Z8hZkSEui/2ZMOxaPjqNTCN6kr47ShWFucAjLZzS6q8OLhtXMYIODZH5mVPgnWux
+O8uuKKsqXatxuhkWWi2mAJwBOKRbfSwhr0N28vcI/FWx9EaHYzm4D9uNGAQ=
+-----END ED25519 CERT-----
+master-key-ed25519 stOESWfIWZEhLov9mTDsWj46jUwjepK+O0oVhbnAIy0
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:54:32
+fingerprint 83DB FD03 B9DA 4767 BF5B 3208 18AA 8031 829D 9177
+uptime 8800899
+bandwidth 409600 614400 471161
+extra-info-digest 81F032D54C4751D10E8F2CBC983919519CA73CAA w/CUoaLfuath/sMeAR8qbGmaXEa7cPqTpzmOLpHfI98
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALh4/cBX+2tiI3uIvHXMcWBBBWBLp1/BAL1Xxv61c/V4Dex1gfzvtrVK
+JgK5+i6ryUkJ3uuCyA4Fu7mbuacsvb4txr0WCpfH33oEVzJ8Olzu1vVK4S9v7Sf4
+TsJRUmbIGyCB53Amw6PHP+07yoczN2mMCGkTrU5C7vQdCFqnhDNXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN1owUZYJQsDky+rEaYRa23jMqwxV8tEE3TZx9BwpkrqXPP9iDv0/CsW
+MOaXDpGrXrDRM83ZefnyBQ6PIXzzMILb7fLUStRe52k2WrCFetsefrwp38sNfLVf
+GWiFAHitgzSUW6zG7Kuy8dwB9lxZpzpRhisGRwIte2/a7QNlT0/FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+iheYPbfKjlTSKnfOY/+vkHOV849xLiR06wWsR0kMhdrWyuoDfy2v47bydghhl/Wy
+CnZuO49Lv4e9JgVpAfEVLCVfgdYvvxhR475UWZRJ8S0uZ064zqcNaZLm7B+8B9gk
+4YEM2cu7rO1AlPFm4M2DY7C0xD2eNgeyV9RGEDGd4DU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAbLThElnyFmRIS6L/Zkw7Fo+Oo1MI3qSvjtKFYW5wCMtALx9FBqZLKZd
+eIKMynGo6V6LmVLUZ6PspFN/QpCMItEPfXHhgN9mqvLwrQVjRO7OyIcxyZiaHGOx
+69IwKRxSiAA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xFF70ADE1 Justin C. Miller <justin@devjustinian.com>
+ntor-onion-key thAHT2RBpzIH/5OMt3FPHVlRnOEJaO2haJ/TSXamDnc=
+reject *:*
+router-sig-ed25519 H2WlNE7Ri+ZyEbUK56NNzu9X9RIQkaaLfMbRaJTEf5AOxuv+N7X49iM377vqnmACMloD1qyjdXIhCTK5rZ8WCg
+router-signature
+-----BEGIN SIGNATURE-----
+qVKaYT7OCallmr1axPUeEp4AMYaNKQE5lvUL0LDBI3h0Ujdnh4xHdX3ItIUkACU4
+niKttLpOEm53Oj99E7NVXbgzwhthNJTUcoWtC/ufD8di/NczNyI59mNdGfaToTrW
++D2OGHyBmqT9Wv43798qr1XerWkAWp+SaLQLKgEGIDg=
+-----END SIGNATURE-----

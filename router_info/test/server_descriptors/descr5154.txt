@@ -1,0 +1,128 @@
+router Radiolama 62.149.13.57 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmE9ASQRWvmQch6fJImE+yFfzt1ni1Kv/8wpYQlwWT7uJP93AQAgBAARQUg5
+ZXR3HwGNNnbKMK8o+2HsuLx9l7qZAZE6UebXW1QQ48XHvrW4i/mq1KVVfeEGZk+e
+TU/p4wjJDZ1CTADf5j/mjKS44Y9o24NbrLNTPWSXfZWn+CTmoGst6yicWA8=
+-----END ED25519 CERT-----
+master-key-ed25519 EUFIOWV0dx8BjTZ2yjCvKPth7Li8fZe6mQGROlHm11s
+platform Tor 0.2.8.10 on FreeBSD
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:49:01
+fingerprint 62BE E61E B88D 4A81 C3BA 3931 D6FA 999D 706A C4D5
+uptime 1388489
+bandwidth 256000 512000 352575
+extra-info-digest 78B09704325E3AB09B5C89410EEBF8B5903D38F7 NbErXXEk4apaY4CqsoBc2yf952Cuwv5OxRl/TtaFx4w
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJT+bIy/umduAVAPlUYpY0b/gruE9Q+xKXxPMS7oZhe7eaqTTQVzEeHr
+PggPLEvo0NcNtRtT4uxx9c90Hp6QXMS2S5CSabKbxPdqvscDdLJDdyCHKUr51e6h
+mkuZMpIkz0G8pBc5pRUK259yJMkM/DsUqIRJbcmyvqCxEHcVIWAXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMDFIqsGDTQEMZ74DKMRfGjZa9JPsanGG1ev0rpOcx7dstOJRGsmyLYW
+4MXMHtDko80p2IVxaiqwnds27pkQSDkwr+Hxaj0NlaZfWmG9zpMKaJJCyCZwOSLw
+HvuCP7aMktp4tBIptAgNREyc8IcCB9O+9W58F7wgdO5WmbMxjuFFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+iy9c9SObrK4kH9uqSr9yA+QjOW5bPJqPNis7DCYlPMvwwnPTHo/2iv7BYJ4VCvuf
+2M/XOaqPlN/D2GWd3kkRUVXOQZ4cyF3+iAqSvOplLCJ+0gY7U9vp/3IYGHLV2c2L
+dFoQB+DIW/srHHs40gz/+mWNFKAwHCv1Y4s/7RpQJrs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJARFBSDlldHcfAY02dsowryj7Yey4vH2XupkBkTpR5tdbAEPbDAc40fal
+txd1hLjr9qEcBNiOvKl7iZ/sIsNe5S0FZP1obu23L3DojzYdrcJwAfTF/PiV7cf6
+wyUcerZKfgs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x9CF46747 Mykola <nick@mykola.org>
+ntor-onion-key 06QCbTMLlUkfZrGmWaTpBeNz+rhOzrOwXOBH/3Y+O1o=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 62.149.13.57:*
+reject 62.149.12.153:*
+reject 62.149.12.187:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:6881-6889
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 b7DJ8aI2CFn4z8h6/+kXIkdrO9c7Ln4YJIXX/c8kqwh/2VeozfkhTDxoE5xR2m3g+x8UI6+Pma/lYAzlfeFRBA
+router-signature
+-----BEGIN SIGNATURE-----
+Rh0q1xIYIOCEqA35JIgauGvAmIJMsZ27oyF08BXRHqaMWr0L1JJwYhWvwb4z23C/
+DwcER8KOEpEtQcqERA1PZfydep34p3i3JSPV7OsIDeDUXLkgU3u8sIAkK5WshWID
+NZMAV8P9Hc6LWaSv2gGRLh1ag2aa4vLvKS6gCUZe+Sc=
+-----END SIGNATURE-----

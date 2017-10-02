@@ -1,0 +1,51 @@
+router baerli 5.45.107.56 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAkATyBxEZ0vITwdXUGzKhzs6wT4ym4+OhIt7zlSokgT5zDAQAgBACGWBfp
+VNnqnQ3t+Zd23RS0IqgTLFEnLkurTYPKAau4A+cTjykmaDVgWrTrq1fjrklZFTe6
+Y7FGEC8wIaGIBV6h1IAcSJYa5bEWLBPQRw/46M5caz1RPl4oVJLK1rrMJgA=
+-----END ED25519 CERT-----
+master-key-ed25519 hlgX6VTZ6p0N7fmXdt0UtCKoEyxRJy5Lq02DygGruAM
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:48:59
+fingerprint 2905 7733 64F3 E94C AED9 49C7 AD29 67E5 490E 017A
+uptime 7889521
+bandwidth 1048576 2097152 1269104
+extra-info-digest F4F16139B2F70CAC1446722BA72588BC670195D3 EDS+hHm1nWTAqIpCJYqGP0En2T8cRsNbGhq58ZVpPOo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKVlVycH842O1l7ah8481OdR7ogLEKzq4vsRNQhNbCGuy5XPMQ1IHbHV
+g5S33CUluUKkS9GTR1W/vtNwDNOFQ6uyaN55p9u4fzPEZVXt3s0mP0wTt8AnQ8SX
+/jkhmN0BvkqiR/zwiPRCvAR6RSvSOuIAZzU9oTy28b/cLIIu5puDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJHKAaVjPO8t7d1ba9oTkjvRdHUrShqLfKvIcHCpEFOK3vI7ORP/EorL
+dZwLiSvAuwoz5OJ2htMCIMmwzjWl0h+SkgCIKxJNkTMKEeXOR3Wjf/RdK7ijZG6T
+qMR0QeIFy2e69D/970jyrF0po/gy9ePuOxvd7hdfr3sqQke0CcFVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+eFvnBMuRTth28DZ+pEpGGGQiKlxQQR4F2O67NSRz7wdo1WcnzXkcDikFwOSiSsNi
+o5BYxgecyExH3jT7OoI+nQILm1+VH/mAteWNsEsLalNCcbpvVsI9yczJYtQdCTgg
+3GXHugu6NE6RSgGFXqP5A1XRtmJikmo8LMkuolIO+/o=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAYZYF+lU2eqdDe35l3bdFLQiqBMsUScuS6tNg8oBq7gDAMtbst42T3/m
+TDg827/RMZYd2qzGQx1SfLNPdnzvepSzTKxbLT6Vs5lVW9l/YFpNBBUE145bXE4t
+jhRxp+HEogw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <catchall.tor AT b43r dot de>
+ntor-onion-key SVSv7icd07seaLb7lMYWfIFAoswJ2t/WtFtqmDhSrlA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 6su6lCXHNQkS7WtorCln65GMFN7HyFm48NblSwtzKWfcyoG14deUNfE4H/qjssG6UztGuyEc1sO4vvc+dW1bDw
+router-signature
+-----BEGIN SIGNATURE-----
+PAXXJBYSaTD4C3on7DV/OBlkVOZ0q7GlF7FJFJFq3ujzWOj9/j76jVYPzCqgqkpm
+3MOvzv6REkWwRHlh1rNbPeqv5ZkWdsGtKmuGguGne8M0gYERGcyHdnYupki4q1TJ
+EN7Cx2XOPYHY5kjiMeuEX9tnU21R9O8qz6c1LE9xamQ=
+-----END SIGNATURE-----

@@ -1,0 +1,52 @@
+router txtfileTorNode32768 37.235.49.34 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJcAf1hwl8yaaJ8Zi/OqL4NU1IokLMSQx1wha8g9cYXuhlEAQAgBABRSmgR
+65BwjM30VpEjpyMfBtk9EHtDWAt9Tu5kZDPDg3MnoubtUSJDCEC3hXKfaThQauXf
+537QdT3ZcW1aGYuwqNaDLwWEy5GFhA41COvNSoHGqsS5SG4GW8NIbUhzgAk=
+-----END ED25519 CERT-----
+master-key-ed25519 UUpoEeuQcIzN9FaRI6cjHwbZPRB7Q1gLfU7uZGQzw4M
+or-address [2a03:f80:354:37:235:49:34:f001]:9001
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:32:27
+fingerprint 766A 91AE 8481 04AF DDE2 4D74 8F9C 848C 4B44 1D57
+uptime 617586
+bandwidth 76800 76800 83847
+extra-info-digest 87F72A80EDF27FE7CE46EC405FA8F1AF0DF62800 iye4tZJC8vqVEQnYHD6WacjZlg9nBGipNFr4hqb2p5o
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJwV8tdtKInV9CDqMsGoCk+YtsUJB55RpsZb8/cx2QzFR27a6stdgPso
+7vdGHqp07fbMKKDtAyULIw30n5EoMyoLJLsY5+4moc+Rwk+xqrYGiuG+lGReTetm
+eFlIYQhz8yZ9EfSZryAwGCs3OBJb6GWUbJFLESBtzZxorzzt5/AhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANn+atR/ESrpxrIYsrda/s/x/NY9lQyKUa3U0RNPdX8N77QFblWtoKfq
+n0kcDIDklcPQifGhmZjHLJADf+CYyqGEYWUT8BeQWAT0E4xSh1kOPbKCGn1B9AnQ
+W53S6/u1WhKFNoAF9buNOKFckNqBAEUMQccmWQv4OZxyb0Tyj3PlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+f/kfiICEdryHa5ecsLb09O4a+gOMVGeZQa0/+pNHuijw46Rjd8u+SHLg1B4H+1tf
+WUOP6BmR6SCM/BtjGYTcYhiYVdFjBsGBBq3Yo4SKuaqm+rL9yhKxB+7K6CSCAxDq
+7SIEYOHUn27dLFPmM6bEhSjDgjZP/RYigxXWLl+1aVs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmJ/AVFKaBHrkHCMzfRWkSOnIx8G2T0Qe0NYC31O7mRkM8ODABz+ixz2N0+f
+8dFKEdwayNd5XKn8AWRuLGiOSTZcmYnn5ljR/2LOGJgShyGCBJTkx8aD4HlTbL8W
+nb+8jt35bgc=
+-----END ED25519 CERT-----
+family $489D94333DF66D57FFE34D9D59CC2D97E2CB0053
+hidden-service-dir
+contact 0x39BF82F5590865E8 Matthias Fritzsche <txt dot file AT txtfile dot eu>
+ntor-onion-key naZCmy8NsCbGmVk15+tUjZRrxiw+wH0DAKYm7CbrTHM=
+reject *:*
+router-sig-ed25519 KSUK0GXbfhZl47euEJ+x1oSYTWMVBxkbh7bJwuklbAFKG0Po1EOttVcP+Tknb7hLZwGbs2vxUo/8I1XOrx/ZBw
+router-signature
+-----BEGIN SIGNATURE-----
+KVDqVS1Z4tFRWWgX8LvAf4Cp8s0yGTbAJlMdy2+rwq9yoUcFFZ3cXiThtWJGhkki
+wmoCkqsqRm91K3zxatMZr5k9cAWjivNExaF9mJd0YOLQCZBd0cLkwIZPo+OPo4IB
+KK9zNvXSBQ6Lq0qn9Y3rLOSa07WjPnMQHIx5MOFHdvM=
+-----END SIGNATURE-----

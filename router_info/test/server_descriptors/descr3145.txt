@@ -1,0 +1,38 @@
+router ReichGate 62.210.82.244 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 05:06:53
+fingerprint AF36 9429 55DF 8084 9EE6 4664 2B36 DC4F 5909 B223
+uptime 2202957
+bandwidth 1073741824 1073741824 52207882
+extra-info-digest F0D0900EF7E9C284892BBAA008407E3605E2F679
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALWSIVlqfjoa1QgffupRkOMnWqYHD7J9luxkU5v4B1VB0P5YtYd7Lh2p
+tBDkNYm62gYt/7y+j6L210VwNf5qLkuzwdR5cKO/s/34syyLv71onhwgHXF8g9Yx
+8BjXaoB9rWZo0Sm6yuJm18+uhzh9b1Gyr/EaS3anpPQF4Fwvg09XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKy9D1Ryh75ztMMjUQLVdUeCMbEK/kvxVgYR3lABv2vYbv8e/s3PLy2b
+xFpgD3w/elXCk3qxXA0YlCzH7lL9EqKU208k+O3M9F0Qp1FLw956ELEWoCa87Omj
+eBl69sAGNbEYPBedy86xlUOeNJrpkPlQ3t+qvw97VDM6BjVCw2FPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Sushi <sushi at reich dot io>
+ntor-onion-key Z+mGkPMqG7ZYXzh3r356+8urlDOrbA9tik+6Keso/jU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 62.210.82.244:*
+accept *:80
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+nILQtnBkRUdzMwwaT+KYpP/mbuGw1CPaT1xGC7r9j16fnykDMC3ZmYojz8d4NMHt
+nwY74+GA9gjgua9jsHor/0pRExlNprdtb3n5g5t4Tf7Hy38F8EbU4ExtbswhB25m
+zfxB9TjISycZ+/+qRTBMUzmHmKrDao1+9zUPvN98+2A=
+-----END SIGNATURE-----

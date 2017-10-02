@@ -1,0 +1,104 @@
+router LaMarreTAO 178.17.170.13 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:34:37
+fingerprint 6B26 3B45 B33B 8E2C 73AB 80F9 B0D7 3538 B44B D75D
+uptime 7617502
+bandwidth 1073741824 1073741824 4260913
+extra-info-digest 09905CA48C02E86C3437B7881812A2AE1AA012C5
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMV2SmbAAIiNxlVf5eS58UGcR7o+bY38ZwWWMlfqV/abYcMQdK7EmBbt
+ly5XhvSkGpq5zsyX7jmaKfGKhi2mDzXnY6yPyRynvBodT88xHK0Nbq0ZUrZhjzr3
+mvm6cwnCZHoyLb2m34SkEptUTrWkpedJibobPFK0UNzJAxpnX+qNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKLUMkfp+Jqsr/VYVQXRDhDQmtq9DiMvhcux68wRWVtAwMpnyOXh2y/I
+ybIVJLngjCIZ34+JqTYLVrpxuihywXq0vFQO3sNt8dyP00SYO/TeZzsa1zhBsWJ+
+ekbx6WAmk3BfZAV+wh7pLn0zicXniVmIauLevcP8XKlALZoe70o7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact LaMarre TAO Totalement, Amplement, Owned :P torrelayslamarre@gmail.com
+ntor-onion-key nGj7NyAWcs9bZ6OgAw5KfpncqjVhwhgw3IcOXfxhTEM=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 178.17.170.13:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+E+fQUw+B7be8TBC0j+E5a1n8HMOSZ8AU+XXPKJl+/BPNMND5tIufJPmInq8jGjEU
+zd2FTsx3M1oHMTZwHYYuv1S9e8JuvTUxAqi79IwPAj7tAwAV/h1nh83mEOQLQHYC
+NDT7rFG1Eqj/t8k/7BELT0CMSu5ejnQoq7YNHTs7EgY=
+-----END SIGNATURE-----

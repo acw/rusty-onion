@@ -1,0 +1,51 @@
+router HurrHurrHurr 107.172.23.11 9500 0 9501
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmChAYr7LZ5JhgxWfQucM/f2vXhcbz2vpUmQzmhgfadSrSPKAQAgBAC8N+9r
+TLl4XSkrZy8himGS9ZHnncSTM7O9mR5qANHM8T0+a0/skM+N6+5uxc5KuL6i20+v
+NZLJ8w1uO2F3Q235t9VcnkmkbcinCN24JEmGff/k+5u47hMpPTZ1299VrQE=
+-----END ED25519 CERT-----
+master-key-ed25519 vDfva0y5eF0pK2cvIYphkvWR553EkzOzvZkeagDRzPE
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:32:53
+fingerprint FF24 7811 99F4 F9CA 5667 9CC7 5BC9 9FE4 72F5 12F8
+uptime 1129638
+bandwidth 307200 614400 367561
+extra-info-digest E24AE3BC9640B8823545E8BB032ACC8CC424AE62 qqf7+UIVEmc9sJam1S/tXqfz3UrWu9NMBfc2YStDITE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMAuxt545S+bFY3Et3dbRBi036ROhx2GVQ48fGFApzdj4FlkIjNGPAEE
+Kjf51F/15iNOiFBLbIQS2rjhnfxlL0abzUxQhEEv6UKPIRJJEI2I8oPUPwvwsTNl
+Sju/N8+L9O4ge9PqbZOAOivd45XmGTThjce9f1MrJoCG5sXbsDaFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANuZLGvTnQ7gUeTL2Q1alQT+8cKTdPSNN+TiMNEIoRn1Qlv2D8kU8Vpt
+bAHVoepYieSnn2zMiSS1KtN3b/ii/dh3gwKLOV3qG5WpOSLR1mkhtz/gXSqAWADC
+/sMNRMEd9/HVIETzY1RellOlLKM3jf4sNST3Luu46Zd0LDKz1ncnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QHta9xSR1zSDfkl8AAGlS9G1LWj4QHEZv8lXa0aelSR2HTwcoO16RXouW7H4Ehkf
+vnKA94xEyARFY5FfVZMt0gkrENZxcTQO2kqv1xGa4AsQer/QzmE9ubr+CN8NNDIu
+LJNuScRyVS1/2cPRtzR/Aktc0vTS31itl4N/qdaVlwU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAbw372tMuXhdKStnLyGKYZL1keedxJMzs72ZHmoA0czxAFu/BIjgIU7r
+FYSk7xEg2smZF7sLKQE/zowG/Os70Tmv+XQ9dakObQGhu7zvPrAkhHKWlO7C8u5N
+yggC8VDengI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact root@tzongtze.com
+ntor-onion-key Cf9TEuIfYKo8uVeiDd5tYoBlwesCu+SHk8Ams5SOgXQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 UDDv5x0sNO1Dcy5KrpcG92+tSemjpq11lMfT/z3kq7tgoAI9ycJ9pPxFHoLczP0MCmAgx7cpzjZoJ3rzoCA/AQ
+router-signature
+-----BEGIN SIGNATURE-----
+V+q1JlDrKb6mI13B17o/DrUFnIuZQYPTK8d4/EvrQOu4PUAa3lTz5VeE/welsjJu
+4L0NLy9iCTFXfJ/NloVyY63JMM4naQOgjckTlGRNX9B8LxarC1W9AugN0lL5gF4h
+ij2JRdxv1YfUtWSIzAnr+gZJNkzcn23V5dd5VgHy/w8=
+-----END SIGNATURE-----

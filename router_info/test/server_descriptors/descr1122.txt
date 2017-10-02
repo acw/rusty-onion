@@ -1,0 +1,41 @@
+router anonduke 195.228.45.176 9201 0 9230
+platform Tor 0.2.6.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:55:56
+fingerprint FAD8 23A2 AA74 00D4 A810 7D7C D830 50EE BB7A 51FE
+uptime 8282001
+bandwidth 3584000 5632000 4399500
+extra-info-digest CAC57C6D1CA6ED014EFE7C692F2A925C6FA98D3D
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMq9av4r6ppyrJsIqX/o/feubqgKq8T1nm/cxWAjU/TDPhKMfeIl6gvH
+R9S80Ag/0QfQZB6YH6qQleArbsERUrpbC//LiFUsQTe2CpiGp4lqEjj8oBEioXem
+qdGDwY0Upv+020GvlS6sqN3YYUpwWL68jq8ncznk0y5EogNwRXIDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN0sJeDkLfNpV0v2knMpGq6jtE1jt/7+7+IqSwoY91a0HZMG35ReVygY
+y2xRX/JVcAKqoiFUSH5crq8AIOaOUZO5EHgxVDyGJlAlqw2k2E2UDi/Jrw8gS/nC
+PkH6HMUWjR+PJYk7UZ6rbEfU5U8SRIROYjK8plkZaFhnEDzLHaClAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact DexterAdmin <dexter@prj.hu>
+ntor-onion-key met5jXFuTZqU5uvD3X+NHiDh3lMOP/Il9xAFzUKNYDg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 195.228.45.176:*
+accept *:80
+accept *:443
+accept *:53
+accept *:6660-6667
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+r6C+WeM19WuhIbUiroypobilLFWbQCev3gTeyVDduerwea/Ln0NPoKAlf6MgxHvA
+VdiQkPtrJJxbFGvGtVnnoW8OHsx+0UoPc6wHIipS0SEgoS/V+lLZMkqp+ti9E0YD
+AVoUgKebKZJ/DSNhJVrewAlGNREMBcxnGL2umSBp/5o=
+-----END SIGNATURE-----

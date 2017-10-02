@@ -1,0 +1,52 @@
+router Kroell 80.241.213.87 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ8AQRkUOfzaLuHre3EAdlPM6FEslFcuCUTCDYMnm7MExw+AQAgBACwReYp
+KCQSilIVhCPG6BWSch+yHXs7HnX0SH3qMVcDi3Qlr9dqYui0I8LHuOwpm0NEM+59
+vYb25mQ38Mgdvw1xSHnVpVJk2UGqEj0cD8o6dmnFxCtBnh18aELhv1Fy8QY=
+-----END ED25519 CERT-----
+master-key-ed25519 sEXmKSgkEopSFYQjxugVknIfsh17Ox519Eh96jFXA4s
+or-address [2a02:c205:3001:7714::2]:443
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:59:01
+fingerprint C356 7278 90ED AEDA 1D8E 2352 F27F 50D8 1FD2 DFB2
+uptime 800649
+bandwidth 1073741824 1073741824 13869418
+extra-info-digest 654F2B48CEDDD76271B10CC0B400FB9AE24F9083 JqQZ+Kux5wAOKtEZdwmod1iHV6z0uCi0TVIQGcMc5Y8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK7em+vvjmA/MeFebR+FvDKdluH9hhfSmaibc10GBHPhpJ7DxlUNbI6S
+tqRuOkRejRVl3RDVspC+A5OFDAw9evfgXidCQ1tx/luGBuwQzyUJkM9qXvT17SkF
+iWClQqCtDg2CX6o90IGMh3kFjKcxxpoPypgBRZGaIBAFKarIdZ87AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANpO31SutfBQi7oAZ0MZVZ93v/LZWvsGeBO4VKcmYk6aqNcR96NbNDCB
+K3pSEWnGhURmNo2gKweP8zohS2uXhsQAFpmIw3DArzlbJ4aOQbnu/uOXY+52U31s
+c5yRG3BziYjyWRR96mWIzrhfXxHzlkO2y3/88zlWPdHUo+RT+PfjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kcev8CckEu24SkfCXtZTl+F4kWq+5ARUSQoEq6Vsl7CiU+KIez6sCWrNMt8qafAn
+H/lxMtO9FAu7F9vyLewgzwjMOCFQGRfEIFVSdMsPMNnZxy6ymZo38TBy+qNtcDJk
+OFdJ4k3VLV5YeIXmrM1pR/vujZ8dp95VttJmc+dx1wY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAbBF5ikoJBKKUhWEI8boFZJyH7IdezsedfRIfeoxVwOLAGR/vUflw2UC
+KLOWulSwhu5oc+6mOsG2l0b0UKZmk4JVv2qzWGWpLodx6nlIZnfQ9ZxC39DMWnHL
+IlnWPJsgbwA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Martin Kroell (martin [at] kroell [dot] net) - 1BpfSX594KqBmztEhsujMVSxAvnGMiRWNV
+ntor-onion-key x963jSo7EZ9frplKqqg8fY/m2IFy0j0MmtrRhsVZeQc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 YCLh5tYgOmqka1xDRm/vBwHkZ7qqP/HwffO5cl7tk0uiTOzyRAScV7uN5jTRK95LarRg3P5cdJXdhckv+sqVDQ
+router-signature
+-----BEGIN SIGNATURE-----
+JJVvKHd0KATMN8VqIVDLI9h+vViw4IfLI92avzawkKPcs0F3IfsZgXd2chrVaZPY
+i6+wmUJYokQNv5IYk6pOhwiipeNqjbcYwsGDaAIH2uFiHuG3zpYcJ/CAr6rilJy/
+HYFF9sA0S/VFAu89HlgCuvE+kIIKf78Hvia3gX+bYXM=
+-----END SIGNATURE-----

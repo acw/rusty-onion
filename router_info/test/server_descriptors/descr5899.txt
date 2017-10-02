@@ -1,0 +1,52 @@
+router westerbaan 62.251.50.232 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKvAQUSxg2fCJLl2I+bQgunIL0LCWoVAC7hftshmb5yyBeVAQAgBAB6KRIy
+Gm+7Bo1ElhWquEx5xA/ut18xr+1QjrwPMOrDN9C1CzMqGUi9W9GxwHTNXndEi7Yt
+NGqhn7u4B88ZuGsJBzAB/ovo2Bjs3HPJh3ojuU41qhUYQWqFTGNYH5CMwQ0=
+-----END ED25519 CERT-----
+master-key-ed25519 eikSMhpvuwaNRJYVqrhMecQP7rdfMa/tUI68DzDqwzc
+or-address [2001:985:5431::1]:9001
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:22:15
+fingerprint 4588 3B21 39D6 09B9 536E 1287 AC22 D6FC 480A 1614
+uptime 8887945
+bandwidth 1024000 2048000 1273327
+extra-info-digest 1041297CBEB67DBEC5B2925675E32B8950215A59 srTx6KBCau+1BFUSJjo49MW/8XLbO3cuTcruWzlqKMI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ/3nlPp1hI2/+qt/lpqUiJBwQSUDqDYO2jFxbN5yjNvJV4TcpzjvOBy
+rzz/I87h2naP26TUoGlFouJ8eSuwuYwXZKIpaa5kbYChXdTNHc/EObjXs2LBkhBj
+L+iOffORbeB6CJVzQxrM7m60pua7bvz7Lgs/wp/A03jTF8A50QZvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMn/tUGgIYGOnpsiE5Kx38Jj8jaC4EwoKjJ7ANa7Lvtaz8EmFxTp2UB1
+guRxkhVebsZRf5STtpXgA+M7wkktiU9sehznqtD+dlntY4Tn3VB7a8hzgrynGBXd
+tVv68BzCMKgHzlh+CnUbIsOVVZz6VfGUhxAmTqVdQHX0aTzUbBl7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+UUdd4g+n1Us58k2ELI5pd5xQjlxx505xM/KB1zQJdOWKM6nvg5h2ejeY5YcsuXFW
++hpTMOPqJV7cjwBB++Du1SB/twIRS8yb3uKJM6gE/gO97km4fwrRbsL7p7Z+yYP3
+viX3rg87InACIBmQ446paeT5J8LGDxU1w9/8dbfj+Dw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJAXopEjIab7sGjUSWFaq4THnED+63XzGv7VCOvA8w6sM3AEbxsKFLu+XC
+l8f5Gu2hHW8tFDjlnMka0r63YPciVWdOfTALfpj6Rpax2uj9LQuwxXLf31ZArAEN
+UojGXUQsQAs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x8C89F86C Bas Westerbaan <bas@westerbaan.name>
+ntor-onion-key wrbVVR+TL6t3IUe463bVEePe3cnvRFBze/QvTIUv/hE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 j3V9Zv8eCvTbi8Teb19w0CY/v11r+CSxeyg6OJUVD71MWAjT4EoCjkSy8SYO83r34ChHqRwMTO6QJ9kV7Ru/Ag
+router-signature
+-----BEGIN SIGNATURE-----
+BYEJciapoHQDgXO7/C0dO7o69OHO7BgGS+uYNlCcFUfzjzvqrQKN6XdoZaTIl3Yh
+FX4qJ18Ahn8BSIEJAllW3Y1nvPL95m3hErpWMDFBfuNEEyvuTqs7akEzd6Fk7zAc
+4IxDpAyO4TB+NJIMDZ0inPoP/YWNOjD4YvNK8VLgKjM=
+-----END SIGNATURE-----

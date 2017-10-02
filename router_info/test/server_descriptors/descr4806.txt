@@ -1,0 +1,51 @@
+router IT 213.202.232.59 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGBATiO8uX/kCk+oAzbzkgbeE0PtMKx2R/58M7wtex+rAAqAQAgBAA1hVVB
+q78GjCKb9t9VqknpcKRkqEoAN0CGZVyVC4oQm+QthNoo749GXMJUhOvhww6JFWAR
+VweTV7y0ZkT0McFTuB8o0xT06uH0R8yto8KXYySe1gZ+uyYbe0LZ4gsFbwc=
+-----END ED25519 CERT-----
+master-key-ed25519 NYVVQau/Bowim/bfVapJ6XCkZKhKADdAhmVclQuKEJs
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:08:17
+fingerprint 7110 97E8 FDF7 0F77 699D 5D99 FF20 623A 5E04 D653
+uptime 2208737
+bandwidth 5242880 10485760 6388758
+extra-info-digest FC9C47FC52796ADA603E88682977EC2852A7A411 /jiVu4ceDIKlFhaAdxWqE8tN/RHowFZUVWGmEIoQ+4A
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMgOVFzT69zyVrdVoVkru07VnYeVb3q5UXu8QbXI+N3/v2wEExObJn+N
+b2AHKZKhdoZSIbBqm/97bkA8xo8Z/n/yE/96L3aYZldWuYOcOHzqocO4jwvBddM5
+Nxs1tTQo8y8p7V4+1E81OF4075PrnacLhAQOfJz2PvqwRotDp+JfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALR5RDTb12HWJhJh5vUgYlAf2kke4FycYd3+XEKaKAPziL9HZIQQVGDs
+FzIy/o89q/bFy6VRE50v48hc7qiaCb+GKqIIOSFTkDA89DGIBYRDKSH210tYiQNw
+eXrPbwoCR0sxsN5sjFnqTBsVb6rsG7xKYW0YVN4tmx9DHSgpjh5VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+FKKMhDEOmrV054ZhWXoBXsu+nht7gB0doyuv9p06/8jTPSufC9Fr+X0Nf04YNb2+
+Flz9lfnPRDUM2gC4SkzejPaokt8HwLkMY9Lj/z5giESkAI7SzxmYb4jZAmnR/+OY
+/rsay0savT52Kawc3FmBUYw/czrI+XvhuihgeNO5moU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJATWFVUGrvwaMIpv231WqSelwpGSoSgA3QIZlXJULihCbAKI7y0TWczoq
+5j8BSizfN2VWFv5Ixz/PLEct9oDf8pVlm5M9ZVtMvWjbBcO8cGkxq7+dn9mJpczJ
+qIYUb7S6mQA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor-relay@giebelwald.com
+ntor-onion-key u7HZkyMnMBt2enyO8XlgxrbpldLdFFWylLp9iGWcq3w=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 MzIU99xKGudJ3MxHuJrP7gI/EElvpAuiRw3OWoDDp5kWJ9x7tHqXXa8BBviXOe0xmyAoUjAAJVsjPokbTxLsAQ
+router-signature
+-----BEGIN SIGNATURE-----
+hp1dofSWnZpD95OKS6nyM3U9pDCGyH6crGUGfD0yqAaZ8fu5Dyr0pCdDwblbE1uD
+8cYKcGZ1ANG3buI0UJ7UHOGBdmUt218AQZwORtqqKIgROG5CN3oBsMyMC3fwvRII
+YAHnXNmcSl++MWG4eU+k3JGX7sPOvl6Vb1ftpu0DcAc=
+-----END SIGNATURE-----

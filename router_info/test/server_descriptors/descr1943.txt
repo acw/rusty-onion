@@ -1,0 +1,50 @@
+router ripde 85.93.17.143 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFXAYB3WHBxjRFuGGh4RtX+dq6sHw568RNL8NJRj8Q7O31iAQAgBAB4z/EZ
+WOyzI2R8vfkQWOEjC+2qGdrTPeP1uVJa7FiFYoliwonN0lOlwGW4kbNP4bG/lfbu
+QCMlLoM2SDWijgPMuwT7ZnNk4wjUAPIrGS2PFX/PqcmCiDGxKmB2rpWWuwQ=
+-----END ED25519 CERT-----
+master-key-ed25519 eM/xGVjssyNkfL35EFjhIwvtqhna0z3j9blSWuxYhWI
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:43:45
+fingerprint DB8D 1454 CE07 8844 DDA4 47C8 ACBE E440 B267 258D
+uptime 700199
+bandwidth 819200 1638400 983163
+extra-info-digest 570C1C8662FC4677B58C111958C90D4BECA6582F ruDYwy0owpUklyw+SINY0lOIWaQmS8QglPVz7btf+dw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALToo+3s/MinRK0zSE9pvgP0VMa6FUJO0YXlosQurDXAGrsOxRq/y+wK
+NsIz0dar+iukygXOFW3vGPDg82cPbpH50Lept2Mnoqfk5nbF7I9N7HXZpEOzCPJY
+bOiwmwIQxxJqHQ2UNB/U6kwUjfw3Jj4aQn6iKdjXh1mseHuzi3fvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKq4X9NdLNs3Xw1MyQmTaQypNmTuCnZmLjhWfwj+URd+AeJqp2yUQBmO
+CqbwXG6ejLlo4aig/4/ZqbFwA+3TuBfMipv3Ou1XnYk3Q5x2Mx+kdpOnKFJHULa/
+k9rlBJWZK3ceOJPXHyYAsOZgn477nCdXhjghIqp0MLAQwXsoa+fdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hoKyTh4B8xmiPX8VLLRMct8mcf1U4CZ4EKkiSRK5F9yz7/xZr8qWz3d5hQr0aIsA
+2N1FhGB5a7+GrFCrwnxGQeJ52sRrxuUyDQkwF1WNg6fh4NUsmeAPSSCzXBlelw3v
+O0cELra7Kl5v1aGIuLnB5DzILLPX26ovP0hjJ2obah4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCHAXjP8RlY7LMjZHy9+RBY4SML7aoZ2tM94/W5UlrsWIViAK4+5HytcfdO
+C8r1M8N6Eph2SPFrbbg24O0aveeT9VfFyv9sNWbcdbZaVfZrueQpL5kyMNuodL1F
+n7lg3Cc2zA0=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key Q9Rt552cO6+jQUclpNrhKeGJAO7AhCgx12IPAI6ToVc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 lg6lU0D4s5fsuFN8gxPd1GFXF7sNaej/wo8KjS0yJYwlcQzrrmdVmeOeZtQrqIQAUPQ9Wfb/VWfiRd5KUtzlDA
+router-signature
+-----BEGIN SIGNATURE-----
+UXF28PzE8tdcyAg6+mBGeebztd90FL7OXLXZ5dH27qwdI2MhP41gOw1n+hHFWZdM
+8iR9OCanEdvIkHAoXkk7kI6x5W8BDZ/2x5bviW7ormrSquEqrdNTb1LsLPtJ4jeA
+sLkmcbdGwgICA+CqgELffKQyTYuieVWwiFUnFXaY2pQ=
+-----END SIGNATURE-----

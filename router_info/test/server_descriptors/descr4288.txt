@@ -1,0 +1,127 @@
+router CalyxInstitute03 162.247.72.213 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGWAcL/euPaDWXpeboHktzfGZ2tXJE/cqiAI8S6Rydp0nIdAQAgBACZHaAt
+zqyvR+w1Z8g1HqaIZG0E58/AXhGx9WHwOxlaaj+R8s4cZvtptP/djNn6h5dCD9z6
+F9DvGpL/+XABQf0rIVguoZd5z41G4W9+fFE0PbG5qo/jVXE20hmsrzcvLQ8=
+-----END ED25519 CERT-----
+master-key-ed25519 mR2gLc6sr0fsNWfINR6miGRtBOfPwF4RsfVh8DsZWmo
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:47:20
+fingerprint 84D3 61B7 36A8 CD1E 8818 D0FC 1868 92E9 1AB7 6881
+uptime 984790
+bandwidth 7680000 8704000 5517099
+extra-info-digest 684E4FBB8758E4CD0BC4B98427DC362FF8BFE88B 1Xhhzm/HcKhIzfUQNM5VVzg/g/+tdOHhJRtp1O6wGBs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKfBNf42Dot4iDQQCXlufVo7jdACR3/0WGIJG27SL+q+0GbFj3+o0AgV
+W9aPLonYgYtDiLtJkvwJ6I9Edw05Bo0+z0thg/0sp7OJdHbERNl0nX6ZLakjvcUK
++v3Ts3Auj+2Xl1ERxtj2ieD3BCa3no+ogBMGd84RtH+y7/mYKvzzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL3nnxkIi8cK4abuPsPJZdB1dnX6voeHvZwyWhi8Eh6Pyj0KsNLRIBQa
+XS/Tlcof7dz/xn2tzwrHVo3rYbcXH5hUffGZ4ITaovawcDT00JJov4/nzIYDj84w
+sJ+2flsHXuX7YfPO9STGxjLQNXqMEM99qIrF3XoplkCiA5FVjP15AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+cmGBTLlE+EgmRn3VFbQOhOO8Gi3RDaEc1MEuzuFPsI1lrbfxAUn4nn2OLtgIkhmH
+DMpSZsVuc0PzVG3iAZklAxbT5f25PX38RmLNfD4cpAPugV3VeOo4M22zYcraj0++
+Ol+tCSvPWGpxHuJFiEzi1q+BrLPitOTUd6SCPkJyib4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUAZkdoC3OrK9H7DVnyDUepohkbQTnz8BeEbH1YfA7GVpqANnLfZ0jijDP
+O4LcO0UkTqPrG0s8asjub1xfNW35pI8shj6XBsh0xoeswcRDiYq7ez96k52gzcXh
+cA3Y6gcnPQE=
+-----END ED25519 CERT-----
+family $0011BD2485AD45D984EC4159C88FC066E5E3300E $0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB $1B9FACF25E17D26E307EA7CFA7D455B144B032E5 $3329E736CCA16449D02D567D42683BF1FD798676 $47E49319DD67784F1E65B5793371BE467365979E $501B3DBF250B094A05CA5DBC424AD4C3D46721A2 $6C143720FFF8469EF6A5C5B4066366340CF6C0D1 $6F4E9FD00D4251D98BE96FB1AA546FE34676A95B $7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2 $A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E $B34CC9056250847D1980F08285B01CF0B718C0B6 $E4D1F25DFBE484208866BA4A1A958B73127CB0AD
+hidden-service-dir
+contact Nicholas Merrill <nick AT calyx dot com> 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr
+ntor-onion-key vQUX4M8pZc8B/oYfi13Zj1Wf3JcdgybiY6wKn2vhyDg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 162.247.72.213:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 cJRm2aGPRKehN0S5l21YzGXdN/t7rnL+1pvGKGJ7f24iX5JxPfaS7YOaFQD7xmwtzKF9DSJvhxWUqQXSTuLwAw
+router-signature
+-----BEGIN SIGNATURE-----
+mgFSrEPGD7b3T1mfChNNrYaxVXXc9boRInrI1ZjZDYmOVYkmsflb1S6miCPFbf2I
+jIyVKre9MVvQ32tnjldSoP7RBEhm0naK0osoW9BG4F/+7shYLX2FW2KizeDFnzA1
+gXsK2lDac6N66pW5Zwu9qbzAybNoEyH2p1RJR10PeC4=
+-----END SIGNATURE-----

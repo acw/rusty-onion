@@ -1,0 +1,50 @@
+router R1610091651 81.165.85.244 9443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJdAZuo0sZvbkQktcsqWuMRznTcB+IdlOzv8XtaNggj9oowAQAgBADRtmMN
+9IT0xPVAlcaWtCykJI7bblD2DdiOFMDrttGpO4lMsZqDFJE/L0FHYhzGMMJkRD8Q
+0+XyzW/za68dS9lNtgw6anE1NEUEq6X9bB2/MEVCtrCLj6hmcuTn9Rl7igQ=
+-----END ED25519 CERT-----
+master-key-ed25519 0bZjDfSE9MT1QJXGlrQspCSO225Q9g3YjhTA67bRqTs
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:39:05
+fingerprint 36EE 8D47 E570 B8D5 5154 60A9 972F 3CFD 9EDF DFCE
+uptime 416345
+bandwidth 1048576 3145728 1683226
+extra-info-digest DBEE76DD26D6B612CA2D8F0DC6D2047CF88258DD 3I6Ake1B3NABsf3MUMsbEK0ez41uTscxzl4W7WAs1+Q
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPPRD8u2DB7aGLXbpVk1AKoTkFJYGCv8Cove0JqffB9E6tAz8vxFnHca
+VgSqTYo0gmdz0FoLoxL+nWpL1kiEDAvhvnJovIh+EeGfCVSDViG3SB9lVaLJGTuM
+u8fXBqqxafsFdPSiWv2CO/FC3ekpaABW8TDkbpOuNkn6YIgjkx0hAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOl7muCAX9bYqZJGiY5yYADir5/UuPIHyNP/35EVMecYc01xo0Oq3BRk
+/vR5ygDeQe6u0s/w+qhgCyamhBE6WC0pbDJvieJtE0t/DNwmN9pJKlrzQf/cfeBY
+BSShd3XiFCBEYHapUKUheIYTQDq2iD5P6GghrJ3dcfBdRq1myLZ3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+es9gUkfbpltxDys3TBtPUJ7yQUJ6128RHsdei5zsZO0Ohw1Fy65PDIL8NFtUn++q
+mnfW5z7fFMyedZRpVfFQfFFX68ukxxDRfqWOVVZN3w5N3i7ojne57VLc7UzhJInW
+rio5N5g8QQvTTEo0NjldE9XKGQ852vGkfAr3dL9uwOM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAdG2Yw30hPTE9UCVxpa0LKQkjttuUPYN2I4UwOu20ak7AHkBe0N9gd50
+6qQFEOAxuj4hZiDcUCtif2sK8Eyr3oRtjD7VsG/M8uF2rneISBRQfexFCpagAs0c
+cfmOSvsynAk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <<$nickname> AT telenet be>
+ntor-onion-key Xlq9E9YNOuLNVXcQUJEwsNcUUZEaeu139J3SmRCFb38=
+reject *:*
+router-sig-ed25519 oBy+TKQsq6yS2yRWTZ6GauT1WUO7nPHo6TTlWy9bR7LozHyg+pU3XxjhqMuEH2jHb/bGs2lWVP28K54bPSZiDQ
+router-signature
+-----BEGIN SIGNATURE-----
+Ssd6xZCtBEu4HJKCXpFb3CfFA7IpMnlMsZmXop7UI4z9m6QCPfoaDHZs+XNXLnxv
+Yf6geO3ixiMdzj5P2quKR1MTwrWIY3E0fO/R02TeG26Wr24y42qym8w0V4RC9Emv
+u1Mbid9LmruGSBmYzGmlCCki7qxvNcqf9slvM26KOP4=
+-----END SIGNATURE-----

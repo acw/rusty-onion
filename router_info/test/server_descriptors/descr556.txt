@@ -1,0 +1,51 @@
+router Reichsfunkmast 88.99.2.24 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABl//ATwX7H28xiDsSnfDBmuHzrz59TRljW3UtGkJjh39XWhOAQAgBABldrf7
+pxgHAOlwFj5M83/uioxEmahThZTWFbR4re/ekS8lzKLgqVItUFY0zDTo9r3/wGCO
+DQ+bUPlA7ujz7aoGzxJjCediWxA1EvHwNzeMchs5dr0X7jNQyB2dFCiBiQY=
+-----END ED25519 CERT-----
+master-key-ed25519 ZXa3+6cYBwDpcBY+TPN/7oqMRJmoU4WU1hW0eK3v3pE
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:10:43
+fingerprint 9E65 4F92 F849 0842 7A2E ABFF 4334 9BCC 3283 8F1D
+uptime 734461
+bandwidth 26214400 26214400 19007475
+extra-info-digest 5218461813B0CAFC2FA03A39E78E51B8F25644B0 TI4ihfxEatZz5IwzQGFasarFQnkH3pu3tqbmc77sLhk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMsj8G1jh4zki/us8SNGOI0OzhIAm8puwKQCfCpymt79QAQ0MNKYCR2a
+8UUr9C1FOPZJmQDGCwCI830cTmZZzhMrTon6xP7Tf+rHUxLMVBVjsHdC9Vvq/Mml
+iKjAkf++WBBFnANTjsRctfP/a9u9ykZZOZ+suKsYJAjEUlLsA6LRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALd76TvSWKQQdnUuVnW982vfdinr/XngdZU5fBfDKSK1SpNwPv2UIX/B
+e47Bobr8n7WT3OjLZtPT5RZ9C+c+AjqhGWtzTtECRjwjmdOi9eufbrFaDs4NHec5
+zBF4VyLSFSArqJbmkiAcHJdpONMVKKri9amS7KwxYDSo2dRu9gq3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+lPm8398k9yoIqN3iiq+vPl26Lt0YahJsf4WKz9XT13YekjYP++IC90gWa1hN+dLU
+RP0mAKgBSDOMMb3+GgYTdjk8n4kh7uaEs9577YyTjV7+8lsN57MYMlFEwYkYHgOX
+uph8+tgYFLlA985Fizf3ctdjJx+/HkhycUwZaF8qrt0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAWV2t/unGAcA6XAWPkzzf+6KjESZqFOFlNYVtHit796RAKSBGvw2WH3h
+27kCBO+zQXq1a71NBumfsdZqDGAQHF9LCOKvAR2ewy3ugIcmf9I+VpVHavW+SG0L
+AGVywCcXBAc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <ich[at]crashboy[dot]ws>
+ntor-onion-key DO8A01srnck//Gv3gfkiWqsKrRETX7CGnY9w/GvfUks=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 r80eI5lTJH+CmDh655KXfvQYwnpInDh+xJH60U8Bv4eyJ3eskR6vPUfk+eRcSS24lNjUDLDkY8aol+kuwnjiDg
+router-signature
+-----BEGIN SIGNATURE-----
+pJjKpPcRbxXjr+z2k5BPsWEPQdtv2HDHwrw+hJuj7ccmhRspwj4Jl7ZxY2ikAhUl
+7IWblVJhGP/RuVWiIBaKzLMEALKuIcE12fg11z4vsoACde2B+qpj54No3vEwo8x+
+qh2mkAq5Y+n+ly3itIw/d2Z03yQ8RmryiBHsoN1qPfw=
+-----END SIGNATURE-----

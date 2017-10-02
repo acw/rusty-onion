@@ -1,0 +1,50 @@
+router rumbly 80.68.92.249 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHmAdaveEWFVPWSRIL0dCzTLTEHGsuPIKs51jodmQibaFwMAQAgBABGvkhW
++/GcTFI56FnQVb1QmH7AQ7H5YRg4Lg3BThI8yrBAKBXDGb9CG36JOQCl2q6BCP1x
+DaQf7U1Oe3ZSL7hm5ggopbN1LSK1f1VHeuFleNz+aYAYVEs8+7Qvmuot1w8=
+-----END ED25519 CERT-----
+master-key-ed25519 Rr5IVvvxnExSOehZ0FW9UJh+wEOx+WEYOC4NwU4SPMo
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:08:54
+fingerprint 7F1B E66D 4362 3CF8 1058 837E D8D3 33C7 ADAA C7BC
+uptime 28957017
+bandwidth 122880 491520 183174
+extra-info-digest C52CE19CC949FBD0B7B0D088D285BD1DD1600DA9 j5md6gy9BiTZzgjJOwaDMo2XKcETqdMcZGCNwvv71kw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL3Bb3rQpCxVMNz3DltLYERu3/6q1y+tTqmQ9L2k4p2shSQ2Mh3mQ9++
+gbneuEiVYVDQtD0n1uo9/EzAiHmMkq0dbgqEPMTFThGYGtZWlUhwl4FSWxcCEPox
+Mxt5hQQO49NBiFoCwYqIsmXYWA/GY9uC/yQGv3S+jkmbTpf3AjJDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOoLkR29KQppt2+f+1Et9LjLivTDta85Yl0HTpZ4FTQIcq2qTUoKzcux
+rfY03vyFC8IQHWJFNGA17zFwJFA9o/3hU75gvHqSPXcFJcv1nJ9LX7ZP9oXJ0+d5
+PmEeoIy1K+NxAn1o/j8nbqs2MEwPDzWSbo5msdazBuqr/geHnTmZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MPq2OPhcBLX8eFkNSlDVLAbrTdVqgMg+Z/01cjmngVihmzBnErdd68AUoyaLlwTd
+O0xfG+AZSUPBnLM6StJNoFMUw37o1U3oBZZ4qmPAxcVw8GN7xB+/EussQXLKQGwh
+oKA6PVauHvQZpaPJrADHKLaQdX2CvfNAypJff5/nrOg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFAUa+SFb78ZxMUjnoWdBVvVCYfsBDsflhGDguDcFOEjzKACJhJtp+x7ds
+tV++Gxs1AgSFG3Qq7ecZZYwXEEZtMuvzFX02gvkN50ECXhDJOs6LeWbazw3jPHEf
+cGtDCqth9QA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Simon Ward <simon+tor AT bleah.co.uk>
+ntor-onion-key FHvYbr1AX4g9KQf4M27HeTn9sATnvoBIM3mlHdfqtxA=
+reject *:*
+router-sig-ed25519 lStxIkDGpmM7xnu4GbSGEJdhXcfq9NMppiZVud5bu9olTSWkY7C+5bbSY6U3M7bZcwSjm/JeIdDx1o59LOJfBg
+router-signature
+-----BEGIN SIGNATURE-----
+Mu7ZFB+DdsUxLIuiDA0ny9jaLvRXQJaEXsi8+GOsCEYEXqfyJ6olyzAT9xn54Vkp
+b/R0C2cQHlxIcm5T46+DhkPRnd4JLY2vO5zbhZ+1p/Te4VNn05HqMaiL8QPifj8D
+5cWvM2Nc15jcOmaXyzaHy0HZU5nvRSG+rRoISpoy8jg=
+-----END SIGNATURE-----

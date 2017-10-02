@@ -1,0 +1,30 @@
+router Raspi53Tor 62.224.68.92 9001 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:29:07
+fingerprint 3BD1 376C D339 EDAC 6AEF CF35 5A70 3A16 AF91 3496
+uptime 318730
+bandwidth 614400 1024000 733012
+extra-info-digest 2BEF97684FB68301B420983099FE9A5C76F70F12
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL2YSN9/h2EK1iEjl/vFeJdIOYC7aw4V9qhJffQrdEbxBA9onRGkRuvr
+MtPX4zCC+EZF92Q3dpwPANWj8RA7vwlnu7L2wReGRfRx1GH4llAn4Dh/py536bsr
+6j9VYt15sKUzgGpeSdGS7y9dsz+DJRGNzb7XeiMNLYvyfQ6Aa9cjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALIwF+y5ofQiJL01/aVyNoWMiDnz5EUAkrPmoXqMZisAPnqf1JnhoPpZ
+guJA4Ty+BsUT66DzsCObp2ZYFZo21W3+pgiqT5zbG0uuErpS9fV5H7uGpcO4d0tG
+S5hMwRyZej1CwRwSnJxrERJZJEwTNVenGbbR9joOgutjxRGVoMa/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact raspitor@habmalnefrage.de
+ntor-onion-key 5cYEAlhtqiwU+xYvUsKrLLVO58/J/EvkdG/yBJelZDc=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+qUSjmx8nKFKKpdq8iuoBIWqTSnqlvdC9kDbWfNXwy8HjRnWdnzVIWylpJB/7IIqM
+8gwmB2bo6qd3BOS1ST4qkHlngbFzEjILO3hi38gb3ohz1iDJE8Jr28zCJp/9xigV
+9W4iSHhAiSuojOjRCBwrBE9NtbHqBaC0CSIGOcbHa2k=
+-----END SIGNATURE-----

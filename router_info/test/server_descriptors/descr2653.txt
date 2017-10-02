@@ -1,0 +1,51 @@
+router 0x90dkrelay01 138.68.69.69 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAFAW0w62/FkIOmb1rq2EtHx2/5YY+kwIgugWRCyfKpWZRNAQAgBAD2Ru19
+mFXwEQNY8MQCJHYOhZceEzQg9vXFpmGjvHlyS/tLSag6VqvPQ6/zX/KY3Hh1umgH
+Mlz7AhUNAwGk6orgWUDgWfc0YTJ+eRBFs7Lgz6+WnM9vafgEyMWoz6HfAgg=
+-----END ED25519 CERT-----
+master-key-ed25519 9kbtfZhV8BEDWPDEAiR2DoWXHhM0IPb1xaZho7x5cks
+platform Tor 0.2.9.10 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:58:10
+fingerprint C1EC 88BA DCA0 6600 EB29 B597 0A2F 2E36 AE2C 74D9
+uptime 8693817
+bandwidth 1073741824 1073741824 9254360
+extra-info-digest A0E75D01BC799191B07F4AEF4904A2D89B57D06D BXfaNsb2WUmw0paLB8slkfPnDCdx5YYxXjC/37cZDvE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMS+vmJ8bIGmsLZCCX6p2xlp0ybccFRC2fRfdIXei7wSHiRvQLhyGB3/
+OU9TuHlp0fuxpCFClhgwnCYYGRV1SiN/Z5xbVY1UipzafMd9ESOq556/cvDTPIQI
+8rFYIib4bSTwp8SRzFtt3D9An8oXPHmvyrlYHcTlcYgVRTQn0i01AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK5+DtIPjjheqH3/m8rnOljEaZV4oM1ZF74UUM5cYgyawZb0gQxjX6P7
+PqcWYSAFtBOs0JaB+giKOXMXFgpxKreKvvCZUroHk7CEcOlmZA19zUSO5YKv8RQ4
+aysTUQ7yijUQRIgB31AoyWbwhwktToTM/bphJwLRnMOklOyz4gDVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+DuPmMtJ1RDk4QQGVoapWmIM8NuGlT49K9urgxhzXDhq5ww1yONHn9/SOwpuxFP7G
+5n36+x9fZk0F9RfGllZlwun7N+Mol4IhqMAPg5DM0JEilASruZNtiVqVegEsuYYY
+n/BeE6nlERAeEuDc1TRbGkrX/t59VmnoZtkC/ZRDYno=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAfZG7X2YVfARA1jwxAIkdg6Flx4TNCD29cWmYaO8eXJLAFIezgRseRqG
+keKXfZNtM+6PpiNc8DnpMwhe9LCgqldok6SY2kF7pxEJXWzS9QZAlZmtJC01yrg4
+KyvBSLOcaQU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Alexander Faeroey <ahf@0x90.dk> (PGP: 0xF9BC2FE22B08CE8F)
+ntor-onion-key goeX6gCkD+T0fxlZcyHX3uuUgD5MAMcropVsl19vpAQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 P4hXffce8wH0yGR4rHq5HowxLnoi9oWxVWwc8dKGccPG0dLFqu/axRX2D8R3rzKV4uFKVL1izlcdRsmVc+MICg
+router-signature
+-----BEGIN SIGNATURE-----
+KroDkdTQazxYiUv1+nYtTbyjkzB0cgncpHPpPPjGlBFPsX5zMyuM3MuqkgrNp16N
+8lH70YF3uzf11kYFWug656i/9gZr8yWPIN8LfCkaKPDaCqTTfkVXJ4bNiAQa31Mk
+7IJHtHZwGrTGY08dL9T7C07Sh+ORBD6YoEDM7AyFgqU=
+-----END SIGNATURE-----

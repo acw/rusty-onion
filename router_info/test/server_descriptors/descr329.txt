@@ -1,0 +1,51 @@
+router torais 141.51.125.16 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAmAWtqGfWmpAR1MndMZ2OsTSps/9KTbdERqknYz91dMUScAQAgBAAWDy2F
+aIGH2B+WCD00oBTnUADvXUFTqR8QTso8n9A99bvWt7m3JvXoIxlFZW4XVnRnOdG9
+g+GCTSsxC5OGPNASkRAKfDTsEfgq+OIeR8vWxwQZMgUQm7NZdsb7qQLVNQE=
+-----END ED25519 CERT-----
+master-key-ed25519 Fg8thWiBh9gflgg9NKAU51AA711BU6kfEE7KPJ/QPfU
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:06:11
+fingerprint E97F 3729 AF96 6B67 1E1A 50CF 790A 4DCA D4F5 0E6E
+uptime 1665313
+bandwidth 1048576 2097152 1264782
+extra-info-digest 9913648D39E854A9F696199764A63AB4496D8861 z3EqRc6tAUYgDNGE4WQ0aBrFGIycjKStYJyI74mldwg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMSss4infXk58ctgI5EjGQOgu3Lisq6pyP6i4qebB0wB0S06fZ62KdRj
+zZL3rf6DvykropgLaRqdvtam2TxCT+wWrmICE+fIiZET9jNBnUm5BMECpfdLJRzh
+BI2Mkoa1QH5a9P1iMnZsnPND7BveBy0kCa3Kj2HFLL7IXkENKWxvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMFOVF4vSZGvV3r0/DX7tTIH+N7YyXdoY4bHsaJxir2yhtG7Sg8dljm7
+oG4XajXBXsjIWzGLJIgFnE3mBfDZtFk1GOCs9C0gin/fF5PBUlTekWigLSp6S+p3
+1+Y+X+cKl/N2IFdirD6LM62o1nVG3bvWATx2JFpVPql0u8tUUihlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+NkWW8P+l0NgAY6re4pjuq5qSN4b2xbsXaKZ4IhoH7w0WGagfc0T/vCVqN2XBXkB8
+6O1bMRCCt0JHtAD7i9fhcUhvA52ndw67hoF0b5V90gozuhYZUo5tMJaAUf/QmuT4
+XtX95eMqN/IqhZwQwXh676V1u7mK8uejTDe92TCBOkQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSARYPLYVogYfYH5YIPTSgFOdQAO9dQVOpHxBOyjyf0D31AFAtPkySCme/
+pLjB/tT2oHa+1QiEmtptPvkBSMtMaATZ2Ps+t5CRROQHMhiLCWh8Mo09bOyCD170
+3TZWkJHbJw8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact contact(at)ais.uni-kassel.de subject:tor-relay
+ntor-onion-key RWoHE4j9HP/9gY/JB+iKtP780y4SpcdrWUCf2PhuWAw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 izFrQtyBLYS88fGBPBQusE+27DtkaX4BkvNNZlKrkLC/0GxLRT17URNxMxVt64t0NdeNCVfwV7YhDSADU12SAw
+router-signature
+-----BEGIN SIGNATURE-----
+uWi6YaZCmsAiEtjsYZxc2pgCmTcLsmHIZN3ScjNcw0eb/qjW1bZ5MRawZ++AChyv
+QR2xH7bb14GZMQLTalqET16mmDZbFBhoWVvlTwYHJqcJuW1NUpVvkaeMWIML2xKv
+m6Nj3BS7E8hpt29OAtem6kBNaFr2JFg42tP9BcGGifI=
+-----END SIGNATURE-----

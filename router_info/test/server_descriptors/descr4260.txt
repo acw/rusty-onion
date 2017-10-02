@@ -1,0 +1,51 @@
+router sherlock 91.121.76.175 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIzAdGW0DcbJkayZgjOhVWGYcyibU8Bv/s8oFKBuF5G42gcAQAgBAApo/Ol
+NFlAQZyIjdhmwR3WOoQEDjG/4WequOOwkgFrEItuVwiVKff5gHl7/O70VTH7nLIa
+TEqC67TzK+lWporJ62i5xHvu9WzgTJfuwStHWrUFgy2lT++EaIpSS+48FA0=
+-----END ED25519 CERT-----
+master-key-ed25519 KaPzpTRZQEGciI3YZsEd1jqEBA4xv+FnqrjjsJIBaxA
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:07:00
+fingerprint 857A C831 A98A CA4B 0E04 2890 BE88 6F7C 6817 1691
+uptime 2312967
+bandwidth 204800 409600 245755
+extra-info-digest 8ADD2725DC505DE022325D31D2FF8655CBF95887 i0PCLN9zzZmftDhbYCGshIeayY2P65/4H/gViiW3Arg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPIWFlMdyYXh88ewr00l4KOxjjK2TSJvCapKrBMEEk1yEMoL4RDIRw89
+5bJiHsPUGkZKB6Mz217WJ8zHRDL9rqSWNSBZNLorR7VhHmvm+9downYbtYxpl9/7
+dR/pI/SgJYg99NPerF+MpI/oAyrB4ApR3EClsQF9oMV5wdsmYpVBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMoWhAynQV3XDza2yG7f4+ZTHjt3p81OHMOFofL7v+VypsrdLDaN1+dF
+q1urMBnS20TNVAGsGLeV7HRY90CMq08K8Sx5m9V1YvAgpo1XjEA2GyfTlLReLU1J
+GZkahL1O4FZqf2REk9QDju4SMy2+9BYD4dv7lk+Bcncb8ZCrqGEvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+n9Gx8/G3T98wYs3KT+OGji5sAwokDIrhUfxsI9jFIfJbwmsf6J7/7PJOs2/TR5Y8
+KF//SfCUbks4a3+L0i51uZLCywAJnXzdWAiuMV93EoWko+P/hlH3YgsZvqoFV+6Q
+nsEHunCy9o8aYgsmwfgOnHGCOWoyMEkZ80er6mGAbsU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUASmj86U0WUBBnIiN2GbBHdY6hAQOMb/hZ6q447CSAWsQAPK4xdyKq+lg
+NkqpSCigLIwFbATS/UCt+KJDDSTAHzYBmoHUbniRjZgYQUp3Xyi56o2cNGHAqlEP
+2FEO1g6i9Q4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact frank@heidjer.info - 3JJ5X2jm3K28WJN6KYmJCD54WMttwct45k
+ntor-onion-key bGW4oZLcUrcXfWwH7RwEvG/k2q1KsYl+WRDpEqEiKGg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 HdY27MOBYReZeb/f+ozsGV4H1geRfwWzZ7h/oq1yHMBbC5W3X/KsQ7v9VM9HhzLmwQOP5UkBmOIcfjMr04qzDw
+router-signature
+-----BEGIN SIGNATURE-----
+UrrIECFQHP9GVDy4+A5Xd08FuUQhgMhy2HFqi5bjPHCVI7dIZusP89pFrLcBc+3/
+qwVTF1eu8ny5sp3OXhsdkchRs03MVRcn1LvQw8vBaBo4hmd1Vz6eJYMv41rzEXBp
+mhE7Urep7dAGBpcra0lCo5mJDbHVAf/hZHPF+iY94Bk=
+-----END SIGNATURE-----

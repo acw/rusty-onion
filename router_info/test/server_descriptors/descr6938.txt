@@ -1,0 +1,127 @@
+router loki3 103.10.197.50 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBMAflM8sChi62hxFSEmpc9hq8ZkeI7+BlESK1JQMs3uCK4AQAgBAAtSmtm
+DPjk6DWidX6HNFbbgAoVJOXs4ZOv0WBbQ7VSWcNvfgPolZjsp/WXtsOayp5vAxdf
+lixp8LVKZC0SevDlka03+sjA9HvDjyTJ/LW5eC1J5Z0MWaH9HzbZK3m3DwM=
+-----END ED25519 CERT-----
+master-key-ed25519 LUprZgz45Og1onV+hzRW24AKFSTl7OGTr9FgW0O1Ulk
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:37:40
+fingerprint 1D9D 1C1D F37B 417A 9485 2418 2D62 A1DB 02A3 CC38
+uptime 4748509
+bandwidth 1073741824 2147483647 4250543
+extra-info-digest 55CF65EA9B5F7AA6B1836156C299B6B5B9F7631D D8d56juP1aIG03Pi4g4BpTdUzTI5HyF+ZXwuQNP8kYg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN2SIcsCUL1XCCccvrBQTILwnyuvhqo66538XE01TtNW2RVEPMOr4X0l
+IGDr8cmOvc82nSEKJLVQuVgp9maW3clQrw1WRZ2K1Qpokh0zyqbPDe58O20d4rq9
+y05TVuylE86wzSbn/o5aaARcEUb7IWwanJtuu36aRJX5CzCRo7/zAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKZQ1Lulg7hLurw3cxC2gAqxASGokgKbfR0Bi+btdAt23gbBUKmkCgTr
+li+yORh+i6QS3trmEKf+Hm2Eh9ushaz3Oww7TzKSSZBWDANfrLA+Hd1rXeRFOsLt
+aACU0zulVkATqIld6S3Iu4zGq7QUblnweExP+EP3E6OaI3tcY6w9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+05yb26MQDjR9vRNbxXB98wnPse5zi6KSSC2cEQxU0ejkYUziYdEVQ+fKWj86IyEF
+SO0KhhAO00fPZHZzB949YQSPIQaSekJLtzKO2DmP64j3QYJlPGuF9S39ek7xsFFy
+2arA0s5hzGmx+bcg80ygvZH0H5iPh7KKQgs7pPtTLb8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAS1Ka2YM+OToNaJ1foc0VtuAChUk5ezhk6/RYFtDtVJZAG78P4/F+MTv
+v0o54aLj5VpV8iXpP5MtIWOD53VN8CLpExHFymcQKQwtM+DbeIP3lX8oLbmM1ux2
+qyWrVEHgmAE=
+-----END ED25519 CERT-----
+family $44DB05F3AEDA5DA34BC713201DD0394418C7DD97 $5CECA69D0D91B5B38376B98B761BE18938297E8D $7A8FAEB3CA2AACAA86A26458D0E13A4684449EDC $7B4E619C81A06117B5F19F621755483BB45B00AD $896364B7996F5DFBA0E15D1A2E06D0B98B555DD6
+hidden-service-dir
+contact abuse<__aT>icetor{_DoT===}is - 1GDerBXAJFHES691PqJtRRHc1KazKSCUuG
+ntor-onion-key j9td/64HhQ2qc6X9PoZ5Vt1bKShsCW7uTtqKAx/KgTw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 103.10.197.50:*
+accept *:53
+accept *:80
+accept *:81
+accept *:443
+accept *:3128
+accept *:8008
+accept *:8080
+accept *:110
+accept *:143
+accept *:220
+accept *:993
+accept *:995
+accept *:194
+accept *:531
+accept *:706
+accept *:994
+accept *:1533
+accept *:1677
+accept *:2102-2104
+accept *:5050
+accept *:5190
+accept *:5222
+accept *:5223
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8074
+accept *:20-23
+accept *:43
+accept *:79
+accept *:88
+accept *:464
+accept *:543-544
+accept *:563
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1723
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086
+accept *:2087
+accept *:2095-2096
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5228
+accept *:5900
+accept *:8000
+accept *:8087
+accept *:8088
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:19294
+accept *:19638
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 0YcgFg4YyPzVMmijjvfh/vMna/Ii9vNot8g6NbAh+33M+akixlROGkbulZsP7AAlUnIaD4ISRdgc7RRSHA4DDQ
+router-signature
+-----BEGIN SIGNATURE-----
+M2pb9ur03WK9oNvnO1cBHv7uptLUEoFDhswXGrrJzsJ7J4lOvj+i6Oz2honc4cDJ
+22lMFK1HOILjaxtpqOZ2YWyqRcJqgX+WlecmxumicB1DB9dilUd/HdHJaUojC/HH
+E096p0PO1eQs0qkPfm8Vdo2J4mjhffIoE2a/qCAgz5o=
+-----END SIGNATURE-----

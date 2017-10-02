@@ -1,0 +1,66 @@
+router TotallyNotTheNSA 212.47.233.66 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmK4ARLgFJT8fqA3BeLaEB5yW3h7YfaMJ958Ow4pOmjXuQJwAQAgBAAi+XQV
+orbARvy6l+vhO9QGxWp5sXWRNQ3eviyUCBRj6wis5vvvdrigco769Qp5A3KC5UGY
+pDvNhueKku9InntiJqLFFJCX9rr1z/RRdevFS5BuweHhzJRHsq9PTi/3+As=
+-----END ED25519 CERT-----
+master-key-ed25519 Ivl0FaK2wEb8upfr4TvUBsVqebF1kTUN3r4slAgUY+s
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 23:45:03
+fingerprint DD63 3A51 8492 0470 B557 2221 EC7F 5692 7773 B4A6
+uptime 46
+bandwidth 1228800 1536000 0
+extra-info-digest B1A7ED576A9D5A1E2A5B592AF5C9D5EF28BEC456 VccBdJ4fo395G4LXk0k8t4oBeUDcZGZFXjHCmzjYGNk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMb6Qus8g5VQkHJHk7Y8kEbPfKeghP6BP09A42C6nztYIIUQpBo8pnqW
+Flr31+aTlpeUNw1D+jrvv2Jqe+EiQZSseZZa+s+MoPG9Yb10fAAwkzoWzNAfVM3u
+W0rr5UCPAd7lsY+D6T+oU8N57jjdUoH6Pz5g3Qgnytc0vgHPunpFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKkBxVnazAodjr7D3xZHcBXF0myIfW744yw5HBnXw2gEodNgylCeFCvo
+dH+pAiFcFOP3m11boeYMGD5YWmVTfHbuaEy188cXQvrvf7lhQPJz2qD/fva0llTm
+mbv6L537PuojDuOMVY6K4f5MaP1P9+dv7FYWT280ubsR8cjZf661AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+xWBbLLudhdW3ernfOnW6ath6A4oXwgmayaeIQpPpUuvC7tvFdtqhXQmjhHuQ9/lc
+53CbY09eLxr/vCoTQT3iwTK902kzOmZDBAuWak89o9Kk8uq4kE/em3e1T6WD3+G+
+ocxVAdZBjuW4lU8rlSBCIskw+2eZi0ehs1q8HSEnvZI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCQASL5dBWitsBG/LqX6+E71AbFanmxdZE1Dd6+LJQIFGPrAGcvt/YtFVjL
+4THCr8z0wO2CbEQWOHvXx+y61ZB4xJ7niSNtIdjk9yIzWAEbepgwtWPCA3HGYyPc
+HB9KXkKo6Ao=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key dM2Zepz5k0peFypb8B3Vk4ZoItdes552HUFvsgX/RVk=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 212.47.233.66:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-sig-ed25519 sT6WIwi5ObqQJZkjM/bFqJEoY6yUv8og5ZHLbhD97nrkE7e6JkDanL8sCz+rcNG4Wg1qfP1qP2iw8tx8djj2CQ
+router-signature
+-----BEGIN SIGNATURE-----
+QU0ZlXz7EWabgeScyEhIH26h0RFGBZfLcnQ5mIiMyrML6zI5KnLAl01FKCDP3Ods
+i/y1lGaV5V0w0GondblyoCW5owIW7cUajdS7pTxHHxw57Qk1QIyhOXIr5wrGNdDS
+nconY+SoC0sTkT3z3Aw15e9JcoHQebdO9MXorbIYpjA=
+-----END SIGNATURE-----

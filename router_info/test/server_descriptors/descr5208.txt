@@ -1,0 +1,51 @@
+router topsec 217.85.186.95 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmITATmgTfsGQ+hyFFjvzuAerJY5uUhGTW5a7JSndBYjm1L2AQAgBAB+ij6L
++KZnzCC9+D5Y7NBXDN/3dNRKSvGAtInmZ+WwoKEaD87oAsyAKRN4IPMshpicYd7p
+FUwYJEsqDnGmXHpkZ5NqdO4pDhPTrkUEbWEQzEf1bRYSLqTgZAGl6bUYfAk=
+-----END ED25519 CERT-----
+master-key-ed25519 foo+i/imZ8wgvfg+WOzQVwzf93TUSkrxgLSJ5mflsKA
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:22:39
+fingerprint 6082 1E7B CCD9 C9BA 4979 DA44 712F F6F0 8EBB 1339
+uptime 259270
+bandwidth 409600 819200 511810
+extra-info-digest 9BBD65F7FE6E5913D05086833CD3E1006BC18A1D HFZfQGDWFXoN6Twx0GzP6D32OT9GrDNsD8fUAV80bq8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN72VUET0CfpYVh787t7lX/+ew7+vV5Qnilcle7c03aMtf+utOKkPzPq
+wVSyOYmz6ZAPRrUUDoZDJdGm6qg2bG4Kg3aTLbjYhYhIxNq+/BuP91gk2R3WHc6+
+prsjxuKkBIeRr0R5JlqU0iuDoNFFJGsslsXN4RlXLLdFLVWtB607AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANUyX503WBg6sYguZ3l+k4Gajl5AS2Y9XWd1vjYK0+SVGJMWmrM81tmw
+fWw0bcO3sDpusMpnv8Xt6/0omIF1/azPsXJ8WeNHWalCEiKH91DJ9W+Leyg8W9+a
+C/+IhVuIES+I7yA9BEzHKGvwbkgROVHP8LRwzvQH4wnae4kj27SfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+fHH7nnwCM7BcATP3MjC2ULBA6CSVDPDVH/irKYJ5jlY8VCuHZJHHjfNYH65oj65+
+1CiyNuvbhUsqJF6lEq9rUrEwTk5rKpOHMhMUKwBJ3uoSyTTU6FGlhzs9H1CSqfjJ
+bDBYPmTgj8B7YbPkm0rOUm63G8Lqc1p8uIbgqt3dBrM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAX6KPov4pmfMIL34Pljs0FcM3/d01EpK8YC0ieZn5bCgAKhHMOppzFYL
+bLrPP0CgjcX9nY8IBB6MEN3NAwjHTOK+QZPAhLRCk/1R2Mt3eor4eg0bDothO/Ki
+PDP5YAPJgww=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact topsec@sigaint.org
+ntor-onion-key U2fP7exbFSS+JDyQjp+/cAAYI1Jvlsu5L4xJ0flpfwo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 P3SWlpWE1Vo+zpAQdwO5xpXrTqUod8behpa4B86CIzrvuIYHfIwrUkpjqKQMSjD1wx7cZMEVrMwx2eDTM1HOBg
+router-signature
+-----BEGIN SIGNATURE-----
+irVhEJzgHY5FBW7SLZtPMuqap3ls9dqaP5Xp2mNayr9VH0XBgdxG9Kw0h/fscIG2
+JLrkbLYjaSLEE2ruRiSRmlmicCi8FRxDl64JElzNI4mdLW7bkpSK4pkQr0ty/ijr
+7EVVT7YYtIYzYVyFFDLOIWTdJhMv4fh7M1jcSFPrUYE=
+-----END SIGNATURE-----

@@ -1,0 +1,52 @@
+router pkttrent 76.10.157.58 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBPAXWl1NZPQRFZd57Y+ZcOPOjDlEkjGH03mALM4rmTvUCQAQAgBADjGsvX
+H6ZiyoxRyATrLj+q/fjb5XzZk1LS0f08jKE1lGKz7n9coGpa7gEtqR9SwU4fv2ig
+8G3AU5HJkW6SYDil0pDphGI+gTyZ+vEquAvfLI6CdndDDWW5rrTuAWqGUww=
+-----END ED25519 CERT-----
+master-key-ed25519 4xrL1x+mYsqMUcgE6y4/qv342+V82ZNS0tH9PIyhNZQ
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:52:46
+fingerprint 89D7 3901 3CFC 51EC 38CE 05AC 9714 C923 DC6B 9B50
+uptime 7218757
+bandwidth 1024000 1024000 988973
+extra-info-digest 3B60576F8CE5D25E2C0DEA6922CD0FEB59CC8BB8 H9AkGem6PVPvINLtTmXqtOZW3pvj91fFgQsRYa8FQ6M
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANe2N/RZhUXXrp/tJaQwNkfrY7eeVywFbCByhGn8ue8/9bO45Je+7KWL
+CgCiB8H7oHq+u0px9HTwlLEXfcKS0nTkgeBwQ0ZrzqfhllYJXssOhAWSA9XucWr6
+lhKKx3w5HI5XvnK0BmyvSABKZxO2DI43/DDmbHexzIFqeddAQ3r3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMkouIQxt8hvVb1CbgnvSiYvAb+QNdfHJhEL8kjfWJhKanPr/aK0ekh/
+mZFOTHysw//dL1ppQ2oOTsugky/z+NQxaWHnmxkbT2e+k1VAtSwZs5lLK9XiZQ/f
+oGHyKN5N6MuBniqKz1CSjw7zNenzI29Fqv2edHdEyF9ovQ/BKNH1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EnIqjadzS1lpkQd1POLEiotJMH7qL0nTOsdq/cv2K8Rt7HNsyMIXis6X8jb5kxc6
+tsT/ydgoyHLgcEOpO8zzPocbKUkLsp0JxAlMrYvieep2eYosffpmItm2xSoEEjjT
+Oetsd05PttLk68jwgrrOuUVjF82AM+j2xGoFxYVAZE0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAeMay9cfpmLKjFHIBOsuP6r9+NvlfNmTUtLR/TyMoTWUAPiU1Qol4zmF
+P6zg8jJya47kvRgKV6Wewho2ObDaLXiN/efVQKM9Fy30auGyHWZKXz3FTBeod4jj
+IvAR9gyOqAw=
+-----END ED25519 CERT-----
+family $199BE08CF5A11C62FA32F019A39BB78913BB25AF
+hidden-service-dir
+contact Peter Todd <tor-relays AT petertodd.org>
+ntor-onion-key hiSzl0j5bJkH5PXlRwTxoclOB6Wsu81gmni23W1Br2U=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 tv4DEgKO++BXCBkCnP+v3481QGQw8V/srso8lhi+WykeX4B+NQPVzQeA1p2pplwST+lJiC90uprk+GcwriawCg
+router-signature
+-----BEGIN SIGNATURE-----
+QgEQXux9SLjA50S8sORbS790WG93AYHPpNK5mFPFOI4+7za24/49q6bNtgET0Mzu
+Fv4FnJDBB6nJy6nTPZVcZtGwSMwaSYWc65QZ1R+CUv407igaMFpYZCvssUOGgmra
+lFJeEjrWpBt3+pORZVR/4yEswJhVwMyKi2gyXaNbEq8=
+-----END SIGNATURE-----

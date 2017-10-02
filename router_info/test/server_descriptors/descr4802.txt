@@ -1,0 +1,51 @@
+router Tor4All 51.15.39.138 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBWATzM1J2tD5pl6LARhLDLIQyRDAGJF+6I9n31nlhvICbiAQAgBAD4IYS2
+8t5oxjjGgSgIJWZR1ATs0y+h3N6u8/20dBBR7DZpZtyMUO3A8ROPMG+PHuS8dkXf
+VnluGltd2VlTDdPYYSvM5FaMxyR/arQ6SGlvIqtSJG9oVWKoshLG0jYjBQ8=
+-----END ED25519 CERT-----
+master-key-ed25519 +CGEtvLeaMY4xoEoCCVmUdQE7NMvodzervP9tHQQUew
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:31:21
+fingerprint 714D 0BB2 AE0E 12AF BE54 C8FB 6908 BD31 39B8 C982
+uptime 8545339
+bandwidth 10485760 20971520 4244601
+extra-info-digest D863DDFEDA3F639C48EE6E599F16F5EECF633BF0 8R/MlS8qKjjl33j8paJ3z/qQyePfvx1P43hjhY0ti+E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMLZtWEYp5dynIvAVrRjXJjRxsiLgJMnX5FOSBL0pvOvrzFsRNLct6+0
+ermuBU73H1lxOIqPTIz7S55EZuZNrsTgrcMembGwEzd1oViA/9uJQU8w+DK0dHgf
+U5hvtrjhriVy7nx2ivDwTohKqGB40xvCdxwEvSxC+pw522hZODY1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANRrwi6u4g4ln8g7Wi3FwaX1B5iJWoBFeqqbSyYLmrSWkbx0pUQ3pvP1
+4FnlxcnzVNLvzLQgJY38FMjB+XMWwXa8jqu8K00GYQQjCVCMhccHeOg3iHUCQ9ca
+CLM6iOJnmClqErMt3aM5GSolzMz0+1MjCdYRdrzCDjnmBK0/a3BhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kYclZx2Mn8MRcr2gS8sWEJuAswWkk4lB5I++GWvBDQNhVyFrDmN+R5wQev5t3fGW
+lkH0/xPTfpJ5DqGZAO6f7Th9hlKL2lazvRxssxxDJJDf8eaAMpNNooh2ugSf1xSo
+LZb19W27L4NrQkJXqJC65FvmkIwrFzJdxR9pkmOZIbk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDAfghhLby3mjGOMaBKAglZlHUBOzTL6Hc3q7z/bR0EFHsAK3MKGcbo68V
+/OyjZ/E04Ze1mwixW006yfxXGC//CmNsFZi/FZvKwytr+biENLqpumg7dXhk+zIH
+ZlSB3ljEcQ0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Just mail root@This IP and hope it arrives i guess
+ntor-onion-key BNkWjmLgyczb3Zw8M1qApL+Fb+CGY3lPFgynbL3bkWw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 eShTrjo63zfgbD8Qabt1w3i84YniB5/PzaIObXDrusyvAzI1UaySIXqmA8Q4r1Mo5QaPZwTBRdpmwlxCm37mCw
+router-signature
+-----BEGIN SIGNATURE-----
+WtDDG9yklBGkbSpM7WpJt1EUD8rHwinIYPNkEgfbKt+frPY4ZS/a8X5dSovbU9K2
+GJTakWZB3El8D6K0bCscJVu7pqeHZWsf4pojK10xpVLZpfW7Xzu+emUGb2S8sVdV
+67pbg0qKn2Den0+QtWE3OR619OYZXX5NqIAHfN3SriM=
+-----END SIGNATURE-----

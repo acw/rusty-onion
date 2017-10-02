@@ -1,0 +1,53 @@
+router sif 85.10.201.47 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKFAQON6RHvxClcf60DYHTccdUHsfOu3j6DxebE6TPVd1UzAQAgBABxDpos
+At3ANGtNWExGzDAXRiyv87JbA/wESggVRp1vJ3626qCaKAnrG9Dx56zmlUzTvska
+drKIPF5tRcxo1XP2lruCQqzvX+bYlgesG4xVuk++kc3CjbiUA9hC+W/09wk=
+-----END ED25519 CERT-----
+master-key-ed25519 cQ6aLALdwDRrTVhMRswwF0Ysr/OyWwP8BEoIFUadbyc
+or-address [2a01:4f8:a0:43eb::beef]:9001
+platform Tor 0.3.0.10-dev on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:32:20
+fingerprint D8B7 A3A6 542A A54D 0946 B9DC 0257 C53B 6C37 6679
+uptime 64919
+bandwidth 3584000 5120000 4159488
+extra-info-digest 3C8643A379BCA60FACB8BB03CEB983D304AC2151 HQxsJj24WDsdZjIEzK109QzNG6UqN1V5y8FISJqIfoM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANqGtzrVtklxq8tUV4W3WscALBWOsUV8QZJM562Fe3pE0MtCgY8AovgC
+HwBYHcUQyq2KqFQOj7nHRILJur++0u0vn6Gnv2Ke7RyZPkK8V71goOUkz44MSFkQ
+PsTXA9l59SmaUI81oITWKi1k4n+Svjd+Eka9/gtX8W59I3PqyoInAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMlG+BZ8R4Syc4jPYHP1qZe06TQp74KYju2GGW/3Nv2qaF8icAveEe9l
+yVINZWU9BlfeHD3bJsWdgMQMLERaPm4YlaS9zjIbAi/XFhsUv3op82azoBeW5feM
+UVY0p1chOnkKMr/SRaoszzZNlIZYjXG3tVRgBGTFOhHym3DWH/pJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kxVKQrh+UvJF5TaH9QJUzPNvMuQXDCN6+Zfy6akuoxWKYLgu4xtcB1b4jUxWhYfi
+FNf8VIrsjNP+9dMb1HQrS2b0YpP1XPoYGxXzwm1YXPJXC9/uR3IN/zYvMgrosW6+
+lz0ulOL6f0XEIsfnk+9WMjACn3+9p6m/12sVCv74tWo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAXEOmiwC3cA0a01YTEbMMBdGLK/zslsD/ARKCBVGnW8nAIpfpdZrAZOG
+T6RRvuJw9kudjpNAeCbq4EI1pntbs0FFX70TDx7j6FjdMpuThUoWzWSspH9H8C0Z
+fdPmC+5lpAE=
+-----END ED25519 CERT-----
+family $83E6583A4B3CE1F02758B19C249D6C839C229716
+hidden-service-dir
+contact 0xA192CAF7 <tor linuxlounge net> 13QYN3gF8yJPmJ2ePGwMe7SM57juETQ7dQ
+ntor-onion-key kcD0b7gSlfUyGb7i+f/S8UcDqCXkeNg82CCqzWqheXA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 7I9vRX0QWUlVhW7WUt3b5IR6l2l5dcxYFuOBavoAU/DWy5tiW2gFI+ViLCsXmMt9xylk+K7kEZDDbwIePOVNDA
+router-signature
+-----BEGIN SIGNATURE-----
+s02g80JHXIuoLGTVzdqfXEPOLm2km0R5Dt+MFMXXRL80AjUodr29OTTNbL2Pa9JG
+oaEVveozrVNOQzrWk7b09Imhq1YRkd+W3m2vRrbVo/Dq9SFCPl1KfVHvLb2uGBTi
++e0MruYDre9++mHkjYWXpGv2i/x3c49WisI0JtMizbo=
+-----END SIGNATURE-----

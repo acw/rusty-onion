@@ -1,0 +1,43 @@
+router cassiopea 80.248.208.131 9001 0 9091
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:51:22
+fingerprint C92E AF09 EB7B 2B6D 63DB 776F 7A7C 0250 7576 5D29
+uptime 21783
+bandwidth 3145728 6291456 4124672
+extra-info-digest 396745F40227234DE652EB7298D8CD8937A8B4D3
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOZDQZXJWSmPm6oHnIcph+c+Q8jGO0rxDJs1+s/+aVyaFSSILlZX6vXk
+KH2IVlT+iQJ8DNrKuiDXT9GXFPP1IODK+k/ABRLOyjti0doinAryQ30GVkznE8bN
+++fZQPKqhaAmXoVx0YhuonygoUVXTxkadOs5p7YLBoyOe7gaIlYlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANF/URTSEx17KsKhIYg9SfBzAAdazNN+wwS1jSEhRMiaxIGTQW3AT50h
+w660xvs2p1gibspRVY4dCFE3GeOGYR33l9FTySM29ZNEb19Hsrjm/5mR/GUvqYna
+vI692KheSPITmNWX1T/McdkesANSGkpdJDUK44ts82Sp4rnlR1QjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact http://www.cassiopea.org/-Contact-
+ntor-onion-key RGAnrMvkyIfy4KDl/HRwiKusq2LBp+BYPTYjUMVODlg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 80.248.208.131:*
+accept *:22
+accept *:53
+accept *:443
+accept *:993
+accept *:995
+accept *:5223
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+ERvig54nZDCMD8QUavDr+ENDXrd4hKz77kOhkJ1LykaFJ+zZ7c8mMJ7vy7kVUbRE
+PdmPAGlEZplBypRHv967FQVf+w3nGRoLG/iiu/DSu54Qo33a+a4TQ0K1EOhIrwTq
+h+YGUFfSNaMbUgm7yCvcFXzu9w+G8XaryXRyPd1nH+8=
+-----END SIGNATURE-----

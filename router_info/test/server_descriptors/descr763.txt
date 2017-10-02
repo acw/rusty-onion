@@ -1,0 +1,51 @@
+router HamburgsTor 85.178.160.165 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ6AWWBtE6+VRXJBAiFN8/kcyhaAVde504X6UIyN/S6+Jb3AQAgBAC1+uka
+cMPs3/P3caJT/rlcIJNf4nlFDQv0KRtzMYDayTlEhF9NKaL4IriXaJeHI5ANTZyB
+ROyVaPhxrnMH3RfjzngBCiIu0swMQXdP5R/2KX8oezoDXK1ITv1SUzI1VQ0=
+-----END ED25519 CERT-----
+master-key-ed25519 tfrpGnDD7N/z93GiU/65XCCTX+J5RQ0L9CkbczGA2sk
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:43:24
+fingerprint 4F1B E400 BF76 433F 2B1A C4A6 132F E733 2FDB B835
+uptime 3
+bandwidth 1073741824 1073741824 1247025
+extra-info-digest F69151BB5C1C477985F8DF16B8FAA4A54CD527FA LvNVAxQEjwR9ES3nV5nM0py5hF4zMfCWMyOBDazAQRo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALKGwfAUQwYoZqy4/5ABMTp8V8H4Jkq7I1nA3iszaF/zhB0+tuwDz1qH
+A4xEDdA4UA/UP19Ns0BzEEyzbL687pdLfFP6GKLgfeJTk+tPv26ek9fUb9o7kUJ7
+A33FEFWVe3ilziUtUdpQPtS6UUzwUI4BqYj8aBcsXyZjAi+4T2ZPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM567b3wR4pRQRxury+vHuSE28vyUZQiSIM6mr5dTtMqOW04s5+/BGGs
+LVn6+y3mi1gyfaEbxdoBIz89Re9dJBVC1BnRKPtcMXjEX1+g+AyGS6CeDQXwOx0S
+NlJRTrcnt/1gT7dqZJO9q1FT5MeH64Dw7O/cbKQI7D5yprHrXyYZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+r/Vl2xMwuwj6IjutQ3GBVNd5ZkC6iOYXWT2Amasie2RDhM/5pPlk0y2wYyNCwsaT
+9k9fsD/fOFnKuM3N/0EqyPlgoYkpdlbxaJzIhcZmeK2BT8KtD0UyuhVXPbujGBjK
+y4hPAm0XrFYxXBauAlQgfE+y87kGZGja66gI3/ETz6w=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAbX66Rpww+zf8/dxolP+uVwgk1/ieUUNC/QpG3MxgNrJABnefsjjQaV0
+srtEPj8AMdYMn+kuWBi+Wq9fF5UN7Du06UxljUA3iC/Q+CrSc5ysLGYoPPoLXsUe
+mc1DGtSigAo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact sporadisch
+ntor-onion-key 9mtL3+2WXbDosLIN/KwQQ9eWe9oWnwdZdNaQ+CQdsTo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 oQKa5lC2Pf/YAHtwq+2QjW4TwWgX/UfyvPCdV+NSbIWULWMOQaV+l2WSGYPN05R0mJlF3UPmk9pphs1ixtdMAw
+router-signature
+-----BEGIN SIGNATURE-----
+UZ7/WbhKXfHosOHPM2LaK7fiEDC292WY0LMTUJ/i1cIhMj6w2STtVwER1BEpWVEm
+cqVCnYLoZun15b6fdHn0860sKh9p962iKx/Y4WwgtzhxUNrFFuSsD0iJGfL0bZbj
+2bkCG4/PepRF3QTLJeOs0bzJSx8jDjrzQjN+rsAOiFo=
+-----END SIGNATURE-----

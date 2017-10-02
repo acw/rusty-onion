@@ -1,0 +1,51 @@
+router Crypt01 185.37.226.197 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJNAaLTEPwyD+m4k1t273FrqoeS7qeUTSC+2f3WEYheGPKBAQAgBABecbWe
+q4QdDJmHTxK9NprP43BdhZ5z6oVw+5omsKtePIllO2jLzVqsClx/i66pNy+T0CPh
+xoxjRQz5Dtwt3mPa82xAPY5+zOeBlqAzZY0SLmD6clVGu/3ufdWcbrxkiwk=
+-----END ED25519 CERT-----
+master-key-ed25519 XnG1nquEHQyZh08SvTaaz+NwXYWec+qFcPuaJrCrXjw
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:12:50
+fingerprint 374E 7F64 1A9E 6C79 33ED 6BD7 E6DD 3FEE 3FE8 EF4E
+uptime 5356815
+bandwidth 204800 307200 246286
+extra-info-digest 1F46ED49A4B886E02DBE818944D6E4C2599E62E1 yihYeh3pJ4tGWq6+oAaWyoo745berzAExHwaugTaEV4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANaF6Y+CXPP+6Gj5ddBZ0xXprSHjMcJ45l4tf+ygedf/jIW1QTofdQ33
+XsTGhlpQECmTR88VM460r2i9ep90mpkpA+IeWJ+VIUoCNSWZfB2N334/xnwRSgDV
+R8OC6riuk8E/NOHnkIXgloCs/39mH2g1nur0vXMBAcN0ddU8Gd3hAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMkt7OCiUDwNYq8dCaAsmTo3IrEVsP8hN7uHknZi7CBPn8QfKvf2kaTS
+Ll7plz/SQ6kK76asNllh4IHICsPUrk++FXDxDL4ngM6B+3Xn+5Qyu9Nqzmw/ALPa
+El3VA1lYENTyjfjWDUn/jjf70E3Z37Wyuz52hjeLfo13+iX3/P5vAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+y1Y7VJ4TFcm4atHuGw9RVlSIhbMcNpA7DiKOukkC41BAvFuHMpd1BSe1wBNBETCY
+N0ic5/uITgbINJfhBoAxw2qa1zGqPgCUcuqAgKY4ATWKJOsMbNJRuf9d5As+rMSf
+v3AHC7CUyQggUKdBWmCW3dL8ry0e+eU7l5g3R0fcF/8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCDAV5xtZ6rhB0MmYdPEr02ms/jcF2FnnPqhXD7miawq148ABM6ZZQzsZ/P
+nsq05XGhAhZ47+k4CZemU/qsvA3UXp/JtSP0KBRJJKZoOyh2XaPwy0Xaj2hDI+gE
+sa8InzJhvA0=
+-----END ED25519 CERT-----
+family $4D6566AA9F033B1EBE6A5D41A817F5367F097F6E
+hidden-service-dir
+ntor-onion-key /pLUbHGqI3xFLWkslc192/6XdACyNDTO+dRVnxiqmHI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 hFce9p7k0CrbEqx+Xor71NH3a4PUWsZ/WeYiIXRbHArwzoeqzmcsKxlh2sA6y7m1hk2EBmnKuT3iKKuFtUGKCA
+router-signature
+-----BEGIN SIGNATURE-----
+KCCfstGFY4KMWi//CiaLOHsej2JjXguBgwkcIuJkdzz3Mby7eMhMqyAd8T2AHcTk
+cnPYy51B27PJ3R6kWPFCQNjn59RG23SJ4ocrGsRV3deWFimWi1RTeTpMT3dCDmp4
+7QqSpQ8805MjTI4DMYQBQ+pEu8GUiqgDJlLGtILZlfg=
+-----END SIGNATURE-----

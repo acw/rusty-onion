@@ -1,0 +1,38 @@
+router MagicRelay 188.165.59.43 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 10:59:11
+fingerprint 426C 34EC 356E 885C FA14 58C4 7C03 3F53 CF96 49A9
+uptime 16727114
+bandwidth 1073741824 1073741824 2517765
+extra-info-digest 11CF179D19E9C85AA7BEA29DE6833054047743E7
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALkpKnyf+OupLgWJaJquJJ6ROLDNoOo1NwQJDXsdWuWdc28IdrKH4xsQ
+riMuw8zfuPw3+3R5JMEIfoFSpzjqzbHDVQC3kDEmpEhdbY/coAPDf9o6bRaX+drO
+denhS+qYRVoAVTP/M1W6BN0P4fESeI57KSc/R0RIRDd/A8pGWhnzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK6jDKyZtPRIKSU5MfO56pKtHpGwY0W5kCuNjil612yAYPhQwaXKfK9r
++1aZlEdJVqnGugw4bg9SEDrE8RkvsLtGGuMVjgWHjWxT/Yn1cmscFlv7XWxI1Pw6
+44zypfaDqvAWL8/OWnE4OuFMbX3PTo48FK/92zkezR2jYNrbT8bvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Random Person adminHexx@prohexx.tk
+ntor-onion-key e2lxWLKvO/xmwqRFVfLoQvcv7OwpcPym80S/1bUxCEc=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 188.165.59.43:*
+accept *:6660-6667
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+NuQ++UrEN5yymI2s/KVdEmOe59Vbb9Y5EShmdHuJdSWj45OXzA3rSX67V6n+WLir
+5Ag135KFlLRT5ZCXjZm66PS3zO5xNoXwt3OlhBDPB+hp3KL0gdeJkqT4u4dqXkne
+jJ0LH0HVhz95n3lLQ+S6Pn7uWnFzy40PAZ25H6BijQk=
+-----END SIGNATURE-----

@@ -1,0 +1,71 @@
+router Unzane 184.105.220.24 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDAAS/VJ5nuq/w3GRLSQtiB99q/EFwQMNTG6dw/HTKnzMwnAQAgBACWSH82
+r0sdnAcymow3qfnOiUSvk2QIx5D3NthEhfy7/OUkpipqfnPNCHqdKF0AUkAVVYlJ
+dgFah9jwiUKf5COaC98FfM14+OxIl5T6fzYDeTsjJ7kC0Tz6oJiK0Qp04g4=
+-----END ED25519 CERT-----
+master-key-ed25519 lkh/Nq9LHZwHMpqMN6n5zolEr5NkCMeQ9zbYRIX8u/w
+or-address [2001:470:e861:6::2]:9001
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:03:41
+fingerprint 2C4E 15CD 40EE 3D2D 6F06 2F04 ADFE 9B85 C8C3 C52B
+uptime 6139332
+bandwidth 1048576 3145728 2101607
+extra-info-digest 9FD577C0652CF0DA857F111C74B8B19248DDC779 telgxyuGE95al8ZLMk0BR6uzWwNAafApX6B2HVqJN58
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMevzNx1FKo9MIEJv0aLFkhZKdf8dsr9XxZsmzXI11Eue58vOhW6WO9S
+CUauqUT9s6aoXBCLoKENeI2C5izzPw2H9s1BSLlTZ9QHRVhupzePFmBAH8k9EwUI
+McOovjLu4HH7XF7gLpCJvwdfWjHkiXHLC6gEiv+CTju4+Zb3ziObAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMHiCrJ3ExVpWi6xc+b3Qs8Yi01paYL33fIaLiS1kWZoFPax75482f3I
+Im1Dvo5v9InDdXO+OivD6QkMjwYH1ulIFLJ9EGafRfvfFI/3L4FQgvQuJWhwH/yl
+Dp3G+C2gCD64ja7ixH/R8MOAG+mSrj9nF1P6Z9gDFp7iqYdi53K7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+W0BJuCjk6ce3+kKz3TEZOJdNZp9azfOy+ZZJHUFYurTVDoqQ9vognJ5msqMgpjC3
++bEfHfxoPHMwk/Q9BgsagXDX3wWFZKvqeg2jhJTIiLHPT4qUgmN6PCs8yg1CJrv8
+JbCwJN/RtcdboE5iP3J+6Nxm7oINd9sPhiUXmoWlHXA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAZZIfzavSx2cBzKajDep+c6JRK+TZAjHkPc22ESF/Lv8AP1omFLCJlep
+3k3q6HOLivd7Io/d/j4hQ52gXaVdak+6Uk5iO+NFycTG/dN+oTj6PlHOmgKu575V
+Ckq05wqf9gU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xFDB8716D Gerald Turner <gturner@unzane.com> - 1FRMLK42AvHNwn2NV3ASrxdMDYd12C1qbs
+ntor-onion-key f1MxagEJPI8dXz9W0gqBirjY/aWSYbSAlILkgQXI2QA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 184.105.220.16/28:*
+reject *:80
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+ipv6-policy reject 25,80,119,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+tunnelled-dir-server
+router-sig-ed25519 MUhxZ0vQacwK2BUNIGfx+P4MnJHyLKAD65T3+QWH1m8uAf70QcMfeXy4Pomp9OGSfGVaqADAE1tYLlDID6TuCw
+router-signature
+-----BEGIN SIGNATURE-----
+UcfciJmSy17pBzxB2KurzzwS2VVglQl8svAJfkycbSf9cl1B3o/+FbQe+OjWQiWp
+23tb65Bkyk1NOfMbtBAIdULTcCWzl9SihXSZGT7uoGXYOhRiVxvQ8WX6MtH9T91V
+Rt3n9BrdYtfqp8TjBb2Ymj4yViN6HRaW9mUvCAouw1c=
+-----END SIGNATURE-----

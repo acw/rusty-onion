@@ -1,0 +1,145 @@
+router birnenpfeffimitzimt 212.21.66.6 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAOARswT/hHe0tGRTETu84AcPuvUiICufj8sdJEQCFTToGAAQAgBADE2x7l
+f+544SOazRHhYKAVGyoM0QQCFvPrs8FU6NMbfG9N0qS3kOElkM8IQwoWM5amglQn
+zl5Gc+KRtSoyIhbBD+3FTLT7Dv/UfdjztANBo+VmF/0b3hDe/0km+o2CJgE=
+-----END ED25519 CERT-----
+master-key-ed25519 xNse5X/ueOEjms0R4WCgFRsqDNEEAhbz67PBVOjTG3w
+or-address [2001:bf0:666::666]:8080
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:28:37
+fingerprint 4B17 0476 D094 5932 8438 F3E6 8ED1 9516 C9F7 5A80
+uptime 61030
+bandwidth 262144000 524288000 22842368
+extra-info-digest 5CD9D4E337157C3B6F13C2AD87FA8337D2C079A5 9PfHeK9pV+ojCyI5/8m9d/aqYYsth0XXxw/UAdZ+nPc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMB5tSNjpiOTHfI0qvmkAUz/QzZsfkkwiDE3JTOAuXuEb7tbuP/KLvqt
+hzsMAnALBsmMmmjIqYP2KgmGctoap2PPSuE6kTP8znc6KpPRTX/vJZ1w+2ERpi9t
+x236s4Qjm5rVxs6YZNhzLXMBZr/JyriJ2qvJQOLjrgVN33oEyhzfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALYb7Zy+74NuTeI+VTwdfpBOrnr0xjkAt1muFe91Lio3aG8Nsxrif2Fn
+4dPkMib7fe+Jtbg9gpSsKbjDU6XHYiMVDumSZHPlhiR79AQbReWWzEcyH27ZK+iW
+dW3gMLx0TY2aJeDRzummCg4IpZyv44rgyTeFAQOvbYYgFu7l9rD7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+CQmnA8jBrbOrlzHA1zGtu/uSlW5JNYNa5OreZTK24sT49OtTCoX4hcGVXGQoJveJ
+xekvWZhhIo/shf3p7xZtG0Cu2vyawooJILFPuYHiMvYPZL3yB5tp/Bdxgh7Znqc7
+jOHHGt6KBEeENqSCpIwbHOuq3MXBP/wEZlAUiuk4eWU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDAcTbHuV/7njhI5rNEeFgoBUbKgzRBAIW8+uzwVTo0xt8ADRUZ0XwjMEx
+XMzDgLbwCw0vMZXEKlFinLe+5ftL4XURHqBOlnv3dXljkUVoIgn024of5GH/8UV9
+gi7MmEIpSg0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Tor-Admins <toooor AT all DOT de>
+ntor-onion-key PdpwW08UQU0sC49JaAE/ftJW4Iqh68470GLogF/xcCg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 87.225.128.0/17:*
+reject 212.21.64.0/19:*
+reject 212.42.224.0/19:*
+reject 91.199.214.0/24:*
+reject 193.34.121.0/22:*
+reject 37.228.152.0/21:*
+reject 85.158.176.0/21:*
+reject 77.75.248.0/21:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8232-8233
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+ipv6-policy accept 20-23,43,53,79-81,88,110,143,194,220,389,443,464-465,531,543-544,554,563,587,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8082,8087-8088,8232-8233,8332-8333,8443,8888,9418,9999-10000,11371,19294,19638,50002,64738
+tunnelled-dir-server
+router-sig-ed25519 SQJDeYbr3dazCqdvcfX3t1NE1dMV7KObqYsT/q5RZ31bzduskianz1OlgSwtcTLan9vqtHYO2UvSs7CKaBCRBQ
+router-signature
+-----BEGIN SIGNATURE-----
+ZnyeEfUwCw2QuBavOcEXwsufcXUYpOqUPmjR+GW/bWE7W+SWAiAqEw4mLCTv+Nsl
+LGscJ0Cq1Si3kxzhVOU8efDsX7Yi1PE6BiYwwRUJEKoXccFDT1Vs3FEAHf9lxLGl
+CbDL5hjtnCZkmSKUSh3L26XZF2yCTZ0aIze8WbEpRmE=
+-----END SIGNATURE-----

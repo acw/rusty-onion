@@ -1,0 +1,50 @@
+router xtat 24.130.221.118 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCwAY/TX4OIiuNXFB+H7IkOR9D0dZfLPkue/Ax/5M+gP9nCAQAgBADb6B63
+I1LxU6Dl+Oop+q5xE5IC7FJJq6USKHCuYJnkxHd7e+ozmwXI50zU0bKwiYPLuXJL
+ep6ENuixy81xTYbl0+HS4+1OXmKUkUc0UPvZiwPHZK+1+SdpdIdjkvN82gE=
+-----END ED25519 CERT-----
+master-key-ed25519 2+getyNS8VOg5fjqKfqucROSAuxSSaulEihwrmCZ5MQ
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:21:30
+fingerprint 3929 5692 FEE1 5F15 870E EE59 FA49 F7BA D850 D244
+uptime 259646
+bandwidth 1024000 1536000 778475
+extra-info-digest 6BC39F18CD6E137FE6FBD9089FAB55AA4FD339DF +gjF1Nz7mB9+YSvdBYvPhgIQq1/KULVFVErlAYUVx4U
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALg29t5oFwcJ0MPrgDW1KNHF4rjUpgFYegnikRM4eMj/b4uD+fc2NtPR
+af68GjyYV2VcxGzfzzEEt7hsMhVngmc6bWJtSK/U5CDmFRJf1lHL221Ji8TtFmnx
+TfA5vdWinYxIaekJgSdo0+EvQnba+1Fgx9Lf9AnYnOqOi/e5LveDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANBrO5FeBFAGc6uLsvjdnKWbuUXKTvRRDftwiYhM7X6SlqXo6l90o9Fa
+xNw/8Afb2NehbtwpHJDxSFz4/Y6yS775ecVuRSS513XsMJqIwTrY3VrWrde8kiEN
+ornR8ZXecQgh0W0lssTo+NlRkQoCV5RZ3VnMzI8volsfTr6ah9npAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+TTYFGaSq5nSqG4ULL9dtGN0jzBBkDyH35u/TymGXHpDZVh6hRnVGNbafJ3Ao8I7d
+HmGDh9ZSfiSJlSiNkKezpoJf9sYyWq1lfaLQ2wSBSnyXQHRv5/LyIWfUoDozgPl8
+vWdx/uL75na9rNPSM46n93cxGTjtrvKrQo2Pjh2dXe8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAdvoHrcjUvFToOX46in6rnETkgLsUkmrpRIocK5gmeTEACgXvVx7UPw3
+jjT1ld/ivre/588MIvLrg5GidLkjnJjj45GRgl3p/CAcWjNapfvx/lkWqYZW3x3/
+YFwsdAoQ9Q0=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key YIMRCVAk56Vm9E8k9RY8rDdz4VpFcncWGkh4WtfFVUE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 WNtCMHTB9E4Ru6gXYBF6cw8rNm/hoYdKNoICFqcDyw8hOFC1e3blZXUeml9qykqWYSAMeAfWl3/g926nxqQ6Bg
+router-signature
+-----BEGIN SIGNATURE-----
+NGsXYQJ7/F4QUvEoMn6T4BaHboVvwmOcHFMPvqyjIUZn2chFgr+AyoVzHbc3cjWA
+SQijQPcn55n9G5FB2Inr67Iks0c3ddb6/di1PzDrmxZSdHHIi0a6zIRwqQeu6ZUC
+aksrXELH04GqsHhVwBjK2SAW+D++NZf6HGuleyiAwG4=
+-----END SIGNATURE-----

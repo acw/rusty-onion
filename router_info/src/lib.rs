@@ -1,10 +1,18 @@
 extern crate authority;
+extern crate base64;
+extern crate chrono;
 extern crate consensus;
 #[macro_use]
 extern crate log;
+#[macro_use]
+extern crate nom;
+extern crate parsing_utils;
 extern crate ring;
 extern crate simple_rsa;
 extern crate tor_config;
+
+mod types;
+mod parser;
 
 use authority::AuthorityDatabase;
 use consensus::{Consensus, SignatureAlgorithm, fetch_consensus};

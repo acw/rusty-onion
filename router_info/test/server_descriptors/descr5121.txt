@@ -1,0 +1,51 @@
+router FreeBogatov 46.163.76.170 9002 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGvAS12lzg9m/PQKksaM39WGeYfyJgDxuQtm1QCOdtsp8h2AQAgBAByiDUq
+mDEu1CGM10QnX/zHUXW0xINGRqH3GCx7xrB8A+PiepCCW9A4AlYwE710KRt6cAk4
+Qi4IV98+Z916Sa1Oe+d57qKczzBeHNEY5RHfjfId64VWs5AggRRmhzsN6Ac=
+-----END ED25519 CERT-----
+master-key-ed25519 cog1KpgxLtQhjNdEJ1/8x1F1tMSDRkah9xgse8awfAM
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:56:31
+fingerprint 6450 D8E6 CA89 0160 1DD3 1CF8 0CEC BDFE AEFA C510
+uptime 2186841
+bandwidth 61440000 1073741824 93085
+extra-info-digest C7C0937DF523F6F34059FFF6148BD53D098D7FB2 7m17oWmP+0Qc4+cWJAdCnHlicszQ/+CtxveKvsgCxqs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALja0TFhT4mfFe2Jz3yQSLyq41jvI3upVbi55ef4NzPUE6VjkbMpSnyB
+QcS7aWMRvDUr8HxuLWuEYmSGUwh+++LAfCZ2tpPQNxp+IcPUI66nyqDTmGre+Pao
+u87Hkabv9/xoXTQKqpvUCW1nq8/jcuJ/fogdKTF0K7xctZAlJQcrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ+Qn1JEVu0kdGLb2NqnEBTgyC4FYZ18wW4t0w/s26NLapDZHk141kvn
+fNld98SK8OVmnz/IIQIYYBxBCRmIg4408uD0DnH/vlvKMVWIHbdyg3Y4wuyH9+Q0
+lVBPVQaMenhgDN3pDpp4VTTFutlj2g6wZ6vxPScDZaFlbjl68FLZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+CCOM5EhvUPvryjKiUgaNbzDFMUJ2Y2tW5e2/DPmJHuCkm8JOAHBzWbiw+kw/kWw1
+kj7DoDJ4iBa3SLuxYW2KN0hXD+tcg9kY5PEBk7y3N3ZfzTxjvMwis44oZbiqSShw
+5yhegci188jX8OeaLZklL8kn1FkglfDS40CT6RN32A0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFAXKINSqYMS7UIYzXRCdf/MdRdbTEg0ZGofcYLHvGsHwDAHM3cQX+aM0l
+BDK8fIq3Suzd/Rk7K1lrfgHRDJgllchcuhCYVz4XZzk9Ve5f2dfC9wI1rpn989pP
+ZAov1+esVAE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact rudolf.loercks@arcor.de
+ntor-onion-key 8VXywo1c6c+bymrKRKkLUbmvGynZoT44hBA1OXJZUUM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ME6RI+ZAkLgsWKzcDyNXk6BUFFu7NPCiCGUDHBjOq3A/MK+tz8RtVVgG8VnFYo/DSPhmWthK/UINe5JklVl/Bw
+router-signature
+-----BEGIN SIGNATURE-----
+UymB/YbWCQm4SJnwEzi3pTabqqdKKEuk6ujuNJfZslYZ2bhgfHLkEAk8TAv64zfB
+y++hOR7BGOsMUFeT0h9DPGF6JXiieR95q47GK+/sWmnKyKJBJkVOWkUCIPp+uBwm
+IJ3PsWAn0XBgU88/gea0LQpbhHuOW8g9GL4e75dB/4E=
+-----END SIGNATURE-----

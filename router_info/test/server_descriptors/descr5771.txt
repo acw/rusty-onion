@@ -1,0 +1,51 @@
+router icosadev 192.184.81.117 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHuAdTcoFLjLbRWx0HO4EvVInIrbT0finfQ6eE4DZ7zyCU0AQAgBACY8m6J
+kLP7ew/u7Rovjswd7Osq+vgUEuX7jX4tgRssd8hvNY245BlZ+oH889pPtFot5yVP
+BTxRvVicIYhhDFjXfUU4xApv0kweIdmYWQWQDvMLb2pVaggOMbGJZf6B2AU=
+-----END ED25519 CERT-----
+master-key-ed25519 mPJuiZCz+3sP7u0aL47MHezrKvr4FBLl+41+LYEbLHc
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:03:33
+fingerprint 4A14 2923 5DAD 3940 A27C 3C47 EA16 3679 4E7B 2840
+uptime 10979
+bandwidth 40960000 81920000 0
+extra-info-digest 23ECC86602E80EC38639C7BCF544ED73B5AEBFB2 9y8FFMvNGn9im1xvLC7b63Q1ZQm5VF89Vks4bD9xysM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK9DDtZo/7E9Ap25HZoJhf93q9pbfxj18YMGIoB+59Gef8CqXHW7Mqcy
+0Gfwn6O2YWCJCjAjUtMN/E0zNYlQUtCLIywBUr7ytaaEKo4rwYoSYD0svsgblKRs
+13wP7zoVCAqwTzGJm+V2gWtIVe+/9/mxA+WdbnH3sLjmBUxB4qBzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMQD/tDfO+AD36IRZk26wObJS5UeJIFtiz8/ON73U2EWcBsPbPpir0h9
+Y1eEjppLEKKzW5ZB0M0931QMhOQNCX9iksvrX7wr9TKYvr0Au3JKSqNqUlJ0fOgW
+GRK4JS8lx0brRLEumexIF5We70jgx+y8ALP++CRUaFBGow4WoJcnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MKKaTqjzaxGoQVZd26Xv74BueWlTcS49m5Bjz9xqeHSGbvK0R8WwLnybEYFsfNU5
+xzEjgXiUOvNXdZeYw+oDCFYGqyJquIl1Y+m1C5pR+yZI7XELNmVp7JSyCBZmFG9y
+K3rc7ySVXdNA0RDo82MImxmBY+EJ8rqgWdmSjfsOQ1c=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAZjybomQs/t7D+7tGi+OzB3s6yr6+BQS5fuNfi2BGyx3AGDueDgUqWtB
+3dAdBbBqMAO6nHT2Oc+e8ox8GnxLCCnFjvZtOUPwQngDUH/cPtDB8raFtpuXK4rJ
+YR9+mhVJaQA=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+contact ICOSADEV TOR <icosadev@gmail.com>
+ntor-onion-key C87J5cuMglu+0E3z6bfvSTHNgMSzkKBXRek6IMDFXSM=
+reject *:*
+router-sig-ed25519 xKPsoBoIO7Jtop1BVDMREqBf1geeDNhKH1vmmUWhmphxkd8jV39+ozHT0i3FtER19M7ZjJp3Er2Q6g/df77yDw
+router-signature
+-----BEGIN SIGNATURE-----
+DbnLjSvIwe1g31h6K8l+RC8VTZRyYQCY4LQwOf4StdkK/5VrO80ec9uDVob1G+x1
+3QgPMUGLqv3qhdPshoHJ5CyvIZZl92Epk1oXq1V4XZkJzt5PO+hRy+QqoMbvT8Zm
+DW0dtLIOGr/wPVhPGAzTjrMC14g9SFPbsqJIdlvVPIU=
+-----END SIGNATURE-----

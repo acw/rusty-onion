@@ -1,0 +1,51 @@
+router icsitor3 34.201.82.13 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKKAR4IPD3zimCtaxJuNirN8N804yc3bNMipqJoGOAvaSedAQAgBAAxkEAD
+G9dsNCCtI5w2ELT2xMF+408uPC6fLSJUnsf1CTQ7EWgbEjSWlhNIWq55Mvi6S/K4
+SejJ/5L4S/B+gTe/iizPC81rfOl5p4rj/171CB4OMWlwb5rpiRUNyVxXtQU=
+-----END ED25519 CERT-----
+master-key-ed25519 MZBAAxvXbDQgrSOcNhC09sTBfuNPLjwuny0iVJ7H9Qk
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:25:14
+fingerprint 3DE9 5D75 4B80 C4E3 BC15 785A BF2B E934 C263 90F0
+uptime 6563612
+bandwidth 52428800 94371840 7348510
+extra-info-digest 84D71FB00588AA32C69758109894664080034834 e5HEQPJa2olFEa/Ofqmtb5QMxvDFfPEJu6sJ/8rFTQY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMlY1qRnGCYEIpECMVYUd94gJlxFeygln43sVsSj8SnOOParNluIsnnV
+CZKXEZhjtj/ZZCNUMaQT7RgK4TafdR8/mYoKGNPdz/aE8sJc2AHajI/1L4zxDWjE
+4saTgsEPDdB4vlbsvi4u1mN/oPeo60I0sWaRGTYAXo3i1mysnbG7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKSZ0kt74+GKMzxQlWnPIA3lJVoCcUEA8LeMVf1VvUC7V1ghZcSRvPw0
+sc5EHpo9bA+l/nkmf1YKhXsGNIPUq0HNojGUakyq/LGr41a/5jz3rVHcKMZiWHUd
+3m6TalUeAewWbIm1Bo8UicX1guX8fIcFbRHChyzDNcw67TdQc2FnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+PYSs/b1Jft0Yn93Z4dT0ttr4etVXZdLlxa4dPRSkRDbPOHNfRoUF2H4sRXJP5AVH
+TW9mQqRXF3T0IUuXllYS/fm88XkJOFUuOkMJdagj6nx47IqSJETCPNqXHpTsCSqs
+0qblh3y1NZvrxtaXhCh0GelXzMDJaZLV8J/EqrxybYk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPATGQQAMb12w0IK0jnDYQtPbEwX7jTy48Lp8tIlSex/UJAARMHsC1zgXS
+2T+DMceCnIHi6xIlvtWgxF4muARVwd+U/so01VyarEi+K2egpV8QhpxYDgVM2urm
+Yoy9NeYQkgA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Nicholas Weaver <nweaver@icsi.berkeley.edu>
+ntor-onion-key cuWxlmPKdaz67zISUg1WIRerlt6cTc/TnAbcv5mopm8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 3NCVOdT735xzYxsVC2lTBTzwPwbku2s5gKVHdfrBbQhmKTLrAYNCxBbSiCzd2Ja3cybnLp1oUHSB9GFgvLjFAw
+router-signature
+-----BEGIN SIGNATURE-----
+lz9gj10+yhLUELKzoYv1pS+E6BoYS9JB0fh4+DWdS0svfF1pNLkAP9PkuP3phOp8
+tcj27heHMj9DlyCifgQWTZC4xvOP2e9jDWNR75yBgJ6Io1LX0IwYYH2C7Ev/blrc
+SXQ+OP47mkYFyJwKO3T1jnUwX0RdUAWrsqPQtKyliR8=
+-----END SIGNATURE-----

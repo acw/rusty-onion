@@ -1,0 +1,51 @@
+router incircuitryrelay 104.236.44.133 143 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBjAX8XTSgadk+U6FBRkALG716nvUuSyI8gX2lCR06qHp6BAQAgBABgHLyp
+Ruq6Rx2ZKPWBK37DPeE16M24WHZ6fLf0WTDseQpiWAgdOnZAtrAr4CnPL30IZCjc
+fZShq6FRph4x5M1Z1utKu5+9+XK7eAY03wc7QevpGQfWajEAwL9llev8XgU=
+-----END ED25519 CERT-----
+master-key-ed25519 YBy8qUbqukcdmSj1gSt+wz3hNejNuFh2eny39Fkw7Hk
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:26:00
+fingerprint 9D07 DFA6 472B 8027 7798 D732 3434 8CEF 02F2 E7D5
+uptime 13927846
+bandwidth 102400 104857600 1142484
+extra-info-digest 60403390D10DC28E6DC6C8ECABBC84A31714B41C xeBpRifsuWzGKPqhhbaus+Q4r3tQ/oCCDwVJJmUQaAc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMvl5iHXymnEPbEI5ZRGJlZU+TID3tr/ss3pKcRZJO5W77t06uXb6bN5
+wJ2bJS/MzgBqzy5vd9YhQE6kYH5VvXZTQYxks2zRw3ZkNwgcElghtxnai54+/UzP
+0Fh3BSZvTFGWoq53tdUFJ4+4Cl5Up+tft8k3XDNXplFJ9SbR9EIFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALS7O3aySamzvOv6HoaiXeqqkGRmg6FtecZ/kJ3W1nNQ/NHMt4uGCoSm
+tCJRSMyK2+MCx2eRiypz7uVMRuwXBA53UxJ73pig5vmlXQjO8pHwUsAt4wHTPmcA
+2L0tQ1H40Cq3I+jU50MHMX660aIqOYg3PmC8QC1VQBVfdOHkwpnbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+f1I0oTN9ihm6sO7X/+e6T4AJjTHrkOtje0Nqs9Jim56Gerd2vUfNgQHyDps3a9Ru
+vE/myx/hWPGQqXo40K1fOzvLV7qL64ivwawB0yaQd74msEhh4PfB09zb1GL95NGu
+2jjXC0FIVLPLuJ4qTpE4EGH9o97txgtPl6r+aJdMCr8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNAWAcvKlG6rpHHZko9YErfsM94TXozbhYdnp8t/RZMOx5ANxw5cvfFree
+ljwM76ccMwGzIe8Y0Jwe83S0NnPh491NwMCrvmOdwhb1ovnyVJ9Gi25RrKvVKTub
+ynHVlGLSVA8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact jeff@incircuitry.com
+ntor-onion-key NMDDdHPBmge8uGJ2c4q5gtqGXFqeQATlPVjKBKWq/F0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Lp5qZx6YUxf/J6A1Yn/rfn6DSEXQtk5s1aiDTFcMGwMohndWGj5zQwAN9gf3n9GM8oHf07dO4F48OXHX8MnEBg
+router-signature
+-----BEGIN SIGNATURE-----
+sPvhtfLZFdCp8DmF1iCRrpLI+ydTliORFh0o5aj4wPeYXlongA7336i1XWt+hQns
+XrPCQPoGwUhnU04DoznFp2VgvtQyUSAidficQRBmDF+20nCho0H5ejqWwINVlw9p
+a4L7ID9YhgVDD+PTaLQdsYcV1oYoLKMfzAQbhZByyIQ=
+-----END SIGNATURE-----

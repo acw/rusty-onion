@@ -1,0 +1,127 @@
+router CalyxInstitute04 162.247.73.204 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKxAZMJtYcbrX4FvoUdak2rhvGka1HvCVCL2HmVyIwGxEhCAQAgBADrlP0W
+nggGWWmT4FPh855BhcGBgtOB959hwWg77KzmjTCmfrF70ngVlhRM59Pum51goAtf
+bQY1LSgApv4gy/eS73T4jco5DtnVBfbijhMmQOAuh7t/rzX/RkwWTct4qwc=
+-----END ED25519 CERT-----
+master-key-ed25519 65T9Fp4IBllpk+BT4fOeQYXBgYLTgfefYcFoO+ys5o0
+platform Tor 0.3.1.5-alpha on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:03:00
+fingerprint 501B 3DBF 250B 094A 05CA 5DBC 424A D4C3 D467 21A2
+uptime 349264
+bandwidth 8192000 10240000 5356242
+extra-info-digest 49C185D89F8CF443550E122E5631FBA6F0B07CFC 6PGDiYoBdhHe6VYeySaNFntZYCKsA6HyJsYTxR+t2ys
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMjj2c7sWOw4PTB6pTz+5MQmspaYaFPxzgO5hBoUZkmBwPmnqYFO6QYF
+d+BexESkYZJplMk1s9xFmxPvDi03S32hScMyO7e2YGw31zDOlTS27QF1OmYtdUFE
+E1M8LIWGzIqXnxK6TAyKPdXPbyDz3/lmnnh6S2/TCI21ovjB/lmjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMaI1ap66dEFfDWC6iMNKAcyKkj5Vx97/7PtR5mJ7IfhET4YAYfMKvSP
+pT68Vpk/6jiRx7I9C8TlrnMlo+wEDdPm/iOo3obOFUOp4pQzqm1lfZdRrqg4mdUq
+3T5pn2Au3EsZO2gpm7NHSIZKi2aAzXA94+UTU7W6ZmXwKaLZ8kUDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+j87LVZHlmES/HwrtA4nxYgygh8Ko1mj4odVl1PattRmI1dILOoApIAFww/RbQHkT
+stIKLDW1WAjB9YvGe/2NpLFfy9cjo8JbTDX9oVaooIG4bHHTSGaefQTtoWzWBn5b
+TzKOsPeln6yoMKgNiogfjDiCJTVkhFNh2Qwrx5pRnHY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKGAeuU/RaeCAZZaZPgU+HznkGFwYGC04H3n2HBaDvsrOaNAFiUf3s0g3ou
+eZE3hWbHj/SN6O1n2TOlWTd59VPzu0Qi3F1vQo1jn78GV2vALH8I4JdGr7598ynU
+k6DwOQtH6Aw=
+-----END ED25519 CERT-----
+family $0011BD2485AD45D984EC4159C88FC066E5E3300E $0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB $1B9FACF25E17D26E307EA7CFA7D455B144B032E5 $3329E736CCA16449D02D567D42683BF1FD798676 $47E49319DD67784F1E65B5793371BE467365979E $6C143720FFF8469EF6A5C5B4066366340CF6C0D1 $6F4E9FD00D4251D98BE96FB1AA546FE34676A95B $7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2 $84D361B736A8CD1E8818D0FC186892E91AB76881 $A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E $B34CC9056250847D1980F08285B01CF0B718C0B6 $E4D1F25DFBE484208866BA4A1A958B73127CB0AD
+hidden-service-dir
+contact Nicholas Merrill <nick at calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr
+ntor-onion-key bYdR3WckV9HBeHCjatpMpnPPgb4jmsFqv9B2Ml4P6kY=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 162.247.73.204:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Nybn/5hya+Qy20s9i+nxE6YtP3m+lxyBLbxLq/0YLes0xxo2m+nKstuVHBM/YdduIbnEzKCUAmXNCR6tXfBQAQ
+router-signature
+-----BEGIN SIGNATURE-----
+DuAAMPmiqpcNRvn6SKYx9arnFCC7jeWg0mjr17f0RtvQkZIsADfkGTdWF45A4CrS
+aQmeFlLFAIXzmTruwmkOxPBVgdWgH8vYJ6cHIGsgnbaZcxUCGNF/rD9s0UWTl5/G
+rdaHhGdJxbhMX2wml/iBKXWaJ0QkMQMLGCJrjz+aq4k=
+-----END SIGNATURE-----

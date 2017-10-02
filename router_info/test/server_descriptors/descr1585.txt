@@ -1,0 +1,51 @@
+router PieroV 164.132.226.30 22 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDmAQFKPFH/fmdnhdUE/Uka7CKWEfrDg7xh8d5Fuv+SjRDGAQAgBADhEbv6
+FWvc6/IsT/16Qc/eAFwdLVmv+1KF+8vDdQQAnuhx+3AItVcE32Q+E5C6iPGFi3FS
+22s7Nou0L5QQOiTLbRzm7piKqLEzFoMVjitiDPoKNS/R9WfMSIetEksvmgo=
+-----END ED25519 CERT-----
+master-key-ed25519 4RG7+hVr3OvyLE/9ekHP3gBcHS1Zr/tShfvLw3UEAJ4
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:29:54
+fingerprint E959 55CD 7AB0 12DE 7707 1187 8F14 7C78 4FC1 3D37
+uptime 1551915
+bandwidth 2621440 3932160 3004752
+extra-info-digest BA4FF448FC2A28CE77F488868EB452194A4BDCEA 5dp5agV98pXlDuPlu1N1HId6xjzdDVo/UaQq3Lrcsgc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKUm9PzEcfktjH40lzhHxjW7uRBnQzKGEVVyn0zr1JGTBEZNDVasEDEJ
+kSxW58IfWY05qHlSLbvR8sdyzQHZpL7A482DuifdlLBNqLnSSEBAwERDVqEC2lO3
+T3KUhOSEN2lOgacc1s9xI7GwiqeyHlM+fIKrdtK+FBXrCLwzxwLdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALdnwo6zu7RUflTh6eAsHXqOp2SDRFW/0hy6dUmYLFUz5WhYnrJ2A5BZ
+7RNjTyHIdC6ur33tU0LyAQJlg3wXKMk3W2cVqODSgHR3/oD7S469HsN7xGSst8KA
+WCZ/lM5VE84x+M127GGo6cTSz/He8x4zVLTf3nKiVvBAlizn4zQtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hWTQYJD397T+tZGAq5QRB45fOkEON3Sm403Mdwdco5ILHiTXGf3vUuDR8+GQ2HRS
+bIacN5qRgB9BLkpl5t7Jf/YTOfXsWc4sh30XG4TkkfSUfcRoFrJMDyS2/VjOMa8P
+bdb1KSMoo54ybX9jOjZy3ojp7v9KTLjvGGsOk3o3pyM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAeERu/oVa9zr8ixP/XpBz94AXB0tWa/7UoX7y8N1BACeAMr1Kfh2mmJY
+FmW0/3dY3JityIb+o3jvfVdjZY9Gm32zrrcY5FwKGPIKKntpKhrqcP60wIjhsD/R
+XVvhMvgZ3Qs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact PieroV <vogliadifarniente AT gmail DOT com>
+ntor-onion-key spX1oqm8pinxyem5bcpyWi2KQ3s2tCRFqQVwWk05vk4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 JZ8fPXKieml/2itrXRxKtJcgzztEeJmmZAye1mOIH5tB17Pia66foSG31uSbQfzZkmbC2a2PRIIRN0v/jcEcAQ
+router-signature
+-----BEGIN SIGNATURE-----
+WXrStUkAjfJFQZA+mYOLKfnaJQ3dFhDiEo9n6hqA4mMEhX35lwoWTVoUIlXPJEu4
+QR+lNOIRucOUpMzn+sxv0BiBwFawNaa9CPQ3PFuzYW+50W7FgBzegOnCXdO+su9z
+C/xPSqbVrixOZlXlWGzVZ9q9T5iYO/rE2eQLJMTrHag=
+-----END SIGNATURE-----

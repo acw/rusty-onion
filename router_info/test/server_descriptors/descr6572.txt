@@ -1,0 +1,51 @@
+router Medaka 77.166.206.198 80 0 443
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHWAYo5w9Cf1Uh4k7Lvywuo3x+hstS10iEmQzRgg2BaSH7/AQAgBADlFarU
+91YEgBzFZzcMtIP3Fw8Z4BI8+w5lQtrxHxO56ZQiLLEQkOu5LmUrqdpLb3orxsU7
+LE/fBszKe3IUyMYCw8TB866AQRRXOFcsw0mr+UOpQntJJiHLgUo0eSQLOgc=
+-----END ED25519 CERT-----
+master-key-ed25519 5RWq1PdWBIAcxWc3DLSD9xcPGeASPPsOZULa8R8Tuek
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:02:41
+fingerprint 2D46 4FAE 57B0 3036 85AB 0D11 BAC0 7475 E042 6BA8
+uptime 270764
+bandwidth 614400 2097152 586896
+extra-info-digest 889638400871839D0482012C8DB4809DECF13A41 hkqF66r8zVXz3WxRAKXvxKKhxpUFUg6/DbfKLE3FwPc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMMJZQgo2REKvW/J9Zan6UuLoHcR9FO7Io12zFmxzZUbfWN+cU9kqhiH
+RFKFkDbRSWno4oRkDZOGgUOJjt2eY81kyVAevxowcVHcVH0fh8TWL/oa0aaMqsbY
+9Zui4WztBjlOlnSKbOgzqRDSMXgsx8qqKRj4fkOfmZIj+rstgb37AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMCAf/A6aor2KKsjWFY2djXm5K6aJ/t0lli93t0cwEqek0/p7BX9eFHy
+VZjIwzfC8cjnLT3MlWc/6cxD2xFfmhdzeS2/7EGv9KdkrnJbnmrH40w5tgGjdjeq
+g92YDJTONrjQxmFMlqwLcjmpuuosl+9IxUVR+zYByzqQNXNSrq/9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kfBx8eUszvAr/zvoVfJWzZWzHvLJx/ViPtZTWQLjpb3mMWuGqGoORrNx9nXhADFy
+h6ITJLvh8yAPwc8dmRPJaL6yR8eCqZYZsDtHBhKOLaYBE0d5SC3fvwIJNB4C3RQN
+YN04UwWAd9yta97nUcuIzdz7L4k4VLjcFIZdagJAvTg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNAeUVqtT3VgSAHMVnNwy0g/cXDxngEjz7DmVC2vEfE7npAPloNroMY/nm
+n3zUPYQg0ZFM1vR6DJ4kW7/UrIVJmCjjFVbNMJgMED44VZllIEbZ06+Ul/zcBC/3
+1covL5QnAgQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact David Mam <torcontact AT autistici DOT org
+ntor-onion-key ZWJUvCGwJ4ps+aCaWJz9hqC1VtRulF2V7TDc20OLg1Q=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 qUhCSt/N8HVU4G0YtimaDNDpG5NR6nH7xCg+ymtaJVXzAS8rNxEZx7XhEiBWekk2hCc00Mlk0GNXghz7cz9IDQ
+router-signature
+-----BEGIN SIGNATURE-----
+sai2cS2jOesC7QksXfRap2cZw00FTlms4Ht2OE5GajBGBgZrGcXrHa8MEIakmXQQ
+9ysdPYbBa6Wx4JbbNZQNuNXMo8lRJtzF4km+YAKY9kVdynfKnhJsiYqYUsMfbLGp
+ekN0ydrBsJQncgVxhToyWuItgCMgxPYv+MrQNlxm99w=
+-----END SIGNATURE-----

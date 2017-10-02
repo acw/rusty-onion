@@ -1,0 +1,42 @@
+router mhvis 217.182.207.27 9001 0 80
+or-address [2001:41d0:302:2100::7c40]:9001
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 23:00:43
+fingerprint D213 4460 EE90 7534 C628 34D8 15F9 2A90 7BFB A81E
+uptime 9713718
+bandwidth 2097152 10485760 3325760
+extra-info-digest F7DF39DE04C48D3EDEE126C42523C75442CDC8AA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMoHcYFIGdz8rtFLnB9Qbj9g+/kd/66z2z97lWMOH+ygh0TnFaJmjB7N
+EuaPazXr2Mm7r99YZZfilOYcLEpxksx2vU3hUn2ANUIrQiLehy+Nh82ltoytjlew
+E4FcEV9ZomV0LBbARLVLd7ytBFoXHb1TOvHdqQ04R7did02ncwjrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALR2buar0rpLApjC4EIyTf5VXgeVY0bjAh4/4kazbw3b7neU/hbHbBqp
+qsWhE4WeOS9/fU5vCTIv8B9gY967Bowdp+rpikgdVa5AJxvF3JX6EDr/zaHvqI96
+WPc1xHY8u9H3lTiS3hSaF7+F4gmRH8SAi0pMr6em4FAI2Q3/MBbVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Maarten Visscher <mail@maartenvisscher.nl>
+ntor-onion-key CGfQSyk7iwpmdu/eK4o4mHiFv4z2wfTLcV7mxbyQ/mc=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 217.182.207.27:*
+accept *:53
+accept *:80
+accept *:443
+reject *:*
+ipv6-policy accept 53,80,443
+router-signature
+-----BEGIN SIGNATURE-----
+jiF9NMERvVL+QBoLILKHIJs+zTvpAhH5av84hA/BLKWV+Ep2LBNz4skyxwZWJlhz
+whzWZMlJee5cElpBmsT3WdTUHTPKLqDYz/zUvVPnHMdxTnkOByRhDF+MwRL7ZW8U
+6B6L0lslu2oQS1QR/Mv5lkkEu8P3tjB5FDob6RlfPdI=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router StellaraTor 184.97.181.4 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI+AT+DSKPe/WRMsVBNPy+2q4hSyZeTBw0BbTyUPX1bxa4dAQAgBABD0WJV
+PJNunJwwXP4gpDx5M9EoG7rgXzajspDirGY9AQ+ic2AXceA5yq6Oqy3kqw32LA6c
+zLca7aG7Z+CPLkYgj4gdx1/8u6G2gCvd8gC9NPdEjpxs7qU1gzo/IgPEzwg=
+-----END ED25519 CERT-----
+master-key-ed25519 Q9FiVTyTbpycMFz+IKQ8eTPRKBu64F82o7KQ4qxmPQE
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:34:59
+fingerprint F2F4 F551 0C0A D52E 335A FF29 0E50 AF75 BDFB 398E
+uptime 468698
+bandwidth 11796480 15728640 4542886
+extra-info-digest 7338C22DD53E12420F4BE7543206564D2156EFC5 Sfwak5pVrSTyxLdLVMHpuY+sfbyJBme9phMH5Iy38VY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPcyMBZ+DG/ZZkIxUEwKlkqWW45nR1PlWT3H1sf1OtO1G4MHKJIRMiBs
+vyG80IW6zaiQg9j5z6iEdQMegL1l+zSPFS1b7T4GQWPzGE38Pf4U1eDvS2fRLIr7
+h4g0JrrYx/A1cvw8zPiSifY5Yyl79m76BWlFIZJ1T1Y0bnjK04orAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOB2eZ59CWFOZdEMIg1upUrCp2Qpp7DzbfnQNX+p5+VdXBLl2kOk0Cat
+cxA8VQIvLbZ2dXm96sGb3YpmDApot+pUvZ/fYYKbgb2tIDFDL1S/5qF+Q3J6ntgt
+p/vYNze6raSRxS/E40B4eBmrHsqhGRP9dK1GmBlUzE1xl74B0vETAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MWF0TMN23+Q9bEFzEIUAgrAHVwUpgoqsZq8XurriOxwMR+faW8hZLPVkb0gqG9rQ
+U//Z9nwgH6CY4r8uspdG4FHm79EWuWlFOQyg+j+kJIjpFZTWISLUbMn9+SF0/TO5
+D7BJ9NCHl3OiZPfLpR2IoB9xOILNEZclaaflUOlBK7E=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAUPRYlU8k26cnDBc/iCkPHkz0SgbuuBfNqOykOKsZj0BAGJxE8gNTPDH
+oqyGd3NwiDGWpmZxMWdFI5k6XcP2WR4RzJ77ew5jYjkzUszSv2HdvzHdfetrhmSo
+XI+87a6/igo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact darren+stellerator(at)darrenpmeyer(dot)com [tor-relay.co]
+ntor-onion-key 3lC+e9qW1mgF/ipIlZxDQoR7IcKfIbsmSGUB/7f1zjM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 XSeICBvAIiUFbo6JB0kwM1TVdviVvzvRJLcIiTubgeLmaC+8hwskDiGdK6pA6MkaB2NzxM/pqbkv51cm+Bp8AQ
+router-signature
+-----BEGIN SIGNATURE-----
+3Gbw8R3+n72Dzpb5cAMzizP6ru7ylJZqulVhL3qgcQpu+/6Wksify7LUo4WR3rM9
+VvLRACuqdLVbW2qTpjXOIJt2DiYMvxzyFMOWtzrkxqjHvOaImsJ9KJH96eEx1CTY
+gjrseB5GCWualByu2ptAwK1TOilxANK5hVFdihQOMxM=
+-----END SIGNATURE-----

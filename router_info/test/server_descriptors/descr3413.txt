@@ -1,0 +1,51 @@
+router RedNet 176.192.179.86 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGNASgjx7dokSCUrArj9l8zQtK9zNwZ+kPUVqK3GZL+Z3aHAQAgBADiQevk
+eNl2njC80gh/RHY3wfXB1vtU3y0AseyJCGwzIJnd2NHUEPfNL0GTQjSsi6dc2hb8
+2+oHf+RJBRByLIHwpNHof+H9Noz4DrtzOcytPBmdHRbQ3UgpHRf29KzqngI=
+-----END ED25519 CERT-----
+master-key-ed25519 4kHr5HjZdp4wvNIIf0R2N8H1wdb7VN8tALHsiQhsMyA
+platform Tor 0.3.0.7 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:15:21
+fingerprint A4A6 FFAC ED78 B8ED 756A 9CE1 4B67 B743 068F A6F2
+uptime 324017
+bandwidth 153600 204800 173804
+extra-info-digest 5804F86FB05ECEF3CE8B9BE96B0E569BC9FDE9AB NFhZ+Py98zGwoMT8e6zzmqXI+gGvXlUETWdMo8F3pOs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKXEJ/Oe/M7grfiieenLb2oY//5rOCQXOF3FgKoROs5IjrdbYSSzMVgi
+7wP4XPelVd05TdNpPiwuOVvgpKgEN0hOB3392OHQAJ+4Fov6iTBZ/XVWlPdaHk8P
+hkgfyO0jGBqxe4iRORmPxSm8kJBfC1Z6mRd7SJGzO9WHLCwkKFjLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPKWSCkb+0KCXt6jspLj8FtWcHeb6tupFQ1V9/1Iwa/slTsgyFpz0vFe
+gdWrfCgyajSUYMtKFgc69tQol+lVvTmtNpEjBiO5ApHMRmaYOyfQuQZl+l7n93Mu
+nWcNu0uk0nac2HSO4c0esV3q5QQEPewNPa0JwtVUyVeWi/mqnaAtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MHz5D6Dc+a3JN/Vlls5khm0uqd6m+rcPLG/etNXUq90zDf8BGJucB78ZUid3Q1pT
+Yg+d+SGDy02sOBDo8usoHOuHdE8rAbtyjm7hNk7XNeZ/Wg/GwsC8qRnkqQQDLd98
+ckLboMfDupCf96oHv9FZarqJ3PXGRJ7HsyeQnRW3Vjc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAeJB6+R42XaeMLzSCH9EdjfB9cHW+1TfLQCx7IkIbDMgAJE/WRgok7ew
+nblqtFC+mzwFXA0RaqSt6yQmXueeUMQDugB0RtU9vuLpF81Q/OCMpuCgjIdn5dTG
+1LxCtsDeCw4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Alex <win2000rus AT hotmail dot com>
+ntor-onion-key 5ySALEqa2nBvhioiLkoj+u3yK85beACcOXlqZeEMf1Q=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 MVQriqrjS5YoIjvjfMBzjsPMe7Kp5Zd+7uA9WVyXYDCrWHDGhT4ovwpPGXh2eHGppNQhQiL/PTxk2SLKnSWlAw
+router-signature
+-----BEGIN SIGNATURE-----
+7sSQT804mzQ+TN/ZKEYrIydwPGzYGVbOv16GSFjawM3Lt5byT26qcixwD3kCFGOF
+Xm/V3lLV+BKdzimHlDVK6Gi5crClVA/+QoQYzKS7hfSts0DmgvmldpyWCG6HFSMd
+vNHyrOBB/KoxYkVyi5a44tZ06tMjaurPHfmJ+dgFk4I=
+-----END SIGNATURE-----

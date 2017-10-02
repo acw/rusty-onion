@@ -1,0 +1,51 @@
+router ifni 82.71.7.191 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmExAYBUlldZNB6x/chtsLBdoSqGCyBMYw4Y6rCX3Ps+UPIvAQAgBACF2AQI
+YV2fK3nhdrKDMCqPnKWdz8ZYtbEI28neMIa8e7HpOPgFPnasoo8UWbhXH0Ilr8g+
+Z9p0eZIpLyEUS3kU8Vfu4dFFogxmB25tBMKyJ+zf15bs5fZ8jsbsEQRvDww=
+-----END ED25519 CERT-----
+master-key-ed25519 hdgECGFdnyt54XaygzAqj5ylnc/GWLWxCNvJ3jCGvHs
+or-address [2a02:8010:6173::702:9001]:9001
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:12:47
+fingerprint C8DF 67C5 8931 942C 56D7 2227 A713 1C90 244C 29B4
+uptime 866844
+bandwidth 204800 307200 247789
+extra-info-digest A526EE84A637672C414FC4D3D1ED07BEAC39A552 MuHdL+pAXecmGhOY192qGSh9BJUjXA68RiakATtLy34
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJlQ0pcY//LqFcoZ84rFcS+nEVB029HegpvnjppHIhB4bvrGecqcHJKd
+He1bK8dz5szfas7ehAzbm1cjJL2VKPooMXVitmmPa1zSurS3mq+9Yadam372FsYI
+FdjRG+wFhi9gell2xYmZgrhfIg05gzE48sgBRX6YrwLZmq6w8wGbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK/h0DO69qnu9RvP/p8MtWluDjcRMSr63kCoxNY9582zWInZfPhsYhKb
+goywQgmxnM7g2684SZC9YFd1Omox2B53ZsKMS6p6MEeWL9mBWXm+FsCsyz+YozuG
+S8/a10YEuJ1KGOXjmuLARhnVJM1HuYKAa/To1rfNozED/9P+HXgrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+dXjuJZbPpu9ssxVahbiQFykbl10zA9eB3e8sY8Di8U481u+MSuG9aDMsNTgk/k5e
+deZ0xwKYBN0KdPBOdPraWHP1M8FZZW5KfZ0IMbhE/cEyTW8cNCIf45LAKTi5laz7
+1UvMktqzuKLEmMz3gQK43hKrjkiLYrvcDBMaS2INRfU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAYXYBAhhXZ8reeF2soMwKo+cpZ3Pxli1sQjbyd4whrx7AJ9af/+6PhNX
+MCBEOAUNg0O9rLZvYdZa8oFIfDAhTthO2qQdUXVIzisT9SNTwZGoIFOYJaYr9Jvd
+NWXI0Uubcw0=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key t1Xor9T112Y3EVYY2pFYo+nRlNheTqbPtz1XI7BdF2k=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 TX3m4MXEdzQ9d/s/W3axc+ZafVZ9EIXLEq9UXPIE+uCiZUjkm0O4AaIUA3v1fI6aYr/Pntaq8tbL59lotbw7AA
+router-signature
+-----BEGIN SIGNATURE-----
+cOY99qd9a3JZN4u48kqo2nuNyaAWryx/zlEEH7/pc2lYdxbCfA5v7ACj17UPETjP
+NmJrRN+puq12sREwgEJabYt7zV2gKbw2pVqMA7GlBK/aVESt3ex86+LX/MPmZwPy
+kkkJWRop6IuG2sIM/GcsHIBdz807ONGhYo8I9M7aikY=
+-----END SIGNATURE-----

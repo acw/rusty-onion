@@ -1,0 +1,30 @@
+router TorBerryPi01 87.151.27.206 9001 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:44:55
+fingerprint 7ECA 215D 5B06 11D5 A613 1F76 16C7 B600 0378 1B78
+uptime 88
+bandwidth 1048576 2097152 883566
+extra-info-digest E6849021BD0DB39842FB2D69E2C3EEF0A68971B5
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL/FzQ7lY6FccMnr/Q0qCUwgbhZ7oE1DUuCzK258OhRMPkKia0GZmJUn
+8leR0slMO90lD4ELrkTkSAsR9KdCfVKn2e5Q8s9lP+T9QxzhXOE+wv5X7FyXTERW
+G6kLsEv8yCAZ1xMl6JYgJc8CX3+DThCh+PdGVACpiQsd6HQIjtIbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOCogtnYKjMl0/jHXmcAvytID80hqtO+1Oic9cuVFZOQGq0bkJn6VvoM
+Rk1fu3nESf5DkYBNIoK816m+kXSiUGYUYhNWeHi+JYfFM19yNi7twwKdttU737EB
+bjWkqK/TDR03ffOOByGj8j2kWeM5VxoAQ0Bl2nGhwfL6JoLY0rnVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact simbl AT live dot de
+ntor-onion-key TFIMC3qSzwvuQMxEQV5xfv5rOx5jIcRxkAye4FsofG4=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+VYbKzgoO1N4p2OenF3dhKAP7J2PlfZynuWhufMwpGDoRsBVWgJg8LW+P51nFp8hq
+wO0xW7YACFZBjdSvQPQBu4iFIx7HcSXrEkWi5YovGC4Qf++lSekhJ0JNm8chhvBB
+LuFtz0NxGowa+rypgPyU4EQv8I+BIN0sTf6D3rPuAZQ=
+-----END SIGNATURE-----

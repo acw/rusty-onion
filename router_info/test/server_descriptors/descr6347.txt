@@ -1,0 +1,52 @@
+router flatcap 178.79.161.177 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIQAYrSZ3n2Tz2/BtSkmI96XHJnjZHgkun1NULqKFtnKM1OAQAgBAApZVyS
+jg9YZWLLgzuA6h5itoQALsB5OmkC7eIWQcTxewz8+xpehJQ6YQroIztK5K3h1SGJ
+j0HUxPTN+pSjUo5KcGySNkSgsqZLnRqSFO/JaaWby7vwbBE7Sybe9+CIcwU=
+-----END ED25519 CERT-----
+master-key-ed25519 KWVcko4PWGViy4M7gOoeYraEAC7AeTppAu3iFkHE8Xs
+or-address [2a01:7e00::f03c:91ff:fe93:4455]:9001
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:16:53
+fingerprint 3553 4027 3E78 DAC6 64B2 328E C46D 6199 8D79 7141
+uptime 1007109
+bandwidth 2048000 2457600 2393478
+extra-info-digest 294D70F3982574C02AA0E383F46984D561CB5A31 60QYzRamZ3ZzM1dHfhWXE7Lzb7T+9ICVSP8L/64b1iM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKkyl+TaNmgo07IlLFUbIZKnB3MejBFKSTqE89aSDYykiY+5WXQcvzWI
+NXEmNQCbPpNgbgyzY4d+WmNh1h/3G4cRdaFsTSbSYPnMNRQR2XAGMVNLOEm8VMi9
+Z9Mq2mEGCwbGHPM8x/Uf3CTElzNhvDXEaxSieHQqZu8xlU6YZwzjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL/+mebmBK+FeAY8Xs1gUrhNcehItAekrN5jLlGBoP+1LARtSSSbecS+
+HLHIkPnrSTnm9CId2KRKD9urcSFeQQ8hxDBYRhMYQsiaZeOAHjgVE6pJesALNOy1
+KHpy0kEpD/HA+G9aOyZlX8x1+BjExG/4NiMPJ/DTcOb0UfOkVN0dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Guy0IoJ24VoVM24H3khPCJLAypB8oyRQGLLNsG+QTdMdkSszRTRDcJz6AcFNW3Rp
+v7YkWnhS0tdSKAFj6fjENot7Da+475r//upVFAcHRhfQmmBXBkr4suSulx6DJUQT
+Q+yTqLk7aK4QeEltCMFmytOqf+qFSp4fihDhM95V4X0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUASllXJKOD1hlYsuDO4DqHmK2hAAuwHk6aQLt4hZBxPF7ACfo04aY7Td6
+uO1df3pXE8Vlbw9jUh9I+zYLQAXlrJ2UzwuQMr9cYVCHYYNEUPuWzy+DozyDT4+q
+EuagQese9wA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Rich Russon <tor@russon.org>
+ntor-onion-key PWm8GZElR1ZRLxUzavMqET4e9QxlR8F/QHy6BZFRsV0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 pmDAvUHhEdsX93RcQHdkD3Tibacy1x+g/grK4MycNe/WkCYFS+295STim/NOo7n1SL525spJA+cMCT8ec18hCQ
+router-signature
+-----BEGIN SIGNATURE-----
+aGx0xPFJKEVI+9HUVuhjvmCRnKZqE4hjrS02oG8P29kSba7Fwj/mg+XVfZEuBVmh
+a3UcHTuX0NhzGCsZip0+Xy5FEhgugCzWeA1auoCNypks5n+h003cHqbEaVl+tdhJ
+kpXJDXfC+Ud4jvDqV9ebBbl+oOVTvnvqr6WpyHC/0gI=
+-----END SIGNATURE-----

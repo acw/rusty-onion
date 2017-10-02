@@ -1,0 +1,51 @@
+router Node190 212.111.30.190 993 0 995
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKYAcyMT8QAcR3aBTkmTzmWzDWOglU1mBjjXW7lyRQMP2UZAQAgBAAKstGa
+GhEcoqi4OzgH48FXfKBPTJOFa6zwWML3ADq8gCHTVbHZzX//g4aUqM1O9MZ5ZMlJ
+F9z+m4eIu2RLpRjNiNsIJOkTYEWRzvRRhxuG2RnLweRftC+pUKN/bHxNrA4=
+-----END ED25519 CERT-----
+master-key-ed25519 CrLRmhoRHKKouDs4B+PBV3ygT0yThWus8FjC9wA6vIA
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:14:40
+fingerprint 600E AB8A D659 8126 E52C 9050 8357 5F34 EC00 3150
+uptime 79301
+bandwidth 786432 786432 607680
+extra-info-digest 25F28DFB0D9C004775687E45003BBECEE415FDE7 Gz7uPDldp7HcfG1bdfaBOBBgBtZd7kQrI9KyWji19aY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMIeesz1MAX6N3jOAlJD0KF+pBjbzmId0DjJUTtI5E17rdFMbCfnfJ8D
+KuT4PiX5s1MkNmw37xTcjiPzhz3/ty1IGGRMNML/33GcI8BWlIHYnxJSXyBDXcfm
+HVV94nMXvk+Abstl8S3ilu6ZKFs74/9iL9zUD0oMVO3qLRfNMPQvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL5MGOfP7Qu0JXagc/r2aEWCzX/8jWkKVHcw3psT1pGbEP4ulfhAIOWE
+1MGGHI5kqNxiLjsXJikRJkiU7LJaT060pFUtaR1J5Yc8uLOV+3YMkxDo+NMhnnqs
+jk8f1MisYLIb2mxLWrvH+0qW4rBYagR0KJJDIlQJv5ppmdyLtd5nAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+TaVy1eea0yESEOl1xIVV69RiN1+PxakX6WXNXF11MaEV+5YzNf7gX7MnvPMYsBbH
+v/Pm0yDIPVFUfFgowERrAwH8yrrLs77hLBP9Ihlzt/nn7Ix7e6mNk+weirI6r+55
+YvaY2wWLp2QfjJyH1Gpfih2u1+Pr0K8zxwLEBd9bnIk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAQqy0ZoaERyiqLg7OAfjwVd8oE9Mk4VrrPBYwvcAOryAAHzbza96iPFg
+UcX2H/sdK8wkV/ix6Gl518URgqgCFyomIsaHs56ioEge77xEE6yVyV/njZea99Qa
++7PTFE5DWQU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor@[212.111.30.190]
+ntor-onion-key iKMV5JVWtW0Wv1L0DzHx3kIePvDqjIoGNdE5YcEKRHI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 EMjjvXPuRtxxg9aM92GTJrI8yQIHWSUa1JdnoPXuVqj27xmmYTnEeLluxmo3Wh9FBUdBGsE+wN2YNKQuZnzpAQ
+router-signature
+-----BEGIN SIGNATURE-----
+JZG7fgT82xTw6zH7nQ2UYq9ULAuP3xV4zikqeQhDOB+ne9n6t25aN7vKEePUV9B8
+Uc5coQNGkyOoRBDUzd2S0k/5dxar/ETfRQpdWTyN/Hk+OTscHoCskPmISyjxHOCs
+mb0SO0BCHWZi7BTGkf7LNdpqET4x71/PqcOLkPbyDhk=
+-----END SIGNATURE-----

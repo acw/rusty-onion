@@ -1,0 +1,52 @@
+router SaladeTomateOignon 51.15.40.233 444 0 81
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:44:39
+fingerprint 8E3F 0DE1 50EF 3EDC 9D1E D112 FC68 6221 1898 4703
+uptime 361183
+bandwidth 23068672 26214400 7371156
+extra-info-digest DD4D891EB1536C0D30397227777C7669D5067575
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK8fgZwTFrHebyzAJBdTkpL5QQd1n/23eaZ9PvpUk49R1yknv9MF4bqe
+PEz4QmWNSL/H+qgrzWXMQe22FHzmVenS+xQU0iGe8bPlPWQw84Kv82drLruzz6JR
++UlnGfp8f6YgRv2rTTR6z0Q9a17BjbSSGdT/mfOWONj4tio/1tgJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANFUf5WgtaUsO7/Cw2kZnlIHh09WpklCdEf9TynCGdGnbcte45NKOuAK
+zrhmb5+vBxrxxn+8f/l8QmB3C8kQJnGeHcELO3z617NfSogg8T2zA8HaYe1NVsKA
+vnAOj3xGJ5FjU+5rpLxfed+hlUni3c/i1uDCLf53PpaXhL5S/llBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $8003930310D9B04E088F338DD9DD48206D4E05E0 $B733880775A1E86616516514D7746858F3A943BE
+hidden-service-dir
+contact 0xC84695B2 Thomas bmkdwxy1z4h94gs <contact@oignon.ovh>
+ntor-onion-key pYro+A1VwOEo1tgOLADvWrz9VnwMPWWw1NEImC2Xlxg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 51.15.40.233:*
+reject 77.104.162.85:*
+reject *:109
+reject *:110
+reject *:143
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+y6eOS/6kuSf5jxWLtWWanv9jpcpPBt+r9p4aBgFPMZWdF0JaWmsU7sbV2IWSsOst
+Utce1de97kokdkpga8OtBVZ+de88CbuaKGir1xd9EO4oG4UZ6XNvNkMyr5R5fAeS
+LXr8pXRD/3XuqBRJXDO5LQhOWOv5O6JPbP/ZHlTbtpg=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router CDRelay 149.154.158.228 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHAAUhDkWRLv6g/jw8JSn3eVwqpcKL1+SdmeFTO8q6N86CzAQAgBAAn4BB4
+R+8UAk/aIIsbS0V7c3JP4xqYK/6VD2OzpXlafKLmWHvWgm3tJEcfcv3n5OgnDwZK
+Yhw10y8UI3DXHITyfVQsYOSdZs2pTaQh8ubzJuqQVu5EtTPnNDkalF7I4wo=
+-----END ED25519 CERT-----
+master-key-ed25519 J+AQeEfvFAJP2iCLG0tFe3NyT+MamCv+lQ9js6V5Wnw
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:03:55
+fingerprint A55E ADA1 CF5A 59EE 8E40 D087 CB88 9C21 E99C 9E04
+uptime 897488
+bandwidth 1048576 5242880 0
+extra-info-digest 43144FED6C30791409D016BFC30134130776F8A8 E9rQ6P23+A1vxRC3FK7VfZHSN9jANALZw7J9NbMFIsQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK+KL187sYQ0tvV4fCKjDl9lTu+Ve48Xee9t8XCFL/RBrDZ+gQQ780jh
+zgcyfJ2NBarchoeqddvGmPqmPkF7df2De3RGsCHkXJmm4Bf/9P7ReED1rGrOxttd
+KE85b3G2BLwDVVqeD3WlvvgY0fpudaSFIKFSWQ3QlZY2uveUMmnRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMrYD7paWeLpcgE85MIbILNEALGsj8ZEuYAkMDIJUyz6Xq5eukcae3ot
+7zmBJvA+cN67/0J9kCK/Lx6cdg1G9h/+wJu6o3+IvSZz6FuJgsjSC//FEnN9k1++
+3CGm/rDtYmWTyK+Ddr0ZANouRd2+tUaeCVVDZoJvCkAwzhtJebpdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+NXKUJgyz+dvNjX7FB78rXlbCxMu6P3AkWNQsl8rlWFV317EsUz5zTpK3Xruo5chV
+tRORfGqvyLgKXHWeyPUF+MjXDeP8pMF1vG2daMxRCCuYTJ5ujGfhx2M1C91GIqmU
+2LzJ08ow/qsL2Kyckpt/Ne9bE3lQA+Jk6ThCbnN8z8g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTASfgEHhH7xQCT9ogixtLRXtzck/jGpgr/pUPY7OleVp8ANDP1/TRSuZa
+JpwVuKeSJuVPyu5gkMo8Rt+O7+kRMwCj8xZiJzeXzeX+4yVvLADIrfJASzWdlgnY
+IraM2K0ybws=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+contact Arthur Moore < webmaster@cd-net.net>
+ntor-onion-key YWOdEYRQ+mNO5RMgbG8PukrOnCBJ3IdvytlQGRo5kzo=
+reject *:*
+router-sig-ed25519 C7QW0UZMYTunqYUiXMkyrUeu0bIn2s/3Ygy3TSerXqqqjfQ2HHm7bFSW8pn4WHkIW85Hq0amTDueqsZv7HtmCA
+router-signature
+-----BEGIN SIGNATURE-----
+Ig3IHdNsSd8tWqWcSjDSYvKy0smPEzSw9wg7X96UkRQnimhOSjF5kFZV3ai5A2is
+XWgRVWgIlZc6SD1eg7uIguYEJbN29l5orRJz6EpW4NtOnWAImTerd0eAgm8DXL7f
+HIJlxfex4yVWYg5GhkTCWGJ0WFUZWBSwpA2bynRJxjI=
+-----END SIGNATURE-----

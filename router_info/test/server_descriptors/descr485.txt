@@ -1,0 +1,53 @@
+router privtf 107.161.172.151 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmExAZPzmerIgb//fabe2gy+/ywkxFya5QLa/bxaJuyLPI7TAQAgBAAnKkrZ
+OvJmJWjuY0P9arfH6HI7/DnnOpv840Oq0CqIyt3Bd5W7u4wMQqW6a8BsSa2kaqFs
+haL39Xv0KzsRpg8bAl/PWl0j2RC4UubEuxA6bwDtFl0xyuzoomBnfS1gPQA=
+-----END ED25519 CERT-----
+master-key-ed25519 JypK2TryZiVo7mND/Wq3x+hyO/w55zqb/ONDqtAqiMo
+or-address [2a07:9944:20:1a::2]:443
+platform Tor 0.2.9.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:20:53
+fingerprint B21B 74B2 C3B7 FB3E C516 9C4A 8C23 9A11 414C DE24
+uptime 6436930
+bandwidth 5120000 7680000 4663601
+extra-info-digest 068B75622AF642715642BFD7666446AF2D9FCEB2 3hquICFvJYrmIKvIF1Rp7Nx8p4cBOUrVqqFE85XBcmY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKv8Iznf7yF16WpqzLSZmrMjdkCZ/1WwjNY3jfRrzo2EH0F7/RpX/kvW
+c4ljLXKo0ZGNck4tK6aT479JrgdWjhNzsSl6aCEspI6+zDuQDext295a6mQVF9+v
+rjQBwh1iZuFNDuQU+nr/N6Nx3x2gIVSztoon6inyd/6ap31Qi26pAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN55TE/thizHJSYSynZt1SaHxay8eMTlUp5pVPL6UZwlxw5c3Jngz2QM
+gFHXPLfsT+EROUrvCSXTVCwZmP47Q5ClKSftFm3oASj1nOMMMTp84GvVtDoNOdvd
+eI9CFVmvcaP5eMgle07ngwOncAGrC1V9NcH4BsaDOftDHqdmDrPDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Cq0qhb/DZnw0dHbHx9XoKcPVaSrQ+C14K4f04AbRS6CAFI5GgleqwvzBALGdM/IK
+o8p6hBw28y+mP1IwsoTJTB0XaTn0/62rZz2RwikGLuyqkudJtTfrvnOms9qyMzfp
+LILemuYAKKwa27TurdHvvJ91lVdgamfgL0rHGAfSvrM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCTAScqStk68mYlaO5jQ/1qt8focjv8Oec6m/zjQ6rQKojKAP4WXQcB+WWe
+fiG+7ls1Ebo9cB3fb/bu7YxjvgGbXMCTBZI1iOyweYheede4m/tmlHaIAQ+U7eWL
+3oaRdsGWDww=
+-----END ED25519 CERT-----
+family $2041CC224F30CB3CCF965FB3B1825A4283518412 $4F3701CA8C6C3F1606C9357904540AFEC0857D8D $E770A63A52043CA6F44EC5EA3BAA4EC4F2935170
+hidden-service-dir
+contact <me AT priv.tf> | BTC 1JVwdS7ngoDBmdbq6YkUpGiQy4gUY7U93G
+ntor-onion-key 27RHmX0W11WU78l5/wffk5xvIKiuWTrWJgCjzcT+5Cw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 rb5HXtAuBHulf5jxQWisXzRfGQO4UWQEF3R8FB9vbbeinGRa5ZPP6527lw5yJP9QbdeupJudJDSl31lFky3QDQ
+router-signature
+-----BEGIN SIGNATURE-----
+HG3a2SQtrDce87qPFTS66753ItW4TDwALCemdZVdQmmH8K8utOI+Uuy1eHqXMxAs
+N9ySut3NXSwC75WHPpI8PPBzPHE1fli0aXVcUHl5G2YqoRtSQf6KxaPQ+dHQXc7W
+zp8PTLW1K1d5oknRTHL4NzZ3+CHQ4FYpwhk330vdJ4c=
+-----END SIGNATURE-----

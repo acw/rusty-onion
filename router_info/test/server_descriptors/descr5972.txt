@@ -1,0 +1,51 @@
+router impedance 79.120.10.98 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKsAcvdNY8qYHaq8o1y3JwXVcOnkRZi7EvzF1/xG8LWSA66AQAgBACw4otT
+Ajr+/0iRTRaCbdHs7BHSZ5qA3c4DG6a71zMzM7rKrvq2LQMQyirIzTk1wEg3sYT8
+TyJIxVHtNE0s97VTjISH4kbeuORbc9F7yeM2MF4rUgr7aWV64K1aFTv5lQU=
+-----END ED25519 CERT-----
+master-key-ed25519 sOKLUwI6/v9IkU0Wgm3R7OwR0meagN3OAxumu9czMzM
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:28:06
+fingerprint 42CA F9C0 588B BADD D338 025E 8F2D 3CCF 35CE EC25
+uptime 64919
+bandwidth 10240000 10240000 3102317
+extra-info-digest FA9781A366A0880A440EFB36C488CC13B8D8ABFD iQOZE5hflb4KZo1k8zuO6MOu5PubFTdKyhDZwH9g+8A
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALS5cF7MYEDIUlLQvZE8FCHvvcnasRQPjRAsNvGZugrJHoz7kNOwN3Iq
+w5bcm60I3iNE0OxqHUHCnwx8gRqHQZUYzRkUkqMyTYGEwnu2z7ml1hbopEWk2DkO
+pocqND0VEYVbh5omOhDJVc3/fa9gCO6viBn8wc4u7jpQiqPmKuVjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMl++uLczhgkVvFLWuPON5Ynk820A/5W4Sm/tAg5klhRj1fvn5SxnSIZ
+l4VvAHSCZvojqEDCQvWwJUDEfEgT7tSlkq0Xjfsr7IhipnOkqhJFceLVCCdPHkkn
+L4maXPKcJ+JjhRQABEUM/+HOhBJHWyJ2V1Dc2C/8VISH+bG6BE/1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+HMipZdfS0wzKsbENkmjPUfeKAXsaNqqjVHYPjc8izlmuBEQdBbvZO7L2uMUse1al
+0Untf0ZLREQV0nsVp+DET3JM/fDJYfShNoQSNQ2G9vtVnCSsrJVgPrrBrx0C+hw7
+HK99HdcgWseK5FCzalmJ/ft5f9MFx2e7Jkq55hCBmW4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAbDii1MCOv7/SJFNFoJt0ezsEdJnmoDdzgMbprvXMzMzAKadX41WH7mc
+C+gQourtDlG7r8kxkzs+ipS7ASqSF/aeq/3Q7dU7hgeTiYyq9xzUat8cbcwOmEzD
+1YlVGd1K4g0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact dimanne dimanne@ya.ru
+ntor-onion-key eLsgGqYnH8pduhJ+FvHBbHfSWsxkE0lAaiEf6ZF1cFM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 BoaT/SXRxJsGEA4GB51ZONNnmUssmT1H1+CUMB4snUCOEcndYIFHeSvBD7MT/0gd/4YU51aXFNgSzWZzR009Dg
+router-signature
+-----BEGIN SIGNATURE-----
+Jscf6BnAegM7QU4yjCfar6GUD9vj2GbdyP18STHyMFRtc7ByGUsF9dOoDoWK+3BC
+wSe3SPeQpt9pMcAq7qRDwZ3Y5VJLpa0vcqHPrV27fFValIJzKPVmuN7PKG9hQyfL
+FQxpGsVdn22PNncHY9GEbo7pTxrgFt04EJ4HKUKDjZc=
+-----END SIGNATURE-----

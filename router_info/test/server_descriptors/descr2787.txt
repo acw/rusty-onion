@@ -1,0 +1,52 @@
+router TheEpTicRelay1 51.15.131.29 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIUAesQQBFVokyqU6g7m6VtMdd988mPcNIFFZyRQXKRXHX9AQAgBACdgR32
+CF34lkHYJq+XNnk35vxnYBQGvarS7RU/wiN+OrHLpFLYfSp8gJibTLqTFKlgl0AX
+QOjKV0sEYKUFY7QnwjnG+pFgU6NPJ+d3HBPiIb7PVMoURo+13e87sU3Aogs=
+-----END ED25519 CERT-----
+master-key-ed25519 nYEd9ghd+JZB2CavlzZ5N+b8Z2AUBr2q0u0VP8Ijfjo
+or-address [2001:bc8:4400:2100::12:c1b]:443
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:11:56
+fingerprint BC7D 5503 6A05 8E4E B555 0800 A90E FC00 EB04 D566
+uptime 12963034
+bandwidth 1073741824 1073741824 12578457
+extra-info-digest D921010CC052B6FA9A8CE87B759551F7E6CF3582 A+Knju2Ki9236QOodQDEBXFLreZXoXB+y9XSdjTwS5o
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALDUDCdxL8LFzUkiUoiBL/WATS/vZuKlX8VMTUvb74nb0puciGcRkSWB
+cAvKZdlyDScByXDWvNSkYQdFcEu3SBqF6GhvBLyw+Hq5t3MrbCjAcPqsATLzar5B
+AD8DmE9xV6m0IDoXoTstWp6omIlpqyScRomNRNtnaFTUol96bDCzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMVXnxXJBiTEjo888DQ8PZfb21A871z5fS68RRWxCjMjQLSZk4g03l7d
+4FcvVs/0OqYlC5Pb7WWVEZvcs3byivOODN4d9P7l9jWhKYXHpIOLZv5nA6oNLVTP
+7mDnrc/zzfiB2T1QzsA+Ss/lYpGRwepvP7fhTl2PwNK5WCHE1b0VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Zy6lDGuL4ujAGzzSnRnodp0Cu9kmie15aRsCUMIOVNfoK+2CsA65P56h4bL/Rj6L
+x+YtzcVTHFWMg2tiZPJXWtkghUjGSXDqKeqfdYGeCUDG9G6NkPESj+DEER7XHOmY
+ACVroPOHbshwemNHMVDu+7dvz+WCD9iilhRVSOgGG9o=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDAZ2BHfYIXfiWQdgmr5c2eTfm/GdgFAa9qtLtFT/CI346ANIkJtrHPPqB
+FBR3lxzrOMA+bPe0rQb7kalevTphTXffXZJ7i0FPx0SZESlVeX2gd+A20XmD37gh
+CNSvdPSoVwA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact TheEpTic <torrelay@eptic.me> - BTC: 18HoXqpoVicNs5wLuPkWJNCLxchYsYKP43
+ntor-onion-key ax9plgW+b6M2z61W/95S3qTbvng+3qiFZTFA3sxepQM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 P8QKmwe6PDrpcg0Udwt2E6lS6tx1R64F/dwVONNFPpRFzCOjhNyIlRVW56PH4buRyPlRR3yZhDVMs399ughpBQ
+router-signature
+-----BEGIN SIGNATURE-----
+HBY3cXAT+oikPsB4WF1E/HSaz1PmnD3xfJYOoYDyn1TIJsL62R3ismPP6a685HTK
++1m2DG1NsVfUjMQe5bBviXDN0voYZGC5KyuD9+rALDL/HEn8HR5uYsTbNvp7UeoI
+PPxkMxiURCQ+gjHoyNLgtFzcEHU/faLFjf1FzCQHeTQ=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router StriderTol 68.172.40.110 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ5AUhaU+gnmhxIxWczKeag6cAY6nxmqLBWGo+LK/Emnd6DAQAgBACoD5IS
+OioiIgfh/JL9TqPDtf+tWoSakJ3i8EjuDkuvaPPwiVL2YeOoo58YxgLsH+KFgz53
+cEy9zuohNkKCwpDgJ6ZOFix9BYDykgouhYYEd6UiRudoL7bh8gXsRPVxTQU=
+-----END ED25519 CERT-----
+master-key-ed25519 qA+SEjoqIiIH4fyS/U6jw7X/rVqEmpCd4vBI7g5Lr2g
+platform Tor 0.2.8.8 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 04:00:30
+fingerprint 3F0D 68F8 8A65 FEB3 8020 D5CE 3753 0EB4 B968 CC1A
+uptime 1925187
+bandwidth 102400 512000 153506
+extra-info-digest FB14BDE6C54BF034B53AD2CC2959DEB6DDD6C12E HsHCJZ1v4G3Kx5yfHPd5uEWTLowMIiq2PljgSSWmRBw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMoy0TD8fTFgZLfCc4Td718ElESy+sw9LNmHb+a/CP51cj6zSllBkX5V
+rddxvX0rmhW7GvlEx6k4xPw2l71mxN/Dr5ZKdYgE4KX3C6ss7ILZ/VFhFSY4yd29
+4i1tyj1Ue7s3Np6alQMrYfOYHGLb9abx/U3jQx4gicsujz03Fd9DAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOTSMr92DaYbYhFS+cqcdBo555X5MS/k25hMB9vEwGl7awgaZoIeRzC8
+2OFySbhvhcIsg2B+5QVKZ6s//JDh2MYpGq3C9QSD5IHKiSR37ddmAIBE3KLhCUTR
+pezCtY5b8TujYiIV7Di4HDjSc+qkKzuaUBHKSeQ545921P/l+xMxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+LpP2bBro8PMtDW+z9Jy/N2tDt1ZlY6C/aCtxf6OAKM/eT74mXRbWsrTTgFwGnPbk
+mzmxlOmSPlZUBuqceM4XFSwkRs3s6j+1aJ0H+UCnUzGMnctDFMk7xgPMolKuQXdd
+J1gQ7HkLLhvpf0FKAzyzDRhZc//v7IJF4X6Nr1i3Sak=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCVAagPkhI6KiIiB+H8kv1Oo8O1/61ahJqQneLwSO4OS69oALg9XnSDiFb6
+v6DuFDexvyzOScFAQYS6hBu1QsAOIKY5XBmy23cz394Qg/P9wZZO6Ppc//ZgDWZV
+dowpweAHPAc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact stridertol@kanterella.com
+ntor-onion-key vH8jMn2IwTIHP/5Qi7KhJSj09kLBXRsIaMA0Y7K/4F8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 VfTyKQEEnpcqQdhDViPKFTk1mYH1XPzTZXAE4e2jfL7hNt4tOtDic0wmoaFTnrOUfMHUfSYlzOeNRzwuP+ZdBg
+router-signature
+-----BEGIN SIGNATURE-----
+kfFUnHg72xOmgMpZgUhALKXCV2rDSv/gsOZNKgyCyiy7iWrdP1yPyCUMKz1p6sLe
+NbzfWZbTE76jzZrqxsyv/y51fsKlnXgVB4Ey2MQSAwmJrk8DzmDFTH9Lb+B0rbq9
+q3v2jXlAEXndOyd0twgvmcR2T3d709tdsaD5kkSmgBo=
+-----END SIGNATURE-----

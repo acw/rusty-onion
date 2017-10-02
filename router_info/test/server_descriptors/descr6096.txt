@@ -1,0 +1,50 @@
+router 6c61tor01 199.200.15.10 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHkAZnw73VCYUAESX36NzUZ8I1zZduBeMIpr7Sgs5nyy1cfAQAgBAAmfZBK
+nnNFcqD17OBrhqdQ0vLxKLdrIMziRklDBw69j/towNkxCptN+vW9pIyXhKHgJTR0
+1WRtnjiAhGF4qvAXJnzsZhTBrUeIhxo6iSppKyxn7aLlmZeq5E/Q8Qu/MAI=
+-----END ED25519 CERT-----
+master-key-ed25519 Jn2QSp5zRXKg9ezga4anUNLy8Si3ayDM4kZJQwcOvY8
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 21:53:38
+fingerprint 3E07 C696 936E D72A B966 9135 97D9 DE2B EB07 186D
+uptime 30500
+bandwidth 10485760 20971520 5417984
+extra-info-digest 6C454159AD696DA50F0FA90D748ABF0BB6CF3A08 yjQJcyivXH3KLCN/SJk9Yl1fbPXdhj2a1RPZnHRUYXc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMv6PKmVgJusvao9afsStjZp+3EBXcSmkruqdOxO7FcZ6NLcjma2vvFE
+Ht2LupXBpc5Tg9OKqj9zJHk/c+RWgoTCM2E/Zs+dYJHMA1N/A3zMIxeM3QywvEdo
+ml48KV3oITcuLpbB6Pwti6TT4Cx+OC+49VJUuLbvNX6cO/x6wSUdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMaF5Kbxj1lSkKCvYEmGKUOPEL1Ci9jOC2E+igF8ZlnpeHiIDJJt9lh5
+xFeq7pUCSgAM60JVlLj3HOPna5Mbo9M+FhtUrkeoTRUpRslBMtHr2DqQnbvkaaM3
+XFKlxMuV/q4OqcV6pfvwbcMWXeR/T4EMD+1kSwgIVErCLfuXSXULAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+vKJhpdKLK781LvrasLz9mD3lUh+9SWgJXkA0czl8nZSYvyfxa+i3H4YCnaLrhqmM
+bYWT8TJjKU8vN+Wsv/zqM6NnNLhff44j+yYGtTZr+5y/AbXx5ZfIN999yVR2jddJ
+55m2mjJG4/PRoosJa8LKpplrbCW3F3AjW82xT/BJNl4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOASZ9kEqec0VyoPXs4GuGp1DS8vEot2sgzOJGSUMHDr2PANX7OBwk41+o
+7AbxCNXfgRfUuL2MUdfSc5yHk6i+bs2i897iVrQD//tjWwSwBvWts/rMfxznjDnN
+dTTr5idn3wY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Lorenzo <lorenzo AT 6c61 dot com>
+ntor-onion-key rvH2mvdOyrvzDtZr6qQzCDj2dnCHPS9oodU4sWeAakQ=
+reject *:*
+router-sig-ed25519 Pw34M7xY7AccQ2traw2F4PxoBYBagqjQsf1a0MyPbpRJaeSWXR8c63Iuyxar2MKW35IHPoaaElI8JYnCk8mHBg
+router-signature
+-----BEGIN SIGNATURE-----
+bBGIf2S3bI5GwRtu5mfD7CCKT0orKFv6bASIBPGiAm34Bcro8IMOKiFdFj6US/Mo
+4fnpSMcd32CEQoLzsw7IXdrQS15H7nHLudJqgOikhrAZLmJd4iBQwXz0hFnyKQb6
+DXR0+STd2VXXmrXG7WxiUlf2KsTleunUXs3mGKPr+j8=
+-----END SIGNATURE-----

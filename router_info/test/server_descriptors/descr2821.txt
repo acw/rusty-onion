@@ -1,0 +1,71 @@
+router Researcher 75.54.229.204 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEJAd4wFC2cltT7fxDPRPugDzr08nVIqpR82LQQKqYKneR0AQAgBAACw9xe
+18UyFbefx3jaPLOZCikPDstC0XcomE5v5MbnQ9dKVkfRclAsTE0U2rl6sk7R43/p
+UiGFcW+fvgHqznUHcdXpFkSIAtLmYBkFI535Vp8uCu4pDJzuq0s/PuLjPQQ=
+-----END ED25519 CERT-----
+master-key-ed25519 AsPcXtfFMhW3n8d42jyzmQopDw7LQtF3KJhOb+TG50M
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:32:38
+fingerprint BB41 EC69 19A9 3543 1959 FD6B 323D 1A6B DAC0 5F28
+uptime 5883421
+bandwidth 131072 262144 161156
+extra-info-digest 6FDD7C0DB58052F5663AC3285E3AC46C20062466 afLvesJVuFd9vf4dVT7xP8Q/ohEL2MbVJrlmuGDLLjA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKl973IUGdQupxJKgI5QNtCINaEHU1nYXK868qZ3u0lPF/5jM/TKvmg+
+1UjTzIOBzr3RgHAtSkLqoaNqNhrDehymCDEFhuYvU0ntPaKwCZ9567jKN3H+DqXd
+rfCThNtTsh0dV+vgzWtjacZBVqgbk31a1iYVZRX16xMA9nuxFZ01AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKioptGkWWXdRIfN0KB0wZGJ6wj6irMCYD3aPPtwU+/lKiaLbJJwA9nF
+QJP4HZ7croKTKCT0YPztueXTyT326TpL+yvS4S0052SDc74IAB5XlgzRk3M2x9R0
+f/vkrg27tcvTFOH7IHWUnHVUilZ38hO/15rdCQ0kbrFmmcZN2sbdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+himIKExm9auW1ck+3V8aUB18gW/0D4EM/v3juFkQSiv4dqkibrEZWI79IinCpnJE
+oDLmD2t+78jQ1snuW9KfPchixKXyXUlsduvX9iXwq8n22YQUFkJTYJuG86YUQqDM
+6rB9nT15Y3x1j5r53JNdZAnETJIB4cZByC142rTNJlM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAQLD3F7XxTIVt5/HeNo8s5kKKQ8Oy0LRdyiYTm/kxudDABRM/wZjb2DR
+4b/KbtS0hzpbUaec+FJvBbBUMPDyHuXQ6yup4cjdVsNXYq+ywcmBiCQ6cDTO7+EZ
++C5YRk1r+QE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Steaphan Greene <stea@cs.binghamton.edu>
+ntor-onion-key sru85+24gzSFdWnS/jKEfOubQxpmVbmMlFw8ETqcaiU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 75.54.229.204:*
+reject 91.198.174.2:*
+reject 203.212.189.253:*
+reject 208.80.152.2:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 8WWIe3AkkDWi41Wb8KelPtM67CCTCrGuHfuKLkVlVds6PG6FlyNg4MT5wQoyVfd5TzeXExCy4POSkEZZeju1BA
+router-signature
+-----BEGIN SIGNATURE-----
+kZLsIqFhQnY4LKGKgF0vCBv6/w/G3medEjV0sx2gQsqyfiFtMZze3WD3gl+E9Aar
+vpjItOBzyU1kljbvKjb1bsyQ8YsDbXOnk3Txj95S/AOsXnEMIkWvnb0Ol+9X9Brj
+PiOD0Gc4I8VrQ+3cjYMh5gau9XyAzUoBhGCDkDl+V64=
+-----END SIGNATURE-----

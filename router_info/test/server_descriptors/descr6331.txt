@@ -1,0 +1,47 @@
+router ratatouille 205.168.84.133 9001 0 0
+platform Tor 0.2.5.10 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:26:11
+fingerprint 35AF 53CB 0867 21CA 9EF8 5B10 8E1B D7AF A636 804B
+uptime 4823747
+bandwidth 128000 1073741824 1504937
+extra-info-digest 8CC25B96618041B7C44C2B750F44E774CBC66389
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMb90Kk3EuCHCL4jvkooUfRL7MjCXz+7L+zgal7qLkz1OfcYx011Rvls
+PUN+D2o7Rq/sZ6wgyKydostr8BthTsk7AmTPPMoBQn5H41UsXzAaLro7nhNL0qty
+rbw0YDG+pJsVESeZ/mL7QnqjjuRqXghLneolC9K8ZKHV8z8okGVjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKzp8EIHN5svwcOVB8IQtL5oS8kx2ExcbmmQ/eobW8e8leNgn8y5fR8Y
+yIWOl06B//mGLE2FttXi0f+idOvlomqFoZEgrzRuNFAAuTDa9qCSOWnU+X7W9y7p
+qjEc9cZWk9M2uu8VbOg9fe0SogPdHibenYrPSyib9ZZzdk1sgNzNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Fred Gilbert <fredglbrt1 AT gmail DOT com>
+ntor-onion-key a7e0VCLgUVLUfdCkRRZ8nHAzhYHzAaUbqyF+rYu362Q=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 205.168.84.133:*
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6881-6999
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:6699
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+G/g67DOit81TRYwbS2kmOE1r8QS3xbKxcurqJwh5aUh+LfI9ai7ErYe8GLsmJngY
+4zv8rzqSGSNsMPZyC9/m/t4ilqopTjZG7daxqbrR68jhWWFccXPS4sHFNPhNGKJ0
+0PjmArZ4hdnVC0TysI2wMAkdSHZPFYTRM+fOXWhOmqA=
+-----END SIGNATURE-----

@@ -1,0 +1,31 @@
+router coralairvpn 62.102.148.172 443 0 80
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:31:53
+fingerprint 6484 6B8B AEDB 6234 FEB1 8E18 124C C9C9 C279 C254
+uptime 6270383
+bandwidth 1073741824 1073741824 2975049
+extra-info-digest A281A48BA386F8E42B49E5CE959FDA829369E352
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMw1krVWdpWxYWYVPWFVEwiNFRpXzhCS9jihtcysB+idz8U53PMIxM6a
+6U27NE9RFo32if/03PXeX9kWrbkXMvnl2jtw25b7xAUOOvdCnSAss9k0kSoEy1VV
+KIt+XxAvpWUK6/Q5+NRPsPlIbDu5eEYf9RoQuwl8DAegkXIffUXhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALmIQZ9kc5NW6tpwxxlu1Rt7rClyQkKBYnSlCYOdLfbkUPAjr43hA0RH
++GO0pkRnVcWCNn4HyLFKiMdxSURUsHedD8FnojrAOGpjSgPGp4C6bxaAQT8XAHjm
+w2CiTzWPyVsUyPXZvyjgJ+orqZVQosBbqXRKqnnqV1tJ76Yl7cgbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $F24979F37C37C9DA193EDADDFB305431CF13C384
+hidden-service-dir
+contact AirVPN abuse@airvpn.org
+ntor-onion-key 7i8zJsrm2/fD0BOittyMGXY+b39su0jeccf3d/C99gM=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+puZ2KrS3QwNLGmWLhU2LnRv8OhMRRu5tZ0n8VR7nDfn+82voKU8IloE2z/Z59JyA
+VQSO5fE0k4XODZCtiOa86NkanD8AEKXXIG7n6BKGua+cViaRdwEQWkeNaGbuxLWw
+ifr4H3F0BD96+UJ9eCGi4HWFM/J6hYWGoL/CnzQwEE0=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router enyo 89.102.142.167 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFZAavx56beCaqqNTTQQoBs61sX68P3aTin2Z3jyl5MYcRYAQAgBADWfOOi
+qiMD1p72M+tjx1ArMyjPVEXxfvnF/FhfZys4boidJpFp36G/bm0cIYHrmXuiQRco
+fXRyGT3aAW3IvePFyXmXbbM9gtNVILV7+M8wyYhWAXOXAdoHUyoLNbkNtQw=
+-----END ED25519 CERT-----
+master-key-ed25519 1nzjoqojA9ae9jPrY8dQKzMoz1RF8X75xfxYX2crOG4
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:31:12
+fingerprint E093 E884 517F 5E91 166E E879 0241 A3A7 008F F303
+uptime 1934253
+bandwidth 1073741824 1073741824 2315195
+extra-info-digest 66FEE7378104AC556A289342CA69CB7396294E65 sBCS3GMzsaxYNlrvOFxRxjt9XzolUt+fXivSGpegYmE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANA51BYjwaKE7cqLbyLRniXRznmR0QL6/PF4Ky6kjRmjqrRgPFliikrp
+p+ShSA+VSjysyOmsIdh0kFpIJc8Cao8ixo3AG3zDt1axMR+V8Edy8ayF1o4JuAjm
+jDxc8gBodOQmDJTXmkiEU+8pe/lnXwC3+zG8u6iQjWbiXvw5PAWdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO2F7RXlNngZpTQUUdDegJUzJFAwS+WpnRSi8O0CY36U2fdqefMQQTQs
+ZrnySQ72wxd/VaAxhdf+zmOdNURTXvnEQVhFoZOGnpL1uJ688EzrTyVXpSvDVlcb
+AuK8Z0VQd7yNhn+XLK93sLqKvq4NeNs7hdx9tS+XFEegqrFsrf29AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+OaeEKe58z/vHSjWpjt+H7VcvQS1A5ijzkOQEJzFuYRgcmWO1kW2vd0qj5zBZmO4K
+RsZsTHAUjPOsxPEoiE90c0GKa73yXmRawfph1K2d422Xc2bAuG8QzMD32zj3wFNJ
+Nj8omlJEMXk8kmepHtfBaobeYSlE+cnJzx82/cdUG8g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAdZ846KqIwPWnvYz62PHUCszKM9URfF++cX8WF9nKzhuAMKj4jEnurOZ
+IjC0Y7cTZQ+AvG91HzrauxZdE8scBexUeLjuuS+CHj5YdOiH4tWSMllT8VffIAaT
+eA3ASsZy0Qc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xB9A02A3D Pavol Rusnak <stick+tor@gk2.sk>
+ntor-onion-key RBrVH3DjU0KfQJ4SwoH6N0hvrI2by80Qoe3mCkB72Ac=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 oXbyvIH1vueR3fFFMdcJBsT1HIDLY6EVl/6ov+klqPws2pRBWQte4rQGgsin3Zaz7RT7pB3vZ4Tfn2yuGrxOBA
+router-signature
+-----BEGIN SIGNATURE-----
+IruGxx1D/HnMjQXBkMWmP5p7KZl3CExNPoJEzdIQP/q9nMI7e/7KGE2OEdUe5PDN
+2ARsU/As4cQ1gB4+CAt/DIU75b2uoKM5sDLq/SZ47arRLg+jCFc8FktVfvzlqVer
+4cvHQEv8IsSWz+a2ib/sBHXe8pMLYmDH6CHNqez6hxg=
+-----END SIGNATURE-----

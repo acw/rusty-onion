@@ -1,0 +1,30 @@
+router FreedomPi 170.72.7.10 443 0 9030
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:21:05
+fingerprint F6D8 5C29 01D4 7F66 EA71 47BD 0ED1 AEA9 F9E2 A9FB
+uptime 17258408
+bandwidth 5242880 5898240 1942764
+extra-info-digest F3DC5DD9749AF80FFABD9C88A4616532B661D862
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMVNFCmKTDk2K+k3WZ1voqWzMpp0km1o0y6Kr1+HDHGYuqimwrvFrcqj
+0E6krHgatQZASkB3qBC2y/ajZqOaOStkpTszfrXlpIv0477SGBvPNt68JRUCAD2+
+5702BuBYdhmAx3s0Hl4l77hBrLymBJ2L0Wz9cUDSpiRw9iW4TJTrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK36N4jmaZfXE83DHtF/pzahrE9WaHi5Fyj1GsBJqZppa1d2LKyz4z1t
+m0wXmegRVNbTXN0Ig00IS/x244r4CJy6lcdtZDbJbD6fkuRz/aDhTTAD/dyHeEEe
+b3g/5kTiAwl8h6mszR/XZSOMkGQrQfpqIfAkVKaurry4hvUajPM9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact 0x15734B19 CJ <cbarlow@sigaint.org> - DASH XcbykiPRZvmn7mrVsXcMwK6rAURfgva1JD
+ntor-onion-key PJ67hgdBEEOyMfCQ6f9j1D5FppRdAj6DLToLQC793AI=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+h351w19hZYdWKpPChMHBmCuHRQ3+DWzOWHIqeZwraX9B0+pHmuCq1dTLYqL5eOBr
+H8MaXqVsa+Aqng4xNElTWTunpoHRBJmG5+7NuItkTeT5KhM8/CgpuuI4Spz7/gLm
+AwiUJjH24+5+bg1QD9VKId/xZGc2AWNZigENY4ed35A=
+-----END SIGNATURE-----

@@ -1,0 +1,31 @@
+router Tor1HackingDk 109.74.200.101 9001 0 9030
+or-address [2a01:7e00::f03c:91ff:fe96:ab16]:9002
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:45:10
+fingerprint E1AF 2CB5 2EED 3BEF 5A71 B755 2FF5 239F AF92 CB63
+uptime 9201672
+bandwidth 256000 5242880 780141
+extra-info-digest AC5ED52110C420197860DAD9A8E2CA88B0733298
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANOfd0GbaGZbZYvlzKjS1x4D3JxfS2e+nFA+9wjXd3hAoCljxiqOrcj3
+baCPuu9Q8jt7lDOxPD5E1OId53uxcgW8aBRw0ymyV2JfnjTSDOyDGErGpU/NuZa2
+UFbr4LxMCGjd7TW5t2eqjeZhgrH/fQKnie19gt6gbU7BeaP1nbo5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK3+8c410FO1+nQ1XMXTKqQnF5WDu48tzVF+F97nKLemyfCGmwDz1IvK
+V4uUN+LBW4Jmhy/KpNidtmb0OthgPoKH3YNTvumz/FwOfSDPqUdGBG1CWqd992hX
+FiJPnlaxvbSwd975OvjkQlxTXpJ60Mjm88rJvbzvq0TtG4+jEydtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Random Person <tor AT hacking dot dk>
+ntor-onion-key lF23KzKQ+1yYXqxdOreeSMguvKup3NgvDkbnGNXhEwI=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+e1xEhEZMdhLeO1/I3SSdvJy7AdPNfjAFdpUojsAyKg4w7ASxGfOh1aR+Pr9llch1
+/6E4Ax5Z1Qs94eRr8vw6PsuiqdTcePhovTpkLxmVPbeyXFh754/ZmFvti8mVoNYV
+KtFWTSuwIGPdTgs7mXNcbwsbW7m1gCvILlmSOhylkZU=
+-----END SIGNATURE-----

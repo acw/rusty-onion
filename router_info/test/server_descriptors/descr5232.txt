@@ -1,0 +1,70 @@
+router Necto3 93.115.95.204 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAHATEMc40UettM8xboFk+k8ccPNvrDZF87U4YVWoo7eY92AQAgBABTd7sv
+D8uGmsQvSgf1nImmo76oNNdpTnkGSWPjedN5Hcq0rcC1sToEhiKsmSs5tE3c7DN5
+K178I7B9c+ONTkIFI+oPnsT4TpMdVP+z0K4QYwklIicbFPMS1l3XcR/vwQo=
+-----END ED25519 CERT-----
+master-key-ed25519 U3e7Lw/LhprEL0oH9ZyJpqO+qDTXaU55Bklj43nTeR0
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:36:49
+fingerprint 5F48 2A48 F88D 2F99 22CC 2CCF 98B9 F326 0198 62D0
+uptime 18034429
+bandwidth 1073741824 1073741824 23403781
+extra-info-digest B44A7B97AE29FB984278A90D637FD0BFAD510A68 VKXxkRLSNYgTOXz54942E1OTa49eLJ5bRvwru4ncqaw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKmT1lDuj1Shgs5siRyADH7VTJZNZbNH+cpdxV9nj5RhX+eyfxHS+mqX
+uCDBvbaIK3jvTwqp9QWkSUcGTY5iI0ruU96iG0eI6AILm+9SCOWXdpBcjwXzH1jw
+6wG9nQlkxNbgC9Iqm4fiwa2HqjThfpQXo9MVy3dzUtNba42ofH0hAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM9m9ZimD5rkKOLXfpPVvcLrxAzpv05nUOIzr2Zom7uJ2weE3/DNXCLJ
+Dyj0EFp9IwN0OyL7IBuS8h9ObQRb9AvbUAhc1rbEK2SxqPFuaSyhr9OvgIGKYxjO
+Y+mLRwvIC4o6484fNohzeIHxptU2+ARr/RIQZchkXz2aFJSxnI/1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EWPvHAGrUVeCazQsotpalVo+pdZcBGL9Sv8d8F7FCgMejly8D2dr0ZH56MJDCRsd
+FkNcmOBqWGD0aTfwM7hivHQMzEKzPfq0WbKcuhra3jp5bzqbnWJt7T23oeLjCxCY
+E2xocblzQqFLfvV2fqSZ4XpbtAsd5Tfu6VTXp7AHqno=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDAVN3uy8Py4aaxC9KB/Wciaajvqg012lOeQZJY+N503kdAKrnjBPx4KUm
+GTHqAlHD4oWKJ5oGJAYAv0RMmLjcTgvRAyPHWZBlYesowcwH+BT4g3YqYFgtelfi
+4QXAGA64Nwc=
+-----END ED25519 CERT-----
+family $162F7E752504C49A656FF1E9669E0B9572CE4870 $1D0666B1968C2270BF20C7214B7F7D26CD1A82E6 $9D6AE1BD4FDF39721CE908966E79E16F9BFCCF2F $B0964415A5380080570845E7CBFCADF87FDCCE5A $B2AFC9DB441202EEFEC8592456311759698A6927 $E70972F8229623017581044BB10B2CEE1B7EB158
+hidden-service-dir
+contact abuse[__aT   ]necto|doT--|onion
+ntor-onion-key +vjv/YKo1LpGGCmrC/S8cZU/raxMHF4H8vXXR7coN2M=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 93.115.95.204:*
+reject *:22
+reject *:25
+reject *:109
+reject *:110
+reject *:143
+reject *:465
+reject *:587
+reject *:119
+reject *:563
+reject *:6881-6889
+reject *:6969
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 J59SFEX/kvY56Onmq8fq9Wt2YR9YqGpI9X/bx7g42becXQmtgIs1lM41950wntn1objNQrRw7NIS6sKWM4mJDw
+router-signature
+-----BEGIN SIGNATURE-----
+NxYY8fJ/OfjNoacObMWg0SogXu7cc6dwlNKmU0E5PVpiGD0NCosluTZ5lr5POSN+
+VebwUpK+EN8iuuPTpFvKX/dAqQFuIuwsm/yL2498ClO9/fOtNRn1iUYFk8EFqrzh
+lquUWBK2+fj9cRYZm2ocDNcCEuVUUizWJr+1Vv/6DUU=
+-----END SIGNATURE-----

@@ -1,0 +1,71 @@
+router VectraNet 88.156.182.196 443 0 8081
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:52:06
+fingerprint E992 810B DE0B B393 20D2 299E 1AA3 916C B8B1 587D
+uptime 4865567
+bandwidth 10485760 10485760 1017480
+extra-info-digest 7D53DE94BF666ECF8153822964960AF3700EE0F0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMTIdXQnK70gcJg7dXC1wRDLHP7mipJlSG6pBTWKii3LS8V+Lan75T3R
+lduesTkAOR9vLf074P+cu9XCpO8VYLWgEVWPRN2p43LeGlAxtOejEiZUGU60NEQd
+tC62GujrDxc7sJiaE2H0/E/dG3nmG3Vt/zxbjZYlZxUm57c+WfSfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANGeddWvdKq4IALra6+17VQOGjc/JuvceagiN6ErGlqJIkPHMMSLm+bW
+cz3N1lapZhzkQ4ZeldqIqxFvYrDlQD1ygXtZs/VJnHDawJ9uqpKm6WeUPRsHCT7M
+A3/K4ishnF2MAbH/pkbnKfdPdhq0lMQLHvg0uit3Kd4KwU6neV7PAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key +5pRX000EsojUMqNy1LEZ8o2Ap8eF9KzLTibRVSfXls=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 88.156.182.196:*
+accept *:22
+accept *:43
+accept *:53
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:5223
+accept *:6679
+accept *:6697
+accept *:8332-8333
+accept *:8443
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+y9F5s5A27L1FaVwNVjktTRfEh+6nyHysOuDTUxLY26R4uhdWbCUYggjIAiKGamzC
+8MzF76kLFSP5c6lZS1wuHHnpe3i6CQw63IUi2DGK7gDGP7sZevinyX9Y2e1roCz1
+gYIh82MnscmvA7pdNZDynpHbu1U773/VGs1TeVGcsJI=
+-----END SIGNATURE-----

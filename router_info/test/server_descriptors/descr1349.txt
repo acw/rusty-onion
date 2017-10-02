@@ -1,0 +1,51 @@
+router KerbinRelay01 62.37.150.20 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHLAbaTRYoBVvHZ7XmJGNH1sha/2CPiBu6CN0qzhP+OmXEiAQAgBABnKpBj
++R6PnCt/oqbOHENrKYj09CwESauCUlcTJ15+OTNKvIRPFZ74jW4vvGYQl7flh5eN
+ly9G6RD6/vZ78RSGH8D0h8M29obInnmLKqSJ5BKPnU8iMQ5aTbsQ4R5fzAk=
+-----END ED25519 CERT-----
+master-key-ed25519 ZyqQY/kej5wrf6KmzhxDaymI9PQsBEmrglJXEydefjk
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:01:59
+fingerprint F207 E58D 69AA 3143 57A0 F8D1 094B BE19 9FC2 4CC4
+uptime 23335
+bandwidth 128000 256000 142639
+extra-info-digest FB7779F422F34FA1C9E7454CC22A6F31957A4760 aNVNP6/709m2n9T02zvmxV4lV3nXoXSrs0NNSB5FV44
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMEGjaWPfbiGsYh0FkbND9p/li2OieKAmHQZxni3W1kNBEt678w38e93
+WIql0t4LJtXGv1CjcYDfyHtME0dLbC80DlQwCjaHskL6DYrUHVMnLtzS/PQrbcag
+yOxLpbeIgvn+RxEdyF5v5l9grjUMSMj7pciCd0lD2/4hbRxZ8l9JAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM0I7R0Gc6nQ1VSsCZi9kOwL6d/RMo6/ke/9MTlqpzzuXw9K2S79JS81
+95QjZQPZufHn3HsBTy5LW76oLWUhFi7PtSFdDLplM3VY1xVBsj9O80XDC1rCVJ/U
+AQAfuslR/1cUrC0zsU3FoUX6A/23MHYAHEBypNnkqldx9YduknMTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+UXMhBJT8n1VXheWBdQSgE1u8qqPfhD9WNoSxbLK+hgxsUr6b/kP4dFmnWU/kgH9v
+J0qLXHpZwfEijvExYBvI823ybpU2aNsYaKw/rXvKTC8rJ26wZBkdk2HZn3N56MfH
+Ixmnxxt03lJR18MXv1lPKviJXTYJ5Ylmq8qVxjTBcHk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAWcqkGP5Ho+cK3+ips4cQ2spiPT0LARJq4JSVxMnXn45AINWHrOhAZ8w
+9ofobIIq5mxSCWiK9AOtoXYLcumD2qfUuyXqtAtzgeTY8PWbZFKcQ1KbEkAM9vk1
+GT7i3EfTUAo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xDEEBD08B Juan Orti Alcaine <j.orti.alcaine@gmail.com>
+ntor-onion-key bg2W1FQJXVuWbdk7NXANaR0CsMYv/wk53TI2h2M2gwU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 uTDSaLMvbU15IR52EgovJTK1LzWiBloggiK7MQGtpgIS5imXU2FcCP276ogAZ2xWu3xbm4wp28k/7faQbZvAAw
+router-signature
+-----BEGIN SIGNATURE-----
+h3DuN0MYD8kH3wMaDcQN905DqY6NfLcLyFwiHtldUWMzXtKKOppwlwvPOzOsIgc8
+ec/w078ZF47NO9mYIsVZ7jX2gRdS0a/9svqdQnxuRemdsK8U09UEz91WTfUhpjM8
+SRzlohT7BsLaGU5N4DAQeVTf+2GZPD7OcAsbnTPEnHs=
+-----END SIGNATURE-----

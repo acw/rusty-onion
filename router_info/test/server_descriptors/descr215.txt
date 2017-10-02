@@ -1,0 +1,47 @@
+router Unnamed 203.166.228.134 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 02:52:37
+fingerprint 874F 8251 3073 FD0F 2C44 EF81 45B7 71AC 0FBE A455
+uptime 79241
+bandwidth 1073741824 1073741824 1225110
+extra-info-digest 174145504C07B5890449C5E19B2339BF01BDDE12
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANMirk7PEc+eZXQiypTG498lrGPumjn8mXSdiBSQe0PP2ZfhmcqZs4/v
+Sov2GTl9G98nyPrzUP7gdHlyM7nSo7MmApf9Ky4mV3Ft6ntxMn/1ZQfmrLg/2CBO
+77uYcsScjEgNAjAOBbAnDhijEp1Cyw4de230kPQWJpPl1QkjDpWFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJzmHMYZxyQoGfKWAb0QOlyy+SSmcaaXgC/xLbrc/cpaTBKRz/AFfzI2
+r3K+O8oVroR2yE7yZTfkr3peK71MmWY6ZipiAAwKDaE/qSLFBls01n9yWk3glkTu
+acOLTHahOeR0gaJBIfXAiM4FED+MnZJJtXFfpvl/SMq80Rsqv3ihAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Old Mate <whaleo at protonmail dot com>
+ntor-onion-key QIYRIUF0AToyawC9m6NTYxq206shCB7kORck5Dt7BDE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 203.166.228.134:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+V85Ai6i75mE9xDZzc9RI2tAQ0v1PkSCHcFvlHCBce5FSWebE4WBLoIXGzLADlg8b
+uChfCGo1IFXEXNF0djgJapvxMs1QZE+U84lOO364E55AauzdhIV+8CSy0XWEHJHg
+NVf3r5vw6wHqBoivSjbHMIsDx/hNIIa+N3LLhoFTKXg=
+-----END SIGNATURE-----

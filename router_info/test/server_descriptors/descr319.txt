@@ -1,0 +1,51 @@
+router Etorulator 185.202.196.180 9090 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEVAaHATN19SUEBvGf/HxYEt7VMmjTQiLYpHJhznFh4yJZyAQAgBAA+8K0L
+P9vNeex18WlrhYH92jDcHeh/kKNBYicahsNrOYHxVg7FvSZm/wK46QmnT9giG6EL
+0flSdWMIqDOrww6mk3xDmLRXHJ96EG0xe/aQuTozY/xr5QDcOMNwMcx7BwU=
+-----END ED25519 CERT-----
+master-key-ed25519 PvCtCz/bzXnsdfFpa4WB/dow3B3of5CjQWInGobDazk
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:13:00
+fingerprint EAFB 6288 C502 FD5C E823 8850 9CF8 5E75 2114 48DD
+uptime 388878
+bandwidth 1048576 2097152 1352804
+extra-info-digest 26E26D3B210F27971DA43189073050B9F8E366A8 r3LdvHonhf9ju/4rEtt3yniG9ehmzRxf48r/dqtyyVA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM7cR1yUF4XvLOMbP3Bn7kpWHcUPdaGcyo6QNUPv2c6q4AK0n4h2j4ZQ
+L6zkb71PetcXxzfVEaplEjH0DJWX62CdzGjnLmk7FYylhOylCwR0jN8q8HcZED7f
+lR287B17ikQOV3/uFqfR6L3XtxLHlVvaiNX6XjkbZhtlun3lGDHJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALA1RmesTPOXco1KK+Y0UhaGClDwQPQ7XPh+NzFfuP2rVnxgHXzs1wbR
+nHpjI6WcjqJgA8/yxURxdS1DVAcCGBlLH6XN2Er2NZCoumr1z8HwtSool0tgfMFj
+WwkKJEvezkielciELYwHZaWnSUed3XpuOKqPV9pYhp/h0lqD84HnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+CG+hQBhCWVXq9/bbtldfDDbe7AMniwtmA+7JJl1YfaoaT0PbovXyc+9bn7akxViV
+zlXNFNXculboLe8EPUUZQN13ytSBS8jgfJ+CjWAPku4ywLt+b0GqOZ+2Mp4DrQHY
+joXgdhB76+zurt5/W3dgVuDIIC/6XDYxokGtKjGlOFE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAT7wrQs/28157HXxaWuFgf3aMNwd6H+Qo0FiJxqGw2s5ALHvtijVE0PC
+6sa1lWreykYpkaEZfj+VBhFCkRiyy9DOYUrWnagawc8PUX5wZf+byT395UdRWXXN
+gTb6rAoFSgo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x641338DE Patrik Schindler <poc@pocnet.net>
+ntor-onion-key 9Gvk7aalLXQn2HA9tOzNG73VfMHHCi2ixDIItO2Qg34=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 5ZbLLvWkQDSIOwSPej+bsdkCXy5rKsE+38zW1O2X2xWGSBDJp5aLsU1cbikbS+Tnn89aNeTaTkd3fWJ1ar4sCA
+router-signature
+-----BEGIN SIGNATURE-----
+PNkZ3AuOoZUGwJqwbfFm6EKFqkWz9VDnu15AwAPAetkcDR6dO/3EL+e935RdsYGg
+o0dIRZjIMzruS+AwT+wDDbu3SBSrkfhXSJzTwVbQSTkXS4L+3Z2F0krVzxJor2AI
+uxSy/lnLYU4i7dY9YpA39ZZzXyummzu8SOsqw82aEVA=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router XOHrhys 192.81.250.118 443 0 8080
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHdARzr9WieJ2viS8wVi7MZ2V5dO0YElWwzq3l1Pfew52dFAQAgBABgFL1P
+X+BpETY1X25YT9hz0FscC6C9BuczIhDNUmFYAAbYRVlU10vxXqDDpv14ssLlAvjP
+JBippJTCC+VDAP/ob5wTbu3Nuai02DR5FadViWeBMHQ+QOVHYI+C1h82mw0=
+-----END ED25519 CERT-----
+master-key-ed25519 YBS9T1/gaRE2NV9uWE/Yc9BbHAugvQbnMyIQzVJhWAA
+platform Tor 0.2.8.7 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 13:31:10
+fingerprint 3D59 CD50 1C5F F984 1F14 0E1C 1FB6 C5C3 F56A E996
+uptime 13903527
+bandwidth 4608000 5120000 85880
+extra-info-digest 28F5BAD843A72B95DAFC477A29DE374F157754CC XtWHTyuD03I0JVuVfnGpQ3lFOVkqJYko2g3I4hzRd1M
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALpgtuS+fyoZQexTJ6sRRPeX/9uQwJ3IaR+pwg0wgWqgbLOo5TmL1aZn
+mwjZPVr3OaUG7Jia1zMmVksIx++eKuA14K1sipE9mG7/ibZx3vEGVzykejH4UtOh
+kDx5O+nBCQ7fU53NE7ROemf/fSZELB4vEOup4JbR/JsFXWClArsFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALFSbls66oLY9rYzcpabMRTpOtFaBi6mNStjvtKshPuxltacwvexuBdS
+cHEeLRSrAzPXy5xHurfZC5mXgzteqjikylORjSYeUOtTAvJU/V320avkCulqSzkP
+TJKtZpq7RuBU9ACJC+42DdVnOGsZzES/+TsiGcLs51Rx4htMLXmjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EWH06OZYOfLvWxP64xjNcYqiXd0tyy3o3kJbjgJn7VjMDcJFy3kBdxFnJDF2VoJV
+DVxXwjsH1CSaEz1wH0y45TUh6/P3IvESjNNJfLGG/aAorjATVI1ihA4Bf7mkSOki
+hpFhnUo7YaFADm4s8OuYcyy4jLv1YuthiJNcA36uaZs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAWAUvU9f4GkRNjVfblhP2HPQWxwLoL0G5zMiEM1SYVgAAOKxh+YXKKiG
+Zz0WwTm1RuqZh6aSmb/Cx85saFz/xa3fLsF7PfOY8pyZD80byylDVJ8DOa++5uoo
+Itezd+l9YAU=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key 6c/yhA+FYa0TbX+RZ/tu3bAz3YX1uL8KI1IspWsXYEo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 mw/pTWv6OdbXsj2C6db7yccn6R7VAEuAi7E1Hs6iApF9db+N/Q5mAY6Kqw+tybhXKO8wrROV0vPXpDeXXP5tBw
+router-signature
+-----BEGIN SIGNATURE-----
+Z+unCQMiTsj+sJYVfAScEMjLvvSAHFFuGFiqUjr8fAuJhAF2zNwi73eEWU6HwozF
+ae+vPm2eCy7PRJUH2Xnj6psmEfT72O8PSDHS5vxBN9yExUZdl0/dxBff9ya0Qgak
+MjZO2+jipTJG0rXrBMUgUhEXd6CwazPyXlaf7qdYx3g=
+-----END SIGNATURE-----

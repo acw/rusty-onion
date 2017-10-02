@@ -1,0 +1,30 @@
+router torrelay0815 84.180.209.214 9001 0 9030
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:31:31
+fingerprint 6C7E EC6E 92E2 2C9F 1587 D7D6 B0F6 2CC8 3197 A0D9
+uptime 5795
+bandwidth 2560000 5120000 627856
+extra-info-digest 8C10C7F620E53E877C5AC7211848400FCCB4ABEB
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALaocDAE6TBy+ImMKh16fHmDkixQqYmTTRXFup5PIaMMlKsZEEDqfTFd
+DFlFJdFmi4ET1+zzw4IcrBt2/7wUhuusPrL4rsSYKU3Dxv3XXpqp1zQmMnamf4KU
+xXL9G7mxQ976XYJuXHk1DrFTgLtDEYjVk6D/HeppWth/EEvb79yPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOx4iYuhdfBpaf3f5YHMkWgjOwsP1EyBs/aBBXBKAqkDr9ggXW1p3qyJ
+A1lNhfhbIIA3WyLLn+45mPF9T/p0dMJl/llMegtJvONryDPJnDF/V1REyoGQ6Lga
+1OLFlRppgFV58ge009B2/S5rMpCfzTk3vGucllBbuqnKfqNn1ohFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Felix Hennig, tor-relay at [my name without the space] com
+ntor-onion-key EstJVL2T1aDbVtXUInRPSYuixJ2/4Bd038NZEjNmEDU=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+f8WkXBKgls6w4i9UOL6V4pQZHg6ZtVTzwpc9gezq+B60DFOMNp8qrnQkTK4/UDU0
+M9R5S/EXmfqG7jnPCIp3Jz64jAAg6xFB52OqOBinj01JWC3T3E1VINnidlIFmXVi
+IREkUuenGGrwCImcis0P2NWB7SeZrrpZFm0vChohnwk=
+-----END SIGNATURE-----

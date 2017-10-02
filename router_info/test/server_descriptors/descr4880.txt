@@ -1,0 +1,51 @@
+router Ofen 158.69.172.226 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGJATULy4I3sSXbbe3zB0hD51wFw2WE7DGwkSlegWRBdz9pAQAgBADIu68e
+t9ciToMCjw5uJEAEY/tZyw9Mo7uWf+Clu01maexJSG6fz3IHAP6Eo7WcMsmYliDF
+Y8cbk64KKl7rhW+Rz5R7CPzlz1GgIRh/me4c23IOMt8p3yPQmTKSQvHgdw4=
+-----END ED25519 CERT-----
+master-key-ed25519 yLuvHrfXIk6DAo8ObiRABGP7WcsPTKO7ln/gpbtNZmk
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:03:27
+fingerprint 6E30 2A9D 662C 5071 60B1 646D 5802 5B9D 794B 5253
+uptime 466220
+bandwidth 10485760 20971520 2330516
+extra-info-digest D687A132BF16EE5E5A17D8D5AB53D21595472C6B cAnXPpC94+FVex+Rw1RV0H8WPOXAxSLbWeKw4oVFnxc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKVARHSr1WUV3kV9qUrVPgO33XT9prmnlVYHgSIWbvybBg72GmO5Zi5I
+VEHpHo0nO0e47eoW9vqxuuw9YvxryOYhPkWCxuyuSfWDlf6wo9dyxPsrtS6fHBI1
+g5Oe44HR0C/Rw3Xa9GK8WDnX20LQSDCTiioNdB7vEiCByFYxy9ejAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALAN5bw83sVi1h+fG8+Kw6d3ZMPg1Pk8LcCI8Ei04Ja2LDQ7Bzv7glFC
+oPGK4w8YBNxgtc1J0k9+kvD+Vd9cQge5OhzrqQZ8XvRdAz86J9HhwdE3P7WCkECO
+4W2woVxR9krWJpFBUyBQ/tagK+0ROrl5GnCdkGrlQzjbUf6YKLPVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Ot/eGmA12b/cay0IZLQGVKKCK0Sxm8KWYhvTUNiwGioZzBsxgbDpZtfW9E3Wo4FZ
+/Ng3C0LKRLZnwN/3FjAn+soS38/yiODigkKrwtilQeu1FmxmdLai9SDa7nvIfsmj
+BKCiqLXP4x8O6JFvbG9bti2oN0rLRQ1TucP0/g41atk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAci7rx631yJOgwKPDm4kQARj+1nLD0yju5Z/4KW7TWZpACpEhZCT+RBT
+4r+nu4dJxrx9qnF5MJoP5Qd43WSRDdWMzeiB0/nKyczhnY23MbvgneZW2IzexYwI
+QomzP9MzOgM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Ofen <private@non.net>
+ntor-onion-key QKzEfiO8pNTNXx0IKe8dB8O9TORJ3i9Sy9ynn8XYdkI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 UAVa8YmtQiBl9GppfWxd5lasiWIDs66EqCUhJW7UaksNtf+tnbScuBj6ZiRFWwSaiHCBJ174uzwv68Q78GOFAw
+router-signature
+-----BEGIN SIGNATURE-----
+d4WhWnbztgVTMV/j4nVXdahdw7REzhKbu/OAJ9mm+CytKdAA1Dvr/tMeykHsFrpm
+aNU/IbeQnKDP4tnhq1J28LPN8mDldTUXDcdehJv8vx1Axc3VdIdSw706TtM5tIIr
++zmVrb77ugjkRJQYTAyclmgM1j9IfThh4U65ouXZnkQ=
+-----END SIGNATURE-----

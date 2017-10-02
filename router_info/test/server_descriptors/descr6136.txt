@@ -1,0 +1,70 @@
+router FR1h0stedt0r 145.239.74.47 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKeAZKBGJPmRB+Iksi8G0NcwnEqHY9pDbX7qAnSHdjss4xTAQAgBABK+3Qj
+QfwJVMKQWgiqMnz7U9xLwbkL9E4P1vkNS8HU0tkZ5nUMX/ujrjVLw/zvCVYDBpWU
+KOKnKpuQ4SyS5jpSlxxYBMrIa7zSM+47cnYww4axzfRFA1IywjrKb7Ho3A0=
+-----END ED25519 CERT-----
+master-key-ed25519 Svt0I0H8CVTCkFoIqjJ8+1PcS8G5C/ROD9b5DUvB1NI
+or-address [2001:41d0:302:2100::9103]:443
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:29:20
+fingerprint 3C84 8859 0008 0E74 ED47 5A0B 904A DCF9 C511 6887
+uptime 1039746
+bandwidth 10485760 13107200 11887402
+extra-info-digest 34A35E596371A66D627D79D7B8CEBD206A819AFE 48ZTagnJB5Uyxu4oNjjAHYWQfqw4fajaIx/UqUJ6Wsw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOXjYRSfjiNFRh75vRHKdkqgQlYFimfbwtDHj3eEYs6vJgUvdT/ilL4a
+HyFG1MBNfEEmKU9hTnOI4USkFAgdlLhAtc0fucfx7+L5dS1D3nhmxgWtVkGQrWxm
+sTSx/4iSzt3dvlgir5x4WiJzAM3PC2zy+daht3asn19AfyKcHZBRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALPPfIZgdanKSO0dBmUWSvGAHq1EfNkvLfS0cwxROoVuHH5A5pPT3ANh
+bKtvRnYsRL15PztuzL16SJFgNPOJdLXN8EHdvZOk98Of9zyXftYBzDYRb1KpY7NP
+b6fEIplqoijZfaqNr4ifcjS/TiXiuu9Yz5v73Vjbfy8eHkpn5SkBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+iNs0KcozemXBXuWqMCK3Lpn+SGwqO6wyoPg7rNKgUH3SS9ChL5EhsyDYuoOkXcfA
+1C4Q1mYOvSdkEjS5linq8AQRcPJ0QDlS5+RYsAyCko7yB6by7EjVHsvHxWh/7UDj
+9WTF11/X6OS33euvVftXcLzL5vJymKAubtcHJlieo4I=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMAUr7dCNB/AlUwpBaCKoyfPtT3EvBuQv0Tg/W+Q1LwdTSAIFomps77V/S
+8Iv5LBQLp6QzBjzSGCgvlHMNb5SDvzGa1AG4zfYvCOzlB8yT+0fBaC5LqPNjt4V2
+GpuMuwbsdgw=
+-----END ED25519 CERT-----
+family $0EEA0B924A7481EC0497304C2BEBD76E731B464C $4603E997819AC615035369A9DC947FF0CF049D30 $5608145DCDBBFDF4D566C90DC72220298F723CFA $BAC503E941F649EDD25FB61066DD08D0635922F9
+hidden-service-dir
+contact tor(at)h0sted(dot)net [tor-relay.co]
+ntor-onion-key 5nhRWIIgSZTW/SbcNslY3kqTggGFabyFwMeQDg05SFw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 145.239.74.47:*
+accept *:20-21
+accept *:53
+accept *:80-81
+accept *:110
+accept *:143
+accept *:443
+accept *:989-990
+accept *:993
+accept *:995
+reject *:*
+ipv6-policy accept 20-21,53,80-81,110,143,443,989-990,993,995
+tunnelled-dir-server
+router-sig-ed25519 WLd9IClWoHN5fsWyrTPW19Umqs0t9Wtgw7Q1ryQ+++SrImczpTg9788ggLiwl26El/dg/zt9V1c2xwwA+3lYAw
+router-signature
+-----BEGIN SIGNATURE-----
+q0OYVaxwPz2w1D/dk2pBvpYGfFuOAGqbMGWdT//w0o2/+XcW+0qBWYowAc0Xydpi
+ZB5VcB8UU64vYrT7+kY+IBsv2rWFTVLm5S7WIrdgsRG7HBJK1l0ToAXSBHZy8nGP
+kFGlOsAqcPL2XnxM0jv44RXUbDvP2xy8/kvEsZ/gZtc=
+-----END SIGNATURE-----

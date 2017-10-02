@@ -1,0 +1,70 @@
+router UK4h0stedt0r 185.70.10.238 6443 0 6080
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHRAVhUUxyQttOeurNIueIEdiDOM/i1VkUYJpuiw+YlVIHmAQAgBACi2fwc
+4Y75fmQTKTAt/NcqPsnlsarTT0hLLq1QvgTTpm3YvFV39AIh6arfq8w02WY8GY3O
+3kCpQysZAVTCVUt0iTCQ3hQ1buWyQ189Pd6jRfSm2W2DuHgrYB3MRwAWHQw=
+-----END ED25519 CERT-----
+master-key-ed25519 otn8HOGO+X5kEykwLfzXKj7J5bGq009ISy6tUL4E06Y
+or-address [2a05:26c0:d1:230::4]:6443
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:43:39
+fingerprint BAC5 03E9 41F6 49ED D25F B610 66DD 08D0 6359 22F9
+uptime 264721
+bandwidth 4587520 10485760 6126205
+extra-info-digest F87FD95069C8741B6FE78068766579B634DE251F kVT3sCR896DWyf71sHOZCk6hF9MJUCrjPlI5txNNuvw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKMLok9sNLjRmyyImNW7BY/LacA3BufB0xkgRIp8hhNFU0WaH5X+53Ld
+7pSqdfOV069XS/OZRjoe+LJc6IVjCIk6GB83+KSbHypYfrQOgEG2h5qBndT0Bcib
+UMKKmn11R6tRN9zvCWif7a0JlPlxtMF4ML+T1TwIlMKNnxqqxctZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOYwxQH7aIanYIboBiFXI3eP9fU71XHXGy4o3BaG3EzAPCOh3uVxzLBM
+W1V9iOd2nY8Wmgm0weETEw/ZisF074fzU1NGzeRp6mhp/ViPwPQ+vFxMqV2xZJQH
+SARBv01Hb4yqf00875c8zySZyJxjMjxvLyeTaQMOdCYWaj/OubI9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+HArUN6P9xK4Qq3upEwCHk7GC8KHn92bkjO4noowF+qrs4GYmH3QsfFv6+FBLSVmX
+qGSbs8o6WwzKhaedUOVKGpkGEDc0CaUbK+kmAA+sp+Ix/g3Mpi3rG2zUSlGRUiNC
+VQL2b/Pf2y7RUiN/+YxaOvZnEWyCEzwQHqdJ2yT2GV4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJAaLZ/Bzhjvl+ZBMpMC381yo+yeWxqtNPSEsurVC+BNOmAEuR6G0lp0eh
+o5cK7uD/i/XW6Oq29JbO06D1e7kHICNz0nOF45ZmhYV2G0NO0rO88YKJoDo3E6it
+gsL35a3GXQA=
+-----END ED25519 CERT-----
+family $0EEA0B924A7481EC0497304C2BEBD76E731B464C $3C84885900080E74ED475A0B904ADCF9C5116887 $4603E997819AC615035369A9DC947FF0CF049D30
+hidden-service-dir
+contact tor(at)h0sted(dot)net [tor-relay.co]
+ntor-onion-key jIEZbvO9HyQW+Nhm4NHyv7vNS4+NXaqyTrEHejO1vj4=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.70.10.238:*
+accept *:20-21
+accept *:53
+accept *:80-81
+accept *:110
+accept *:143
+accept *:443
+accept *:989-990
+accept *:993
+accept *:995
+reject *:*
+ipv6-policy accept 20-21,53,80-81,110,143,443,989-990,993,995
+tunnelled-dir-server
+router-sig-ed25519 sjAxElZVseh5b4EuSwWzE3ciFl4kangm3TCH4lqaAjwivzDV3UixvoXeXVX6TRbjjrcdCmQ2JkH6h3e3xXgHCw
+router-signature
+-----BEGIN SIGNATURE-----
+V3/NZzmb8wiLvfGB4UrSVTl6HpMZ6yGh8lDQBKuXQNaF+kSknlHcFMv4ef7q78bQ
+/cbsThosW5HfC/aHH3Hi1h3C8r4zGmKtQrXQne5m/SBJjx/tJIrn6NHuh4PN2sPU
+CITFfQM55s/OKKy7msdZgHBI0SVS91pyqjPAyUmd7uM=
+-----END SIGNATURE-----

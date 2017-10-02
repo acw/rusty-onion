@@ -1,0 +1,41 @@
+router torsi 198.233.204.165 443 0 80
+platform Tor 0.2.4.23 on OpenBSD
+protocols Link 1 2 Circuit 1
+published 2017-08-28 13:36:46
+fingerprint A5E3 D05A 4F44 A915 C429 BF71 2334 A4E2 8E46 A10C
+uptime 42667511
+bandwidth 10485760 20971520 723404
+extra-info-digest C8F7DAC1AB1D741FE4427E43C5E2E1D25F688F36
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK674Ezb3OqXd9W/2tiu5D1iR1goEV2WDWdFXCKWf9IDwqcVNdkYe5Nm
+WHJNRjJAS3eY0PT0U3RcUnuJsU3CpWttIDZqG7VliM3j4UwjIpovevzt6HVtnyE2
+PSk+1/93D29ztannr4WSlPgLYa3AsWLtf5EeK6A2y649L/Iq8D2XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPh/qnE8tTWPvLCHnbmjpFWH66Ju+OM/stt5G34aQHokm76sHpAd5L4a
+5akbNkMOOyhTcR4Gfs4a292EkD9JU06iFtX/OGcM/iOF+aXyM823v/t2Z9eFV3/j
+xG+zCfNzSCfkAuogByvbHub4utVxQUSRpABylQFJhpZLdFWuykfxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+family shadowhouse torohm
+hidden-service-dir
+contact 0x12A3F2E0 <crash@neg9.org>
+ntor-onion-key a4Jw65WdgbDcUjl8gt9xy08K9iBfoC23lK8JCc7lXkw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 198.233.204.165:*
+accept *:22
+accept *:53
+accept *:443
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+Vo0IU3pmaBLQEsnZ7zR7UM3cMSCFumjjF/8itmALR9EeUOJpa/TybK+k7cY/lc40
+NDOwLaNjTTykB8OR3O8q0h3kNjQ9js3zJb7rY4iGPq5USz1Y8c72r+qqFpToFj7J
+vszYhf/oz9bTdDP1Q6lueZjG8wJ/h6psQ5ZiV4kX7yQ=
+-----END SIGNATURE-----

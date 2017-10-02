@@ -1,0 +1,123 @@
+router CalyxInstitute07 82.94.251.227 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJpAa9kQAmCRVaaWQ8CFt+xImARJibEWNGUJuxaif7DP//lAQAgBAAmWdrL
+O3pvPUadcOeJudlQuNOV6OePqyFzyV6O/r/ZBhjeyiP9iCvR0bvqoQ2QuEBHWglA
+Z+k7pTyQ50Ke7OVXt4FbDSw97vJqzZ6sQ2DXyyHpjakho1PQLPBTclCBBws=
+-----END ED25519 CERT-----
+master-key-ed25519 Jlnayzt6bz1GnXDnibnZULjTlejnj6shc8lejv6/2QY
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:24:16
+fingerprint 1B9F ACF2 5E17 D26E 307E A7CF A7D4 55B1 44B0 32E5
+uptime 972091
+bandwidth 32768000 36352000 19041228
+extra-info-digest BC747BD892062D41B8D08862E96B4EB4AC4D5CF2 JyFx8BHPzrZCG9NUK3iwlQyAB5gjIaMHgS75KnVvwgw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJvhS9v8hApp3EbfESoF9x2jgaaaBGmtFpYVvsTg53rxgPKXpYR5RQw4
+x3PCg+/a5n4d/gHLOmCtmSJhIyIc1O+sYJPJsAWQb3NkKwKyAUBbjxh2cCgCJwjD
+MhVsnqk9U0l7iuNcY4th7uvrHTqLfo5VeVe8lT00upMYeD894SGDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANNhKa86gw2q952xDQB0KnMuUY4CV9RhFCtwP2fTiwKeezg4ia6JogQY
+UebQhuLunAu61Xh1ZPNnElL1B5gZeEw8it1O7es1X4b3ISk/OpIfVyJGi9IxFtel
+V4q3BCqJxTLgMTUKNgIojGiRn2bVsBs0iyuq0izG55O4nKajCkR9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+IqJB1jFbIA7O350F6arvgs0FANxScDyGXtaE1NkVgtDlJIZGr67GV3c/deMCigCX
+jznBytBUCdMD/h8Yf4RbTnVkR+M8bHfNzjl6gcuzsX7Cozq17ohM8pHUgokrMo6H
+BOwTBUCqrih935sEqR/k78lh0xvowFj03PQe+yNV+Zg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmKIASZZ2ss7em89Rp1w54m52VC405Xo54+rIXPJXo7+v9kGAFc29mSzo21F
+eYhagMkdSmmpDwRzls/3CCXbZzAH8s0jfdrO7bEUZDKiGIWoD2L1Q+bzXTAJPmlk
+H/Cks6UF0wc=
+-----END ED25519 CERT-----
+family $0011BD2485AD45D984EC4159C88FC066E5E3300E $0B5E5E70FFEA9C7F9FFD13B8E16916A608F3E9EB $3329E736CCA16449D02D567D42683BF1FD798676 $47E49319DD67784F1E65B5793371BE467365979E $501B3DBF250B094A05CA5DBC424AD4C3D46721A2 $6C143720FFF8469EF6A5C5B4066366340CF6C0D1 $6F4E9FD00D4251D98BE96FB1AA546FE34676A95B $7761DDC7EB1BE26D4155F74A15F12C32A36FE0F2 $84D361B736A8CD1E8818D0FC186892E91AB76881 $A7C7EB2A0DFB2E3FFFC12B7756707433DD550F9E $B34CC9056250847D1980F08285B01CF0B718C0B6 $E4D1F25DFBE484208866BA4A1A958B73127CB0AD
+hidden-service-dir
+contact Nicholas Merrill <nick AT calyx dot com> BTC - 14wntQ8cBdnhUVfYmDjXz6PbpSSX8nCtkr
+ntor-onion-key GOWnW9Vg6dlcYRdnXst/i0FeSkV0A0lDThhkwz707Ug=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 82.94.251.227:*
+accept *:43
+accept *:53
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 O7os2wF9pyhe3/a6Y0d9HyemyCYx7Er7cKRpl/mhmvW8y4eYywek2WbrQI3hHqjb7C2EHM7xHfXq/pkH4D99Bw
+router-signature
+-----BEGIN SIGNATURE-----
+IWn46BfV4AVBVbNErJgmRP82GhGN8Rlaka1dFRF6GRd3Jb4X+s9BLPLIDhhU5uLB
+2wdBKkGKCITycDsIq5M97zydUDSadB2XQNoJpYkr334uJLaw7t6DvDC1UFVnUDiS
+/woeDMvnKp1j92P+JsOm86GC4+7CQ33p9IKUaRzUFTo=
+-----END SIGNATURE-----

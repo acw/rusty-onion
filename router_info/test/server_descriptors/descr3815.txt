@@ -1,0 +1,52 @@
+router navidotchaosfield 163.172.215.78 22 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF+AQIX/8R9mEaiEa8DmxrmBelapW8klnXEMaNkESNLSrtxAQAgBABLawWX
+T6aEqvCqGt+wwDF0KOTHbXDdygVL9hOVfh9rGIGZK5Pahka36/zgClwyH2Rhcdec
+WYke3ichn+CEr72joMvOHiO0Uhhyt3Sq0yZ/9dnKB2iHNhWNJ4g2PQX8YAE=
+-----END ED25519 CERT-----
+master-key-ed25519 S2sFl0+mhKrwqhrfsMAxdCjkx21w3coFS/YTlX4faxg
+or-address [2001:bc8:2598:100::1]:22
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:08:58
+fingerprint 9622 E46D FBDF 325A 6489 1545 EB86 FDD0 C018 ADDF
+uptime 81431
+bandwidth 8388608 10485760 8408306
+extra-info-digest 93F0B6811E61702A5BC7AD9DE7A0BE36338E709B /IiNt7kihDvJM6sjjzpdpHa4zn/pk7X2j0UtHJb0Jao
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMRRNmY58NNtVTg6IkVpauodcRzvp7JEwrlB/zrLy0Iu0bW8WIMemPX8
+LbGjPcddU0g9s87pM26Zevbqs30w1HmR/DZOORI4xW5u7vjHxGauLHMP3TqNap3W
++UrJ0XFCw8HWztLxCjHLfH3IyX8SBhLIEY59XK1hhCuCuLKugmNzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMNaeFKDf+OIsLTqik2A2bvKV4Zk4CqsVenDpUi5bEneCjU8nQLcVR9u
+MM8bkJBxxXC/Z0iDMdZqCXKw4mu/EpvfLs043erSSEI1hPu8H6+9clPjoRNUGtto
+H7w/fV3/9GzriYiv2F9pcOHyfTQ7Copjw7YZribDBut7Dl02+5bpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QNfFq5HIvdw6yhQRr3CPSWRtNXLu85Xdy+x+uGNmpAVrfTTLu4DY1m/LoGF3t1/Z
+4bNRaIJeoRE0tYCvDuG3xpNTK2mBVoug7OdW4pksJts3O9s6JELLD2LLFzYjwZL+
+TLO1Jyd7LXHOK/D0etreiAlsiLl5+7jmig2E7mLc5Vc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAUtrBZdPpoSq8Koa37DAMXQo5MdtcN3KBUv2E5V+H2sYAPIDFXUVF2aU
+99Iv0Kgkb5E8l5YrwMlOIUEjNBnXrK/fgu4DZqIKz9qg1C1P86tQ7ZSWPh2q39hS
+I/rJwmU6Hwc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x9040F494ABBC8858 Jakob Riepler <tor AT chaosfield dot at>
+ntor-onion-key qqGhFmlojR18dc5x1voHwNkSNSS+S27655bx+/dKEnc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 fUEANyE7viQE/IzcTwrVUv9VLb+NETvNTLgiwY6T0MJ0YjubDccvB48AkXpB/m4oaBLrYlylQqCWwLKYIB+KAg
+router-signature
+-----BEGIN SIGNATURE-----
+coG5ovuaRepQrfrxCZ6zwJ80s7AHyCPA3lDBtv5n715kSJbAF5WJIo1drYGI8oom
+/KVh5gEvWjnJx9MIYgUNoGdtEpwCfn5ZwyiYaWHDvHoj1w0sF7yrgWQT8ugE8yJT
+RUXkfWfqg9NvQn0G2cK6xLV/O5ZGheABFpy359D39DI=
+-----END SIGNATURE-----

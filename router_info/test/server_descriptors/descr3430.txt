@@ -1,0 +1,50 @@
+router Emilegebrain 52.215.92.62 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJsAQ6YFXK85U0mX1UTlrZlTAmkrB912Xc9BDuF1IOoxajFAQAgBAAzZCSE
+wE9VeWoRMVLaMhg+81d1Fq6fjmq7WSSBT8WwfUiu7NSRVg+H6pTYSUSwJUyWD9uu
+zRYk9bPlmyHmECSf+557ZdRLHZ36fV8+flO/e9PCifCaEaADgGZXfVFnIAE=
+-----END ED25519 CERT-----
+master-key-ed25519 M2QkhMBPVXlqETFS2jIYPvNXdRaun45qu1kkgU/FsH0
+platform Tor 0.3.1.2-alpha-dev on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:29:39
+fingerprint A420 8B64 3EBE DDC0 05D4 18C1 0D49 E5D9 27EC FFB9
+uptime 7719895
+bandwidth 524288 786432 602727
+extra-info-digest 512828F4A338BAA59743C5A8FD7C122D4EC67A96 UjnQBxYslbZIPFdqqzguITq//nwis8iaVyJGgRw+vsM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMVXlbPQzS72btS4z0WvsWYdOTQWnS5ihFC+mfdVHsDwJw+x6rzVybHd
+mxuWCvY/KrPis/H3XEJxrLrlW5ZvovpmKSnNcTaQ2PIb4Ksk8S/+lO/OkClhSkMk
+gYRi8OJd3SBPjXxe751l8QYmT1jWAl1V0Ocaep9R2/qgc6qvul6tAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK3wjNQSlqNrCXBLyjtzlMTGrv3CDWr4i1/sOtHhWJHiRNxXD1TydXKd
+HE9zgTxnyaogfzmQHuoLzW7nRTu3W6eTFamZjS86nQxx3Wn7EzJi/7Xu+04+defi
+caVtRHFDu4bAQltXSW+DshwbbT1V7ARxfRtgkuzFI9k6ejZScMORAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+H4e7Wfije3e0qdl3uE72ZrG7l84NC0kIa7yYDlw5lCiodziPaaIMuUvJu+ZiFwPU
+/z7a0hzpk50GjPjM5OiT81WZARJ5LjcLwE46jmh0m63EUjgNdveysyNKnBM3M74V
+H+52yRo7gE/e3EH0Qza9Lt+heErJcuewgmpjJUmm9Uk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKFATNkJITAT1V5ahExUtoyGD7zV3UWrp+OartZJIFPxbB9AK/QqbXybICU
+KMvps6hgeDhL3frraE+e0qMQ+xe+WYwplIDmnxFQGXWq80TedgaxGiXpEJJlP8KW
+0/THDV5aqQA=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key EAWXOLRfzUmAHF6xbJTIPsDScLfRQAt+J0PEHgXEr2Y=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 pwwkKjHIt52AJUbAGfoojtmU5m0r1EA4DsGucY8UGjP37/9FkE+xFgADX56kq7bOr+yjhyc9YrIX01sBnm88Cw
+router-signature
+-----BEGIN SIGNATURE-----
+Vr8jFlZVxW6BOk2LSThtnHigHuWauk0Hz9UwXmcEcj8J/jBqvnTh8tX03h3o/mxb
+9cEExFsois1DNMYWrWTCqnG0+wUNY6dk/ycH3MJ8AEPlNgTumdX4eGEEZT6H1/Nt
+8M1xTT0IZC203gY1rqFN6A2lz08xaHj21S3lm8UvZD8=
+-----END SIGNATURE-----

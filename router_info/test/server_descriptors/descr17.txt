@@ -1,0 +1,50 @@
+router WOPR 99.231.119.201 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKzATFk2gCW2DcVqHfbuicRelvBx3XYhMEEbQhiNzuycpSGAQAgBADDrLA1
+tNWJrlX6ESqi38MZIGe3p6DcmKYy9/v5nqJDP0Y0tvuWBqn/y1OKpZYG/v4Wd8RL
+JrjUtnSjCOc9zatyBollMqaBYddOL+6pxdwhup6Xw/rxfzEJxS7Hxr2QTgc=
+-----END ED25519 CERT-----
+master-key-ed25519 w6ywNbTVia5V+hEqot/DGSBnt6eg3JimMvf7+Z6iQz8
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 19:08:33
+fingerprint C72E 1013 28C9 CC6E E0A4 CE65 9DF4 43C4 4A83 FBCB
+uptime 5
+bandwidth 1073741824 1073741824 0
+extra-info-digest 3CE39A453902A4B82ACFB2A4EE4307187DC8DB58 HQ3lmKaw2h9PvKZ3DNFcakOsM360bx7SMrm3M99DNm4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALDW+0kW5eAVWtmFYmXCXJ4R5TulKW3zJi2VvlVWGvTFcA+AcwoCxgTm
+Ae/DSPeCej0AYdSN5KulywqM76f4y1TNODJHIPjbWDRug9P6NoYEN/sVaUTH2x7K
+vBM1KA9WxfwyBfeobR1aAaGnYxwQnX+gXmmF9WtLbmSBDdNgVnZvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMPhAROiAW4/Q0rK1uB5UULkFrCE6mhPX9c8JezeSwsIG5ViJCjQpeFr
+xfMQIUVoYoeYw9GtVD0LLOVVugkdhOtloLBVqjyV1AHDFPnQRvWGNRoWmqZgEEUM
+8FoTMN77ew03Ala11T+JLOBcxlE4NrJqPAy6CvroUYsxihiehtWxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+FGYCFhlPY9MnZJfjhJFiBR/opJfT181zg9g4a6vo3boH5sXKFS5N3Tn13uDPwxXy
+wCgpAVfC6uwne+WXmH+dZtwX4N7hs6yLl1JEIFYDP6qcZ3WeahWhXAIB4lbxZGhG
+ke+6VgPfV1XF+1dTAPOg8M0IZdJmmszZMhIRP1bpn5I=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAcOssDW01YmuVfoRKqLfwxkgZ7enoNyYpjL3+/meokM/AFxNrzHWcnK5
+ca5uiMbBUxSCYxGgHjqelVccRcMJ5G+5MXp4HAnSfyGn6H7ZtaDPbD3pK0TeWI8E
+KPXKN5FZMwg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact torFeedback@gmail.com
+ntor-onion-key MfUYjnXiv/Rb0Cyhhd3F8qjqrY7xUVJH+0Mm7rnfgX8=
+reject *:*
+router-sig-ed25519 r8H6ifSzGPzkINeYfOLyDrmtrY/FMQznDi7TtDgotXz4X/I2dY1HUBZR9h54qLcKKtZCMryR/X+XgZtWpJGTCQ
+router-signature
+-----BEGIN SIGNATURE-----
+M4YTsegSAFxRy1oeDLJ9a6MMnPhIwv5aTOt2D8P4Wxoff3Ksg9HYxWSlwPvHH50T
+lo+TQNbq1rf2mZjjLzW2NPmF7W4niO4d2+RS4TTeLc4D6S0k1C3/YL07OwZB7gJW
+fZ/oU+WqqmRIl2xrW3Vt6cqdqJEbYF8mKioTUpnQZjY=
+-----END SIGNATURE-----

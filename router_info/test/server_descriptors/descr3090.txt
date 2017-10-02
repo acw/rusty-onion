@@ -1,0 +1,87 @@
+router forFreedom17 109.104.42.116 9001 0 9030
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:27:16
+fingerprint B11A 352A 0BB7 3F40 3828 CBA4 EBA8 9E18 7E0E F9D1
+uptime 5037
+bandwidth 12800000 25600000 4956494
+extra-info-digest 31EFFA5DBBF6D52A1B86E1735B78861809F76CC8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMRooFdHMT4qooA2pKIOWcg48briWAZDl4F+6g3BOjHFvdlXqNdUewBj
+URUHQ1UmVS5kfDgwZAwzfAQc+2rMMRc5BoiEfBoPK1TSzxnsVcxl3mpy031ZBHGd
+qWzsEojjyirTZzz1lVbbngZv3oT3kGaz1JBo3pBklditkB1bRSwNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALXJdnyy+bAvV2LoqECsMokHHqPDUeFz4lC8H1xLhhxDYXFqFMlMZPEU
+pKU/sndmHTGnEg5Enf1VZLZDn/Zm+U9bxIWWZIU1cQ8y9UybKegaGeXHx2lU8WWz
+QnzEbfzvmBGG+PkDKzsdZenaf6NB6zvfrU8mln08TNUA4/7GcLtJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key bclg8U/6GRycEUVJ2lCxno7ZwFbi9vsFg27oSutsmVQ=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 109.104.42.116:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:81
+accept *:110
+accept *:123
+accept *:143
+accept *:194
+accept *:220
+accept *:554
+accept *:563
+accept *:706
+accept *:873
+accept *:989-990
+accept *:991
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1293
+accept *:1723
+accept *:2086-2087
+accept *:3128
+accept *:4500
+accept *:5004-5005
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5269
+accept *:5298
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8008
+accept *:8010
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8232-8233
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:11371
+accept *:19294
+accept *:50002
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+F3u/anLNd9QDSTVku3EogKig9/ZJO0dPDQGoRRNUIMPA6kj+XJSKqmS78hBWXvxE
+u8nAl2Pe9pmvzNEZQdneYmKU/gdzxRHW+kW4J6u3qum9x5NNtnWxUtbQ0pTtRMka
+S0c9fVKR26HYsJcI8KCHOqlQ/539+tevcdeFY3azw3U=
+-----END SIGNATURE-----

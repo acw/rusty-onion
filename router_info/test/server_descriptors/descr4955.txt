@@ -1,0 +1,69 @@
+router HootingYard 185.86.149.175 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmC/AdK3NJUugs5aPHubjYznIYs+be7XbU9nSVs/gJ2VztFPAQAgBACx+Xc6
+jTk0tzyj8JCGOQZEN/FhC0RBi48E06uWZEeKeYw/4uPjQ6xayqPDjQmwKT4dodlA
+BoZgHzdPL1p/eNOeruFdaSx72AUlinuN1g9nwAoeIkoflT+g+4SHnomUyA4=
+-----END ED25519 CERT-----
+master-key-ed25519 sfl3Oo05NLc8o/CQhjkGRDfxYQtEQYuPBNOrlmRHink
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:13:24
+fingerprint 6B16 065F E4A4 1134 A5C2 9DAE 6757 447E 766F 58A7
+uptime 1814398
+bandwidth 204800 307200 245588
+extra-info-digest 67C0E23EC10FE5301F8FF8FFE3E34DBD19E9B07D dFKGbuf1uQDxdZtX1v9wICLO7eawfmbUN5QNGay7kFU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALl2WarRBIys2D32JsQOKng0KHEvoUIGikj8DCDe1XbpIDKgrtsLzHJg
+u9TuXAjVsG4yh4riU9me/WlBNNtVApVwLIeJDDZYT0rhAvnR1j3hIah4YsisuKJb
+/vZw0e+YdMoWADZmgKA/yZGZgzUnQ6p+LZwII6p5JbeznFO7djObAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK9TmEky4G8pKkzO/KqJxQZ+p8YvmqLYyELOb89bg7fDiyJgn/pDX4Fu
+hB5jijEIQ3gGZDlgOlF90nJ7sU/TBYjt6xRTT3kbq9TB9Er9yqVsFJrclHt7bqsY
+Lfiey1paQwO9YkZXSyZqKXgxnDCT8nS2UYJGOBiV83Zj0epeyc3hAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Un6djiFCpYT/7dvFo/pT30iKAmna6fIXFQDmcaUf11CS5oO+qZtEy+aIfrvgsFHm
+BfKDzOk5MhLDXXFNfF9MK6oN8zS9qFSDdjw+YxjDcANcNlRNrDE4ydpxXHsSJ/yG
+BAllgWyQkYClz+8EnywSye4BtH2x6VZWOOLQnRGssNM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCPAbH5dzqNOTS3PKPwkIY5BkQ38WELREGLjwTTq5ZkR4p5AIV1qf62wsF/
+bkljwpS6lFdOwvFMi+FoY3InEuKgg58rPU+rVwo8XVMlNTwfYdSHPLCQTUr6qFfP
+yRiCbJIrAwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Sheb Hauser <shebhauser@hotmail.com>
+ntor-onion-key EiIr5ukrnm27NSB/J7SwA24lMgIDqinLCsRsZ1ZrMFg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.86.149.175:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:465
+reject *:587
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 HD+uwj+0Xzk98y7FODPlCpBZ91zpwQEViVDKUyi9f+x4no+SgRzp9bV7FIsdnS406JHuycVWkQoWNAOaJ9V5Bw
+router-signature
+-----BEGIN SIGNATURE-----
+ew3xip1d5PxIlKzMExiQooY/cidNx1ElgiOlDX2BPNQu9bkuH6RZ/Y/6H64O2WR9
+8UMGwEBxYmkBTKjOKwt+x3eXqgmQUb0kVHy3ZL3qh/ZELchN7a+0ovEnZecUz3cg
+L+Ah16VcjAinWZfQwYHg8NxkJKk5umu36MGr8729emQ=
+-----END SIGNATURE-----

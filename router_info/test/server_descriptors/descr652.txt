@@ -1,0 +1,51 @@
+router rochusberg 87.180.41.28 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmB+AcbxfF4VfmLl+5TpXA8YQ7QqVDlt81SVaQlQ4l8QqxP+AQAgBAA+hE+Z
+7I7FT7ccxmjl1eg5sg6PKnSVyWXALbK+pWdgFRYcH4QvKuhssHauF5dgSxdqA2U8
+u0qm2xlHlDRH+CaeKNcTRDM2mYw4v0YluwiXrRDPqSfAuJOO8BrT79quGgs=
+-----END ED25519 CERT-----
+master-key-ed25519 PoRPmeyOxU+3HMZo5dXoObIOjyp0lcllwC2yvqVnYBU
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:30:49
+fingerprint 79B5 706F 7F5E D34A 4E11 E6EE EC17 98B0 CA0A F5CD
+uptime 1442
+bandwidth 1048576 1310720 1144311
+extra-info-digest 4282A09EE1126C06B6ADC843772E991283D10998 M8RFKcpZNOj4vR34NexRalcCwmHlaet6u0RX+x9bQlY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKvl9BtCG//QeZ/+Eh9blqGlASENHGX0KRLp3xIRjNHr+Fd0N7ImRX1c
+c1iOHcx/yuq03pJzx75IwsnieVPIvQibnB5FPjKw+skCZbhT76Kd5dukjH+IHDEx
+6JoGdsdKOzswcd+VGeSlQirrauDRA/5nwcEnp3fL/DUSCTbQblNrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKf9yjP7ACHoes1tRuz7Xl1hAqvB9CwpIKU1QnKNmmSpmsdiO2DRPdSf
+r8D1iT68lyCX5Pb6sSMoxiguerYzUZA6Y0rcsJ0AuRGmxaXFWBzNkfQbOfOQn0fw
+Ivq8jOx/gA23LWEiWkAM2xvEW8D7fNJBKWqtMe5OsQuSlx22ppS9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+df6iCdX5O85HfSpGi/1uF432Ln0S7E1eQ15/QHh6ec3jJU7C1qWGKGTareJT4zYL
+A22x82531ir/cronsqFMRqgeOwLmwIbgi0rwbDe9oTrvL+BQugYSJxi2VkNZ0hbA
+6yJVsDgiO79YHBbnhMcccNKXMOv5uxuPHSm+rfWlFY4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSAT6ET5nsjsVPtxzGaOXV6DmyDo8qdJXJZcAtsr6lZ2AVAHND4dtG6KF4
+mfsUs9Ip8usXwWE1FPZYgaRaZQBneq3mKGamG7Q09tafMIrTsax8xhDZlf5kyvnD
+JD8iwhX/PgU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Heiko <heiko.gw(at)gmx.de>
+ntor-onion-key sipYDZvs8RWGJr/g7t2p0fBW2RcZrEfH3J3c6mohxho=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ry5i3VWsZWYpXmGcc+EHigBfIEURQAuduZnyGShsxeHmtNVCCHtcTOdb+8mYKWtngzXw1RUZeAlXuA5A55CQBQ
+router-signature
+-----BEGIN SIGNATURE-----
+hDymU5m6/2fhKcCpWZz+bR+X84srhFR1roMg7mYiUCDefIzGQYf7qicep6EIoEk3
+tDrzioKyX1qw3d8Ar/sYes/wg0OxZVn5z8bkN3/u65uyW7jC1slAAz7bK25C9OaQ
+MqKishGOwDuNfqiJAnMZKuK3cGUqQZWU0PdvBH6quUE=
+-----END SIGNATURE-----

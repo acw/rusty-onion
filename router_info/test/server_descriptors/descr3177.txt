@@ -1,0 +1,38 @@
+router Maurer2 82.165.142.79 9001 0 9030
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:30:30
+fingerprint ADFE C9E8 A26D C3A8 69C8 F61E 79A7 5680 80BD 12D4
+uptime 482520
+bandwidth 204800 307200 257722
+extra-info-digest 9C0DA5F9FD6DFDD953B962AB177D8CD4CBB103B0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJqYCTM8j4qIzIQGCBEKRAWc8MO5wUu2ZlcgmMwFteYXl5+xOs26YL5T
+rPqEhzgLwEvrccRUMSrQ7z9XdbZY/BR5bLRlBNYLJz9GUxd34+JNYWJRrJYAu3AW
+2MsfOX8AZlY35WLgcN7c6oHhSEq+O5ET+pRptsAbaB8t1JzOQ/MDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALAEPrHumebmJXkRj78CPL0yTlnw8prC/sj6RgYmOpoNsi5oBO+wfB2K
+f4qft0O7JUKsAYem5bVqkGl1MwehIsMx9IHl0QR9gdcmXy1dmZVpflYbTKdG7wMK
+hdqYEqtTNb1L1Sqn1cBFAT3Xqb5Vp7Lw2TXYHuR06BpY/u84mD7XAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Maurer <further@gmx.com>
+ntor-onion-key /v+SOdia/NFjLUFmf7n1DITSFDdsX6bXEWbHlk1P8X8=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 82.165.142.79:*
+accept *:80
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+B2HXrvmTl7td4MusZYTVAFkA1htieHAmhKuinxZ4ZTtF2oioe/MYVvm7uDdbVa/4
+/bvunfPt3UzRI7DOMh0V3brCbJp4Io3jZ8hVi8fPP9f4LmzqZ8Q1LWBn9mQZvwW3
+2M8hihqAPw8+jAqR4tQU8m++R7HJbR4v0Y86LesdYSY=
+-----END SIGNATURE-----

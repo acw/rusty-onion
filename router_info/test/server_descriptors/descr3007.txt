@@ -1,0 +1,44 @@
+router donarbwkeastau 210.50.9.88 443 0 80
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 18:19:58
+fingerprint B42A 73A6 3991 C3AB 4FA9 CDBB DFDD DB42 AD16 FAE7
+uptime 143167
+bandwidth 122880 245760 232957
+extra-info-digest BB13549447DD689324D5A289CBC84B71B64138D8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMEOZGJdErmxC0JN9uq7D6kPODfuxxnd7wLYEenXWqkPa7CgxnWDpOvl
+LntchPZR1HousL4fY6hs0+psovSTgeLDot2cI9w9aHvBXZRw2xgYDSXli4DVKLC4
+E84dKgZxPVLFbVkvSO0wObsRnkVODHC1Vm/v+FxOhmNaXKcqhO/RAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPAU322xyWVbhsMj/nHn+Zwqpn6Coy6hNo6M2+L8LNl/RmB9b1i+ch5s
+laJQVzctOlXp2mIQC4g2Hqj4axMItvVpUCGjDb8Y5TKuafSaLjEH/7H/cZL4PoKm
+k7HqgL9chMvHo72e8OeULYqhwimJRCJpSHWm0k5yuMn6HpvckcZDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Nathan Fraser <donar@metarace.com.au>
+ntor-onion-key Fo3ccP7udBVhSeL/7rbBJJg4otoT8Whc/4cvpypH9iw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 210.50.9.88:*
+accept *:53
+accept *:80
+accept *:443
+accept *:1293
+accept *:3690
+accept *:9418
+accept *:11371
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+I+PGyA8sZ0FVo92U+Dy3EJYqzQohI7+XPpMGTr3e9QyRdGMFK9i1pw5w5NmNdFFp
+XF765az7tlHlEwmlpsqQTJtSb4196yiIKms4miRL1TvW4ZwQflf8gqF1oApseyfh
+xK9PU+WtJjlNOuFohyQ3GIeBkefqCjGo1bdDNxQqoSs=
+-----END SIGNATURE-----

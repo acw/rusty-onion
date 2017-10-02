@@ -1,0 +1,51 @@
+router Toriffic 144.136.5.19 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFfAQy49Zk2ICeLmqWVwtc/OiuUZ++NA5Y4hsMifH/LktDGAQAgBACHvr/x
+oNe+efxUJNj3nG6Q9GBjqtLR9vfucQ6ZcvFFHYGEibxNJ8joh0tRb+27yYOdQdKL
+AyiQ4ttgn6LMzfQEAr/YYRvDm+D63mvv0RmF0t7+i4HvqFq/KHdyBEebHQA=
+-----END ED25519 CERT-----
+master-key-ed25519 h76/8aDXvnn8VCTY95xukPRgY6rS0fb37nEOmXLxRR0
+platform Tor 0.3.0.9 on Windows 8
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:09:40
+fingerprint EB19 056C 03B3 87B4 FC13 918A 7E7D 7394 39A8 4A00
+uptime 270057
+bandwidth 5242880 10485760 93683
+extra-info-digest C697A3D34E21F0FE410F4E0602858688AE7103FA sOuELHxDC7clOdpyB+aidmdyhsSi1qJ5kLSkT9ekIYQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANUR/0mgO48MTbjc3vJ6aG86BDWk4toDuDmWXe/0fo+tXkGxJc9symnu
+xiChHRrwkm5R+ujfDf9b1as2UpS/0R/TqeZyHcRooCo/5x6LOrldVbeyI/+PgpiY
+Ll42qlKy+twv9ylEysfpm/VHFRpOWT2dA5hp9LQx00f1ebvUSdJDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM0kpPnwb9PDpvzUMVoAM8xbbsAB/LVPB0J8LV6UBi5HYeGmJQ+D5GIg
+dA5fzvH7MA1CrtkQWdiL5R6PGCXsfWJ3hFj+9IC9RdG2ep3mgGXyPDWdXbag6bQR
+s7WE5dgXQWiEe1VWo21w2gpb3G8V932b7Bw8dYHdqXe87vFEXKeVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+HNGPhvbJjCTlsgiuQSbAxF+0GLXj6VjF4UrSAuawVcu9kf8C1acD8u1mtnFyWupL
+ClvhFW7k+V+BqqHyPR1jp+biLNy5S4D8BKDUIk//GjOva8mawr91zrd4gvdBxrxh
+tAq7j+GykaPughaQ0bJilbLbuat+7ABKdX9HZBcvYyk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAYe+v/Gg1755/FQk2PecbpD0YGOq0tH29+5xDply8UUdAGjJ3rpUc3ID
+C59RFK2wrE8U8a8vBvJQSndwr52jQfwka6HRa6RBMYt2/5Ne6riTBQA4gbY9JXuc
+MQ0Ilew2CQY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact lemsvdeq at hushmail dot com
+ntor-onion-key JHz2ODexB13pxrNm44q3UF2a5fcNzFdMCvKE+4XjEQg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 jJLsWfrUn2y88WwYQJKqhBI8gRF4Ol0AKmsVW42gTRVFhOm1TK9NJdc63aeAD/tEnM6684wgnWlIsqUf+lLIBA
+router-signature
+-----BEGIN SIGNATURE-----
+iSc7oi8XfN/VHygj8dKqYcs7KvrBu9cL0TKCOxL2fyIX2gXTZgDBmJFdpio9BfkI
+C8N2TNtidML1nKEvLVVISKvow9ugDbftFxJfw7OhtJBct/Q3fERxx2Nk+Y0xBl3G
+WsvKua/7M0uOAJukyWrP9ZFwxSzbLHU8dZgc/vhNAq4=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router ATuin 82.219.9.89 9001 0 9010
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBqAWwZanGggPPs3TB+GyoubQ+wW86VXSDaTDmxps+EiAy2AQAgBAAX9Tul
+QKLbztQMk4+60iO5sptazjs9GJ8IkKmrSx7+Q4ekSMy9Ix+6A0O+3qNmxbk06QYV
+boSqVdXXUWO0pgitX91onSgufBXg4Dw6+aKbepOhgo+QkCOchV2Rdkj3yw0=
+-----END ED25519 CERT-----
+master-key-ed25519 F/U7pUCi287UDJOPutIjubKbWs47PRifCJCpq0se/kM
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:51:39
+fingerprint AD26 1540 AF50 2893 2475 E0E0 ADD0 3D5A 95F7 D51B
+uptime 545153
+bandwidth 102400 153600 115040
+extra-info-digest 73FCFC9B98D110F936572FF277799F89D982DDFE O1sA8yJUEZp/DV+OpYRxeYWGXRYHXsYBiPu8AC7DX5M
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALutzRGzbMUE2Eqe/fgTNNUSJL4vM8HOrM0wBFRVfXWJ3DTtnDn7rodU
+9ZtTfQbdjn82VKp1QXjFs7ukvd5vhmPPTDuWAIUrU1ZMXTjZ9Xm0udj1gJlvTp04
+gq4klcj8ysTwQKz9QJ7cupZe15L8UFnt0riRSCIroCAgMcXzX4rLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKMoi7M85bffUlWXLbQCpy0DRUGxruU55z+3FbgfUpCiVL7VyEo04HYa
+02QeOnYnP7BQTHIBRs5XNAfLtaHAzGXlgB5+aBUV6dBe4c8wTddjAWBDfx/CrFUq
+riOyx8XQirg0ONArvXtJc53daUMNl5hrIdp19Dq6dqCuXbckYqUdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+spgdsJLQdEyOmER0UnSv8RjMm4EhjF+CBpBSZJRmH8BU4LnRkjCuNKeZ0yHeFTBe
+laZNTTw79wKTAh/GrraZj1A+YUGR40JyFFFqnyK6eFR0CRWFdYNZrSZGBBhpmwjU
+i4/J64apINxmDZK7Cm4kblSXn+39czguLGtnLNy0b8k=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRARf1O6VAotvO1AyTj7rSI7mym1rOOz0YnwiQqatLHv5DAEgvPEAzh7LI
+a/nPeogfnJ8Gmwz+gRS9ZlAWA53lpFi3Vt4DnLvZ1OZmqr+WuEuk3kbdn5dFtrgY
+1a3a5lRa9Ag=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Steve Wilson <tor AT stevewilson DOT co DOT uk>
+ntor-onion-key CCylygt9IvOK+8IRFB6cPINJN6Elq/pYXnUbhEhjGD8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Dw8vNcqvu+ayGOmO6xVJIrU34eRm80HuiMG+CQTOmJp45o1rC4cR3DtCLOWAKXgGl9AfJ7tHyRASME+spf/mAQ
+router-signature
+-----BEGIN SIGNATURE-----
+UKKVmTRAnkWYc1FS1h5EiXKt7mq9cubKo6X1BYaRt8egLbAkYneZgY3ql+J3sx1s
++y8B60kcE97qSC7huXshjQmxkt01dD7bVbsD/Qf7A5CzQk1OYDxWO2RzTbvf9fAs
+Wk5XS6gdI1R4f2wlVVdjWJLmnDCNx9kHgLsWms/Uj7g=
+-----END SIGNATURE-----

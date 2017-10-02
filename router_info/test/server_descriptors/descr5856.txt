@@ -1,0 +1,51 @@
+router Puff 84.219.130.131 9002 0 9031
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJUAW/xatRNPIajZElS73af9FssX78IwSN9j8SfMls8UkaYAQAgBACHz6C0
+GaDB7Sm1WwaWG5yEaObSw3uerpr+wCMEU9DWklS9PO5ynFJO8OtuRJa5GRr+/NBl
+s3E8JIDcRR5CadZelwSsfxNooTJ9dLS1aABSX77DukRakaJxIrT+6AX4LwM=
+-----END ED25519 CERT-----
+master-key-ed25519 h8+gtBmgwe0ptVsGlhuchGjm0sN7nq6a/sAjBFPQ1pI
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:39:11
+fingerprint BE45 CFED 9065 E779 4FA9 EE80 50C7 D64D 3101 496B
+uptime 324011
+bandwidth 1310720 1966080 1497847
+extra-info-digest AEDD6753E318C02D780F5CE77AE4B793036674DA NC6FAEvju6CC2hliuWgt4eQr2JFCddivxN+AOkVjCuc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK3/ntFvew3k/ZqUIFC5iKUmUt5RVotqalbmhya8IItqM3h1XM7zHIcL
+WQj2uCuzt+360TLAD05TU06Wh2Oo44sEUpGndpdKYhOlJw+uyVEKnIMhRTMezBBf
+j7NpxVA68C7dQxYxdvpEPZcu5UqSJ1aRbTWeOPPEYG81hkYMKHP/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKXWqQsTtJzVIBPov0Hcyu+FRaibkuKtLVPrb//slJpVV90R+fpXD03B
+IbvQplPPYU9J2Rn/P/6/9QQ51bp26vm/2GP5qUkkdPRlWnGA8Y86oSXV+xNsKVSH
+7wO/wEVSntjgk8Jonx7JKWp/DxHas0gXBjzEpoDokDYCo+3CSq+VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+P68WoxsaL23hnXtJRCbSHzM94tHHcj779CQVqUscZEE3Lr1ImkFObzofryffcVM9
+2zVXqQpR9fuhSHp7jqHez3Mp4/HofujYwAfKWr+TGvNjgQWkFxYCKEltpzUUkSoE
+QsgqEudY41fOM0vJZb4Xx66QuRNOJqc5Z0PvJ+ruR8k=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAYfPoLQZoMHtKbVbBpYbnIRo5tLDe56umv7AIwRT0NaSAJlVGj+pv7oa
+trckfjKP4ZiXt9QF8e+eMg46Auux+2QWcbO72wrF+ndUPb4rD1Ub1jMYgDKRdIqg
+nkKkQg60Cw4=
+-----END ED25519 CERT-----
+family $B48F6FD5A8D759176F8FEB4487E24A3B1D439E83
+hidden-service-dir
+ntor-onion-key 37NORYfDk0ylvSlrpIrKyi3Dmy775vvUVDdttkcJZWE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 2oZdsToWXih6YWB9B6cN/jqur2ECggMzJj/hwqS/629zncFXJgCo6vI124Sfr8f4/KEEhUivlDIMzrJ87ZwJAg
+router-signature
+-----BEGIN SIGNATURE-----
+k1dq+A9+KnNL5zdSj5CkY79bPYnEzLkbEqj44B4E7tbocAvKxUTARLmpVYgmd5Y4
+AUkCBWKBMBdmtDlrZ7xVghcuLgr7KQpgVSLxsLLcxw+PHiBaBvKbN209qzzN9CSI
+iMqdcWvCk00Xh6OTpY0f+gMGPvhJXYqQAgTCKeM8ec4=
+-----END SIGNATURE-----

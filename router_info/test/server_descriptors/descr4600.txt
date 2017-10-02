@@ -1,0 +1,51 @@
+router torstockholm 212.107.138.107 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAOAYREpI9JxLhjwshdOVnf4MQ56LDEje7UEtwwmtuycFV8AQAgBADZ3JaV
+Pi/KzO2L37+p2Kga24iQzZ4+5tRg6oyhHOn2dNCYe17BDAajYQBbjfbT1lCVpqJi
+3I1O8IEemr9FahMNQwXqwdFq3X5BjSv8NSkVv8IlJecrmsrWWxdMcM3w7A4=
+-----END ED25519 CERT-----
+master-key-ed25519 2dyWlT4vyszti9+/qdioGtuIkM2ePubUYOqMoRzp9nQ
+platform Tor 0.2.8.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:05:37
+fingerprint 78E8 EF35 CF20 D9C7 2BC5 ED05 D48C 83F5 3585 B94C
+uptime 5213294
+bandwidth 1073741824 1073741824 7481560
+extra-info-digest 6663CCEADFF5B4557958B21FAFEDD384ABBCD7B5 ab8y9dt9OsVlsfhbO+JT6caCc/XK+1ifWE6ij8USsVs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOoyPDEl+l2CgKyN5u7Dmc4mvcdKxILLRN6GVVzZ7s+6HLoUQonrTMu6
+MMuq+roQfp9itleEjlZ+Ijzi2N9q56PncjJ2gz7TVsoHrM+BUFy90WYu4QmZS0KE
+ZuVvLvgbdQr5oHLKnWZJFqVDex8voLQkI3u4mUGDE9E0agjKJvFjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANcIoIHO7ImY0BAE+xMkKCwnnY9gJ5ULnAe4BS0985sp59ML2gg9diF5
+fm6/k0hWNpSqwerkaP65YiuRhZq63TlBbGYlnj1PJTvTUjX54orEXgZt9P7B9Uho
+C3Zdz0JFu3detug44olMyFOFStMeE6tUikqqkkAd3ZRihkgFH8JDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+AMSTs8YKh5rzFlDa0B2A9XXopO3knmN5A8upZAVcjRaJ54UXRvGesEV1MkJx7Vdr
+w5O3ZFphIh3C4NoNWC7C7/AvYnzb8c6kEOpSw3Jr2/zjrzm+4bDJKhtLuI+whD6y
+txVscEYXFg21OLAe3aLlKRpXf2h0GbL4ayjz1JF2IOA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCKAdnclpU+L8rM7Yvfv6nYqBrbiJDNnj7m1GDqjKEc6fZ0AMsqo1rIJUnm
+sY7QzgFXubh94H7O1fr7pFnSHlfiFqoY3McdTTEoWC+BgPONKBPCRj6Xu6G6+f4g
+848AlmoSowY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact khn <mail@krihal.se>
+ntor-onion-key B0irzMfm7RSOxVPUHTuQamhV7MMvIxUDyb8tAt73+WM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 F2u4qk45Ri7ugFa5R2N/5RnHWz0LHXuOfFm5JCuUpoylL0/SFtfJMu0bUpBX2TZuALqzEWQdVxlnIK4HThtHDQ
+router-signature
+-----BEGIN SIGNATURE-----
+ZWVUfV7AFqneKytCY2w7oH8bQpv3mtwzJMGXlSs7I2qxfCPv7uaLLXBJ8S3I7M2b
+wYozKA2veZwlld44zQAnoVlx3B6pRLqVgxCHTOoYDbxDCj+X7t1N3LMMulNkEip7
+Ao8B0LN3xbdTNt7DPlE86vFwXBBQIEWv+rqa4ncH/dE=
+-----END SIGNATURE-----

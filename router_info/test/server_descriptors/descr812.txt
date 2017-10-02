@@ -1,0 +1,29 @@
+router Torproxy 37.72.223.21 9001 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 18:49:39
+fingerprint D4BE CA73 4E25 4380 E3D6 C89A EB83 B6E9 80C9 1144
+uptime 32
+bandwidth 20480 20480 0
+extra-info-digest 7CF0A0C0B9F3F62B1D2B505F15912A4A2C212C0C
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKKBPSFUtkjwFHX9KkBpvNXgdryUKy/N6gLx+W2ONsCmuWLN62Ehxj4h
+VOrM8ugtFbrGbjIc/sievMaFXCZimbYrblhIE8haKzNmxrxt50eO6hvp1ZWQKmmp
+S8VjUyqfLVkjBVSYg7/AMLbZhjmMecTL5R8ZfrqFMEBLfcYTHi+BAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL13tWiFOpWAOzgkPpmlgC7i6vQjdLxR35Xcb81AMo/hHzNV1rnd34AV
+V7LAbxE5pMVHFJSOH4Cdn8tM22kvEGnqpmUnDIU6c5W8Txi38lbXzTBlQ/tsPQhE
+20JvqD36uhw1F92cxjsAoBASEKfLhxQ2PQKHotPgtLhtAbMJGbsHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key okCz6olrtcp3+x8ukGVzRKRIPxuN4TC81Svx8/rCrRI=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+PFGjfU0MS15AATfFS+kKB1wZ8MzjtpZJ7twKqhrb4nfNF1ql9rVbClouwEgBgGKI
+ZEuHeX4fWq7hg5jr/onH8rp+Sq4RqN7a8zk/3t+m/SKzU/Ds69ys2ToJ06jAuNcd
+RbXcRrfmLEWbE9whVp5BzPYKbwAxtc56QxLFKPfM7fk=
+-----END SIGNATURE-----

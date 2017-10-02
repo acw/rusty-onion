@@ -1,0 +1,39 @@
+router default 78.31.164.41 443 0 0
+platform Tor 0.2.4.23 on Windows 7
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:17:54
+fingerprint 4544 D402 6D44 7CDA 4F8E 7F22 ED73 E856 5CCA 569E
+uptime 1210289
+bandwidth 65536 131072 81074
+extra-info-digest 86177D545308086CB768A363BAF87FA0325C3AF0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANSGSxBGblCVlc3TftxsO+FB+ZiXpkmcPgGvqu3x34t23lXVrVh/DA/H
+OIv0902g0a/KQpE6FfDY98arSPPymLCkFYNqnq+yqIslQsJSXnWa10H8qMM5Fp6u
+iEaBRH6BrPP5OjLZJiURN40/XiTR9pl8Wjq/nt9CGxVDCzxPAIPNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOOyertILhnQI1PkRiCw4ZUHPLxMJe0AjiJFJguadVuEAeCxGlKicySx
+CGIWPqHzjP/ISSmZNpOe5SVnXLtsxUAUSLzHCNras0nQkWxoKfLnylG9vrxLL8MA
+2UirG3zMh/sLIU2O5ItYITOyIMWYHAj86in8del3l3Cfe1JOiBQFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact 0xFFFFFFFF
+ntor-onion-key CmcZ0Ft2A3Gl7yLxNDH1VmV6AKVanUV0CrikdINCrQ0=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 78.31.164.41:*
+accept *:80
+accept *:443
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+cd2FMU9MsZ3u8AVUeWtkVD4ocoLTxtHFQj38oZ/fRPhU+ymQn5Je10JZikXc6XXt
+gfvQYZYMjf64SFNLYKF/D/vuqzWf5avGLAk9w8N0HEv/cDBnd8b1XNbpLmnHdzyG
+u2dDxNLSOG15/QnOjFKmfJebjEEPA9AC9V5aRGiOq0M=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router hnrk 51.175.50.162 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIGAZiWApVjWr9SX8zPVjsCi1b2/oSoQDho6jZmoyzxPHbXAQAgBAA3iLuy
+pksvQY9yVqU1eE5LpfiQtIKiJhdZASVL1eF61N9QTLpUKawfblZuPT95hgJMmDnO
+h8gw69fQKRjbIHeHeGnjShTLMt8BCFaeac/JuC2DV9QmvW2aBKtnYPMsDQA=
+-----END ED25519 CERT-----
+master-key-ed25519 N4i7sqZLL0GPclalNXhOS6X4kLSCoiYXWQElS9XhetQ
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:44:03
+fingerprint 573C 2AAF 5AE0 38D9 A239 47A8 4656 AD15 81E2 9610
+uptime 3153700
+bandwidth 512000 1024000 615014
+extra-info-digest 73BA40A274D464C5EADD98EE8F3D0DFDCB7962B1 HMCz923MBZBzniuCxy5ni4h+u+FAHKaD3yXnCFOWajU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKaqHtUNfHPL/t59bIq13B4tdbWO6i5LqK7r/3lE9zNo1bYbDHxzGalR
+TbRChQ51X6Cs1Y6Tr0wjVPCYqW4vvg4XLnrjW+fXJUl2TpUB6tdVKl3WtrM6pi38
+eHMNKNGHFlRFrjWfQ1UUITWSVDLtVSkgB8gcqhL9dy6BFUMM7zD7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOWCi7xJ9GQ+kbmcUVAYMGCgnWDIwbk2vLn6qMKydlM1cfaCiApv6ixZ
+HxSUvpVy8phvjtcsVlEL0PsqyuShc9mPwvV1DXTL6Y9lNl79rT8UwjzgEME8XN+b
+6EqrrPmDKTEGUg1hGeeY3kAYNfaUy/3akne6BnyWMU4XNRax2yqpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ZxG4mAMhD6Z3t7l/r9x/awKB6Le99SqEftnDMgnkhW7nBeI4RnYfQYFVm5ETS9nD
+3MHriSb6jJlfnBbpL7EuYM1PIBqWc3xmxJtSdN//lqPRgmzPOjyERK1pb0xmh/aK
+gHBXJtBCNVC5VlRbM6f7fuJlkqA1Jv3MaGCMMfabNKA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRATeIu7KmSy9Bj3JWpTV4Tkul+JC0gqImF1kBJUvV4XrUAFbIwYs4NPdI
+uv+QFKUvjVwGdeUWeNyv+BaEpo5eVCnmuMPVoo+wIJ/c/6nX/VD/Xs/4wSAOLiCs
+Xu7TpwN90gM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Henrik Austad <henrik@austad.us>
+ntor-onion-key OhKQUlhb8eb5rHoT9tSfTmOyF6XD18JvMGPpNPQQfBc=
+reject *:*
+router-sig-ed25519 zH3x8DDzUrfT7guQRx81bnNxNu+f8Of6NMXibxY4g9B9ERNCqcL/kwh6CTOrLtUTX1DV/PJNTzy4oHXjGc9nBw
+router-signature
+-----BEGIN SIGNATURE-----
+z6OMqvLfvNj1nGOl2c6BPLoI4jCalLnIAObPt1DFKGDa6lwuDVi/4tLG9XJROVXv
+RwBkyaN3Kl4HhQGFihr6EkJbUMCCZmhzTEUI6GwXldTmLcAvuWbNrwrH9gglzh+1
+jiuuHK9yCW8LOdm7aP407pm2JxmboIXrlXfRervez28=
+-----END SIGNATURE-----

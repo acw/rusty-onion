@@ -1,0 +1,45 @@
+router dmtvbnRha3RlCg 95.213.11.175 443 0 0
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:03:33
+fingerprint B195 03D3 EDC1 1E6A 1BC9 121C B2C7 2777 D265 03D1
+uptime 6469477
+bandwidth 78643200 104857600 3665423
+extra-info-digest BE956389CEF460DAD1558F85EC3C7962DD1FDB22
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN+L6v6Frf7RikJNtC2H1F9/w3VaBkLXjLv8YhMES4N8HjNYkJhlg/0U
+1pyqGtA/Bzh1ZoELeLu7B1geCmYauYCobtCzX1j2cMgXkM2fIqhcpBq5snyvMCzz
+8gSsFaq8qZKRFvIp3CikTDlx+514qHn1grRETYlXjLrwbaS3Hq97AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANj+I+dHlmtD50oieGW0Z0KaR5d74agZmbUG7iGquB3xCTQ7vQkRTuqK
+I0yUNbOEt8lU2aoubiLc7KT4wKebMJM4DB8lvrUIBxEsSKPUKvh785qLc3brJ6h9
+e5vFxjMtv2/HvTWnkv6KG6vbStEjaMPy/bvJ6VhjxfNc9hP6zgSRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact no
+ntor-onion-key 9Ilkwek8aqmr67YFtx5yKk3Hzmy6Z/ucom5FbCSzQW4=
+reject 95.213.11.175:*
+accept 95.213.0.0/18:80
+accept 95.213.0.0/18:443
+accept 95.142.192.0/20:80
+accept 95.142.192.0/20:443
+accept 93.186.232.0/21:80
+accept 93.186.232.0/21:443
+accept 93.186.224.0/21:80
+accept 93.186.224.0/21:443
+accept 87.240.128.0/18:80
+accept 87.240.128.0/18:443
+accept 185.32.248.0/22:80
+accept 185.32.248.0/22:443
+accept 185.29.130.0/24:80
+accept 185.29.130.0/24:443
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+rB/k9d9nxaeCobuBslrfNgDge2Q5kjg2wmaprrH7jasamD7hs01VYpJjsy+O/eVD
+kU3Jodynutuy86lQHOWv0qLS+IIXSKfg7Ipd4E5YMBp2EDc1aESAnrne5l6NG2cy
+14y7UrlFzpUBAcqksSvJ7ApxtZwF/rcZJ/THiLDQ9BM=
+-----END SIGNATURE-----

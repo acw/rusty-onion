@@ -1,0 +1,51 @@
+router wedosrelay01 37.157.195.83 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGNAfjJi4zSRs/g8G/g+H4pj/gs9hJ3g13GWE+ywKtCSX7+AQAgBACOHKhR
+VfMOjM59yVl9WNBTf4oaWTVNCSf8GGhZrxES9eLWrw/kohOuByr6Aepnq0xog1wZ
+VqVsqkhr+btftWfBsC6g5RgwHXJd4xEXhwKuv2fBPCL9nNNmeQDRbAeZLgQ=
+-----END ED25519 CERT-----
+master-key-ed25519 jhyoUVXzDozOfclZfVjQU3+KGlk1TQkn/BhoWa8REvU
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:29:54
+fingerprint FA41 91B7 DFDD E0E8 9A97 BE08 8343 62D7 5767 EE00
+uptime 3937725
+bandwidth 1073741824 1073741824 8736931
+extra-info-digest 7857CA10ABB430B7DC68F7981D3F3795012798C6 UrFr4uRqZS7ggIwLnPMOpIH/+1/WrJJXUZzRQW2lMnA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMwmFjxkdJSsUYZJNyISBrBIyquC9oZmo5GXH5aK6zbBGeEFX9bZr9gZ
+V9nbs7oW4SzgYxWOodiEmH2qUigTS+UGofSWugZq9DWocezaAPaVu6NnrOkc8Aim
+90KlzwBiWOk+xs60p0bRqoIVcypSceTDOUiQdxBhphc0lqM5LbXnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK81QEOuUhlam3KTSOeSxSi1mwBpZ11apU+VPn/riIcftqyfCHOLPI9L
+n41a+pYOTuHLKpBygHb/iUbH+5flqgJGWXrLx6UtU7ykNj5fTTQOLelusHPlEYPe
+R+tLfblqgNCYvQWwFcDzk/pzF+tZezugrQmLNCBlCzjILZpwglqvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+JjqBxoLYI8Pfx5lZXpQmZdkzqSHgnPJgy4wPkMlRJmk/rBeo1DH3r2/zYWniSpwS
+nmibbbYKlaa4ZyG1rInulNnWCm+o2v+O/6S/pAdfmYqShh/oDqNbrUK1oTGEBXhf
+9bFWKGlSxN8RfCvISqWP1T6K7bGTkAIcbCOu/+NP3uY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAY4cqFFV8w6Mzn3JWX1Y0FN/ihpZNU0JJ/wYaFmvERL1AG47rJPC+cf4
+IvtMWI+0Zr7oxBq6SqAfSSAmZQdsmdYqMYLV35dma4V22ULrQUBtbNWera3Ul37o
+r0wUM2B1qgw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact ttallink@googlemail.com
+ntor-onion-key nIMSfrKfyfkIb+F54CwHgpC40iEoHmrcGE27BTR5TD4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 wD+MAA5Xnp1+wQtbINQwQzPBEnjQuxLgAhr0mlz+2AOPn56IM6QJnQvDrAU0unihyL89CLUP6tyi/Z7tb897Aw
+router-signature
+-----BEGIN SIGNATURE-----
+eP08dnWdxgS0SNDdrrPssVuGNYGsz2GUkmK7u518VBokJHcLvvFwZLrcl1mhzR9R
+uX7ThjscftLxFgnZxYNC/Tn8rwd9sjtzupX8TH9q/J1Fc7RNGQdi/MZIem0ZIXVh
+F0CMD5sKXy57xISTr228tLEwp8yq3z22Xk2la7cjtOI=
+-----END SIGNATURE-----

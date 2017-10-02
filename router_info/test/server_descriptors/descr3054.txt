@@ -1,0 +1,51 @@
+router sarandavps 51.15.78.99 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFlATxOaG3ro5pcwLtPbxxxSmHH+uONAzu/x/linRKLG5xlAQAgBAAUFvoE
+H8s531qm/aUGdNS1Why7qAHBZlagqAbm16NzbOl7AI8u6lVug5nB3YreB/n7hG+L
+dHKGnwRH875JgqymTelqWT24PnGFCjpeR+q3oht8IVxhRXzKM/2uSNRAlQI=
+-----END ED25519 CERT-----
+master-key-ed25519 FBb6BB/LOd9apv2lBnTUtVocu6gBwWZWoKgG5tejc2w
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:21:34
+fingerprint B27A 7B82 90FD 68DB 5943 DD3F AA72 7BFC 2002 1C50
+uptime 1206263
+bandwidth 24576000 25600000 2632083
+extra-info-digest 1D7C9C2F18EF46814B1BAA4D5FD8C52F8EF8B584 USxvu54zo4rUufslfBwKTUYRDgnvawORfE1it0qITRs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPKQd5YLBLcSbvq1D1a7gJ6Q8VVaVqE+9Wp0baVYOiRqTJdzTmItZ61r
+49pYk7tjlawT1Icm6FmmeJ6N1X2nYPXejIt8rfBLlBm/AgkCYSQacS0gX1nX8N5/
+E3VTNgYTUP7ppbWhBwar8bB+81rDTmfa471i7kCFNp7lbH/9W9zVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK0ndEYWUEzyrndhqpnl4AF+bemh1wEBsfHtPyfiU20K6nTQ2Z3zIjn2
+vGHNuMo2VNtqe8VRJUJ1ak7x6GBKHrnjdduixIxD1ogKiS4Clbro3vIXhEmQprYR
+/cHgZkJHN0s0oNzhaTYV2YUgTEzqvQKtneWG14LjZXCN85OZBLZzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+X0/CjvJnYjAd03udRLWPnHp5h8vjYHBVTitWPQHAaRj8YEtowgC2zlbKRqxkConP
+2+13UCJCkZV9xMQzsB30l/+nTl6RWHw8t8dobSrduLfkJ/e7p3ghCfMygHgqH+38
+yIgb1WDqq0vihOJiyA9K/gAArTIkXwh49KEhPIbwarw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNARQW+gQfyznfWqb9pQZ01LVaHLuoAcFmVqCoBubXo3NsAJ1YExaMT0nO
+Tof9oj1dZezpGl1oBeCeGQMxT/d+pmv10gU3ZEISWUZcqg7DfXbrz3sQ2/qaqYB4
+veq+5k5HrQs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <fsclavo AT gmail dot com>
+ntor-onion-key QEjFdxgA5QHvIHvtrYwW/SJJ8STXm9VW3akxStJxf2s=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 IOfUIMkoBxSEUl0yxkFhdFHNTNSecd74dagv6VkUrFQFUnIP6BM5bAfKmxLvxgHXO/CXrkM89at5mTF6eh3dCQ
+router-signature
+-----BEGIN SIGNATURE-----
+ICY0IOwu1HXVOZXhB5jZKItJBEYGTM2qdB40BDcGPv8Fe7QFWiGZjgiFAlA4tnqJ
+ITHRmVi3+8a5W1mFLdieshD53wKbZVENhJuzbs2a9+lvLPkSjuCbFfiURQPOtOj0
+Y9kDHZdYoZXrX1sjhwzW4aRe2nL2cnrCMaBw5O78GlI=
+-----END SIGNATURE-----

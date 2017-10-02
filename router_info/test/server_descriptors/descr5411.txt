@@ -1,0 +1,50 @@
+router collide 138.201.211.235 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABl/+AXkTmhQlmo9//JafPukjHeyP3Px/1upnmAdPbs1ZxTZfAQAgBACAMaly
+Smq76ODctB8pWndljx5c7zJGOFWBCZV9szgKEa+2Tv6SCkSOxaGWbtxGr8oaf4LP
+mJHT09PlYrtp2SFkvr6xoFtEzwuckGGV+JPAMoocYiu69wAY1mFcTnjcxQs=
+-----END ED25519 CERT-----
+master-key-ed25519 gDGpckpqu+jg3LQfKVp3ZY8eXO8yRjhVgQmVfbM4ChE
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:27:06
+fingerprint 58F1 C181 42D5 F253 F3CF 58A9 5FDC 898F 64CC D891
+uptime 1643197
+bandwidth 1073741824 1073741824 31725282
+extra-info-digest 30D20F81F77C7E4DA8A1330DC61DC605E4293A89 vbiyMYYPgFSQDBq5lKYaNgzxkViPS+LRDvD99w09UBM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL2RiLe8iKvIvyKky2s3CbtC7MCaYA9MVXp06JgrjvMyb9I4UDrSKEk7
+CxM8RAWZs7+h61Bf70rjhemOWaPDCYRSY0JCj9iujjD4XjPvy7xMjHu7Odh5MdwB
+jyQE0ggvH3DQoasDQkFjIyl1TuCYaUnmVH42vuFDJ3xxBHJZVKVNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALwbgLXFq3B9GrbvjiA2Jrgui3E0ZjxeX2gtIy4gg103uokSPs6N8t8D
+9XyyWMp1Aau5ig6sVIgj1u6U8kaQMf/GmIBnvDL9pyr7GcMZZ/JfELsn4jmsELOM
+w+Hp8/9dN06qODcn8iFCX1aVab+W0kDsLXzZPE0jc/PmuOjeLtzBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+keszbMfGLjRKYg7qrVzc5kMNbYpPra/9n6bDD5AWlJtIcmFt12wm7RzeA7B3aH+W
+b5DqaXIjfZumg4uauJ+nmzQNIc3XRpdhoxQehS61/27E/VRR8Qg9PURtRB4yaJVK
+g1vxGxy1R5NFK3Gvsbc8HTefGHXFervv4sqFsueMAns=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJAYAxqXJKarvo4Ny0Hylad2WPHlzvMkY4VYEJlX2zOAoRAFP+nVGKxyt5
+uJ0rzbgmD5jCyzAmtFC5FlWGGO7BN7XPhXkUG0YNX5pdobzfyNGtVTjSWroTMRkc
+sAmIHPmTNAw=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key 2knRdcZ4QymL0bPGKIXaHCMOj2wZchEiu+y1hD5bCF0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 pO0lnaUB8U9C8LZnIRrqS6G78APGDWPJhwZ+dplA8RIFz1x6oo5fRlNUrY1W5BpizOgdVF8RjQG/9i65b6XEAA
+router-signature
+-----BEGIN SIGNATURE-----
+kL2eAbT67L4dkyDeA5Yvf4Xy1Y0vIiGQHP8vaR2L+fAlaMUzYTI7i0qwWLCMD2cB
+R2VLRNn6gBX1M/0dWfvd9KjOK/1VpegGbBBBhVCBGs3ILx7MK/u08lUvAoAaHS0h
+P4PzdAXwlCi36uHUhv6mKNMtdidnW5zXRj4Y/kGr9iA=
+-----END SIGNATURE-----

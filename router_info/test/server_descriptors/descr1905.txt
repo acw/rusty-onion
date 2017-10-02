@@ -1,0 +1,51 @@
+router SylvanasWindrunner 81.7.10.20 9035 0 9040
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCjARD8Binq+AfWaMXlXD3WcPOSitqn7T0cVk+hBZAAE99SAQAgBADAsqKZ
+UQ2+CdAp/VTCXcfIlPujRVdv30yOqhKXV4djvgwPfL85eMl5xllVHHOSWyR5P0Cs
+aOyUUSWZs77SanGxH0dbzUbEjRqb6IjsgC9wl4c9k4tnFUKMPbYXlUJs2gY=
+-----END ED25519 CERT-----
+master-key-ed25519 wLKimVENvgnQKf1Uwl3HyJT7o0VXb99MjqoSl1eHY74
+platform Tor 0.2.8.11 on Windows 8 [server]
+protocols Link 1 2 Circuit 1
+published 2017-08-28 13:34:58
+fingerprint DD2B B5BA 643B 419F CB1D D2A8 47E7 873F 546A 777B
+uptime 12540
+bandwidth 25165824 33554432 2109440
+extra-info-digest EBFEEB61B33E589F6C188500D118627C25F88620 JOOp9BeuaVISlnfLBG1Z9iOBq1la9g/4dR3W8KuJv5Y
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANkqkGq+m7VDgZDLJZ9/2Kmztm1drKt7RU/d5mCWTozl4pDQ23Cvco5M
+uBBNK4Seu93WC/AceULAyzkJe7GZmh4SvHw37DoPD0vlBzytTO1LWiYKzhvZ/T2F
+L3DQ+G+qaw4aBqqI1bU3uu/p8f167KGMMzME48GXRxb86gfaFiZdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKGXoG1ZJbkc/FWDvZ8RAanQ4LiJOypemHxcnJxNh9fX4euKQacwgQgn
+a1dsG71He7Ua/8xUoy0xEVP5E4jDitGlB/a/dIncPdndFWUvVuaeuyG6xYeSBy+g
+GcANXzZQAqzmg4EN3nS5Pk3Hoc9K792APGTgrZ36zSh6uOvC0v4FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ZDLFt90A2GsS356VFVOk6RuH3vKJG85zUUKFxQ/pIachmBJg5XANck6kWjewz7Rd
+vc40WYbKNxLn1lOeFXPtc/pw/JLRI/jRWYcjTEeYr2vbbnvQxYidYKVo5quqT1sH
+Mc4JGY1qTielP0jWKi3H+Zu1lCjvHz5pHlhLJlkVLg8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAcCyoplRDb4J0Cn9VMJdx8iU+6NFV2/fTI6qEpdXh2O+AKUtvFMPmpqa
+XOQ0gkLzwM3jA1gi6dJ0gdEvc1uDWjpJhKjfpvzG+OODUooj1JLbk+r/LzwrMccC
+O51XcFw7IQQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact akymaru@tutanota.com
+ntor-onion-key fBatz2m2of1Mlq3EGTeElz/y7jsQJe5zYdcRCxTfVW0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 rdCuqamgiTMXZNrtuoaorpWkLeYaCESxeVRwtGfxpBHH/XdQhl1folVrLmPepRVSiJXyP8DlsPQGWNqPYdxcBA
+router-signature
+-----BEGIN SIGNATURE-----
+Xdi1gywMpddETYzHMNVp+DqbtR5WAQ8YKIFf67vL9UuEenKTBfekv19Mkh/pm2CQ
+sFijgOOfU8XyrA50ZLXp0L8AnOAvdAuchAxvpcTDCnPStZsc3z5z3n8oyF21OWoc
+/PfCr2vP6W6uFxTO6r9TneZ72TxrRKWCE9pb4+neeaw=
+-----END SIGNATURE-----

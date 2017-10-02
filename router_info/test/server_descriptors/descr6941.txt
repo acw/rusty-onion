@@ -1,0 +1,51 @@
+router boxendotspace 193.228.143.225 80 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI5AQWwIHGDvEmXSJGgRf1/4dErFiymLslHnsZXW38qWFioAQAgBAB2pgZV
+z0e/FpNufm81F/MK4dlpTdUN4EXZR5KnDTBcuU5oqcXmMl+ORAdo0cmXxZ7j0PFK
+ndT9fRC1zypsIDdKLnRbej35Y/AswcMbpX5pegbTRMADgK27KL69izLKWwA=
+-----END ED25519 CERT-----
+master-key-ed25519 dqYGVc9HvxaTbn5vNRfzCuHZaU3VDeBF2UeSpw0wXLk
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:57:50
+fingerprint 1D8E D54E A9DF 2D46 558A D009 6DD5 D9DD 297F 13A8
+uptime 1572200
+bandwidth 2252800 2457600 2658901
+extra-info-digest F4EFC2249EAC27FD01090152A424D7C8A53E4EE2 nbdGiFDZRJ4DQiR0njz3vO7F+e9mUs2Jl9PVHP1iTKM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALkMCObZ5htDwevseDSxe+j8okC7KkBPweg5RscbIcXQfEer9NDpVMn5
+Foha8/w3BNHECh4AR8LXZa/UI3nsU+NsjEw4vamGrU0GaJ0zLCQreWSIGSW66vsh
+oCfVOFC3Fs2ok6SbMMnGpVK3+UcQD7LRhVACYddI/vd0ZB6OjPiHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMtLPG+YmVgxONrgA75K/7ixM17Sp7bfeDCj1UgXhhNaOiQRPIpG1qs9
+kxvKHYCr5wEFxGGDSAYIgHRfDvxXfFQ1rhy+B0lx/mlnXnuD4w4qVOqBqxq/m3z9
+Lo6pJUSv/4UVIBK9KfNcJ9QUilGUEZ6DrXzghoIux7iuuFA2TWNpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+F0TPyQrnVjmyGqw7pmgc4kbyB2mYPaRr+6FXlmPmgSyndo0yM9gP6a4nGv/SJ/X3
+0oqUkJx+il8X8zGAQaIm7qaL1xxOS7ATHcfs/lFAeMVYbz39QE0EPwb9CUoZTgTo
+knADEZ0FGFDvUfLFRvPspJTUMcDGWhKwPfV0L5zKZbE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMAXamBlXPR78Wk25+bzUX8wrh2WlN1Q3gRdlHkqcNMFy5AN33QunFXnTH
+A5P3x13v0gmvxPvZJxc+fWj8FwF5CA14XDgqGUdt3qi5Zb1sPe8fdI+W8gzPsIZo
+vJ96kSd13QM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact quite+tor@hack.org
+ntor-onion-key eh30NqjOjQTevivohPh4ThH3GAgFFwNSOHXlvKUTCXQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 nFnI5sppARVB4NgKBeMjlbb/0KX3ghpPgX5F8mQ+MJ9mEPi/MkCNmw8i9NizJqkefrHm26N00Edp+i54YkDBCA
+router-signature
+-----BEGIN SIGNATURE-----
+RwlJHi6Kf4hWDgumtvclAxyfOBMXoKwcfUohZPeH9xXQRO+bhHAw3HLE3ZTeFK7l
+FD4d0leeJfDefcZOiPbF9LZL4FUkFFThW1bMmJFLdjE+/ddUKZhyvz0VwwS2abC1
+xZcMjhnBTDZvJww9B8EcvRGppBqFaNGPfrRpMWWbk64=
+-----END SIGNATURE-----

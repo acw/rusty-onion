@@ -1,0 +1,50 @@
+router Lachesis 217.86.254.137 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmChAS1VHd8MZjXqY03j9t3p/c6LjtipXRT5oV3heW0sBoYsAQAgBADB1CxC
+Jye1c4UX+0L1BQ5TmcrqS19tOEAQVW3LmAIxWpKAiBb29zgJj0sMTs5hVJ4yuce3
+FxZtmviGXg4+I40kaiqlLptjly6+YqaIxsFntzq0qHXe5kznbtMG/qngXgI=
+-----END ED25519 CERT-----
+master-key-ed25519 wdQsQicntXOFF/tC9QUOU5nK6ktfbThAEFVty5gCMVo
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:46:45
+fingerprint CEEE 3544 B07D 5E82 F8B3 99B2 2EAD 109B 33AB D2B7
+uptime 285604
+bandwidth 1048576 1310720 1154405
+extra-info-digest 4651EA0E234E231F56E0D7E1026D0CCF1EC372EE M7SuxCAj+EnI9vWK9nW2k6H9igWB8OSZG6L92z+HB7w
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMty640RSOfno0eLObVAaGFoaYVn6Ocsg9UUGKZA3FjXEbuAyK0M1Zrb
+mJW6WCokVCaNE2aymLHiegd4O3kj8gJp9ErCzN4z7/QahoNiRa2GE8DumQ86Q7Zj
+V8+J8xX/eXwDqcbCa/6NYlMyiAqImzNNJhlH2NmMTSWsdIvrjD+BAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALWzPhBW57S1/Cv5CuOpx/Ve9wva8IvCkdpQ2j3AbfWPna5Bio8IXtz3
+CEMOEu/6epFzcKw8J5tCpNuDEIDsW+DdSiOdxhg0ZSmtbmVJgMdL66b/CwfB3+YE
+ucv9HIydjImIUvVrxBmAcEUHWaKeInqlGSfPHKO2fQGXx2PiWQ1rAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Mr0RynVRBSW3ekAnxuI8PwDjOJNGVKRcOSHKl3FiUNI8pDIqy2gfH9Z7DxICs5f8
+ah3NdcCCUKjwjDrVLehGdi2ITJkZ2L8P6TSa0krCswgRIP/ZMRJPj1wJppoZeJAv
+5+sxmhdIA5K8TWdpCiYnshWKxL3Oa9UrMWlGojYvJNk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAcHULEInJ7VzhRf7QvUFDlOZyupLX204QBBVbcuYAjFaAAUcK34cz4Xl
+hGOr+XjeOTOC8HJEEYawLwbAAcufmcV2Mx3yvuZSbWkrtqro+Oa6ogX2mW7t34mp
+KoFX0ZRu6QI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Martin Romeike martin@romeike-jever.de
+ntor-onion-key j0kvrbuPpnfAtlttQyXt/Y5Pu8TQ25dCMS2AwHRlYi4=
+reject *:*
+router-sig-ed25519 rtfGVI203/oENBK+eIu/Rui3HNs+JpBzJH80w/CsAoQBe81x1pIq9k/fW5+BfFfhC+7HAzydj7eyB3/wU/3kDg
+router-signature
+-----BEGIN SIGNATURE-----
+U7WPrze6DuKsA94n7Dx/IsBF9rQ7pw/TtMC1121y7/X4FT9kz9kmnv/np/gVmZE1
+Zmb37n6HR8sHKMDtXFzB5Fmr71ubZ5Zf/f3AbtILJyzbh/oOEq+BVvq8XfPtHTro
+oy+1lgqpwbdA33vVobWye5wM+zUxgzBYalJxbYKFZvs=
+-----END SIGNATURE-----

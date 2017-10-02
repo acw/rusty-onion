@@ -1,0 +1,51 @@
+router Unnamed 109.107.35.154 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF1AUsx4pkP+FpKA+kSk1po7Bqk6IUz/9ShG+e5/PLux7NRAQAgBADzo6/j
+iKj/wk1lYgtDuR5R4ohmtY/tjCXLeA1n+gbHvRk4pd1ZsRGF20edq/p7kUFprCko
+VDopzpReTfh7xivZP1qyDfKB8wY29oymrLk90NWbCQGJlzkCHYDeDUjbgAI=
+-----END ED25519 CERT-----
+master-key-ed25519 86Ov44io/8JNZWILQ7keUeKIZrWP7Ywly3gNZ/oGx70
+platform Tor 0.2.8.11 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:10:23
+fingerprint 21B5 5072 C00F 4522 8576 55FB B0F3 E25D 75A5 357B
+uptime 22613305
+bandwidth 524288 1048576 624360
+extra-info-digest DD0D73DE2E7DE46B1C68782C9D9C98B7944836F8 UoYOEPw8fFB5Hg7cfcEbnto0Z9kMeWn/5Jf+M69sKdM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMi5dl4TJ0K2F4F4joaFvLHGM28Po9LpeXRkFAlpxhWcgbd51zJEv1ck
+fDTcVSkSV4cd58B0CawZSW7+QVmCJdajtemy3h2RvSmfoSjRih49CqIwmvHrg0e3
+TuHBQlIYxt5VhGM8/kBbSZyIS1FdzoAG0chFEH4lG4u+ptcAK+njAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANwWF8XAp00ITZ+FI+KO3Mkw2vZvWNlJEq19u734YxWjT67mmP04NSMp
+pKIORHhcyrmW2eRLZE9g73pEtfADSegC0wDfLwgbBPFOtt9bcoyBFOBz5WH4ldjU
+HwBphaAh93gsq+CzMZkn6C2r9p/Ty4h3jPVsynuYWP6zL4T//no9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+s93ySZk5nCdDble2489I4MOS2oLTiDj4GfHc5CEsn2dDfXCC9dqsZ4SYrlLQ1lqq
+gsSXUr8u0Pf7wEXHi1OAkGqeK1VoWM0KTal+tyBAhKSBn/j20U92DszQMwp2r/ux
+egv55GPamICt5rQVOsp7WxnXKsKIG+/BwPbpQ9PwfdU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAfOjr+OIqP/CTWViC0O5HlHiiGa1j+2MJct4DWf6Bse9ACZ36c9cfHKZ
+NIuhrm0XwUVJLMYYMwunJNGh8zoXTuQ5iUBZ4k3Wh0a+roD0bN0AF5fHsAyM8NLg
+dbagxJm8LwU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 4096R/5C06D153 John Leach <john@johnleach.co.uk>
+ntor-onion-key FLRYZgX2XLkVZ6ez0XX+dvhnh4fNRv26RxlgD7E7IVc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 fCbFUx7ihTU8Og7uIYeNlx5Qe3ZgcomroBDtYyDJjDoehoyzeBf7w5nGsdXFYfOQeGtYjxRPMPP72l9/+K2pAA
+router-signature
+-----BEGIN SIGNATURE-----
+IcQTbw5YxTIh0q4nZJ7lUKHSGua71KiC80azgelQO8UhG6Rdl8ahNrkXWXR/MVsr
+s3xzFsoMmNBbBuIKb6puNW/S4UzFlXevvCYFtcuDx/cy7wuz/EHOTzvqzBJV+4nd
+3IkddamvYjlTGb2GVXGwjl+tlBaotmmHZ3dbLYZtvCs=
+-----END SIGNATURE-----

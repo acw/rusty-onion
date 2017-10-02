@@ -1,0 +1,47 @@
+router NodeSolim442 96.64.149.101 9001 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:24:38
+fingerprint AE4C A129 F1CA 9893 B5AA C70E AD4D 6AC7 7847 512F
+uptime 0
+bandwidth 1228800 1228800 1384448
+extra-info-digest CF86291CA9E7E721CC0A9C4A82A49F6B6D3E5AAB
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALBcliYBpnwHD3w3vd4mdlO0dqyvJZlpWPQPCq9R9IqxPHIhwnf1ZWx9
+vmQBkxPTbdrKKMsRm8W6SfA9MIIloeUDVuPSt9EgPEwWiXrTARg6LMjtl3u8HCxG
+lmMzmtUv0n7yxd4hACat1YD6GeSeJXB/Y0PLpsd90VS1usA9Ap5pAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKc3lEYLXNl2PVhuphXlCZVHr3nk5OU6vlBckP4fTtwPyFApHlXw5zqH
+CkbCClkh1sUIzWtRCP373Ij3S6oy4Kjr72QPUqEy7GyPkVP1iafHOvwd17ufWtkt
+yfG7bP3wJb8sBiLa62OrRRKB6PzQrAc5t1VsQiRmDx7OILzLmR+lAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact e-mail torabuseATunitwraith.com
+ntor-onion-key pbV4DWxOmBXsUxzbuqIkSdOKz3lt5a0rGpzV1DETMQU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 96.64.149.101:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+BrBI9pS7z8k/7AP8fIHOReXMI4sc3BE8FHEBKE0IiU2LZm0jzOb+Q6vVIUYr4OOm
+qJHzdvlq6bPMFK/R5tLeJc/4MOlWxS6wZB+W7JSZmQSMpW5RlSF12P1In8pKY0VL
+bEXhgDpVUqpN7fuH5huT5J0UtT8bQDR8YH5NM+tQORE=
+-----END SIGNATURE-----

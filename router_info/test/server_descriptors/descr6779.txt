@@ -1,0 +1,51 @@
+router BSDLiberator 93.91.157.42 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmILAVCeWZQVkO6479H8k65atxD1fMjF/xUDTAzcINi2/oFuAQAgBACEGUMM
+6/nm2sP5iqRdmVAL03NhI8512sm2AxQ8C1Evf9r+0L4/qGZli1OCDj/dIuUIDyrH
+Wo2bJ5TcpVwNf7dtQHRsYBTmDeWcF3tQJZFGxjinu/ecDxdDffp1xdiYyAY=
+-----END ED25519 CERT-----
+master-key-ed25519 hBlDDOv55trD+YqkXZlQC9NzYSPOddrJtgMUPAtRL38
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:07:06
+fingerprint 2464 3B7E FA86 A42A 0638 4B8B 4168 52C5 AB72 4209
+uptime 427198
+bandwidth 340992 340992 392209
+extra-info-digest 5CBB26EDE442C8E598A5660A6D1FE09B1F77F1B1 EXnEHlHrzzHWj32N48lLTYooOMFJVMIR8UmNNoE+cEc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ8LfxIJHsrA9kRK4nDMfQA+fHnsaCDBH2KF2icJY0WePTA/9w4DQEoo
+bmTQeS5OaDgMPTnf6YPMQJxTZG4XGx634/k2Mc6ejA43e9Ak+c86JUs4gL23DjIo
+qZ92QAbbv239iLsopp6WK2+vodPRhBWnZHffUjFdcGFyY3KXyXl3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALAAatR1kddtmi8ItS+Hn/LzwBd+nMdvVcu8FqXSsLPe6DQA+J8PT6Nh
+NNEnqjgCEhBDZt1lXJllaQ/zaTwBQgbtLA32oMZPsP+QmEry37t6NumDFYg5KrFw
+Qg5A607KBccsV8sSLv6L/u+CNbm5LZ4ZJTMY1ocZWRf4CpVYxQT7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+P2mZ2a/zUewVKtUd7FbIMrIZyXh4yKU2ZWO1ls+sxL2ydUeFKPBScU7Mt6dCXOxC
+c3TgSXm+lSsgy4xEM9LRcV5BjhOB+SRj9KAQkUZ1rUyop1mSmQZhnUXrs2i+yoYk
+whdfAtSaf3lG4wu2CvjKycEg3Am0c0+//rjoXyTerX8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAYQZQwzr+ebaw/mKpF2ZUAvTc2EjznXaybYDFDwLUS9/AAPuKzqzNZ7t
+sthx+SC5NV1fAjF6ezWYdnNMiLOQMGoH2PD/szUtsgqeQptNgiZoUftJMkkeGw1O
+5RRp597DEwo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact your name <tor@lancea.cz>
+ntor-onion-key MCu1R1Gm7ThSGbh0I5f74Anw5lFdFwdLwWuySbOYmjc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 n7O/02Yhj22wOzT5qkmrLcwfSlIA0maon8v0bwgSFYPiJ8buEc9ckXi3j7fgYK6XA2IMMwQzhikW6F3851/9DQ
+router-signature
+-----BEGIN SIGNATURE-----
+mgM7ybPws7dvxn3wlgWfab4yFDwFc5TSGSH0RvqcO0288a1ANDUcclqsN1MVqx/T
+CVj2SB3+dAHl+3k+CcuQCWoXNnvZ58L+6/vMcgrb3PjHu811rOHVyjB6HWVhcfpT
+fvVCSB61NHYWmhlmA9E0WK6TfP0HQuuNb7LmiVMtZGg=
+-----END SIGNATURE-----

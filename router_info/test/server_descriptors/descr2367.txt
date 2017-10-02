@@ -1,0 +1,58 @@
+router freeBogatov 163.172.160.182 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEKARyTupqIrc7mww/pp2JQD0/f1ieYfmKL9bfI+pLPtzVpAQAgBADMYd/A
+zQhdXO/fxvlrIlGCLTwCG7QMqC5Q2D1HbUE//c8lg8AJSxUhXyaeq21W0I37ifp+
+pdCdSLQmcdUoqbfpqm85LquPhAoLYWDMYrHtrmno/CIw4yolxnroH00i6Qg=
+-----END ED25519 CERT-----
+master-key-ed25519 zGHfwM0IXVzv38b5ayJRgi08Ahu0DKguUNg9R21BP/0
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:06:04
+fingerprint CB6F F27F 3A47 4F6A 67D2 0683 C9C9 7DC2 75F2 658F
+uptime 64843
+bandwidth 16384000 20480000 4335698
+extra-info-digest 1D1715AB25C3029B73CF7C223BCD6E5ACC275530 hoMhHzFzec1VkujfcsSjdvd0gFt3OWsBBPrHR5O/hlM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO4FiO2ZF1F7kHjfoV/3O0mfgpv+R5GtkF7eUxd5FBmH3OEUwOM/MskO
+lhazV4uLq3YksDQQyujqhyuX/BTtORpGQ2qs6azLM0x4QppQaKY5haMKYD0vxHFq
+EQ7MyALLviImSemxtVfXlV3HVfrjc2bE61vmG5v26vfXklQ8MoqXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKu6FCCf615W4QQwX+e8EwGzv5aS+n2k8AOmJ7xyCnG0+VhYDPGkaTqG
+IB/owdsoZSeGqC1oFIlc2doaYngSk0scNI/ClH8JJKjSn99vXP0rDSEoowhQv6In
+d/GkA8fI0EqY3z2lHVCZ5Ofbxcx2RJ/BfirnO6Mh+uj5agNetSa/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+RzhLcRNSwQHuOW/8Mo/nXzH2Ox0Du2UgRtHRozxjxRUbhBbBqHGCTzm36w6NZ1/b
+HhH3x1W0y29FiP/rWs7BJAUAV/OA4mJ/BKMccvbzdHo6zgfcBaA6Zl90srgaoD9V
+Ur0cvi/OqypeONMgICZG6f3f5WmjP9rR6Cr8Grro64c=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCKAcxh38DNCF1c79/G+WsiUYItPAIbtAyoLlDYPUdtQT/9AC0gqc0xR60K
+CkrX9N+cLhoqaUANXJMm378Tqown+R6oFXzro2YM9oJGDpc7pruJRF2FRbSUa3jk
+KKaCBEAccgE=
+-----END ED25519 CERT-----
+family Haidir
+hidden-service-dir
+contact George Shuklin <george.shuklin@gmail.com>
+ntor-onion-key AvydUaKCtuHlcmBhADi3BhDoD3SoDfsYEZGxHjmwLQw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 163.172.160.182:*
+accept *:*
+router-sig-ed25519 WC9+N8FxbZti9CyWDjLCXxhR8UTMLDyUiqZUm0RoD54x1ZsdJULFLbCfM/pZeQUpc/J5izdqfzBRuM7XHqa0AQ
+router-signature
+-----BEGIN SIGNATURE-----
+MafxPmWfTk1kyZY0r6rcIOMTc1cwngEO7BinWkEurMCPZ6qNle5tEfVP/VBX11cY
+zcrcFTlClGMR2J7Rdn3vjjkHCo3mwaGF1Zi38FxaExg+MQAaLvXGhzx3sR5nksLJ
+pvyDtXaAYpJJo/C1yl7dQxw7fd6GOOLleV8cZXhWoQs=
+-----END SIGNATURE-----

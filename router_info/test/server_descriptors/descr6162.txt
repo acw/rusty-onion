@@ -1,0 +1,42 @@
+router dexter 195.228.45.176 9001 0 0
+platform Tor 0.2.6.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:52:58
+fingerprint 3BAD B3EF FB87 5347 36BF AC9A 2024 AB78 401B DBC3
+uptime 8495441
+bandwidth 92160000 97792000 16148399
+extra-info-digest 3F8386B2DCDDDB6097FB35FB8F39B8EEE5EA9E15
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMepCTseSKCtNvR3k52dGUq9y/OOZIhJXZztZ7FwYgRBJKinzbFUTty1
+KFGcbSreBvnZ3P8jbn50k8bb0efvQ4k8aDlhiDNu1e4rDRlMwkBTlfF3SlRlAOLD
+UD/bypjoLLjl5WTDSOKPXv5Cev8RCwu14yL1653/zAynvq1Va4SZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANxJiJU4xfQEc9Vrk7yL1F55M92YCFxZohh76VmVSYrJIhXZqnWgzfYJ
+thoiL1hLEGsIBRsYOT2jXJCTtMXx5UG35lNV7xIiiaTrql/rBR0lP4YZRp7SO+jC
+Kmhx9BTOnFt4iO/9ulF8rbPet26GsxboWuWFOnc2VeAam1CrL2GLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $FAD823A2AA7400D4A8107D7CD83050EEBB7A51FE
+hidden-service-dir
+contact DexterAdmin <dexter@prj.hu>
+ntor-onion-key GeHpTwXDMCv8tojG+Q6IkxA/uhwnGjJV+hGilA6JtgM=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 195.228.45.176:*
+accept *:80
+accept *:443
+accept *:53
+accept *:6660-6667
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+PaJbqMDSNif6Gp0Yafbm2ubg+6db68YUeRofuVvZpKvdyJdfwRx9tEt2D/X4wpkh
+/1R7B2szBXAUWwnFNXE7bC3ChJcZxLlJYAWHGcuvis/MlsMxdtLuK+BOTRJRIc+3
+FnWUa4M/OsOveL9tymwZ64nP1DjPTW/P1XIVy/60HrQ=
+-----END SIGNATURE-----

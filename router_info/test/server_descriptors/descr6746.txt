@@ -1,0 +1,51 @@
+router viftor 109.190.24.34 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJBAfEkMKCq5KWIr6hCb6Hi09Tl14L6HLdq22VuKuIzLo4VAQAgBAA/vXyh
+0MSCVRFrWxzHZdzVZ6xraxhZAr1N9J86Yll9LSduT2ANgJeyTPmSSCf29W3kKGfg
+vpdxOZpvpWVT4vmFriuiZqPjRSYnq0eFhfGK/IGEiK881vf2+dXY6M/UlQo=
+-----END ED25519 CERT-----
+master-key-ed25519 P718odDEglURa1scx2Xc1Wesa2sYWQK9TfSfOmJZfS0
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:07:20
+fingerprint 25DC 5FFB B3EE 39BA 092D 7FB5 C452 FB0F 2D56 7073
+uptime 7251565
+bandwidth 153600 204800 178188
+extra-info-digest 58C51A39939B07DEE862236A171E021DE3936338 dZoEzip+V7LGhOqbO8sQmvbr/MKS2MLTYfRBhsvUVDI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL5dloKGVTPkGCOC5nF+IQJwW0xU4nHRsSFSvanpC4y9ermTsz/Ue2q+
+xQJ6aPVGlVDDxtirdCykw+YYctD8SmD8AqxQh41l59Ixlw7KBr271Fbd69Ru07Cl
+unt3hiK9IHeM3WKSN/SewNycbJY37EFNmI+GntmeRWMQDfS/fLOpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANhrE6Cj6gfrlnZv4yu/kxVu8BCmzCTRLeOqJaTuLZXo4u0t5Wddqaxa
+gfSC03DtM3JEHWzNhEgGiXIs2pRrH7F1cNxBpUjqebwz4LN3McByCaq1HDPszv78
+2czgz4nFaWeGH5adN6qK5hgvS44kEu5M4mGKhILLQAKex9Vx8OkzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+LB9dboE0kwt4hl+35VI1ysYWOeszZyB0T/HCHVb42FyuhG2ZQJCx3t3m+g6luyAp
+ouNvYSfV2tzGUbivIh4HIVKnfGwtUtNWjft1iwkXipRwn0wrGNRURJQaTBVEGTWw
+wtxz7A0bumbNSPG4p9+lg1Nme1xaXe0R8n7mrFrXSBk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAT+9fKHQxIJVEWtbHMdl3NVnrGtrGFkCvU30nzpiWX0tAHKliM/p4upG
+UjDTZ54bZHSWcNjp2YBorsnGebI7YxwWN+JaETP8Vdo4f4Au5H9JnwQeJnxqHbS9
+PJLy9kWDHQc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Random Person <vfrico@mailoo.org>
+ntor-onion-key qQ37tAk88Zs2RDHHpX88GnxU2KoTlqoPRVVEjUMdZH8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 L1NpRxVj8cv3ZbviKlfCtj6iXW0s4qnDjHXr9B/AwqcHL5nJDB0o7fYiwBx6WDKL/q8q3U1m1hf0uMB5IDRPCQ
+router-signature
+-----BEGIN SIGNATURE-----
+R20lpTazLEvykxnMovNrbGpw/j90bu38kqFcJagy5DLjlhRiCAVMJfrim0NoD5Xj
+xB2NUO9KCNQ5hAioX72nhd3R/CKHLCyeEDV1MQZ/R/RvDyizIcdY++Oo+8DiGZ80
+UyOIFBYBuZ17g8GA4aijGBe+6dgGVWlMGpfFJx5blIM=
+-----END SIGNATURE-----

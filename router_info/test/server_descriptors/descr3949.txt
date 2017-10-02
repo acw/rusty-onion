@@ -1,0 +1,52 @@
+router randomfranco 185.13.38.197 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmB1AfOnpwhnV3VLbesXQYYtOPjzvDWgMOGTliyOztTlL0JRAQAgBABGq5eW
+S4ozjgL4bxsbXKsPVBBL4ODx3j4Y7O8tnZ8R4Rnt+fJgLkPBNqFPBLjoGTW2qlil
+LsPP2lkyGPWYMnfAcVEzVeecr0Up5bOKGMGiwfF5XVniqrEq9Oum88zW+Q0=
+-----END ED25519 CERT-----
+master-key-ed25519 RquXlkuKM44C+G8bG1yrD1QQS+Dg8d4+GOzvLZ2fEeE
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:50:10
+fingerprint 9137 A034 4382 B1EE 00A2 9CBA E7B4 2097 6AD0 2A5F
+uptime 2447364
+bandwidth 5242880 10485760 4579449
+extra-info-digest E5B8CFC3A9D297D9BA60230F9CFA80C7D3169937 EUKPDNjITDXb9PRh3ZOuk6+yglGrN7EaQDzQuRWxg/w
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAODRGWirOFCkuhw+/r28qIttJq6fSRmjN4+c+Z8xnnjSlNzbEQXW/dcv
+qdwKIXAmBXzNfA3xnRkwChxZSKb64JqYhJzr5EuumGVVE6fv9crNO4g61pD8+W3K
+YYawDH/4JdtHZwYI75eMe7jnjaYd+WZlT9e5kdMfjMBWzORo45WTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALswA159J2Lfas4PlrQRpfrI/LlVnRs79WAM2x1m4Ntwhgac/1c0/OOa
+x5q25qOtZb8jitanlCGLe5PhOS/iQKn01DL3eit3SDmUTVRP+kw6oeNVqDasWxgz
+9Sw/vXVxD1Gn/eUEhOQ+TsWusUG11EE2yXigRXOqjlsJTE+M7cpPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hj0M+n7Vd6+mezw0UrtcbQU47xkULAvq6yDuEey/2q+guFTwVOOpEkO8YENDlfkS
+fQobgw3KCxHMi0JsBKA/9gANM2upNE2ghIugy+C2mgpvBBa7ISKrpU9HRt8dxwvP
+rpbC9TEdWKasoVKXTOyyFIibTFGYlHWcV9bZIjMohKY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAUarl5ZLijOOAvhvGxtcqw9UEEvg4PHePhjs7y2dnxHhADm+Ny4KYGU2
+0+ARHho+TaoZO9j941hukST59ITGaQ0xP4aIytc/AuXfM1nxjFIsr+MSku5hbCgO
+b34uAJqeUAI=
+-----END ED25519 CERT-----
+family $01EB5CFEC6EFA270C8F39839AEFD3018DA4A45F8 $CF9831F5CE1068F083D0092F30CD77C4847CFC56 $EDDA72FFB13E080DDBBFA3AC208DFD97BB933D65
+hidden-service-dir
+contact urandom <abuse AT urandom dot nl> - 12WFH2Ycurhr7YzeJJWxLDkAd1vuewivwJ
+ntor-onion-key IdQKByy9gEdO/XzkPRniJBPAYS4jIgvOLKql1ZB/mAs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 NnOStmGjw07qeOs6INYuGu+1mKNhcGqCAQt+BT8b6UrFkVKoyvPedjKYjGpTkgFN+sbp8AzX8evj3m0Ou/0tCg
+router-signature
+-----BEGIN SIGNATURE-----
+U1rMYso0zG65c7KhRQb60vQTGf4SF1xufvdh139zXt0HWyLegiDClybWt7evFrMw
+GWXLqQu6YTaETGPJhyeR8lI+NafVkq4eNlLsIvnnHlYrmc9WuZwr5h52Hl+pObzF
+9kq4lQIF0ibjotoLvEeUeYEfvjBvypZXn35IWoe47Hc=
+-----END SIGNATURE-----

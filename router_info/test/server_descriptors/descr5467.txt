@@ -1,0 +1,51 @@
+router clash 2.230.164.254 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBbAcKb8qTk17QyjhmQOIX9HTIeFAvTGJin5qJWqlutGgVCAQAgBABQoFh9
+Ds79g3sGh6ATqHct63cz1HmCpAAgjSfN4q4KF2wZSvAegVGHF2SIXUPB2RMqCS5k
+i9FOoMgJ4TUbXbIfr3GJHZU2VoDiFZ4dMcoVHQHhdDyfLgalJn/vGikN4QM=
+-----END ED25519 CERT-----
+master-key-ed25519 UKBYfQ7O/YN7BoegE6h3Let3M9R5gqQAII0nzeKuChc
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:33:22
+fingerprint 56BF 3B63 6ADF 50B2 013B 3164 EBED E59D 0C1C 2ACE
+uptime 904032
+bandwidth 196608 393216 240540
+extra-info-digest CC5D064341870AAC15E22EDB7728D6B44B6DEC89 G+ZW6QF/PPmhNPRK/lHUiGhNcpl944IAa+IROki97G8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN/mDFKMRArTrckwBjsoHMTWUIc18zofl62xmWaY3+a9stBZtVW1zslW
+AAh5Wysk6nlxLRbInXztO77G3z5UdTdJ7q6uP7R9Y84ELtQ5DJ1O7fZK3oVNGuvn
+qLXOMx0K04tWXaUQz8V5Ic20DDtOYCrYEcMZ2dIU9syU0OtujSOlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPsXk+KoF6TgQ3FnVTZR5WPaTAWPYRiP9CsVig2tEDpRwbYyypxnhoKY
+8klRR/j1mAQHy6ffK93UxuX+qhUn1fgYOelT8bw3hgJND1L1e37QwJ+CM+9vXkT3
+1qCAi5hAYLuSwSFUA190zHrrw0zySwBrO6oNqnMRngb07HLUgernAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Fq5i3dlOfMYOWZ0I0wqyVFS/Nijvef5YiPb3o/lGEeekPtQhzudT02xi/FV7mBur
+kpM0HM8oh5SkASSd5u4JzuPl2n7IW5je+j5wphxQr5SvueDZ7NAuzNFnifWZgzVg
+S2qauXApLmegetydzGFZbJgIB/91H3QnSrREbf275J8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLAVCgWH0Ozv2DewaHoBOody3rdzPUeYKkACCNJ83irgoXADmhnBBOrN7s
+bQOB1/DrwnA3LhOdl4ynxsSHcAqYrIfTdBJttRcaKDNgjYze1q7ZwhhIymTPkoPb
+R+P3SimZVAg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact register at clashnet dot org
+ntor-onion-key JDxijytO8wetGfgJ37/pRnqoE9jywl/1Jca9XwScqHc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 XJIL3y/qam3v2Q6WT2VZVnGaJdvkKsuP+SiUyju9o+/BAPtL1kxJ9gofJdZ9Lrd0phhlLl5spfBHVMfctvPrDw
+router-signature
+-----BEGIN SIGNATURE-----
+hw9f9pS9cApP+l211vRs67SsEAK6SpZ5HMSTq9rdEMWwfagsaOB3A5cWeqYrhn/f
+mVeI7RLMkYVX+ieSUmVazOimLw4+vwlAwyYzFT/w/8mC+uivF8K6uyJ0hvyYDRYa
+bdhLwvXscmvqPM/sw5qnxrRN2l0CqSsna8jkwcFuqDs=
+-----END SIGNATURE-----

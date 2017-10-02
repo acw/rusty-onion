@@ -1,0 +1,51 @@
+router OrangeTorRelay 109.88.211.62 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJSAecbNAF59O4HL5a3ve6y+s+fd2Of5lxlQJ/ZkgUDsuAxAQAgBAAw/zh1
+Frliv4wd+IGaoQ5rphaqC5qImUj8bsHaqLTl/Bvw7yOOp9PrdcuHweB+0cz2klgB
+N0smJefSc8nuIBU+4JbCAEbTtz6qOIeh4FyRoJqwvRgEDlshiCMlY2/MXwc=
+-----END ED25519 CERT-----
+master-key-ed25519 MP84dRa5Yr+MHfiBmqEOa6YWqguaiJlI/G7B2qi05fw
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:59:55
+fingerprint 63ED 0DEC 2DCF 22EE 4863 0A50 6F4F 0E54 110F 6467
+uptime 378325
+bandwidth 512000 665600 761909
+extra-info-digest C6894FDB4E836AA03E696CB78411175F58DD3E9E 1zaEd7Aq39GquqVuBaRfyo3sIQA2AUtuKJfxIG5Fz/s
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAO6gU2uLb9vLYI0QKVkZVbFHh9G1c/IE8tFDj9Hm/nlYTNfm4I/FYYhU
+2FSCIFlY2RcdqOfrORxvsHdkGSu9dlGsWz4ep5RkaoivaenmYznmiCMQC5ebq4v9
+sLwZb2R2HfbzJCLdGsDwh2/SjBnv/otfLmL7pEOzAqDVcEQ3qUAhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOKp4nBQAtF43zGulAaPXqCR2vEwJvUoW7ZjwSI03TPlkaMEWu6s4Pb4
+spYiHuh07xlzNVCfPOzWQR1+R7chRQ+DOMgx89Nk0Yx1ByqFlew9LS4p+dO0hOAJ
+vtj5a6NK95lkbxoNu7uKXSHtMAMyddmRVk1DCC1RGAf4PpLV11bzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ZQk9qT7Qqs/t22q21sf8lpgWaZtj97Lh296eEoz18VuMXnDvB5UqObxE6TrrKavn
+mU4oTQUzL75NAQNCboKPy3Pu+NqaidoJRMqC7gwMV8MRgjXcKDU+00v12ZgJIdxe
+SuKMCsHy9jm+32LvbDccXaYscBtMFlv6A4MtJ6lk3oU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTATD/OHUWuWK/jB34gZqhDmumFqoLmoiZSPxuwdqotOX8AKSsH3LcbPMV
+awg2qXZij+TsB/Q0XBgufVeCBSWJNZ6E+9qlhQAgNJlVMMM5poPbc7ALN9aMQqP3
+sFMLsKhDMw8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact nobody@noone.com
+ntor-onion-key hcLxOi523Fn3v6AMpYI5fi0IIa2Ezr8INHrYttjc2DA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 AegwWB8bp6nZo3ZDwOBUV1IZO9WdK8gY0P45hkp5pxywAuu4tA1LtdigC33n1pxnvYijlhDohO5xpgbOwS/RAg
+router-signature
+-----BEGIN SIGNATURE-----
+CpfZxU/qnnAegRlwLKyllcjYNMJTCYrFWLQpNfnNmzDq6pZkGfgHvOwK5i/ZuQwd
+ivp9wA/5YHto3Tp+TaYHuyJvKO474CAPCWBE6NeSpSAigTCqOgNvHvT0C6bPR2H/
+51SpcSpvAJX45bi5BUqUTuR7fYXptTqf43Bh/FxPtyk=
+-----END SIGNATURE-----

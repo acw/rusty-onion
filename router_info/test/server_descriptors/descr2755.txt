@@ -1,0 +1,51 @@
+router Pleiades 90.66.86.205 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDqAf/a1+lziDt/49+vEM2vq/hlEakknOw5G2lNV3DbPv0fAQAgBAASAzfz
+x9hS7FiAtyMbScJpsTHj1uXoqWWUYTArUzxxIi7kPyOzSyEWQ16mssztSoJ6zgo5
+Ev2avlsSzEo9sR+OqX5R5HInrlP4DRfT32Cc7gPiVDGwnYJAMNohH1rWMQI=
+-----END ED25519 CERT-----
+master-key-ed25519 EgM388fYUuxYgLcjG0nCabEx49bl6KlllGEwK1M8cSI
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:36:38
+fingerprint BDA0 BC35 71FC CF65 6A96 2AA9 5E2D FF64 5092 3BB5
+uptime 681421
+bandwidth 16777216 33554432 756477
+extra-info-digest 459CC90B365E7A52ED1C7AE67C05ECEDE0B36873 pZUiJVdPOiIZ/VbwHb6v8AS9ocFtXNt0ZGT0aQ9TKQ4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMjbyMamU7VDWNHqPPA5TKzIwNBJ4WD3ODJd5wOK3qFMgUTEYgBjmnS5
+BhCAzszyEjkjtvbYGCY4pbichWtc+syM1hAMz9OOaFQW/3ZH9oEw5fDsWOyAh6PQ
+s8Rum4wslRkPgdn3eaiS2Mbzned7Iu1U7mekc/FyFVnJiKeIUPCTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMK9TXsH+4tIccHP02Z+fp5Vnff61YGS6Qjc4OQBkXK+IoePhCBlhnEw
+/dZ1GdA84292J0RwR729L7Oef3FSGFkQaFlve0wV/kxbLfXC76ppknZCSY41+//t
+LkrW3Y5h/6PaVhp6DVKOWn19/ajroaST05gr5HOqcxIDFJU6ydIBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kaygsm8HQunm45ZxQRGjYOpQ6OafNxdznwbumrx7q45oGHSbRakfTO8x23itdwM9
+3X7CTG8hiMGSHpMJ1WcIu3Sj4kgIP5tKPjjgxTfJ/yjiDXojKrp3NI3iGB+DRE7E
+gPPUqFGxSKAQf7KbxaC0e8OGDtUD52mdztOpWPEsGj4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFARIDN/PH2FLsWIC3IxtJwmmxMePW5eipZZRhMCtTPHEiAHmcA5mxgna+
+1Zpb5yXbnm9qM/lNYJT/sqdj+6kXpo7m8NNa5m9LPJZQJ0TFAmHsJKrjFwVjNuo5
+lyq5Bae1qQk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x1FA70F93 Hadrien Croubois <surname DOT name AT gmail DOT com>
+ntor-onion-key 06IIkrjfMRcpOn0EP4TcDcmB75cZbkMH0BVK9xgY9Q4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 JBvTYFtomOlx5nxXuf2ElMwHRlgX1scFUVxmTeANEwC13/zAoyuhN03pgcYfkNYANQSbixLdtaT5G5R49IaSAA
+router-signature
+-----BEGIN SIGNATURE-----
+PA65zCL4sBOTC8A4eUHy5KNb18/+9ZaCS++DmSIWp5YjU4vR1SE+MhMBDkVGOXUn
+YHUUjZnhYPzbtRBiJMwjVaeQBrscgcHDIOOsz31lb6VM54IoIBPv7V3M6cw9M27A
+VTEkURz7QZwjm/Rfpj49EdqL5JenIDdeiwin//53yW4=
+-----END SIGNATURE-----

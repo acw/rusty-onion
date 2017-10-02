@@ -1,0 +1,30 @@
+router sp3blackbox 93.231.238.189 23420 0 42230
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:46:15
+fingerprint 9440 4FDE 26D0 0AE4 E092 E18F 32F9 B308 F51A 0257
+uptime 5795
+bandwidth 4194304 5242880 826888
+extra-info-digest C011AA6A41BD8C66E05F8A8FB1A448B0AD3FA9A2
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALzaBDkcGlj/fqBa11AMjocHNCFcEX9gPMtx6O3ly2z6ciTYgUo5ad80
+v/AhBZUBOBKYs+TZ/LzaTZQ7SA7oMcViO6Wr//TDHnbR7gOrM9I+Kbc/GVN525qZ
+M0PaYM8ZlAxvAzw8F6OxIB+V0VGVC+mEjNDWsaIZCbGRQRcYWDKhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANfvYMtX/ZFvaU7YGJYaMIBftdCUvJ6Gu96F7rQDdmbYQkL0XFVksfZ8
+7m4h+G9fyawWsa+YhLe5TqEHQHF1lo3A2x7qc0rxbKAn2wt8bcogt4JUoqOwS8MS
+CcAKJFmOGJsb7IZhUArhH8pjgkwyWHnJebaYjTY0jX9ou89jHPz3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Torserver-Support <torserver .AT. ittk-service .DOT. it>
+ntor-onion-key uQVz+Yod9kViLAv1N+RRmNUw535OIz5/ETSkVpqRejs=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+IzOMQW53xY+nxt7RqXcoK830NdI5sxS6EDXcQ8vIHrrULZpKKjP8V93FXjLkSDgB
+3KgwhgIpoHqG7/cgcLusfJJ/PIbudVphYXwnCtxG3Fx7X2hlO38WhD1qFF2YQRcC
+PRiZQARlvJoFKz+ugKJPDL7d41OFPaGdbA9mKlf0GgU=
+-----END SIGNATURE-----

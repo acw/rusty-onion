@@ -1,0 +1,29 @@
+router torshark 195.154.252.88 443 0 80
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:30:00
+fingerprint 3539 7A64 012B 4E49 C383 83F2 C958 27FA C66C 2AFF
+uptime 15783140
+bandwidth 1073741824 1073741824 6615003
+extra-info-digest 3D70DADE78F74B3CED2969E2DAFD59D3E71B9662
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMkJ1JZ7f8HYIgVY++RXPfQUO6lf1+24JFxwU5B1Hx1oXWxINenb+RsS
+AhvB0UNvA/RINZ7QpwpOutCtBsAX4/cYbAuEI2GvqM2qHxKW0RNr82yg8oo17CGT
+RXNiDgOUgsWcwTXNsgdCF8TbSp1qUnZKvoa52Lpe5Lw0nd8CMqURAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMqOUJciMG5Ptsgt4zqvGc1x2XhhGtg8yd1XgfLyjkYgd3SGZRA8Kaew
+8ANkLYasYWA0Ml8m7QedT1oDjTC5AOba22wfr4k6i4NwFp6HskmfJfkoeB1QxkU6
+0sdNECeUeyls5AP88miRDYDLW1daBq63jr83G6Rz8qd7bMEt2cZtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key itqKwv2TukCfLkQzS5hofGnF1QivaznPk2y5J862IgU=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+JeNJabJuqO1LlzBdaKamB/obErKHn07lv4TTan1kdSXfWMZWwwPKXH62HwvL27DA
+heBW3tiwv9dy7GUz4rkNJvJlxX4a1Na2nGDyhz6UAcG0hc7ryf/lTNa0WnZ/BlR2
+7lWiTGlMR3OhPB+N+P7AuFeeI3APStcfdWGG9X3mV7g=
+-----END SIGNATURE-----

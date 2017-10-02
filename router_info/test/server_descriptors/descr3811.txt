@@ -1,0 +1,51 @@
+router Vibescu 78.193.140.4 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmA6AU3o9XLMXmH8W/tcInY2ed1tGjGtXVSfXpfrd32FoUzbAQAgBAC0X/9Y
+COn+TkCMTos6CrpWqdLG6VS+vVgTGMlttlB7iBSS9vTV18uDYPEpHbI+h8f1o2Mt
+Aml2M8bbrtpFEFLabDK1CB26MNH6gXlTVkdqcHXhc6QlGGdJPClkU8qfXQI=
+-----END ED25519 CERT-----
+master-key-ed25519 tF//WAjp/k5AjE6LOgq6VqnSxulUvr1YExjJbbZQe4g
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:42:37
+fingerprint 9635 968B B4E2 D1B8 395B 0A1F 4A7D DA5E C4B5 C435
+uptime 1784629
+bandwidth 10485760 20971520 5147456
+extra-info-digest 8A99F66B74E0ED5BFA24B8A4BE26DC27A3AC0246 Kfjkpc2tv6aj4hztFGr8KU4IYgfEshu/cdJXFGlIFiE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMXeEdsxx18rlpH+lFK392BLQr0JNyELn2f9086pCYxZwek7LdcWtRef
+6w+uVVLmSULkess5vR/gXkD1tDakJR7qYi8qci3Drh7rXfFu/hSUU51ch04XCH4x
+4RFxQfLkkOyTQO9JKFtEehCpXVeHOV5wPoVNveAPx5dHr5oI7sR5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALlROoCrqRu9ceRYXB93qQ5o1gXiAzODwrAvY+UtrmGsFjw6muCwB8ru
+ulxCLVIPtkwidu09jdFrp9v2/jd7JLQrRHS7CKJLtR+tIQ6uZZiRZcxvw581UDOt
+Zu6y9ohRgBvAoWL86ihFuHxec3/EBu3DNBAa+NVbf4FayBeZqr+NAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+VOn8Udt51isMoeyYVKlZiRULo/OOwgESO8MYUQvvt/1wN2BPJl/GT0YzlSkbN2HS
+p3lAdXN62V0OOo3RGasIOklaKNK63gVVUvfDavDzt5SPgJQYAySoVZclgIR8aIDn
+UZbMojfJDYKxx4PUU1I6Ij42/Ckixp0b/4lKeU5Bu/4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAbRf/1gI6f5OQIxOizoKulap0sbpVL69WBMYyW22UHuIAJk9knShu/TS
+RQ+CCmKFMriI/pxYBKERuOgzK+Kt5u8KDmhj0c02u5g0SWHWljEeek3opzZJiJhu
++4oVcYcZ5AU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact m.vibescu@yahoo.fr
+ntor-onion-key OouTFie5NvL3TEu2xWxyFlFC7yScTvFTH1tdDdxYDWw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Xy/BZ81JVUj0jRqrkAzDIDvSGe5yEexuAXkzy7oQKj4fLZbAem+sAD9RVA7KsJzbNX+EwkbRD5oPR1NDjAxfDw
+router-signature
+-----BEGIN SIGNATURE-----
+mb/4jy7X5dHUzkxA3bu9UhzA0Vc84xNJF13lce8MREfBRMV66XwvDpd2CLp1kqiQ
+gUxD3x2MxJArbPWC8uhkG756g8eq6rLDtSdZNPmAmoyfTrB2H8y8EUmUINLMroPj
+zo7u4fEApyXqeW++94JTf+I6GL15G2pYo92/iTh8ChI=
+-----END SIGNATURE-----

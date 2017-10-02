@@ -1,0 +1,75 @@
+router fun 172.97.103.47 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGtAfA2QuhY2MfhiE0uxNexywu41f7UPx7ovhAShcnWMVAKAQAgBAA+0m3t
+TTYPQgcOnbeOoha0GrsLDWIeshHTguopjm4iZAkhfU3aSVS0hk24BT/60Qaozh0C
+YfE6L+fJzaKb1gWo9liALZsCI12C8GPZSl/RVCPcHfo1XK3GbODENObONAU=
+-----END ED25519 CERT-----
+master-key-ed25519 PtJt7U02D0IHDp23jqIWtBq7Cw1iHrIR04LqKY5uImQ
+platform Tor 0.3.1.4-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:34:23
+fingerprint D3A9 47CD B219 DC9F 7DB0 B28F 6E50 3D26 AA1D CB35
+uptime 3634717
+bandwidth 1024000 1536000 1174343
+extra-info-digest 22356D6D348587AC4ADE1B16A33F5BEB19307782 ICN9inU5tmM/aXPRJeuqEhetxf1NmVbJsjgA9VCtGKA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK3O0oCdhBCtKCrBjIStLEg1sXGuX6zrGSAI+9iLdGQf63SKAepOZr9K
+Oy0pds51TccsEhQuFY3u+rLvS28D0Krk3aNkjgC+xKX6RRiN/XSyoo/eiZGHlzWt
+Cnbjv3CgBZLtBjD6BPSfA2slFb0+G04Su/kETG5Vt1MdOU9rX21RAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANKPHEWRKx8E5CZ4NJNOFzlrSAIqKxom4IzKBtFdCouX/sOF+AUKgOmo
+WSvveHVBSme68lNJQg7UMhIM1vFaVh5FF0jL4z5geoYHIfymv4zvUSejXL/xs/R4
+Bxnfa7y31XX+bqQWlAqe09bUfyj8nhzZ3q7r5jhXQIEEBFL94d8zAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+AM557XDeJdxjT6G0QKRdO5IfsYd4/NFEE03dGis3ir6G9zOoP/Gh5KxIaDFGLodG
+PM7HvMyzJrEkyWnqCvDtV86p5qlvK1XKxMHe5VYv3KWx7s3dWy8tuRccJG0qNpwG
+6VLxIyB4QluI+EBR5CgJw6/eOi040I30GTG6kn7VAwo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmJ+AT7Sbe1NNg9CBw6dt46iFrQauwsNYh6yEdOC6imObiJkAG1AEv/Leu1L
+StziOzkA2vqLZmIFTAwnNNshPGPYrcUj4Qx7jxXMF+63NmKOrXAXSwK4Nu8J2MKQ
+PGCFpRWiZw8=
+-----END ED25519 CERT-----
+family $4F4EAC4A38CCD514CC29E83A4D5A4F792959EF84 $D814C3CA8115AC4FB753D3E0CF54FAFE2A5F0A6F $E46765E336E10ECA092F73FB36FC96BEB7A4823D
+hidden-service-dir
+contact 2048R/FF16F895 Paul Tobias <tobias.pal@gmail.com> - 16FkTZxUaCAPXz5M1iBHPF2FMyi1WBhYas
+ntor-onion-key R+6gFOgxYp4IbSL4xt1FtTnmO3Z80dvtzx1W+Jnc+Rw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 172.97.103.47:*
+reject *:993
+accept *:873
+accept *:989-995
+accept *:1194
+accept *:1293
+accept *:2086-2087
+accept *:3690
+accept *:5228
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8082
+accept *:8332-8333
+accept *:9418
+accept *:19294
+accept *:50002
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 cZJBMk0uItE3RJ2fbARkRgA6eNVcH4eh450BmZHLtXfOojSc+VgBXyAh1xvn0OclLVnHVWAaUS0Boyaj2zKMCQ
+router-signature
+-----BEGIN SIGNATURE-----
+N92LuzByWTA5XkLX2KYmQODd2cDPXuS94gt6yrJ/jbhY7RWPAmBbKiZ+dd/FrreA
+qk6MLd5Tp9hCBuPsrpszwtkLNLEZEx7VaJPDqHY/bifRzjM+RDBqMN6tHwY3nY9O
+EHpHw/21XQt9+t4oOGftSugNW35pbQLjZAQpXi4jYRc=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router Cargol 37.15.247.58 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAoAciQwQjIA+caguy6wBoIyclErCGFwaHANyh/VS4HZ1IrAQAgBABV3UQm
+RHICGYi/wxN3gkm728lCbufVz/fRZlyHuWPj1cdjxEQlqUgD4ZneBXLRzZ5iJN0K
+E+jL7+2YfOSPf6x8FD2ugtDN2CFVpXajvivNckSx4GsVRrYSFHLbm5pmpgQ=
+-----END ED25519 CERT-----
+master-key-ed25519 Vd1EJkRyAhmIv8MTd4JJu9vJQm7n1c/30WZch7lj49U
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:50:45
+fingerprint C78C 61A0 F084 F642 88E7 14DA 7C93 8A09 3B9A E3C6
+uptime 525619
+bandwidth 4096000 8192000 3289690
+extra-info-digest F1315A18025E91760078DA6137753CE88BC4039D 8A8AomkLGFP3cIIJoTdb+wACFyD1tvCpUVKSfOhT7pU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKCcEuTIfsFfmMPxsBDEOpL5OS2AK/gkYbSOeyRytYLXAigxJOzSCw8b
+sp359bAxh6mdxQPVwYHJG/gHJYKEgBNn15q7BP5fh9YyuBQftBpEy5RHk8Z/Advj
+01/52GXtXlvxSjXe0Q2UwkYgu368StPWQqPZXfxKJ+vzpldfCz1FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALIV63+7WZGH6gG1wIEnWAF8aD8FxJ8EewVVsfKz04b1kaOIPKO3YT9r
+mYjp/oJ8qm0KnSL2cXSXjbAejaPT1SVdqX6g1MdlhV0S0VMMO2jvP5X1lwHROcjJ
+7Wek5CRUUReeyxaN6PB6oNOWdmwZCQplWg9qhbmG2eLbkJz57swrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EGavEIg0u6YQCMLt0NH8N2a0W1xLQo2eNfyEvUEeXU6oGOP9DqFPSYR8dlrI3swn
+ibD/lAKN+Qp68n0JhoMFmYSCLHMl1vuZWyl7M1dRaVj63HJUti9QIpF+LJaObBv+
+L5vM76NpohncxSA9OwGqZ8ZvjVxrAlIyV+PWfAeveB8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKCAVXdRCZEcgIZiL/DE3eCSbvbyUJu59XP99FmXIe5Y+PVAAm22YRClhl+
+vBCN6G11ztT1gQEqmaYOeGgjrUm4HC5S52imJh9meUNpekn9HRWGuatE3yHGGreF
+7UDU44Sv1QU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact mmarco unizar es
+ntor-onion-key WgJVzCsP9NOP0KewFbKGE+XI1nPLy+qwJWaEUtb4dnI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 fH4zNHZ7/L+SFtxT2qbfyC3okFv9J0PUb5za8ffPHkoyYTY3URjcf1DG1NTkpfEVo77DLCsr2dj0bFd9gFRbCQ
+router-signature
+-----BEGIN SIGNATURE-----
+EmILGBZWZGQF36qhcQlrieLICMalIlNl34tAAneJfT7G2EUHZ2o4cDPDp2fTET+u
+bPPkE7A2aHwwVaO83PN6UMQWh+GXrt1SKEY6FgosfCagn3mgDk7bzprFly9inQTJ
+U21IjXj8Q2OvGyMC1VOfifHYt5uXUR5xa0CuNbXlbno=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router FlyingSquirrel 88.105.39.184 50002 0 50003
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABl//AUi6hu61leBXGo0mYZOVJ8WA2LdERDf9nUGkv0n7jzUJAQAgBADXYCZy
+Gfmc/fbYYRoSWwrlmlRjqAw58JHLAGC52mCrTI8/XTMtKGGI+kEh9OzMHm1GmVry
+qxKvUtmO0V06Z7sDqYopEW2evT28OnOWq26CfJTY0A6+6UQpB8stJCMI3wQ=
+-----END ED25519 CERT-----
+master-key-ed25519 12Amchn5nP322GEaElsK5ZpUY6gMOfCRywBgudpgq0w
+platform Tor 0.2.8.7 on Windows 8
+protocols Link 1 2 Circuit 1
+published 2017-08-28 09:11:07
+fingerprint 4A2B 5761 AAD3 BE7D BC6B 6566 AD8C 26A6 A95D 2F0D
+uptime 3
+bandwidth 1048576 2097152 101376
+extra-info-digest 3E4EA48FDF3027427374920CFAD872A831CBAF73 WJHNtxkjmOOUb2PBVm8eJvf48PnYh8ypHJc9xvSLY/I
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALRRX26H9LcfCDHj589xyoVRK+xuc47vvjmkAvFJD6bQGCjoCr52BHcP
+SwRO1HBxGSv5QQJOvVltCaST8X4sg/2ht96ZRqkIwgUn5fQTZAPclfulICBKyREV
+8ppISp0FcLsVEu08aS4J2K6mvSgTZbmPoz3x21oPhJRfWNnEfy+FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL+xZv0saZDESYzHfbZ7b++mU0GxxAlC3r6+JbkELAJ9z4R++WbqnJTi
+Nt2IpqCuDVzd5G9UEpK58+T+CxLbrIR4ca/KBCvLS9wPHYOxPrSZVYg+WZohpvVG
+jTJ6qNnwRXHzyPdTwmd9ot6fUK5NEvxzOi5ZS35M40yHwCUUZe0vAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+XemTm99em9joQ7lE8LkYjdPAzJhEC0JzQOq4GTSyUDv1Dk7QXDyG0ZEPxLu2dWwH
+1Ea+4fq6mSBq5JAecAWsz0dBCffwjDDKLoh/i8v3iXxmZQ1p4JZAEXNcOepb0fvD
+v+l8aY/DdnwelIel2U9etYJ+7D8hzTFSMLcUhTSwtUk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCCAddgJnIZ+Zz99thhGhJbCuWaVGOoDDnwkcsAYLnaYKtMAGPUI+Xt5itB
+wz7/wpR1VjwJ9CECGfTatS3/8t1H4DqGHBKEc+yvapIbT3M+H3mv5pDX6EUDOd9A
+aYv+QtbQ5gg=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key cdbmAjkbKzQpvAHY/SCGQecOacc0taPK+FOaBPN/1R4=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 3dnWNpGdU4Th1A5oFAFqpsWAiRMxxmZhsBC4lQkn4R6eWBmyAOytCA5mUfbPMt3tG9n/bMNiusBOTzDc2GWSDQ
+router-signature
+-----BEGIN SIGNATURE-----
+DYIXz67fiA/5G4BbervFuT2keTwhTm7/xo6kxFUFHKmMyFvoGlDbVoCYLiDL7WzT
+0PLadNaz/e33PqmajEPOUlTgz8JglFvOOkd2kKg/BRY0+0Mnocjq1SPzqwZmPIGl
+6iUhU2Sab/UNF9Junlf6TdPQNRpl1/I2Z8+P3+q5lIQ=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router zebra620 188.138.112.60 1521 0 1433
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCWAWvEurEj4KsLYSqiESTRrpz37ia7+eMrPCrAjDstdCZCAQAgBADOv8jy
+c7RA2/BglUAl/AQODXGdBXTFAWzGGi/IaJ2g+anh6325+u4mgoJgo8sUSyYmPi6u
+XXSiGUoN+iJQinePsipr5Z/9xl7qeJKih1gb+MYdJafTPuU3/8ui6eiFbAE=
+-----END ED25519 CERT-----
+master-key-ed25519 zr/I8nO0QNvwYJVAJfwEDg1xnQV0xQFsxhovyGidoPk
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:48:00
+fingerprint C414 F28F D2BE C155 3024 299B 31D4 E726 BEB8 E788
+uptime 1121214
+bandwidth 10485760 10485760 8362750
+extra-info-digest 371D131F9BEE50A612D2D64DF6BA8CFC9524147A xUQ1AitzdCcqkqQmw8VbU7lZfTyfjgR/zE7l2JUx/zw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKPAIrxiwU23FX2tqLpJSQ1V4RjgmUKZipSfS5+nnC9+X81ODFdOwKzt
+y7fKgLtl53isb57XbrtC4ACf7UKe30UiIrxzllXntd5oWuvrtl4sZuAgsmnULHA2
+TCEZKs0b31k3i43hQQIv+dwb9jHCW0XXKSHUzLbfzAqmHffkMMzBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALK8VWM40CIBtuvOxUrkwkDuzU55VF7rbQ4akMw/J4hRg0QMuatEIDbQ
+865m8qjoDKxPIgMyR1/D2t9lKNzqeMY9Du1ll+YI3iorIcGKKRqYq2G8jtnJUGUb
+F+8OzLwpy18F6o4005ayKrHNMMoxYRtOLlxjNOfP6+SuZG7vxisbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Jbxy3er7xuHSwQzVL64SFZJ9b3eiKVQvVk/R6atJdSIZ8fmNO2vYIO5xuGyz0X7d
+/1u4EYCAulFQ1LT2ANpdhSxG3xZSJR606mHZUaiXnpn7JPvX1aJV20cFs5peb0R2
+rXhkMKMZHmQLn15DiFrfdpnxJ2XfUxa86WnT0AKQao4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNAc6/yPJztEDb8GCVQCX8BA4NcZ0FdMUBbMYaL8honaD5AHP7V3AA/pgV
+etycCANpNaCT7Q8i9HXYWoT4UJhgARyTHbcUoRfIaGq5MRjqt0KOo51oKuhTwKLQ
+sShWyQeyHgg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor@haltmayer.com
+ntor-onion-key /1KPs7gHlUmVueJv7CSkEshdRMrP4ME0hBLIgMKASDQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 KG7yuI5Ka+2V447lBKbjp5vio0cyguVlZc6BBP8ilcnsvYq9uMcQaBxK5dwYfsVYCY7JRcfyMag7jJtiBHZUCA
+router-signature
+-----BEGIN SIGNATURE-----
+DW1FJ/ZWXPyF0UnPBw6byR9E771oX4mJ3XBZPPQKIQXLAOq7e5WqeDh3xHq4qvyZ
+SJfBmwU6dNR08iP9zyUp0SdnUe8AnqnSXjD/dFZl/djXDhjtsvs67LtXGzg5yF7T
+C1LuSpmAfZ5gv4CUW5ZUw/zYukRDPr38V+OKlmgAGIs=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router MelbTORbox 158.140.206.75 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmASAQc14H7m8N48R0tiDygtsQaPKd7MmdVTeVhUsjapdepRAQAgBAAQrfkg
+vPPVWFj52CK5T8aTVIm5V1FMQGOqbcgK5KQ4w9FH74qd3ktYvJZiLEitwcWVljri
+Wpb2gp15d1WcuvkfHXEtvFKsp71TsEEj09q1iQLth3ymcElr9WKMN9HQQgg=
+-----END ED25519 CERT-----
+master-key-ed25519 EK35ILzz1VhY+dgiuU/Gk1SJuVdRTEBjqm3ICuSkOMM
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:54:33
+fingerprint 9F19 251C EE17 B1E0 5084 898D 164F 0544 CCB0 95DD
+uptime 302405
+bandwidth 1048576 2097152 801450
+extra-info-digest BD24C73549FFCDCDB6D39E5A6D1FC7792C6B6CCF BneFOgxxMSRAEEC5sD3YCK7XLk3/yRsrSBXwqDPQbmo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM8wrEuZc5sNuZ24qKQ4FEhQbDAANAIsQ9vC3lwP3MrJ03HEj2CqrZnZ
+8gDjtRHe3p9n9TVUiAg6R9pYBrsp63Otyym52V1iMS1EiZMQCa9ddVlmC0zF7Puh
+OMnGlx8WyBTEJHVBguFquKv5gF+jDuQiqBJvvQflupsj8uqBxeJHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKqpBO/uswEPUgLF67VKAW6Lxrs390Z1RmPdP4wR9q7fTWX2gihV9XLG
+yKyiEnYYSAPQMmVVfRXG/dy6vdTCeWmNPP8g3IWO58fTH32rNi35EaxBd7vCZMLf
+mbyXmlI4JkPY8xZXaLwQnrjYJofWetH6aBAojpFHcb3aH9Qd76fxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+XBsu193EDyQLaASMjNPYIP/BUl+U1SMac/5SAw65Fmsh7cZPGmtluy6Pg5qWlppl
+u5qJjfBR/9WJEC/uztCusseabTqABOAKjE1BmvtNM5EajmdqMePr2mj8WXiuxJ8c
+W2FL5bFJQzNUX7KKzixsj74iFyJh3shBZWBl2ZPTMy0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCLARCt+SC889VYWPnYIrlPxpNUiblXUUxAY6ptyArkpDjDADh3b3Sxxy7F
+UDtIErHyLMG/qRBSU8HNN5H247DFRTVSA/oPGJKoyJN7eACJ6gFgmS44uRc3QXAI
+DTa0ko7//g8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact bladesATgmail
+ntor-onion-key ief5b/60fk+jjm+UPX2SBb2yVawhX6JcHkR/5KkyR2g=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 fhflqje1Sxu7Vp/95VXpj+hesMUSX/ArNyfRYOwyH0IWih3nV5vyHr/NATMCnv0kzFSjxZIDoHY5l4HsxSBPDw
+router-signature
+-----BEGIN SIGNATURE-----
+UPCTZ4FVv7EuE1zMnwplcZulGEuySH6AEHjSR7VSZK1enGAkuPNr7+QZtAbVaold
+E14NpVLUky1VOrY1Ux9LoDagoppdYB/BYjbOfZALqVKvM/eP22pqyyrhu9q2ZGmt
+DpcvFzxVyc7rqLtuvFQWOXfhmh6K43UOgzxSf65M6ng=
+-----END SIGNATURE-----

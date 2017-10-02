@@ -1,0 +1,53 @@
+router machpolitikch 185.16.172.155 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJQAXW7XbTOLVuH/zhz1saOhnrjIqHIhEf6KgDIaXap8rH9AQAgBABxWnqE
+XnFnbVJWMmsyPHN8rOLfD9nTBWH3pDVeMkF34O3gy4sXxCGOHi7g2HInjEQNCsnP
+054Fn/Y5qFUsaBs2pmJby08A74EYIC/fYkZIWouTjz8nPYWWlg3NJm+96gI=
+-----END ED25519 CERT-----
+master-key-ed25519 cVp6hF5xZ21SVjJrMjxzfKzi3w/Z0wVh96Q1XjJBd+A
+or-address [2a03:da40:0:53::10]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:19:21
+fingerprint 1E65 F18A 8C81 CB67 C3C9 75E7 849C 91A5 8B68 0793
+uptime 599405
+bandwidth 1073741824 1073741824 10602253
+extra-info-digest 764509FA201027B256DE031CDC2B52AE943D5D43 bIot1JQJGpzV6AnN8m65MY8JUHQTyt2qf/WdaQzSSHU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALA1npWLeGls0wPjCGPVMTHG15bXnCrbEwbPIl1KKLbeZbeEJM+jA0QI
+DYNEZf+fB52QZa0DE5j2c3jDsphBko6BOLBPIcRM7unRRDI7Qo/MwnhtlqgBGtH9
+BH/ONS8cSdnToEvU3a3wRrOhO3SR6b6GsaDuDrMN0AXSBIsXbJ9dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANa73etMkk02HQqWe0m3GEE+ZOuka6r5114RuQlal6gxDwbevuyv6Hxv
+bFeJpZ/55D8QHQUi4MR0ZOu9WK1/gEVjQyyaQ7k8hbYv1lX1wsJld8FdvFna60+o
+LfGgz/jLrvDlRGhZU/I8ulxVR2N8ORsUxSr/y0tOBjYF6t0ehkNTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Z9Tq0eeDuspoW8hD67FQHWUNd3VbpYu6iGYAJGp1dF0IzwEHI0Dt9dY3iqm/dLaQ
+5xRKmaD+FJp96uupQS1qus0p63ctKFc2V2acymnmq0JYobN9gKRWUWl1XUefyasl
+ao/lVMTN3bUNiBHFlKldp6jpw/fLckTplMs685dgzes=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAXFaeoRecWdtUlYyazI8c3ys4t8P2dMFYfekNV4yQXfgAMIzdEnLtChO
+of7RF75hLgnMUl0SR4X8En8Ca57GkBCxbStVcSDa/r9YrkyBq0GA9e+MAws3oytG
+7NQYIBEyzwA=
+-----END ED25519 CERT-----
+family $17F47BD7D93831B05B93704F57B73AA1836BB0C9 $B6D426016E85BCA8C4FA47DCFB094CA733683E24
+hidden-service-dir
+contact Administrator <admin (at) mach-politik (dot) ch>
+ntor-onion-key FPQJjcp3VDUH1WPD/VVicAmu+zOemeZZ5cCZTr8CIDQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 oK2+sPVDx1OrvUkCooMa2Gx9QfsEMHkspdaeV8EM6SPjNRpN0zjjUoXq8l4Z4m4QW7kl5hFGjUsplqWX5b6XAQ
+router-signature
+-----BEGIN SIGNATURE-----
+iNoqHMwxL/VNQepdfhUv77g4GDGCGgxHUr0Q9rGZG+emPa0s90Hju5E+tzvniz26
+DRsuXGxwwiilDGbVSzDh/a1m7q5v7z26AO89aVDwxicSjZmaj3+eosY+JrDQVfAW
+c+KF5xkHuWco690ivD+b3cr4HA+JHbx5rLJiFCLpzAw=
+-----END SIGNATURE-----

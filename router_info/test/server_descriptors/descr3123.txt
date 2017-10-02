@@ -1,0 +1,52 @@
+router Wix 5.196.66.162 443 0 80
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:11:32
+fingerprint AFF2 FC5C 6F79 3B6E 147E B93C 1897 D6DD A49E 54FD
+uptime 4861508
+bandwidth 1073741824 1073741824 10821373
+extra-info-digest 8B9A207FA237C57BCC94E0A1AE3B076A1EF175F6
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL0yY1gq0eOc2/88W3wofz/6nhqYumyJ5tWIv+HP8krjSap9nhCi3rKF
+JlqgQDdlVA9fic3hgROUpdVUrXWw8Lt1T4DdUHsP0NInblCI8wAlrf1nISs1bzJC
+AUX3JZ18R6TFcBVgRy8AOU6R7Aj8nS3HNfalnEVQ8BYwzj+F3s/xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK5zWGv/llygH/IkNff2cMmRVVEnovNKwBb4QxAPj+TypOz2tVaJ0f3D
+7msrLJ78dhYqch7oRNldaU36/pab84lFGxIfbRKpQSyjv3wVuDd3GD0XsJyRd8gF
+he8R3vAZv3Nql8t+5QPM679Ttz32ATLKcenB9J5PW5PNCmDs+j7DAgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $615ABEA2DE76EB3760BC51E7306BAA59F15CD8F2 $749EF4A434DFD00DAB31E93DE86233FB916D31E3 $973607526BE9C8FDA03EBBAF527D67AE6FFD65DD $C7D46A8B817A5E86FFC6D5133D4161A9DCDDE724 $EF8AFB7F6A040CBE0ABA2C5A76BE04D84524C56B
+hidden-service-dir
+contact TNinja <abuse-team _at_ tor _dot_ ninja>
+ntor-onion-key Codos4mUX2qgyEi8bERRCYpXCOmZHSdqN+4mkrmniDs=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 5.196.66.162:*
+reject *:22
+reject *:25
+reject *:109
+reject *:110
+reject *:143
+reject *:465
+reject *:587
+reject *:119
+reject *:563
+reject *:2710
+reject *:6881-6889
+reject *:6969
+reject *:6970
+reject *:55000
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+m8e8Jll8eutnYSiMxlMERM5/zKvRfnhQXZ1xjlsCK/lraqdyQetUBlFcf9D8ZrP+
+Qb2mMt7oVnPoEU1/yeRsXTkMvYhjthogkVFvSoRI9WUdhTKIenC7bseOdVPkcvn0
+l0d4UWKT6lNKI5tQVD8z7H+nn35pAZ9ayD7uShqFSs8=
+-----END SIGNATURE-----

@@ -1,0 +1,46 @@
+router intothetylerzone 198.58.107.53 9001 0 0
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:34:59
+fingerprint 2892 0736 0898 5977 DED3 3F98 A9FA 27A9 C47C 8B61
+uptime 1468270
+bandwidth 1024000 1024000 1248467
+extra-info-digest A71DF7DDFC28885DEFD70ACA0B2CF2E491497189
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALSfHNhCjxdfgX8fsq14qUztyd1hQ6xtzn8i8eg/jG/ZojRwRRyiZ1Ua
+EMif5SL3H13TefyTHqsERPOKg5BfGta/fMh7LJbNPwBUR7MTSmUFCCfbIinxG94m
+3mgAW8sNGy9Vw08QRdKmqJJWjX7yj8uELGr72uCHGwGlbTYYY7iDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL/OiKTFeWwYLkAV3fyYUh9O5sD2VaGFOBK6TLhzUCD71JIgDJitUBZA
+eNDxGT+gPmQfLXsRBibuRqf5Xf2GIBqtxhaR0YQZEAauQ0f7U42Foml+2nzTjMWP
+NB+tllmrRnYceZ9Cp6JdIGXEb786tJslwQ/ezo9vtM+y9TvBtVz3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Tyler Cipriani <tyler AT tylercipriani dot com>
+ntor-onion-key w7Rysr2ztnNCnTRHz7dv/hjOf1XCCIo1QG66Qt09MCw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 198.58.107.53:*
+accept *:22
+accept *:465
+accept *:993
+accept *:994
+accept *:995
+accept *:5222
+accept *:6660-6697
+accept *:443
+accept *:80
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+FAMiLbH9tnPM6qLWPT2Q815gkF37UXaR8mluFFWDoFgkZCeu3ZNSZZVWNvxU4NUT
+/mG87qdP2vlXODKUM/BFld6ZshDRVujT4tNVL6ld/XoYHbbLZIViS1EkmXPrPjfM
+7j/AwXMLmr6T73pLyZ1A8RCD6W1HHUwybx+MpOJ9OY4=
+-----END SIGNATURE-----

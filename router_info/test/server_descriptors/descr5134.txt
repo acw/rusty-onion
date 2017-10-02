@@ -1,0 +1,74 @@
+router adressaparken 62.92.70.116 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBtAZIqGAJvo0z3jOCRA5344d9poQvRNiLHBlYuRFcgK30DAQAgBAB58pRA
+uYL0jtLHpBB5PPwCbuTwHlkLUCl4kEbBKxkiTnm8QYf+ix6w+NkJSitKZ+iu1Gw2
+Y3lmRdJldzo6So/mEUYlgKso200THyfWCmsFMsI+UjpsEC4cZx0OdVk6Ggc=
+-----END ED25519 CERT-----
+master-key-ed25519 efKUQLmC9I7Sx6QQeTz8Am7k8B5ZC1ApeJBGwSsZIk4
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:19:06
+fingerprint 6393 1108 6F33 D534 D8FF 1A5B 516D B88A D17B EAA7
+uptime 2380798
+bandwidth 1073741824 1073741824 0
+extra-info-digest B56C04B5527C3CAB28A366F97098ADD94A535CE1 69/rE1E5JB3xqfWpQQHCTq9jDrybDv0IlXUWgYH1Cd4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOqzfTPUwCUCT6J1o+mLtCMe78zPLe1J/Ysn7iGbOo0lRD6FurqeXELC
+9Ue0bn113LRaksAsSJmXU4bapTgzwD+Ev+JiFHY+tIRWM/9//IGdf572gC0gb3fy
+o0Pn+XyIWS/l6qV7J5072flJt0GRQVp/4p128if6BZ3m3X9ttdZpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALsDS0ae9LmDkkeEvMDBt/AeJqhpex03dadnRgzyagfFTyh1Z79RFk9t
+Q6Rc6H46So3eaoibHN0cuugQ5qJwi5lck6K4uCjIEQlbeTYOVZrl6dEnRtY+Y5WK
+tFUpfCkBJYT35qCuyiyDn46IYW/lqSm2K6D8XGcnsIHEZ6KNbxFBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+I0xOLllFXzv3Dwhs5rTHePEUfT5zpdY8VBZhsVHLwZpZ6gu5UBeJwt7Xq0/K59aZ
+MftGNovLUTDpv2xqXvyv1/a2pNJcuO9cUprgx5IBfAdQ+FsWA6u4ZbCpw0frFli5
+CZNsqHPwaZ+4r8JvpDPeQWhmSptRdVsE6+TQAZUM3N4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCEAXnylEC5gvSO0sekEHk8/AJu5PAeWQtQKXiQRsErGSJOAG3swyvpck1i
+RRmDoKsGmqGjCM9MtdHDl1UiYHMQ3yUdBe7hIYwJLkaTwHAUqsfn8RuzVHnwji+S
+bDTFLpm82Qo=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+ntor-onion-key jL05cAFSiy/8wzhq2fub9zwzNtJXxQxKhMHWFwHbnA8=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 62.92.70.116:*
+accept *:22
+accept *:43
+accept *:53
+accept *:554
+accept *:563
+accept *:636
+accept *:873
+accept *:1194
+accept *:4321
+accept *:3690
+accept *:5222-5223
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:9418
+reject *:*
+ipv6-policy accept 22,43,53,554,563,636,873,1194,3690,4321,5222-5223,5900,6660-6669,6679,6697,9418
+router-sig-ed25519 XoeS8vTU1pmbr+ybvoMazF7J4HT5moFG7BeXtpcusUp//6NywzHt2fzcJvigUmxFnutadvu5lAK76nFyM21WAA
+router-signature
+-----BEGIN SIGNATURE-----
+UAT1WjHGNr0u4jQKlttQga0W3N4dPZKmR4QItF4zpJiCeA6I/s1eqYfiwkLXEfs6
+FhWL+wAop0Y3P6IhKq2NMvQEkIqZxBKXGjn5HAsrfWXwFDSKoMG88hRl/l7YAYp9
+oGFrc7Ei+B5dTBaLmwjLh4rhaYTf0QmO7j5Wmjp/mGw=
+-----END SIGNATURE-----

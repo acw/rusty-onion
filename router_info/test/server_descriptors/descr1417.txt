@@ -1,0 +1,52 @@
+router Aerodynamik02 217.182.75.181 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCmAW+dg1a1F1NLIwLuNCqHuNMhuAILPcfy8+AbhSyPBQINAQAgBABbfIf8
+5ZsrBaVo/3bjdI/fSok5/f/S1W8LUzjHwH276KLnjcpx4S0pcE2AWO1A/wdUT4Q8
+cywrtd+lnVpNEC/ULPo8lYoMwfjiVAVKhre0eM0+dSgTOeXDMKN79Fsglwk=
+-----END ED25519 CERT-----
+master-key-ed25519 W3yH/OWbKwWlaP9243SP30qJOf3/0tVvC1M4x8B9u+g
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:42:14
+fingerprint EFEA CD78 1604 EB80 FBC0 25ED EDEA 2D52 3AEA AA2F
+uptime 1873277
+bandwidth 1073741824 1073741824 6931898
+extra-info-digest CCFCD9DFDA54CAAF254C684BDE326CF85B1024C6 0bEd8mP/6MyBn9OoNYflbUCXsQOBeH1t0wZpHD6qG2k
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMyn8fyaOu0UE8TtF8Su2W4WTKazuZhOf+ecaQqAOLnh6B+kVLznKvbh
+1199TczdLzY59iIThvRxAS6cf3s113ltZwXuUDeb3zsUnNOrPxhgtggYqh49mMD3
+lEqPUgJybA4bQ89qitzsyPr4/bavOIQhJunAVs4raesHUHbGUXBzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALib9DSMmM3eW87eG2F2xzevJv68/P9ubqSusz84npLZailJgR+7fqgC
+XHavLDvcgqvhFrWbqBD/SYaIlP4+LO0Z02v77WD0AaJu7Kp3MECkl7zHNbBHfssO
+l+/ZY4rf8GznZN3XMvpQcW6VN1TqHjFAauaHvcBr2tQ1Ff4dDnFTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+S66faZgO1hiTrmSfecv6qGlSxAuKs/9tIaSsJQUXhBBdenE39ubRyHli7Ji9bjJd
+DIhMd9A8YNbDSNxOSf2vUYeiOnv2QKVS9dpE9gRpQ14IddpztlUbTwgH8O9lXCNU
+21WGTcbFz+I/qfnJvPzq8Xhufyol+XFMytZm/3MeMdU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAVt8h/zlmysFpWj/duN0j99KiTn9/9LVbwtTOMfAfbvoACsB+8Nuy6Tm
+6ln/HMY8fyqkuH6GdCc9u44UzWgQaGSiFIeI4klKubyHHSr6PAnJrq582QsC9kU1
+Kpl0lbJaKQA=
+-----END ED25519 CERT-----
+family $1938EBACBB1A7BFA888D9623C90061130E63BB3F $484A10BA2B8D48A5F0216674C8DD50EF27BC32F3 $775B0FAFDE71AADC23FFC8782B7BEB1D5A92733E
+hidden-service-dir
+contact Anders Burmeister <labmouse AT protonmail dot ch>
+ntor-onion-key kSn0w+7l+FcM5Lw1TTcKP/BxnOyKpUmms9koRuD/6z8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 jA1R70Ts6XT7pbDjps1VRujKbuHo5I/Ndy3aI+rhC9pOD2SPXzZdO9d90fzC0p4iXq9zRtBOggbgc2IAV+wNAQ
+router-signature
+-----BEGIN SIGNATURE-----
+dMQ0tg3aytGmfGwEfGxZQ0kqlTmp9nPOrwWFABClzJ+E/7rDaf01GceIKz0iXe2U
+wR/Aor8E5mNMSuEErRFw75evYeDSh9912msD/i6JlYOC90Y9vhd+9Hwgi1ZltE5i
+L1XmsyeHx6rQ9ikQ9KNF/EpiFukpoRTzLfxivwQGvFo=
+-----END SIGNATURE-----

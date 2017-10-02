@@ -1,0 +1,89 @@
+router taubman 180.97.81.47 443 0 80
+platform Tor 0.2.6.10 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 21:46:48
+fingerprint D01F 61CF D784 B3EC AA7B 0B10 21BA FC05 EFDD F55E
+uptime 1631939
+bandwidth 1073741824 1073741824 1113
+extra-info-digest 6CC8D148A15BF5471D0F8243D0A0BCA1ACD47215
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN86nvJgI+Jl3yUSfoq44HcZYA4NKC4aTV2Gp9P2EL5pWtjQALJQdL0m
+Ext/yfkPC4/XnmLV5jlGEYvVX+XLgW4x3yfcHvikCekNOBpB23vbQXf+7jL1pw82
+6i6upHZxES5YIEo8IHf78jWpRaORCWBKpkqrCxlS4Y+K5H39W0bdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKylA3uwCDS0FLFR7MdwUfVtLrSfyhQtCsfTJIITzXra8zp4huYze92n
+nZkoa5KybMFuxJ+Ja9erF0XwvKjt/DjSZidBV0KO1Y2IODV8OpP+LjUzbc48p1Ib
+qK1WJtVewbAkVFExIfn8Vp8SbKBbWxVJSZZ3gujK9+ESyDXnZ2FLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key NAHyiyj97S8MCtxzC7A796DcEjGzhiLjBSVYpzBYvzY=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 180.97.81.47:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:443
+accept *:464-465
+accept *:543-544
+accept *:563
+accept *:587
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1723
+accept *:1863
+accept *:2082-2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5060-5061
+accept *:5070
+accept *:5190
+accept *:5222-5223
+accept *:5900
+accept *:6666-6667
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8080
+accept *:8087-8088
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:19638
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+AjQjDqXqepebGlMh9Swgsd8UBk48+zebSCDKWk/n32RyD3QvV/TWvG6V2yexmj49
+2H2DB6zEEFcANh4kdbaMm83ajW8SnAuU2nYWJ8CEkb5L2YNCEwnYQiCTOA7L4O6Y
+SUlR2s4IQZ7Dnzch37X0+zOizj1cnjGteSaqz0BgdM0=
+-----END SIGNATURE-----

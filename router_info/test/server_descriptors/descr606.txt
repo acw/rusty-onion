@@ -1,0 +1,51 @@
+router xwn2 220.240.80.150 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKoAaZgbUeuG9pCgPy8URIarkFPWVkFcBtVjOMOicE8U0z5AQAgBACFYrz+
+6PHzBmks12kbpxDO1QqAJaGyHMHn5NXReFMJqRg7s2jnGJANBtFAgtJPQuHZ099v
+nvv4IQOaTXYSKPSdeT4TUnvv0Oqgx7v+hHfp8qegYjNi7JEks5IRjG4wTwk=
+-----END ED25519 CERT-----
+master-key-ed25519 hWK8/ujx8wZpLNdpG6cQztUKgCWhshzB5+TV0XhTCak
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:52:48
+fingerprint 99D7 7B94 F9D3 C347 C6AF C03C 3E97 4262 2F3B DC98
+uptime 10803
+bandwidth 1073741824 1073741824 181432
+extra-info-digest 1CFF940F3BB87894CB727B27A8150DCC5F1A2F75 9Y8fDf5uLQV8/umyg1+54r8Y0PbCTosU3FTvJ0oug6Y
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ4XjFCabwkWh+r2HNZy5zJgGC1CVM4+ahE5t99LSLNZV3MZJ68HhgDb
+z0Cb1SNlUKdGOZrbfeBGQDvwLBTmFJhKpy0/YydaZvizsYrbN9QpZHF2N4SVr46k
+eDf3qpv6H+Qt2UOymbF0lXjBYjtonhJmVdExbcMFC+5RptGnrST1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJhEw6d1rqLfR1uCzsX52WRMW1epHFk9uwXq+uncS0ZcG9fkUpp3+zTO
+8Mw5H8SgxoeYAHssntSkdQCdy59VXDtmlEDBdlRbV3vpUX+gTHfs7t35/SQ102K1
+iHRejkxtCNA85Gi2+JwowzvID2BO9FmKP/SbC8h4zee+FFj0ZawDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+mX7XL1LHPFdvJvS3WpWjOrbHk3p9GjTjkkJOW8m7H/xFPxyrY3IkUwWnDU8dAgI3
+QgNDBAaKvEzmX3us8DrWazgYOC1oUGufLI9BOUHE4o9VeUPycgSDzk3LFoNU0yUo
+mi504ORu01JgRLRebH7YRJjCTjZgTdWEdY/wIgt61yY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAYVivP7o8fMGaSzXaRunEM7VCoAlobIcwefk1dF4UwmpAMIVHeQUvEC/
+8xCQe3jVKq0n/Rkbyg4I37ghHOFyaswdtSQYNLlySM1rkAg3tSrVz1JBaHcN0ie0
+SYm2sN1Qsgk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact zebono2 zebono2@xwn2.com
+ntor-onion-key hR77OOkF1/rV6Aq1V2qdk6kDp/Ta5Im3jWM4TWARRRM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Mg0PR7sayYzapkVd6M1AhAFGUH0yfcZe/o7hvSlsWCylVnMRnDLg9PmLNf3OP9RpAFIkIck3tIPpY4ZWgDAzCA
+router-signature
+-----BEGIN SIGNATURE-----
+WJuEz/bOceaufHxKtezsMoDfhmECiZT6m4NnXFYQz+z/gVRXOP2D0CVxrgz+z2ql
+KHmde+o3sUrtVUHj06NLW/P35+1+u4CA1q2xONcrPI3gIuHCWAWmoOn/5Fp/Xbqz
+VoDPliaSmArnso8g/S7OEKzfoPrgTCH5Dxw7S1wBRo4=
+-----END SIGNATURE-----

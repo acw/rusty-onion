@@ -1,0 +1,62 @@
+router wirelesspt 37.187.239.8 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJOAYDND74dvkBq8N+D5H3CC9ikf8+FJuA9bXl5DXeLnjpkAQAgBAA6qzc4
+KT2H1kiw/w+Pvn3Ptceb8dJ/oqLk+PrhxTWrwCj9doaM6cj21p4djaJMSxS1WGE+
+/QtAJhCmSpuoLEup+x0Tsuoz1BmwKfUtAMIG5M/+OkXHVKqkZvpSAOT5Vwk=
+-----END ED25519 CERT-----
+master-key-ed25519 Oqs3OCk9h9ZIsP8Pj759z7XHm/HSf6Ki5Pj64cU1q8A
+or-address [2001:41d0:52:cff::1fb]:9001
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:57:40
+fingerprint D980 CE7E E810 FC65 A442 598B 01E0 F44A 6CE8 8192
+uptime 311788
+bandwidth 13107200 13107200 5633198
+extra-info-digest D668CEAAD01C3C60B5295F9C06F939ED3B9AF31E MXbyIhLKlCvBjCoFZDwjeNSD3XpdU2KRdXz7FHeUmRs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKY5RpjAU+om91cmFLjt6CqMSe+KFSGozygZ2PE9dhdwiB/GrqK0KgGE
+nlHHXhjzGMEj6iFpj7Sc/PxbFLNk5TcfT5vx+ViHvHDMwhIQ0QLWWdfTHphTEAhw
+JEJQdpinuoN6GxDwfy7oqavMuzwdjsnpUGQt8Bn2z9PoLZhn4DlPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKChobof3miHMv+NPQKeXLHfEdVCTINaUejZXAdsEUIWR/IqonfPtmvP
+aKDO5IyjFWlSBXz2yn8Y2qDYuuRlb7V6HCtZ2Og2AbpjYbZSNgJ7pqmBwnqPNUF+
+Si1317nWDU9iGcW2AA1FwmbjbbiS4pYctvQiD5W1BYi1xjcC2wudAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+X4whozWJyXGAzRhsccQFfwnPIWz9wZ/nBZiek6I71UWhOhodX5rS6aWozfWcAIKw
+WFY0pKq9Pan8+ZBLFUf/Mk9IL0AtEIkSf7iuPofbScyG6Re8VpJEBsQ/e89WnPfq
+SBKamxPOoUmkMSQ4nBv8NmWWExHID6TbVrtcDwRxZ2o=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCHATqrNzgpPYfWSLD/D4++fc+1x5vx0n+iouT4+uHFNavAADsPbyKLERpH
+4nx/yrh7emqPLaOYtKOY72geYyOAo/BLxc+9t0J30I07I7yOQXvfpiEUz9vworn1
+xmEu9pYEMQA=
+-----END ED25519 CERT-----
+family $383FE34F6737C1F49DF0E9C4C250510E502FA40B $A49AEAC3F7E53E7C90FB9831BC8A2431CE85DB6F
+hidden-service-dir
+contact suporte@wirelesspt.net
+ntor-onion-key CQUpv4TmxN73KOPB9y2Ks6FOle8U5wke3iLug0YA8RM=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 37.187.239.8:*
+accept *:6697
+reject *:*
+ipv6-policy accept 6697
+tunnelled-dir-server
+router-sig-ed25519 qVJJoiHNl2qnLUm8At7HN5XIV2At4ZhlgWlq45/lTbPQZ66o2zvSHk7Uhl7r6UfhcIOEwXRZvez9LvYak+15DQ
+router-signature
+-----BEGIN SIGNATURE-----
+VsgqfHgfXRcE6R/uuiJG/ulGC/kMfyCTg8eU4zlrDgONpi3+eJyD5ekIYDq9o7dE
+ww1nPKRxFM1IFaUx9bZ1EeHNoTtJ3fSGGmaiV9VnkPZ8OEASrhDi+p5nTwuNnztO
+X3qTZhWVG7B6oAF1/tUw4MlOll2W3PZgI/L/ZkdZOao=
+-----END SIGNATURE-----

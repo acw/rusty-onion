@@ -1,0 +1,50 @@
+router Unnamed 46.43.50.92 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmInARE4Vt/V9z6sLM3ABlH5d/HCGfnzawg9035wxnDdD8VkAQAgBAB5hqtr
+Tt+MzbIOtc8pBTpbsBrZUo+SlKRy5MfepEgoRIgb8yrSk1IiY8kMPVZnKfAHuPr9
+I1ioDd56gT/vTaMnCNFDL+spHEm+mgXDcYxQ7z6jQq6CVhGGcGBv4Xn72AQ=
+-----END ED25519 CERT-----
+master-key-ed25519 eYara07fjM2yDrXPKQU6W7Aa2VKPkpSkcuTH3qRIKEQ
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:46:29
+fingerprint 77C3 78FB 6E72 DA07 C64D 97C3 EB04 423E E863 34A2
+uptime 5508006
+bandwidth 102400 204800 120600
+extra-info-digest EF6436C4AE9B6B1543EDE4C2208E37AB872BDB8D I2eET3GhXRvNSS215Hpc9HoepSUdK6ip0Vu5Vm19Yn4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOG0WayTbKSKpxHrz2oeXK6sZ1eFaRre3kcRhr7GO3nP2J5EQr+tlHJj
+bkXdu78iiXMDKCJq+Ip60yY9NlCw6YZOm/BHR6W8xY1Y976FmdXkR9qkrrro/YpL
+a7pvG3EessLikR1UTjhAyO5/ABa34y+PH1QmhZv650AM2/t9ECRvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN8K9uXZW/UvjkLS6XihZugy9pislnuX5lKPOwwUY3J/MLIJtk6Uec6l
+qtoHn2w3hR5PBKX8iRYE25FFZZ0htP2N8GW+kxxP/wdeMGNHIaQgQJSKzKcphdoh
+AWgUQogSqqi/3ME4WWs5jNkaatxFVXDjQzelUolaN70MYJBI7VP/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+fTq5/AWJvpLeJxsllmQibrMPdJeYxERZCxp4laG2UJSC9BFDIh23zkFS8kJozc9v
+yUVk3gj7YgvDHd17c8FS+DLByhSuv/b6JtdEMOBRLMza/iEjt79BHe0BFKMO5Hoj
+z3muvhNh1EUvHd8ib6/OjuHZpaL4HPJtYSGVKAVCO3o=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAXmGq2tO34zNsg61zykFOluwGtlSj5KUpHLkx96kSChEAMFg70WtSQBg
+2Uz1zo702VbzTEKtidXjF0T1q5fX26wvt6MwFLlm7Zf94JKP5vBnZbK50zwro8sm
+QRp67aniWAE=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key NUobuHe4JKRVGs/IPDuTKoyAAiz3BvE56JLMjVJt7AE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 cNsByKy7Pc6WF1oyvIKOJ+goCDCErvJ5BsRTxjOsddqkFL3Jqtd5nKfPbnDV2/DGNLxseQSOEVfbFq/I9Wg4CQ
+router-signature
+-----BEGIN SIGNATURE-----
+LLBGTygYLdmGv2DO6JjTVnnjzizJRtshnC/O/hPh9RfXVxnAWukfrf4kt8QPpHXk
+57B5ESJQnKA0RfBqc0iWKjfDm6vOcbPdjMawi9eR09h0rl4DZsdkErhhN4uRVThE
+k63LHB5JPcgCe14dgov7n3ftFsmuXf0PQYywDYKFtss=
+-----END SIGNATURE-----

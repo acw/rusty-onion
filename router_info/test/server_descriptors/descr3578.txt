@@ -1,0 +1,70 @@
+router Digitalcourage3ip1 31.185.104.19 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCHASmopF8YUFdofeprDJR7Ps4NJj3ydkKDGczGOVZsQLOJAQAgBAA0VrcN
+/QaqrPSOi0v/VTEo7eF0ByroM1XOfIEja7C9Lb7gQUw1HMfOmycKlT4b7u5cRBFr
+P4AH/J+OMH45dCqq6ax+JfcxdW2KDQ5AWg+9poQ9ySm6SVQyo5KMV44+jws=
+-----END ED25519 CERT-----
+master-key-ed25519 NFa3Df0Gqqz0jotL/1UxKO3hdAcq6DNVznyBI2uwvS0
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:48:02
+fingerprint 9EAD 5B2D 3DBD 96DB C80D CE42 3B0C 345E 920A 758D
+uptime 802625
+bandwidth 4325376 6553600 4814318
+extra-info-digest CD6146C596F8C11D1F28B2F8783392B9DAE032FD 14ilX8Zn2Ho8TO7j3GLOX4Sdq2eWQHh7DIE5OgzVjDg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPH6S0Jnxnmw6bZFraiGX4vUZ7WMoWHfGzIV2tuoQtR7YZoyLf/jP39h
+SBg810kISEjfsF86gYPVvezJEpibft9+5dGn0zFCbs1cEwoyIpuCJx2nAPnkRO21
+DoLXjlaSNrXZjpKdblEyBm/BZFEDX2p6t1Qjo8Nx875lnlzGKnKBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKgPfcYi/swUjcSh6euvfvfppyTvuqtbnHI/d3eWxyPRF9ARyKHWQOSI
+8nZ1PkcHHhdgFLDMZxf1qT8CQpVkJuu3mDByJrWGxk1AkGrZdduJNz5guh1DRLLx
+SK90HfQixsWzWEq9WoiDgNY1ckF+TbOZd33pMmUyqqz9O9BZQbslAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QCkVif7ld7gA0tRfMI5DpdSKuAfU38pmRLiN5+3V7MFrJsYwGNn099WkmN8dtDtq
+bmqtZZyCMmTXrg8hcpkda0WKUD4iOz+o6t6Otgb+/bT0/2liqS6KO4/+eXmtvSI0
++jwsti5NbIuuE2DsgnpgCX/q1oBF4oAoWNDZtNGAXFc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKATRWtw39Bqqs9I6LS/9VMSjt4XQHKugzVc58gSNrsL0tAAQ+b3LXfTkj
+H6LQ/fo5TlW4rY9DTgsBrueBAeOUhrnuj/M44dcC0lr/0W3c8GfHvrrQdVtpdfKV
+xr9Uk+IpaQM=
+-----END ED25519 CERT-----
+family $ADB2C26629643DBB9F8FE0096E7D16F9414B4F8D $C2AAB088555850FC434E68943F551072042B85F1
+hidden-service-dir
+contact Digitalcourage Tor Team <tor-abuse@digitalcourage.de>
+ntor-onion-key 6ktewzM5rHvAz2GTPsazZ2jamKrL5z6icdPSoGSSCDQ=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 31.185.104.19:*
+reject 66.175.239.22:80
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 fergWOqjWCq0PCl4zz52+xRfCL5Z8Js19mte2gAQjUbP93mQPdpJmBk86zFBQPoAqJTT9F1VvlQz2DC+wr4BDw
+router-signature
+-----BEGIN SIGNATURE-----
+jmebGVHEbwr5QtJUB3NjF2wedMgTHxM6Z/UWNiu3wzDaa5/Qpvpt7ubYWYr8OG56
+eDYloTZdbp5FQZkY5fFS0FFuGl9pzjgtlExsB48oKzmPe4YLlaNpnBrc51VVa0Lz
+FmenJBfYk45R94kDWfrX63Br9jHqEKre+8JH/10uWZI=
+-----END SIGNATURE-----

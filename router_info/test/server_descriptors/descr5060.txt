@@ -1,0 +1,51 @@
+router grantman 199.188.194.53 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABl/4AT1MTSFkQ64ne2UuVsNRaeVYUcVGmdgcG0buou7FGUdZAQAgBACma6sn
+e8VcEwZc4T/KIdfKiHpWOCbpDyinlMBBtvow1cYI9LZeAAN2jQA5OxzeUkS0AGX1
+1UEk2cZDKpkPbdBRfLzY8sq6AgCKYWyXbRG9/Rwu3oPh8JvnCZj6Z/I4ewc=
+-----END ED25519 CERT-----
+master-key-ed25519 pmurJ3vFXBMGXOE/yiHXyoh6Vjgm6Q8op5TAQbb6MNU
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:36:17
+fingerprint 66B1 D0CC 1C84 EB77 929F 6110 DEEA A919 7629 87A9
+uptime 3
+bandwidth 1073741824 1073741824 889856
+extra-info-digest F76008D0588BE0A6AD7ECC8AA1D07CE133E4F6B4 wVgw/b8XNkw7lckg6J69GoruzxnnUHm3fTX+rhvk4so
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOF846TqpECdXvZ36Mer8qe1lxTdDR32bU1Av/TAQKqAqNwfSvUs28Di
+3gXrREy7eVFnos+JFGQ9tupn33atGW2zJm09NkkC4V2tAg/HCrpgZAGeK+Icg4KY
+AO7YDd+551GKFdAGWRfYhnjiZoUn8ZKIIzOTq0++iMo7+XlmG559AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMAOEjflD4zXpt7fH+vNr15IfR9E7MSlh5x1V1YYHvIsJYxTFxZOrTz5
+mlGw3H14xNo0AphYP55Ewf2+m+CclO48thZbuk/ELCLxgZYcjTIWzHMxET4Pi9lE
+IGmCEDgp+htnjmmmfMNzIbBd8lbzmjJCfBebRXsfPoj1rtM7TelDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+bRWC7Ko8Fhh5Qbb59bV++BGY/KGIuoVfuwVJT/nUi2/NWUH7ww9Ucn2YVKzrAhhr
+NJWxY4YM8T/y2CQI0KGS3ist13imKlqMOjM0dCGZAt5y1NWdmR7xcIi6D5fqHo1H
+IreDH0cJN1dViZNQ8SrUo16zd6GkOxmJCFEIOnSewKk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAaZrqyd7xVwTBlzhP8oh18qIelY4JukPKKeUwEG2+jDVAEvWuXWXaXe4
+lKxXMWoO7v6vuSauTe/O1kH3qp2NKk5VtC/Jn0V4vB6Ch3ULQv/oOS+0Ws37IKpy
+eZn6vWo42w4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact granttmartin atttt gmail dot com
+ntor-onion-key mw0rakyiVQ3+evjHbh5OvmH/4PzVfKJRx7ScQcMD3nM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 dwwETJeC/b71oMIIJTObxJP05izqWxXIMDWjSfJZQV/hRtjYASPiyklTVYl5IHqgTi2zCG4dxUy9Fcfj38SeDw
+router-signature
+-----BEGIN SIGNATURE-----
+Gr9mVKrhydfFBq/LZE7nNFTAoIDrnyhmONxyb5Y3DorSQNEvmT21w96DolkzGX8H
+X2ozKlqT6ZQCtalWf3gg+58uuKrGjjzcLaDcyakbqKi9q2POWn4kKMQ1Is45sj/m
+yI5hbW5P59JRYrqRuNCpi4+Y41Va5rq3wlTjAXFr7pA=
+-----END SIGNATURE-----

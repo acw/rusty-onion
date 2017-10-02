@@ -1,0 +1,51 @@
+router SedanUK 88.217.105.132 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIkASjCxfoIWfp9EKoyI3A3gmwNlql8pcRaWNGjlhaoCXQjAQAgBAD7KFVY
+tf2Ek43XPjmRcbKRWBYvkru2tk3zsPGOV7Q3WQZ9E6c5MsZcknGuMP1ltZEWdXqP
+bTId666E7opfjZpV+ekDv1Wzjr3A6APG/TOb+oztLPdeea9xQIqD3EK/nQQ=
+-----END ED25519 CERT-----
+master-key-ed25519 +yhVWLX9hJON1z45kXGykVgWL5K7trZN87Dxjle0N1k
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:10:41
+fingerprint 40DA 0281 E5DB C292 57FB 1B94 D98E 9AF5 864D A2BE
+uptime 1843881
+bandwidth 102400 112640 92818
+extra-info-digest 2AB549BD862EB9CAC96CCE87AF70F45F742D5B44 NRuif+kFcaNgk7viIcf/H2OjkeNzBwq3BCnDHcOdmv0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANGl3pFdsCO42I+VzEeNaHYJ3DXPGUZumacI995r4MqRGOidCi8I7Atm
+R6JRY4zVIiOIyJzJLqZoCAIQQpENsj1WEnQL333KGpuojg42q1QLKLqsvrc9zh+1
+9l4r/lLYxTQ9cO7W2UQFsErR5E2lek+vSNYkp46PNwXBwL+Hg1RXAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMeQrpjv6gBfaYeSSmlhdUlUp6/ZVxoJTJmBjQu5ENUjSGWS4p8opchh
+As262Kp6bYFNgW1p13DaonFLg1kHrIM/wC20EmtCBcGhJWZADMsevcI3PVaV4ppT
+BhlUnP1TVnSJgr0me9vyYbfR1C8M4P1hqcua4flp5dHxfV7we7KRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+UOR3TUeRk/oBd0GlzlhzMEdOr+AuAWzyS8WiXC0w8rFl0uLUIBrH59cXwRWJu0EN
+5tdLBPuGA/9MK9UN5Fc8KTrVTCHbPfrQjNJPK0a7wqcb8U+CmPf99dx/gELH36th
+kLsvdyOe3el4XJDkWD/e+r/CifvrFYXN5WOJ/mnHy6Y=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAfsoVVi1/YSTjdc+OZFxspFYFi+Su7a2TfOw8Y5XtDdZAMPWCFNGTJst
+WXZMpbRSuhYZWYjc9O+6k6txEgKn/5hxYhX7d9zAtCKy4XBBddOBzPw0vo8b9v63
+Ff3qdllO4wo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 4096R/282197DA Klaus Lichtenwalder <lichtenwalder@acm.org>
+ntor-onion-key jrMC+RdI2/hSH37qsQW6J+c7cIkgTaMHlRn2t8hTNlk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ntGlGdWzgz5RXaP2Ax7TwS7lR8sie10oJ4H1JLNJXBnsAsmMbWuxu+P1T06dk6q9Roh5o0DpFMlxB55of6kzAg
+router-signature
+-----BEGIN SIGNATURE-----
+aMKppBHkDbrN6re3dVAbHYv2nH9QS3e0zW8Gpyn0BO/M1kx6igSaEdR5Yu/9STI8
+gBG4mWjOb4TzUJSgMz0K58AUr7wbkWB4y8HtU46C1oyJcyaGeam6iKLzvwAIJNOu
+UhdRnhbOsloDLjErH+FBzUBYEtQfsz+eB2zyKWWY3Q8=
+-----END SIGNATURE-----

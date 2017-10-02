@@ -1,0 +1,51 @@
+router emerproxydotxyz 193.233.60.196 81 0 82
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAgAavfxLaXivBzCADLTCyNakuWDjmxc5UK17F3ozbXRXdvAQAgBAAXgynO
+ZvknN4V3iGwHo3hiaQGsNTSN/RbJWMaAMOuCJBg65n5zygw2QejAUumBqU5CZwbE
+xBM+QFUoISAJWu6hDIW/Wdt+zGnwU4seKPuudaAkkHWYgWutZUS0P0Tq8ww=
+-----END ED25519 CERT-----
+master-key-ed25519 F4Mpzmb5JzeFd4hsB6N4YmkBrDU0jf0WyVjGgDDrgiQ
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:52:36
+fingerprint 8DA7 9046 FF5E 111B 3AA6 B221 3EC4 0AFD 0BBE 651A
+uptime 16124
+bandwidth 1048576 1310720 1442816
+extra-info-digest 6AE8BFCE3BC5706CA690D1B72E056E80025947EF duS8LzC4Kvoas3KOa9pL/F/SJ4x1Y2Sf8qrZ+o8EEzk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMElzumFJ+b8KfTD4G8xkCqjF1RkGlKXWQx8BT0mzvOmxAOy3mmtEWaw
+x/LkPzfcPjVGYGJQXG0D9MpLEUPp6cOYlwk3mW3YZ6T2xHbZ3RoA/4QlSpGaIWA5
+WAJ1ZUMBkHjugqyARMArnzt+/4OPQ9jx8LoHZ7L9sq3kzS6Sc8dRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANay2n4frRP+M3RxfLqwmb3HCCsePDAxZRJHVsxq4nO/qYSRlatEHNIh
+w5/uG+6xZZECBFUz38LUZ3LPzEXAMWZVMKqNSsm49S9PBCUEcK5J18icTEu+L8Ja
+0zcbMUd4gEp/BiCpQ+Jr2EVvJ4Vko/Jv8ipWaAGB3g1lD4uQQffDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ttSU6CVY7Lm1G0DySDD6YJ8MSw594uXHQJJkXiNq1hAijisQAqIgDxc2R/yk5gYp
+w30T79jH1dgp9P0zUb4BjtpC4qYOiyqxxttaA9fj7xOpzO9lR1OeU4CZl8WL5dvq
+H/pANCqDjXk9U0iw8lS2HdhFrTnKSI0hLSoLgRkZbtg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAReDKc5m+Sc3hXeIbAejeGJpAaw1NI39FslYxoAw64IkAL7KAMGofGIh
+fvn1ZSsW5lrDi3PKUmpduzeiexoYagAF4nefI8h6+/8276OjgQICSxCQEGkLDsbD
+SQO6LQym3gU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact emerproxy.xyz - emerproxy (at) keemail (dot) me - 1DXHZazgsw81xrdnjNQY9FXjZeEURQdqsG - eivd4nanrtr2qkk6.onion
+ntor-onion-key ku/rmH27b3mZvNJVimBXC3o3NkShY1/UI0CMSWzbWDQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 zL6yR61EQySJHe8Tgb8yS/ixTGiZpQrtSfdRgbItiqz5gbqaY7y1Z+VTOD181SAqPKogStmmQMF3F6SvJnKLBQ
+router-signature
+-----BEGIN SIGNATURE-----
+aK4FnGGbqREdCdo4B5c1c+fpweehDQ1tjUwoK7AtNf8G3m7mlb+w+byy2K0zWBn+
+JLgvY9mfSXJFnZGkc1Zrr/zx2TPIA7DoQAI/6wkWUZD4lxA/P1LQlgKvsZcQWI8S
+f8+ZkX0MCZgBxWcjcpXx2CD6OXQwfgbDB03amxsehSc=
+-----END SIGNATURE-----

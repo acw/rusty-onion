@@ -1,0 +1,82 @@
+router torpulse 91.134.232.48 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmD4Adx9e93Kqev2imCGhvO+7A9PMo2jlN/UO9Fn5tnWbL+bAQAgBABWxZZ+
+ENJ2bZbtPKrx45eQnBOzvtLZ8GXRMc+A/V5anpTTu+iyHmYO2wnQJEUV2oByzjbX
+THxhau42+K5rrsrT/pqZqEQglW1w/njcEIOvJlT8enfXIAPbBROW0FoGGAc=
+-----END ED25519 CERT-----
+master-key-ed25519 VsWWfhDSdm2W7Tyq8eOXkJwTs77S2fBl0THPgP1eWp4
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:48:18
+fingerprint 9327 3684 38EC D084 FD08 BF01 4C76 E175 4E35 036B
+uptime 129601
+bandwidth 1073741824 1073741824 6742346
+extra-info-digest 9AF80DFFBCFDBD572402845B8E69A1A76327E5EE vwbuOq9oyH2YtcJstqDxp37gs7T7RubnzsUl9qIuUl0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALgmhtAOYVY1sX9bs37a+VrA0drcSSv4gq2HlM4jxK5KDMYNpI6/b+Xd
+GQ8QVYqWQWIuiAhfIMbtqMlD7rvtv9/VsyHLi9Xi2nGlUvok0MwLjNCHUpoyAb7x
+nrtozAGJGZZk2HLU6kGHppBjAviVACEAltD5QzMEfhy1H1cPnTaVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM3c5EEdR4CEcnofgLyF92pJQQh8IVzdtVKuT8hdVA6i6dtA1ztYVKCw
+ZAsBoUKovlHiRqLLewVEPpTXub7Fy/vnY/3DeZIfZGLssbiuy5DOsaaH4p1FAZ9L
+fjt9ezK+dPrKvcsMClYSxtvvPvQgnMeyb/grekWWBNl1p0n8wuSBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+DG3GyORkfQMOOIlCNs9gNepBdjk5b35T3JqkNGKWiK5RGDsOympHrQdPRcG50CqK
+E3wD7Z3JvumoB866wZG9HA4lv1qOki0Y2jKMLi4W3df9I0GR2GvxqPEpImMqa1PY
+OkwM2Ify326ewMGzgsQhoN8FYxBT1htfx+HRMfM1wq4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAVbFln4Q0nZtlu08qvHjl5CcE7O+0tnwZdExz4D9XlqeAMOvWs9CE262
+x0HK0/s5PBZiXbP/ogRPLgyxlVhfbbUPqojYH0fVYK75zxScK3rS4Q1HzFcoFozS
+Xt/oQf0iMgU=
+-----END ED25519 CERT-----
+family $24E653655170F288BA7478788ABE4F786A3EF3E5 $B6904ADD4C0D10CDA7179E051962350A69A63243 $C56A6421353F64922275F04B19AA7A534B0E35E4
+hidden-service-dir
+contact Viktor <vnikolov AT vnikolov dot cz>
+ntor-onion-key PFkzsQfVBQThAHzPgWhFX6rkSTlOlf7kMGvmHRdAxyg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 91.134.232.48:*
+reject 5.145.170.92:*
+accept *:20-21
+accept *:43
+accept *:53
+accept *:80
+accept *:110
+accept *:143
+accept *:220
+accept *:443
+accept *:873
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:995
+accept *:1194
+accept *:1293
+accept *:3690
+accept *:4321
+accept *:5222-5223
+accept *:5228
+accept *:9418
+accept *:11371
+accept *:64738
+reject *:*
+router-sig-ed25519 mTnltByBqd9KLbyUmZZPVmZtd8ePMYGZN8Nv3jHkJpdSWPCh7QSyzSRPfpRogEs/F7QAMEdngUrU2ue1iTgCDA
+router-signature
+-----BEGIN SIGNATURE-----
+YQm3YrhU1zwgo3zuC9BIOnBFmCtXZD22xEuIHFrA7g5Vc7JsZLG0qQo1hy6JLLup
+Tiwhm3+7RwKDRoUgUdFu9GB5QnvQuaWipwJ6JRhTF1fQmsGtOkwKw4i0Wd9cA31G
+S3UZNpSe5BeZN2vT0q+Sy9zdhE7IULKFB9sLMv7yXRQ=
+-----END SIGNATURE-----

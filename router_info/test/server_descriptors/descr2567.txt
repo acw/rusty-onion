@@ -1,0 +1,50 @@
+router RunTheRelay 37.97.202.76 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAOAV99SABM+D9rnmsSd+7MKQ6od3wyWnoeETCrae0InUxuAQAgBACBoDaQ
+VBZcPsK+NJKK9GbjlXYjjlT5PIz9yUJZ6NP37ZhOqoIJyDrTjtBmfO8/40yELMJ5
+WYBnqKOSmIkR6t6U4SX4hgfjfmp/njra+jD2/BI6amE7QDlNBQAfa8lIvws=
+-----END ED25519 CERT-----
+master-key-ed25519 gaA2kFQWXD7CvjSSivRm45V2I45U+TyM/clCWejT9+0
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:46:45
+fingerprint C4AC 458F 9E58 7545 F422 A998 E196 8673 4887 A622
+uptime 1727136
+bandwidth 102400 204800 122616
+extra-info-digest 8EBB32E1513A95813276A44570B1A74FF3425589 g/5oSXqd/j8fx9JNhkqhKkLazXDkNJ/3FRu0zDQwVQ8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALxSew256RAGTfN/JSPyT3ySxIxN7IIzYhS4hEQTJHqC6Mg3MuhKTHw1
+W1cvBxsThoVvaWk/HnBi+MecVu1zT050B+MW8mhkvW5vta43ZqIijJFozy7G3/nm
+nt0fA0OZZN0lNmfi4zkP/5KFH9XZmisDtTbuEGugaHjd7tef8PwtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK96VNQRVIIaXNLRS5DEbHRoIixNOFc9MwHiJNn2RsZ/kSf0UcYETLxy
+0R+FNEOE31sAnfoebjJqflkIU9raYM8eO/5hioh3dVe/3PeSCr3DC0OzfgvRs4pm
+NXxTY//QrojostMQQqp+aL7FSpaF0hDwtGR7GSRUntb5e4mM+HX1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hPshtzDLBROaCcfyk3VjnVRxGwVyeM4aejLgyisL8sVj1VlB8SF9gfTfPmOujsBC
+weS8uJ0UPthGEL09R0lLRPGxBDaVnohonk31OdsE0x67v6yI9rA6ieZ7zyhta2sI
+iQQIHf2TNBWHWk7EPktVmO59uu5nixKHKLJ0290+Abk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAYGgNpBUFlw+wr40kor0ZuOVdiOOVPk8jP3JQlno0/ftAB1TX/Do+5qE
+4l2v1Io9q41bQCbnz6GAKVT60V/c/VffsRpushVID4qBtXXkY3CtpHtWwPXOxtM+
+Rr4dqYFdnAc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Random Person <hansdejong_ AT_ freedom_dot_nl >
+ntor-onion-key tyKJylHq+s5Qgt3XVnJnoO27NWSQ8k/Hh3z6kal/AQ4=
+reject *:*
+router-sig-ed25519 bz3m+aXZdbRyfLU06mNmwxyebaC89+W6we/2I/agzQGW17DNSQ3iGBr+x84Xr4geh4PbZklCeIEvg6R71b/FAw
+router-signature
+-----BEGIN SIGNATURE-----
+bfOZA+Vsu0wiu/PyShBeaZ1/OMmZ1GEHN81gxtQdSu4FkKp70AHgm97msDoxokfi
+i9VKy3jPUdfEWYGCUhR7UZA01DlLISrOMQqopn2tKJbAhYqE/FZrFZxB1XC4zulk
+M/USdXts9SzN49cDhRFaRhpwMQcHN72hv9k29wJaMG0=
+-----END SIGNATURE-----

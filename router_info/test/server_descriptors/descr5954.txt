@@ -1,0 +1,47 @@
+router Unnamed 142.4.201.104 29001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:02:51
+fingerprint 435C EECD 38E9 F01F F6AE B48D 8555 9E89 4E1E 18AB
+uptime 6668764
+bandwidth 1073741824 1073741824 11404
+extra-info-digest 0E0E8E04D01B7070EEA4731CBC2908180985321D
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPOtPwtKw4ZyWhmnJuNrMRpTNgq2zFfzNPMVFNMf2xYgUq9nhWjj8qvy
+OaXZveSeqM3JN0tJ8M415tahTpxmDcmTMJjQemi0d9TsaxtH/m60KbyrklxyuEHe
+Ey9zQaD0kxfrBz1wFiSVYN/XkCOWpAOT2wxc28VGWKyh1E6JuZcbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALZUAACZnYmVeMx49jiqjgFUa0V5ZmS29HowhvK5JPJRd5UPdMST1FTO
+2JxvOCDXPFrwwI5ZuSZQKEw25eUhDpcs9A/5DMjmJzLkTpNmPU2PLJ+ZTKMmsYFp
+dZvnlsZOd0Tbltekp3uSoCrVyT8qPBC0vAnkLfBuD0hAeuEeXF2LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact HellMind <hellmind@gmail.com>
+ntor-onion-key MgtL0dzaxa4ZpVzYhQXjL3tHyYAK6PvB4riBv/ttwAQ=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 142.4.201.104:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+UZ3wS8+0QARv3wFzYoaqieOALfWRu+pzAWgzZFA2aTJFSCZIEqCwOGMdHoLFHFoJ
+dxxyFC3P2717YOKxSJ5iJdJo7bPwCjRwexuIehvM/P/v2r4fwfzpZk6QHxlISGx5
+qkt3oWCkSE2t7ZPKm8krX/aokXhBtqYmZe/6pDYc7/o=
+-----END SIGNATURE-----

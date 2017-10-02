@@ -1,0 +1,47 @@
+router JustATorRelayTest 60.248.162.179 9901 0 9930
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:45:53
+fingerprint 4744 8D43 CD06 1B1A 2631 FBEE 48B8 98B5 4685 087B
+uptime 259381
+bandwidth 2048000 4096000 2253946
+extra-info-digest 899FEFDA5640F570ECADAC4F11FD6E09ED37117F
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALc2zlqV3NYcGNbruON8Ns6hlQqw8d+r9bxnGrgToJRr8FtAuh4aJ2po
+FMEGv0bmlI3wHltmwvxumAnnNVMLh2W82XnDy1OkYuGWgf3ugGTL2+IvztfWTYUG
+g21wGqMDqwBrXx+cBWFmqtBodLHgMMkYJ2DzZvBT5H9YVIhWclkpAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMRBv1tUohE0vdDeUAFqimVg1hRuPUT5AIsHqpamtotz/NbuLi5oLuhL
+CCnbPk62eIKxyt8C6v9agZVeMATMdRxrWDM6f3rY0PpAkQmt3cX4SRFrJ9bh/9xP
+RSgRMsXzM4YTQY9+/HN3VKadUjts3M7Nfc2r720VlyQWv8z7TvsTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Tim Luo <timluo AT ms1 dot hinet dot net>
+ntor-onion-key B1VSZg+StUl93x0uz+8z22cxylPHt6k0DCakbiBodk4=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 60.248.162.179:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+bubf8R6hm2JkBe+lqGNU20H3YlRY6vJceTQxBRoubdFGw2jByY89xFNMOjMnF6Ex
+fwy8J4MOqvAT93p94hUgRme6skNHi5iRlUVHLqQbma+G+GsZ5wehhmDBdAepp3Ed
+gdL1tx0CmEA5HXfajWwvS3hStvMwy51yddkUzF122og=
+-----END SIGNATURE-----

@@ -1,0 +1,52 @@
+router zoidberg 217.182.74.253 9003 0 80
+or-address [2001:41d0:601:1100::2fc]:9003
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 10:12:08
+fingerprint 5A45 4AAF F9DB 5BD0 F407 93B3 6268 84A2 79B7 ABAB
+uptime 8467266
+bandwidth 9437184 10485760 10892933
+extra-info-digest 6F1E0CA5699850A4BD72FA1BDCB6922EE2637CBF
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANZTS1cKj0AO2lCPV5yYgIK1qt3ydzHmZzv7aYJ3Xn2TeJMK+TrXQU6l
+7joZkUVpW6XCNL8SAOk8hHMdY8W/x4aRi8ksaXtHje7bwMGz9YJQpL7gx/lSKv0X
+I541bBeGX4OKNep0LNFHDR/1eb+y3rJ7NDPLZrQXyAxmidLHjYX1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMeV1gKUuu3lt20SazctKA/uPO3nJc3V9S6aAfUj02iENJwKu394qBqt
+7XBvVn2/hNW9ZRs6bqWtYbg37CV3cwLIhKLZPx+bUZLEs/uAGlSsOdHD2eJ3+uMb
+i25GyD7m7+mQ1p1dBZ2lJMnvvrS7W4kZx40zHGEX9sOy5Q1p+O1lAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact zoidberg
+ntor-onion-key 84nnAvNJuQ+LHT84fbYVDTFQ5QHHLC9iaMkfMBNriig=
+reject 0.0.0.0/8:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 217.182.74.253:*
+reject 169.254.0.0/15:*
+reject 193.70.39.41:*
+accept *:20-21
+accept *:23
+accept *:53
+accept *:80-81
+accept *:110
+accept *:143
+accept *:220
+accept *:443
+accept *:992
+accept *:993
+accept *:995
+accept *:8080
+reject *:*
+ipv6-policy accept 20-21,23,53,80-81,110,143,220,443,992-993,995,8080
+router-signature
+-----BEGIN SIGNATURE-----
+oqtt2cgi1P4m5J1XrrxExcVofrXeG/AE7/NPn+nCsXzBnbFxvRPcsFeOZ9TLzDyu
+qH/r+l++Cry7ODInV6/ma/+LLSmB1jtDqeXN0C0n5rhlEW/XRgzkQpDYudNOp25i
+Mdgk5iJJ/FlyAq4yqvnP/XH3N+DbpwxgLaeHsuJsXzc=
+-----END SIGNATURE-----

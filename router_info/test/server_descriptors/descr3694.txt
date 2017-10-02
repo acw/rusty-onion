@@ -1,0 +1,47 @@
+router obliqueasymptote 50.76.159.218 443 0 9030
+platform Tor 0.2.4.23 on Windows 7
+protocols Link 1 2 Circuit 1
+published 2017-08-28 14:06:30
+fingerprint 9A74 928E ED5A 7D70 DCDE 6DA6 65B8 A5F6 C3A3 8971
+uptime 64841
+bandwidth 10485760 20971520 313619
+extra-info-digest D3D57E036B33842A5C92096B18BBBA775229D056
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMKVJSZwoREdUSr70PzXk3tVDdzC7kvAykKYyok1f54VKmFvXR6Cuw5U
+Fv/zONyM/MCQKPquBLotDHgTL9kmaANi7a8+prILb/3ZA4Of4NzIy7iwQjRVNLsO
+5TjdsfLqG6Xmy/pbQXoeI60f4vTA96ounzf1SkrdUAqB6PkOhdNJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL/NNvFtJLtArK0lQdXTjk8y4Hj47tiUl4c6PVFBFkHCzKuGkKxfl1Cy
+fMykdcBORzwPd4ygsF0dNJ5I3xQG9ZsJC+AnHEAmEVz+zpN6MhE64TeQu5atauo3
+FMpAzhuM+YK11FdDYsPHrsXTYBHWREYAsyHxk6NOsQZDjpwUnWjNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact asymptote dot oblique at gmail dot com
+ntor-onion-key pOjaSm+JwLQURPohjOOWtmmZNhHlpqyPMsX6JZmSbQw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 50.76.159.218:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+kzNBUlcomyK4YHiaWO5hHY221fTchN4BLXFxjGrmFHLoxa1B/b5C3bkKKjOZi7p5
+m5K5Y9tDF/799C8Nf/7bYmVpaX+XtUO1lwr0cQK3fAOMg66Uo8yPaX2t/MQ0mqH9
+z20+37nXsFZG2ZVr8Fo7tme0EO8OaWel+8QDpi1+7A0=
+-----END SIGNATURE-----

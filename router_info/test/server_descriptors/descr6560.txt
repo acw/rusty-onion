@@ -1,0 +1,50 @@
+router Unnamed 192.157.239.243 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIoATeZb0gP6FGn/k7gL+ylndXNoOlyN08O55ooB9Leh3nGAQAgBAB4I17p
+GLmrmcBs5Lzk4q7WHPQ98rtn7anLUswk/Of2XqiCIq0y3A0M+yG863bTOPM44sGF
+GDyd3XTQ64RnkK+iZpGzjuZlcXK1bxZWu5CHeAl1M79d+I1LPHMRqrMAPww=
+-----END ED25519 CERT-----
+master-key-ed25519 eCNe6Ri5q5nAbOS85OKu1hz0PfK7Z+2py1LMJPzn9l4
+or-address [2605:f700:100:400::14cf:50ad]:9001
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:15:45
+fingerprint 2DC3 0967 1D3B 1BDF 8B10 EBEC 05F1 4C9B FD41 D9D4
+uptime 594945
+bandwidth 4194304 10485760 5207254
+extra-info-digest DE58AE93FF7D0F75157B23DE893DDEBF285A3BAD YUBHA6JafLGVgm9cJ9RPKuIp6kXc4ndxMXg2haVX5h4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK7OQQtqJ9tzVPwN80XP6vqgB22BX+6fJQlgz2EU+MhlWueF3VSsSicQ
+QgykoFDDludL8ZseTJ2r7V2jYX11fxByVmKKKsl92/lvUiuyH93fz+3XdUDVGXiR
+HeJ/4a8RR0LfeFZ38iejdb3U4x2X5kJourZuTtCMe9BdKLClXUUJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJmjaM1Xfb0rDelW+Vj/cJHUCxAD1x3uLsCVJHxPEXPkLM8EtrzYRokJ
+4SSr+ANglT3TsddKZdRhpZzQvDx9pAgJ08iGA6VSjEUEt307lez7ZCVmbp+h8hEx
+a2yX4cZHfW0w23ICzr5XdA6LFrfbLJ5ZgyA+iW8LX/ng9WSt5CqFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+V8Tygdczlwu9cXopTb1dDocXk1hrPoi5obsnJVNrfAVlrCKqzInCCxelIG82eUvY
+KV2Vwc3aR0rCsyXxQ+b/VIabKesldqJPrV1egUjOyBd6Y/ks6VtLtqfajGOrUhUQ
+7iLBPrM3Pn3r4ykV+XPxbKH5vMoWmDThYuNQXAlpxOo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAXgjXukYuauZwGzkvOTirtYc9D3yu2ftqctSzCT85/ZeACLxNyOzPX1m
+vxqEnA5jxRuniPBFYqV3ur+UfsGEtpHRASbx24L/dNjKKzs0TKLCDzH8rWwsiFX0
+4KO69uC5/Aw=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key Mx+cdIWRkCBrAPJ53/CbF8+FovGv1vbF/KKx10GRB2s=
+reject *:*
+router-sig-ed25519 mjTYW1JnSMqcFWD0FD1V1P++LJ9uc6tj7oDETwN6FNu9Y6FE/vrXHeaw94VfmadTHvaCBEq+xjrRnbgfF5SnBQ
+router-signature
+-----BEGIN SIGNATURE-----
+LHXwhUQKJNUsoNqSmYrSECBXuwReW/vU4SQERjv0ZPRhL1tXqJudxviIK4C1I3/j
+4ewxasdm151/0WZUAD34/OGyxNqKtZk0IWnx++3BdHAyI9SCO/x3uz76qgoucFJH
+V4XVrGTm3ULNAcbzOLOwsstO9NZ5bRStH/fKhVTw84A=
+-----END SIGNATURE-----

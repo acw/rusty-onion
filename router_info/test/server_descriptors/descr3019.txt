@@ -1,0 +1,47 @@
+router zighinettohome 93.70.203.202 9001 0 9030
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 00:51:23
+fingerprint B377 8895 3A87 5CBF BBF4 1AB1 D1B1 5DF4 8D08 D7EC
+uptime 314
+bandwidth 1073741824 1073741824 77119
+extra-info-digest 7118E564A565A131AD995931C1CBD83D5A3F0DCD
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALOHBa0rpFfUQhISitq9uIM5Y5RfiQZfs0jkvCo4fvxakEvaNptm0Qqq
+nHTburXXtB8Zdl16uhaZrvm27DMTs3xKlMjhYmyOlVpysnQLz9eH3xpv5GYeSzXd
+6uwXBbfkggTM4LSo27CISsnUtE2VHMzqkqTqz/eN3hA0XNKUyiiBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMCtZXENzXcfu7I5YxUktjnGoK1X/avjjTXjauEgar8cPpuhWwBd1Map
+TD7P4Pz2Y/vpQSaKCChmyG/uC7sEvKDKg0NsC6mWUDDZA4ptDC0oY8sgDgTCvcRR
+Vg9C5zybD5js3OWVKqCOctlK7HBM3ZCZZz5D+Fzj7eTUlig4MhXzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact tor -----symbol for email---- zigh   in    et   to --separator-- org
+ntor-onion-key ckQ+tvXFLg1jbd7U+sO4m1Jpi5/pu3STOfnFmpPlgAs=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 93.70.203.202:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+QKZjW+vS66st+OpRWhiIGjYnDc7lwpJkzrSKCu9GlVlQz/OjtT+c1CGEmjJYiIgo
+RNTOX28yRUkjCVcPkE21ZwjDXG8H5pHly1xTgExlKtN87MgyhwDE9sfV9b0Bm6t8
+hTnzSmo06VtkCEEU5I1P2jYBjwRIK74S/GVRL3Cnsls=
+-----END SIGNATURE-----

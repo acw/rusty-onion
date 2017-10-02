@@ -1,0 +1,69 @@
+router hackerman 185.10.68.139 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJCAWcPi358sr6N0Q5kS2wy5m5T8AQUn8eNzmkD7SEwXNbQAQAgBAA1tMsO
+KlpT7qHe1W0Y+9yWEYVLGH6+eX7I2tjfPUxBAr2MxWOh9/aBKScSq6u4QJ8mL3Cb
+EN3+uW+TG1Em+wqZwdjDivn05BR0W+B/pZ19LRGZRGLgj+42Pf0i5rJNBQU=
+-----END ED25519 CERT-----
+master-key-ed25519 NbTLDipaU+6h3tVtGPvclhGFSxh+vnl+yNrY3z1MQQI
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:57:21
+fingerprint EEE6 703C FD7E 5E83 C97C 5545 0ED8 6819 8946 530D
+uptime 1194071
+bandwidth 1048576 1048576 0
+extra-info-digest 93A3A55DEFBB53BB1EA1317DCC9BF8DAA53D251B otZ7mx+YTtbXGwyZ7GxSUBSS3+jik3cmc2QloWQ+7yo
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM3wKZd9Y0Nc+eC2Xeh0pbbimazTu/8hjsViCINkkHi7ltKjVD9I/h4G
+ntMJ43Vk8/ngeAryFDlBMGJ3kN8sgJoT+pZwlr4f+ryjTm0ZNsjYMo1lTU7JMgEV
+OpLVTR0jL+I9j7hVLLL/qS+V7jqxKBlcjik7yaBDUilfiv2+SmdBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPDZULgCyssfx/AHvYtmRO09K9ofK5c5yghVbZcwdPwC0OB1u86UuYBu
+jVgZ6A32SFw5eT+Em/yRVbs3wg8Dh+4WInCv5IYrPADPnFlaVUMrUSn9ANUTcRfk
+j7ZmTzdMOWzhTxxufmQG5l6wyAof24yeuaNJycX2xvhH+so+U3ATAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+C5YQ2YM1Gpw9VRffd3LDv2nzpq4z5gJpRiZlm5lp6GKMlSopo22Ndpa7ecndOdYT
+fVrYGyeq9KVRgek4F8B2xbnzt97X56X+2XMhZmqQhHnf4YeQD2QiLYZnEZ0uiDeP
+KCtXMJMsEbQhYaeHZ6aqdNRcH3khmcWtJZYJRl5NXUM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSATW0yw4qWlPuod7VbRj73JYRhUsYfr55fsja2N89TEECAADExNoUFzZD
+SOzv1vGu4KrnCgOdSpntuwGXUBkt8fDytP36Y63umHNLkR21FMMk/GtvM1X9jmhK
+V8jBcpihCwU=
+-----END ED25519 CERT-----
+hibernating 1
+hidden-service-dir
+contact milksteak@tfwno.gf
+ntor-onion-key a9Y3K/ijuBwZnamgSXPzLHa3OYq9fqjIrCTFoA0E61s=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.10.68.139:*
+reject 185.100.85.190:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-sig-ed25519 io9fYDHlcmky1E9S0GGVErhELjiFl1rALjN1F2+4HIDqqhp1wU6mtka+3eW3CXUsqY/4Cm0dvG0T/PIHK6iGAw
+router-signature
+-----BEGIN SIGNATURE-----
+q3Bce8LPLbnDfRUYg6cqZZ2kVtoj+yOLch8r+rxL6ekDgnGYV7JnbGOq+EVLXTWG
+IwRv8V+T8QP13Sub74plIamn2/gu+XxCJI1wgFQpoEj3JWo62h60HUpvlHCiH5Bu
+aOMihD2xRJBAPgTK+wiI9Sy2v6NMejP+NslaHWR6klo=
+-----END SIGNATURE-----

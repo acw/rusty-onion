@@ -1,0 +1,51 @@
+router Clevinger 45.55.167.33 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKeAeMAGrOLJBfWbnpHOBU6L1iAQaSRFtV+O+vhak6VhoUyAQAgBADkH5Ho
+BbI9DC6grC5i2ZKTZKMRcZbrJ5iJZQMRW9ptFl4fU6rZBP7ZbAQQPD96RhcQ2cFQ
+zVhgvnbxFr6RkSvH/TXZ9z6LJftNIRXiyWtXYXNwYh4Bqn7N7ac8MISMdAo=
+-----END ED25519 CERT-----
+master-key-ed25519 5B+R6AWyPQwuoKwuYtmSk2SjEXGW6yeYiWUDEVvabRY
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:58:27
+fingerprint 967C D4FE 51BD D3F6 175E 52C8 F03B DA9E 795D E169
+uptime 12456563
+bandwidth 1048576 1572864 1270198
+extra-info-digest F7FBDF587739387762E644A9D5AAD1B016A4FD6C rC+gqW+PvN7EytwNeoOSFDynAgk3smXNZvP/WXsEz4g
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMhZuGM6QR5BMtf93TI2J2vaZ7GOLm/Z/PtX2Qv0myGQo9PvPvT8NjSs
+My33ySRH6G9iWt2nf55QkDHUh/JjiP0y0bqoRcnEqj7gSm9038ePtHkZRw7CmoVD
+Ib4Jw1p4lHQC40UVD1yt2+61dporhgzye7jD+yOTyMfMNLgTIh/JAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKa/gnyHHkOSTBhPhF3i3204KNoIMdd0WDSXR+841ewbtDxE56GXnFn9
+TE9jni/gdoUK8LjEZbSGpZTdBGbNSXjQqPFyaAAS+NS/gZVZfgnqHa/wFR/6gMjQ
+N78KVXa9QEUPIBMv+J71wdxdpqhVe97XIbCSGC5GLZam1dYroQv7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+QDBt4aR2p+Ve9Cp3qBdM+ajPoqDT+nidBL5wNvLu5Sdj1jK+Fmilo9EnD1op9xRC
+ChtBdt5yjeK0cn3W5HsdbyPZ/pIrmi/cOL1FqmD5G+pcp8P2mxPp0DkRzycmdtjn
+t8JKjoN/JLzyYOmPsBGQRQGtk3BrBhiShgTJtX8d+s4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAeQfkegFsj0MLqCsLmLZkpNkoxFxlusnmIllAxFb2m0WAFQTQLmcMz9C
+HBe2Pr02GnwZK5WiMSCKZYSOIsyA3xYiB55s8CfHF9C1DG3FHBsfDWw5aYwbXlqk
+yWKdhaHEdws=
+-----END ED25519 CERT-----
+family $1AE180250D80A692077EDA35CC8E7387A9FDF220
+hidden-service-dir
+ntor-onion-key +KnTCKyVQY76qz/nDnFFu2upBGpzxuhPlBCbjPx+zQE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 63yuFdFUwcoLKAksuB5ke/glSwbN3laMM3N2ppyRGFoeVFTrie+bpu5eWe6jGC3p/AIAp0cDNend9m0eIlKiAg
+router-signature
+-----BEGIN SIGNATURE-----
+cWGwoQ87nku9K2JzstpasFUsmu7cU0wG5gdYaamMXNGBA/5m3g4OYu9rbUepizi8
+pWTgRO2vvg+Ofu+ITajGNp6tqAJbpXl0yQSSB9DXWuRSYgM7rn2LXwu3e8O1JvyO
+GgGA2KtZZv8C56weHAUXtT1XRK94IUVNy4xFx7mDgNQ=
+-----END SIGNATURE-----

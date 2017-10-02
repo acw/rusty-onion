@@ -1,0 +1,51 @@
+router torgandalftor 93.234.200.46 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJxARukywCAXnyEPejAoYbDIOvkt2naKoGKN6cNWKLtFFOSAQAgBAArrn9+
+1OCbg9GaP3tivfbzlwfXeLsXUGdplJD7cz3aJePXjRKuFj6qmpu76nxhkSl2fiF+
+S6tJLLCbTdNnVzF2cPR33d+9w+uX13INxpP/UQPMZHCEnjx4UFZPeZl+AgI=
+-----END ED25519 CERT-----
+master-key-ed25519 K65/ftTgm4PRmj97Yr3285cH13i7F1BnaZSQ+3M92iU
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:31:56
+fingerprint 2422 F476 30E9 F0B1 0465 B4E0 7D4D 58C1 3EAF AD8A
+uptime 453785
+bandwidth 102400 204800 120748
+extra-info-digest 998D22CADA63BC279353D304879F7E8094B6E465 +a2dPknhMNzCQAQpIAF3zOpFwZtTqh2ua+f6JTjfPdA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANihAoSJQbUFR7aPLSWjXhtXC3kvAJU0hCmIQa9Svv6Bvvb640qX6fdr
+fa73CWKQQOoNtrjmzWzE+peICU022wC1deTmsuScGT/p//GYl5TS4jPum7IQMwWp
+xOZFeBxaVXKFu/3TfBL6AWUI88FEQOwQ/VzE/747nuFf3ehJhx5BAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALaDbRNEME7Fw0PI1CjWwFPJXHUTNlkwuwX5LVXdrsNj640YxRiN2JMe
+w8qYRzH8/4GAaWD0xH2OPAIa4HYxtoWau9fKnQnwXf1ERT5sIdq1YfIqWQYnU6Eo
+6nybBmWrxqn13cytAzvqyLByRLQ7cQ7+C+ZoTfrbd2d5Bg9TzOh3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+i0rgVV+IkyxEr1gPNcw0UE4pvGtnZ79vE1/MRfY+E/lcii++eMjNV1oc5OAOMT1D
+gCJRcmzSG097zVkvnlaihsBw+ajPWAS4Rgh4DFLDgBEjjzsTRuqFuT8Go9NLdBEQ
+0aH88hxaI6vGbrqm4G6D7JORLwag90dmUPRSIGEoS70=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCPASuuf37U4JuD0Zo/e2K99vOXB9d4uxdQZ2mUkPtzPdolAOVQubquEqOl
+6v7enDLo8YDlz2BYY2GSZDKDXSL6jJLgZyVeiGtYlsMRiT68JIi/NfwJFaygeL86
+3qCSLg0ZQQE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact name AT anbieter dot de
+ntor-onion-key +H8sbSMP+hQpsJk6f7vrljwcunouZZy/0b19fpqw8wE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 dFMWHRaVGu69u7GYmbkVKom4SjY+BE8wAkB62GDuof+FB0853Pk9Vno9StW8iichVQ1nlNwESAgd2f7735ufBA
+router-signature
+-----BEGIN SIGNATURE-----
+cZ9BNVU5JCaKqwqRkO9oMoGTwFJVt8BFkstnLq1U8e8mOoS9roxFmWd6mLJ4wdZN
+JBL+0YOHs9xXxhGB2fHBUtBJHdXSsW7YV1BaWr+bd4/Bl52QnCX4f97eqqSBgq3p
+ycqxcQ4N/otdg/eSbXjGol9GY+a2wsc6cBNC7KegwWc=
+-----END SIGNATURE-----

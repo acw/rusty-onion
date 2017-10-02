@@ -1,0 +1,51 @@
+router csfo 192.241.210.101 9090 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAvAQqvhKelLc3BVdWIW76x3IGzzHQFevw+dK0Oa2cULTSWAQAgBABiLhi+
+CR4rFHp9qgqIwXhEyL8VwSjRX6ebB6Yei01F2lJFZrCfFhqJe9SvVCGbhW6M5Iiu
+C1i+lYQbXAiHXiEFGsba7Dbay6vvXV/5ryxNeWCFVtTQzw4bez3Ur9xBBw8=
+-----END ED25519 CERT-----
+master-key-ed25519 Yi4YvgkeKxR6faoKiMF4RMi/FcEo0V+nmwemHotNRdo
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:06:19
+fingerprint DB28 D43D 3727 20A7 19B7 1613 A6C7 0092 F1D8 6C3C
+uptime 9101602
+bandwidth 5242880 10485760 1787194
+extra-info-digest 5EDB296FE2EFBF58089B1047C0AB3E2614DC7ADE 39YFJZD2h49RZatk6I4n2adN9GxyCGuNx6Zxl2YxGqQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMASGBenpSmnO0MY5qD3hqJwXuYIyrn9u7jTM12xBXtLjEpSsSly++lI
+n3j2aH62zx5XJWsKU8nW35n4h8vCTbTaAtPaQ6VNbvJmYYh1uvaO6D1yUXc4pRoO
+/c9ykhLRQjH2QnnrQjedXTij5jQvBr9HlqDHPcONHAAHdECILdg5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANM/2GnbzchgxhuQZlOpofs/GF1kg1RtHtd/H6P+JdYUdyYbcR/japIn
+uGVIH4OfKJmxqLveui99ZqUwBB0Wa9sW/H3O+gsPJW3UVZW1A1HoRlx8ft9wlOkS
++lZldZXx1IMnO2CVA1hFQLOjZ1ZQjis0sMkTugaE67f+AXU4K/2tAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+rVEaoutdVRuBQZGgc2sHuzMSq0C4FqVupzivMy+6wxk6H3JB8ina2wmP5w4A5Hcg
+twpglxrU0yIlPuJ6vY5flGMhhqazcpnVCiyUHUAaDGj+ULoAfoOmQp3neQVfIOv+
+HLDxeI3lqrxhNWc49RORpeTaPmtYJ2FpJWyZo/bhnYA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAWIuGL4JHisUen2qCojBeETIvxXBKNFfp5sHph6LTUXaAOHjfgUFLsoE
+nmHp5PxHA2IdqqiB0vtWhMKSxB7Xyr2cv0R9/2HCFUL9WRwgQRl8MgL0aZIyoM9f
+TSwno9c4qgU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact cam@protonmail.ch
+ntor-onion-key 7VrcMotdsLrN5smLrhG16ufuAOiYlmk6gVQ2XWt4lkE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 xWenqelSvRC4jHhVOJw2Fk+lOgBVGb6JxSxjbFHXPx5ocnmoF9ux+0YHii5Iu0FXgdwptLxRUgzRbXKvcMWuCA
+router-signature
+-----BEGIN SIGNATURE-----
+WqBfL2OOKz260hFjOJTvlVjOq3ufY6IGeVzDruLt8j/ghKXrITZQr3vxhUD4mTQb
+aiCT6FXtXi/AIa4801iWb+WQCmilKT0ZjccT7iRt/Ylh5UwYWJ8HZJp4X+oY1l5a
+37UI6dAAw7lPplZqq2QDyw7b1o3m8/vX5mTY1xEr0/Y=
+-----END SIGNATURE-----

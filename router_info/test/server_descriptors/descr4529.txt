@@ -1,0 +1,51 @@
+router Karlstad0 193.11.166.194 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIeAT+to6QoO9D7VK6jz7DQvjPNBlk7AltjwM+1OcFzUy2pAQAgBAB9+SfM
+CYJPAws36ZjG5awFZhaNvP8jzZtYcUsaV1S9GfvrSF7UVBaUX0SrsTcFsuzJDM8a
+MqH7dv8yYYGlaTnpviwp+94QmhFuVsmva0pwmGfthQj5K6UVfzQ+uw+cJAk=
+-----END ED25519 CERT-----
+master-key-ed25519 ffknzAmCTwMLN+mYxuWsBWYWjbz/I82bWHFLGldUvRk
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:34:39
+fingerprint 7C0D 0863 BA48 4D16 A9E5 E3CB 8DA8 1AF8 108E 2E29
+uptime 19638
+bandwidth 10485760 20971520 4777984
+extra-info-digest 7F4EF92A7BBC73837B7BC639260C9CB1889AD0E1 WeObMC0i+RrWO8EzenIdqJU33ZZuPrWuhY+ZP9eF5bI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALhMVr+qcBdSS0PwVSAPh9dQRwKoSDiUyny4x5tZG4l6u6mKT453OrAM
+P9NgfCpSMtFjZF6pEVn9P4Zotio+K7p7ja/VDEMnG6J9XPBWV+6ss62EyYL6O0oY
+vS3vWhOtrEV9Qiouw5XM9dLQgL3nzXe+DsB42Gz05CSH759b4ekfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPge+P6xP5g6BA16MbIsbAa1ZG4spMtqyq/Xq+zrdI8w4XEY2QwrGxRW
+0mWLnj7m384ouPkJav7Ay5XH8cjdhN4zerXzJvUgB/6BewPsw6kipIkkBC3ixWYc
+t6Vy35oZayAcdl55v++ZrWoT5Cg/Zvds327RHORXN2wqQQJpdbgBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+sqsFK68L5rpJYvJ1ho3BJJRmmOVV5yx152z+Wz7p5QHMbM3a16YVrpslH6c5BGyj
+WtAoDAI3c9X0l7ulwCBjSms7n8zJr0Hcf213V6pfrhb8D94rmLV5OOGq5qeY6+Ri
+Ra6cAS6jhHSebeBDByqRkT+IYz77TWqfGR7Cw2usbW4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFAX35J8wJgk8DCzfpmMblrAVmFo28/yPNm1hxSxpXVL0ZAM8qjcjPP4O5
+KoWK0y9neEi/YOhSRs81rT/yMMNc3PmJEbW2rqMNhQKG8bXpgryO5Y3+5L0s2TPS
+edNKfo6chgc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact abuse-tor@lists.kau.se
+ntor-onion-key r/MEvgQ9WnEmOBrDquoxVYEq19JVLA0YKrY0tUsaBzE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 927Kwnr+2BBxtcPsijNb+HQTmz+dO2XaKvmJ84SUggaY2cphJoWgCPIVI7bHPol8E6REEiMEHQfps1oqQM7TCg
+router-signature
+-----BEGIN SIGNATURE-----
+OI3LgdxoEjwKvdDgv6owaSivmyDxD8CtHYusU0WAqhVLSicIQGG3NNESbqAU2wo3
+gVU1VP2i7ZkVH88l5JPESAQ3EzhkbgkdpGdYheH6GkUvznqSpDFGWBR3taCFmgp0
+YAuYGtqxcJPqL6QP14rQlsntc2kX3ZsgbWVUM/qPMoE=
+-----END SIGNATURE-----

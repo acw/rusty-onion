@@ -1,0 +1,50 @@
+router andrethemac 94.226.151.128 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBhAWDj+eInAkrS70BBlXontz10rO/4ZiJYae+zJnEpLhN3AQAgBAD2nytW
+N3VSNI9IGiR/1mNbZfh9PeneoWjnNcObFPfWMuqMzIpcCGyWa6He4dGH8n3JcLFu
+WXRwBuNkPZil/50tISNRHrvkbCDwP8d87l46cN6N5KOSvxiSNt81XANIRgQ=
+-----END ED25519 CERT-----
+master-key-ed25519 9p8rVjd1UjSPSBokf9ZjW2X4fT3p3qFo5zXDmxT31jI
+platform Tor 0.2.7.6 on OpenBSD
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:53:01
+fingerprint A3B1 10E3 5CFC 250D A9F4 045A 2A76 E011 424D 22D7
+uptime 2277040
+bandwidth 512000 10485760 937652
+extra-info-digest 7C4B10A68CE4C58513D255C0DE1D207ED5E37DAA 9XcIILIcinMGgjb5K/Njgrf/OXTQNf3P7EM7DFyU8LY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANI7M7mVzzEkuWI1BrjrZdE/RaJOCUQw5cZEaCeTew236/fqsLLd3ojH
+R1ZvNJFrRchSl18oiawV3zR/Jpy0Y4e+RNeVPAopve6ESlv9bAO0HYH04iJ7Wc9S
+0wLCnm0vPSFCB9ThhngNN9u1sgAuTGz0m7T0faLmTihZc6r76PCZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ39x7xoamOjN9Fw7qnjvFTMWb+CPQnD2pjvx9wkuzwGWSXGUx5h/rWc
+FAnPUz9y303RK9pz7iQTmYFe7OYLeYPTQvD5PKnqI5gxpL8m6o+K/2R80AEtTp07
+BTIcnBi2nh4KyxcqNrQ8AI2VyZdc+y/tUszgQkz1dDtbA+Hx66vTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MJNkAoGMy0ZLbh8BL3bQq52A67Bv9ab4kTUaSs0QsnAsgSFGJr9liyyD1jhHHUoi
+oHVcMxSL2N+gfzPU0+bF78WVGEAkyCqyT9MLg1g6tYjUGlgkmK3V69bv1W7YcHXI
+DXf55P7i3OlP6JSqK9YQaniiVmqDlfHy2WyoP0fJjjY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAfafK1Y3dVI0j0gaJH/WY1tl+H096d6haOc1w5sU99YyAPt1sC0ywzZP
+cpMwWwVf8nU5qAuU/byV9qMzBkSq9WPnEEXRKbeNxHKhI7IxClZlshNKwFl1x2pe
+0UO6/S0/HQ8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tor admin <andrethemac AT gmail dot com>
+ntor-onion-key RdWjxG2ScYjzZlq9kyF8qlXzQhQcaD4Q4JXJgXkmcl0=
+reject *:*
+router-sig-ed25519 +EHjCVkrDSd0W5lHDs3XcC78nLZXajpfTuf6pMox9s5sSuy+wJTWgWdWax0yJUUyIOnTdD3rhDOKCTRkvCMsCg
+router-signature
+-----BEGIN SIGNATURE-----
+HbS7hzThes59lFmHXw+4jxtUKHCgHS9LELhZoapuo01I802Y0hhL1n20rnQZcxay
+VmR8E1h5qB0wvqG5SAqg7zyj8PmyLqXM0mBPsJTcrskZ5avhqoIPRZXkSWhkconc
+wj21sm4eF8atsKdMpu8MAv/aTIehtVAygZ00uhRJqmI=
+-----END SIGNATURE-----

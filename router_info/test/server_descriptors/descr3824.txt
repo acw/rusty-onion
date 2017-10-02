@@ -1,0 +1,128 @@
+router DigiGesTor2e2 176.10.104.243 8443 0 8080
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ+AVXYUn2uvMeKQhw5hhwlgBlThsZIkiIkaZCvn3OjoLm5AQAgBAC1o0QH
+jAg031OWvJ/e/3jUGFZ4Uh0kmKa6tAr9+xxoiuA3cHKaesZ3Qi5zfmiiurLv6cxf
+72LVsgTVNX9qBrwAafRp+apN3lOKQ+lHZultW0iw+z+M+kH8aQ62jRmSxw4=
+-----END ED25519 CERT-----
+master-key-ed25519 taNEB4wINN9Tlryf3v941BhWeFIdJJimurQK/fscaIo
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:59:57
+fingerprint 95DA 61AE F23A 6C85 1028 C1AA 88AD 8593 F659 E60F
+uptime 259440
+bandwidth 13107200 1073741824 21566601
+extra-info-digest C8C30FA131C5C18E6CA470CD11236A27B1A749BD NIIunIMNWYtm7thuLqx4aiMF+jrnNQ6iEbpPD4B7m3Y
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALoUjX0E2nDBZEDiXZFxWjUqU5zv43JxtGT0iKFuVvCSJKJBYgtuMAGN
+vj0xrz6FN3wG+CBjvWw3CbY/bNM5IPnrMdnZynANpRP5WbBtHU3/SoTmUfpqfAC4
+1BaHFwXx5sv8BMoviuQBS3ZqN5uX9YYvb5T9Gf+qEmNiK+QU2KZzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPPHSi8aKrBtMxVc6XusPnwXcJDv3+4xF428sto3V0T3dv58bt9vSFPj
+VeNd5g1GKA50oexMaZHgA3ho+9pBrdj3D2VEWIIfUCoFI8xfexDyg8UOsKYPcFaF
+yPqj3MAvn5M1VjF9yyreOuAbyPduBCaxYHjmWHbIWoddtgd8hwwHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+R4dBR2muy6B6EML4dRneKIzASKkQPG5aoYxi5NGrCMLe6LXuCAxTNTlsYDD+GFpQ
+IB2tKL2gQJs9Kzu2xvzxt8nWJ/CFmuBonJCkKhAV5jY2J5OTEfU3jk3WOa42bUQ5
+th1WRPEcTSa0MslFyF6CUlEFyB/TgerMxyW5Zk5ED7s=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAbWjRAeMCDTfU5a8n97/eNQYVnhSHSSYprq0Cv37HGiKAHdUZ8ADRxlT
+CmV8f117vcKJTAyAAFMrvaJeohldV4WBgj63kIjUY1tEDw+GfFIXu9K0uW/WCV8J
+yGVkzrAXYQc=
+-----END ED25519 CERT-----
+family $0111BA9B604669E636FFD5B503F382A4B7AD6E80 $1ECD73B936CB6E6B3CD647CC204F108D9DF2C9F7 $2F557D4881856412B5FDE8C735D7A8D5C58E9167 $311A4533F7A2415F42346A6C8FA77E6FD279594C $62DA0256BBC28992D41CBAFB549FFD7C9B846A99 $88487BDD980BF6E72092EE690E8C51C0AA4A538C $9AA3FF35E7A549D2337E962333D366E102FE4D50 $AD86CD1A49573D52A7B6F4A35750F161AAD89C88
+hidden-service-dir
+contact https://www.digitale-gesellschaft.ch/abuse/
+ntor-onion-key 3mrzxRfqgp7iT5pulm21HR5MvctA/D0gmAG1gXoE8mg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 176.10.104.243:*
+accept *:20-21
+accept *:23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:12350
+accept *:19294
+accept *:19638
+accept *:23456
+accept *:33033
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 OJGl+nRrH7Dhl1eytdtu/S72UUw2Myt1v33iVk9OEwlt7aQo3wD+gS5Q3aY8uTjV22nXeu8zz6oGdVYj7RBpDQ
+router-signature
+-----BEGIN SIGNATURE-----
+f32gZZPwTUgzcpdhv/77VO97QMh2f+fnbm7lmnZDdZRH71ONdZntHLBfCB6o2JZd
+r3u4cjF6F04+7Pbw0aIQs7bWFBcXUfpevmcjV69/gGA65TSEUeeNlF5oHvKceTHP
+ho+O0GGacnQrCDF+WERYD7iREJiJPH7pIISWil9nokU=
+-----END SIGNATURE-----

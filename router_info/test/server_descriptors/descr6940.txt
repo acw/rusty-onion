@@ -1,0 +1,51 @@
+router Bifroest 37.218.247.217 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF8ARZjaYqpBvsWB3bkUbfe1wK2Jx32uHUpmTQ+AaRni9YwAQAgBADeO78P
+ibd5vPg3x1ZXC75BrZEKn51mMJGQX7dPzkawWDzix0UtUvxz3bgtHyFNjUVY6sys
+XnSsxw68UQSaayFSkotoc+vTIVYjDJXKLHfH/7twKYllfmRFcW2rDPogiwA=
+-----END ED25519 CERT-----
+master-key-ed25519 3ju/D4m3ebz4N8dWVwu+Qa2RCp+dZjCRkF+3T85GsFg
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:48:45
+fingerprint 1D8F 3A91 C37C 5D1C 4C19 B1AD 1D0C FBE8 BF72 D8E1
+uptime 1096513
+bandwidth 1073741824 1073741824 500510
+extra-info-digest D6720809675BA2FDDF19B14CD8E9EF6AB6FCAB62 q9j68e/rbpIfIQPrlvGV1AamqGVoUf0MuAns2wW4wBg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANIlvlOGnSBYVft0J2z0ySNksGSTtQP3rSu0JsiWjUH3ZCHW6MBrJ1Zx
+froeiZnU1eW8Ngltb+SFIom9866d1kcQTwhVZTVWjcx9tK+PzTmR+iU0jYwsqHJy
+IqMAWSkO2U54tkMzKEOzSEWAGygoYeN0YKS9p+Im8UANutDFYa/tAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK55F9cl8gNASn4Pgdek+UReFwv8ogGJfkoEHF9HZIlNCmT2+f70T6Dp
+Pqcz6nyuzrt0L+fVNGUsbuI+89ePHdLI2+kMOkKZ5fNqLHdPW62ZAzU0V+8FoX4Q
+nRJMtJzesJKYkH3DRVTZVtMw3pRvv/R+DjQOOI/8X2PyKIm0pLpLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+o7evwbuKaYnRU8qjcF3b0blqn/jFt1JBtszJwRBv62vu8GLLqejhp0wSAEi5gu42
+n7vm1iN53YeyJSgQrr8HJVc/N8gv7HECmxTk55Rfi6Fj2uHK3WYs77N1RGHyLKoC
+G00bzHN9dONIwEx0lt2bxh/2WApgZq5hE/mUdA3Epr0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAd47vw+Jt3m8+DfHVlcLvkGtkQqfnWYwkZBft0/ORrBYAAW3b0DoM4kU
+Gdz2Qtr9gqw8cze0d/t19K83OVZvqxq0QXjHgrbFGprbEOljaIsjDZDu5akfXfCA
+L5f7qJxaDAs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 4096R/0A6A58A14B5946ABDE18E207A3ADB67A2CDB8B35 isis agora lovecruft <isis@patternsinthevoid.net>
+ntor-onion-key k8DhUaHbtqg0l6XhVFcAwJurOHX9lyk4RzKIWs2JFjQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 8bdl2lWkxnT2zyrPcRsoMaI/hq92E9Qje2bRNHef3r75QHSlYrnNGaNjOEWc6Nun1g83o5ZQTATzZOEeycEWDg
+router-signature
+-----BEGIN SIGNATURE-----
+St1qS5lfhZXWNoMg7widPvRuNga27WO3PAivVPwHSWFRuh0rMG1J/7yf/cm4BQI+
+LUO5s1m8z5SOf18D0P20OATOKVRQdh67x7uUdnDnnsgkjRpNgBtWKs5C2X5cSPJe
+evHUDMxHjTrbRq9bDkWtllnBnhHrVR7lRIiacsCP2jM=
+-----END SIGNATURE-----

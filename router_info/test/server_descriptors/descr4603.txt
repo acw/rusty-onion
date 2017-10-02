@@ -1,0 +1,37 @@
+router maltimore 213.136.71.21 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:59:34
+fingerprint 78C4 FCE0 851C 99A4 E055 63C6 F520 C68F 28BD 916E
+uptime 1956665
+bandwidth 7864320 10485760 3807081
+extra-info-digest ED4494B7E7498E51AF7665502C2EF5971472D47B
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMNl4RQUfqXWfr9t8zXlsrFyU7kGhpUIAjBTTNlc/BUPXa9ICxcknXZH
+uDpOPwX0w334nyOhGL2zIQQJduWUMLdkZp72YDR1YrIFLS+Ngyx6vxacRowhjNn/
+I46nP/XlFuWmAt1M7yPnRCnHeMfLo2fsaXSrsgiC5x/ag0MIJYa1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALnnatWOvuLUpGf7us87Wd5pm67TLqwaa9FTtFOlbceTq7Jdctx8XAsP
+vxovNCoCU/fjUSgPOMwC3vpsn+ul6rYo6dX11TxNCWKmPTLn5Yk0/kmTp6Wz0p1c
+cR/RqZVmhA3SUWZuMZJEH7EzyuB0IWs5XwoBmPAPgi7aNqHoU2+9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key bZoryGkREQ8kmoSMYHcAdP291ku9j8mqg7znpw+L+QE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 213.136.71.21:*
+accept *:6660-6667
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+IPw7CkZ72KgEjlwiOpsbJMpx8/OaOPcWFRMY9+1p6xI26g0jBAypRfTN/hV11ToR
+nNiPQsU1qMJUVRcax755rsws7/2o7XpTUD25eVaDWymytM/SMV5D7vPzY+UfimbZ
+7uewMMgHh4eNnTHMd4k8MmNq5X9lzEEY+fbOh/ClPPM=
+-----END SIGNATURE-----

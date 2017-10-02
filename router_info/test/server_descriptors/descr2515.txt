@@ -1,0 +1,51 @@
+router morrobay 52.42.94.200 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIjAfNFGh/aZThaZMRBKSntKGWQIbj9R2O4rqaLvkO6X3l/AQAgBACscwos
+0QuZgLv37fe60DcWL2tBC1PUcsSu+oYFl3QHiLJZA9DMI8cj6qx1jE4VLDhha3Gq
+Yc9/2R7KAz/JtlqnWoZuuGod2/4O7bdyYk/W1tQUuh2SXGLvEk1TTz1PUAg=
+-----END ED25519 CERT-----
+master-key-ed25519 rHMKLNELmYC79+33utA3Fi9rQQtT1HLErvqGBZd0B4g
+platform Tor 0.2.8.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 11:25:09
+fingerprint C685 E63B 3CB9 D535 9EF6 5E7F 342B 635A 43BC B363
+uptime 33107039
+bandwidth 102400 204800 121831
+extra-info-digest 29E22D63B7F8D484C256A75E31F5DD22B6CF79F9 PuH8ovMF2wkY2UV8U3x2gyHTO6fyjjKVHL+4BUopg8g
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKy1DLWd1U5/ZyEVd0ulxbq4PaeMpgHbaKuvtTzWUBibPaU6FthphR3g
+8Lq0ULxJ29t79EVyQcqy2TtsE2z5GAvZ0UcilkIeS3DsAolLI6mE/rDyAeGsqAIh
+PWRKI7Ix9Jd/SoXyZQ7QyTDI8QAod46yZsX1BD6gxk131/wUY3SBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJsU5sHB0uuuJWV3Pg12z4RWSR8JKw4XnqJamxLN2+NapGyhSsZUdSQ1
+l60+Mkv+fKk6mFF3Fg+XKydqGDZqw2O4nBrmzyISSJnuFr2phTAuC7seCZnBq4iy
+YQi9uJq3kNezhfX/2+O2e8Upjd1iYt8cJCL1zKQ0sipT7jxQvxV3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+eTKOiR1TSjCL6u3DlwzyKwDCRedgdb4825N69FtM/7+1L3HyMf4IcLNDkHqOG5JK
+KH4dZVg6ImJQWw1/2oMgJZeVlFSN0TATrttFd6Or4SSS5Fi9sG7MtQYR6X8ybXRP
+raUHFrB1fDf4LmqhOPyBc4hhNzzFjuSXhmFqdSSO7gU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAaxzCizRC5mAu/ft97rQNxYva0ELU9RyxK76hgWXdAeIAAhrMSfj4Acr
+tz2uXpRNv54NxCkP5GvFUU62dTyFpTXgTZlPR/fSLwr7uxwNGaUOonIxCNHaOEJF
+9tYvcVvtHwU=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Arnold <arnold@ca.gov>
+ntor-onion-key f/EYVgO26W2qUkYVkQSj0OdRyLFK1IjcNWxcFMnH9nA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ZQxLBzf3abQBBNQ7Qzs0PGfnMmErsIPQl5sdp4Bvdvao/wJ+rQiA98/lgZpGY+ODAyZMJyupGS0t+fHlF3+UAg
+router-signature
+-----BEGIN SIGNATURE-----
+bO6qpy916OG/UXTXaVCkTRL4VFjtwGrlbDh4jBQdufzw5dv2ApmTAwI32QR0ljeW
+0MuqueabHQMOlRcIvT3v3Q8G11saJWtPU1IOmmNx18P19Ft6MeXG2NCSQnjOTjK/
+jsKXjsL728YSSZLxtqdL5BMIHbIaGvIJt2dW1DXBcZ4=
+-----END SIGNATURE-----

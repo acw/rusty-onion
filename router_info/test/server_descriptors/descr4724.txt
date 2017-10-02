@@ -1,0 +1,137 @@
+router Unnamed 46.29.248.238 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIEAdP7oWxSR9zMNDbzuJTB+mQQj9pxW+Pjm9hSvJXM64PTAQAgBAD7ptQn
+TRzVbW87B22BD9RrrwhpUSKlsP30DcsRZJ+dug6rRfaAPlTdEFDDvS6eRlv38WoF
+u5YncE3z+BqDE8G/kltamgwT4Ku7VEL3rT7VJ4k8eGw0kGVGUK3TzbG7xwg=
+-----END ED25519 CERT-----
+master-key-ed25519 +6bUJ00c1W1vOwdtgQ/Ua68IaVEipbD99A3LEWSfnbo
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:57:11
+fingerprint 7452 E7D1 9ACD 2C39 DE10 C020 7032 E6BC 05DB 78F2
+uptime 3107558
+bandwidth 4194304 10485760 5524967
+extra-info-digest 650B3E996CCBC80C5D508DEFFFF592DD62B46FDF dzLj0eVxACzJBJgYdodbfkexLe3loCmwTL4TRwxVyas
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKxfbeqqJR/nWKDEvMd+kqbJTn2hTN9aA3agEuKzjalFGkAlCnWj8PQe
+903be315hftLfI6vA2tQPHS1Jba5pbsCvPmqfNbWiJibDMddCVPljVX5As5fceIt
+jLQoel46h0a3OVUZsrnYzdNBk6uoW2JSzDG1yJQskBUKROLIt0G5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANjypoBXkJBAgou35puiXRcKagYH9PCCL+Z+kuyCmxJqVF7j7sSvoSm5
+oaJdJEAh8fOpduNibjsfubRQtclEQfXgxWAmse9QgQB7fa9hajWZMRWaW8gQ0CyR
+5FtTorZg3v7H/NFfN1mXtrn5u1ER0X/ddfsPvBbvHxJ79ckA7tvHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+H9Oy6oLomk7dwpwr6S4E/AWV09i3rVc3tamBdl+9oHo915YJpzHpZayT2F+kgcel
+rtOfvmCjS8nHh94V35zerB8a2jPenXlCXysSoKgvp2KR+Zn4DgNViK8FkfpXIQNq
+OmAsZYwPGHdiug5fiBNutRumC2E5CUkn0Ox5JuQNudg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAfum1CdNHNVtbzsHbYEP1GuvCGlRIqWw/fQNyxFkn526AHcWqBstH2DR
+4FWaOsii+pgVDxs1LGXAwFx6mYSVUi2geJb8eX0i4L45cjWOg58nkOpz/9Gut44g
+doviN07Fqwg=
+-----END ED25519 CERT-----
+family $231C00CD373C5DA8E5BA89883300506BC95881D9 $2A4EE908D1E4671A45F0C670CC309E73C98C98DC $81BC28735C58098591052099D5D068F0535AAE14 $874786AE2D973602041D4A1A145D2A8435C88B6F $8CCE3E38C6325E53F9378C1CA7F50366ED2A9BD7 $970CE6B17927F083ABF157E9BFA305FD39E062E5 $A6A9B7824C3ABC5351F52C16840546AA0552B706 $B528636D364776B2D94B1E140609A3B88531C0BB $B5C6F712D656C9390056AA9BA7020C87EEE9FA30 $DF75B23CD14450068D74E11D31848932945BF9FF
+hidden-service-dir
+contact Random Person <tor0102.10.swsnyder AT spamgourmet dot com>
+ntor-onion-key e153cocr68+VbSkrVKZ4GuQV1wMkpmJjX+LwabVOHDk=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 46.29.248.238:*
+accept *:20-21
+accept *:22
+accept *:23
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:465
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:587
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:994
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8082
+accept *:8087-8088
+accept *:8232-8233
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 g3aFdm5epoCpB/yRCWJOtKI1ASwcYQySEQD8xqza1iFTlZX7hj5nyaGSTNSKPRYhDhbFkXpj+Oo4HHUhT6nLAg
+router-signature
+-----BEGIN SIGNATURE-----
+SVcjg0DuZccXx6Qs5Uzkb8Qny3Nit2U2aZcmEWlDo3R8SgPAHlMF8AWrDQkj4Vk1
+xU440m9CAevLQ4xu7DT7clpwlpZbuCScQerL6YAThszRRNlBaEyprx/aPEakP7R2
+h7eO5un08yCUmTmUQqCYHF2EJFP4Y2aMttrvCPyoOyQ=
+-----END SIGNATURE-----

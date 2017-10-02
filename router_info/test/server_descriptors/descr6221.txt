@@ -1,0 +1,30 @@
+router TorOnPi 83.150.59.185 9001 0 9030
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:06:57
+fingerprint 3986 CC59 0872 A736 2C38 2272 C7EA 48A5 9C07 C7A4
+uptime 9749061
+bandwidth 102400 204800 121893
+extra-info-digest 54B54A7182666AA1578F4794A591E8FD22C08474
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOF5+jF2DSXfs0GGAZxujfGz3Ic69oId7DHA4a9zrylt7dkGlCJxZuEX
+y4H9q7d9TQjk1HhhHDi0F7X8a/I7FiE+3xgZg73Iak5761Q1FDwAycd61bpSVIpB
+CKgqRZobGwJI8URygi+SKJ2PnGeeZMKIuwTjMbJu1kjzoEYRQYqNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALkHE/JDqJid0PHfkxm65scTaaf5OAJAnVSfv44MIAsJtwEGICkijxsw
+SxnoftmUZ+B7w9+wwxtCu0TChMmjLrBlRUY5jLYH6bAFKwcRLnTR+LkTLDuoWbA/
+xbBcYyFJ3frKXgO6LD11T8/Mg9rUREXL43HGOum85fCjXL/6X/7VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact in(at)incal(dot)ch
+ntor-onion-key bjPpfTUxku2K8NFDIo+W5b0HU0D6H+LqhvMPJ8g9Y2o=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+U8hiZrCPOOET2y9qGPNPpczuw5bj17FPYOZNxLqL4HZMtAnyJ1fFp3tVsPxTpJWF
+8NvzyfAfYpnLAFhEHvD42cC51LoaoopqXHEp0J586L5WIEYy2Tds5Ff+y+BP97wE
+CcCUD8b6vm76SB9AqNxlIWYIVLlP4nAUqtDGeSkA/N8=
+-----END SIGNATURE-----

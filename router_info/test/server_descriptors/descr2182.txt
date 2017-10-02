@@ -1,0 +1,69 @@
+router ladyGodiva 5.189.188.111 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJbAe0aFBeh/Pt3t4lhjKbUzGcTQ01+AWepDVkcZXI15A2MAQAgBAD057aD
+sBE55peW20OZXdHxey6hrcO1NF+wvpQ+2t8ibM8oNsFcJe2liLgKxgr0y9M0XgD3
+AiRJAwUzWPx3JgSa2pKfcDiP5b7BFcgDkhkq2dCrL/NAFDJuhg5RvfNXVw0=
+-----END ED25519 CERT-----
+master-key-ed25519 9Oe2g7AROeaXlttDmV3R8Xsuoa3DtTRfsL6UPtrfImw
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 13:59:59
+fingerprint D255 40C0 C185 8583 6FDF 1DEE 4BBA 3FD8 9491 38A1
+uptime 1781871
+bandwidth 2097152 5242880 3150338
+extra-info-digest BD1AC3AFDDC0D353620EEE38CAE46497F08CEB7F qNBpQ0+355HDAqevH2YFZJoAmXQun/0ijWKi6IW19F4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANPJEzUfqay+IqfMAeHEuOsGrB5oLKg8uO0PRAQLY+vvUTUiBebCZGOZ
+Rd0fBpQodj7KJwML6MLe0l4KvFbW5VX6/9LhIxhlRwKO8Qc3B3ZJRaetQQXmxS+i
+elrnwJOiOFO+dpK4VaUtwrOC+Rpmr8+y48IW6/mqyekt056HhJDlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJiWZK/Xrstjy3ai4Wx0YjpIbw/P2v/2a7fde1c47610qjbjpiUtACxQ
+82RWirGGdKYl4bR3hasyH2vf1OLfRrKbwwGxNTNFLOU+4ki9uoSDKsSPMtfAnMb9
+ylh0GlIqaZ4hhs5BUpw5mxJqYW9uezHNbVl82OExJGAEg3GJ4yz7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+0w+rGyFhdpo9UShhh92hWokLRz1nI3pxpXVYu06jWM0ZQxR9mSEXX0eDCGUctD5d
+U9WfUHB0j3Nf6LKejQubF9tVqYfqGN5lUZQGQT/yr6F3iiSKt/WtAV3I5JmxmUGB
+cjA+2fsSQOSaAxQ6th0d+zh9zYn9qFbbJ0hkrQmUpKs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCGAfTntoOwETnml5bbQ5ld0fF7LqGtw7U0X7C+lD7a3yJsAIin3ytiq2A/
+5/wtTN4LjtfuJaRvyQu7J94S0rSIEALqr25Np9i06Va6BAjTKevd8afNH6C6VV1F
+Y4jEWkTqYAk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Random Person <nobody AT example dot com>
+ntor-onion-key 8sFZIOZvmv+iUZda342MdgZBSt20z3TRC9KpBEFAKRU=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 5.189.188.111:*
+reject *:22
+reject *:10000
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-sig-ed25519 CfGTfPHJkHP8OZJBb8Yy3mMrfyAV1iXTiqFsdVjwLr4ExYEQSnDZARYZZ9iPa/QZZxVuAC2/oLs5zwsINCJoBg
+router-signature
+-----BEGIN SIGNATURE-----
+A8FTpY6su5bU2akgzVajtGxdoftfdqkAa+N/rg92s1L8BxFzv5Ttp8HTULsz3hte
+rseWMM7QWVGdf1dzMd1mmU4OeAhggAh8t31ZBsDFTB976nVGoH2ccEcbh77/7VgK
+38nJ+L4kE0wzH49CTI/QEUnhAx/sodefwIYnLIchfVs=
+-----END SIGNATURE-----

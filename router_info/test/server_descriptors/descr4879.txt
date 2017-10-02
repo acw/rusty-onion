@@ -1,0 +1,61 @@
+router EmeraldOnion06 23.129.64.16 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmA3AfY9XHkx0Zn2fTSAeZtMiVmQG+LdUvS+4O+PMZJ85Kz1AQAgBABWxyN9
+ug9Me3FVGL88SbGwNet/LUtpw1LwXtAK2R122iLju3OKdkXJ34XPG9Jbv3b8zrHj
+bIU7RH5jkaWD/3m+g+SqnAY30T80hWKwnS84iINfboJHt8HqIzjL94uoXws=
+-----END ED25519 CERT-----
+master-key-ed25519 VscjfboPTHtxVRi/PEmxsDXrfy1LacNS8F7QCtkddto
+or-address [2620:18c:0:1600::1]:443
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:26:25
+fingerprint 6E30 DA64 EED9 2DD0 F1B0 9FE0 CE40 F0CC 9AB8 9DCB
+uptime 714545
+bandwidth 5242880 5242880 0
+extra-info-digest 91AC35C4E218B6E5EE4D66A5A40AD5538D1158EC oMqsvps0dzDtRAhR709+waf7bQzWW38Xa0qXjJl/mT0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPk15400BlysJ91hQeNQRszn5GJyhUBVl7Pwz7dsJwGWjVAsOFdAbPwV
+YFNQRG1hsCAPeE/ee0ob2wgdERHUXxQItOo8H9R6gjYq84MtmDLj1l1Kwu1fKVcV
+vCoLUb2gPapDvL9AKuNfO0lHaH3ZgHo0kj3gUW0Vw4lmnRobQMRJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANz/ck3g4C8JftK+JIndLwIwYuoS4FGe0xY/RfmuX8PK6ui3fV62iXFs
+PHdWlefZJWq8Q5K+jvb/SE0bsXBo2oziWy6XOc+E0lMZimIUewv0XPk1bYZWwJFA
+FspEhdm4IfdfaXtq4IiI/jfXYvA144yfQszeZqUxZ2A0g6iZtxnNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+GwZFhGyUEGQ+q0zfyrpqHcVWtfPwJ1pQtQFJqbd2VKP6NekyB1+1/gZ6kKM0vfRM
+Eb2sIjZpxhwk+NKB/lzSnMuUYFUoTsqnupIZdC1SGY0coYcSnsenN2cjIONZ63wn
+V3N1+1scJ+mtGE4f9VqvXY6v0TCwwWP7+9mLEXb1TMo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKKAVbHI326D0x7cVUYvzxJsbA1638tS2nDUvBe0ArZHXbaAFNoTrFQA3Ts
+tWfGDzyeZxrHOD/Gjo6mb0WBlTA+F0yIDEa4rO7Q5ip6WfRGunbjhkHhpVzQJB9Y
+8jpHEBDnBA8=
+-----END ED25519 CERT-----
+family $0A2F7C4FA0E91F068DBAE0D5391F7AA8E678F0D6 $0D5DE7B6E80F286F458A5DA0E452DC1083899338 $5EBE155C79CF0D77D365B34EB3DDB14022FBE3BE $97427984FFD6D1E28938D4E7BDC69677505F89E3 $CCA9C2EF6FEEC9B38E208F95A10B3AFCC46159F9
+hibernating 1
+hidden-service-dir
+contact abuse_at_emeraldonion_dot_org
+ntor-onion-key 2IfUx0Vy2N2kqgUoJEocWBgf1YR/O7WfhiMNT9jqiFo=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 23.129.64.16:*
+accept *:*
+ipv6-policy accept 1-65535
+router-sig-ed25519 gtaWOwgTmdKqJyowlqiGRVV5EMGWkKJsm9w9rIiXiqkSuqmJ5uKIdgYH/ANgpTU+Mxc/jb7nFiqspmKt3x+jBA
+router-signature
+-----BEGIN SIGNATURE-----
+eNBEKmDqwBPtFg/s1j45NVIvzBSDPquHq5mt94O/mhfEfWmYHqI0hJqDzDeEnV5Y
+SaM2Pe9cSjqb/iVdgQ6Hp439SMpMf67PFWOqtG6TbwjiqhyCjAW+I0cXSy4j0PSB
+PghdzeX0u0ir8TcPYDqH2YloM4cEoZb5c0uVhf6jV5U=
+-----END SIGNATURE-----

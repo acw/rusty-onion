@@ -1,0 +1,51 @@
+router Norden 31.201.243.214 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKGAcABVK+DIVVqXmXMnn9QhHGPEcmSvuPBCmwueLq6TUCOAQAgBADqpI/g
+qLASsKiVkICwBqYTjOSxDvCheJH7045btHql/4f1ucVevyN9EqP44D7XTVyhRXF/
+3zfXbXKlulIUem/vPCqHzljzGgH29KWgOW6PItYRDExXH1RH4raJX52djgs=
+-----END ED25519 CERT-----
+master-key-ed25519 6qSP4KiwErColZCAsAamE4zksQ7woXiR+9OOW7R6pf8
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:15:30
+fingerprint C214 EA93 CC57 13E3 28DF 366F A5D3 3A7B 38DA 7158
+uptime 129611
+bandwidth 262144 262144 306731
+extra-info-digest 09E6C79F06681F666D80C418E6AE0AF775D41C3E BeC2GOg1MHa6imvihA0i21klBZUKCxoxalyYBZQ8e4E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPNf/FL5NZ+09QUCycS18AiBmldFYDE75hb0IjuBgCYy8wMb6SQac5Z7
+kh20WcV6HLL7djwvhqj1HUJGw/cmkmL7P1IBhQ7mHCTh0scjutmo7/soiAcCY2cO
+ashQAQpYhePx11VUcS3NTnOdszx/Z8UvV+E8dsoO1xX3/2/yg/TjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALZZRIkVJfCm4ess1xtcZr+LFnpCePy+L6UCVCvAnYbs3KtJw824xaBu
+kzYUx9A65TUXfbKXWX4LMPMerLhqROBTcdOydrQ5D5arj9/mBPFfSu4K7x8x/86y
+RpJuOBhi2nv3yR4Tysgibmqd1MGVutmiWYuXD1PRvCrHEfbgPxklAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+0Ix7gfuk/6ojWsO0rfUOn+G++9u7T8Nc9egb+EGHGSHBekbVXJxjUnsvc5w6kHCx
+HXP0Iy3Qol/oB8MLdrk6pFak3JCPnEHTRvrHL73bYJknzcauHOKqT3nCc1ax0nCA
+uz9kYwbV1XQxBWeOmnl8zQ4BWTCDUWLGXNVIztZqS1o=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAeqkj+CosBKwqJWQgLAGphOM5LEO8KF4kfvTjlu0eqX/AAyviYaLu9ZZ
++bpahGTh60A2OITPmadIvKaD/ZFtg1aNzUJ88Ui0rok8jB3CZCqlarHyWTkqLlrQ
+9LDGNho2TwQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Norden <norden AT tuta dot io>
+ntor-onion-key IWq+HMefrR4GBgK8/ADmt6Kt1vDIy/OTumbZDrVC8TQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 /PZBQXUoimdY9rO2PD5h4MhK9NE+6JR72iFK0DJ4BjzpfeGXJA/WQ+krRVYXhyTHJs9A/C42hj60PiJWY8zjCg
+router-signature
+-----BEGIN SIGNATURE-----
+CtoyprdgqiRPTPMMfhd4YGdMXRE5JyxABJ+I7AhwB3X/iR9IvqYh8S6LGP2iDyc7
+CzuPFJ+wUIrRKrl4Te5HFz3Z34NRQ3ABXsBJIn8U+rFCiqhKzA60//V13ouC0KP/
+Yn2RWJ4UM04t0fIeVRC7SMumwnNAwGljK3OwbH3K5Zg=
+-----END SIGNATURE-----

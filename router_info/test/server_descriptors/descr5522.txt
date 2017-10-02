@@ -1,0 +1,51 @@
+router ulula 212.51.143.146 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCPAYB5LkxZkkuA6w6yREsR2vTUnNqUTq25BiY+GmQhNtalAQAgBAABNHkE
+DS+utOGFqUvLDnPiiYoLdHKqC37AqFZU3MR+2xxeviMZzUkAU6B95nitI2irMI8q
+Vk6QcymUar+NATfLZNNYtv4aYj21b+Ph3o9PRBEd0PQPNOtiyAOb07VAGww=
+-----END ED25519 CERT-----
+master-key-ed25519 ATR5BA0vrrThhalLyw5z4omKC3Ryqgt+wKhWVNzEfts
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:54:22
+fingerprint 54A4 03A1 B015 F6E5 A641 AD12 1530 966B D873 136E
+uptime 1320086
+bandwidth 2097152 6291456 2710280
+extra-info-digest 46491B80A59C3E25B4AEE8EFB4E4090956F62077 4WOphpm4Myt/Z5jXP3+hGjE5AH9lOYXikuSTDOxV/Kc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOLQ3irDH0+sfXXW/s7rC7uw43fFtRhaXh29hJRwJOOWrpie4PakMl59
+ZCSLwUXigoBK89cSJxcTN7sO/lPvbbaJA3M3qzfkkZMWEYhZJyWoAKRGFZkDvRHz
+gjWohaBOhW7RcQjGyjI+llEihk+wYQeI28CHxpW0OMeXbmQHYzU/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMomPz8fLPDXv8l0bc/ocPwSjeJ3WTSkD+6WR9vv0LZr31kdaP64ls2p
+WZAZXffxRlxJ6REVLwBeIyhLgx/lASJo89rkX1Md8YU6Wjubxd4RgfHYnLGuPmwX
+ZrvR4FFwAXT2kuRvbx0i+NihwJOMJooWsFVIl4Ny642QKiCqis2nAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+NXZ0o9mQRyQHhvCBLqi8WaajAKG1cuvG/3yycOd1sz4ICZ+d/7xLsmd4ktEMiIZ2
+9z5tcmnS/y9/ZsCNinGTR/a81Cd6MuSvOidWtIS+1XQcfd3j8tPeE4+tgJ5UFERs
+Hdzjna50CKl0W1/5oVkLaqJGA5CuxO6diCSHEtO/XN8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAQE0eQQNL6604YWpS8sOc+KJigt0cqoLfsCoVlTcxH7bANz6XdSUPOzk
+EMz9zWmUkCKFx+ILrH3/yVWBiLBPVM/T9g20PElMMLxhZPCaC/gytpJ+IVXAfxb3
+H5ZCbkcg+ww=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact David Flatz <david@upcs.at>
+ntor-onion-key /8bBjqaUbsSiRsYwSEI0ohJJwxyq1H51RnJamDCiwyc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 rS6jEDIgCsxg+RmTc3/LXPAkGb2DF3AFhb8YjrsMWCmvUJa53u5Oy3RPpVn2+Pby6NZ5FnBkxajquaVySVDMCg
+router-signature
+-----BEGIN SIGNATURE-----
+XZ/Q4S17/JSQg8sCXFQcaZrxRDgATnmpSZf+NA0qy6ZNDTDDhmz72yTHHNuECuMK
+kdjCzvHsTcqFcJRIVIXT/xu4gk7RXDFAoPeJCHnoPHK7tkYB0d5DBzqnvgWxYiab
+HUrZdHHrdqo38EfwZmHSnaygbeRDRng6PfOQlXy+Hk8=
+-----END SIGNATURE-----

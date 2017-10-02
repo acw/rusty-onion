@@ -1,0 +1,39 @@
+router Peeter 78.84.246.238 9001 0 80
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 18:56:14
+fingerprint 7638 2B96 5038 94CA 1152 1330 F4DD 7AA6 A95A 4991
+uptime 1333002
+bandwidth 1073741824 1073741824 2504464
+extra-info-digest 35787F1001B6484BB2EAEF2CA247DAB840DFE209
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ61gR+MMGLBir/5etR8xbKR/aJpUh9b+aGL7A7O9EHpn4bU5h1m/Bu+
+Sn3YRoYGeNnk6UrJhTjdcm24rmQpHRyXDk3DotQg0ZBKNAFXfzXLfrvhGZK4IGqz
+0K9xKjzmZ6i8MIEsfQUh1ZIvLHw5mvGYlqlmVulBSA2EEVHAeh7LAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALel2vlLqk0IqRTD843kwxwohf+PJbc3NNyJSauRxnVeH1rLYkvXOWep
+vpNAIUyGG7J8WJjSOx5piRAvwfT7HXhIHLXO6lhwmZCer/zSWuWr15wv9io+0Ggg
+SewhpDU2p1Ch4fz6yjUArI8vMfBLDioOdU+48GvNxjvnBdGZgi6ZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact avene_lv@protonmail.com
+ntor-onion-key sRae8RC6mLQgak4zdsNZzmbJXIOYzmgrXO9BIOqSiSY=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 78.84.246.238:*
+accept *:53
+accept *:1194
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+MWwu2KlPhN662p3s+QAPIY+v2jAlCt5PRT3JXxGLpY7GvoDb5TkFLmOGPUDOSPiV
+3m0iNh5XKuSsiZR0s0yW+NU2Jb805I/DqihNgIseDi4Gr88dYP6she3xSAsxG6+N
+H38aART/1FP3ue4yUGlFR+bjLJTwpln9EDdk0gg1Ab0=
+-----END SIGNATURE-----

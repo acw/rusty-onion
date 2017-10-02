@@ -1,0 +1,51 @@
+router marek 91.124.41.251 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFwAWgJ2FwK+gEaPXxmU7w0OBiur8q4DVVLPI+bwHGEHw2FAQAgBAA1VzuQ
+PCjAYvEB6tYURsVcZFMWNI4xnajHyhTAzWlAimXvkSW4h0vhu5nNXJjnsm5Riuzr
+ofkvgcq91yq+vtJSRCor3bkbvD6c3TCpmRGkGbO7JrbPEWVcAAXo4qhHbwU=
+-----END ED25519 CERT-----
+master-key-ed25519 NVc7kDwowGLxAerWFEbFXGRTFjSOMZ2ox8oUwM1pQIo
+platform Tor 0.2.9.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:21:22
+fingerprint E4D6 8898 C840 4EB2 8A8F 67B1 3C04 8C82 4F96 9738
+uptime 65523
+bandwidth 102400 204800 59528
+extra-info-digest 45B4521D87059A478957FE9801E7DE3D643AB1F9 Gb82wjeq5muhUbG90Ha5nCx/vHM5cYrcA2H5QDU3HOY
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANDqTtOzaNX9QquT2n5yGe6D30r7LpllTlq+TTAm3i2xJ7DPrF1bE3B0
+/8SHGJayETo8THJ04QiTcUHa4qiH+JBuAPfmH5Y37sJXWL54rX77edfis/goKEho
+rxkmd35gZGdCi9kclkGuc5+hbRDGKazOnYHGJ0Qtex5kkkrh3mU9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALwCfjrEKXtgIZQ0NKRIAmPbhdoDX6R6XQugCMMmctkuqRukIIrH2F4C
+y8HC9AbXe4Pe7S4NUyOgUbgmjWd3x1hdUU/yJxjcSGmC5ElkMLG/JZZvOZqobTV3
+9W19nu1m/0qyONbSr0kkANez4JVj0zkG43pgWONBomHunpj6PEUBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+pMbkRncwg4g3Tf9l2yoZ1Gndm7WSUd6q7DAU2ORWVBjYj0eRy9xNcJy2DuPsv/k/
+IckDY2WgPW1OLAW6oxO/qSLQsQx6E+xwKP1tfzcj10FlY5YHVTLnFXRPXwPBQfYe
+hXjaTpdAGlt2GSELkEJF5TEHxY0R3dsWVcMlQz70WqI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRATVXO5A8KMBi8QHq1hRGxVxkUxY0jjGdqMfKFMDNaUCKAMdhBnIx+RVO
+g4p4v97sB5qNf1u6O4g5zGQKPi/mC96G18AqWLYvxGc2yRY8hNgOmJ7z6/3mFecM
+5WqlUaY08AY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Markiyan Kushnir <markiyan.kushnir AT gmail dot com>
+ntor-onion-key TzJZzVKw5wPV1R3lrGKALn0QsAFTOQRuem1/Rp3lcX8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 C95w5bO5/9yH9wzqdBI7AtyESxqCe5YcqaMriLWMsHwQujYTuxFS6jWc8Dy9/gxpuvFMuaydgIR/Js9h0a+WBw
+router-signature
+-----BEGIN SIGNATURE-----
+jRZGfzwcoug4rDjuqUn+SPqGcTwaL17p+b0ZpOOWf/l+etLFnmz9JaxfkHBP9Nr9
+P7No4+SA8wEOPgl3b0+ArH1WOCAyViZSBJtVcA31V15/B0NOtOdX3FjYO3XaT9+K
+Op9eqljABi1gIPs1ldBsOtcp4VcOf7lB5o8eC4Th5u8=
+-----END SIGNATURE-----

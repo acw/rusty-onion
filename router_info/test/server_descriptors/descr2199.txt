@@ -1,0 +1,38 @@
+router torrelaybunchacunce 77.68.42.132 9001 0 9030
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:12:07
+fingerprint D1D8 4400 9D01 EDFD CA39 9EC7 DAE6 C087 2F2F 7A09
+uptime 3470116
+bandwidth 6656000 7168000 6718907
+extra-info-digest 56941BCFEF01682296DB52EB2FDD6C54897730DD
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOGk20a764kfxRfrvpPzzaMoW1lsVSshQi3VhEGjivPt6HWfxUtIvPqw
+NNnYI/ElyGN+3trfQHu11Aaxu3rZlQgThmp+SdbqglT/+3WzD674kd1+eWZL4itc
+xSy3DAF/CQPN5APHdFP1/gHuNJ/AjKXjLLuqt1t5xC58Euo0ZIxJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMnQM4HdvhFBog0DDMS5xofVn9wI+ZwakW1xPmTzwwFE2Q8omJAycWOZ
+sbGVAvq16hFosCaelhlIvNz66HdL2/QIPprqFO/iOSbzQ16AqLIaxjtVuhx7s2/+
++N6sxIh6sksLNRcQF/fqZxgfXd5JefH1lNZYyLvv43BG4ghjLkwBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Boli 1GhfJRMcjb4jkk56EY3vAYo6RTD8V6c8e
+ntor-onion-key vdbqTJiTtgXJx2P3I07271GhHxBFxg+yOxF9jP0x2y8=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 77.68.42.132:*
+accept *:110
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+S2ypEo1/Rme/CED1Uj7fJfuFjz9BMOfyNZeI1YAk8uJeITE/05ou1egYNzQmrvpe
+Xr769akPqWb6D8acG4X85U1noQ8g+j4htd8eZ93i69oot41qdScdOaouMN8e8E9+
+M1cZVcPXL80B7jdHd3+VAEerF6LQ2NrBuRTGuh7+09M=
+-----END SIGNATURE-----

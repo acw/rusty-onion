@@ -1,0 +1,52 @@
+router gapcoinclub1 172.104.85.43 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBKAewweFsR36Giy1CcitFeXnr1gTLsstIK3iXyM1lAbI+RAQAgBAC7wViA
+Hh0ksj00hXnS6DTnMTzClEcYo/ZC7YQZEj/fw5yp8CM/oqe6vKQsrJuW33r7udUR
+Rbl4OdKy9TeZN9H4i+lXV1cMHxJ7GGxEaSCeFkHVpxg3nMsMxAmzdO3ngws=
+-----END ED25519 CERT-----
+master-key-ed25519 u8FYgB4dJLI9NIV50ug05zE8wpRHGKP2Qu2EGRI/38M
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:45:53
+fingerprint 7584 319D 0E19 DAE8 5621 223E 2A22 F921 23EA B815
+uptime 1271236
+bandwidth 1048576 1310720 1051180
+extra-info-digest C64D2464D9D173DB8F521895E096E088599DE2F4 ZF8Ec+or1vZe819D2JoRLUbtFXvEAX+v00BzfUWFeq8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKgjFoa9odTYgfdWcKWL3FQqO3VfM2SfnxN56eJvJomCg8y6AVSKd8lY
+Yqp7eqmQqSJjpHLKrJW8CkUwT30TOQtkJ60YHPn9034NPNPuQ+pr96VX3HfI1h33
+RuIJNACwE6Ic9YVVhpnWC6YqrbLkvc/waJ20XclwMQRKYx6rv4lnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALwBipLQ2S4Y4NFYrdSqHajS5noqDH+uzr5MN/tSjl2SF2jLM5+J+wJL
+hoL3DzXhTBlz3Bn3EL0q1kYGZ11pYiTLSusvi8+TYbdLkxawvJ/HJBysHoQzksU7
+LsU0AEKvoE3sBhaN01/iFUN5TNZVi+4kl7zGPLsaqGZ9DsbchxcvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+h5qSdNaMdEmWV/1u/mPfOfqo8EWosj3/TbpTWaout2M0406y7zoJP4uiBMOTsShx
+rIuEecA4B1OuB4qA28S65OZFyptqIntMbwSaVZD6tgOTKLJdyZoc896zvRxIL5Ju
+UMtwNpxqnk2eZaa7cCI6TjHYdJxl/mCwwBm+SdcfGFk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAbvBWIAeHSSyPTSFedLoNOcxPMKURxij9kLthBkSP9/DAD9HiSmJISy3
+5gdIQdgoxpYb0PM4wvHhTzxDiiq3/16wh+lLVe9+7kKgiPdX++u6hV/1Q+eUJXW+
+GzqRqoS4Pg4=
+-----END ED25519 CERT-----
+family $ECB19658A16F608C8ED7B3AE44720ADE76AF063B
+hidden-service-dir
+contact gapcoin.club - addnode=gapxnu2mgche3y7v.onion addnode=gapjp4zaoxeefepi.onion addnode=gapr7miih6qnvpa5.onion addnode=gap2nsvhispcyuw3.onion
+ntor-onion-key ylyXU+6mcPmJ/V2cTWzffOP6BVjvHawbf9FnKf7KMzo=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 qRePp3iOgsU5RUZ0SbmzUzOqLbS3wY/76yK8sRHZ1cDK7nINxWjmTfv7WtnJ/nQthyDb6aK4LDInLRIyYBjnBg
+router-signature
+-----BEGIN SIGNATURE-----
+VEBlw4iVLqLgCyMo1wS3TmT0zORazqucj41Lx2HXtfF8QrrHiuKaSG2dHONSrfZ+
+O+s9aZmyqxnsC7B41vdO0qXIPQVimpBi95N2EdFhwkaDt/+eOUG6mBJtZkVVQpZ8
+2qjNKxmxkvBRA8wPmt0I00xuOfrZtOO3uAeZGEyUPHo=
+-----END SIGNATURE-----

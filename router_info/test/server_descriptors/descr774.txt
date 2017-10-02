@@ -1,0 +1,120 @@
+router marsbarsarethars 87.118.122.50 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHUAe0BqrnEjwoQTxWRQewiVDOxzUmXzrEAf6gyXg9X6YxLAQAgBAC/jqKv
+IhcDT7suYImldJr+BldZLhf/f0/nUwe0VSZhhklUzbGcqPvnBmmDuQ+E52ADCP9Z
+5TVptmqhj5e8IMZe4s6Sm29cRXSmN0nBe1TJ6VcnoUM+7IdhDRGr2UyF1g0=
+-----END ED25519 CERT-----
+master-key-ed25519 v46iryIXA0+7LmCJpXSa/gZXWS4X/39P51MHtFUmYYY
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:40:54
+fingerprint 4B08 4AD6 A0BA 7076 1A33 3829 F520 42BB 6EA0 09AF
+uptime 259381
+bandwidth 1073741824 1073741824 6697305
+extra-info-digest 9990A941F72E79F4B71FFEB919007AF945A204B1 VBWXg01g1gQGgrfV/zZJJ+Fm7DxKS43ZzJOIKLgweJ4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL2zKk6n68OfqXHD2lwfqB1nQJT4StcymQi0qRlqTGUCVOQF7/PuYOpF
+aAOXLMyKXtkSrShK9oEcjoXuS9lw6ZH2Z6iFNaNxbnA/emi0R27GqzqBsD30aITy
+ul+bVjUgx3dXGGQ09+Yy1T+Vrc7X3C/SgnljUY9xUYMyH+DRZZYvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALDBPlQclQZReVG5N6vURJ+feHpEfmtiIgAd9/JPmmeJMm69ewC2Xhw2
+o+szD2/jMC1kqRppyBeMRGRL/siYqxQDYAZS+pzc6wQlRoJLEowgfUAS/G3jzmd/
+AP2nSFh+eYYW9HNWDrOZpDyVEbC4aAr9tB73ZzJI2t/MNTqlF4ERAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+d++MJNN9hPj6ZDo7dRJSCAWIGroRNKKJwY4JPeZEYM3WTKcRzbYcBIjwKUFM3Gdx
+emYZPe+/kbFC4GTOjiy4i65zqCBhpi9dBk1Mp7u2wmzEkMy0E7rlnyigMCmR0sIV
+f5e9z+U6hvKTp0oEhugffx/u4SmVXL+d2lxtKNRZByw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAb+Ooq8iFwNPuy5giaV0mv4GV1kuF/9/T+dTB7RVJmGGAF/ji7hb0/2b
+L5h0pXy8aT1jPBq5u2UiaFecKNOKcyxvEVyUP7v0Hn2Y3KGHjx3gv/7nHomN+Wbp
++ehu2v3qLwo=
+-----END ED25519 CERT-----
+family $09FA8B4F665AD65D2C2A49870F1AA3BA8811E449 $335746A6DEB684FABDF3FC5835C3898F05C5A5A8 $68CECB9ECDF5EFE8FF23C25B926D756FB346FD92 $7272A578FD463764A95862B871878CA045F177A3 $91516595837183D9ECD1318D00723A8676F4731C $95880E08A375C62D570B885554CCCFBCCB362660 $98D10461F6EDF13780D20D7E402E67F40C5ADBD9 $C6DC18B9700A2B8A11071A0050BB21BF751C379D $D53793315E290D250E9AFC431A4C9068A1E53C98 $DA3C123BD1A51743D4CF813C620504982B399C4F
+hidden-service-dir
+contact shallot protonmail com
+ntor-onion-key YJ+Q9bb5D3SrJ05ojGD5QLBTf+wLWWgUCpCR/rZu2H8=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 87.118.122.50:*
+accept *:20-21
+accept *:22
+accept *:43
+accept *:53
+accept *:79
+accept *:80-81
+accept *:88
+accept *:110
+accept *:143
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:8008
+accept *:8074
+accept *:8082
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+accept *:50002
+accept *:64738
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ROj9RMSova4Bz2yatij2nWxBXR4Pc5FJiVL/BdhJ/DbB/eF5YCi20tbDxTuQgkS2q0SFlV4iMT/PGxHqlZ/2Cw
+router-signature
+-----BEGIN SIGNATURE-----
+Doa7gC0hVObocULDhqoC1R3hxSaixP/4yZJA/noxSE6Edjj5rKqys8EO/nyk74z8
+faL9z7l+eYSPWhOxvd7aIGUjN/CyrtHmTGtz173cr9Lu9shTFM2RfoBr05Va2wlp
+vZVJ9R0pURz6/8SAJyMHuzWNTSh89x52RfX4tL6RQUM=
+-----END SIGNATURE-----

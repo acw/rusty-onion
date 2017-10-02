@@ -1,0 +1,50 @@
+router orion 62.210.76.88 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmA5AX23CjSpZN6WGBglygvuSwbbsuaxKMauXNz7sSJbiefUAQAgBACNIV0l
+b5UVafCbF5kCnJIL1d4ymkx762IcXAX7BmdFtCHhRLO5KDXqxwDzsbr4IMP+/aec
+kY5aAp/06/x771N6NHAje960JNtYGnqE33SHcPlphGFQn3ub0ntE3eA4EgI=
+-----END ED25519 CERT-----
+master-key-ed25519 jSFdJW+VFWnwmxeZApySC9XeMppMe+tiHFwF+wZnRbQ
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:03:24
+fingerprint 3DE7 762D D616 5FD7 0C74 BD02 A658 9C8C 0C1B 020A
+uptime 10980671
+bandwidth 1073741824 1073741824 11158658
+extra-info-digest 6C369247D5A4F86655CEB382720922EE7D2618D0 jCijXMit8bGDT5URvKwgi7h6kOhH25Ih7cZPwTXqDq0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANrnskB35Lga3EwEO/iSU/uBnnnv7i8UpaVClzJkg9Tc08lTO/+t9Gmb
+7q9F5UPFZQEYABySlyAzRDAfiHZNFMfmjhB/zBeAx62GOcj0yDRSgXCg4o8IJuBa
+bOxTIqu9c4xYaWk2Y+pguiZx6rPk58GUpxq5Kykc5GsUnQI8PW6xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALuCb4vIzfmRZjzB8FbfF6+xC/8wVEwJMPWcLbomDJ82m0a4grzSyljy
+16qBsDpIQmTrvEjaqm+Tk3c5t1Ny6nhl28YJWs8550XS8RFcLmo0LYHLKA6I0pix
+kg83rGvRcB3nAPEQ4guMyRdYrJMzbdLrXk/ZH0qnHUf+kTX4k+kxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+lQqLS8riwoR7Yb34X+lfyngd98bbCIQuZADsPe5DUG8TNK78uV/68h6dT3Xi6T28
+WPWThWursvyWke1bHGhtyc0pZZ+E4qVUMIfUrJcnpatP8V/VUJweFUSNuv17H7BJ
+Mh9WufaFHG7KNeMeuIu5LenDb+ZRP2PK1by1n+vYDPY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAY0hXSVvlRVp8JsXmQKckgvV3jKaTHvrYhxcBfsGZ0W0AFwR+q0dWRHT
+JFGQ12K+ebmk44Vavd1KKCrTI67KuCkefI9P8UZ597p/QVUYRnapuuPRoSOwqWDi
+ybtcqzvWFQA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact orion <orionmtp AT gmail DOT com>
+ntor-onion-key v4Xf+VXbllInmGqlyMP+7R3oCHEKS6VAlDgNsB6UOXM=
+reject *:*
+router-sig-ed25519 CNbRb1TL+YfHI/XrfPuGWGMu+4OivA/eOhwjYJvFI+53klBv+5cNTUBjqN3SQhV0ew4tcIMfB7YVwNgg4zqFAg
+router-signature
+-----BEGIN SIGNATURE-----
+JXmCrP0YrEQeRUVJZFIqwQAxehYL7xHRPHl/6ZTvPUn/HY5mM/85gp3HTunXD+4g
+kmRV+Rkcn7BcWhPcC3l6UM5T1iuoFGuqla+HXHwkbEZn+11PVIwkBztc7mPoDmkH
+D0gKWh5qJ85S73KvUNEH1NHCxTCiemmZBxBuNeSsseI=
+-----END SIGNATURE-----

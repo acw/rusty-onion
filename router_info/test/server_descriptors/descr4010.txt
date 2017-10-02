@@ -1,0 +1,53 @@
+router ZcashTor0au 45.32.246.15 20 0 21
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEjASK3YqCN/JKi9MPFe21x07BjJp/xZOwgdTeljdGImmMZAQAgBADH/Ga6
+cO+DNh280bxGMOzdeTN4TRozevL1m1mjbQnuWtqLhEGpLdMupHj1fDs4KYeRZO6j
+eWPbAJy6chXRTIo3UWxwNSrSECkj+QIoYF4voVCS+YahtiUhw04iY+k46w4=
+-----END ED25519 CERT-----
+master-key-ed25519 x/xmunDvgzYdvNG8RjDs3XkzeE0aM3ry9ZtZo20J7lo
+or-address [2001:19f0:5801:3f8:5400:ff:fe5d:2199]:20
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:01:41
+fingerprint 8EFD 5DEA 6E91 D72F 5E95 DFA8 DF0B 8A7B 4D27 F76B
+uptime 1206735
+bandwidth 2621440 3276800 429474
+extra-info-digest 432F6C063408662ED3688A6EE9EAB07890A07C8B gnpq+OogztKvo65/fjiW/tVpfwiPZQPuF/KtO9E7eVw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL53fE9NmRAqydN6TkGuMW9Hrd1gT3ypz7QyiscDMyHaHvkc8ykGtxeT
+9D5rzXCTix0G5tvHHo2DoyclBh9pbDqj5+90LyZUP7rpVnoK4kX9UnF/HOIvZ7nH
+0UxQJh25zW0KZC2YH9N3myi6WbnEeJBHcALegk6xgvT1au/5OBsZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALyeLx29QPISum9il+FrztFKT/JJ4eUfpnzVRmCemzDG1UFvIuEQBuNk
+ZClyXayIaXMp+0eAKDK9u/YbgrRSgBILudHA4c21m2h4Zm9xre5ZSK6AGYvrTcAN
+7dVle59+u45ccrhxP/DYqW0fFK4IF7l3H+x9O8tdqEkq1GedWMbjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+p1m/8VTj/yy4Ee535JZoX72e0zM4nkpmoi3MGJepHvBs8upJwFRh5rCfx+4gFnyK
+vBtxhzVyPE0tRvH29fDpVncddmGPpjf4GZa0yFYOizmkpaW70eZEBDCSQfkje/IS
+FZVrFnRUhv/AGaZalTRcw2TxuW1RIAZbGuBO094g5Qs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAcf8Zrpw74M2HbzRvEYw7N15M3hNGjN68vWbWaNtCe5aALLW2VF7AUdx
+cXRqpWT3Mo8dRbQOQoL0bail6TOqAVBUgl0LieROvvRWeQ8DGZ0x6wRN2dGHjkiJ
+puraHKT7Xg0=
+-----END ED25519 CERT-----
+family $381DB186136F95370B0A7C7575E40B5DE8C18BDB $53825DFB32426F4D02E2FAA43AF713DC185299F4 $58C82E39EF3423EFAE45401928C1C17A1F306E0E $9460CA3FE3E41451C984E031CB55ED1FBEEA4004
+hidden-service-dir
+contact forum.z.cash - xyZcash - t1bmX8aWjLCUFprFnj1uptNzJazhQE615k2 - addnode=zcashz7ed3nvbdxm.onion - addnode=zcash5adwfpxfuvf.onion - Donate CPU : zcashtorservers.zapto.org
+ntor-onion-key HlEikjNEVkC/qrW986waEGoxV3qE47meopmX4jSX9RA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 kDRyOjjPr00m+23eVOQpO/DbDtpuPSumt7GZj4PlMsac65yKCRjumoqbmORcroTpFKVbxIPDPBLVKRPek49BCA
+router-signature
+-----BEGIN SIGNATURE-----
+D0IF1T8FA2SwNxq7a21mW5zYDwAfVy+bEurhbcXo9Xuu+V9f8sjR9EvPVsyKm4UC
+E7mYfUGjQafzey02GG1cbJI+92IgCAaeWamjpr4C3MagzSx7SWmvuQW5pCQylkHc
+dnr9Se/6ZOS20cdZ+qtcxuUGUMGBZZowvOvCFDgP4jk=
+-----END SIGNATURE-----

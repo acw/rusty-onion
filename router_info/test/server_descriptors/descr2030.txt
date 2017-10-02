@@ -1,0 +1,64 @@
+router deepSpace9 51.15.34.214 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmH6AXdVxnZbKbGwAS9N2GlFW64/XyumUJT8umIGoLwcm8WxAQAgBAB0E8Fi
+sd5GN3TPvtLsrmzBa0c4XckFpBjBwxAuWUQWUiev4IyRgGIMfbUUQUdQhxyD3pCV
+LhD1WmJW/tgJlf3pj/39DgJ+noRDyNhouNPU0QrVw/8PnwDe/HNxTtDT+Qg=
+-----END ED25519 CERT-----
+master-key-ed25519 dBPBYrHeRjd0z77S7K5swWtHOF3JBaQYwcMQLllEFlI
+or-address [2001:bc8:4700:2500::459]:443
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:41:36
+fingerprint D7F9 91DF 00F7 14F0 A61E EA74 EC45 C04A 155D DF60
+uptime 2652771
+bandwidth 1310720 1966080 1597102
+extra-info-digest 15B270E52E74769490D8A35BA0CFD2F27287C306 fSV2kcdg82nd/AywEYr/Fw0NSZkHl9+yx1wN9PBDemk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALxqFwTAVfaIBbeiWKZuQj1i0mJdNB91ymioXbnarAkLjaDpGrRE6rvY
+6orfQD719HVWFaQMxacBchENqUTFpAoH1s3CQt1VjvqPwAYs5iu7jljf0xgsdolZ
+rRAfUG+enRyGF+1jxfa0Tm4OkaO87nm2bM2P2H+hxEX3Soa/lh/TAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM1GIjeYMcag1pJisDk240N2a0o39L4rBS7wMCL4/R/SqZA9sTPKK7MH
+4YwPYc9jbDW0g2rAzrK5aBP6ZZu+mriZF1LQbbf1n19BZpxtyRpCoT8mbbhGSCUE
+c37nscJR8XaEHYgezCb+T+iFWA+vIzNuQS+4oic/JOTvZAIKxzIVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+h2tNHhUIXxrH//REMGAlifk6+w0Ogy4hOtTrKRMSt1nWwDvNoFods5vAPIbS6aQt
+DtJsASvFPSUPkCGgk0OBRuvZcMoHsjW6+hJ31zMv7iLbht7DXBbLyY08bg2oD6Kg
+oQEIzFTjB1mkzW4So35ZLXRJqlZKS5aCzVE0Pxi1dKE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFAXQTwWKx3kY3dM++0uyubMFrRzhdyQWkGMHDEC5ZRBZSAEAUeGMk+aRO
+I3AyvnE1ugWuwUQ/h20WI1yrCzkkdJRg5+RlNOV6zz0DXPdqp87+tjREBiJG+x5f
+OA1ZUejj/gM=
+-----END ED25519 CERT-----
+family $148C6201A1D8A9D4898B74723443C097E5738BA8
+hidden-service-dir
+contact passwordiloveyouprincess <passwordiloveyouprincess AT protonmail DOT ch>
+ntor-onion-key jwh6heZVnF7fSKuAzKfpgzG+k8e9FVAN8HBNk4NWMSw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 51.15.34.214:*
+accept *:53
+accept *:80
+accept *:443
+reject *:*
+ipv6-policy accept 53,80,443
+tunnelled-dir-server
+router-sig-ed25519 0IPFmtVU8GFGmMY+d4Xr/KH0/G6UKF/rfLUNWe86FjoCys7DBbE2kkG4UWSvuGnMwWrWC3px7NRz9/p7V0KxCw
+router-signature
+-----BEGIN SIGNATURE-----
+vuHoz8D02bgSPwhAfm8RxWgACMpFGRSALr4q3YWNc6MR5QQ7l5As0hJ+H16c3DZs
+6BT58H6248bclZ0RQS6DZCgqu/jm+soWFMUEs0YJTNsYgl/au60RprFc9O21U5XQ
+c9+cxIo3629sDwGi7V+0UaTxe55tZ7z4C3Bf1wiuUhk=
+-----END SIGNATURE-----

@@ -1,0 +1,46 @@
+router jonnie 93.186.13.12 9001 0 9030
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:50:11
+fingerprint B31E 3165 86E6 A11E DF7C 45F1 7DC5 BB42 3BFC 6E77
+uptime 2008913
+bandwidth 102400 204800 137233
+extra-info-digest 45390598C4F2DCA317D1C095CFA4A62A1997539F
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKuo2ieBv3THGY3jmpg08QPz/YhsfOPB2lVb9/8mLOPwaX4d07AL5CaT
+aL/Dg8kd8wYAuxwsukXG1eNbEoCds+6KSGIDqulgt9UktRtFzhWuE2ZUK3XlDnNE
+kub7vF6Wq/B2q9YVOLAEvhH6HTSeNvqg6wzS1HcrgmFowom6pGBxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM+Nutlv4vSlrxhmGGtQlviEInne9iJg9xOUQRc6WowVkAcqJesBrkJ2
+Rgp3i7IgZZD+8n3D9nI8a55FEJxLAArEqXJHsuVJlmYRdsq9eYjG06uTCixIhLSC
+m9BdSTHBHWsx9KwAoX0lrmg2UTTEbV/G9/sjAKvUPoM3+td7RuP9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key 4XYAK5AE93h3aTfn/Vn8dGAnmJiltzrK5kQrGVz8IHg=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 93.186.13.12:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+B/nlT7Z2nPv2jUTVfo1oofBaAHmKRVjZ3UMNSV1ItyQdulNRzGc1DlEFnCtBVyFS
+TaVEnGP+dIANkY1EJAtPSSrdSvo/rOV1IuHRxYMhrHV7AY098pyKW4VUhVoKGMwO
+I7oxyZ/ZIojjnUcodRhYPIM7MyrBMSatOliI6ETOVXk=
+-----END SIGNATURE-----

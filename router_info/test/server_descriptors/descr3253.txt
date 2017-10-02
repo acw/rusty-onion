@@ -1,0 +1,51 @@
+router kekerelay 88.193.131.51 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF7ATjMPb7BJWqOdJZl9duq4qCm25yllsCA3P8wH21BsqkUAQAgBAB9MMTU
+zq80XzXOgTPVx30lt/Gt0REI3G5Azjyi+GZ4xWMo12ZiQSAWXYWtKxzif4uXXQCc
+OZLQb9busFXQINCtLEzgsdTJu78+4gSS2/vOnn02mFsZ4l16Zb9IyQQeVwE=
+-----END ED25519 CERT-----
+master-key-ed25519 fTDE1M6vNF81zoEz1cd9JbfxrdERCNxuQM48ovhmeMU
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:24:28
+fingerprint AB0C 1615 0FFF 9C46 BAC6 A7F8 A9B0 721B 3F0D E0A4
+uptime 6082500
+bandwidth 4194304 5242880 2807069
+extra-info-digest 8F4CF7DADC7150A9B3D0E95D430BD1C9506FC0B4 7AVvEU5XqUsMr+qoHS4yXsWtpnEpYPZD3/wfkMlCOR0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM6OzPkmYlmEL3daTeEMc+Yg5Sj5lSA8ZyFqDN28WnbT2SOAfpV5n00Z
+Fsm9WD6p+Y39eiCldng1k3NKUSeKswQviQ+QU4cw+ekvXLRX9rHkgcQLHa3Ukruf
+yWI3MTPBJJKgr6lGWOvbhuljzn1Aoi0Q5sRkzDsRW+dMqt7KCOY7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANIOflyZOqB768cwBSUMpOeD8x2yEStNetLPdBJee5slXKYk2GVpDEBH
+SpPgdGM5/+dTJ4PRFL2tiXikF9TlZWVmWEHW3UQ7tAC2gQx7dmiyRiK2nP7TNplf
+FBvyzj1ndEh6+lIpSGsBRL9PO6WX7+WlqAs5XQ15cpSlzRcwq5M1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+x+3yndZYzdUysTSnQwsqSofIFjcg4g0lzNTzldcw6FeFAQeTXYD97K5KbzQfAOso
+2Q5WJvDQK23OQuASZOWoboWJ6vdKtBvTKL2wMgK1BGAcz70mAcRVY9Hjq7cBTfSJ
+BHCw0DUbyb3YOeAVCBsTQSU0eTz2BbHIYEcZ5llu9kI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDAX0wxNTOrzRfNc6BM9XHfSW38a3REQjcbkDOPKL4ZnjFAMS2NtddpCJS
+PGKdwSKxn8GH4Yh75gPaCx6yU6H8wZmmdzhxjx2X8j3uxJ1khxz+i/cK82djyIj0
+DxNW49AzQAw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Keke <tor AT keketeam piste fi>
+ntor-onion-key aS7vTQSVQYpD4euJ6Ny7KccLk99/hMlD7LUuJkjqmSI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 rlAkPp02OexL9V5tBZM6WuLdvK3bXWXCPLb+R1eCVmOfpnCPDGQIsChyXAfMGL32Zc3ZkGQNBa2ncuLmMrgVDA
+router-signature
+-----BEGIN SIGNATURE-----
+G6ul1e5tvst7JIEgpy7GXKuIs+l3/bGD7n/d8ri/2B0vjSb+5iKhjUUcFznBFPD6
+jj2ztVjV90XF/PYxn2kaoYPcgXIqNT8/0UZ6pH/1UwBe6PENr1yWqUEV7zvCcDfC
+DcoAfQ5pD+Za9J8y6qPIgy8btnFcsAxhURmMHDqQBJo=
+-----END SIGNATURE-----

@@ -1,0 +1,125 @@
+router modio 193.15.16.4 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEfAV6WCpvRzhDPdvKk9gJOnKMbWVibNAMONUWyrCTgtg38AQAgBAAR5JHx
+VQcntx1bstmiQRSzghxGaIrohfXYkHWLhzqCJd98Xg5U1kr0yZHOydB4bGVmKqf4
+2BvlZy+QAZ+mRrWAWku9szmoZi7d0FWMiAISnraeeakqYnwsAJRveR4fZQM=
+-----END ED25519 CERT-----
+master-key-ed25519 EeSR8VUHJ7cdW7LZokEUs4IcRmiK6IX12JB1i4c6giU
+or-address [2a00:801:4f:2105:21a:4aff:fea5:ad02]:9001
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:31:23
+fingerprint 5989 521A 85C9 4EE1 01E8 8B8D B2E6 8321 673F 9405
+uptime 433379
+bandwidth 96468992 96468992 33228202
+extra-info-digest 01D408748FB80379E17B7039DA26DC432AD2ECE8 K1AoYG5a/N1Z0gGqhtj57/d2pUpoETi+CHRx7YDFH8E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOcpkLxaKq+z/N5roDxDwYsw4vKOgDtzeyyXN/8JNg2mmNev6uBAqHoE
+r84mKNYg2TfZLryueqTmHoIgkMFAfq5O9vLcFfefde4nXbjAbmjBrC+TcrpSILnX
+IY1KEzwGkv3vYEC3zXSI5aMkiLFq8qX4/ln9NJE05b49r9BukadlAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMT1n6ZgVbwIZ9X9TruPr0LRqePJPnzjfsjv4qUeT4AGmFz2e4vnQxSv
+6hX61+ocSZnfB7ejb/gz0UtkUUY66sEwpVr5PCWrS+tyX/i7xk/FDRuxOMGYoTRB
+ACpfkoHqSISRVNW2MNZJhD/je92QxnHyaBvs6EX0udwUqv6nxc4NAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+oSlfe/SAREDnylPdvNc6FqE4kierD2vHOM/OQabTPOdz7LhhzBbXE5g6OPj2W2Ic
+JNNVysGrqY8GmFtjtRGYXlRgR2g5NbHx+skvHrqGFO8ZdP+EKAAo60Cag6Vv4zNu
+eTKzJnRrW/3Cus0gP/sa/bL1L2BS9Rg8XWCzuXX0j1k=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIARHkkfFVBye3HVuy2aJBFLOCHEZoiuiF9diQdYuHOoIlANFKaZ1oZdSa
+jdte8OvN0CMDkh3/ShNjWUNDYjKd6NlSU9DGyuCXYbONyJ4nxJ/h8oL0l174WU0q
+OQBsr/kFeQo=
+-----END ED25519 CERT-----
+family $0A9CB1B43C780634B80390A9093C7490CB503880 $2403121E35A830A7131C388EB643915F06842FB4 $366F07B6BF490F1E78D2B6B05CDDF5E608E37570 $6C39590A230311BA740499516756233FED406C70 $8D3E65A90F455E77DEFAA9ACEAFD7392221E2C9C $9EDB9965625A06F41D84581BF66CAF7D79919DC4 $EFA394DD66A8147AAEF3604B37CBF77DE2C7D895 $FB5BECE11DDCE8444CB2EB0A41303DBB7093EA7A
+hidden-service-dir
+contact < spider AT modio dot SE>
+ntor-onion-key R6qnIJRklO5528DdUl18h6i+IaNImVHL2glhyWkbw2U=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 193.15.16.4:*
+accept *:20-23
+accept *:43
+accept *:53
+accept *:79-81
+accept *:88
+accept *:110
+accept *:143
+accept *:194
+accept *:220
+accept *:389
+accept *:443
+accept *:464
+accept *:531
+accept *:543-544
+accept *:554
+accept *:563
+accept *:636
+accept *:706
+accept *:749
+accept *:873
+accept *:902-904
+accept *:981
+accept *:989-995
+accept *:1194
+accept *:1220
+accept *:1293
+accept *:1500
+accept *:1533
+accept *:1677
+accept *:1723
+accept *:1755
+accept *:1863
+accept *:2082
+accept *:2083
+accept *:2086-2087
+accept *:2095-2096
+accept *:2102-2104
+accept *:3128
+accept *:3389
+accept *:3690
+accept *:4321
+accept *:4643
+accept *:5050
+accept *:5190
+accept *:5222-5223
+accept *:5228
+accept *:5900
+accept *:6660-6669
+accept *:6679
+accept *:6697
+accept *:8000
+accept *:8008
+accept *:8074
+accept *:8080
+accept *:8087-8088
+accept *:8332-8333
+accept *:8443
+accept *:8888
+accept *:9418
+accept *:9999
+accept *:10000
+accept *:11371
+accept *:19294
+accept *:19638
+reject *:*
+ipv6-policy accept 20-23,43,53,79-81,88,110,143,194,220,389,443,464,531,543-544,554,563,636,706,749,873,902-904,981,989-995,1194,1220,1293,1500,1533,1677,1723,1755,1863,2082-2083,2086-2087,2095-2096,2102-2104,3128,3389,3690,4321,4643,5050,5190,5222-5223,5228,5900,6660-6669,6679,6697,8000,8008,8074,8080,8087-8088,8332-8333,8443,8888,9418,9999-10000,11371,19294,19638
+tunnelled-dir-server
+router-sig-ed25519 eYyb9brg/yoyuEDE0mmxqJRMFebHkdUVVItvZrxWRuDdlkwrjUIMdr0Iu5hoVZ+2NfYgTFF9VfQ+t68UsmZnCw
+router-signature
+-----BEGIN SIGNATURE-----
+PFjwPP464l9PLAC6NYky/6yQQX32GwmPWrvoAOgG9BD4UOeeEB1HPBDrUNnt009v
+0fVBw+k7Wld3zTTFGpm9DIu11IldEyItu1BCykY59bYEAp81zuMcWFPrut87VaPX
+DMfnU1+jOwIISf4F5ewhdbRcWMLKsPdAvBkvyhMVoiA=
+-----END SIGNATURE-----

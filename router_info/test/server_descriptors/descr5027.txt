@@ -1,0 +1,42 @@
+router PESEC 5.165.77.118 9001 0 9002
+or-address [2001:470:6c:8e3::2]:9001
+platform Tor 0.2.6.10 on OpenBSD
+protocols Link 1 2 Circuit 1
+published 2017-08-28 22:00:01
+fingerprint 683A 668E BD5E 2758 89B5 10CA EA45 7520 16E3 DE30
+uptime 38621
+bandwidth 4194304 8388608 3997067
+extra-info-digest 02189ED1DD5BA5F7C73C3A0AB73F6E586379D150
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANTA6gPFoO7rlsb8I64xux32Qq+v0l+dMuWKBn+JizrDc6dT/JiEB3Qv
+gNfVG4dVp9CRuzTaMbmML1saUfeHRERReWgF3huJUtvUc31OUPUAeiAVHJPO1KT2
+qd1vOFXfAsW5JesU2LYMr9ejBKgldt32x0nbpltBq/0DnWARisrPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJiD+YlcrpfbL7EUR1nzvXlFwkL4MyhnwUCaZC3Hg5eOXpUKAEzApi0j
+88G/GEq1wCmej/1twtjNXyPQHmUi0Faoyy1yI24YxHTIQpdBtTYw2vcbQWld6LKL
+B2lWzg1GXW6f8cGle2+d9JMK3xecQRHE1toAMqa3xD2mYxET4JvnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact babut@yandex.ru
+ntor-onion-key mky1yUp7t/9MhAItPiBYsZtGz+x13HsWzaE4eiVY6iQ=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 5.165.77.118:*
+reject *:25
+reject *:110
+reject *:143
+accept *:*
+ipv6-policy reject 25,110,143
+router-signature
+-----BEGIN SIGNATURE-----
+U+pP+H5vpEkG0pIbNs8zYMxBiR5jGR34BOxUpD0qB2Ea2KwXHQqjWb7Y8vsr3f0Q
+Z5JkyiHyvHcfWlYqf9eL4jqAryMZcHLSGP4kSc81qTyILKJd+lR7hrvw0awSKIXm
+Sxel4scFjWFwUBEWNRrVqmjVD+s9SXqGwgh7Q2VLFJ8=
+-----END SIGNATURE-----

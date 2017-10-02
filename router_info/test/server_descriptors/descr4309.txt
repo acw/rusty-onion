@@ -1,0 +1,53 @@
+router Precious 95.215.45.188 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDSAZllDGSzMAjE041SX1oh4lcL9+uDH29COpTfwlNASz/WAQAgBABxeoCQ
+cBgZE0b6+QYQDhmkaEa+ksSiUhQzRcyPrr3yzBHyrnxMiawWaAstFzCmHk95uees
+7ut280X9Rh3u/L6kZpyONcaz4g0JmQLZa0cA9rGTzQTu4K/bE3wgCsYZIAc=
+-----END ED25519 CERT-----
+master-key-ed25519 cXqAkHAYGRNG+vkGEA4ZpGhGvpLEolIUM0XMj6698sw
+or-address [2a02:7aa0:1619::ed92:293d]:9001
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 11:56:57
+fingerprint 842B 1F6C 4B9E 41FC 9059 DF67 5C5D F5BD A9F0 FC73
+uptime 64875
+bandwidth 10485760 104857600 5032228
+extra-info-digest EEC4B1A52CF58A153F4FBAC512FBC61C23335847 VePZCjC+lkXp7Yo9sktpWFyvrkmV20VbAcv0f9NM5p0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPdWOPBGtm/2A6jPLWhPqySs7ESxJsH0oCSR4TxUQZLyr/Onh8KmVLF5
+YDJNE5pAaSfRi8tolHwDSBJZSwRXw2AfFPBbZk4o5xg0wILSFEUwCOCuxNOeXmHn
+t/r5zXMNeESFo+osgag7BbO/F2XuqmhZMZc9lWzJjSBy8/rnyJjHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALFyfKhH28PPIY6G+vASUHCUaSaYrspQcxBa4yDe6hd3aJblrLoeWF4F
+92vxuhg7IIFo8RYTUo3uw1eC+qjwTXhumFst3Jj1Ur6eUGDk09Hct6ewrdKNZCwO
+r7nuad2CStssSsbS7HSAeHTgKpx+kxM8FFjZfGYA4qaUjsnSTXvnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+diEMRj9K+PntsL0ob9q9f7nLOnRVdGflHU0cgkBJGYgnLAe7BCyrSrNW4pGR1r22
+x7yudwg2etlV8lktciIF9B+RRzICyXPTeydzx8cO36OWiyCsEJ9GqPsBxio2Ulo5
+XRr/SZbz5pGL7t/ri1tZmRAr9L4ac6EeLRtP6eWi3/8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCEAXF6gJBwGBkTRvr5BhAOGaRoRr6SxKJSFDNFzI+uvfLMAJVLQq4I4AXe
+TV4psIMs4EmW83NhdO/rtumQa/hyzR0QoR86IAsJDeuiDde2CWwm61x2c0kdFvKq
+te0KPeBDzAA=
+-----END ED25519 CERT-----
+family $D8380E08DEDF6C90A09EC378D1F6C1881EF79476
+hidden-service-dir
+contact 0x3632046A Dmitry <dbaryshkov AT gmail dot com>
+ntor-onion-key Rwr2fuiTACNZy6C5FJIiUCoyJU5gjUqOfVUW28xuViI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 5Gdx1pS0A7OKTPu9rKo2qsR95lkILEva8uT3RDD43GxMPuLct+BNRFra1Uqd1NYSW84oTc8IS+znDAJplPLKDw
+router-signature
+-----BEGIN SIGNATURE-----
+DTYgBZ4GVQWqaCtTc6ngYXXFPkmRRe3w2AL45HZkdHgWbn+uNUCS25z4DT0ODsIO
+LcXfLEfbQ8plaPy5sqGty7s1VnMUdejxlwmhREzCvfNIJc5zeYPeuS7hAehNvoPk
+MrhrEeBandXXTOIH2V4ObSBnQtGrzqJ3vGKjkdXZulg=
+-----END SIGNATURE-----

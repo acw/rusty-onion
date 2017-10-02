@@ -1,0 +1,51 @@
+router PsyloNet 91.122.100.13 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmB5AaSSrnBocTHAT47hMBkRLUEeflE8L3zki7RLMH1OdZU3AQAgBACUnrIN
+KhPBVghxWffGz/hd6Jz2Mgd1FLRRvWfDYe7ExNfCZ4YLh1Phz8C8D9C44/gUbGxc
+qhjEMmuf5oogK78hmfCiWsl3P2XCCHHJjoqsmR8hbJ0C8jApBlkqBpbPLAU=
+-----END ED25519 CERT-----
+master-key-ed25519 lJ6yDSoTwVYIcVn3xs/4Xeic9jIHdRS0Ub1nw2HuxMQ
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:53:56
+fingerprint 5F5A 59E3 ECB0 9874 07D9 16AB BDE6 0613 F83E A1E9
+uptime 962287
+bandwidth 2097152 5242880 2667370
+extra-info-digest 80E91312C098166FF0614A9E806573060BEA0EBA AwSN9rnyKp4wtLf8JJIU3FvWU+dYd2U7rxkgU1ptKZk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALrEhqaPGwtQY43pPJmCnKG9TW63FWVAkRlCqAC/MZ6wFzhFlz7BLN3G
+Wu4/IvflBQ5I49NA3dEqDYlSbALaLs9ouBhG7tvTInDYbyWdwfsDIklKEsJnLeld
+ZDbCbF/TTRUL2MeWGIhyAlPf5+HBrclVek00vsMeMpEOI9BDs/IDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANWoZ2ipIrgqyr5fSlQpMHvdjAkRfwmC0Gx7YKvUNd5FFUHf7RNiTnXR
+8QgG/yzOPj5BFZxqtWLk7kknB+kd6gG8SjdXBXtV533b7QuZ4PFjyNRdxL1Xf38R
+AvIu+Zwku3/Hi1cAvURtYH2eC/xHtzHl6NER/xCqVQ38vxOIvYMdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+jSAcle2kWPQ+U0ddrqqKtYcjba4eBBsCDIRqQvgPZEHoRjrN9hV9zNUAWNnD11cV
+R92XIARwAHSoRI3pYQV0XgPIPuejBYPY06utNXo67PKaSP393lwCe2IpYyPbkFNv
+g4yWQfTAEiGH/yIdqRUj6WrsY2rtq4v9XXtHyEvVsdQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAZSesg0qE8FWCHFZ98bP+F3onPYyB3UUtFG9Z8Nh7sTEAE8Ww3vj65o6
+IdfRZPs9nBINuhszXFNhJBQF8lS80WiGFGnm9JTJ+r62uLcVBW3NGSEqvHmTposh
+8O6xe07WGQs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact psylonet@gmail.com
+ntor-onion-key KY5xWUbXMEq9hLL8UZZxi8iFgRGyKkBhYBZ5+O1+Cj8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 k455UrC0U8p4kbOVSX9wODbo7Jz/lUesArvxJqyX2pngPzpkakjWzPXJZffixfZg4orXtfGP5TkQ0DDYjwV7BQ
+router-signature
+-----BEGIN SIGNATURE-----
+UaV1HNgZtH4GDOA1w8SbscWhq6z6KDnuaOyEohOsT0VKXl4kwFna+6ye/jRP0PwA
+InbPSDre/yIFUCAvL/7F7Iklg/j1Rk7uW8Scu6Qa+6SwVZhMBWAtKa+/hWDlBZww
+Aum81pdczgrBAnBBnnDgNcblERt8fnIEmgd0Taq1dWQ=
+-----END SIGNATURE-----

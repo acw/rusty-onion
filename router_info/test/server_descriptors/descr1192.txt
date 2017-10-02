@@ -1,0 +1,72 @@
+router novokuznetsk32 89.249.133.165 418 0 64090
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmARAcC71IWKGw53Je2kshH4oSKDkxAXejNOHL2T97m0sB5gAQAgBAD059vF
+1qmAVNW5TMdV31U18s2NUUVS5wuOmODV9cdGZUxriikszqxHnEu8XBtJ+o16c512
+9gBbTK8BF8KML1oBkny4n2H2Urt90BehHX1iWjKRftx4CptQAjm+tc7n7gs=
+-----END ED25519 CERT-----
+master-key-ed25519 9OfbxdapgFTVuUzHVd9VNfLNjVFFUucLjpjg1fXHRmU
+platform Tor 0.3.0.9 on Windows 7
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:47:55
+fingerprint F7BB 4426 AEBD 1A02 2053 75BA 1032 C81D 549A 92AB
+uptime 2152
+bandwidth 5242880 10485760 89088
+extra-info-digest 3FC2ECCE4A97A4829A42045C48FB2D06BA23ABE0 ehY+aglOzRAEg7UBpV26grMblJoHldEP4ZMC/4CvXTs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK2ZEhpKbiXJeKXB9H9RhU5FIlPVvPpmGn0u76N2ZdEIBwE20iDO0jQI
+IhO2wmvXeAEyAUeMycLb5V/UalrWP3oHMUSIFFbBjxnUN9Nw7j8UNAPvPnXA/Cb+
+kPrZLncJKRnj0DC8oDARpOk6C0X3GyfVjnZ3KJcaKgowAD+NIhm/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMxBkHA3OQQSC056usfY7bcUdMh72WrLr2x2d1pQ3JZHCNTxvDHdKUjv
+F/BBHPFto0JHyp5G9zgqJlDx3OFEJlc5T0br6zFUyTZGg/+nGTKURaVyz2m7dIvT
+mPBmfaAgQprjAlvbei2Qg1aF6kPO5aRCDxO9ZioBGjRQ3WZT4f9JAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+FayY2BPP1Tup4k7XR/OLOFfWWHFDdsKJr1stYytOI1cQPOcib5UycuEDVAPBUOnW
+60EiksFvMYmCWNfuohcBvoQR7JKyfiWLUPoEKwCW8sMlxbf8tvaMuGKnM7bPvea7
+0dJdVCaGIUsaGK8rS6cvuLdk8RsnQROzixPKQ9JgE0k=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCJAfTn28XWqYBU1blMx1XfVTXyzY1RRVLnC46Y4NX1x0ZlAEUdrcJr4Iqm
+sZT9zfyPJnEl9c1BxcrXIEQf3pC8wAJhD3kk6mA9Uq3a7gw9qWyVRAb8Qu4JTBhD
+O7oDIxHIegI=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key ipPX3V7Bj1oeF2b75xl/228UcviJcWtGLQ/YF9FgfHE=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 89.249.133.165:*
+accept *:110
+accept *:143
+accept *:993
+accept *:995
+accept *:6660-6669
+accept *:6697
+accept *:7000-7001
+accept *:706
+accept *:1863
+accept *:5050
+accept *:5190
+accept *:5222
+accept *:5223
+accept *:8300
+accept *:8888
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ikMB+D0kBPx8jOiYShBUMG3E4VlTJ0ctc5dROR+yZWeAalHvN3aAET5g7CitU0nMOD3fcZ3omBNuNVLnj5CwAg
+router-signature
+-----BEGIN SIGNATURE-----
+avp1kspOpy3kPWw5fzh0niBEJ9agqE5fB9EYh7kwulvHRxTzPW3vYGukcj9AbOc5
+c3hAoZ9bFRDG4BHiZOeH6d5ZK5pHCFYRWuj/roSdKw5yyoOL1XXhwv+9FbrNgAu7
+K9/+u6MrKINF5OMQ3AsCeIubOhv92i3TjiMYbJGOy3g=
+-----END SIGNATURE-----

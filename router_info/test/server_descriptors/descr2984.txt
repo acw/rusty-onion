@@ -1,0 +1,51 @@
+router orthanc 213.136.77.251 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCDAR8OLlf35EkDIunUr0sE4XgwZXExxO+8DGvcbjG6H4tgAQAgBADhQucS
+/85ZA5jVV7ItCpZ3KSUxvWmoucddpTUt4qMPMdqz2XpfvIF9LrINhj9NmRe+kdFp
+XPzI9Iw0j7X8pbHDyc80xPVlqfk0KZcReBWNwf0phuA6nljcxq/6ZJZchwE=
+-----END ED25519 CERT-----
+master-key-ed25519 4ULnEv/OWQOY1VeyLQqWdyklMb1pqLnHXaU1LeKjDzE
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:02:28
+fingerprint B51B 08E1 C04D 44D2 9DFC 9D11 E2CF 2D21 D1D6 10E4
+uptime 259374
+bandwidth 512000 1048576 617995
+extra-info-digest B84470905525444097B5FEC35829D347A0EC911B e1WIp0E0Kb6T9GXOe1OzGVMWnvyaxIMWafo2y8oG9Ec
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMs/CZiBu6Hj3cA4r9shf0xbTV24DINEiWRro3WnQMoSSPKL3ObUbl9S
+N0O+piSFcRXEmR6b4q+gz/+E+9PDGz4S9dI+4Bk4Bp1pQbxfwCGc553TY4YnItB5
++dSrNEd1TJwAXTznnD0YY4cL3mVnDKR81ZHKIIxO+/m19bsShZR/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ4Fs4KPc2ylFfyVpyphcn5amkE4f58bKr9LbplD3yhw+8lS0I5qZWZU
+TIwjqCw1JUItiUsdc0yjnMtEmE9O1FNOhez/7Kx1bSK+53xAe59VziXrC4Y/CmcH
+kiZ10vqtgPe4g1A62zpiYe+B3r+wKvlsJglUd7QtpHtMEr2NAOKPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Okyb+rSaFW3fSV5lTHhBSfuv52/tEFE+jAYLnsz+HqEASH0I8uE3dfeWhguDB2pe
+1SbDWouThYEQdmnBZNQ3vGG9dkp2v9E/i2YDUkrYSaC6AaeOs8OiJmiVe7uJsZMd
+jJP+bw87mZEIUz2tnMwc3dnN7+r66w/y7/0BHDl3f/w=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCMAeFC5xL/zlkDmNVXsi0KlncpJTG9aai5x12lNS3iow8xAFsEG4UnTrVZ
+TmZ52kF95d3e3OmLcdTSjEjM7vRITVuu9QDjbW88cW4bdcxKOJ6eS7ooPCO7iJVB
+4DWajDYgVQo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Martin <martin AT beeld dot de>
+ntor-onion-key qzEHqJ+gXSBG0uPigyqHPCd790Ijk3rVZnBQU9bh8WU=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 eE+PZ94fO4a41ghvtmncyHmoieYVCHX+Vur3YGPIaaB6URxoTgT9arEKmuAioiTcr3axBUh1080I7Z3lsn+zCg
+router-signature
+-----BEGIN SIGNATURE-----
+Z8GHrFhcv5dQHeDq6UERxfuqyYkB7XmjGmFDop11vPQbcFHVaJhxqWJ3RZPWBaY+
+PS+eGDD6Q7WlblhNtpCsipOYMAP80KYzy3ZUIfWEra3mEn41q6oioteUepMUS8Sg
+KSY2aggFJSzEsiL7ukrQT0NYmOw96PGJuX1UKU4uN1Q=
+-----END SIGNATURE-----

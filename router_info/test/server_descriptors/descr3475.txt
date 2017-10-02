@@ -1,0 +1,68 @@
+router Lokygate 188.165.106.249 443 0 80
+platform Tor 0.2.4.29 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 10:31:52
+fingerprint A275 3CE4 A798 902F 2B81 E011 1F9D 834B A337 41D7
+uptime 2854740
+bandwidth 52428800 104857600 11197613
+extra-info-digest E4BC618F7FDB0732DE46FB392BC55F55F8DE6FF3
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANy601XA/k+ndhGnWLCkqRz1XpiG7vKT+M4RuTFsY4Lo3j4OksweeFyS
+/cJpbPO+FXGgopINYbmLS3Xj24yTC/DLMFCRqynP7mx+jS1j/tlD9twRkOR9Ap1K
+69pjGPI9tQvaaHk9XrUh+ydvOLHmoGtlYhZjA/obdNAE+8NuLTzPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOvH9642cnBEPN5Af0jGEuRbAGjG3NCVSW+SFaRSuaREM2xANcMEFFn+
+OpIPqb3CSZDx372dY3A7kVQlgZ8mkeAYRnsUNzCrMwguaOu3TMqW6v7kfEW94gh4
+9OfiBvDsYmb9ZAgXkUc2lytnCD3I6q8moTOpf49OnfNQ7Yemsk1JAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact nillecram@helixmc.net
+ntor-onion-key wtTq4/eII6TXvb612RlT09vnswuO9R8SXNSEbQX4bxo=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 188.165.106.249:*
+reject 194.110.160.0/22:*
+accept *:4321
+reject 185.75.56.0/22:*
+accept *:43
+reject 141.136.16.0/24:*
+reject 5.8.37.0/24:*
+reject 37.18.42.0/24:*
+reject 91.238.82.0/24:*
+reject 93.170.131.108:*
+reject 195.225.176.0/22:*
+reject 79.110.25.0/24:*
+accept *:143
+reject 91.194.254.0/23:*
+reject 93.179.90.0/24:*
+reject 91.225.216.0/22:*
+reject 91.230.252.0/23:*
+accept *:53
+reject 185.50.250.0/24:*
+reject 81.94.43.0/24:*
+reject 185.154.20.0/22:*
+accept *:20-21
+reject 212.56.214.0/24:*
+reject 37.139.49.0/24:*
+reject 188.247.230.0/24:*
+reject 79.110.19.0/24:*
+reject 93.170.130.147:*
+reject 46.8.255.0/24:*
+reject 5.101.218.0/24:*
+reject 178.16.80.0/20:*
+reject 91.108.176.118:*
+accept *:3690
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+Hv6eqCaj5WDLXhDdKyA2PM1DNbACYaMFx4eqZMJb2SWVSw4bd/AV7evD4DP7b3Gk
+5P/jq5m8ADqEmuh49rEpLQkvLIY41ea2xORlPnaPfqwzsl9uT8ksC6UVXf6NXokQ
+dchLycWZL9kSIblg1HaFmWj3hXbwOkut9mU/w6gBUOo=
+-----END SIGNATURE-----

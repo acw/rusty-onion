@@ -1,0 +1,37 @@
+router idideditTheconfig 51.15.37.97 9001 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:30:48
+fingerprint 6B06 2B0F DFEA C3C6 F920 3FB9 5844 51E2 9557 4DAD
+uptime 6844912
+bandwidth 1073741824 1073741824 10817920
+extra-info-digest 8F0556356C4C7239F3337B54488BCB8B0946FF80
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOM2wAzNUiTNVCWSpsQpzjRyGLFXIrw1UGPnhISEPR6Ae/jyd97RSxsp
+/KAkW9sVyw1Iv4l1PZBK4nYAJm1arGO0lTn7coVbT0uh2ORVMi43uvCdKXbnnhdR
+EBZvyVeP9eXLp68qV5TVJokcBJSmYO1pLt0IZaM5F5+pj4XKfdnNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMpPrhJOiVT3XWPdUbth0E87e+EVekyZ5X2gc7PAwgU4+78RFWQN7zRN
+y3eWprSW0eP5aoue0XX3efpnd0zawl3OQPm0DwQaYjOMgGTNnFlzWC2yzLsVqXe5
+L7QKgUOBz7cIXu2qzfyGAhSZYLPDgghwZp6OLv4/MlZRgwQ85DUPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key e/5zMl1uVOOnDPhkfc1a40Rbc2w5rBJ0DBr/gtPT+SA=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 51.15.37.97:*
+accept *:443
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+Sz5LrjKEMyY5e/YL7DGZqvuy4U0tlPNWfPw7ZozyXpgkIOgcsuSbYX/jq1HQfOuD
+XE5XtzFoFS+RvMZtXIFDqM0t3eM3IuCbyhkfwK1NsAKPMlScA5qVpgIckm7ghCgr
+Tiz3Om+evTBxg+tYansLQnsAMisnjuTYaSAp6E5d+4M=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router Unnamed 192.184.82.128 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJAAbYJJH1wiXxISyrE0FGHoqGlw6N3xUc/lbcbkp95GyENAQAgBADANcev
+Bb46X0kg1P/XTjnv3GlOy85uxEWj4PjLp3VF+kCSCgaoeuh490OwuWHPsBLzhx0I
+NRqJROS8SuMfqOWm61rlz0rpDoWAip/4iidMh7tiUaaEymbSb3ir4ccVLwI=
+-----END ED25519 CERT-----
+master-key-ed25519 wDXHrwW+Ol9JINT/104579xpTsvObsRFo+D4y6d1Rfo
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:39:18
+fingerprint 241F 2246 8155 D036 28DE C3E7 D719 90C3 DD7C B83F
+uptime 2907756
+bandwidth 393216 2097152 602760
+extra-info-digest 7B9E3BA8392EA325C8F2B18162D30F8146C117E0 0DIU+Ji2CpTPe2CaksuBaNutoJZCP9spxJab+YsdKr8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOLeaCMbtZCOBGh7YBi8EEYHqwGRjM23j7PrWArWksrnz+1D3OvWYLbF
+HTChq95a7L9axtz72Ah333xDPFu6ipMrDtx9PG8OuCv57vIf535+CLS19yjyRud2
+ww7R5flTmynmXiOvRNPW3tCQdzDjmKPjGATIWplUq3ZfMqUB4dNfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALfb3k0Lh/cDxeDV22wKbP6Ka6i1NjCADYcZR22bisSyF12lma9f1eS5
+iQK/gqrPj5bX4n0VfKatIo50IR8fCkUDksG5KQ3NbDpTKC/Fq5y61H2OlvVbspOS
+pmxab2rixF0/zQfsDT4KlMC4ruR4LBQ1CItXrGcGUF0iaLiBZHOfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+jS59tkG5pcnqDi60ghw3lXsqdI1g6yFtTzO+utBC6enZGjhJ4W6QA4uL+JrFUhFm
+xzG4VHgF5sJAC15rv892XkaNLvTyiGOA8rTUk44wMqlYz6TeUf1lLBIBHobeHYlD
+XIYbg4k0CtmFqA9xE8fa4idSararDExWtyum+bKFkKM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAcA1x68FvjpfSSDU/9dOOe/caU7Lzm7ERaPg+MundUX6AGhSDhZCutzz
+CXmkz/CHP5BR1B2sK6gTJYVqJzlFMOgZGXWR9RSBXWOCGQyLKIBy8Ca21axihUo4
+oR7iXRUWLQM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x113A1368 Hubert Chathi <hubert AT uhoreg dot ca>
+ntor-onion-key Mrq88kugKK1rOrEJIr+SES1FwJ8Nf+vWfOiwcuEu80o=
+reject *:*
+router-sig-ed25519 cyaVPiPlpiD70fkRbYv1XRL8MUV8q7ICrtR6w/8sHfGD9TLyaPH/Gxe72w5qd06GbKCB4oLdmqCJTU6xrXQfBw
+router-signature
+-----BEGIN SIGNATURE-----
+pNlk308fVAvqjUEKxuc9XBA0RJ84E7S4BYcoTBfrhQ9Dlna8LFw8agsqa2ufn6O7
+aMmRFbZw36iEeU829UCK03ZIwa/ABhNb5xzZ966awctt7uyykOt7oINrP71QMTpR
+a9r/gfxe/XrLaT1nFL6o4otpdFCScnNVSuZ3/0kk5Xo=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router AnnetJenkins 185.197.35.135 8080 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmB5AQDVzbsBLZmLlucia8OCua3JWZBQ5oyv4iiXrEYjoMglAQAgBABSZIw3
+dlhLjmPt8pk7e5/czYcTlHdxP3Xu0wX5gfSAtknVtlxl2GiVGNQZgAm/ZdRPJGK7
+u9QQbzcr6/5x86Leqk9fP2fXCUcNVMTDgrqTWhuPvWfB2acgPE6S3RfGNAs=
+-----END ED25519 CERT-----
+master-key-ed25519 UmSMN3ZYS45j7fKZO3uf3M2HE5R3cT917tMF+YH0gLY
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:09:50
+fingerprint FBDB A534 68C1 12CE 8614 A812 F77D C0FA 7ACA E250
+uptime 2626219
+bandwidth 4096000 4608000 6958
+extra-info-digest 631F91AE222C85BC003983D1EC5BB7F861A9A2C2 o1RyKjHCdlCuHGG3Bm+kZMQa0ylhz/wKqC9rI2OjsEQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANKQDu8fwt/BEBwsT7XLZqvPT9JWKtrYHAG6qOuI87EZxjOgDRcmG8hS
+vXCZw3J48kPejtTEWMiibJh3ibDIabs/Pq8vrCyMH+2qVH8XeCjiPkmCVdWujFwo
+zaxsMpAC5xKbpLPuaHFqolVbSnz94dUwYnDjXWlzHP0IHAvX+D+xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALYLrutcFKXvMiL16U3787S3txujAXJAnjATZ8BrhioWiZRKSyzY88TV
+o6l99p3ML3TMnGveIbIOzsorXhJLCKdT3nEwMMzX5u+EEmx4hkQjeZ2qUROQvrX7
+xhZvjXT3yhxVQvYtbFnD/gTMR17J7tNiqkt+0hhIbsnIQcuydm+HAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Gijmb6LEtuzUvBJffeY9qum5QsREV9U+2pQ75NBfLeMY6kICWwZ6AAa3D3S0x2Wt
+9252e7Wfkot2UwdYVmkUN6gphrZzgDYjszj1fUyJUdPRv7ecu9cDPWslLkMVWE8i
+/oHjbCfz1D6t0mOI3b+VfRK5/6BuUof33TOFwfHdU5I=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAVJkjDd2WEuOY+3ymTt7n9zNhxOUd3E/de7TBfmB9IC2APQ3M9d/CwxT
+NLSd9JYbmhxoWOLgGlKQWibLz+2PFr6Xjt+vj8qY8R1DQ+E5F3ZMBlXmfaiI4KVk
+2XTqQzHpugw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Annet Jenkins <annet AT fumail dot net>
+ntor-onion-key Hk/2SBNfL25nztRX1n/uxWQq+LWGJb3a76Ku3WtYMTw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 IlhU2ssz0uaGc97UZB7bU85J1Cg75Wmj65mGH7aXCyHkCW02fk8vOw9yLkzgXan7Uvp0byM7Hsf7YWooeqjJCw
+router-signature
+-----BEGIN SIGNATURE-----
+bND8K2Ivn63WCcbUSCFGKfS1sBL0BfHjRXz2ZGE2M+lWp1tnmiNyO5zO3FIiPQ3X
+UwNYkSSWWbZ+yAdhyGTJ7C7HWjAzVrukeobAkfZKhGyC8BtKC1MVDCP4tojDjVhp
+RngdqqQMZRwedtLLC/sNrlF91t2h9Myl+5bvbvX/Gz8=
+-----END SIGNATURE-----

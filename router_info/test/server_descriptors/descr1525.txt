@@ -1,0 +1,51 @@
+router smallpox 104.168.87.226 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHsAVfPcqMAmLy2ABxfTwIKpYCdqVeJ8WqZdpy1pjKzSai8AQAgBAAwijHf
+06WBnNqliAqvQTFCVlT4n/TgQRbQdV6rLdRVBMVMM3FxB1NV2qctcrLQLfzsnJOx
+z1nzAZNaVIAaTyWW2QSj4tx9tJAmU2my6ra5sRBiARH0gw8xH2lUaZhT+wU=
+-----END ED25519 CERT-----
+master-key-ed25519 MIox39OlgZzapYgKr0ExQlZU+J/04EEW0HVeqy3UVQQ
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:04:37
+fingerprint EB95 C920 37B5 7D78 BF6F 059B 8157 714F 16BE 8181
+uptime 331445
+bandwidth 1073741824 1073741824 2709160
+extra-info-digest 016B75A803F66DCF3DEE2A1B44376912DD2A4F83 frcnkEIrB5be3nQcCfddOvdTRMt0krp/nwXDDEjyVDE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMKoQ7D0JsNG9b+YR9ZD/2lm3KSXc9dVHIvUcEvRz0h8iNMlRIBs4G1V
+MDEBzR2DESd44G/XW9D8qzisA/NWsebFd9Wedkjm43rUu2nUeYKU152/+JQNEXne
+e3oDF8Lo5XelIqmEmr/T+1nbFuXPGH2s5aMZ+BWUF1ngmlngHvUzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAP9FTUqzeCTReknWJB4WFxOB9wWzs0tdXAU+2lYMVzcb2yp4urV4jLfO
+wrZ4tInQm9FRFLQHb3rKs5zHIPitBIhPfZZxLaIeAgX5iR0eAJqmWfPkjMqW8AwJ
+/ju7mObzGuux47Pd6pItEkcPnEtjiAudpgMywzaw3OjR+Eja1NQbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+sKB18mhpNDSztn0KOztgOBByTDwhL59+yd0B/U0iXxBvVSvJgo0zHTOqcp3vpYn4
+z58j6GVD6VAffuciYknhcoB4TnHfKrMgZUxVp0K5GvkOwtH+qvSoKzsJiilwBFC2
+nKrzIB0Hnk8Xuo9cPDvuWjdlv0pOvziFm0b8cToFPjI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCSATCKMd/TpYGc2qWICq9BMUJWVPif9OBBFtB1Xqst1FUEAIUOwwiYidmK
+owXjpIf/zHu2nDQ7pGTF7wMThSwe9/3ufrcS9qsulueBL7TbYqPzRIV4DcQ2dlNy
+7a/jxlpJFw0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact John Doe <jaydee AT gmail dot com>
+ntor-onion-key Gj43PhBi/Y3NAIpJXMh5hKs/IxWb959YjcSU6ZFZXmc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 VyWyPi3IQTmmhcft5nbEt6L0tspJqXWoi/TnHr0TCNWi86WOmKTQai1yUnhSlMhLOIV2b9ycnC7QqFfe+Yw3CA
+router-signature
+-----BEGIN SIGNATURE-----
+NM4BQ2htn3oIj+0ULLktl+1D08892QOb/0momUo0K73ceHCO024VIQffeFtLlbZz
+84t+Cj5ahHncMZ158jXR4QfiFYd7jrH6vRVPmGPMs9JVru2xR1hM2b98bAVSS/Fr
+8qJcVWUJ43CY2uvNHvumMvyJyw6Y2CyVBUqBKYo9Zq4=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router smokeyrider 210.1.204.177 443 0 110
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmE8AQg/VIHvJKJFpGTyDsbtREE5YMTnHQm9u2vB1wS9JdgiAQAgBABp4Lyr
+5qg0DFDHtGbSngVEdXn0OBSOkRqNeXlWj3ZcjKXJWY6fo9SaI/w98hEBDGFvBCys
+HHQmL74rztbmHki9/XE4x5vs2rWhrXxEZFXb1dpKfKdAo3uj2QyhbithqQU=
+-----END ED25519 CERT-----
+master-key-ed25519 aeC8q+aoNAxQx7Rm0p4FRHV59DgUjpEajXl5Vo92XIw
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 02:46:33
+fingerprint 59CA 5D98 87F0 E8CC A913 74EB EF65 D929 8415 0D3B
+uptime 1111331
+bandwidth 524288 1048576 88077
+extra-info-digest CE79BBC76BBFA4191EA461BFBCCA0165161B8451 BC837vxX9vOulNJxhw/SlmRyDrpHyfJ6hIhPaBEzE7I
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ7V4COSQv1zRY7gziiup6Hmg2clI6m0Vy8bJojWwtboKKFftUH3khLR
+5ZOirzSv/W3GKSqbECA3XgDWCPbRjPLQfnM+msZ+IDltUlRa/KwalIafsTbAexV/
+fqN3TS1gk+L8voFR9kNmbLd6vTfE1w/shE+0a/UDY9e8ocOss8d/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMV66ObYbSQiMDFke7KX6Y23R9sGwuMr3jQ+nAnkBrD50om0GgKeBPHz
+0RMXlKx2BdWXNO/gkSKo6H/mG4VYQXAdmwoo/I2Zz0KEPJuYAx0+7/XSZR1CjKoq
+W3RCxCo3kknoQikYQXZs3EDSwpLc4/WdTIiSKAzeRgwV/N27FXkxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+MrAlPPhAjo+Kjip+/TmUmeWYVs30Zd+aJULPgctyTojCqFfsYd5FeF7veZVdsKas
+S9inxjfFqh/1YhJG3eFx6RI3mUKSPjk3HQ8wJXHgreFUhd0qlzqomkWAKOtEkJhX
+chYnEbRNrW2XpLoZRI7n1OTUtgJESpzFCYQNaF8sJRM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCTAWngvKvmqDQMUMe0ZtKeBUR1efQ4FI6RGo15eVaPdlyMAF9QF3XAJHWA
+0XhXz6meQygtBPI94h8oSHuVrXJ+2ptuy/g65wJgtlL1RJE3YY1HOy3VZLx2r9mn
+J18ApPiJ9gs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact smokeyrider@spin.net.au
+ntor-onion-key CDkbEVbIvskBoAzoNKCEI+Pe62FpzlBVNOYu3dFIcks=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 PfI62bcZVrxYMup5dLUcJ2CGUGJ8LPp4s6diEKmaFRpGpFhhD0sF6frGx0LU7gcSzmF44fOWGJWnMruC9ptxAw
+router-signature
+-----BEGIN SIGNATURE-----
+TI3Y5f1tknhSBo3aBJt/GvzK//povZGwUXeS8/BpbEJZOKqWysg3KeWMZ82atUL/
+H3ceGwkN1Q9IuKxFikQwSpnrl6rqSFpZ0AqYud8khi0i8NzLuBvnW72qv5SfQZMv
+/nEvHLm/2Xj/bOMYgOX5byr0oh7RJbITTAH2S3W2MGc=
+-----END SIGNATURE-----

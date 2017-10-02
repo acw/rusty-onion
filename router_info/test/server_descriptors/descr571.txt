@@ -1,0 +1,52 @@
+router bababo 81.169.248.93 8443 0 8080
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmE2AaFf2hlXHxrHHBU5ivOVBU+xu85IOb9S46ElI78EEaIgAQAgBACoSsdf
+rXkVr5UJ7qcEeeqdav66m2h7REM/ZlX2HBfriAjU6QrECDgYiKZ1CEr0XfzWg4F2
+RZzUVU066vK2++J60GsgiLVSe5Fzyh6znwnvuKnLJGDb0BNU14uFZx3u6wo=
+-----END ED25519 CERT-----
+master-key-ed25519 qErHX615Fa+VCe6nBHnqnWr+uptoe0RDP2ZV9hwX64g
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:10:23
+fingerprint 993D 0777 75F5 8EB5 6496 D4B4 AD2F 0A7A F523 9914
+uptime 5721030
+bandwidth 262144 327680 293556
+extra-info-digest A0EA50404BB620CCF378A6CF2DF877B67E5E5065 ChSkp6A5qKC63b33XO6aQym1CPu8bH1TvW6/xEkIYrM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALdu55agcjEI1GRR9N3uBdIzj5wh+f4YoqtxZlwDK/PpZqJKuiPeoMYx
+C8kU2JECsn5LHJkpcOfqpQNmKZhThqmwRULSoZscWEm1r7V2ld2ZUJxrwoFByvgw
+mwWiwpvTbAeuYaBH4E8aX7O4mZvqMojXU2N6QIVxzMgc13Kw3waPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALH5/IPs18Evfi2HVyiPL5qzt+6ihYzonNTzN+s7ddBRzGv++H3cgonU
+rVTywniXh+ehQuhtFM0YWqA+O5Uj74R2apCrzv2ss3ojxJMCXgrKSLvLCwTLLaOx
+WKDhET0SeHrsksF1Qj+doPkv4l39bmGN+HnFxlrxJeroMV5fIWhdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+tdP/CRWfM/3KnlgR+ymcRkqoUJkpfYyKK8nibSr6JuOnoUdu+6TiYagpYWTorAus
+eO8dyrRlj2b+zchfP08R7u6kFWmZtqlNyjGczX5Ukk2EM4XoqZqJiMASXt0v13in
+pYOSe7uJGGPz/APBO+9/6GyWQzh6cNUYJTQbnqjuZPk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUAahKx1+teRWvlQnupwR56p1q/rqbaHtEQz9mVfYcF+uIAB4tyzYwUeIN
+iOoPvLzSiFASI2MbDT255Dzt8wJ4fc5C64TGuYKt5CqvCDTbXs3vk3UKoQTdxmZP
+90WtP5OK6gI=
+-----END ED25519 CERT-----
+family $6DE920230D9491BF4E80D5CFC0F14C2EA9FE699F $EA481ADBB8C39368303D07323FE99528D7D2B07E
+hidden-service-dir
+contact 0x30725C39 Oliver Baar <oli AT rrussenhof dot de>
+ntor-onion-key CfY3Q/29Frk/6+c8UVA6X7HBh7YLY1Yj2XkZT6d7AUs=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 L0XyyKCdtGX3jbwS9u0NDLHpgAQS8rSSiBQCBXch9Vm29pVV5h3S6aQN8wmgoNKIwJEQxZW0IXMahumKcTTwAg
+router-signature
+-----BEGIN SIGNATURE-----
+Sbdmyjy8BDCzqkNhPpaOeACgNwGnJ10gbdcla/pkt9lcI7/KufDp4ue9fI0PXpS2
+2e0ZO0eMqxOtoEW2ICcw05iiwHUtw9WobbNm/AcMYLX7NRN/O4ah0gmeshb+JeFy
+ATtOJltGMzMWfvbsoEbvL0MsMiZwI0VVkhMl2cYSGdI=
+-----END SIGNATURE-----

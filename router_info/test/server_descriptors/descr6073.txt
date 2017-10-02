@@ -1,0 +1,60 @@
+router CrazyExit 85.119.83.78 443 0 0
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 20:41:11
+fingerprint 3EC0 B4EE 3245 4F7E DF19 B55D 0269 BE10 2502 F85C
+uptime 1362715
+bandwidth 262144 262144 351178
+extra-info-digest 7518E613B957884584E8A65649182163156D52EF
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL/+zizTb1OeVAMRelkk6xiaDvJC0VypnAEhPIXfeCQoHfZoEuWy6V/9
+jD2F/dsHayVhT/prmdIa9njbutL+YhcbHsP8jo1SoaOo9TF6iMz0zW9qvHhOh8Ow
+X25sGZF33B388bE/3yhXAf4XtZErDyd88iZulmhNzIOQ/84PCvLLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANiiCIday8DbHlohCVWqSBWB6DAk6cKy2Mm9GNtbrcQJapvS7P+rNakY
+Knh0vuZSyT/Nqirz5sM7rR02YEDMlfqMQFXJ2seVpawXALmUdARm6cgK/oSyt3XK
+ucEK/X3zWJ9+llSsmfZuBVS7Do8HFhsPMQ8uYJY7qg1tFGO8OpyfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact tor(at)crazy-tor-node(dot)uk
+ntor-onion-key giruWmEgmmSjMFMYgoDnttAUt5Xf7CTgADj1ZYTQKDM=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 85.119.83.78:*
+accept *:20-21
+accept *:43
+accept *:53
+accept *:80
+accept *:110
+accept *:143
+accept *:220
+accept *:443
+accept *:873
+accept *:989-990
+accept *:991
+accept *:992
+accept *:993
+accept *:995
+accept *:1194
+accept *:1293
+accept *:3690
+accept *:4321
+accept *:5222-5223
+accept *:5228
+accept *:9418
+accept *:11371
+accept *:64738
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+R3j2DFfuDNIBPZbLNLjTMjp7mx2W/T51RmD0cj3mngQRWdeGi1mJtUN+TlmR1330
+LnroB6/rEMzG0ginCTUCZ96KfWvi1IRRqXYCxx99VqevJhr5gHCW91AdO0ieeiC9
+Ff086a4Vb//GrhQPfSuSs1N9p5jwI8wdvnPDI23U/Vg=
+-----END SIGNATURE-----

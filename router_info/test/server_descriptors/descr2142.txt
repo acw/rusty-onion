@@ -1,0 +1,51 @@
+router CrossLawfirm 157.7.143.145 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKCAc8f/uT289lGVVTLXgmhJQFyAMsKZAXRJ5H/YASOPNjJAQAgBAAsOFZ/
+LZVJgCoKKHmsh6zP+OXOSqM7EOD6/MYOLO9A5ktWLKzhUpfkR77MBpJ1raskoew2
+IuEr+bZOgFsq0zc3C1TM6j1ZeuLMWvDMYOly1dnEUP5d6bPFtPH5phE+Hwk=
+-----END ED25519 CERT-----
+master-key-ed25519 LDhWfy2VSYAqCih5rIesz/jlzkqjOxDg+vzGDizvQOY
+platform Tor 0.3.0.9 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:05:58
+fingerprint D3E1 E5C6 5591 9140 8408 D15A 5257 D12C 42D9 5B90
+uptime 1541140
+bandwidth 1073741824 1073741824 577630
+extra-info-digest 0C5FB9F15B7B7842B9ECCBAED6E6F94AB9CFEDDB 7GcgYlAwWugGLlKNFFyM7V1y49aqE2PccvDnWq1NI5U
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJs/FhqzHBKW/1TVjRWzrlsZt0GJkdlwQ1+ivVPqwJ2OVfTuiSeclZB1
+f40aLcK65ozzY5AOjVesiVd2ji5OcwQGUEgwc0uxhqODakwHgtw+Mtozp8g6F7N9
+CNDBDKT0k9W3f0ZPKBpqvatChz0qWEaRr77/xChk2ppz1kX0rKU/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMHFJCe6X++u4OmtTupAcXKcP2DRgJm58J5NRpjQ24LrQ9PZAaY+WNIV
+5pMLZ5VosOJkmwjvET5DguMMmZGfv+K5zZctD7JkiAVhFG7jlBViU0KsDo38moxm
+LjeEQEDBLtJ9eY9P61qtWM8iNjPM1D61vTlqbvutnzTFD8txUGUBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+C48VUvcGNQ0NUEXEx6eEz94gSMkJ3ugowO5jknP9t26gl8RLrs42rMFRbwJoAJsU
+Cb3WVr762+mTmfsII/h6kQ3vU8/SZ4SnA2FhJOmiKYcv8VRombws2m1b129Zlm1x
+vacgIq6T02N/xHfRY1pPbHsdoU8ACZOJl/XV/OHnaC4=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNASw4Vn8tlUmAKgooeayHrM/45c5KozsQ4Pr8xg4s70DmAKvRysev9LAF
+dVjFh6Cazu/mPD4Y1+Qo0ePs6RY8ZyS5eKvQL4ePWzwQkbiTiVdHdIjzRZnNILLt
+V9z75b/zggg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Atsushi Egg
+ntor-onion-key MibhEaMw7dDEpGiSmuQj0HowKK1+0wluLUXPNhumZmA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 YyepDTarWNHA6oYUxBIeyAFvwTmTLEwWok6SG+g8QOaZtS3tP38e6pk7vtLbj4muxYYxO6VXfd8qud0Dp12JAA
+router-signature
+-----BEGIN SIGNATURE-----
+tDja5kAGe1Jl4KjnW8SJ03RWPQu5xBQQ+nzLX2a5dRmZdMToy7vlUha+UC7+KjVJ
+JKbLjBuLYiInC/tVMeMgaLAhmYTmMftFbBlcNdlD5sznPJThvBV+0xNz37RE0MkS
+fIdg1FPwAmoQX6CX07eKxZS0m7mx5UeeP0YeKrN6+eI=
+-----END SIGNATURE-----

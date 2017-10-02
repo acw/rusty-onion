@@ -1,0 +1,51 @@
+router ocfRiven 192.240.123.2 42069 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGIARK3Vu/6G9KfJFL+3ozhP6orjNz31gDxHh+nJW1DgDAKAQAgBACTTD/+
+0l3G4vpjebd88fthEjst7Z2RyYTiw+LMjkbrtKZyoXtMO7jw/OCyU832PXSdg0Qs
+iK6E9HJ22k7vNDslC+AwesY42EgTrmBqad260oHg9+pPWeErgNpLX5zjIw8=
+-----END ED25519 CERT-----
+master-key-ed25519 k0w//tJdxuL6Y3m3fPH7YRI7Le2dkcmE4sPizI5G67Q
+platform Tor 0.2.9.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:44:23
+fingerprint 477F F679 12B5 65D4 EC78 D19A 3EE3 A231 E980 1883
+uptime 8689474
+bandwidth 1073741824 1073741824 654287
+extra-info-digest 476F44229C1846E477CC95EF86B7C9C9BD0F6FED gUfTi0mOXeHfNFAg/QjnQ4QdOfuFJNw1eIPAH73TksQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALD2MVOQYkR0EMBsl92MfKXzy8COyWDBrWflCtFqZ2d3dP/2EqFnWc1K
+ocgFtJHraEbWNceRA8vNbkGNwRg5/RFKfwXYNN+UqOvmanUpUPjBiHT6jNyX+5rN
+aMy794OhSGXL1gJSYjqAaLkqwnZDS6rQnrQkHi17EN948IuX9QR9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKduk61p0RTINNi2CWbIXtPLlhmvAqHKgAopYQIDFD5GEGRuyYvfQf6v
+xWHKhHObE+ccUXpgaoXAMNNo+SQd6EwUvomOT+RS+SwTQcUCyzhRjw+BjBif8znb
+4kPf5x1XHMXJo7q50jIEeREZiF9LHe6nHufvPpGnLQiCZ6ZUfuSdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+g4HkxAdDkIgIw/GGWmfaJUGlAB9c2eOfa8MxqxoatIeX4xGX4cxMPYxsXxa4uYj/
+qSqyEwEnCk7mL6zwGBkiqhroXVLSWNv+UrmJ7uyOYj/Ay/PnIOdHWfiHybfKey7K
+AWg4Cs03vsW3nESbnz1cJGqS3Y/uI04nP7iDmsxdCxk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAZNMP/7SXcbi+mN5t3zx+2ESOy3tnZHJhOLD4syORuu0AJsyqrDakvFG
+93/mrwF/ES7SPEr9pwc6asm0H/jbK2SZR8WRuWCMO/B0qxosAY2qDmShgBrKunyX
+88KnLQbGOgM=
+-----END ED25519 CERT-----
+family $BB236E0ECEACBBBD5607ED676C7363479A3B6FD0
+hidden-service-dir
+contact raven@fastmail.com.au
+ntor-onion-key zNG2e2Tjmrb0LfJHO6bkEiPt8iPq6CJ4kqatTP3SvRQ=
+reject *:*
+router-sig-ed25519 GssBu/hGYHPj/V/7S5ijCeG12Zr5rZ9kg2uwXH4QPySYj8MoBfOx/Xw7aKRdYtPX+ip89ndye0yC5QMTLfpyCQ
+router-signature
+-----BEGIN SIGNATURE-----
+OnrRHWs8FvZM8D9rlunvPa3paNa8dM9WR9MrrLf6kCs0s9SxkcSBkQxTJPb+i7FC
+Wlr3n9ssRXD0Rp0OK6sxboCfxDmQ473yrGxlLMuRT6+c1OYE7X+hnugM0LZ4R600
+X3EZ2Ka4EvHs1QB6FOVJMeSvF4h+sldDQLCKHPBRWA0=
+-----END SIGNATURE-----

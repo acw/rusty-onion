@@ -1,0 +1,51 @@
+router Dawid 176.31.120.215 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBLAZ3NIjN2mqSjYbzryMizCPVgnBBzKUqSqa3B7yZLm0UkAQAgBAArwLiE
+C5YbYZ5drJxqS8tsqcEYGGtipBVqM2CzuuqPTflJyXaz1hD7kM6J2X73yyNAmA7L
+EGCFtPPPJLPWJA3HmiTDs3oqZXzOrxDY0efYW71DphkkYAMqKj2mjqz90wc=
+-----END ED25519 CERT-----
+master-key-ed25519 K8C4hAuWG2GeXaycakvLbKnBGBhrYqQVajNgs7rqj00
+or-address [2001:41d0:8:3fd7::1]:9001
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 12:04:05
+fingerprint 7383 AFD3 2412 69E6 30DB 421A B79F 0E8C CD57 E90D
+uptime 4689538
+bandwidth 1073741824 1073741824 6219254
+extra-info-digest 48F0B013249DB5698BF003325A242560D0EF81FE j5ZnQa0pGz7j4pSwyK88hkO02+aMQdEWe8zQ83R80eE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMtgOMOex0/xKLXiGz6/E8NOsTfZ0g84Em6GGb8d01xcE4mQKHBgLBnH
+bWrbGtCNfv97v8VSp4uB4/9isWpaCUKTkz8Wpb/ipKQUPTrwW63+CGEJCU2HR02P
+ucxdUkuPcOCK3pRzBnLAR19AFWDydjOOkxddDpyqlPb0oQVzMEhNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMuyWIYQ93nToYZlpnib8BkbkvMDw9WKDnEmY3enlAImiTdeU/E9WuPM
+jL4uybYG2yxHTZnUZLl1pJS2vfHnvnEWtDDDtKfoZLgmm9SBIwrq8xvE6k+zJmKQ
+JakRACu2mSMIy0b3xc+81jeT8BJXnGBWp6yV31RWwxZbYSszztAdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+SWoXdT9LYTvFhSDe1A69pBoyJh1BIJfGz8RYYkLJE987wg0RMoJMLqplGVovEwCm
+FIV8YbcGzk/Sy6dtMViTA2ei0OF6exvsFtBcPFc31NSh+5fjBxY8ESopbaIu8bd5
+k2IHnO1l0OQkrcvTEnfYmkAFf+a6xPPuTCHxxQfOLPg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCFASvAuIQLlhthnl2snGpLy2ypwRgYa2KkFWozYLO66o9NAJC4vdlH5cpZ
+T4Obh9eUg1ZwRq3MzS7n/ozoYomwIQ6lc8ZL8HKzieUgJLsDMoTwwtn2T5yjjHTY
+DzZj5esPpgE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact dwodarski AT mail2tor DOT com
+ntor-onion-key CFPT9kK2/siLNEvtYA1cO4h3E3ACwTR9bdDr9MO/hSI=
+reject *:*
+router-sig-ed25519 a/nnGEcJ5AWcGf4nMOTX1n4xUvjRC/40GMx4j1AXDdYNl2wgHKBp0iJLjx/fQ0AKcRWFRmB9JCAnic9kFj34CQ
+router-signature
+-----BEGIN SIGNATURE-----
+ynEDilJ7Cz02b6s7Y/w4ejEPO/ly5qtuwfAZzh3dVX9debNnm/RjGTrdKRV0uBEX
+CSPdoOG/h8sXE/+wanYrAT6eCb67PvH8+VQ8m/06FtkmaSopUjkd/4HHUa5/srJQ
+egPLVmZQF4LIsUdWG7sfPiW0KPDnT66ytFyAY7U2l14=
+-----END SIGNATURE-----

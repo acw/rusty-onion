@@ -1,0 +1,51 @@
+router Linearbeschleuniger 93.205.164.70 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCiAda8L0IslmGxGIQxygLtAbSSnJWZblUFgP+dNBEl5QfFAQAgBADyd0f/
+dHuR4rgw1ab2j7US9CQFOqIBaNRxSEVkHyMLCKj1BT6KUxWwqu+VSFKSzOyjj/GF
+XYf0CpWyNLR0IuCmBSj2vsWW267P9igbehn0jmn8KmnJRKNCnbSIXfiLywE=
+-----END ED25519 CERT-----
+master-key-ed25519 8ndH/3R7keK4MNWm9o+1EvQkBTqiAWjUcUhFZB8jCwg
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:41:11
+fingerprint 28C1 F5A0 0561 6E09 7CD7 CBD5 4934 377D F8F9 58B2
+uptime 33946
+bandwidth 500000 1000000 627712
+extra-info-digest 942C167A66E0B1804D3B589EF05F51FE8272FABC adEqFinl8yqRzLYnDZj1RqNV/kVoPMbYvCU8YY20gSc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALz876vu1AiPGDrWikvnj3ECkddomstQN1uEu89EwhLlO7eA05OPPxQL
+mAmKD9s5FmbrVEImC26ujddusTxtXhD7WIWcTlwJGc87SsYyNQj0xjmrNPh/N6pj
+DhAJ6pohMGIc7EZ//WTJcNR4+yDxfWwO0Xz4JjjX3UMasCFaTDm5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMyGfr0O0cIuL0xFnbru5eObyiJqnPyU4+DEwaO0+mz0l4GffUkJGpNb
+iWiAkRBRFZ0By0AHYSD2C226bkVxhoCzG9Q0/E4+VmIWkTebvxx26zhyzTYS4/ES
+xJEkcMLaCy5BcaQchy2Bc0HEKTbpTIkOnkm5ZBrT/lqRFIgnfIrjAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ePqXrV9BzwpWLbNBflPT3BudRkqyCRgDQhkUNwj0hS7i8KZNk5Mb/R3i2kTzuPDH
+dBq6a6F59UOPeTPavdIOYBwZYKfegOmTHPPItBW+ZvIp0AEmdz60a7+6R6cThAx1
+fUdbLmkFJcm3LcZ3iW3lRT7C4qFC7oMmaKRAbiniSsw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAfJ3R/90e5HiuDDVpvaPtRL0JAU6ogFo1HFIRWQfIwsIAEx0f2m396cN
+TQ5NSra/R2WvdTGLprGWxLs1NxlvwbzCbKmAmFQBLI6cPn1VkRKYRyt1pfZRw+5p
+x8piCmk1xQ8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xF33B37A6 Peer Martens <linearbeschleuniger@ok.de>
+ntor-onion-key DYFmERT4HVm4bTLWMe7vKQoHe/F8WsrL+PghCSwUgWA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 y1j4t0E27rKfZXVbXzr0FEp/kES15Sq68zFf5S2lykw6tqAbZiLlQLJ5R4up06tyu9Nj2SV9+RxTuMrK8i3tCg
+router-signature
+-----BEGIN SIGNATURE-----
+PGjI4q4fxJJsiL0/lBfvUc6fYsK074qYBfsv03qmF1kuHYrTCk7KVaQl5MEjsoD6
+jsrKfpIZImtS/yB2j3xxXqCASRWGpLVjUa9BRLHUn4VbsINkB41qym+oxpwIzCu7
+ewc5BlyU9xWBkiH9QU43tF8qKZKfsmAGKCBHWAqshR0=
+-----END SIGNATURE-----

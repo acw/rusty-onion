@@ -1,0 +1,51 @@
+router FreedomWorthNuisanc 185.87.185.45 443 0 80
+platform Tor 0.2.5.14 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 17:16:11
+fingerprint 37A3 1558 67C5 B216 3BF5 72C9 8F89 21B8 84BC A4F4
+uptime 4213087
+bandwidth 67108864 134217728 11745414
+extra-info-digest B95C508C2A3585B297B6C62AAB2794EF902C0FBB
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALLX94xb3ET6Pa2yl7BX9nNqU102WTJib6Xra7+UJ1Gi78mzKDlzF335
+N44/TF9tUeA7M7GzxwL2qf34F8LS8qhZxAklEFTcBXLyQ3ss4djl1W4xkIP7ICZd
+gqhnmcSXbNrq+M4rX0R+h4EuFiNfk5kDzSQ3kkuwXzs3rmfN50G9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKN+tAFBkQ+okRheHfbVaPKPyXjsxvjtFeUttHGi8Gmxzlmvs9dFTd/U
+fsFJD3LCdKJ6ENVY8uQs2mA3vYK/N0dUKjK/XzcRpOzKnsbAo1CyFDPuklWr+s60
+pnzdeDQffOw/YQQ+FMqzfa/wmiEixEohiXEWflFwhcKy2mltYlO/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+family $BB2159383917EA9728E0F4AA199F64A3CDCF9A27
+hidden-service-dir
+contact Random Person <torbk AT xs4all dot nl>
+ntor-onion-key 1dKi44H60eFqtbBus3ptYpOD008tGli+pulZJIldaQI=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 185.87.185.45:*
+accept *:80
+accept *:53
+accept *:143
+accept *:443
+accept *:465
+accept *:587
+accept *:993
+accept *:5223
+accept *:6667
+accept *:6697
+accept *:8333
+accept *:11371
+reject *:*
+ipv6-policy accept 53,80,143,443,465,587,993,5223,6667,6697,8333,11371
+router-signature
+-----BEGIN SIGNATURE-----
+i/lpBI0rr8FPBZd3V2/4s3KcHyMqetN+5Xa3QQnQQxp5zWkgbqVnICN9+xotH05Q
+LF8458hWqZSnCKHAN2kDlmjNa20YNAx6Gnime3IWOxGWIpZig3HD9yGD1BUeK76d
+eU/BAGnwbUvkTJq3twVPeuvH/IHOK3stbqxLREXQMOw=
+-----END SIGNATURE-----

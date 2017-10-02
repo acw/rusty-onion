@@ -1,0 +1,53 @@
+router TARS 213.183.48.84 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDaAc5PXXhss2trf47MX9t5oqSfkXYFcufuxIwTzzCOROBjAQAgBAByxsqa
+qI/f9UAV/chxPPNKViYqvAdPe4vh3yI1gZqGIvUZ7OJSWCXNxiOER56eOH1dNPvW
+i3WFU4fwpGYwdeAfeab1KErzWIDNckG3oFLhebLy1ot7LxINcz4WZ5vQIgo=
+-----END ED25519 CERT-----
+master-key-ed25519 csbKmqiP3/VAFf3IcTzzSlYmKrwHT3uL4d8iNYGahiI
+or-address [2a06:f900:1:100::53b]:9001
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:15:20
+fingerprint F80F DE27 EFCB 3F6A 7B4E 2CC5 1713 3DBF FA78 BA2D
+uptime 702442
+bandwidth 5120000 7680000 0
+extra-info-digest 5C900D16AF2ED422AFACE80C5EB37218F7AD4B8A cN+TyB6Lenu2Vwl61hiv5r54FfgABoQeXOgpndTHWf4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALZ3dtnPtFvo6i0WnRMC0ME0MslwEG6fP9lASc08GwVWu/uhEtxO4KIC
+2VxUVhyQWTesVONjPjWK9BVeVMu4xezmrVynqeRbKiyZd+Y8lbwtCxkpn18jju3F
+k1iM2MDg3of8D/wpWU1g0arVQq7gkgJV3uR3UHqs+Q95mBKF3WHnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANoduCiYk3YK5so2OJ6jh+qK3m2GVKGVDszVMYphHzbbPb9HR6vHZD7m
+Ce3+uI80Sc/B9t0iaICrPHu90XPw7UGfQS6kOTN+akixD9V7KZZ12Ta6RPiVKCOv
+tHSFnFLHGXo4V1l2aLM29DTnB06Ss8PsFtGpDLGqA/6wl3qfxqm5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+O+zFfB1TLxb877d3LnnVGed9JaBiQI6/OYSzrLQ4EDQskYBO7bbgvhoZBlsc7dPG
+FJL4ppQRvg3QkTunVyPAmO4ZK6DbRnnmEl4CldlybV6jWm7PU4I8fWnXgg7AmeN2
+d2kPs0S00Nh4+ngC3bvm+es45pAySIX60JCmeXgnqGs=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmKGAXLGypqoj9/1QBX9yHE880pWJiq8B097i+HfIjWBmoYiAALpX37/rYHN
+Ts+FRNGEhG1ncoK7QQE/uhCQwEFB53eXSWt8NVa96oilJbB8e2pmCaZvtwE8F6Fo
+c40x4vW4Ewg=
+-----END ED25519 CERT-----
+family $3D7E274A87D9A89AF064C13D1EE4CA1F184F2600 $4FEE77AFFD157BBCF2D896AE417FBF647860466C
+hibernating 1
+hidden-service-dir
+contact noc =at= schokomil.ch
+ntor-onion-key v2LmrrjQJCFhNC3W9GDvRos/8dxq7g/4PfecpCgWCQU=
+reject *:*
+router-sig-ed25519 /1cwqQawVIbjAziUN+it+AUmPQ8nKxH7JruBGIGnj5x7E6W9ZMV9qsibj/gOPKrG5uchBPeErghqI9GER6OkDQ
+router-signature
+-----BEGIN SIGNATURE-----
+XQHwadR7o4cl5wTttY91eg/rjDuhbhfvIXfez3adVHvrx7DTZPdjO9kkAilC03vv
+gzedaG4qEFA3jExwK1fYgzE8bAF+lgrFM44ALtpzu4kJxYcFgPPGY6aCPFn5IwVu
+R9uHTR4FHHPpM1NwwshmfZif56/S0tYqOR2iFyrepYQ=
+-----END SIGNATURE-----

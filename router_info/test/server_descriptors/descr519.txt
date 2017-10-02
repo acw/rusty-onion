@@ -1,0 +1,30 @@
+router liberica 146.255.170.245 9001 0 9030
+platform Tor 0.2.6.0-alpha-dev on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 23:59:35
+fingerprint A831 F01F 02FB D4F4 591A 3272 7C61 4633 15C6 F9F2
+uptime 7220326
+bandwidth 2097152 2097152 2435980
+extra-info-digest 84C6F4ED7AF8ECC753144488116C750CE3550AF8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANI+pd7v39imsbVz+5c1MZtZXU+x+WhLnauYB+1NW/8gGG6x8u7O9PGT
+jy3tQJh3FgAneznENwacQsaFocjiWLYGoA2vV/3eqF1vKb/94ABWrDgmG+vZUXUl
+WRbi3ht2+fm/gK2fiyJMTqUvt2lxkknvf8MJ79kv/Hn69KutymsdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMpyT/nnHKhaIQsXXqQZbMIDJOq2+jVQeLgaYeVwBZIRhNFMR+R4V7Q6
+JoWiZtnTN1QKvwZ3IjWpsOaFXaOHrYHkeM8VCEp2GnOP5QVz9mYJcZ6HG0RMVogD
+uoypuBMnLjQ8jfIpezT5TMw4xEsUxImmpxNCXJQSxjmku0NDeXLFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact John Doe <jdoe@yopmail.com>
+ntor-onion-key JR1/XsJwZw0YscLATUAFOt96LY1kMkB+Tg077N7CQxs=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+JCAOQzzndeHTNmrN56+zfe5NIjfJrRxOuTQ4Y5efDV4ZC5XLP9kQZZJlHslgXNvo
+SO1ANWNIbE4q9Oxu5tAp7NwUVatk3YMN1N3i2QT94aOpDAeJnCNeTHdW1j0B3zOM
+84wb3xjd4HcsVDgiBihjoDEq4w71rdCh1wp3+jmPMM8=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router simplevps 192.211.49.217 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEEARKf3gCR8EF8EPxHRKYkpUZSPrQcbY9PO8cxuQhAf3SxAQAgBAD0o55s
+1+3FVwqvFBw81Aw/8x8xgsCuQsehf2t+oOmgss+Ny0b7w3ajxUSzfEtEU4w8zUA0
+hhDo/AWlZYxMb0qdU7uoxTZP3fP4YbN4DhThcAtm5RGBIE+/6Oa+23qD4QM=
+-----END ED25519 CERT-----
+master-key-ed25519 9KOebNftxVcKrxQcPNQMP/MfMYLArkLHoX9rfqDpoLI
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:00:23
+fingerprint 7C6C FE32 1242 9D07 4869 52B8 86DD 25FD 1D8F D219
+uptime 23
+bandwidth 104857600 104857600 3018627
+extra-info-digest 9D0FCEC278A6DCB74FE2674C48407898EDBE6239 X7ICe6M7xdwZHy/kSmiWSUHNJ/FrnHpVHeUs4llQfF4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALkQmsk+EnLYgeAOVmDhmJArYFNmUyYv1b97NWyKE6I5XSy154QxP9fs
+8ryw0aTBI1Zrao5iCkdr7Gf28uVMozc95dL40EsGPgjq5Rb0Iu1VAClwq5n+toz+
+Z2MWmpns7vTTD50g13aFl4NWbqmB5vKLWtKBzPy8gcsuBb3W/6YzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMl0HvBY34uBAzczqkn1G4IkoiU7u2NoelF7sNlcBhK1Dtoiv7E9PKd6
+TVqqZCrh0uaayCEZqvh3rd6mhVJQQCYJIkCzYNGCYPiFZmUp8YJVS8GmkUl52wyf
+iB3/atCyb9e4nSrrFNSOiHgpuyEDj8YYBEQ+wTCpk+37vxuM/6GxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+hz2DJP+HTfoe/Ehl4HHUr9dWCWuczfgnXPQJ8KSkVQYhbGTyeHznM7hz8SKBHLNK
+t1FQe3cHZedmYtDjGjf5Ajl7bJSNTKOsddlhe7fKdDXANbwfAQMZAzBpiuqWo5BJ
+a+eL6rqbDiNsKMO/swhOrtXzc/DYTyZuS545sz1VRzo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAfSjnmzX7cVXCq8UHDzUDD/zHzGCwK5Cx6F/a36g6aCyAIOR/InGqMDA
+xjBz9THaV7wSwCIOtCT8x8ZriMNET8pBMiMQvr+Ns4et8Dxv1cur9BKrTXGNH5PL
+DKmBA+gUcQE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Peron <chrisbdaemon+tor@gmail.com>
+ntor-onion-key JN6qZvk5NH3aflESaM2OgZMLRvEbuurq7QLAWMaf3zs=
+reject *:*
+router-sig-ed25519 Ol2iAM/KPjMZCrQtpRfw55IGi9S1ffe0PeoS0cLWRga1TnkcgT+kdZRZ0bflVeWnMuzTcbiNqGVBrjJonIjnBQ
+router-signature
+-----BEGIN SIGNATURE-----
+MCeFc0t6vb6etoqWKwZLqrVUelTxxdLvSGyZ4u3H2PcqxV3SR01u00bi0r+CY5pb
+jNoHrqdM3ymCDdW3bZMrGV5l3x3aTPs9aAMk9VOzGImvCNzZU5QwOm2Gv2zfO/fM
+VnNBhiuW/ZDq4i/yXzS+Acycbm1LUnMVZfxQTi67u7M=
+-----END SIGNATURE-----

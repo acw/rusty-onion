@@ -1,0 +1,57 @@
+router ageinghacker 82.221.139.190 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHFAbG1fT/UM/KUxLlpwF418g7NWrIQmfN2d8TG3OUSFadzAQAgBAD8aTcZ
+CF2GYBI090aNF412xY4cvWbZManigBy9XSZcok2uxirXT3aBh/k0zEj4v1FlzWKZ
+GF97hPWYZ1Dbfb156D38MN5HjLAleQPxfqLGolpAgaK+CuOuuOCnBiOqJQg=
+-----END ED25519 CERT-----
+master-key-ed25519 /Gk3GQhdhmASNPdGjReNdsWOHL1m2TGp4oAcvV0mXKI
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:01:21
+fingerprint 26AD 3C1C 18F1 CD2B 357A 33FA 7652 A906 DB13 A8CC
+uptime 12266181
+bandwidth 38912 76800 50234
+extra-info-digest 20F1BBCFD79845DD1E399E2E0F89597C357D6815 w28rcf/5syTlvjQZOAQVpUhNPuoGFmqYeKAIi8uTOJ8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMvkLL6x4NVeCARliMrSS51iZuQerfZDMs4kCKyG5/dkAAusLv7o7CN/
+ygBGPC19Y/xL2NiWqEPnZpYcSqVVBAck2A6AyacBGeWSjXyrHxWnaF8ao60Gk5Y3
+Go2ZACpzk9w03TWv4WvmUWGEBKEmxZ6r5dR3/FLuA5+yJDvguKKLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMyRa82GxRU/KXbxhMud5t6JdJvKR7gnmaFcfVJqO9d7d9vwYC0XN2pt
+3OTvuHuaO8CkoJjP+MK1mNkR+tEoAteAT3gb+NBAcDDFXYz+HA1g7KBowvzmSYUc
+uamxVJnRuY3LanMktnvK137RBZH6i6ya0CgPHhYS+WzTkq4MvI0FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+tfnv/QA/EsR7F9AnqoHKkSppze3u0F/Y1gNpLa3d/8hiRV9SY5xTv9jT5k115skt
+4IqFAnyaaD5O6CWPUrwmtTnZAu8U7YVIQEsujI0csvpYqifeUxGvCP3cSl4Z03gm
+Ku/X/e0kDRfDy8BG+dsyyRC1Su+1Q9b3K+3TkTboOgU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCNAfxpNxkIXYZgEjT3Ro0XjXbFjhy9ZtkxqeKAHL1dJlyiANnB7lzTiiew
+9gkmiTZzByIpXj95ezXJjJq0qhEqFdYpt2v6p3hr1mF/FmYnKppt/U71rnwjnPYB
+dC9nn5FeNAo=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Luca Saiu <positron AT gnu dot org>
+ntor-onion-key KB73UGR7Zr+eLwIUXMcpdwJPiqbf+JfhcjXLkVTh/Bw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 82.221.139.190:*
+accept *:*
+router-sig-ed25519 AlbFGIx0CHqzMyd85zZfv4S415GPQ+4bL1vWti6UZPpAeiK5jmRqvzGrJ+8CrmFS4a4+LMLWEhDcbsdwayNZCQ
+router-signature
+-----BEGIN SIGNATURE-----
+xK5cqkACpDA2LTIdjWFb/HWGv2fXqcG0PNk0akwg/LKfgmHdwLC71Pa0ROcIArvc
+2CrTOKtNQ2wuMYO6+NcZ+/5dObgBqooGg9y93QLHQjpJupM8fIK2hYf2SYww9hd7
++UL2k8U2wnfGMhclMhKXybJguG06ngplHw/nNzfsh/g=
+-----END SIGNATURE-----

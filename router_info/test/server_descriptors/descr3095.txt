@@ -1,0 +1,51 @@
+router IPonU1 37.59.102.148 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmDOAff8AOM4aLu3PwbeSxZ3P17W8CBkWzZa5ehS5Mwv3rBpAQAgBACTfbjS
+DeaMTZpLt+1CUt5EQ+CsUJUHPffTyaUgJd0NhHmcGjt7C5LwZ7+/YaXHokIIk6Wi
+LHWmxG9AoBAf8tNAe1OQHDFpD2sURBJQE7Rbi7YZPbPLG9eQL+1ycskO+wk=
+-----END ED25519 CERT-----
+master-key-ed25519 k3240g3mjE2aS7ftQlLeREPgrFCVBz3308mlICXdDYQ
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:30:23
+fingerprint B0CD 400A 49DE CB15 9B3C 120F 5098 A86E 3241 CD92
+uptime 1728219
+bandwidth 1073741824 1073741824 6893107
+extra-info-digest AA4789C96EADEF1585DE719E7D0A643B8E8F2A34 Vcb4i2nkgqXh33m4ar78COlPhxENBbUS4TWiriez2Os
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALmwnXoI0rSOGxVwTyi+CyD4PcMmTtxwaiOkFcOOIdzOiq8W6YAnXCub
+wnnrvBJPrzE+6UfXfENZUmLEv1TR84Ga3IlODVvQkIwX3rmxAFdgCCJSeXcAGmhc
+g2+7QVN87EKI0ba8NhdWcAXkhCFXK65aUGY8gaRcVXlfBXJk62sTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJqU+4rhvFNstJDGCRwDdzInWjlRUJVlv2bnlpdArkDTvJ/09K6IifJt
+vwXjNhF5eC1sqfEYYfWDsTZ3Se76muktuFqFn90GDMU7EwuhyjgRAYRnc9b2CI5d
+IcQkpwBE0cYAP6o8A9Mau5GY8qEnGBeNPsLygjiDCdIHtqqU4jMzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+DTKbMgPlEEQL+0VsDu29tIfa8vEftI8RcaPklKUysthRG2eyZVNmGIW9tcS1X+HJ
+xZ8Uao1aaJsgGpQbSIwOhUm2rr1phk2Igicn6jdboeUqhFQRbiwWUKYdjVf4Nehc
+ZdER45siZs3/srre4omeMzWi5Jo1qOxYT8w078mDhmQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAZN9uNIN5oxNmku37UJS3kRD4KxQlQc999PJpSAl3Q2EACk8l4CNLGp7
+g8l8QpN421nHAq2ANcgKBgzWc2wE02p50pwQf9JO0/OSfRNNFcc3XMFKqLb02Qgr
+KP2wbpUnLws=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact contact at iponu dot net
+ntor-onion-key ZZY0Exu2q09ibuKfg9RRYFo33rm8iAgV3tBDNuSNfHw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 F39zPUmEc7nmeor6FswamAQiulkOb9un11RrrGhDiurfHjA/XRYbgul5pHJYQH1hkTuxHJuSicXArJORfwsFAg
+router-signature
+-----BEGIN SIGNATURE-----
+UctQadSKiDmEJHf9vhknENs1UvJspMrU3MMOV+hr5PyDwedfzDdIdOj6nYlmk1zu
+6Pc7aKNos6TwHnD3CnTd4oXTHbazfcQ3uRAl4/ZfT8VvD2mT+DBXOkIg1qffletS
+Ljb6ALXXfx6mJigBMDoNMGqoNTmM1iBOrMPhln4/dxI=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router roskompozor 217.106.239.149 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIGAT/XK/R5XZ/OQKPZJEFxC+uMIQ9TS4gCdtNIi+1Rrra6AQAgBAAqxDVT
+NSkge0jPs+nLHsHMGb+oufJLdM/SygRpHt1KrJVbtTI1Orz8INCuuLYDFjSf6PKk
+ACdcFe7EXFTHrGJUzy6GZKtMYfSjyPoVmg7jfCLNshNsBRhWvdVLLLn3Ag8=
+-----END ED25519 CERT-----
+master-key-ed25519 KsQ1UzUpIHtIz7Ppyx7BzBm/qLnyS3TP0soEaR7dSqw
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:32:38
+fingerprint 775E 7C8C EEA5 0A76 8162 8109 57A4 DE2D 048E 6942
+uptime 348963
+bandwidth 5120000 10240000 108636
+extra-info-digest D6B81A483B207BF3093A8C039DA19804FFE642C2 BZ1wRFhQCI5sQPFH4vqCpKC/WzQv3Db57kBbWoX46Rs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANS4coHzCFu9azJ+2mNCWxBKakk3tGN+8Ml45nAryWj3gV6fAGt8mNkZ
+OZxv/rZn2ikfFrUS2KZlpteVcDdbydUBrf/TQBfmbsNYjg8Ewei89LeellvGY3fY
+pI+57iO35XX0Fy5RAiO/gbfTtUXIIs+KtiMD8rlgndzjOl2QIcbvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJ8N6m2aX/9tl4/56ePEB9DVNsp8MGwrBA/suDrNkUqQn5ao07rypoWo
+mHMK9OyAielSVqzM94qtZKCCPj1jPBat076VTcz7xA6yibwCpA3yv26nECNxEfIY
+zzJXHntglZhfrSPfm6w3pDuhbD34UtzqCZWd++7GGdF2RtyDCUARAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+jzC5x1csuObF2mDPUcT/lmz8QkGX0A8mBIvtoKqpyfCydL5ULFmt/+H/XEJgQmYj
+od7u9q/ZbdgDcQg6mXQbaJ4Y5/07Rm6Xz9Ymk5JGvxQTYYwLrXwpEwjydda1V23j
+t8YXo/X7Y03KzOmqZipnPPke1jFKtgdbgfOJYCGxgk0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCQASrENVM1KSB7SM+z6csewcwZv6i58kt0z9LKBGke3UqsANuHeY+gTP/D
+rUGCjTWGriNKoiWldcLb6q/YW91FKrok7euANIg4JbjFDD4UuyxPUe/1zcycFohT
+EnMIcmMebAg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact <konchok@protonmail.com>
+ntor-onion-key OQATmDZv0o5Hi2iZ1I6dlzZltstJKnHkt/5rpaF6+QA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ZEJ4LM6w86LA13guWJ7K3wSACIM77LL+q4R84i3MSAs0cGG/5jPyvjXv52Iuntj+SbRAgIL1xwHq+01649TzAw
+router-signature
+-----BEGIN SIGNATURE-----
+ECaCjNjMTiHjIF0sqVlqmXmvpJU9XI+bnxNP/E8jGacP6QxEWoOn4xktW85MiTzP
+rn3UmVArJX6HmDN6PEbNqXcFEJDm4ZOMXgwpSu1Qgd9k1b2rITdvXJDVh5EC/Jnr
+w4zytfQQ5pUowUcBMcTtaRLwYWVsUsIWoUAtCJfxvP8=
+-----END SIGNATURE-----

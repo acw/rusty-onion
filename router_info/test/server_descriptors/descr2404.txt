@@ -1,0 +1,51 @@
+router thorfred 31.16.123.34 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmE4AfLGm5nfMGBvRn7Neb1hvUspzwIvjRk62LkC1oeB8A6BAQAgBACzkJDp
+cuOWgTkvwvEvRabs7Dygn5zYprnrOctJL6S9nnAcMGFsQLNgNsVGPXv2keub3fRX
+g2kTQPTR1zE2g+NYPCRK7P+kyKHe1cpXIJABZKzBT6arn2mRgI3FRDLKSwA=
+-----END ED25519 CERT-----
+master-key-ed25519 s5CQ6XLjloE5L8LxL0Wm7Ow8oJ+c2Ka56znLSS+kvZ4
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:16:24
+fingerprint CA12 7B8A 56ED 045A 0F72 B8B7 E689 96BA D4ED 2727
+uptime 1299655
+bandwidth 1310720 2097152 889662
+extra-info-digest 94C27268CD655D798CFBC58910FA6C267BD9B176 jrKdvXO2sGDnl/8iCScMF/gw5H1nmdG7JFvu3od44wc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMZbr6VmV4IVB9b54nUr6s7d5E26OWUuUtJ+JERd2J1v5IxPOpTJaHgg
+MH7tHAKnBAsOPK1ZuaOOF5ZPgcDdNIinR1/TYPLsErvRfUWPi/XPqFJ9BHCZ46EE
+Wa5qsJsKcQHScdM4OjfYxhduNjsbfZFJsmI+DwA6a7ycr6EXTg7PAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM4TcoMYL1Vw9TB9K4cUpRj6ZOk8bsTxJbP5unvdqkFsletmtZUAdsGD
+o8g/MqjIktbcBhTUBGO1CGXppqCfUkJTQoCK/nx/EOqexlpOBqbL10RuMYWFDN0k
+xHGROfoWjpOCEC22amTRKqC7ffzprwHyiKA4aCQRQuYWqHTKm1ZBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+FonPSBVMm8Idz928HNzUMTziiXnwHJ+KAO1ZQYJjHdz3SG6PwUewT0WUmUoEyE5+
+8Vc6/G9k3bScR7GDDOhr3R7W+BF5OnnsjljyGgymOeScx+KU33NnCA8dkBvX/6aN
+0UtFRS3n0yaaw4pyNKBokhZLELo10rPCH89QYPLgEUk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCDAbOQkOly45aBOS/C8S9FpuzsPKCfnNimues5y0kvpL2eAK1vOw7jj7Y5
+wvD4avsxWZV69lRTVyok3fEZp1Rrk9V5M6DflXaJqGa3vT8StFDSi1WB4I5kBoZD
+4qC7fi16AQ8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact tmsffrt@gmail.com
+ntor-onion-key ZPLExjkwqw03TOwu+r9AdXy3Wjwuvn2a4Nj4J4lgAn0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 0v8R8voEdoKq0S1J7z/IMn5x0ixNL1gcPtoDy8AQhyHmvSkMkrHBR2RiU8CQs3fwrA6g7+PeMTnlKIqgoVwBDg
+router-signature
+-----BEGIN SIGNATURE-----
+B4I0K6d8JHM5RqlA1t/9ZeJCjfXsLl6hH9ik/L6a2vEHt+uBbXBTboR5b16fmmLY
+sKtnj5iedtVzxxJ9y9Me9Os6Y/PbXV/IzY0oMsq9FiJsFE9QIItZZYIt6BHH0c+U
+kJTvSbpy1cqlJDgCNhvZI6nX83A88b+HLPKLqvg2Y9s=
+-----END SIGNATURE-----

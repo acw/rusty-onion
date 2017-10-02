@@ -1,0 +1,51 @@
+router torx 46.28.207.69 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCiAd1FdsguqWe0Cdpj81+rSeUP0SG8Glan40Bkpp0cTCP5AQAgBAAANVqn
+IwChc4lUYzYxrFx36OD1kF1/bdh7VrZ8lZdEptEIDSIlKiFAtVwiyw2wzERJ3OSS
++FBJXRGODYzxTQ3Yos0iQVS8PoW0q2CLfukhwSAxk0Kzr5mQnr7KQekPJw4=
+-----END ED25519 CERT-----
+master-key-ed25519 ADVapyMAoXOJVGM2Maxcd+jg9ZBdf23Ye1a2fJWXRKY
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:11:45
+fingerprint 525B CFD8 CB2E E5F2 A014 65CB E6B3 2A76 054A B120
+uptime 1060038
+bandwidth 1073741824 1073741824 7185437
+extra-info-digest 7B873312141E96E20E7808D90892EB1B33A8809A SELwPsn9+biWvzp4EVDQxnOd1jkOF1/LC5uS91F7cqg
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMITu1QWffswzopjInWG65ZqbdZaDpL9yoK1S6kqn2uDBNO0uyVR5hmr
+xMDiqh6f9azae1cwRh9St6gGk10JHgA3hLVqDyVxIwvj/bEP6OMSaM78buJd2fSW
+3PV+mEDLumx34QqCX8LgfsC0255b3JmUs3DtpjyAafHTysAt80NtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANG9BLzc6D1bwYFxoXCMaBtuHqDmdG9dke0iSRp+nOx1jvHHlMqOlotn
++22g1dOF/zmfytkGw3WcyUWd7ehqAaqiUrizO97jP1xaFG0+U+T90o41jWcRYC+W
+4rOAMZe8Ebt87BkS5rV5/5JmVbggMV8kvkRUvpTv8lZrQeqZO6rNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+T3jwlTC4bWEEgw6SxftdytI7KbL4W89GSQy75rpmG+os2DisDjCPPiDiR2yIQDL3
+77crawGJvZ8TQIUuol6jbF0LyekurQvh45T7N/CSD2djlmVGXvmjC6iuXzDxWs3o
+rWrEwQXvgQv8PCcCRnkJce5+bTExiLxAMMzM2tIXxTA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAQA1WqcjAKFziVRjNjGsXHfo4PWQXX9t2HtWtnyVl0SmAGemF3X1G4PL
+xlo7LjZ3/M6GngdmFDJ/vfkRC21jivEVJ4XWq9dhJwevI9SM8p28ZzUcmSH39CUQ
+F/7WaPhPIgk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact k.odermatt AT gmx dot net
+ntor-onion-key D+EeGGNwiM/rXBOET52oAjfbUAzKEXe7HRVSZeE9ezc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 qoCVKnXlsMBsHbmDYz6+7zHRvFl56E6p+aI/F9cpqVAGh1nJsm27Pgw2/wjVh2ZRhyM4cXE4RQygJS5ceIWEBg
+router-signature
+-----BEGIN SIGNATURE-----
+LPFoxMVWVsfLFo/isy2y4jZM60Tcz9kZjU6xVQvlofKqeelREnMI7adekrMKsP0i
+Ocgh+anUapx4P/jrdPmaAd+aIFVRak5U/JW5ATUz3qw0fbR+KYRHrRzQTVvFng9H
+G0h/F6LPEiEZAzgavC7QlOyIjHqJ+AwG4juBxcW3rY8=
+-----END SIGNATURE-----

@@ -1,0 +1,50 @@
+router freetorwa 217.81.247.55 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJhAR3JMpV9znt1+nYxt0iqRXcLzR5QkKbiFjLuPqnldlDmAQAgBACZecDK
+0Jt5+cadxIMtdIsTbF5ArVroDxj1a8x57rj1tpntCwSDPzYuItUVm5SAYRCaxiTS
+JuI/ZIBLNPjLUAVUK6hH5jXtQCv1lJrYoQd1qkZAtAmXxPFy+5Mg7RsxsA0=
+-----END ED25519 CERT-----
+master-key-ed25519 mXnAytCbefnGncSDLXSLE2xeQK1a6A8Y9WvMee649bY
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:38:16
+fingerprint BEFE 97D5 DD00 CDE6 A9E2 E633 3458 B711 C742 0F6A
+uptime 801495
+bandwidth 102400 204800 123996
+extra-info-digest 8D775009F33DAC43902C8BF87A7FCB5CAFB4F63F s+PBjH+Ay5rfO0K5RQoOJJiOhPnC5zvWl2xu20bFCoU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALvZ4iKkdVnYrSolei2m3jUGVVYqvqKf472SOkJONm2NDE3Awq1I/LoO
+EFLn29AFHJjxKFtIx7b/8KOCp03vGQenRoC2RzaEI2FliHDZonnQSEO4G2ElP+TE
+LQb49ZYF6Qxo4CL2YBOaoEU66gsvltEKsJgTqzA3QXgGNEwza2WvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOdb/yWz6Sh3jFbJEN8MC425y8r4eNmGNTvMQmLSzm8l2DpaH04vnv/w
+xnmMeON1eoiONS/AlhSMNW2Nh+GA5SlRhdBbzw/4m0paUrHrqHbPhmSRADwwQ4IR
+A5QfeRKOz3VneiHa4wQH4yPBkj0EPSSSi1cOWEq2q0psN7uOvh6RAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Baw67LM2GLj0NMnFQAr/CSEgItCGRdCEJYAq2hePyPCFZpuDVrRhBs6dH0863UBc
+0Fd6mzWt5yrMR+ixTmSEoZFRI8eps/8GjSxC55fiw+sC3peowA8462o9UCWzZrVB
+KB+HJevSP2Mvcx4gkEr3ehFEYWCdffPQK/aEtnbGqck=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFAZl5wMrQm3n5xp3Egy10ixNsXkCtWugPGPVrzHnuuPW2ADZFWLFeW850
+LMgbV+ix2lgz1guAU9hp96vqJdZCGHUItrw5x0ILevmBcwmC4/eaDyslWuIw+5YU
+SXvUsQtMdAM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Lenard Pillemccoy <lenard dot pillemccoy AT googlemail dot com>
+ntor-onion-key 5T0J6SrkC0tWMQP7QbbMUodkYGJ8SpGIl6m1WQNYLHc=
+reject *:*
+router-sig-ed25519 Z2gb1N5dsTf7DWvL+4G1X6KNPY9GKrv+nU9afTk8Hd/f87npT+2tXt6GHPTRgXq98jmOeA5lByISsXVG3Nj/Dg
+router-signature
+-----BEGIN SIGNATURE-----
+BlbFl0wrhrsHoHFDzl5A2BjHI+h0Jydl89YJZqXlKR4W9fBvsQJp5S9/ZXFYmBDp
+9JDDajEsVpa5GjGLIG3+nhzvUq04OT56bAuZU/HFJ19Poz66FnI/sNEWTfA3ojEe
+mCChKSorfes5emKK7glpTiyyqX6853nWB/GG+XJNPwk=
+-----END SIGNATURE-----

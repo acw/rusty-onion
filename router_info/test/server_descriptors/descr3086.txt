@@ -1,0 +1,51 @@
+router wardsback 212.129.62.232 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIdAU2FVfh8k37am5gYRkbbZCQZYhYVuEXaLOidAxRs0KcTAQAgBAArq74b
+zCVBLtwxTVC47iuh5QeWPbsBstkzPtrVKuJOWSAgxcUtBlwsz4spRQ22exphL5Bz
+VbxkItiOD6Gw6uqsTAMRs0hET5rt77Rlbj/1c1naIZ0i/MfzSaeRJPbpbgw=
+-----END ED25519 CERT-----
+master-key-ed25519 K6u+G8wlQS7cMU1QuO4roeUHlj27AbLZMz7a1SriTlk
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 20:28:55
+fingerprint B143 D439 B72D 239A 419F 8DCE 07B8 A8EB 1B48 6FA7
+uptime 18478
+bandwidth 15728640 18874368 13969408
+extra-info-digest 807EF565A26EF38ABEE6D966FC54A310FA293D92 AycsJlg1PDFAUCWc3igFCK/ISgyZ331MMjj14dyHHoA
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMR50OikvdatjfUEQ6SAYHG4rvc1jciCeaUKTbiq54D9MPW4UbhhtGdi
+fctXVdW3YEJPq3hmQieBuHm+1iHngf2BtIEnAgSks4Oe1r8wiR6cmpXVIHDMjB+m
+QTGLQ4ajrTj/QoLB8mJ5NJSKSr3yInZlw+qwgt5N8dPG52fpJzXRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKa0RJUHKDgP4XnvTH4qwBvhXSZGwNWExlzSyoTwJHImi2MaGFYXlk/8
+PWqpmej1bvPzEFXgGPoVu/j26wQBPQhOF8ZXGnWQq9uMkdgSATghlqYRcos8yvzY
+t0z9LP/6pQkpaGyzt1hijLwYhNF21oy1pqtCGucnC4e3DnjoLZmvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Zp9y2BsLBi/MkpTzCcG5AHiIFVc2FvR6N4X5mJlqOxRupX7bPv4XJr6QV+5j367S
+fa8QuRDFgDfz9GC8muuVwpgKsGUxgs61zUFflmtGwR0u+Fo+iMtuT6xh8+JoL4J6
+7iTsv2IVVTcAZE7OAI8/CTQunNqQdVcRXIkPG1V883U=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCNASurvhvMJUEu3DFNULjuK6HlB5Y9uwGy2TM+2tUq4k5ZALOsf7PI/SAa
+87aOY+uBTPX0IxpKC63fKHzFmJfwoyv3Rt4+6nsMB8YEn8xovhTDmmWhV996qU8M
+NN6HVlZsowY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Fred CORNU <tor-admin AT wardsback DOT org> - zsa12ims5yekq09 - 16DwspUW6bvwYjw89bDaHHnSb5b1f1qG3s
+ntor-onion-key Phu+Uf3DjlizbKvjtHLIFSix/FVfA1+69wzT5lAumE8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 aokmarfz8BgDFLxakLH1bcp2F/74vyicdk+rSBU3NLHYSX31UgKVq131ia281o9TfQSVx84A2JuPv7QMOa1WDg
+router-signature
+-----BEGIN SIGNATURE-----
+HAcDxsHE+KZq5JeO6OBPXz+RzL05GfgAnp9inklWyMRSLnwguuaufJhJ/LrreVkZ
+/zIn4r9+yt4ghBMnLKmv+iQczPfJnoDKfZFtbLN6eYGqGtLUk9DnwASIm7yUfs6f
+tU4SENndJsPe6myGC8BoPHyfrZLiVuNPmUr9U0xci4k=
+-----END SIGNATURE-----

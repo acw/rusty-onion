@@ -1,0 +1,50 @@
+router idideditheconfig 83.212.105.144 8080 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAJAcHBsKGT8G+QWSKaeW7KAb8FzpOkRrBwozx+wHpyGUfmAQAgBAADTfDn
+c13wG8mWAjj0QOW0ih3kXiLnq11nZAIwqcjGWhOzRG1OLypvlLh49+K9M3lykDNX
+vAPRLZOBULjOl8stDpy/PNFuL2k/qzMPFDACdrW1RneRAh/+QPQ4EskEHg4=
+-----END ED25519 CERT-----
+master-key-ed25519 A03w53Nd8BvJlgI49EDltIod5F4i56tdZ2QCMKnIxlo
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 14:19:28
+fingerprint 62C4 02A7 475A 14C6 0EFC E678 9C66 E884 32B9 C155
+uptime 22198
+bandwidth 1024000 5120000 1532928
+extra-info-digest 679EE60C88F122D7EA5625BF75E1B089319DCEE8 Q6oXN+5b877Ae1bM1YSAZbuxU3IW8aGU4g1GRZy5QcE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPc61JkdvusHSSuHhto6WWiO5y0H4+9igx4GuOffeTlc+H3tNvS50tkN
+HPHDOtwG7asnLDILZ/eiafXElJPZr7ZbIV18Ui600iR+ZAx4ZIOeGWcTa7QWf1nx
+BdgpipZQZ4Wo9n3sLEyPtTmK4ZARkxGV2ppv/ZIQlFVC/hUbtVpbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOFrQRXrXi+UHPorXqYr89ujknJXd265j8qiYFxCfyBbl+uFjt14chPs
+5+p1eBQCljiyU/RE2fS8gtiDVG7vNnikVpV6W+iObW/MGvm1l132EcTblls5wciQ
+qK+Fy6uSMEMosUH8xHzTShg5ORR1hOK7CPtBtNpu7c1tH/ZJ0J5pAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+N3VyMoQ8FAr7JkLAW+AveRwD+7lEKQeEKKCQiGRx8NegovbcbA9q916zh4JXGaGN
+Lecm4CDOt2Xz3a1dtgPD/BUSrcmhjVvmMlohwqzwbrZ1pqtIN+2G/1hNPjFgeJ5R
+Vlk2HdBM6PutjVzm2SGGhDlYHRITWwfBJ65YBOpk4EQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCHAQNN8OdzXfAbyZYCOPRA5bSKHeReIuerXWdkAjCpyMZaAH+rH2WMuRow
+4vb/mHL+w8B/E8mTRNKahZBpkBjnqAjEk8KDXnbx49B5JWBDYkW53yzpn0k0waoG
+jEo4NSQmRwE=
+-----END ED25519 CERT-----
+hidden-service-dir
+ntor-onion-key 4VlDDDtOulM5EIcqzS5dh6isfEgaLAOdV+5FE6R9KVY=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 nzpfRWy0Zr5r/CB/DfS0jtbBFDcZdQMFgeJRzCbDWl+E5NjLmByOFEar7eRcvN9VnOZjZUNjdoWLl4xrs28/Dg
+router-signature
+-----BEGIN SIGNATURE-----
+BPddAU5SC27jSKzOjJj9WsvKn3Waz3QX23WdZaWiqaGp6+Z+7t5ZuTp07Rrw3fD1
+Wq4eLhAJtwFljHs3nVTYzjZWGjaaX+Ppv6LtrXpp0qvhSTGTe822+PgIGJ/SJo4M
+BAuXtEZXVntYJwA7L5VBQAjYvjx1jlmxzaTBSJ2jOy8=
+-----END SIGNATURE-----

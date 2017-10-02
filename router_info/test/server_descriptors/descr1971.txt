@@ -1,0 +1,51 @@
+router scholze 198.50.128.234 443 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmK5AVwdD2RMqBdzlAHRyy2qJW/CvftXWAjPljFNot6lMd43AQAgBABe6Jxn
+Xd+56XL6DkUhH9UGRsm/7NRiqErtoIOrJ6j4NEk8kKQR//jBBggIIIF/7XNHthX9
+BAf/b9JTYBSUqwnVz0SbL+ylWJVZBFII96bnaPiueA7z7WPwGkKnaCaQ/wc=
+-----END ED25519 CERT-----
+master-key-ed25519 XuicZ13fuely+g5FIR/VBkbJv+zUYqhK7aCDqyeo+DQ
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:46:15
+fingerprint 649F 84EF 77DB E122 4CBD 977D 5098 37A6 0EFD A6D9
+uptime 2
+bandwidth 1073741824 1073741824 0
+extra-info-digest 0846BE56495D64AC491F4C475DDFFC2350F4762C sDNpPJuiYA9uYKPBKPt1agM+Fw4V0MD1aRIeEf/Uw04
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN44oHK2PGLa2Os5HPKBQHbb8fPJ+ANQGeFSwASekzW5aVkeXEU6gQ+J
+wKBZENuuYVDVb2ulSuTtcWtAua21ZtRcphXjxomQXSzRO9hAf9OPeEcmzFx3VOBH
+KNAnOP9u6wBa1Kj21VldZR706SncubyYZh1te8yLOBXoTK8TddzvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPPUzISMLRQ35BA54qM89bntwllvuMjBOJdwzJKxmjA8Sj/1Nc2rqrlv
+zoEQZsh4Ay5zyqep6Ur+VJABf+/PFf3m+UJLbc7ZnEIYAmk37NUZM6OII9lX9YcR
+b/pb4fsV35ygRxXYBFMtYDIqv1mxTdcD4dFB8AJsIeWvUtS99AshAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+SBHGxt5OLoo6WLuZMhW8jG3U9tMN11aHkgYd4JnSjLNT4q/tw/EkxXHToq8PuvLx
+O5nh5jztaaeAKjGKjrBkeA/tuT0DlHMUofy8vct9pH21CKLYBCJMjCGo3XFYxbSG
+ZY7ZToS9/JQOv9qLMkoojyp9em/qxA6z3MNdxwcGijA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRAV7onGdd37npcvoORSEf1QZGyb/s1GKoSu2gg6snqPg0AFHAcMGkavw0
+2IvUDWM+XSx6y6Ddc3y6gmORdxzYX8OjrqAhPdToS3rO0tbOo38xAG61AhfxdkX0
+5WakIdcKnw8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact vkczn6kl(at)mail(dot)com
+ntor-onion-key cdXRKA8HYmY+VPqesRFhJPZl7Zx2GsgYcrC/rpoMoW0=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 TZYeaAEOfEhW5tDQGAJOYdmx7zIC3petLhhgSiSAF2YoQrdsB1OSWV1g/PHpGqd2YWLgua4QKLiwXIUNqgasAA
+router-signature
+-----BEGIN SIGNATURE-----
+GFsUZNHRQnAmvhjTiJiFFqWioiwohjGle63AQiH9iO2CLu3WAORpgZGpDfWuITqP
+ftTGdMraYCFRnsYOmKYb1uR/0gql7BxMrbbt/lbjKLG6JKeRbY6lhHI4Sl6E1q9L
+I+Yy5h9lSu+VjOMbi/p+C7BUGBwEqYm2hpSCmFK+zmc=
+-----END SIGNATURE-----

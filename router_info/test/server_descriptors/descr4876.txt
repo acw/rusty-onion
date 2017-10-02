@@ -1,0 +1,51 @@
+router libertynewsrelay 107.170.153.80 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmC6AcnBhMMbNiM6tg9lYWdqCGXyCb+yLGiRV5qSF63aLwRmAQAgBAD6WWkP
+7bDO4xjMFLgxjx8btatoAqmuy8p8b4b+127ltUGMnp5/WzJFu0X9QK/5QluFmJ+J
+YuQMme9EZkvVYzRUV62g03kKQzZS0nl6E7Z3bZKB00GqzVApUoK+q5m90Ag=
+-----END ED25519 CERT-----
+master-key-ed25519 +llpD+2wzuMYzBS4MY8fG7WraAKprsvKfG+G/tdu5bU
+platform Tor 0.2.8.11 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 03:56:24
+fingerprint 6E56 33BA 81D6 5D48 DE48 DA18 F730 9CA7 D19E 3CA2
+uptime 1048270
+bandwidth 1228800 2048000 1507900
+extra-info-digest 5C0964F62F803500783AB30BE63DA64C8BFDEE70 B7YSJa3gzC7AfKAU/7kbJDQiS/Lwhrvu160zdmQFEqc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMYi2PHHtUc5lyB7V06Ln26ToAFJCEjPMOVD/dpYyNPWyR7gPjP9KjYf
+eA+vkCbWfr/pI4CihTpNNbapDUxuY6SAuSAeskvnA3M8FLq9Y1rHN2BVnOw2pxwN
+pgqFQ4uf/a9L8fQoSbVSQ2Ki63hJHMJT1yuLqsYGbehba9pNXD4tAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALVoauxL2T53T1rWf1xU/TiNkeT9wCw6hVth/45gKqgf+qmHIkIdXfRb
+QnOUzhy/galOz1kxtxDkC/AkkBYtLKjchSKoSrWA1aWfaYfrgyYgmnHGwsHQU0K7
+m1YkB58YRaqsH6fPQHDGKiaQuvS8uRESOpHiezVljKYxJEpZL5CFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+wdrODlx0bb75R8MV7IupW8YxudEWhGrEipZV7tjm+d69w0yfKVERLTZ2g0XSA+9+
+ulP9zhyma684LoPHg62OvvNgJV3FEYe0iFqp7dNYVl3O8rHSCUufrEFXaZqPbTII
+dzVgXU5lktIMcPgS2arHn5Njxpgbj1n7opNyh3TwEHc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCUAfpZaQ/tsM7jGMwUuDGPHxu1q2gCqa7Lynxvhv7XbuW1AABc7lEH5IkY
+hE/OgU6vkYVzU1QDNYcLCFxE+a+VfaX9O0COhEryEt+cQJbnjrFPGgWyRBuWLZy+
+P7vJSyRyPgw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact LibertyNews <relay@libertynews.org>
+ntor-onion-key Ovk7QIrvUKCfStuxTTiva9XzO+EUZ01RbHIxOBcgI2s=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 /K3x/m1oCR/nR4A6qnAkFD/58fP5fwMoQ731vnsKUSC5M0l3MLmgq1QtBS3TGW6YpRKqZCP2VD/0fRI7MFSiBw
+router-signature
+-----BEGIN SIGNATURE-----
+hBbQFulCnIV17mCn6SK8CuULyjJLrPjgaZiPYgbCPw8B53IO4SGxPNcc3vCBMeR3
+1UWMcVmnG4B4qzoLWrhJMm77yUu7Y54OzLgXm2HPcBOUF3NmXTQR++4mkqA2tFze
+OfQTUg6CPizNSQpGYOqCjTiJU9SYQFTO342J/uKCK5w=
+-----END SIGNATURE-----

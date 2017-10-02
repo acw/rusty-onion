@@ -1,0 +1,51 @@
+router jubei 72.66.111.33 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBYAUsqUUZ8JwPYO1wtNr4/c044fXu/ShlBgiovlupmh/XuAQAgBAApH9Sx
+AzrRoWnzEUN/Ree+gnm1GHyb5ZnvdwIIAh8Mh83U+u3GrWjye19tyOFuYSJLrL7Z
+N1TljlHvIx2Qv9ZjTkGbIkNgETresfGzCI83LxMdNSoBRHkn0KJyCM1SWw4=
+-----END ED25519 CERT-----
+master-key-ed25519 KR/UsQM60aFp8xFDf0XnvoJ5tRh8m+WZ73cCCAIfDIc
+platform Tor 0.2.9.10 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:18:52
+fingerprint 6FC8 D3B1 5205 4906 417C B1EE 0642 2657 47C7 F689
+uptime 3581535
+bandwidth 20480000 30720000 5817200
+extra-info-digest 3FA8CD76341F6E1D4C3C06A05D7FE05B2DAEC11F dhjS75GHmBARJGAh6/5Np9ZujWfBnDgWTbPXZ1DVLJ8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJTqQ8fT39xPNnTPy+iab5xcHRvpJwHBC2knFm8dmaYYvWQXrWCQ7hdh
+juHSaCx+gAJiBImyyTqniMrUDmMHmdvNZy62IZf3UaXEINhekQNGu9Hp3o4gw7RU
+wI68GnpCysk1AJEbhHGJbdr3Rt28gVoi9hc08c876ZTUPpY3Uc1xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKmlt8WvcPnQ4iGTo515UKOiBBQDd+IhyY9NOTllDcEVesHNSOK5UFJX
+NjmQGqooq7kRXImCSpDje8qpHGQIyTjaw/AT1VgiqaYy6lXh/2Vk9IZ15Hmexb64
+eFNEkbXQNv1HgMVUVhdu2nmi1bFf9h3QKwdbiNQ7HUYpe5R1LNlfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+gZnYZPGNUrGJz7TmfIYcMOM0dIXYq/BOVAktajNMcptSfrnGNLFK4X+vPmGYsj49
+sjVTd4x5I0BtBpyPWbeGuYIchBW4NKvGe76qad4jWUhhw9VfsqNoMPWJvCGdHlOO
+Bp0hY15jj2p9YGIBNhajuk+fzavuZKr8VILvRfQAquY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCDASkf1LEDOtGhafMRQ39F576CebUYfJvlme93AggCHwyHAGiMI7zdExnZ
+MlYYYKmNQxvt5EtdUnOVD96GM15kmSnm4BAzvHIUyAtqfXbEf9XSc8Aw4y7ynTYg
+DTnsPRCUEQc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xDE54A0BA TOR Admin <jandrese@vt.edu>
+ntor-onion-key 5eP4Hq3K+i1cmif0AZklDDO3WzAeLnA2SjrBEsua+yE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 OYcrWOABlJhswBFwln6PR8Knch6C6lfMlFpPgB/Blq+4yQkXjY+PE5mD2GrItfmVirh28SXyWJMybMeZH8ujBA
+router-signature
+-----BEGIN SIGNATURE-----
+RuhIusfmGuF0wDqe0wSaR6Ve0RJV1bh1cmcpeb1rngd3+zmwcfgb57TNW+KjO6DZ
+ikh4wcxxQ2lsjpWuMnf0SPLHRs4D2XI0a6w+U17Uz1yn6Xr+LG3A3HorW6ZE8S0a
+0MtxHRAMRvTkVJbeqErQWhrDCeq7GcdDpI9g4kzwWNU=
+-----END SIGNATURE-----

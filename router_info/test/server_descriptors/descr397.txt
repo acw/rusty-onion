@@ -1,0 +1,51 @@
+router cytherea 141.105.67.58 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJUAcZTYtTPnDyeCzVDd+RFUK/S4Zwe31p01jSEl2hGstxzAQAgBABucTut
+GuSEV8lgbIVp3vVmGHcbPf/6KVJhV1u9w60FTy5S5HSBZ6BJUWrIcn1B95X40Puu
+kMhu6I2m1BZEwrtVVn/z7pfzAUG/c6qHhw7dvu51se+oGyNlh6PlAFZpGAQ=
+-----END ED25519 CERT-----
+master-key-ed25519 bnE7rRrkhFfJYGyFad71Zhh3Gz3/+ilSYVdbvcOtBU8
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:49:03
+fingerprint B15C 0071 EAF5 08AA EE29 DB9D 0760 7C84 AA2D DEB3
+uptime 352863
+bandwidth 1073741824 1073741824 3413129
+extra-info-digest 19960CF4D6CE157EFDD33C06E85D2F6D39D2DEE8 W7BBsEfwFNxNaYXLZqbQdPQoj/X52kPNjhNBZjNvq9A
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMlFKKVdEXVjqrvh6DWrwv/ezOBJde2wEf9xpr1N60PApAdOzuVuKj6B
+OlH8BWenJibFFgEbX8Rv8zVIalg0+8eNYbE0Cr3d7wL62rLdOij3fRcf+a/ianVd
+I+FBEj8HIOh+EiCBL1K8VTViWcQeh0Qqfu9uDzidv1X9RLW0nwf3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANEjInhKrni1LgW0L4ZiOVZocnrwSMZA2YB0c6SyD6qAxI0yk/rA/+da
+CGOU0O7fakywJbKKkrferoeQpLH0KEA1VfguCoSmjBK3eyX0vqAS6KnluAwICAoD
+Xs53a6mzqTz15xOoTKNTbaPRcmivGwb67mhaAleO2s4Twbp2Icw1AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+sAcxMN6loNJEE7o/98xIzaGhlqDUGq9UaEr+cSXmf4YnDQ/ho6BFBV55bmyD465w
+baJlULbwfLZq+4EZr+IiG9cdl4mYh2EMCTpEXzpXNgY0AC9XGik6LkK2Dhhs9gYJ
+1jokpmDjuGYdUh7OGngwzvOdpmYXwMj6YnLdadDVUxk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCOAW5xO60a5IRXyWBshWne9WYYdxs9//opUmFXW73DrQVPAPEgRrqeompB
+OMaGrE5lS1Y1xrGEx3+/6Fup4dJRpwD7vOuiTgAobPnDRRjo0nMg395bTixvR4GI
+J+mtcCJDcgc=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact pmayolove@juno.com
+ntor-onion-key R5Y+XvOvJF/g2ZTIpi/02nSUa25XuSI3gI4FLcDGKG8=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 a3ZzuonZEXAQMfHOHZlCuBQkF3VXA1BLDJezvy4oWAS5rpnGD1gJGR4J83qOw9htoXcDcENwrvXKatMk6i5hAg
+router-signature
+-----BEGIN SIGNATURE-----
+Q75b8xqj2HIPda4Pb2QAG9WUvzz5Djj6hXn8T56HtPQNkKZxfdNDLCApaUo7c6K9
+0l2NungQarnSWMi9vE3oLFvWyRzsUVvFsv9GactjDYuI5tRWyeHtNp7te01BND/f
+Ux46M0NTqJTK0M/L9l/M6yh0KQSRprUsZFiZG2aabKA=
+-----END SIGNATURE-----

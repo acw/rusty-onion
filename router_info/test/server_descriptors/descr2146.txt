@@ -1,0 +1,51 @@
+router pliptor00001 104.200.20.142 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEtAcq4OZc0rzeblHQrahinZljPJ/XFuDzX9CkRdWl99jtpAQAgBAD9HUOX
+NlryhKvAkbRhchHErGLbxRO2C8bx6IfQZgU45d1+c663W5zTuttQQHDHhfkEVHXL
+ZCcqnXU5mVCE8SSeR7HPwgueIokWqhewe4NAlKDehjqI2eJITzuW5HNzSgo=
+-----END ED25519 CERT-----
+master-key-ed25519 /R1DlzZa8oSrwJG0YXIRxKxi28UTtgvG8eiH0GYFOOU
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 12:08:57
+fingerprint D3AE 81A4 DC7D AF08 C254 99F5 B533 C716 3714 C9C4
+uptime 6464711
+bandwidth 2252800 5120000 2818373
+extra-info-digest 54801FED068EED0603EBB389937CD09BD748060E teVl0GOua00UfGPMIZP2vDSt/+ooEnO3vzbi4ITZesc
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKdmDuwmYTTA4GRjUnUCeJV8eX82Pdf9PmoqdatcR0Zl5cKnr3zJR5ap
+qGDiHuLpnY5a/RSea7lz/q4IfMSRo0ahi0vfQcmAY009qQ0Y7UohqymqqkFcgE75
+HpT9UIYoJdmn7SIR3WxdikrTiAHYSu6cahrjSDFADhRiStsrT6jxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMvCBa2F6FRmJ8SXXrkdO6bK+aA6eWRCxLG1KLu+695KLuZ8IueFJotH
+d7U1/XgZGhDeMZKVKAPomsHNgo+1UdrHUawxNykh++lIifLwUaNxIr9ukJKDH06r
+jQqLvZIf+kfWs35p4n0TvSKiTvdfYAcFinPCKAbojImOVkjjsYbZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Pt+aTiPi9RdD2IMUfaECclhLOK5Q7aMGBnihzuYP0K0rjSz3QFA0Y2/Ujipu0lJs
+3V0Fo3h4v8dLHGwWubBkiH6YTt7y67ozul+fd+qNXjKvrAAOC3DrMct8QLm1fhaH
+XKD0x4kHLOkgHn1AbMxa+oglR+rig6M8LTzo4Ox/pPU=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCFAf0dQ5c2WvKEq8CRtGFyEcSsYtvFE7YLxvHoh9BmBTjlAFEkCxz9S08t
+1u178dfxoOpZr8z2PRTwT01ZAYuBdnbNAKc5XHT0f6nrBiHyog3b17RuJMha17pv
+GCeMqkePigQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Plip Tor 00001 <mrjones+tor00001@plip.com>
+ntor-onion-key Hcv2lRUwt6XaSa9PtwRJNKrCDaPG4kUocuuwkkZ+/Rg=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 tnX1YGNjYWIzfRdbRw41WieugDqQXNkxU1Efd7rogvO8cq40E2HvgXSr3VXPQ5On5pFBAEBrM6Fdifs15jXbCg
+router-signature
+-----BEGIN SIGNATURE-----
+Fw4tOD9b+0KlqnYpzOAr6kQRwdC7Keor0LKjonTCq1G5OBijg/hKjkYeJjW08A4V
+NWw8bxEp+aBYbNrDh43AiAZwNM4r/TYGteAH0f8+0RTY2gihPUtMgbIUHDgmu2fB
+RKu/FQvikYFqiGNFbzS2fVEHHhM5D11lZhLiJ6TCBpA=
+-----END SIGNATURE-----

@@ -1,0 +1,53 @@
+router AMDmi3x1 185.125.217.66 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmHzATP7UtXwLtLhWd43tuUbZXkmGNJpjC0Fx+0qZyjOfsl/AQAgBABzhIYW
+TaCSNm9WqyUrL8p7eDI2MQup1OUns4hZbVuXAC/BuL1TcH1HeB61/VgdFnVZpVXa
+yZtL/GwveaDJqfWXMF7vmegbosCarsVfP7X7jA1hWNTfVtSd6a+deeg75AI=
+-----END ED25519 CERT-----
+master-key-ed25519 c4SGFk2gkjZvVqslKy/Ke3gyNjELqdTlJ7OIWW1blwA
+or-address [2a02:f680:1:1100::174]:9001
+platform Tor 0.3.0.10 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:49:15
+fingerprint 6B9D 8384 3DBD 686D BB80 6698 9BFC C903 03F6 7B05
+uptime 779521
+bandwidth 1073741824 1073741824 3866317
+extra-info-digest 64298F6AB2A3C3603D73F07A40B2DEBAC74A4085 b8znJiFmIyEVlJxD6Wyj1F7FprsszyS4qcY5mnzLq8s
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOZBgOJw5K55cvoUkv1eE/PuwVRmEbtGX/89g9pLwPkAgiC1WjyLN611
+bwL+HDHWoiyhRIYIKveFQNS2A2BccTo+r+FKywaYruUuim4OfWsgacerNBEH7ajt
+Nxk1OyFLRewwzoJs1sNMTfIZM3IGYWAoJjn/InCUyG5PvPrK9kIhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALRWusE8rGXIidii9o+fVxnGjxxqhjThIaRbSwKbLRFbNHAq1+B1vqsy
+I2bfPwbJuQzRWfcprn4yTriVFnJ4FCdg3cQxpihINcw5sSnU2W6aG4jBVGukzYr7
+TUl+OwusnHCU3NyeSne0lffL9mH2WwD9FMuRhSWjStNpnSxYfS+FAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+LMHVJKmL79jJqPS7nbXwBQ6xiunkrcertF1ZSHr+e8M6Ub/BbztoJVwafytn0Qy4
+uhYlvklIIzccHRfSfgci0SWpZvukjRad2ONxItsdcauAD1AtuRJIDoZHvEQq96W/
+8Zk6AvFcVWl41W234pk8ze20V06xA99OVzdyHC8GwBY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAXOEhhZNoJI2b1arJSsvynt4MjYxC6nU5SeziFltW5cAADBabE6lVnqe
+1Aud1Z4Dt/eTqNQTXm3xX9OltAl2xPM8GDOg55AkcFfpRqZDjWOxto+ajCji2wpe
+vekQGxXcDww=
+-----END ED25519 CERT-----
+family $3DF78E1FB4AE1351F22956088C4195271D07603E
+hidden-service-dir
+contact Dmitry Marakasov <amdmi3@amdmi3.ru> 18VStbunQFuU5uHaWtSUXpAC9SDxA2KyQF
+ntor-onion-key duEjtTd52l2xh4rsPRvBbOP8ToXbRJvpRUHSzLaItDA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 BlQeqsGBseJHrfxJ18uuRbap63FX3fKmn0yNYyviRGcbnxy9L3+cLJDrY0NWwqlc2Z2ydfIf6dG+1+3whrJDBQ
+router-signature
+-----BEGIN SIGNATURE-----
+MRJaKjHI83Mfm9+0Za54nvGIqo0wwBKHh+qVqFHMpYFLc86FQiy8tqL0pLFgHSLz
+S9MFRxg7rmgsho2iig2DFgANWNzfFMH+J3T86qbK80ceqDAi5KHPiSOEIXpWavmo
+akfnVAR+U5+Hwfo6Bizry0ulD18PkARFp0B2aLaif+A=
+-----END SIGNATURE-----

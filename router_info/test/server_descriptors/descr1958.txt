@@ -1,0 +1,51 @@
+router malene 185.73.220.8 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmG2Aa45Kd35F8iX+WWpHFDUAvrclv5PsmMCSpgq+bplW6bHAQAgBABGjMrK
+SIVmkNASJ9RyhGal8yhu+wHKGERd9B+htpeAjxni1eGqxcTikSgD5KSn/r33xs9m
+PNuOcgI4C2seN2dgf6bVwrjKJAtaswClZrkUX8aAGXtIC/vtF//L2dyCWwg=
+-----END ED25519 CERT-----
+master-key-ed25519 RozKykiFZpDQEifUcoRmpfMobvsByhhEXfQfobaXgI8
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 19:36:03
+fingerprint DAC8 25BB F05D 678A BDEA 1C30 86E8 D99C F0BB F112
+uptime 1131270
+bandwidth 13107200 1073741824 19395782
+extra-info-digest 9B8E6F5F3209CDDEABDBB04E1C5A21AD227EF849 B1x28FTYiwW/EonBrpr45qVZdQH9xs4NHW2XZ2RT5+k
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKvM1FgSw3Mdf4TavuuAmyQ4/Q5/moL55UfuZyNqUKJEBmhcHGbjuGeI
+gZSQNrvn3dluU3DvYMqzNAB0YCQhZsHnfNnjAg2EnibynNt93jxXkI5LSMNVgQe+
+QLxKoYxWAhrq5vDNWz+425cJVaXLnqVIQ1KWAqB0u87x0E1jF1ZvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL0wnVcuHdWHTJLELNR8Br3zWXVXv1zLQjXkDBNkhAmbNEIYIns5nnV2
+Rtxw8xPATL5h93AdIMrAWwiVVPGpAObvzJ7vEgExCXrebaLlNA3a96ObMf3kzWk1
+6MC3VN7RLW58WzY73+Z4nRGB+4Lso2UvxBMdY2xFpXCG6xb4a78ZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+USus0JQzLfA9jgLUiy6q9O87crN17JwHVRbidpcx8Ll+im/Dd4UP6AlOMYuYJ+q5
+pCycy1F26YodVjGXn2UyiFvw+V7zdmWaTcurYZm9U6ebfqYzrATDQBlBA9MRPJZ4
+bbpGUVpi8aHBeUlo1y/6VIDZQHnWkEX6AKpA81cuddc=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCMAUaMyspIhWaQ0BIn1HKEZqXzKG77AcoYRF30H6G2l4CPALrxA7otYamV
+yaHL6+3a5pf7cBrFPsmU+vtmEIROC/TAN5+W30Evq9YIxLrXEuW2jNTBavEVneB/
+io8lOt0LxQ0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact mandalorian.outpost.222@yandex DOT com
+ntor-onion-key IUwfmyJacI0hEi7WrX14CbxRDY7wCgYFmUVShH/TghM=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 3sUFlBjLx8hqhHzhJIJIp6Z9JIMdgEpMQ3PUsk/Z6nQJrOA1j357mNNNfZyOBJk/L+PvrfL1qB7xARezNNsJBg
+router-signature
+-----BEGIN SIGNATURE-----
+aZkaybmvjnhUxAuMkg1hJ0OhPrhTh4aoKWfudQs4B13qEsRzLu3EdjRVZ6mqW0DE
+iCYEsIZ9W8LTvE3GEL+bzrvTYrPaM+YC6TzevsnwUfbShVtNsCWMArTLnLfJ5e7M
+vxhcjV1t+/iWkB6h6AEmwbtdnEBXjUFYTJink3fKzPA=
+-----END SIGNATURE-----

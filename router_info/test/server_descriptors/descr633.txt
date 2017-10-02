@@ -1,0 +1,50 @@
+router bonnbox 212.201.68.90 22 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFSARrSTc04KJbHkJmx+kFePJyxb/tXPv+i76gW76v6jKJeAQAgBACi+lXg
+hYXkeADbm7v63OjAbjkM1QHJaziMvBvYpXrFvBbrZ5bZE75H15GHaBsmnSkr2mmq
+s6DWQrc1e0gqgc1rb0m7S0fmDH9WZV4EHKZngDVaO1+v9oMjWNh8jf08pwc=
+-----END ED25519 CERT-----
+master-key-ed25519 ovpV4IWF5HgA25u7+tzowG45DNUByWs4jLwb2KV6xbw
+platform Tor 0.3.0.8 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:40:50
+fingerprint A23A 5107 7A88 6460 C857 F745 B5AC E027 9C46 2ADB
+uptime 126370
+bandwidth 1048576 2097152 1205274
+extra-info-digest A7AE38E277F83EF5B9A97D92870BE1710C663550 8mWS2ojMcagKlAIDCG3s78MnUCwG77NbHmL4/CLhq18
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN1//qwbKl/bbVnTwjq0kldSr5tYz8Vt+ZSXghFgF3mhXmf57QIEWi6S
+FRfhd+K6NxcG9cscKOWN3T93QkfAdzzdXmNYf0z+mSXbCgnwjmYZuGVmHlM4WRlF
+tJPnn0fX2VLqUnkaEE7Pb1r93IgXpIoRtfrptcf01gLOavl0jMN9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM5eQs0upiB7mpQgXmg7X012re/f7X576tS2YAW+t5SeAW0jhNViXaow
+ECnjyoRWQPfG7HyMpQCHGrZT13Oh/LF/m0y2SjsypWmncbiCEXMUVFb0cRBqfq3Q
+obVSY8s4oooMfFyVOOIkaIGCfoCUma3UFbTBMEaemz64ShvbocdPAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+K5+hKc0lP9rXHeMz/a+Sp+JxalakE1lZ2jq0AG8D3TqoE3dQICwgC1bfT0tpSl8j
+M07lFzcYKs4Dkh5IsyzRXJ8+WVygiU2vXyAkv03AMW8m0A5eDz/S49dJeMzIodjp
+dhwWUU4lHZsV5PYESJXdM/mlhNH1evhAHJz/NzzOaZM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAaL6VeCFheR4ANubu/rc6MBuOQzVAclrOIy8G9ilesW8AN0KNDjfNFS3
+6+Niw+QM+3YE2TkxmY/I5V3orocciyuBtcYJQ4n2MvR3H5zbuA9ZHjFkvbdvMLyv
+zUBhsiz79AI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xEB7FDC29 Malte <bonnbox AT uni-bonn DOT de>
+ntor-onion-key dPX8UxuGNGMGrdsi4ipRjL3g5pBEEWA1Gx1PtWRuA0g=
+reject *:*
+router-sig-ed25519 2ywuaoiw+hTF2jeypdcuM2qgv745wLhYiICwWeKrXyClBXgfTLJZZQHCUGuTSlpDNkWJ1mzq7085tgtamsv+Aw
+router-signature
+-----BEGIN SIGNATURE-----
+B1wTW84PxdGwwNDR6Qkp2M9zzKq+QvoObpqvOR7tL6DRzAjIIxXeGikZ5AsTJcoC
+vAB52cWjvcJhnCDfIgFEek+8HEq3UTbbokgzEFsIEsUg2jyP3f2TL8A6ySxMIEKJ
+QNSVchYT7piCY8YktRU9XTuDAA9wvMXtv6YqMhr/7i4=
+-----END SIGNATURE-----

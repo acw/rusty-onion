@@ -1,0 +1,51 @@
+router Freeway11 104.192.5.248 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmEoAUEUZX5PKfVG6k6gJuwUkmUtRdz5jCFAlyP3763kOHgzAQAgBAC7FsgU
+9fZGd3zJjWeBcdd0MdxKGIs21oRAotTRcPaSTmKnKFusfGRAiLRAR0KZuS/3kFDM
+hDhZ+lxBJXPqLXTfoaB4qKmw83tzq9tVH8K9j+pDtOWxEtdYlbLmmBKShQY=
+-----END ED25519 CERT-----
+master-key-ed25519 uxbIFPX2Rnd8yY1ngXHXdDHcShiLNtaEQKLU0XD2kk4
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 13:38:48
+fingerprint BF73 5F66 9481 EE1C CC34 8F07 3155 1C93 3D1E 2278
+uptime 380822
+bandwidth 1073741824 1073741824 4043687
+extra-info-digest CA87E96683413D15640C3A49F9CB11C4380CE4C6 nr6qHQWrc1cNmPs0GDlzqWGWbqWWBlKnoVPLx6LZsKs
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKpRqzqb7C/5Mkye6j98f2eiASX93ZDPWb3umHQ70y2xl8Q0/PzQyY9w
+tHvsh3P1vu3pZYHFDbQnn/Zly6v7cDTZlfwGDbvqq1ukxdpSv5PlgfQJsjAuwYtH
+ZwQSCJUfZ5hLGRKirOa3D5Dt4hC81/O+VRsegevFFW7fehzqirNBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL616s5ppBHxi82GYGYLBxLqgxlDlaA6UYnAs9bTtOJT33DOc07VwcIS
+hgYJiloj9a8CiF6kmuuHIB6qCUPt1GrcQXQRt6XJ5TcE3fcfaOmZYUc5cqygYVFR
+XFdeFviakFbBL5V2TJUV3tca99rlIcD5oZqo/afqdkQn1JtPNRU/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+YaMCQLgxlmKgOTF/vpL17p88GCNLw587S5ldboLU/Mzq3mKtQ0XJwfjpMeo1A63C
+c7ggMM2AHW895pWGmVKj6L0Zet4MGYipL7ZxyP1n4MMZwUS2XYWy47V6XLgEtlZu
+3u6T9U9VqTwFW6rib8dH9FfuuaWYV426IMroGtcl7Bw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCGAbsWyBT19kZ3fMmNZ4Fx13Qx3EoYizbWhECi1NFw9pJOAP8MbF1FEpvP
+/R2EsNrRoWmnxwpte1M/okjrGqoTLBH/PXtuWIDDpPyEQ4HzjnY5s6B6unGk9YoV
+g+wYTCnJTAA=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact alienpup@gmail.com
+ntor-onion-key 7pnsX3a6DgayBdAtAVCNHW+VN5hhSSrviU2MxTI8qTk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 TRQACbkZgEPrFJCYM36fS+HnE4yOTQ+vwWkoEdMVVg3QGFhaNteSJ8QWNY1y0qE4aaYk2Jj46BYjojmtRefICA
+router-signature
+-----BEGIN SIGNATURE-----
+SsIa0jiYWjkpmvt+JChxgTbKQT0VdvhjsiQ4vAxsKTgEKsBNDJKAhjtb+kUB3Nac
+YCDxf5lYoWi9/R5JeLARo7KQrN/YOOBWwHMJ0hOpEv9XeLOvuGTH2gnVdVykBI3N
+z5YcRJgjA080Dvo0DdFtOvsfx0++QS3pZN27FUm9EGY=
+-----END SIGNATURE-----

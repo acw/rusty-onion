@@ -1,0 +1,39 @@
+router LETSTORIRC 23.95.113.5 9001 0 9030
+platform Tor 0.2.5.12 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 16:58:37
+fingerprint 47C7 B361 9DCD F9A3 36E1 351B C8A8 AF8A D1AB 2EB4
+uptime 3707458
+bandwidth 51200 102400 62215
+extra-info-digest 20DC92D1C22A1B64C972C7AF365DC59734403195
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM4661hJ5JHWeJRpPYzhyV3I4D7BiVzF+Imwf9DtS48x80IHPKtvtkZ4
+3VZPt5Qs9cCNlbettWGtINSXEkqNFszV7RqbaAXXZKe5laisA4lbAJLJP6jB8FDb
+SpAcdQQN98QQO1pvm0CAL71ZlnfzPPcBsYjzUKvhRwUEGHo2ufdTAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALaWX7pQKxSNPfxdwmjrUlWE3xKzjkC/pE8xe8CuZD9EwvR14rJ8V8dd
+pCTkZAYMwNbmpLFrFUv9s6LhnJUuR8G7FQlIy/YiE7zh7V6mI0Lpd9ugZjmFAGbs
+wr3xGFML5QVlNsIJIFCiG5LXn4Ef/t1+oscIb0yZO83VYUaY9mKnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Random Person <root AT letstalkcoding dot net>
+ntor-onion-key Qxm+JnlG8aPZbhaAvbrLJrUVnac6pbAQ9RJCKrDPbS4=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 23.95.113.5:*
+accept *:6697
+accept *:6667
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+ZEbbauOGQKGcxlrAjHI30WLojJKk9rgsnPfmSH9vHflL3I/Etnls0eV6GZy5Hq8v
+NF4Z9OP8AUUHCP1fqvbqhA0w3Zc0oqDClVeS2IX7hTCGpkE+EFecL3oeqNKXCp75
+KjxijMa0DX4Fswp6Dfd63dp5NTqRUg6gsrY3fbji2x4=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router nt892 176.9.156.71 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIhAbFBf3DqrvhwfWQNZ7odomOqOe4vumkazDQ0/A1DNufZAQAgBACbqpF3
+RKJnjqag1Y6lfhWhqUlZz3sBF4KFg8QUD5AkqASRWLCa7W8BR8JmhXffyAjuoXUz
+aYCo/aoP6S10rJUrBpUgaziY7BmL3D/2ck11OULBFXfgEGH++/NVEQcapwg=
+-----END ED25519 CERT-----
+master-key-ed25519 m6qRd0SiZ46moNWOpX4VoalJWc97AReChYPEFA+QJKg
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:40:12
+fingerprint 4EEE 44AE 922B 30D0 EDA0 6ABA 1BD9 24CB 43E8 083E
+uptime 1196390
+bandwidth 2048000 4096000 2616893
+extra-info-digest 9C31CF4F485FA97F5768238F08F0E25E1E9C8F46 SgglYONDgBRHYn9XVOHBtGqUy+wECWRdFUkKu4sF7KQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALdv0CptMK6BUJOlQj5iia0jG3Cz91IX5n4lNdAHoWRg5kB09knL16d0
+A/RVUyABKPHPUplr0fP/ZKSUfCc060d2O3fNl84pBwL9kkIxUw8fUgoRLlEJ0A1T
+7RJ3pew0I1BD8ShAcJGe5k/luqDYtFIVz8CLrrqgz4h8ou0RopujAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALFcPmG+bIpWOw89cmdXCT6S5QWw/ywyqOvdkh3v2lQAM9kTd/8NbP3F
+Ww1JYni0SHFGu9csTkwX3b7J12I+r953j2CYFqUVHhzaEBUshFlVPS8qAuuxiwjY
+/+2XFGFNjb8uFoccjQBnF4POa/edW5cJ9wmLt8VICo/U4CwVa6l5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+kIxrUOBYRDi5VhFt6kFKF1pE4EcOvWRL1mGoiXtIGoedHc9SyLsrytqNTfQCUfM6
+EzYVtVzs2dPi01rCia9Og2ZyutLyi3yThos8H581lnh55zrM6JyJrGo80Ci9xNMB
+jfhDkLpWldtHeGD8leeitKxVhYZQix8sd93ZT8fVKps=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAZuqkXdEomeOpqDVjqV+FaGpSVnPewEXgoWDxBQPkCSoAHmOqUDsG28+
+VmFrdbOMe8NqLFR5pc4IwfrvqCCXevjGh441TipmjASEzsu9+Z01rNPU0upscIKU
+ORrjleeKWQY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact nt892@vtyulb.ru
+ntor-onion-key 4XTGa+NEXNd2X0OTH01Rp/naci37/9PFWYfRtSvj0FQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 NbvY1CTnlOXsjLnIywzPftFNr1PIEsZkzztPmRVr1trAO3adOAXsjv3NE31HgsxE2aI46wWGVW28TgefysJLBA
+router-signature
+-----BEGIN SIGNATURE-----
+jFAogP/j5yxnWli5JZD5IcwbxAkT8HLTozhzJX6vudrfcTOUpUHbfYN+N0jsv71e
+87k/K3luALjVkjxCKvx2gZUK6NjwCzQOLxBw/RlPp3dAqI0GrFOCdvu78LOFazct
+hTk5XGBPUJ9ZQFksn7X76AN+HsFftu90H8crUAmPrkc=
+-----END SIGNATURE-----

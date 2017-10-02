@@ -1,0 +1,51 @@
+router daedalus 217.11.57.226 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI0AZh6BliTSPAxmaYcnXyYCIxGw/BXmvSxMSjQZpHCg+XzAQAgBABYdoj/
+USd4LIAuxQnn9jEYq2955RrHRpMcCjT0QSLHCM1lRaR1rxDA3eEuhGtZGdbZ5vOs
+fp5fEALeP9HWvP89zUciuryksfZ8rV5b0fA4YMPcw/rKIrKQqB2+s/Neaw0=
+-----END ED25519 CERT-----
+master-key-ed25519 WHaI/1EneCyALsUJ5/YxGKtveeUax0aTHAo09EEixwg
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 03:27:10
+fingerprint F6B7 CB63 AB50 EB69 6027 ED11 5C94 A4D3 0621 E95D
+uptime 1265234
+bandwidth 102400 204800 122448
+extra-info-digest EEBDE1660F92AA448E1573CD1ED185F164E8D284 NRvwApCTa5f1ZRTypddLQ3NouVSgnqsidCwRNPplgVU
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANibZzJ2uQl3lZXV+uJWVHfWQNlCc4M/ZWJw7YWSs42cPPaKlc126Pp+
+fpPvLOWiwfa6lIRX3TFCcCXdyWxiC0/IXpMXXGNgyDhdhN3YgHV1YS2l+JqOzAgF
+dPKUfkaMKF8HLU2ArnfFTrTWdnqxqslG+l+UNo/NoKHKWG6yIDiVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL+UVvSlHSpCpgcW62LLefEjD5LrbEMDFf3+5L2U824SxR+6Wm3/pQ/N
+F31ujTVwHvKbWRPR971tA+8f9LwqL2D4D51NWIul6a5p8V2h2rOsOM0DoV/JKLc5
+o1MZPd+NiGwBy0ah8BjScswBNbCNXKaRVfCxcsKH3zRuE/iQMJ6VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+AjlK4y8l8FJAdOVMa27ezwyhLQ9arRILe2paI+p1U8HK55Ns6hqKGru52FinD1jo
+BVqGNRAsYiVxbmxIMn/LS7kAzTR+1how9gjeQMSWgEZNYY/f5pDJHQA3uv8BykB6
+oPCe3VuhFro7fr9h/MJ3fETF30Sajuj8ehne5bWy5gk=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCUAVh2iP9RJ3gsgC7FCef2MRirb3nlGsdGkxwKNPRBIscIAM/XqyDfbA0Z
+JDKgGwaRcxn0Y9F4WJHWMQXD4VPGpk+EgWMG91nVmazljGm3oMIDp1htdjwMgfMM
+I9aF+otVQA4=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Andi Mery <besn AT besn dot at>
+ntor-onion-key rRk/97VKII/xPTwDNNlkuOjP8VEhyrUYisYeYbRq92U=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 8YJ7u12D1LQX9fSXvdkTl5TuCxidHLgIOJVGLC8NTjFftG4GiOpiq9q/AqWgokWNCRrFlpJnzr/8AJdImCdlBw
+router-signature
+-----BEGIN SIGNATURE-----
+bYMXR7fEdEENwK+Toz8AQJ2DvR+T2J+6+rKzge0UlIZHHOrvHXbdMXNlKN5evE2G
+HscheSxsCSM6OhMHzDkHrDWKSSToKG6tSyRy85p24gGFIuMhayoYsjqt3dwmxEnL
+72uVSO6skD4cYrEptG5iastCtuM+KQFEW26+9fk4IKM=
+-----END SIGNATURE-----

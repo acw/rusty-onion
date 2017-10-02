@@ -1,0 +1,51 @@
+router rs1 37.35.107.238 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmI4AfCHwg9sRAtwLso1k6TX1fRf4e5CUcKEEg6qYoAjmuelAQAgBADz35wn
+MbCT4CZpMGiE9hUB5jqPjj/o/e4bqcLBpU1fKHgoYlbZWFZZNH9c+UUQkpfFvISl
+9uV+zXabgyVmfz3i3/v287dhWsQCNFFeHSAd0+G/KEmkzFcwdAq4FKRrvQo=
+-----END ED25519 CERT-----
+master-key-ed25519 89+cJzGwk+AmaTBohPYVAeY6j44/6P3uG6nCwaVNXyg
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:45:41
+fingerprint 9434 94B3 8CF7 4FBD D31D 26D9 2D66 D535 8245 4E2B
+uptime 194521
+bandwidth 76800 102400 85123
+extra-info-digest 2A64C9FE13281CD89BC98403B9F9E71E505CEACA kHWpVAUtkTW23AfOj3QYqnq0asMFQe591MlITq+v0G8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOWD54e8vH6MNwK3IsFVMOUR6ij9nUEU2kqpW1sWgOffQfFBC9GRk1WY
+gzwXZcmnpaEUwX78GAuWjBYq5PPGC7qembbyRXP09gLEVjOoe95C/YY5XU9wHLBn
+S3yd54nyw1eLF9n2IPxzTx5TncrwLo0T5xuBqmEpuDVeQx6+5dJVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAJqmaqPAgnqudZfxxIIY4S9F4IZOijcjHXkqgQ3BN5Fn0uhZ7fF6mppf
+Q7eJWyNRUt39p451gRCUJfQPnwHut5kpC/bNSEh7pMsrzGaZBJb5O4QuQtscZ8Dr
+WQRU5Iu1AvU+l7wB5Jjg5vTIb+PE4abvT6RxutbReXE5IJS6tCQbAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+s+CGl2t2Yye8i3X0dL7DsQbseZrq7ZaOIm1AEIFRsW8OTCiJj8xXqMXxoWSDUgd+
+5Bh8cSIS4GcBcstkqDGB06ghNBIe20pvLAhUrVDZK/7c+fJJ4qNEFFH/2LSVSM7L
+QGwKbj1EnyJmjQBUkwPzgMcacDKo8YvPREeq1iTyNMI=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCQAfPfnCcxsJPgJmkwaIT2FQHmOo+OP+j97hupwsGlTV8oAPrqOwLcLfX1
+McupgkLPQwpHY6NANl0nah3eyLy59rgBhvrHiyZTgDIRZScd311LeN1J8x+oHw8/
+PfxdkLpoqA0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Random Person <tor AT future dash lab dot com>
+ntor-onion-key XEaCtszK6WERd0ExxXVnfsKqn67s6UB+1kN+sQsiiiQ=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 fW2NQe2MdSqbVOyTJDX6BArnZrBzkOVFT/lijYKzWfT9ZaHrnfx0PkqPRmRd0t0bZlb9YtXWMwY253Q52qOAAg
+router-signature
+-----BEGIN SIGNATURE-----
+N4dD5T9DyFRtHQombKxi2/SKWQLJwTbnNUr4AQo3dAcIZGF0B4vUBeP+1Y3/P8Su
+28yN8JKHWBHT6Jhnroi7USKi2V+WPUL+gt4PudQ0WkpGJx+sVT7Fy1DzffT+soIq
+fg+VXRAPnLJ6lUFDs5uBRZE1F7BEXkQYe5t4o81lbLE=
+-----END SIGNATURE-----

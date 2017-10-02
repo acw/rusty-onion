@@ -1,0 +1,58 @@
+router pat2man 107.170.232.75 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCCAT4sDTXfEEnZtPF2R6CTaaWrwJaEclZstonvCENQA7kfAQAgBACCloM2
+/pZlAMWDgbvgBe6x8Ux7r18cfNBc7h/TlNslKPJxqZUUZbGLRG6S3y4EGsrfZvKb
+Y2caD8oMQ48vY28K4pnIf6xIeCdV3DQqU+uNUXvLwx5RS2eQY1TfmiHbfw0=
+-----END ED25519 CERT-----
+master-key-ed25519 gpaDNv6WZQDFg4G74AXusfFMe69fHHzQXO4f05TbJSg
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:41:59
+fingerprint 5FEA 3645 8E9D B121 A998 04C2 924C 6B37 4332 F502
+uptime 14253582
+bandwidth 512000 10240000 1520065
+extra-info-digest 65869199AAE084D5335B548198F11744EBF97C8B An02YQqV3TJvbgufZ07BZhLAIWFVsOHrUtNfAzhKTFM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL7VVJNgJBV6PFzF296S6HjJ5OHoP1tk2tjLDoePIziVaWcSLAqUK9cK
+J288iRwW6lm8tVvVIzLWmMGJ23G+czCoTojP0rzxWX9bXPP8vdwjNiD5NNqWCbnU
+HHFkc15aEbcDZP+HSw5VjWEOsWmSVUlXj9QX+OFL3ERENkplYbsHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKr4CBsjyYRQa85jVS3kd0RYZCd0kej2duBJmaYynV39nAB1uP4IGHbt
+XcT0XGQqg01iUMXAYVCeRnofxZsHvfMZOXZtBnQo1HxTf465fw52zySUbbWoP9BF
+YcgKFc4VOE6fJsXng7WzhuiiB18yPJSXSqX2At+HoW76lAf0AzzBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+KUxB7B8E/I3FjztwJ8d/nJHwv20lxDmNpwJ/KoQFb/LO9ATv5p2FJcwY44xL0lmM
+zuxfNKtvRn1YtWl2TQYMraNA1Xy7ty8qi9qk51QjPiBPwbAzi86FS28SbWG0M8sN
+CfXqHFszWGQTb++kZ76WDiH/JQl9rC5LRB4+Dnk0lxA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCKAYKWgzb+lmUAxYOBu+AF7rHxTHuvXxx80FzuH9OU2yUoAJapx4agI8qC
+4bZIPkFdB5LYwy/EX37+YMS2P8wymuV38K25XWB1BQrINp2Wu79FcwCczYTY43fB
+PaDxjuT9RQ0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact pat2man@comcast.net - 1Ma1pJrKHaapKUCTx293Jz9Koo3EazE1Lk
+ntor-onion-key Fadpdya5gYtXxSLmS58youQ21e8rZcWrcKP2d6IpKmw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 107.170.232.75:*
+accept *:53
+reject *:*
+router-sig-ed25519 v1LI3xrLB1Rzz81ZfQHrdk+9muPNNT8uMxHLW2edyMZumYWzAEzKS3sYRj7aloplQUYE3djn+1NEha5dGCKcDA
+router-signature
+-----BEGIN SIGNATURE-----
+gW2qOz9zUL/vElxTI2cg0PUUyyakmLtAppBhRew158V2gKiS/tkew1ZH/sjWN/Rw
+oMCKSVrbun5ezT55nKBeZy4sDYqUNmVMDnd3uqGLBhreECHK0od8/7yxJ9LHwyWD
+6iFvO7VTfBx9JVAp5ncFKaBb1hHnj2yh98LkGpm9Tms=
+-----END SIGNATURE-----

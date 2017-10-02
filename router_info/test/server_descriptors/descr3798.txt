@@ -1,0 +1,50 @@
+router gsuk 85.119.82.151 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFdAdOjISE6tP5cmytLwAmAG3BmsaoMzPJeVhLfoM54ROrkAQAgBABYjGmJ
+g12BZYOeZZ/28eyE2VoseGquCjiurWy5XRoMWaIgreyqDDhx6+NhkcOktTxyZN4g
+qt27Me0xw+QFKYfhn1apN+GyMaPYGsgh+UERLxsVaNYkNBdKEXDtsHCViQw=
+-----END ED25519 CERT-----
+master-key-ed25519 WIxpiYNdgWWDnmWf9vHshNlaLHhqrgo4rq1suV0aDFk
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:00:06
+fingerprint 96E8 6C96 18ED 3320 A47E 1433 631D BD59 60B4 8F60
+uptime 5
+bandwidth 512000 209715200 2749658
+extra-info-digest 8CC36464EA27BABCE173B06B5EFA5D7E07ACA714 2SGMmp3697HUffwyFflWtnN2/+pN9rkQxzxAynl3GN8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMCd2pv2VmJdbsHBCwydxQPAwnzSK+07CvYuJCL+hPCymnJ4/eNxz5TY
+hqAte8BRjB/xJYzFcUov1I03xwCKP2wQpai9UbNJUMDSJjsw4RS5LangbD3+VW0k
+/EHBckzgY8EtkJnVTVjkYGeXdiwwUvR20vsgLPcTCNiESMiMSwEBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALdFXuw5ZwgA5HOIcpblmkeTXvHUh2t4ZJ3Dw+b5R11JkK5ImKhDUdga
+SDIIr7hm87IGs/VhqgJ2273WfdYBkQkCc8fyAw1Xd2aauL4i8MO5lkRkYdr5DhxV
+UbFrscDJtFNzwbdmUzOnXhnha1zFNFLZvsgWyruhLaxRIsZDSsLrAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+uRuAQGZjrl1u19AK4RSiEkzv1dOPSKvG2S2wQZHbL4FoxcXdKyTjN+UjLPyNXE3k
+ebVJ2+6NEta0xmv0fs7IXoYuL7qCswiqybFLzBjtHvufWufmbcGVUhQRA8PZhM4U
+SGvRezJkA5fXKSzTY8cktzav+Zz67So5Q58TsZavN1Q=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAViMaYmDXYFlg55ln/bx7ITZWix4aq4KOK6tbLldGgxZACpuvtuKFbHa
+TNtSPcXoeIFxc8aLdY+JpkKsfUsalqepfTeRxXmNAFBbCDVwQh368YXEd/uPN09e
+KgGnSvMFIAg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0xFFFFFFFF tor(at)george(hyphen)smart(dot)co(dot)uk
+ntor-onion-key g4XovO8WfQ8OYFzTALxoqN66ncl928OJDSvyZwmHuTQ=
+reject *:*
+router-sig-ed25519 QZhkRy0SkUkiyZLAbJiDwoojQpC6MuqY1O/SO5IRsHOJuEn4YgLnCBnhRfUYZpe2MsUlw6PxKuTUaa0UhFaEDw
+router-signature
+-----BEGIN SIGNATURE-----
+SBd08pQANgF/cJPPvn1uSkVJ3GtaZcHOXh6NvK1Ziw3XskbVEL3MT2dS0mFrk6Hr
+jb51GtCG8YeVy7h99Ovf1N+c2tdsSyTI3PJJmh5F/kGOS2S7ruZpYHzI3+5zJC28
+bT0mIMQXAah741lnjh0JojTTk0SjDF+zT2wsYmYiixs=
+-----END SIGNATURE-----

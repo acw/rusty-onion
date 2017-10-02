@@ -1,0 +1,52 @@
+router dobbo 185.15.72.62 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAyASjJ8Qj8+MlNxx4DHlwf94xdGgWQmgtmjGD6Fojxk9qAAQAgBAAPRBnC
+Gd3ImtT+zuVmXbbHnXQ777d2U4T522F+6IZUWlsTurLZQxKHoqx7j6p9MiV/Sx/c
+kLdR8aQx6Wnve7jQF6yhyvK2uPmBPfDNMcZXpo8cuvo3fEs3NNEXUFy3AQs=
+-----END ED25519 CERT-----
+master-key-ed25519 D0QZwhndyJrU/s7lZl22x510O++3dlOE+dthfuiGVFo
+or-address [2a05:f6c7:62:1::5]:9050
+platform Tor 0.2.9.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 10:30:46
+fingerprint CE1F D765 9F2D FE92 B883 083C 0C6C 9746 16D1 7F3D
+uptime 1475904
+bandwidth 24144000 24144000 8820548
+extra-info-digest 05424940D565CDADEEACB2B66F5E138654AC68EB KA+VJWWxRKWEvQwdPfYehpXqLT94J/8WpsUOuFbF/bE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANoSuLBZdDk7e9lGJEjgr3KysAuNJG5raDoJ1j6OAzBl6ukF/9m9pJkb
+kEiXI5vvFanB7+cuZ44alKgdu9uZrVEU8+bfZqTJF90bWgLWvBISLQf71K0yQIrn
+HyDGVLEIxPQd6OuB0+8Bubj4eDG9DFJs07vgpcHnIUIX302Fbg+3AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKzLV/CP7zh94ZciLp7S2YIEidyyElliw74ecGQU4N3WaSrMKRu/js0m
+GOfnI3+WeVeUgh5ov5DLBgL/BPTg8apaVRYFIXnLLWROs8WBd1yT9ZizkQfLJwYz
+f1+G31oxeN+oPjAqOJNjo4mE3glw/liHwWsW3cL+QEL3+nIOOwU/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+HyH2cGcE/+zXmBtmRgy8e35Y2hvB+7FLHIQ9z2SM33vwJ5KJosKDHpyfIX/L4G0j
+Kvs/x8iM9IHqCQES8gVRFUIvkEt2JZWhNm4mtWy13UAAyJDvCQL4N8GIArtEZj7a
+xgEntCM382UAPnIQyX36CantQI3y5Z7SYOh63jZSoMg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCDAQ9EGcIZ3cia1P7O5WZdtseddDvvt3ZThPnbYX7ohlRaAGubZ4A08te9
+kxFEuqNoBVVyhTpdmzfxtOTmxzUf0MXN03o5MVkLhHReNt30ZayY0deCY0NyvFF9
+97Xu3rMKMgs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x31384448 Ole Rydahl (Had a cat named Dobbo) <ole_rydahl at qp12 dot dk>
+ntor-onion-key myy5vwMXQgEXAD9DahabcFbs3s1ruMu4yT/BOZTzEic=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 YFiR6JpYOP5XYulCfGq/hGcAHRgNCPq2ReP1g+tYsexDhZGQbzjGa8J4CFnAr9OlYxn1UGD6vWO1R2QHlfaXCg
+router-signature
+-----BEGIN SIGNATURE-----
+Fu2C37eAoOdX+dFrf7L4sTsb4jOKViC1EiRUHicdQk4j059Sj/Z1Aa/zMcRTDMG4
+K17la387XiHPNieJbvywAagKXzkLlq3A4Mo4QNkTwkSDLXleKDv8PyZF2v9IfP2D
+8AUQkkwR/6MP2snhs0Nu2XUWrczjBPdLdkCGB1JPK8w=
+-----END SIGNATURE-----

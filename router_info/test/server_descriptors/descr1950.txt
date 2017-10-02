@@ -1,0 +1,60 @@
+router petani 198.46.138.18 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGqAcQkGsF4R74nyRuLIFiHsQMo4rc9eIKuIZsBjium4YypAQAgBAA03hiS
+mk+Y+sPcP33rEeEAWGhvPNlJ3PNSbF0m7d7R0jIqWp4kPl7POmlwHffvF/5x/TVj
+Nr937bOhtRySLlF0Txb4UOBifAsrIbDQkaCkD0IxExDHhxMAKbTgD2H0CwY=
+-----END ED25519 CERT-----
+master-key-ed25519 NN4YkppPmPrD3D996xHhAFhobzzZSdzzUmxdJu3e0dI
+platform Tor 0.3.0.9 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 04:00:34
+fingerprint DB35 8691 FB9B FDEA 0AA9 0232 078E 75D1 4406 1D07
+uptime 33
+bandwidth 921600 1024000 1361786
+extra-info-digest 854C5F4791E0C6D203D1FEC2D2B3CEDF02082CCF M6vR+rQcRaOxCjxUrt+kv5FKzajWHhQ7rllHC0lu5Lk
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKxxtR2jwMC2lGSXaH1giJaPQlbaRXdQW+7nmOBbxVLS5V96Y2LCSA5r
+mbCgbv7QyqctQR1K/mKQCd88AhHcILHaCPRYmzzswolYe69b+FtMQvWRI+mzq7np
+pn6LQXmccjaSw5uIoruzrr9CV8Nn7UnM4Hd07uw47FYRjQ7l8wSZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMRixbe+8HIcZpTLKtoSRzm7FkeeytG6CT6E1HIEflifOowjLeEUotFI
+KMzAXQvxEuoFpgTYUW4oOy6wykuP8900Du5S4otQisNbwMAtvxgIMl4DcrEnB98a
+8cEoKOTHEeJbJjuLdEQIIo0PLS1tYx8z8kZXYejTUNveLTbwNzUHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+IIcCB8CbhCiPZmwLkE6M6tAu76C+F026mnoL7jKnJgTH89nLgSX7FRMs1KrO173D
+M15omLWxgEn5YubUDOnIEBxjPsXxhB3nsNhLjK2NA9XZfZNtTdmsqGcN/LrX/20v
+qHoo9zeFvT1cbfP6Zng5nw/K8qCWHLKq8noNv8hj7n8=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCVATTeGJKaT5j6w9w/fesR4QBYaG882Unc81JsXSbt3tHSAOC/OpwpO9LT
+9aE/gfeMMWNnEIFz2ClBzRTYdewOsjZqOIzTgEw0b4ElvLj8EBm+4o5FP2WFpKwy
+Va0vBhLuuwg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact petani <protprot AT papuasia dot org>
+ntor-onion-key M8/5VqtwiIKGMt8GJq+UvlA7J8fy4NT/DZRuWQwTLws=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 198.46.138.18:*
+accept *:53
+accept *:80
+accept *:443
+reject *:*
+router-sig-ed25519 aRmXmgt903rmJPCH1Jd4hQcb0d/+KhelFb39JiTsTRi7RTcPLTB8MvIQCVI72AG7fzBbdb0xirgXCEaLRsWsCw
+router-signature
+-----BEGIN SIGNATURE-----
+YQf040Ci8/JBc5rqOhljdkY7Kpm0xrSdWBzNsrHrGJKS8LtE5sVcguGXwP0Dqlql
+fW63u8tqEYV3iJAEyx4SDv7msq0eAQAqAAbSeLGnSdR3XCaSr4VKLR9ysrfP5bZ0
+CSWZfyv3FP0BM2Kogf3Ot8CvhdORLbgw+C3vlYUbCns=
+-----END SIGNATURE-----

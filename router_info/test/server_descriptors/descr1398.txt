@@ -1,0 +1,51 @@
+router Normandy1337 185.163.45.27 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGwAeEktBjzhpzC80ERrNkY4Im7r0T5ahuQsSNPkDDhreY2AQAgBABoEiZm
+pabDQPirST/peDeLZZIITZaK37fXQLNchTyvwRcUqkpk8XoQOQPZOzg4jlyFUx4R
+gr+IsXLup3HGw/gfxDeyBMRRTCmliDhubgXWjBB6oPdFoUKcfZHx9gWSTgY=
+-----END ED25519 CERT-----
+master-key-ed25519 aBImZqWmw0D4q0k/6Xg3i2WSCE2Wit+310CzXIU8r8E
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 01:50:25
+fingerprint F09C A86F CFC9 494E 1AD1 F8B5 406E 4C6F C7FD 2E15
+uptime 959828
+bandwidth 1073741824 1073741824 4115482
+extra-info-digest F893319B40557D2CBC77375B13190B3DD90B5D0F 2lbE/tfC6pmrxDxUy+GMm27ypy8MhsziU3nViSBhISM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK/jXEmU78O9qDHytU04BgHUpwEGZg62jX4xPC8daCbJ0emiqeAVQxS3
+wCeagqZDSez6C8/HQsldzZwQwP0gIDT4o9Zq0F+rk2a/SQ6MR+QzrAac3TTBlbjw
+pr21/KiA/gIHHyEzj56a0MgQ6/sn5KdmA4TVhy6cR5wLeuAjog4VAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMQtmep78i/CwmpYyMP2E3YG6KVn++J/8foeKahKkvJd4sj8aZYLNL6P
+JWA1J/S8Kyg0bxGqiejqgEla+cBGLsuiUoyjbjW3lyQOVZBaDaufH252yBSVT7ul
+VCFPJw1gCmyytVjPLXjjblg5A2KU/NOlztrZ5Kqjq/YrtT+/3g0dAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Gh2LHcPOZ0wETGTewHjcxxoUbn/miI+HT4aO+M9B9ROgDscsYL/EAKzPf+KRA+vD
+veCdu5aOXzEa9KrF9CSydOILamf2qxZM9Mv+NgQ69gVKvpr91nLHpTWBKshW0SVe
+bvG7NGYsOOjSgV6YffOrdGCkBX8YiVRhpCJ1r49y9JY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCSAWgSJmalpsNA+KtJP+l4N4tlkghNlorft9dAs1yFPK/BACwFIVUGr5a1
+U/FdZ2KyI4OL0DA7fBwC1mVYmvGlricwrw8vSo5+wcre15jYwsXZGKYhmQX0uY0d
+fSib98KbKQs=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Sasha Agrov <sasha512ATinboxDOTlv>
+ntor-onion-key G9UvOtdYL/CgmovKZI+/s6ey+RV7WCbXLR7LX35EpxI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Glg9BMdFXOrFzjLmfJL6Dt6IYCdV0YqoV51cgldwd8jOgmlThNR08YOVanv/SK+WNLKD6S/1a1YknNG2mxYXCQ
+router-signature
+-----BEGIN SIGNATURE-----
+DwhIgTErjLIi03ZVdokY9TIJbkNKeTqjpilJVQjLM4sZcZ37qtdXtc044gjzEeuU
+QcO03sRHAmtwL1VVAExURkedbTm4jmcLtfBixTriYiFUc2JbplVY6dUH7t1GKtVH
+pHxiYCV+/lp/8+4BFLyBHbcw7/zGXbYo/uH03x0g1lo=
+-----END SIGNATURE-----

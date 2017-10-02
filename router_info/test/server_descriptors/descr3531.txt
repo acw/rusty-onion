@@ -1,0 +1,51 @@
+router binarytec 84.176.229.128 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmANAbWOXPnFElwWp6Yig4Z4exFESafqF4h1ChcuMzVPemuOAQAgBACQTVg+
+vLLC7yWX41n/YpONoRwyonJggbAtgEmZNmIe6d91MY9+MV//k3fpZQoT68SE/lJ3
+9jjeIlAZzImlSubxsi85pAvKs4brVGcnWBJxj5MCd1dASfHp0a2eBbxyTQg=
+-----END ED25519 CERT-----
+master-key-ed25519 kE1YPryywu8ll+NZ/2KTjaEcMqJyYIGwLYBJmTZiHuk
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:14:10
+fingerprint A075 81D9 9FB4 2018 B284 4844 37DD 60A0 BA2B A254
+uptime 64861
+bandwidth 409600 512000 484917
+extra-info-digest BA02E4E454DAD14991EF92C1CF092FF4BC07C524 RgZrFtNDrkFEuTFHJRdE5imNmeb24n0Sot42p89Ke/E
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMMCTHKSYeeIHAK1Jh3F9hTb9XFOz8vc+6IBe89K/kXlMZFZVqEQbZbC
+ftajTG2I8MBhdlx/o5RDseDJ0+w29/Dvb1+mMAYSlsP+bHxlLRVKVOyuUCCr+PeX
+uHf1aLZ7TzXxlK/c4D6vDnZrvbJbuMoP2YEnY968w58ilO+lWjtnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANkXSe0vDo0mVBlK6qQVP2wxFb3d8UiVih0oh5djy5KUNv09Jy7mk0jq
+aoOWwfN2gqWmvDOisLPFAFC2muGvqGZYOUkrpeeaybEgeM7GovuBB/U2luG8NbiX
+ObStwEajngiQFC4yI/wnbNedWUgMWPXoGXj6mJpSEBvEn17hsfE/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ZaKYvsNSozQeRV5NzmmjhInPEJDEtx068Io0gnVga+pJfBJhqN4n/MDkSEFTO2Ws
+QiN3cDxVktTzH7wbJ8YbVOgPD/KEe+9NKGBcjKoAiARE9iCDKF2AYj7cEdisNiRh
+Cs0yVnQspdkoZj/ylLwUrk1kcM+rTE7L2RmakpULh+g=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAZBNWD68ssLvJZfjWf9ik42hHDKicmCBsC2ASZk2Yh7pAOZQ8pGw1047
+i0I4SjUAQtCpUcB4+F8ymJpemWyBpayExkIwRbSSDcmZhuVDJR5kkEZh0wnfr7nm
+dc++DAHHvA0=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact squal_sperrow@gmx.de
+ntor-onion-key 4g+tBqAqgsQrntYpKNFwCn12i6ar0ZaluGqKHj9xJzE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 W1jKazgHcVlyBM6BA321b8g8ym7Acu1JoQfRxBPKLwvvskhr+8X3+4n+gSeFc31lfhrTTqgr4WmAx74mKFaPDg
+router-signature
+-----BEGIN SIGNATURE-----
+Gd1SOxxV4IOfDdsPtz2wCCjurIcc25Npqgbvt/K/azaNX3QAI+pf/5lOVBuPAm21
+ansMDUiF81lkumcifF7/2Il8IwzKuKXw5FNGbxP3KpeFDneGWiLMKcW0BpzCzXfa
+3JgXSKiv6wKJGaIBnh4HQaLoJz5EPtWpqVRBHp7I3o0=
+-----END SIGNATURE-----

@@ -1,0 +1,30 @@
+router Uberrelay 185.26.156.50 64200 0 0
+platform Tor 0.2.6.10 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 15:01:28
+fingerprint 5F16 EC63 6B21 6565 274B CDCB 97BF 7D8C 112D 5D17
+uptime 829856
+bandwidth 102400 128000 114984
+extra-info-digest A34BB1DFBD413D533F4B7812726C5166D742B058
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOnsFIkPIS534jLI7Ya2qkymZ1ce9OCfrdBeST4Og2X3CTkOITM4BWjs
+vqMqPYCixYEI5f/vuyOfv6WfNGjt5OvnIGiYwXeuhNFSqRHJYgzUjM5vRpjL4NCq
+IE5FO721pegcFrT4IMYjzj4JbA8K4O46PMBJBi8pLq+n7+RAhxcvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALlc+gAKt2QO3Ic6OF4dWhhpSvlCpIuVTVWBUGE2K1haGwbdSKv9dlc1
+2g9o27fVdP1YHOfF/ZN/s10PExPXghHNmazj6AL3YYW1qRjs6pDKUkY4STgKlMJc
+gXDiNduHIp4sDgR1BkEWYT5pUApMBlhX+bcw2LvErfXEZE304UUnAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact geoextra <geoextra-tor AT alnilam.uberspace dot de>
+ntor-onion-key 64wY4nKV6GmktCX9dqjGfwlndFj+J3hWE0LKxzJGMgM=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+fofJt5VoEzKXueSG8x3xB46U2ufD3cRd5JCuCs7NV54nGsjUODIjkF7tFz6f78oJ
+5RqbMINhLDTdud4DNbS5UUFgoNFIbr6ZSM1nwSUFRqSvuBRtLqgBAwdCdhyhM9YA
+BSgUd36k+ZxUpeiKWNTxtFt9658aRAQONkderifAvYU=
+-----END SIGNATURE-----

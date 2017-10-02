@@ -1,0 +1,29 @@
+router MacserverTorRelay 82.244.177.39 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-29 01:05:20
+fingerprint 930E 1555 6840 25EF 3821 ACA4 F550 3C88 A987 7000
+uptime 10
+bandwidth 20480 30720 61440
+extra-info-digest 701AC5FB2FD5FD826D2856D92B657C8CA331AF47
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL0/A4wIeviULFqoTHAddiZjaNp+6LiSV8XNLhX2c3oT9jQYTSRUJjT5
+TGl5Pmp3xMSk+Qgvg9VkYFgTjqP2KdUS6JFj1qplWnx1sqRVb6Ji7TSE7BNrxJuc
+zHlhlabkK42+zy+8Za7WK/uG2j45MFOMrXUfSKKWU3SqKiVvFny7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKojbDT4grMqvjQcPVQcM/xyA15m77neaZ9GXQWFjZ9NiNzINNmlGjVB
+hsqMg8pzIsyVs2b1NQtycRRz1Yrc8pnWUsu8LKe9/rd/3a53f+U/4xNEdsJYeyq6
+VOjsEthbKEd+KrPAceQHEhPVgFRfpVRqa8PQST+ujxP9EuM9jl2HAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key zMzp1o+P8jRuvM5LD50kAKW9UlEbDDgn1VLQc3cZQDE=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+F7oKzYCSomMcTFZa+u1BjHGBDDS/ig/ulQ0Dxf0YylgLmfOklDNXyNxQsdLR+7sj
+hr/ffi55z9J9WZWzw21cy8ZJYC5ojgjvPjwfDMT8doyCNlBr2KJ4yQQGJpxKC/De
+106LxyfpGpaTtTB1/Wwqv96UBheB3cJodo8aDHpARAk=
+-----END SIGNATURE-----

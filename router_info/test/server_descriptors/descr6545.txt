@@ -1,0 +1,52 @@
+router torpinkbyte 91.220.220.5 9030 0 9001
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCpAeUWPNSG8o2r7FrFks753HCmrWiwtixkboQkoKjOGPUAAQAgBAAWHn8m
+rB71deGbWfCwzvW+tvVPbcmq8OXlRcDyHX3UsvyQusi7ASF6YZZs03Du0LBfYmJm
+8YC9ZS0deCzl+kW6dYmH+aosIcIjOd+MbRRM9u6tJROjjQIst83lMx/8CAc=
+-----END ED25519 CERT-----
+master-key-ed25519 Fh5/Jqwe9XXhm1nwsM71vrb1T23JqvDl5UXA8h191LI
+or-address [2001:678:220::5]:9030
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:12:27
+fingerprint 2E72 CDAF A12A E154 7795 F9BA FF40 2FC1 6B65 3CE0
+uptime 59
+bandwidth 6144000 9216000 4068352
+extra-info-digest 4C06843AD12B1F1545DFD19AA31B2C44DCDFA7D4 dFpLxeHmKEEPMtsDCPcp9zC6ShAvJfqR4+5k+JvEndQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAPVpaZwkhn/HLNCqLLAWNxNbXMH+zm2JLXYfLnBWi2vFJ657bI6/Qr6e
+qgaF5yVbcdUQt/chKW7WdF2mRLkitgaewa4Yd5VLXc2XJhgMCaAkseOzyWU+fpUu
+Utqq8bcXwIQRc7JlKyIPWKsLXp81ychNnC2HbgqzQD+Kjx9hUoVxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAML4Y2HXGF3ZqnCx6XHt/wVhrWzpX/iujajjHHMj/e0l/jerPMVgoffX
+LZIZW+FQ8rcDWjV9CjYAJAo6QRY0WEUcecbLqBHStmeI7Jdym/2lBg3Gu+OpopLS
+PT42Nok8HsuNpYg2ZQYozaiKt4LvWbFEUrRTpGRE+ZaWjGEehsllAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Iott7ykVKaxrzj49N5gw1df+c7HKXs+KzQowjFma1KDsjCYBWaSk0tNuumxFQQRt
+tpw69jHokqgWi72Fxa7xZYxlcoJD49T1Ms6tZ3ywCNsMXG+7QEkccq4KIxEFuRa3
+xrQbHRViAK4B7BLQuMBTZxezddNET2UCYpI2i6u8a8M=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCRARYefyasHvV14ZtZ8LDO9b629U9tyarw5eVFwPIdfdSyAEFV+AMIHZc7
+CL73NK8CixXLAD4o4xtr1S0dIv5GfJ3Q5Bytn8dkF70fOWZz4ZWTc5Ui/IiaQQCV
+LJDdJyd0AwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact 0x60C0742D1F357D42 Sergey Popov <admin+tor AT pinkbyte dot ru>
+ntor-onion-key ZtVx7tICtl5uSLcPD5TtIFBW22Kxuuu/f2g8qkLkACA=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 CljnzxtZXBL03tDA03tud2vrmYTC6vBtObMETY/09/ffk4YcL/e9mkBnPh0bspmu9aCLrPtMxqpipeiJAyMpBA
+router-signature
+-----BEGIN SIGNATURE-----
+W1Fpf+TEAEKwTxXi9tUo0PP4d5AWPShfHBKT1x9CJn1mRC3tt9cyDxt4AUUtzWg1
+ysK7MBwEw+NeUOQu3HxLDdk8pj0DcFsraUQF3xw8/4XBttwWGo3RRQywuVvqeEg1
+rwzHFHRLvHMhT3CJuAhVs0YdqYUWpgQNQCrp/YUmZ1I=
+-----END SIGNATURE-----

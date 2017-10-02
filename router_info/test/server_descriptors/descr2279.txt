@@ -1,0 +1,47 @@
+router galpao 201.68.215.52 9001 0 0
+platform Tor 0.2.4.27 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 08:49:20
+fingerprint CE78 F7AF 1DF9 714F 569D CC0F A761 91F4 5BBA CCE1
+uptime 595848
+bandwidth 524288 1048576 83620
+extra-info-digest 4F0EE43B234AF686564AA71AB93B0F6C48181C30
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALydtYiSnDY3IyM3vec23oSIvhfWIERrS9jjVJch8id84f0piZ4tZPd3
+dRT2PnxecWr2d5hhQUSfqljvOq3r+/Bb32l6O+9doXTvo8eETpXsbvm3wXnSh37b
+A0amgHpdtPjg+Y3C6WA70+K2chNn5HsYN+LFhAO0BfnnNaM84iFtAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANfUsqRAY3DBYXELJ6RoYrmswb94+HzafPK6QERAih10KM6N7vEe76F5
+aagnsZ6ZLx9aCT13qwwT3HMNTyGsRmK34mvRSf4QY8FvmFdkhvkfKdmAbAhTjtm8
+NG5niq44TgXC6FZfWEXPqFErwaJGGcbtEkKldHGttDPDVMx7ILEJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact John Doe <john.doe@example.com>
+ntor-onion-key lVy0Vh9Fvp4XdyNqrjbyQEfbAcWt6kNl+ZoOcT12ZSQ=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 201.68.215.52:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+Ue9z0zeXl+99lX78rPciKVbit7qdbEBa2c2ROp9vpmMh7Qu69j8S1rqN/WKhnx8W
+XUGBNBMCOtSHyhMGxc8nTxq1zXcaBQOXSjSiBkA8KfX4jXXK94E+/6g08UUAA33p
+m+w7PUNlCbnpHNk9TLCyMXm4aLkeL/dLYE//i/WwsGo=
+-----END SIGNATURE-----

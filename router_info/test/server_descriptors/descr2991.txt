@@ -1,0 +1,51 @@
+router Torrania 85.145.100.237 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmF7AbvFoIbYAAB9poNX386oFUqXS5qXk/+zKsZy3uJ4dVqUAQAgBABk+A00
+9xwuA7n/zOFWZT7ANA0Hjwemn9uFLlcQovMEEQ1my+2HWpDKBS/ha8feuyMXvnEb
+HpTuo31sRh6r2DE0owpP5l2P+dfb7NRh0luvhUF4ECTLGE6yffp2CX3eLA0=
+-----END ED25519 CERT-----
+master-key-ed25519 ZPgNNPccLgO5/8zhVmU+wDQNB48Hpp/bhS5XEKLzBBE
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:52:06
+fingerprint B4C0 9B28 2077 65CD 62CC 6228 9284 9704 0725 3E85
+uptime 805280
+bandwidth 2097152 3145728 2492047
+extra-info-digest 755C8D183309B2D7C9F673EAC7771D257F09EFE6 ixPiw1v1q64cf7EL2QM1yRYSzm7rMvD1/gWt9tjCXFI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKTLNzlCCPdr6Llhame/wUboCmyKz2OA521r/+j6o0D2TDE4ZuPoiGon
+N4SGGHCzF3mh5mDnyTygx5JVw9n4uimMmLm/qQWc66knDPME9Iwb4cE1DkZeCjfQ
+8ibkgKg/v2P/XXN4PXuA2ajCM/rV/deO+RXVS14nKLe6eWh4AFT5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANUzZhArUJ940BM/arip2YfsWPEoJcsWGXEecNadtdwJTCDPtUUg9tFa
+eaR9XSWNN6L/jpF/lXNaNIk6ADtbznYfS1B6w9q6PZUP8XPYAF6E4aHHIF/Oenjb
+yC62iedPFCh0f/g/XqzihT4tOBcAsDMrI7um6XZcgKDDfkiVHm5jAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+GRLqp27ycoGBxfSzlHd49+GA2GxwMsW9luYZQ0VJ2xqjZM55nGIBkrhixAhc7wB9
+EzV++eVipivafkq5pP7nkVWJ98+viAhwQlxng2gISEMohwPokXVZPsiXyzHlpQtb
+wDVbRAMCGRYwkj63384Za+udZPddHbmfEPDkUAp9KJQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAWT4DTT3HC4Duf/M4VZlPsA0DQePB6af24UuVxCi8wQRADQtpjtVMYSz
+hQNqlBaJkosZ4xIl2ErlMbRe9v/6jBfiRjj3aH5+reNWo01XeIfTbCdT80I4QaBD
+Vxl8o4EIjQQ=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact TorAdmin <tor >>AT=> lapsis DOT nl> icb8scnqcf2sajw
+ntor-onion-key v5SZ/b6xguVaQdfTZ5323EAEG2/rtUKoAdc9JrrIX2Y=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 /ZvomKGHJzjtikRHdSFRFA2oJtvGfRpsRRWbFT7vf3ia0eptnNoU88gXPZ9mmrsrVNxeSiwkviHf3agxP9VVAQ
+router-signature
+-----BEGIN SIGNATURE-----
+aumTwoXsCJiztYhpYXYKpkcw3VRaFO9JNvjIwGv/7nsYaTa6OhAuNV4GKn13qjpG
+Ls0waKkiNrVSdYhHzFYzeGvux7y1lKxzJj4jC5ofAPgJdu/f/zVwRXvmO6SXvjAw
+noCpn/fpqKob32bVzCQYTeL+1I0n9L//mpvjXiag4l8=
+-----END SIGNATURE-----

@@ -1,0 +1,53 @@
+router CgAnFreeBogatov 88.99.141.248 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmKAAUxJxtD0E4OgiIUOR4poHr1EMHxgEcY2G3Zg/pCSKXZbAQAgBABkmDRd
+gIgRwEAdj/FvTO2hZykPdZ340o9Fk8S5JZjxopSso9aZJAuHyiSKvIOXp+hz9CVl
+sameVTkwE3H+kbEtwmJYkhAPHv+RJRX2L1ld7HgV9cIhXx+0VtRuaZemMgw=
+-----END ED25519 CERT-----
+master-key-ed25519 ZJg0XYCIEcBAHY/xb0ztoWcpD3Wd+NKPRZPEuSWY8aI
+or-address [2a01:4f8:10a:262d::8]:9001
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:46:54
+fingerprint 4B85 7FE1 C339 8E00 5BE7 9126 9718 A51F DCF7 BA71
+uptime 540492
+bandwidth 20480000 25600000 12377571
+extra-info-digest C014C29B3496EA05443BB271C0BEF10C59D84A2C y5SYF4y7pCzFxv03DnwUmx4mdSZWYv750plAA9qMT58
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK6LRbdlkqUwlqY6YAKmeL1DnrZ0D6e1XAAV/9OeJxRQ/i6xAoUeulJF
+DbZAFwKPf9VgtN0g+L4uC3drMkv/BIuFrjUsR+TByg90+ua7qdcZGHaE15Hf8XGU
+aCWQLpVArIePENNWGtvdFDdpZxbGbnrfQHbW1uLSxHwSls5PdiARAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMWGVu6+z4oR9aYH2rgk7FM3uvjjAEmsSrc+njlQBbs0ZgpfBrpnWePp
+ws/C0Mp+KDFiYvRUyoOJaHsZpefLF2hmM69QHgUsIFmjRj6HcsBpjiGQQKkfWMJM
+4CUTdsG1AmqYGJvHzO0J2uGeD2X5MqggRbgBM4b8Z8pmEWcWI/X5AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+VqnFqKxmbm6xf6epOtcfJvpPWGAK07Dgv13qb09MNiEcrsiqrOcVjYAg4Lo/0tcZ
+KqkA9b7rgBK/Y0QlpwIysj5u+ixxw8oFt+4JOzn0fw34DW93XRAiN2A4myLI4tfW
+W0h5/9lZGywVVOUoED3ASczTjgPLuLS1yq6oiVa1BaQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAWSYNF2AiBHAQB2P8W9M7aFnKQ91nfjSj0WTxLklmPGiAJADWMh/vwfn
+6RuHQpUyoT+2zz8vyU3tgWoWO0LQvKj65I0eLZaYQfYMlFLcpptF+QaraMalGMyO
+yHlDItatvwI=
+-----END ED25519 CERT-----
+family $FBA48003F44D7C623ADA8CE46AA6EAEDDF851AD3
+hidden-service-dir
+contact Doemela <doemela AT cyberguerrilla DOT org> Free Dmitry Bogatov https://freebogatov.org/en/
+ntor-onion-key s2PYARo1tlixsyca5bS2lWgN/2S5sJzx4CmuWAkKoiw=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 yAljLp+HiMnvZLuVXByke3uxU4MnUBYUY6y7hcRk/qH/RmIQQ0Pdxe180nGdcHIw7R214MTPNW2Wk+8cSeqcDg
+router-signature
+-----BEGIN SIGNATURE-----
+a2q/rclCI9InFmNQ9ez6AKLwYok/6uJoB7xkXj+rMMLOCRC4oJZSl7EjFtiS0zgy
+7QlysFyd3q4gXOaV7ewCVzNTdZ77fXz/87Y1Ac5f/46Kxum8rZRutbBAFNLYyDAL
+aJ1EG0qW85DOYWgjBMVly4OntM62zymk6H7KwurEUAc=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router Umedon 70.78.109.149 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmA5AWE2Syg6uviCPu45xTTVxuUZ74opIojduKxF6jUEAut1AQAgBAAHoL+s
+qsdfWGhMdOvM+rjUhPXYUtyZWp0lEcfzuCPmw6xOmSTFSTTd/KQu85rmoNXWMEA7
+nCoDVw/9WyLOUMvnzI6wCcGfSZcsLqLbcSvqLjtPFu+0t5htE9qYAPPyIgU=
+-----END ED25519 CERT-----
+master-key-ed25519 B6C/rKrHX1hoTHTrzPq41IT12FLcmVqdJRHH87gj5sM
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 23:05:14
+fingerprint 9C28 134E FE95 A511 7ABB 6D2F A614 4AB1 6CD9 0E08
+uptime 414972
+bandwidth 524288 1310720 653800
+extra-info-digest 4B1241502730BA0FF88EE8BA9661D22A29441377 i0a0TfZdUYfm58JQD0Er0L+4rJDiV+EIk5Of6BXt+f8
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANo4utbXPLB+5YcO3D0zYsuwjO0iAq///B2PiG8QdCSwB2Wz4odqWMNx
+SXfRShKNNlFI3VCCg2BfjVdpROsRP9UHinjW24gAfHlULdwacaY/TwMpHUPr2RNN
+tMcx+Aabckj53hpTyQeL0ysAI3nKofreSpCXsw22fX7nVSxc6HvxAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKMBeXzfs65J2Wi0nVGs+a/9ZegpfBQnbhfPo+/4+UifMipwHQKMnecF
+kueXBDTqphnXtovmKePfoNynv0iEU2XCwmzfGj1a41ziTINQwRoMqo7bMwOpUlPV
+XEt48PWrV/CYQx8mFXh7l/Rs+jMOnNbt3apPUPFA8eJSN334EkEzAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+BpZmMLWlUkpWBTvoEZBWF9YUl18OpI/IGapdYh8YExORyvhsqcGhfiysoqwSOucn
+cz8QMXl90lQVqceBji4j0Hxeo02b44Qcr18VpsBbarJ01vTC7tr0s09odvJkM8K1
+yUecmrIZm9Q+INOMhzWn5eTyUSasvuKbw6QsFDtTxpA=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAQegv6yqx19YaEx068z6uNSE9dhS3JlanSURx/O4I+bDAOVHzAGQ3yHW
+l/uyzrrU/wAR0K5lJG92I6PxZcAjy1Bzf7JsGFva1bzPOJspOw8vXWqm67RoGgE8
+rkwx7OlEdAE=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Umedon <umedon AT shaw dot ca>
+ntor-onion-key euwydDBopqnXozBwgSipPoyYK9czK1uiE7oNV6Mk/TE=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 ubRouEiiheflfy0jGS2bGhygnk7lGagX7EQFXd1/PFPXs8O76Z1x59Pt3ZuJGRQYYIWSam7Z0I3awLef3na4BQ
+router-signature
+-----BEGIN SIGNATURE-----
+BP8VYH0V5Q32UmoLSPZi/S7hQ/7Vy0Yfm3CoPpSg+F3Q7H9za2BzjBM8vlMY24uv
+ziqevG4sk9eofsf9PT96EdydqLDraJf9UVrOP1W2RrWZ+B19vXuDl8Tmh+FziRDU
+m0uKGc7eB0R2rPL5H3scKmSZGjMhqyHF41Di4GWN4/Q=
+-----END SIGNATURE-----

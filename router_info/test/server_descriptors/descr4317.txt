@@ -1,0 +1,51 @@
+router tactix 62.210.69.236 9001 0 9030
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCbAQL/aZ0j9pgCecBbeRC+NBDGMf7iW8XENt1Fz3CB0BFcAQAgBAD60Nor
+YMu0oA6PJaN+Nps7aKVi2ph9+DSpouYO1jeSk+vVD5u+ASVhArD985+nt10Od896
+JDoe9cHZCwFuUfTNHpVUL49UrbUzDGnu/qmFi6sWM6JONR2o4u0AN75/JAs=
+-----END ED25519 CERT-----
+master-key-ed25519 +tDaK2DLtKAOjyWjfjabO2ilYtqYffg0qaLmDtY3kpM
+platform Tor 0.2.9.11 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-28 21:39:19
+fingerprint 83AA 0703 F03E 02F9 D2A9 CFE6 735B CA6D A9D6 906F
+uptime 4330815
+bandwidth 10240000 20480000 10323174
+extra-info-digest 04DF2227441131BFF469EA86A4ED0CFEFF78C089 Ox78eo9EcUrOdx4MWeZ1yUNBWwCLjR3TV/VSoY6RnXQ
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAML8M13C5TMAQAtD/hYpH5xjiYFx5N/gSVCM390R9fcdSKRPCs1uLN/d
+VtSHjwzU4ZFaNYJNaySYOXdPdyUAjihzwKBYPw+i5RUm1c0RXP4AhdgpgnhhAyjV
+LKvMtme/dudAp6Pe9Fc+bswqG+JnB7JXQwz6h/K+RnwluDkqemg7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANhTDHoov5GYxme0QgiSSaDCetWfV1d4fpiBzslhBCESPLZAlGeIHTVw
+5gcnaWvvwg+jLcmQ5BB0enI6GLavCcYeRQ6xYf9+c9OFX+oCQqrP7TD9SR5OsHJW
+p7WHycf8rd7k32hLYj+2mEVCorSL44pxbBd6oEUsnEeLOvVChvKBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+aT8tBemrCtzJ9ZuMPKXMFnOZImOY9B59b1Ne8hAUwuG8ScNlrAE2/opBPyVipTgx
+1QdN4Qsgk61s6q1ubTraDP5/4i7xkG9H3+9POP7TttBMRNw52WcmjMM6hvOoHCrd
+3bXim6KZ2zOAtpLt/Al+An1WlrvlNB6ccaU5wmi2zf0=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCOAfrQ2itgy7SgDo8lo342mztopWLamH34NKmi5g7WN5KTABiO5EEn1fVI
+CJk/Y7H7Qc/8l7ZWfWMnUfOqOoRd6QVD/kl6PfJs20WVz8foOs5OpTRD5m0irR11
+/AJ49S3YbAg=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Syntax <tor AT syntax dot industries>
+ntor-onion-key t46+w5vG0nrT/Hl24N2ZuslMuMA8NwdrNvYLVTN7MGc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 pDKrT0o/wbZ7KShg1OAwNiMQ9KxeJ3MEWsBp5CiRIRoV1mrBBRjPxKcrrWdFD7hCQh/ODRt5NSMOvhl0TE5XDA
+router-signature
+-----BEGIN SIGNATURE-----
+Vs2iBFvDpf1M/pTJ9Cs7G4R8QHgJvUs/2KgU/4k7CqBX/z7XYJDUPhozMhZ+aB5e
+eKdDQVloHdqR5o4Ffizxc9a86WGYbgqXOGfW2izoNYOaWBuaLTOQbpO13xFQeVKc
+NKtuzDDQVT1QMot5bHAif3WvNuc0ZTqB96xopHrP3AQ=
+-----END SIGNATURE-----

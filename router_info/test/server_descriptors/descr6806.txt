@@ -1,0 +1,51 @@
+router Eutaxy 67.249.138.113 9250 0 9251
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmJ5AQhHmqFSeOLcUsf7ar9rxJr2TLear6Bxjjl1ll/VC6nlAQAgBACb+OCm
+sIVM5Q5nGYWVLDaa1OG9DE0m+khgVcs9Jbexxokz7JTvTgW2qO9tcjrBSExFqONk
+AN/PNwX/DiaFPcWZouxd+ZA2/QOaTlPd03OCyzglHH/vaZ1PujYHak0AfQA=
+-----END ED25519 CERT-----
+master-key-ed25519 m/jgprCFTOUOZxmFlSw2mtThvQxNJvpIYFXLPSW3scY
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 22:04:31
+fingerprint 2377 F415 AC24 BC6C E01C 1E00 E1F5 E850 AF28 402D
+uptime 223262
+bandwidth 665600 870400 755876
+extra-info-digest E642F737E4CB2668C726DB979D5D682F5D51D1D4 Dwx7RigY6A+o+nFeJcavXsdmtO2m636scH2XNlhNqaw
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKrkgB9KBCrMzHtsjAhjPqjyzkFZu6O42YHscFUlhcCXDdznN+G38zJw
+R4KC3iWEflLiLpBkw9bmwvEQuz0ueWwa4ZBN8fjc3ExmgY10M7h2+vb6U8vWZ1nK
+swSktypJ7n6kUuB9LyyU24PEKJP8uy87RxR9O9RlzTGl1r3DWncfAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALAOVg9nRNYIZ41tcD7d09gB24qKF+Z3V2pnrO2N+mK11c28kbp53txV
+r1TPh2dU/mLQalzNnIdzT4GfnO2jMgHFjnZ3Ks8zNK9HC4dQlXxyMn66C+xQYYko
+fApuBuFrPAqX3gC4qVhKjP9aS/cvseWYoiO1rTUWm3DlH5RtlsGHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+e4gtmd9pfMMexsGiEu9bn4gZVs2jylw8Vw7DITqK5ZjN0A/8bIljp96PMb1oU24y
+ga4mLPtE/+cNPZZVev+sHtflIEcmb7cG3dNmed649YzVOGkdYUgty3SlPJA7ihfe
+JnjNSOtD8dJb6UdGR/wNmhucHO83eXZqfRFfglAC33Q=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCPAZv44KawhUzlDmcZhZUsNprU4b0MTSb6SGBVyz0lt7HGAFgMWNSYUibo
+mJAQ1go9cIn3rddU7NsANZZAg/1rhMmqZKT2U1u8qIUXpefO5LNHG2BY+GT2U4xd
+CiXGUa7+2Q8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact franklin at eutaxy dot net
+ntor-onion-key ZlfmtD8fg2OU7JjxgBMP0AGMiONLazi8tXrl05t3kjI=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 McbWwgBZueObtIPFGXMYSzYh8zDuFUmtshBFOEP1sr+sEE/8+2MQx5FxD4ABL1CFWmVk3oSr9quRLyyd9l24Cw
+router-signature
+-----BEGIN SIGNATURE-----
+hKuWUFYYAWV34bQlISG+MfnBsudqlGKT8bvaguiqiDqv3vIqtaWel7H0pnipB6+x
+qwUQb+EMNjmkkHHug9bsLv0TkCQ6r+AhOFz1ygIqL8fj+WOyzDSVYcE8Clsovnf/
+N6TubVB3s2cF9+EAVVcBV4A8mSpR2Cbgpz4PKFnXOmo=
+-----END SIGNATURE-----

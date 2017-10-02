@@ -1,0 +1,113 @@
+router McCormickRecipes 18.85.22.204 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmBxAVUaYZ/agCD+zIlVsGXcq0slnCWyQ4TnJU5+wa2a3IcxAQAgBACR2tLv
+nJJyhrwfW80Kjk8kRe1NF8EAqzXwws8qBXUMOzJJ+Z2G5VV42YS7DlAd/ljTSqWP
+6ouBODN6RasHvGaR0nsz8043PhIQJ3SETdhiDtChtfi8mq7XTi4xvJLVmQs=
+-----END ED25519 CERT-----
+master-key-ed25519 kdrS75yScoa8H1vNCo5PJEXtTRfBAKs18MLPKgV1DDs
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 16:54:52
+fingerprint 8370 FC4C 190D 0020 FA59 4D82 32DF E34B 5B30 AF05
+uptime 595311
+bandwidth 125829120 125829120 42215176
+extra-info-digest 75DA2A82B37EFED7FB4CB544BBD4843DD4B4E445 zLnYBr33rmmZOeu1v0mwWST+nRXe4DcHIWbMwg5mq9Q
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANhS+UTyphcNUwMRHY5p/sQeMq6aZE0KX/IeohG3TTNZ2eOxy9XqsxLv
+eIUcQV69WbEsricUSC/003T2r+WfP6d5E1eWOtGmacjxlqq8zdArljeDb2mM0sdd
+2HKkaYVss6dG1vJSLMCfJYRqBRcyC3hSJe2knSTPt/lZ7QnDcrTdAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL0BsBGq0MGcf94Aq1g3+3NuUw0V89esCqxPSkmASnGhAIvKrkJl2CBo
+t5k4uelSispamc2iJpaReNQ6ob3M+A3Cbola15nu/jWFF3fMGmFXSIid10gsh4Hi
+yxO/lyt+yd/KgEDJVob5GjVYlA15+ARgl+b0WHfvPU//Q3Yxvlu9AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+IdunxJmZ6ce9vtnci1FDyzOuZIvd+NjWrcIolIM8uHIkr1U1SKV0eCN+1a4UDygE
+VB0jrRuUUSmd4nbKtwriDGUvZdLA4YVak8OOOLX3hBwJ1CBbvVc06bkTwny/qfCq
+aFKjTK3SNsFCj7MS8/lheKGVkdv+qGx/dLPZ10TslXg=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCJAZHa0u+cknKGvB9bzQqOTyRF7U0XwQCrNfDCzyoFdQw7APvEAKvixnip
+ESQ5RdzH4hxDik5xwQNlDUI5jX1cTyYz8FWQUWiqwzX0JBQvpRp5zrCpSwT3V+ix
+sx5XuJS+SQI=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact recipe-acl@mit.edu
+ntor-onion-key nAgsFG5UAiJq6R/RJkzcjGf6Cn5UiS3C4Zst8D7JAFw=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 4.21.160.8/29:*
+reject 18.0.0.0/9:*
+reject 18.128.0.0/15:*
+reject 18.131.0.0/16:*
+reject 18.132.0.0/14:*
+reject 18.137.0.0/16:*
+reject 18.138.0.0/15:*
+reject 18.140.0.0/14:*
+reject 18.146.0.0/16:*
+reject 18.149.0.0/16:*
+reject 18.150.0.0/16:*
+reject 18.152.0.0/16:*
+reject 18.154.0.0/15:*
+reject 18.156.0.0/14:*
+reject 18.161.0.0/16:*
+reject 18.163.0.0/16:*
+reject 18.165.0.0/16:*
+reject 18.166.0.0/15:*
+reject 18.168.0.0/14:*
+reject 18.172.0.0/15:*
+reject 18.174.0.0/16:*
+reject 18.176.0.0/15:*
+reject 18.178.0.0/16:*
+reject 18.180.0.0/15:*
+reject 18.183.0.0/16:*
+reject 18.186.0.0/15:*
+reject 18.189.0.0/16:*
+reject 18.190.0.0/16:*
+reject 18.192.0.0/15:*
+reject 18.198.0.0/15:*
+reject 18.229.0.0/16:*
+reject 18.230.0.0/16:*
+reject 18.238.0.0/15:*
+reject 18.240.0.0/14:*
+reject 18.244.0.0/15:*
+reject 18.247.0.0/16:*
+reject 18.248.0.0/16:*
+reject 18.250.0.0/15:*
+reject 18.252.0.0/16:*
+reject 18.254.0.0/15:*
+reject 128.30.0.0/16:*
+reject 128.31.0.0/16:*
+reject 128.52.0.0/16:*
+reject 192.12.11.0/24:*
+reject 192.233.95.0/24:*
+reject 192.54.222.0/24:*
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+tunnelled-dir-server
+router-sig-ed25519 lHvjX7sS60ZeUJ2YjqgokMa4qGPAtjAme7kY4OiNczAO5OjHhc/9h1C5ptptPjAZ5h7zqt3WycU0Smrds6neCw
+router-signature
+-----BEGIN SIGNATURE-----
+ST1QnlT+GZnfzpcZFzUivrHYx+XWBa//M/S0CRVe6DdffUlsJQ4/tgEZffClRWkF
+JAJluCC2mY/ShCrL0LrVsmwIqwdiZvHjVZgaXhVR7v7cLpCyfKpZ7h9ZAx2HwCBU
+ByED2FnpIxXoxx1MZkT/Rj9QQqMNqTOXlAeMntvDaj8=
+-----END SIGNATURE-----

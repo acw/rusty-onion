@@ -1,0 +1,50 @@
+router DrInsekTor 91.143.91.142 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFMARkGwnn+BkHxUU/Z3EiqBQX/tn2THjtEAZEaxCfz0luGAQAgBAAtrAct
+y4ZYeZBKbs0Wl0EExrJ2sqdmhdhybWdVWbfJhj1+aoKVnhxHnLXPDofpjWOWDA+0
+tiPbMMFnpx17sWj+Xd+49A6xd7St3EiAUtPoiZx7HFpW3Ad6FAQPLqjYtwk=
+-----END ED25519 CERT-----
+master-key-ed25519 LawHLcuGWHmQSm7NFpdBBMaydrKnZoXYcm1nVVm3yYY
+platform Tor 0.2.7.6 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 23:36:58
+fingerprint C64B D989 31AA 5C94 5270 CE9C 6882 FF7A B660 3B86
+uptime 1224270
+bandwidth 6144000 9216000 7451495
+extra-info-digest 62010F378FD5D521D364F68F5075A92CC47F5137 0QavIm+tO17/O+CJnz7xojyFbSjdXyleen6szmDl4pI
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANmkeQWNTihCgLyrie0KUIXS8LixjEW3LQqWgLJU14ybqvUA6iJEBZT3
+nF8LJiLvIbQNLlzcii5/AaMYhNeNGOgBTW+pJdO/B+DyFgF9YLbp7rqXBmceCB93
+ByOgBlj/jrG7arYHM0AaoJg9rjax2TV0srGu0Ezg/krf+J2cGutvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMKopGkogb7jRTYvJmSmsoBnjLpJkCtrTEgaSms98NxALymqL4weVLUi
+ClmQf1GC9oc3fcuMQT3+wxPK4VdkE4Kn8d5JfHyMKcPY7UoQnKq/x80fJJ8BEnhO
+nuDVN4X/imaxR3V6sIzqRfqrHIXmOSrABtimgxfvu+qjNbaL8tgVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+EkmgREEqxEmxPieMKPWhA39SOEh9Jgi7HFdabYqld0Isxww/CxgAQX2c1Eh9IgVf
+W2aJu18d7bdGER6LHH042t62sxYY4jeZ5cwcp1E8BK9Qfo7+IZkz+mGXcDY05NeA
+Yb50eubntv9lg/4wZI5JR0sIJxTBZENgWENKKBSBSbY=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCQAS2sBy3Lhlh5kEpuzRaXQQTGsnayp2aF2HJtZ1VZt8mGAFyWCx0ZCZ8h
+ZL1wxH9f1BEtU5USRnZebLl57iPTl5UvRrudfw54lShBLsc8uTOmfOLLBgQP5J2V
+ufYlLcLbhgM=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact totoro <tor synkretie.net>
+ntor-onion-key Dlg5/gvwjKzKWjvrm6E0VO+3uBR4SDqjauh6ra/Jmgc=
+reject *:*
+router-sig-ed25519 HRuS2wYuul3XbogljM3nGDNrpj1BADmaDNt/B6W9WBp5UMMxxjQGlBl74492oZuIL1tSBfC4eU27htNlrLwIAQ
+router-signature
+-----BEGIN SIGNATURE-----
+sdGD4hKHn22ITA0NccDwnynZZ70VXlRsVdugk/l4JRTa+w5YjWyf9/B59Buir1uI
+tc96m+kN3cBKkT3IzLFqwOksK59mINOHabnWsB8jTG14C3TpimzJnuLiYHjGnyUn
+C/A9wU27ZUTKpf2BVveexP72AuP+9s/J8QPbTaDaXg8=
+-----END SIGNATURE-----

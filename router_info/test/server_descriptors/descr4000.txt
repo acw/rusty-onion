@@ -1,0 +1,51 @@
+router melquiadex 85.60.160.247 443 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCEAXaonNxk+4Qh6ytUZ1JyJ27eXvrh0zXLTZCa4uccHomRAQAgBAC5PDXD
+3ETBB5oePobFLnir+sZCBm2kArzLx206IifNbsOpg/VBkbHTho42iuRGoa48NFu9
+MbdSdMomrMEcRuk/Wh1X5eO93xQNo+GdLZObA2RB4malGIk4vwOUDlbdVAY=
+-----END ED25519 CERT-----
+master-key-ed25519 uTw1w9xEwQeaHj6GxS54q/rGQgZtpAK8y8dtOiInzW4
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 18:13:16
+fingerprint 8F46 628B BDC5 5AA1 065A 6DB9 57E3 A018 7FD0 C65F
+uptime 2
+bandwidth 1073741824 1073741824 53248
+extra-info-digest 9C75D61563DE3AA6EE66AF924773997627F951FA WpJgqyhYqzuGpmqJzaJ8eKs+aNceAFOwsNSzSguvvKM
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMfWXl3IglfvHCBbVTeU+bGWy4zzTogPvmYt066jzQqEiqHvU3ygqTNr
+ykyug5hOHJ2ODFThT6zB1uXmzqILHxbi/VLJ7U1AhKj/3NhYMGBg/shqkxGs7fSH
+jtvVcbyHhT6BI/viqreD2Jb8BkCMpo8cttThlLgLJgwFb20j43/xAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOjqLJTQkSvR7ZuYtpV1CxLDGuqw0qPk9MhLeS6lGSBEb0T9HHmFbF8M
+v6IG/XiHuU4HkWWXxsIbc3sloo4el4j5+qKCBoqhH1oIIGp0D3bXay7U4stJPNyJ
+PqqFOZSbV/EaXjs8wjKMaqu7zNZSPM/+tJ/4SeRAXXgCOckH4reRAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+vhstNCgS0Xol1LCFa11uebjNiH6/zT31AaQrdhiirY6/veNWRC5oYwcSqJ8F3nY6
+c/14FZmNMsaBc+iR8RDjCAsR9Ppz4D4H10u5ZJf98fnK1aoguvFO7J6dI0Lz4KxX
++M6/oVd4pMrCsQYRbChCyI209vj0pwVeuKvP41uMCZw=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCLAbk8NcPcRMEHmh4+hsUueKv6xkIGbaQCvMvHbToiJ81uAD5Rags5tshM
+3IntQCw4iXGIZqPnAibX08jigiCJvYgkdts5Z69LGL+D/Be/xSBqTc6dfKTiLj4B
+47XoGZGs/g8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact alazne@safo.net
+ntor-onion-key +HxaDMvnT87/O2kelXcDtJPqMZJoah0PVqNMI9sCqSk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 Rpb/koouvE8z5oCKGllg44kqIsQoYRkS+mWCiyOHeOmdk7xrLVbueeo9wIASMwwGJk6faQB0uf6dU291KCkUBg
+router-signature
+-----BEGIN SIGNATURE-----
+WiaOlcerTGiEA/l7FQERVWkQf//yfo6vi+Yk5V+itA92f2ETmvthdSDjTsTgzxGR
+Im7cG/sN5dM7NaKfqVEpJ/KWcl9oNlc+/B0V4YHl1pd/51DBBACPUgvYjuBRpevR
+K2p+R9p5ERhQHxc8LkXXDFvcMxYkMuiTfbfwFIL+FlE=
+-----END SIGNATURE-----

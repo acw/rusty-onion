@@ -1,0 +1,41 @@
+router anonymous1112 82.211.0.201 9001 0 58244
+platform Tor 0.2.6.10 on Linux
+protocols Link 1 2 Circuit 1
+published 2017-08-28 19:01:04
+fingerprint 3C6A 7B53 1F31 1E53 D88D 5FEF 4145 96F2 BBA7 6620
+uptime 7618984
+bandwidth 1024000 2048000 1269218
+extra-info-digest CC08AB84FDCF639A6EE27DAD904A4E689E040325
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL94m7+LnMMcgBcH++MLJdjAXvKXaIbUPu+PVmIxFoX7D3bWW6ZcIXam
+5D6uaUkAmbTYyeVWIpwx+jsbpnOFVwmcswBoERhOYZ7EzU7N0qxWYClj2w4b1xWy
+L6iIvwYuH+YROWjeR4izn443GxfKBD7+kjkSGuJHRQxOEx26tznhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMAS1ZRA+1VkhyrdmDEUY0fsb1l5JgFmVrHbp24OyNftAc8tArTwBuJU
+csIpiCIvcmeKiNbfQeJep3rMnxzWckmvR5TG7r4sbh66GSL89+P1N9dOWVxZCE1Z
+USZCfGx0wYggzsy9uPOf/iG5FaM99sexBJI0dtZyfBv2UN77jQaBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact Random Person <info AT tornet dot es>
+ntor-onion-key ZqOkG6CCXyXMPhl7gRG1BVqaqjjqiIDFhREvxVv3PD4=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 82.211.0.201:*
+accept *:6660-6667
+accept *:53
+accept *:43
+accept *:8333
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+EfUdYGds7vNRTrxzxGJGJhEASbvQk8fHX+jtOTR2nCXw9f2Mxxeh67cVnwszgMai
+vYpLu7Sa46E5WaNbCjOH9A/ubYbdFSHansndr3GEl9ybsYbQ0l28mD/X+ucDFvci
+NDkF2CkrhY2M3foICt/D+b5soW28cuIryUv2arq1IQA=
+-----END SIGNATURE-----

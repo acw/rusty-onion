@@ -1,0 +1,52 @@
+router Freya 51.15.47.62 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmFqAeOYq8gTWHV7F7dLi2hJuzYgLB33Qc2YcGMWLz/fLCvpAQAgBABJ553l
+oWkCT7v+aCuClXG1MCGs0MeUTrJOgpjOZN+n+IkrkRK4RUqNaFZu7mm4wAei/lRR
+2dWlXsEIWzbV65TqnGqiBEOkXQ7TrKSvXr//knU2DohfKhg2hAZSJdR1UAM=
+-----END ED25519 CERT-----
+master-key-ed25519 Seed5aFpAk+7/mgrgpVxtTAhrNDHlE6yToKYzmTfp/g
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:44:20
+fingerprint 88C3 708A 9D71 ECEC 1910 B63C 3FAA 5BF6 0CD7 E199
+uptime 1287365
+bandwidth 1073741824 1073741824 6928796
+extra-info-digest E87F52EE24ED8FBEA58D18B6D1C0EEF1D6C4414E qqY85vhwkXc/G4NFHZpVTrAe9AfWJeSX9UwIUUnD9tE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKqObBXl4utBq5RZjLkZA+YI8HIbpAKmm8BqtO+CE5dmo/lIRDc7b70j
+4w/QYsiqukBZH/utbOS5w4Mf5+fy9bDEibdtMDCMS85SmsCT5UH7MwTzrwPLe/S6
+XduWPCq3t9vw2lMyrN3rDq0a0jObMpS6noj4jcj7ZzvfOdG1ZUJBAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALyPgpwm3Q754TslVdGjx/3FJYoY5SJjBZmBjYTtee1c0Ok0nnNMNmFm
+cGfx2Anid43e17GlcIkGUWj1rkF8RtPMWLnpSVCy2LXKdT1xPaIIVgvKFQ3aK5Kw
+1z2t3Y7cf7pLJQa5YBByQDQ8z1K/xgwg3D0ubWsY0D+xr1TKYYjJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+o6D7tjoOK8jZlV6ksYGiABRJw+oTGLdPRl7KlacLXlMvz3PjPKyX1hj9waPZi4Ls
+AcT62/A6dFEoyUeWNG9K8UAtPy/fNg1XtidHE/yXsozZBPyG1ItUYjaRed34yZDB
+YGL0APV8T0iKqTF5V7Y/AC5Yq7kEBLCRT5e+f4b3wHM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmCIAUnnneWhaQJPu/5oK4KVcbUwIazQx5ROsk6CmM5k36f4AAO1MQJfy9pj
+5H+zre+OkveDqXuxaKPSLSRYyIiI2bns+NQU3AOcrwpOXadqdHWyVV2ivvu6vjq0
+sxNOf6Lj+AE=
+-----END ED25519 CERT-----
+family $157106182B9F33663CAEDCD883D302316331DE5E $FFB94702D023B6F824D8B3BC68F33EA02AFA70D8
+hidden-service-dir
+contact abuse [AT] torworld.org - BTC 17iwdtpmgHdPt15twdT2sUcdeKgz9PTNMQ
+ntor-onion-key fKOLWf4FAP/IFpUC6td8nNDAlNp6ahLPwyZIHEd/y2o=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 YMS9D9mKUR9x4fq8BfsteQ2rymzEu/0RE0083nOU4KhsoAABhOSDGwMZDKkn0H5IkOhuzNKy89cO8qcr0T5uAQ
+router-signature
+-----BEGIN SIGNATURE-----
+c+kzAbBBeJwle72NW0Kkq3Rd5vPrcPd2yTikp4tzl4ERmY8zyRlZ7Z2TA67/Wnuw
+jbLi+Gvm7ft87dH0Hz8JvJYHdtHVccmv/XoeuZ52o/TTWedOgT1wWzf9sR8cMz3w
+UBvtB1kYrilb4Sdjzj6MCsGpmp3xD399jHofI+o9ceg=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router hagal 162.243.21.103 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmGXAcjd9kt1EpMt5Xjh7p/Qq4tRTaR4oEVnjq2DfMkT64TlAQAgBAC2KWOB
+OFkIW7IleUD4ns571snEmstRaSNRDqrtcCVo1ZwehDOtosXd9tBekoJyrxu6aRUJ
+Ktlh1OrnItOqIgZ3rVck6N5oZ3OJoE6Exu1GQwS8Zj57tlJn7UWioJYy/gY=
+-----END ED25519 CERT-----
+master-key-ed25519 tiljgThZCFuyJXlA+J7Oe9bJxJrLUWkjUQ6q7XAlaNU
+platform Tor 0.2.9.10 on FreeBSD
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1 HSIntro=3 HSRend=1-2 Link=1-4 LinkAuth=1 Microdesc=1-2 Relay=1-2
+published 2017-08-29 00:41:12
+fingerprint 72A2 B629 F032 D734 EB3E 24DC 7AED CAB3 36AD B133
+uptime 10376846
+bandwidth 512000 819200 606970
+extra-info-digest 365E69502F06859510EA6FF661B76A76BABD56A7 6B3T1Y8SFsIcqXqZ7Ujs2NuNtaGo3ny3wWoih/RCz+o
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANIykqmdlUrtLdHnrzVygCmE+pfkSM6PcseuKlT378m/0ZZfrwQdezK2
+9EV8ib1hfx0Om0fQeYFhoXMo5V0cU1FbyVeSRP4ifCWVjJqcoHA6gYND0dUmIFwg
++EIkeeDCgU9hJqtIVokBe3j/JLTJCqzn4VyHUcOm/0vUx2gkYRB7AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAM/g1xf8Zc3PAigmohQx7CF1W3pRsNC4dmS1/pPZXYS6BCXRjyMmQ3Wj
+PFTfUNw2K591juulhAhjX6FhgZ4imKt8xlQmNOJa/BY30nHqX1dQrOTpSQgXYucP
+yBTBop/7k4NPQF0bXt5q67GbUyKjmprSzM1s9d29SGdHMtnVrJOFAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+lTRQdVuFPx+n1PIiQnj36r+oeHFWDPasrWYBPfu+MsZdMtI+XuPPtPuZWS6fJOIw
+I+UwR2MPqJ0wD753WY55y+krYwI6u+JcCNkO+W90bkJ186FTcgSkPMmYnM9cHE6i
+g4H+vh1f616NcobiSROVnjhQqEe3B5uTUTbaL56pizo=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCRAbYpY4E4WQhbsiV5QPieznvWycSay1FpI1EOqu1wJWjVABTAPALuF00l
+aUP6wg9RKgW39f+63S6Wu2h6mf1d54M2n5985ZaHDljv12FTZZQa8ZmQyf2TPlJx
+/BcLRAcAnQw=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact John Barker <torbridge@j16r.net>
+ntor-onion-key dzEHnTGkv0ESF8KXOlEnZC8KBoYX172CbTKHWtEtwCk=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 La9i9TIzimZrYkoXoKkY0FTnU2DFb7m8sVpw0ykwjGNxrd2YJD3TJCex/YVry0yzMeJ7niXUI7X4C5u8N2X9BQ
+router-signature
+-----BEGIN SIGNATURE-----
+kE+CB+eM1sPGiQXpskiWZlfq/nCp++H0svZ6U6xC4Q3DwIZwhCmg+OHbF39JcYFL
+Uxh7GMHfrlwRISvN9HFv1MYf02EmtiqpXFZfGZlBYEXVw+PZT8J/mDGHT9I7Ayqq
+EPUOXKfDdrkxgnRzlA9pSTJSAs62m6C5X53ZpfbUUQY=
+-----END SIGNATURE-----

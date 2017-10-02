@@ -1,0 +1,51 @@
+router ak3812 212.47.234.212 9001 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmCmAavdhWPocoVfaQ+SvwueX7ud5jG2DhucpwErE8n5BdnJAQAgBAAEJZPd
+RVzE3VMFzsE1m6zpcaPxOedJYO6WFI9DJbWQDepNQpkA8zub6TsIhDUJhZA5+7Qm
+zSJcK7zaGh63rQXu3JyLMOxgTbvXfLGJV/MpvJPil58X+FJbVQrA0aMiJQk=
+-----END ED25519 CERT-----
+master-key-ed25519 BCWT3UVcxN1TBc7BNZus6XGj8TnnSWDulhSPQyW1kA0
+platform Tor 0.3.1.5-alpha on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1-2 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 17:19:30
+fingerprint A212 DA5D AF94 0D8C A630 6492 6A1B 0FF0 35DD CE02
+uptime 288045
+bandwidth 1073741824 1073741824 10842802
+extra-info-digest C2D5BECDB59C326881DB22203B0F4B3F5A0E4755 WFgi78G+8jzDxnCKDQE8E3/yabDak982IFYlMBf0PiE
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKM9YfECJgR09HtP9ZA/OenYlnBkD2/yLMe42+OCV+whp6/8Ol+eKCvq
+Y+sdNhm3om8bcGYMMamqCtkQ8/nb5NCIHEoGpLYXT47F00dgFH0lO/gja+uc/4CJ
+nZ+mqkOCmiwvTn+k3jRyyJJahROz26LNY89QolNqiRvYXrdlJ7JJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBANII73l4Iu3i5ncmJLvNODxuDr2GiMk+Uc1eR56YX/dc5Nd70pZcO0HN
+I2ER8giX9T5WcW3cmic/TBFp7E1slMezzWLQKpmpyKKmg4yd0cGZLhQBIotQrVca
+r5hE2+rXwcb6Vo+I28VduHdul/Wo5BOPdfpp8csKZQLlEcxqQYWNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+ZxiqGrfkxdgLQBZmeWEGEkUtQchRJJvXXn9ScOS6U3Ko3s7eev5lG+2g2iCYEGuz
+qcAICA7PQt831swdsb38GnkETL1xZbU5EspB/BgQSEnVPdESfmc09o78JDllN5UA
+wmHN71ht8O+5cBh5dSp5qmn+5IZ3DCW0z1CWT45zUiQ=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABmKCAQQlk91FXMTdUwXOwTWbrOlxo/E550lg7pYUj0MltZANAJbsCgtghc2x
+BDxTxRhRcDa+Fc2jFfKZuUrzOky7wzPwzS+GDIAWmoYec8vKGDe4hZXQtE2fcZ6v
+hBNIuK1QCwY=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact ak3812@yandex.ru
+ntor-onion-key KDqKn0tWhrIR5SAXMBquO7xl00VI2KkRnJ3U+k+4b1U=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 HOTp23f+hfeYjiLgZ7/bgyvY7FXWpFasAIMisIxn5HuWcfstQIuPlQkyHvuO+GYw8wVqtUeO7/UhCGCSLO3jDQ
+router-signature
+-----BEGIN SIGNATURE-----
+dcN/ttU13OSUBY6CuEnJmLuM3wod0MblQ2AcTckfbSCJhEXeNr9ox5PvuCV7yn9H
+7TAqxgJAJUhP9KAQHHcvWXFVvvJa73Fnz8yU9IutgibxNN5gbr26ESi+5OWfBMZR
+L16b3b9Ok9Sg7i7iALWPRj1PvzkXm7YZjftQhctkdVs=
+-----END SIGNATURE-----

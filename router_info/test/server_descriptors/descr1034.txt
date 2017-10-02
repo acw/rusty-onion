@@ -1,0 +1,64 @@
+router Endeavour 209.141.60.229 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmIIAW32bc9GbflcA+8Vj0xrg/7Shhcas45Z/NUNojc7KZMcAQAgBAB+NgCM
+zDGAJcxxPuOn7tm1Y2+x4iFcNQBoJ3f6qaFRdQBAueQx9N0VwgujtthLAoH7VG/d
+81ihv+8VW9fS+VMb0cFS7x6kYmnSkxvRGDRw8YP/HHE7dN2k5evXYC62xw4=
+-----END ED25519 CERT-----
+master-key-ed25519 fjYAjMwxgCXMcT7jp+7ZtWNvseIhXDUAaCd3+qmhUXU
+or-address [2605:6400:20:acb::]:443
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:19:24
+fingerprint FE80 2761 5FCE 6FD6 48E2 5FB5 9E10 D80B 882B EE53
+uptime 399473
+bandwidth 6553600 7208960 3195215
+extra-info-digest 85D90E7FA2D6BF9B05FFD10C47D61B85BCE416BC GEvNDrhe922XLrlZT1k04jjXhHmdl01uG6qhYciYH6Q
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMMW0Y8iGc7hUGfq0FHLi96K9W/Hxiuk4Mlb1WJSnw1itXUGiO2x8/i5
+Mvbgjz68C9HeRJqKlQECVZjHkwYzioA5WOMHHRHJVzDWxGOnMi/sUSxxMzsw4Xz4
+th5bBKLEMK17HLk7Yp46JPiAao0z6EOOk80u847/pneOmG68tzhDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAK3kWvQujihhv7TLWTF8rr8Q0LjyW21NiJcEZ3P21rvtTdkW4JFnrSYX
+dus6rX/XN8ZZvJpXYU52aDBSgw09Sqx0ISMXHFua1l/O/V0qnB94LdkfEtTp2aHD
+jU1DiWRNVCfIPR2J3IcWR+PKkhT9Zg6JGws5FqCLoXZWSlg8jklJAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+T/mb9L3gOYvToaDALuvccicMiJ43GDrsi1s3zqeEpKJ9YTIABGiitpGogeCbtsI4
+EzHtbSSY7rnr4G5+nZwESwXcq/HBUvT7lyIm4DcqV31FlyghMvmT1X7rFbFYOAIK
+XhoW3oz86Bh9BmNfWgt9VRci+XIiLNLz+zv6hedNAYE=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAX42AIzMMYAlzHE+46fu2bVjb7HiIVw1AGgnd/qpoVF1ADtjlo0slyzf
+m9xKuzANYhZbBHE7ZJeWyY/Dd+PVSw//aC8gcV1YvAP10VAtOnVFFDVAuSJdClNJ
+HxB0JEhlhAc=
+-----END ED25519 CERT-----
+family $1B3C601A0B5BF3BB62918E7D48BD3289B297C3CF $C42FE334CD08084FC5CF038EC64747B002CD28CD
+hidden-service-dir
+contact farpoint <at> protonmail <dot> ch
+ntor-onion-key 9qTbqpJpBQPC7agiFBntipgwpo7yAOZToNmSCAYLWC4=
+reject 0.0.0.0/8:*
+reject 169.254.0.0/16:*
+reject 127.0.0.0/8:*
+reject 192.168.0.0/16:*
+reject 10.0.0.0/8:*
+reject 172.16.0.0/12:*
+reject 209.141.60.229:*
+accept *:53
+accept *:80
+accept *:443
+reject *:*
+ipv6-policy accept 53,80,443
+tunnelled-dir-server
+router-sig-ed25519 3UxQXL8HTA+eTFM8up50L0LvI2di7ODLUTg1a327dH/Bum3TyIolQrXWwZu4jBP40l2a8vB0dmbWmjKZYl9WDw
+router-signature
+-----BEGIN SIGNATURE-----
+JCJbQmSwfIePdDisMiLg2ls87hGugQFcSNAk3ESW0yuvvgdZsoPa3BvVpKA3+prm
+GEbx7Duji3sGxjO5aO2Ns092AT3LWX4r0Dasq74KK5JymUoYd0j1e2taUuvAAx6o
+Ve4oCKS6Spt+GlxtWKmjXX4LQwZlGnQF3ZnVeWC9BlQ=
+-----END SIGNATURE-----

@@ -1,0 +1,51 @@
+router mccowan 179.43.168.166 443 0 80
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABmAwAcjskDZ4vWHXoqOEBMDFewBpyHnWsMtJuqsUKhIOmHPyAQAgBAChhUhz
+5L1y3sWPDB+XnlicWqOz9ieMuTdcqhVoAJcUm5JBAtdp6jpSrtKpPEvQefMUaQs7
+YBtfANNZaq7KNoWrnPsvjMfl78EFBy4YOtEIlXTZkIx5zjOpHL/3PYX2JQY=
+-----END ED25519 CERT-----
+master-key-ed25519 oYVIc+S9ct7Fjwwfl55YnFqjs/YnjLk3XKoVaACXFJs
+platform Tor 0.3.0.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=1 HSDir=1-2 HSIntro=3-4 HSRend=1-2 Link=1-4 LinkAuth=1,3 Microdesc=1-2 Relay=1-2
+published 2017-08-28 15:55:36
+fingerprint 9634 FF45 0315 C691 E1E2 1856 3631 8EAF 457E 4227
+uptime 1721593
+bandwidth 1073741824 1073741824 13666292
+extra-info-digest 7D1CAB857506AA1AC6D3851480E212681A714495 ThBrLZwD/yzZ0ICOC85EcPFFrorY6w0jqpEof9UBea0
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAN89Y5pQKIzdl6AKtccd8tk3x+gdAyW6GlCqjOt7M1OsaMzicAXBOaig
+vHifi4HS7lxDBq2+XbJGDJSSSvXMKyQjdPpXrrpInwLGVT4AaHT07A6Fe3TKqREh
+uMtmNf23xxJm5WKMa7o6Nj7weKIE9NhtwmXdEUNgLM6cJjYHMuPNAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAOjW+vg5QYj4c0XRsm1fhKJPTNULIEJ2ACcnKMn5KIVBzzHBPeMZF/kc
+/5bBWxd9fDnuQlCAEarO2IVYZJYrp4zq7iussjed7ucAsFKC6DoJvQ58PZMuD9r1
+V/2a5sF/K89wikFjTe5vMK2oDyQ0V7gU0pZr+v+qMtpXzH51fOsvAgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+Rp2IIbn4HmchuRTyljro7gx22lFVxbBNebv7jJoVCrJDxah13zOWXEpjVp/L6G4p
+CfdouCVFboi1tLSPm8DooywYFh8A6XzatcMVr/tNbLEYOMZqewzsVWuWOQEOD3eu
+V9uh+lxwHDrp+lAPfNx5CMwh2X/kx/ZQ75UpYoCgSQM=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 0
+-----BEGIN ED25519 CERT-----
+AQoABmCIAaGFSHPkvXLexY8MH5eeWJxao7P2J4y5N1yqFWgAlxSbAIQRuii86E5/
+GPlVuY0v/hQ8m17vuUzEUt0snyiKKyRnVDaFJ2v/ysUj75vQIzqfgUTdc/lBGsY3
+GiSioTxTnAk=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Robert.Lewis@linuxmail.com
+ntor-onion-key 8cSLpQSAB//eOs3Z86xFIFblCLbbmzv30q4stmSjfkc=
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 EgwV5bJzLJhNTh9mPxR7tuMKMUFIFnKhLqCknAE3Vs7m6Mpmt+/nHi03Xfd67/O349mgNyS8O72Btd59K6qsAg
+router-signature
+-----BEGIN SIGNATURE-----
+y8QZwqYzEytwPBD042hSgLNjOpjbp9L3+ZUP7ooGUi62MzcUzAQu/g1V8LugW9g3
+odT4/PjTG5eNM3iiAbkql91/e8Iq96/RjyUXndz8AZtJnOQQwg5QYkLLER8sdk2p
+wawHLB3yEPh8k3Fv+4Z2dAvBiMUxt9mKejcvH/a9/y8=
+-----END SIGNATURE-----
