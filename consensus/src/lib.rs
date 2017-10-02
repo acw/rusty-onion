@@ -11,7 +11,6 @@ extern crate parsing_utils;
 extern crate ring;
 extern crate tor_config;
 extern crate tokio_core;
-extern crate untrusted;
 
 mod types;
 mod parser;
