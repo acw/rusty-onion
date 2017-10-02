@@ -29,51 +29,74 @@ impl RSAPublicKey {
     pub fn decode(bytes: &[u8]) -> Option<RSAPublicKey> {
         // x.509 sequence header
         if bytes[0] != 0x30 {
-            return None;
-        }
-        // extended length
-        if bytes[1] != 0x82 {
+            println!("not zero");
             return None;
         }
         // compute the length
-        let whole_lenb1 = bytes[2] as usize;
-        let whole_lenb2 = bytes[3] as usize;
-        let whole_len = (whole_lenb1 << 8) + whole_lenb2;
+        let (whole_len, idx) = match bytes[1] {
+            0x82 => {
+                let whole_lenb1 = bytes[2] as usize;
+                let whole_lenb2 = bytes[3] as usize;
+                let whole_len   = (whole_lenb1 << 8) + whole_lenb2;
+                (whole_len + 4, 4)
+            }
+            0x81 => {
+                let whole_len   = bytes[2] as usize;
+                (whole_len + 3, 3)
+            }
+            x => {
+                (x as usize + 2, 2)
+            }
+        };
         // sanity check
-        if bytes.len() != (whole_len + 4) {
+        if bytes.len() != whole_len {
+            println!("Bad sanity check ({} vs {})", bytes.len(), whole_len);
             return None;
         }
         // next is an integer
-        if bytes[4] != 0x02 {
-            return None;
-        }
-        // which should be longer than 255 bytes
-        if bytes[5] != 0x82 {
+        if bytes[idx] != 0x02 {
+            println!("first not integer");
             return None;
         }
         // figure out the length of n
-        let n_lenb1 = bytes[6] as usize;
-        let n_lenb2 = bytes[7] as usize;
-        let n_len = (n_lenb1 << 8) + n_lenb2;
+        let (n_len, idx2) = match bytes[idx+1] {
+            0x82 => {
+                let n_lenb1 = bytes[idx+2] as usize;
+                let n_lenb2 = bytes[idx+3] as usize;
+                let n_len = (n_lenb1 << 8) + n_lenb2;
+                (n_len, idx + 4)
+            }
+            0x81 => {
+                let n_len = bytes[idx+2] as usize;
+                (n_len, idx + 3)
+            }
+            x => {
+                (x as usize, idx + 2)
+            }
+        };
         // a zero
-        if bytes[8] != 0 {
+        if bytes[idx2] != 0 {
+            println!("number didn't start with zero");
             return None;
         }
         // read n
-        let (_hdr, nestuff) = bytes.split_at(8);
+        let (_hdr, nestuff) = bytes.split_at(idx2);
         let (nbytes, reste) = nestuff.split_at(n_len);
         let n = o2isp(&nbytes.to_vec());
         // after this should be another integer
         if reste[0] != 2 {
+            println!("not another number");
             return None;
         }
         // which should always be 3 bytes long
         if reste[1] != 3 {
+            println!("not a 3 byte number");
             return None;
         }
         // read e
         let (_hdr2, ebytes) = reste.split_at(2);
         if ebytes.len() != 3 {
+            println!("too many/few bytes left");
             return None;
         }
         let e = o2isp(&ebytes.to_vec());
