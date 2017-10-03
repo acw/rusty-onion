@@ -8,9 +8,9 @@ use parsing_utils::{PortInfo,ProtocolVersion,TorAddress,
                     base64_noequals, base64_line, generic_string, datetime,
                     hexbytes, accept_rules, reject_rules,
                     pem_signature, pem_public_key, concat_vecs};
-use simple_rsa::{RSAPublicKey,pkcs1_verify};
 use std::ffi::OsString;
 use std::net::Ipv4Addr;
+use tor_crypto::{RSAPublicKey,pkcs1_verify};
 use types::*;
 
 pub fn parse_server_descriptors(i: &[u8])
@@ -199,7 +199,7 @@ pub fn parse_server_descriptor(i: &[u8])
     }
 
     if cur.ed25519_master_key.is_some() {
-        let body_ed25519 = &i[0 .. (i.len() - pre_signature_input.len() + 20)];
+        let body = &i[0 .. (i.len() - pre_signature_input.len() + 20)];
         println!("FIXME: ED25519 master cross-check");
     }
 

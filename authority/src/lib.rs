@@ -13,8 +13,8 @@ extern crate nom;
 extern crate parsing_utils;
 extern crate rand;
 extern crate ring;
-extern crate simple_rsa;
 extern crate tokio_core;
+extern crate tor_crypto;
 
 mod parser;
 pub mod types;

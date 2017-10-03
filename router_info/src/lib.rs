@@ -8,8 +8,8 @@ extern crate log;
 extern crate nom;
 extern crate parsing_utils;
 extern crate ring;
-extern crate simple_rsa;
 extern crate tor_config;
+extern crate tor_crypto;
 
 mod types;
 mod parser;
@@ -17,8 +17,8 @@ mod parser;
 use authority::AuthorityDatabase;
 use consensus::{Consensus, SignatureAlgorithm, fetch_consensus};
 use ring::digest::{SHA1, SHA256, digest};
-use simple_rsa::pkcs1_verify;
 use tor_config::Config;
+use tor_crypto::pkcs1_verify;
 
 pub struct RouterDatabase {
     config: Config,

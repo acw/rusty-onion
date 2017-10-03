@@ -1,8 +1,8 @@
 use base64::DecodeError;
 use chrono::{DateTime,Utc};
 use nom::ErrorKind;
-use simple_rsa::RSAPublicKey;
 use std::net::{Ipv4Addr,Ipv6Addr};
+use tor_crypto::RSAPublicKey;
 
 pub struct Authority {
     pub nickname: String,

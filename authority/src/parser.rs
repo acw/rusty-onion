@@ -4,10 +4,10 @@ use base64::DecodeError;
 use chrono::{DateTime,Utc};
 use nom::*;
 use ring::digest::{SHA1, digest};
-use simple_rsa::{RSAPublicKey,pkcs1_verify};
 use std::net::Ipv4Addr;
 use parsing_utils::*;
 use parsing_utils::BitParseResult::*;
+use tor_crypto::{RSAPublicKey,pkcs1_verify};
 
 #[derive(Debug,Default)]
 struct AuthorityParsingState {
