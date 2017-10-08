@@ -1,15 +1,24 @@
 use byteorder::{ByteOrder,BE};
 use chrono::{DateTime,NaiveDateTime,Utc};
+use ring::signature::{ED25519, verify};
+use untrusted::Input;
 
 #[derive(Debug)]
 pub struct Ed25519Certificate {
-    pub cert_type: Ed25519CertType,
-    pub expiration_date: DateTime<Utc>,
-    pub key: Ed25519PublicKey,
-    pub extensions: Vec<EdCertExtension>
+    cert_type: Ed25519CertType,
+    expiration_date: DateTime<Utc>,
+    data: CertKeyType,
+    extensions: Vec<EdCertExtension>
 }
 
 #[derive(Debug)]
+pub enum CertKeyType {
+    Ed25519(Ed25519PublicKey),
+    SHA256RSAHash([u8; 32]),
+    SHA256X509Hash([u8; 32])
+}
+
+#[derive(Debug,PartialEq)]
 pub enum Ed25519CertType {
     SigningKeyWithIdentity,
     TLSLinkCert,
@@ -77,16 +86,32 @@ impl Ed25519Certificate {
         let mut key: [u8; 32] = [0; 32];
         key.clone_from_slice(&bytes[7..39]);
         // N_EXTENSIONS    [1 byte]
-        let n_extensions = bytes[39];
+        let n_exts = bytes[39];
         // EXTENSIONS      [N_EXTENSIONS times]
         // SIGNATURE       [64 Bytes]
-        if let Some((exts, signature)) = parse_extensions(n_extensions, &bytes[40..]) {
+        if let Some((exts, sig)) = parse_extensions(n_exts, &bytes[40..]) {
+            let mandatory = cert_type==Ed25519CertType::SigningKeyWithIdentity;
+            if !check_ext_sig(mandatory, &exts, &bytes,  sig) {
+                return None;
+            }
+            let thing = match cert_key_type {
+                // A.4. List of certified key types
+                //
+                // [01] ed25519 key
+                0x01 => CertKeyType::Ed25519(Ed25519PublicKey{ n: key }),
+                // [02] SHA256 hash of an RSA key
+                0x02 => CertKeyType::SHA256RSAHash(key),
+                // [03] SHA256 hash of an X.509 certificate
+                0x03 => CertKeyType::SHA256X509Hash(key),
+                //
+                _    => return None
 
+            };
             let pubkey = Ed25519PublicKey{ n: key };
             return Some(Ed25519Certificate{
                 cert_type: cert_type,
                 expiration_date: expiration_date,
-                key: pubkey,
+                data: thing,
                 extensions: exts
             })
         }
@@ -155,19 +180,48 @@ fn parse_extensions(num: u8, inbuf: &[u8])
     Some((exts, buffer))
 }
 
+fn check_ext_sig(mandatory: bool,
+                 exts: &Vec<EdCertExtension>,
+                 bytes: &[u8],
+                 sig: &[u8])
+    -> bool
+{
+    for ext in exts.iter() {
+        match ext {
+            &EdCertExtension::SigningKey(ref pubkey25519) => {
+                let pubkey = Input::from(&pubkey25519.n);
+                let msg = Input::from(&bytes[0 .. (bytes.len() - 64)]);
+                let signature = Input::from(sig);
+                let check = verify(&ED25519, pubkey, msg, signature);
+                return check.is_ok()
+            }
+        }
+    }
+
+    // if we get here and we haven't returned, then there wasn't a
+    // signing key. if one was mandatory, then we should return
+    // false, as this is a problem. if it wasn't mandatory, then
+    // we're all good
+    return !mandatory;
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
     use std::fs::File;
     use std::io::Read;
 
-    #[test]
-    fn foo() {
-        let mut fd = File::open("test.ed25519").unwrap();
+    fn test_ed25519_cert_file(name: &str) {
+        let mut fd = File::open(name).unwrap();
         let mut buffer = Vec::new();
         fd.read_to_end(&mut buffer);
         let res = Ed25519Certificate::decode(&buffer);
-        println!("Decoded {:?}", res);
-        assert!(false);
+        assert!(res.is_some());
+    }
+
+    #[test]
+    fn foo() {
+        test_ed25519_cert_file("test/test1.ed25519");
+        test_ed25519_cert_file("test/test2.ed25519");
     }
 }

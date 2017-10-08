@@ -5,8 +5,10 @@ extern crate num;
 #[macro_use]
 extern crate quickcheck;
 extern crate rand;
+extern crate ring;
+extern crate untrusted;
 
-//mod rsa;
+mod rsa;
 mod ed25519;
 
-//pub use rsa::{RSAPublicKey,generate_rsa_keys,pkcs1_sign,pkcs1_verify};
+pub use rsa::{RSAPublicKey,generate_rsa_keys,pkcs1_sign,pkcs1_verify};
