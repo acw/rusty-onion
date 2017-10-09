@@ -10,6 +10,7 @@ extern crate parsing_utils;
 extern crate ring;
 extern crate tor_config;
 extern crate tor_crypto;
+extern crate untrusted;
 
 mod types;
 mod parser;

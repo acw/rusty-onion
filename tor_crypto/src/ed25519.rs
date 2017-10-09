@@ -5,9 +5,9 @@ use untrusted::Input;
 
 #[derive(Debug)]
 pub struct Ed25519Certificate {
-    cert_type: Ed25519CertType,
+    pub cert_type: Ed25519CertType,
     expiration_date: DateTime<Utc>,
-    data: CertKeyType,
+    pub data: CertKeyType,
     extensions: Vec<EdCertExtension>
 }
 
@@ -116,6 +116,17 @@ impl Ed25519Certificate {
             })
         }
         None
+    }
+
+    pub fn subkey_matches(&self, other: &[u8]) -> bool {
+        for ext in self.extensions.iter() {
+            match ext {
+                &EdCertExtension::SigningKey(ref skey) => {
+                    return skey.n == other;
+                }
+            }
+        }
+        false
     }
 }
 

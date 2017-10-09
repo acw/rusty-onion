@@ -8,10 +8,13 @@ use parsing_utils::{PortInfo,ProtocolVersion,TorAddress,
                     base64_noequals, base64_line, generic_string, datetime,
                     hexbytes, accept_rules, reject_rules,
                     pem_signature, pem_public_key, concat_vecs};
+use ring::digest::{SHA256, digest};
+use ring::signature::{ED25519, verify};
 use std::ffi::OsString;
 use std::net::Ipv4Addr;
-use tor_crypto::{RSAPublicKey,pkcs1_verify};
+use tor_crypto::{Ed25519Certificate,Ed25519CertType,CertKeyType,RSAPublicKey,pkcs1_verify};
 use types::*;
+use untrusted::Input;
 
 pub fn parse_server_descriptors(i: &[u8])
     -> Result<Vec<ServerDescriptor>,ServerDescParseErr>
@@ -47,12 +50,28 @@ macro_rules! nomtry {
     }
 }
 
+macro_rules! parse_andr {
+    ( $i: expr, $c: expr, $f: expr) => {
+        match $i($c) {
+            IResult::Done(rest, v) => {
+                $c = rest;
+                match $f(v) {
+                    Ok(()) => {  }
+                    Err(e) => return Err(e)
+                }
+            }
+            IResult::Incomplete(_) => {}
+            IResult::Error(_)      => {}
+        }
+    }
+}
+
 macro_rules! parse_and {
     ( $i: expr, $c: expr, $f: expr) => {
         match $i($c) {
             IResult::Done(rest, v) => {
                 $c = rest;
-                $f(v)
+                $f(v);
             }
             IResult::Incomplete(_) => {}
             IResult::Error(_)      => {}
@@ -95,6 +114,17 @@ macro_rules! at_most_once {
     }
 }
 
+macro_rules! at_most_onceo {
+    ( $p: expr, $c: expr, $k: expr, $fld: expr) => {
+        at_most_once_norm!($p, $c, $k, $fld, |v| {
+            match v {
+                Some(v) => { $fld = Some(v); }
+                Noen    => {                 }
+            }
+        })
+    }
+}
+
 macro_rules! at_most_oncer {
     ( $p: expr, $c: expr, $k: expr, $fld: expr) => {
         at_most_once_norm!($p, $c, $k, $fld, |v| {
@@ -122,8 +152,19 @@ pub fn parse_server_descriptor(i: &[u8])
     let (mut cur_input, mut cur) = nomtry!(router(i));
     let mut go_on = true;
 
-    parse_and!(identity_ed25519, cur_input, |c| {
-        cur.ed25519_identity_cert = Some(c);
+    parse_andr!(identity_ed25519, cur_input, |c: Option<Ed25519Certificate>| {
+        match c {
+            None =>
+                Err(ServerDescParseErr::WrongEd25519KeyType),
+            Some(cert) => {
+                if cert.cert_type != Ed25519CertType::SigningKeyWithIdentity {
+                    Err(ServerDescParseErr::WrongEd25519KeyType)
+                } else {
+                    cur.ed25519_identity_cert = Some(cert);
+                    Ok(())
+                }
+            }
+        }
     });
 
     while go_on {
@@ -138,7 +179,7 @@ pub fn parse_server_descriptor(i: &[u8])
         at_most_oncer!(onion_key,            cur_input,go_on,cur.onion_key);
         at_most_oncer!(onion_crosscert,      cur_input,go_on,cur.onion_crosscert);
         at_most_once!( ntor_onion_key,       cur_input,go_on,cur.ed25519_onion_key);
-        at_most_once!( ntor_crosscert,       cur_input,go_on,cur.ntor_crosscert);
+        at_most_onceo!(ntor_crosscert,       cur_input,go_on,cur.ntor_crosscert);
         at_most_oncer!(signing_key,          cur_input,go_on,cur.signing_key);
         any_number!(   exit_rule,            cur_input,go_on,cur.exit_policy);
         at_most_once!( ip6_policy,           cur_input,go_on,cur.exit_policy_ip6);
@@ -171,10 +212,39 @@ pub fn parse_server_descriptor(i: &[u8])
 
     // if an ed25519 identity is present, then a bunch of other fields become
     // required.
-    if cur.ed25519_master_key.is_some() {
+    if let &Some(ref masterkey) = &cur.ed25519_master_key {
         exactly_once!(cur.onion_crosscert);
         exactly_once!(cur.ntor_crosscert);
         exactly_once!(cur.ed25519_router_sig);
+        // in addition, the master key provided must match the subkey provided
+        // in the ed25519 identity key.
+        if let &Some(ref idcert) = &cur.ed25519_identity_cert {
+            if !idcert.subkey_matches(&masterkey) {
+                return Err(ServerDescParseErr::Ed25519KeyMatchFailure);
+            }
+            // Hash the stuff in the message for the signature
+            let basestr = b"Tor router descriptor signature v1";
+            let sigpart = &i[0 .. (i.len() - pre_signature_input.len() + 19)];
+            let mut buffer = Vec::new();
+            buffer.extend_from_slice(basestr);
+            buffer.extend_from_slice(sigpart);
+            let digest = digest(&SHA256, &buffer);
+            let bodym = Input::from(digest.as_ref());
+            // then check the signature
+            let signkey = match &idcert.data {
+                              &CertKeyType::Ed25519(ref v) => v,
+                              _ => return Err(ServerDescParseErr::WrongEd25519KeyType)
+                          };
+            let master_key = Input::from(&signkey.n);
+            let sig = cur.ed25519_router_sig.unwrap();
+            println!("siglen: {}", sig.len());
+            let edsig = Input::from(&sig);
+            let check = verify(&ED25519, master_key, bodym, edsig);
+            println!("check: {:?}", check);
+            if check.is_err() {
+                return Err(ServerDescParseErr::Ed25519SignatureFailured);
+            }
+        }
     }
 
     if cur.onion_crosscert.is_some() {
@@ -196,11 +266,6 @@ pub fn parse_server_descriptor(i: &[u8])
         if !pkcs1_verify(&onion_key, &[], &crosscert, &cur.onion_crosscert.unwrap()) {
             return Err(ServerDescParseErr::OnionCrossCertCheckFailed);
         }
-    }
-
-    if cur.ed25519_master_key.is_some() {
-        let body = &i[0 .. (i.len() - pre_signature_input.len() + 20)];
-        println!("FIXME: ED25519 master cross-check");
     }
 
     {
@@ -255,7 +320,7 @@ struct ParsingServerDescriptor {
     address: Ipv4Addr,
     or_port: Option<u16>,
     dir_port: Option<u16>,
-    ed25519_identity_cert: Option<Vec<u8>>,
+    ed25519_identity_cert: Option<Ed25519Certificate>,
     ed25519_master_key: Option<Vec<u8>>,
     bandwidth: Option<BandwidthMeasurement>,
     platform: Option<OsString>,
@@ -283,7 +348,7 @@ struct ParsingServerDescriptor {
     protocol_versions: Option<Vec<ProtocolVersion>>,
     //
     onion_crosscert: Option<Vec<u8>>,
-    ntor_crosscert: Option<(bool, Vec<u8>)>,
+    ntor_crosscert: Option<(bool, Ed25519Certificate)>,
     ed25519_router_sig: Option<Vec<u8>>
 }
 
@@ -333,11 +398,11 @@ named!(router<ParsingServerDescriptor>,
     )
 );
 
-named!(identity_ed25519<Vec<u8>>,
+named!(identity_ed25519<Option<Ed25519Certificate>>,
     do_parse!(
         tag!("identity-ed25519")             >> newline >>
         c: ed25519_certificate               >>
-        (c.unwrap()) // FIXME
+        (c)
     )
 );
 
@@ -427,12 +492,12 @@ named!(ntor_onion_key<Vec<u8>>,
     )
 );
 
-named!(ntor_crosscert<(bool, Vec<u8>)>,
+named!(ntor_crosscert<Option<(bool, Ed25519Certificate)>>,
     do_parse!(
         tag!("ntor-onion-key-crosscert")     >> space   >>
         b: decimal_u8                        >> newline >>
         c: ed25519_certificate               >>
-        ((b > 0, c.unwrap())) // FIXME
+        (c.map(|cert| (b > 0, cert)))
     )
 );
 
@@ -631,12 +696,15 @@ named!(exit_rule_range<(u16, u16)>,
          )
 );
 
-named!(ed25519_certificate<Result<Vec<u8>,DecodeError>>,
+named!(ed25519_certificate<Option<Ed25519Certificate>>,
     do_parse!(
         tag!("-----BEGIN ED25519 CERT-----") >> newline >>
         vs: many1!(base64_line)              >>
         tag!("-----END ED25519 CERT-----")   >> newline >>
-        (concat_vecs(vs))
+        (match concat_vecs(vs) {
+            Ok(bs) => Ed25519Certificate::decode(&bs),
+            Err(_) => None
+        })
     )
 );
 

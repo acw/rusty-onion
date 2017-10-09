@@ -3,13 +3,14 @@ use nom::ErrorKind;
 use parsing_utils::{PortInfo,ProtocolVersion,TorAddress};
 use std::ffi::OsString;
 use std::net::Ipv4Addr;
+use tor_crypto::Ed25519Certificate;
 
 pub struct ServerDescriptor {
     pub nickname: String,
     pub address: Ipv4Addr,
     pub or_port: Option<u16>,
     pub dir_port: Option<u16>,
-    pub ed25519_identity_cert: Option<Vec<u8>>,
+    pub ed25519_identity_cert: Option<Ed25519Certificate>,
     pub ed25519_master_key: Option<Vec<u8>>,
     pub bandwidth: BandwidthMeasurement,
     pub platform: Option<OsString>,
@@ -66,6 +67,7 @@ pub struct HistoryInformation {
 #[derive(Debug)]
 pub enum ServerDescParseErr {
     NotEnoughData, TooManyFieldInstances, MissingField,
+    WrongEd25519KeyType, Ed25519KeyMatchFailure, Ed25519SignatureFailured,
     OnionCrossCertCheckFailed,
     SignatureCheckFailed,
     ParserError(ErrorKind<u32>)
