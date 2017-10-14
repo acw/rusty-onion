@@ -3,7 +3,7 @@ use nom::ErrorKind;
 use parsing_utils::{PortInfo,ProtocolVersion,TorAddress};
 use std::ffi::OsString;
 use std::net::Ipv4Addr;
-use tor_crypto::Ed25519Certificate;
+use tor_crypto::{Ed25519Certificate,Ed25519PublicKey};
 
 pub struct ServerDescriptor {
     pub nickname: String,
@@ -11,7 +11,7 @@ pub struct ServerDescriptor {
     pub or_port: Option<u16>,
     pub dir_port: Option<u16>,
     pub ed25519_identity_cert: Option<Ed25519Certificate>,
-    pub ed25519_master_key: Option<Vec<u8>>,
+    pub ed25519_master_key: Option<Ed25519PublicKey>,
     pub bandwidth: BandwidthMeasurement,
     pub platform: Option<OsString>,
     pub published: DateTime<Utc>,
@@ -19,7 +19,7 @@ pub struct ServerDescriptor {
     pub hibernating: Option<bool>,
     pub uptime: u64,
     pub onion_key: Vec<u8>,
-    pub ed25519_onion_key: Option<Vec<u8>>,
+    pub ed25519_onion_key: Option<Ed25519PublicKey>,
     pub signing_key: Vec<u8>,
     pub exit_policy: Vec<ExitPolicyRule>,
     pub exit_policy_ip6: Vec<PortInfo>,

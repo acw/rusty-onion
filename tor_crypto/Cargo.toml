@@ -2,6 +2,7 @@
 name = "tor_crypto"
 version = "0.1.0"
 authors = ["Adam Wick <awick@uhsure.com>"]
+build = "build.rs"
 
 [dependencies]
 byteorder    = "^1.1.0"
@@ -10,6 +11,9 @@ num          = "^0.1.39"
 rand         = "^0.3"
 ring         = "^0.12.1"
 untrusted    = "^0.5.1"
+
+[build-dependencies]
+gcc = "0.3"
 
 [dev-dependencies]
 quickcheck   = "^0.4.1"

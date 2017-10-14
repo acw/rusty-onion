@@ -12,7 +12,8 @@ use ring::digest::{SHA256, digest};
 use ring::signature::{ED25519, verify};
 use std::ffi::OsString;
 use std::net::Ipv4Addr;
-use tor_crypto::{Ed25519Certificate,Ed25519CertType,CertKeyType,RSAPublicKey,pkcs1_verify};
+use tor_crypto::{Ed25519Certificate,Ed25519CertType,CertKeyType,
+                 Ed25519PublicKey,RSAPublicKey,pkcs1_verify};
 use types::*;
 use untrusted::Input;
 
@@ -169,7 +170,7 @@ pub fn parse_server_descriptor(i: &[u8])
 
     while go_on {
         go_on = false;
-        at_most_once!( master_ed25519,       cur_input,go_on,cur.ed25519_master_key);
+        at_most_onceo!(master_ed25519,       cur_input,go_on,cur.ed25519_master_key);
         at_most_once!( bandwidth,            cur_input,go_on,cur.bandwidth);
         at_most_once!( platform,             cur_input,go_on,cur.platform);
         at_most_once!( published,            cur_input,go_on,cur.published);
@@ -219,7 +220,7 @@ pub fn parse_server_descriptor(i: &[u8])
         // in addition, the master key provided must match the subkey provided
         // in the ed25519 identity key.
         if let &Some(ref idcert) = &cur.ed25519_identity_cert {
-            if !idcert.subkey_matches(&masterkey) {
+            if !idcert.subkey_matches(&masterkey.n) {
                 return Err(ServerDescParseErr::Ed25519KeyMatchFailure);
             }
             // Hash the stuff in the message for the signature
@@ -237,10 +238,8 @@ pub fn parse_server_descriptor(i: &[u8])
                           };
             let master_key = Input::from(&signkey.n);
             let sig = cur.ed25519_router_sig.unwrap();
-            println!("siglen: {}", sig.len());
             let edsig = Input::from(&sig);
             let check = verify(&ED25519, master_key, bodym, edsig);
-            println!("check: {:?}", check);
             if check.is_err() {
                 return Err(ServerDescParseErr::Ed25519SignatureFailured);
             }
@@ -254,7 +253,10 @@ pub fn parse_server_descriptor(i: &[u8])
         // This isn't mandatory, unless the ed25519 key is provided.
         let mut crosscert = Vec::new();
         let identity_key_hash = digest::digest(&digest::SHA1,&cur.signing_key.clone().unwrap());
-        let mut ed25519_or_zero = cur.ed25519_master_key.clone().unwrap_or(vec![0; 32]);
+        let mut ed25519_or_zero = match cur.ed25519_master_key {
+                                      None => vec![0; 32],
+                                      Some(ref mkey) => Vec::from(&mkey.n[..])
+                                  };
         crosscert.extend_from_slice(identity_key_hash.as_ref());
         crosscert.append(&mut ed25519_or_zero);
         let onion_key = match RSAPublicKey::decode(&cur.onion_key.clone().unwrap()) {
@@ -265,6 +267,34 @@ pub fn parse_server_descriptor(i: &[u8])
                         };
         if !pkcs1_verify(&onion_key, &[], &crosscert, &cur.onion_crosscert.unwrap()) {
             return Err(ServerDescParseErr::OnionCrossCertCheckFailed);
+        }
+    }
+
+    let mut opt_ntor_onion = None;
+    if let Some((signbit, cert)) = cur.ntor_crosscert {
+        let conion_key = match &cur.ed25519_onion_key {
+                            &None =>
+                                return Err(ServerDescParseErr::OnionCrossCertCheckFailed),
+                            &Some(ref v) =>
+                                v
+                        };
+        let onion_key = Ed25519PublicKey::from_curve25519(&conion_key, signbit);
+        let master_key = match &cur.ed25519_master_key {
+                            &None =>
+                                return Err(ServerDescParseErr::OnionCrossCertCheckFailed),
+                            &Some(ref v) =>
+                                v
+                        };
+        match cert.data {
+            // This should be a signature of the master key by the identity key
+            CertKeyType::Ed25519(ref key) if key.n == master_key.n => {
+                 if !cert.check_signature(&onion_key) {
+                    return Err(ServerDescParseErr::OnionCrossCertCheckFailed);
+                 }
+            }
+            _ => {
+                return Err(ServerDescParseErr::OnionCrossCertCheckFailed);
+            }
         }
     }
 
@@ -297,7 +327,7 @@ pub fn parse_server_descriptor(i: &[u8])
         hibernating: cur.hibernating,
         uptime: cur.uptime.unwrap_or(0),
         onion_key: cur.onion_key.unwrap(),
-        ed25519_onion_key: cur.ed25519_onion_key,
+        ed25519_onion_key: opt_ntor_onion,
         signing_key: cur.signing_key.unwrap(),
         exit_policy: cur.exit_policy,
         exit_policy_ip6: cur.exit_policy_ip6.unwrap_or(vec![PortInfo::RejectRange(1,65535)]),
@@ -321,7 +351,7 @@ struct ParsingServerDescriptor {
     or_port: Option<u16>,
     dir_port: Option<u16>,
     ed25519_identity_cert: Option<Ed25519Certificate>,
-    ed25519_master_key: Option<Vec<u8>>,
+    ed25519_master_key: Option<Ed25519PublicKey>,
     bandwidth: Option<BandwidthMeasurement>,
     platform: Option<OsString>,
     published: Option<DateTime<Utc>>,
@@ -406,11 +436,11 @@ named!(identity_ed25519<Option<Ed25519Certificate>>,
     )
 );
 
-named!(master_ed25519<Vec<u8>>,
+named!(master_ed25519<Option<Ed25519PublicKey>>,
     do_parse!(
         tag!("master-key-ed25519") >> space   >>
         m: base64_noequals         >> newline >>
-        (m)
+        (Ed25519PublicKey::decode(&m))
     )
 );
 

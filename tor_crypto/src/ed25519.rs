@@ -5,8 +5,10 @@ use untrusted::Input;
 
 #[derive(Debug)]
 pub struct Ed25519Certificate {
-    pub cert_type: Ed25519CertType,
+    signed_portion: Vec<u8>,
+    signature: Vec<u8>,
     expiration_date: DateTime<Utc>,
+    pub cert_type: Ed25519CertType,
     pub data: CertKeyType,
     extensions: Vec<EdCertExtension>
 }
@@ -61,6 +63,31 @@ pub struct Ed25519PublicKey {
     pub n: [u8; 32]
 }
 
+impl Ed25519PublicKey {
+    pub fn decode(bytes: &[u8]) -> Option<Ed25519PublicKey> {
+        if bytes.len() == 32 {
+            let mut buf: [u8; 32] = [0; 32];
+            buf.copy_from_slice(&bytes[0..32]);
+            return Some(Ed25519PublicKey{ n: buf });
+        }
+        None
+    }
+
+    pub fn from_curve25519(bytes: &[u8], signbit: bool) -> Ed25519PublicKey {
+        // this is math I don't understand, but according to eh Tor C source
+        // code, to convert a curve25519 public key (u) to an ed25519 public
+        // key (y), we compute y = (u - 1) / (u + 1) in the field. We need
+        // the sign bit for reasons.
+        let newbytes = curve25519_to_ed25519(&bytes, signbit);
+        match Ed25519PublicKey::decode(&newbytes) {
+            None =>
+                panic!("Internal error turning curve to ed."),
+            Some(x) =>
+                x
+        }
+    }
+}
+
 impl Ed25519Certificate {
     pub fn decode(bytes: &[u8]) -> Option<Ed25519Certificate> {
         // According to the Tor spec, this should have the format:
@@ -108,7 +135,13 @@ impl Ed25519Certificate {
 
             };
             let pubkey = Ed25519PublicKey{ n: key };
+            let mut unsigned_bits = Vec::new();
+            unsigned_bits.extend_from_slice(&bytes[0 .. (bytes.len() - 64)]);
+            let mut signature = Vec::new();
+            signature.extend_from_slice(sig);
             return Some(Ed25519Certificate{
+                signed_portion: unsigned_bits,
+                signature: signature,
                 cert_type: cert_type,
                 expiration_date: expiration_date,
                 data: thing,
@@ -116,6 +149,14 @@ impl Ed25519Certificate {
             })
         }
         None
+    }
+
+    pub fn check_signature(&self, key: &Ed25519PublicKey) -> bool {
+        let pubkey = Input::from(&key.n);
+        let msg = Input::from(&self.signed_portion);
+        let signature = Input::from(&self.signature);
+        let check = verify(&ED25519, pubkey, msg, signature);
+        check.is_ok()
     }
 
     pub fn subkey_matches(&self, other: &[u8]) -> bool {
@@ -216,8 +257,77 @@ fn check_ext_sig(mandatory: bool,
     return !mandatory;
 }
 
+fn curve25519_to_ed25519(curve: &[u8], sign: bool) -> [u8; 32] {
+    let u         = fe_frombytes(curve);
+    let um1       = fe_sub(u, fe_1());
+    let up1       = fe_add(u, fe_1());
+    let iup1      = fe_invert(up1);
+    let y         = fe_mul(um1, iup1);
+    let mut bytes = fe_tobytes(y);
+    if sign {
+        bytes[31] |= 1 << 7;
+    }
+    bytes
+}
+
+type fe = [i32; 10];
+
+fn fe_1() -> fe {
+    let mut res = [0; 10];
+    unsafe { TCGFp_fe_1(res.as_mut_ptr()); }
+    res
+}
+
+fn fe_tobytes(x: fe) -> [u8; 32] {
+    let mut res = [0; 32];
+    unsafe { TCGFp_fe_tobytes(res.as_mut_ptr(), x.as_ptr()); }
+    res
+}
+
+fn fe_frombytes(x: &[u8]) -> fe {
+    let mut fe = [0; 10];
+    assert!(x.len() == 32);
+    unsafe { TCGFp_fe_frombytes(fe.as_mut_ptr(), x.as_ptr()); }
+    fe
+}
+
+fn fe_sub(x: fe, y: fe) -> fe {
+    let mut res = [0; 10];
+    unsafe { TCGFp_fe_sub(res.as_mut_ptr(), x.as_ptr(), y.as_ptr()); }
+    res
+}
+
+fn fe_add(x: fe, y: fe) -> fe {
+    let mut res = [0; 10];
+    unsafe { TCGFp_fe_add(res.as_mut_ptr(), x.as_ptr(), y.as_ptr()); }
+    res
+}
+
+fn fe_mul(x: fe, y: fe) -> fe {
+    let mut res = [0; 10];
+    unsafe { TCGFp_fe_mul(res.as_mut_ptr(), x.as_ptr(), y.as_ptr()); }
+    res
+}
+
+fn fe_invert(z: fe) -> fe {
+    let mut res = [0; 10];
+    unsafe { TCGFp_fe_invert(res.as_mut_ptr(), z.as_ptr()); }
+    res
+}
+
+extern {
+    fn TCGFp_fe_1(h: *mut i32);
+    fn TCGFp_fe_tobytes(s: *mut u8, h: *const i32);
+    fn TCGFp_fe_frombytes(h: *mut i32, s: *const u8);
+    fn TCGFp_fe_sub(h: *mut i32, f: *const i32, g: *const i32);
+    fn TCGFp_fe_add(h: *mut i32, f: *const i32, g: *const i32);
+    fn TCGFp_fe_mul(h: *mut i32, f: *const i32, g: *const i32);
+    fn TCGFp_fe_invert(out: *mut i32, z: *const i32);
+}
+
 #[cfg(test)]
 mod tests {
+    use quickcheck::{Arbitrary,Gen};
     use super::*;
     use std::fs::File;
     use std::io::Read;
@@ -231,8 +341,18 @@ mod tests {
     }
 
     #[test]
+    fn test_onetofrom() {
+        let one = fe_1();
+        let bytes = fe_tobytes(one);
+        let onep = fe_frombytes(&bytes);
+        assert_eq!(one,onep);
+    }
+
+    #[test]
     fn foo() {
         test_ed25519_cert_file("test/test1.ed25519");
         test_ed25519_cert_file("test/test2.ed25519");
     }
 }
+
+
