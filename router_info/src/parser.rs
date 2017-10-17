@@ -20,14 +20,68 @@ use untrusted::Input;
 pub fn parse_server_descriptors(i: &[u8])
     -> Result<Vec<ServerDescriptor>,ServerDescParseErr>
 {
-    let mut output = Vec::new();
-    let mut input  = i;
+    match read_all_server_descriptors(&i) {
+        Ok((res, failures)) => {
+            if failures > 0 {
+                warn!(target: "routerdb",
+                      "Failed to parse {} server descriptors.",
+                      failures);
+            }
+
+            Ok(res)
+        }
+        Err(e) => Err(e)
+    }
+}
+
+fn read_all_server_descriptors(i: &[u8])
+    -> Result<(Vec<ServerDescriptor>, u32),ServerDescParseErr>
+{
+    let mut output   = Vec::new();
+    let mut input    = i;
+    let mut failures = 0;
 
     loop {
         match parse_server_descriptor(input) {
-            Err(e)          => return Err(e),
-            Ok((b"", v))    => { output.push(v); return Ok(output) }
-            Ok((ninput, v)) => { output.push(v); input = ninput    }
+            Err(e)          => {
+                let ninput = skip_to_next(input, e);
+                failures += 1;
+                assert!(ninput.len() < input.len());
+                input = ninput;
+            }
+            Ok((b"", v))    => {
+                output.push(v);
+                return Ok((output, failures));
+            }
+            Ok((ninput, v)) => {
+                assert!(ninput.len() < input.len());
+                output.push(v); input = ninput
+            }
+        }
+    }
+}
+
+fn skip_to_next(i: &[u8], e: ServerDescParseErr) -> &[u8] {
+    let mut input = i;
+
+    if i.starts_with(b"router ") {
+        if i.len() > 8 {
+            let (_, nameplus) = i.split_at(8);
+            let mut spiter = nameplus.split(|x| x == &32);
+            if let Some(v) = spiter.next() {
+                info!(target: "routerdb", "Skipping router {:?} ({:?})", v, e);
+            }
+        }
+    }
+
+    loop {
+        match input.split_first() {
+            None           =>
+                return input,
+            Some((&10, rest)) if rest.starts_with(b"router ") =>
+                return rest,
+            Some((_, rest)) =>
+                input = rest
         }
     }
 }
@@ -120,7 +174,7 @@ macro_rules! at_most_onceo {
         at_most_once_norm!($p, $c, $k, $fld, |v| {
             match v {
                 Some(v) => { $fld = Some(v); }
-                Noen    => {                 }
+                None    => {                 }
             }
         })
     }
@@ -169,6 +223,8 @@ pub fn parse_server_descriptor(i: &[u8])
     });
 
     while go_on {
+        let origlen = cur_input.len();
+
         go_on = false;
         at_most_onceo!(master_ed25519,       cur_input,go_on,cur.ed25519_master_key);
         at_most_once!( bandwidth,            cur_input,go_on,cur.bandwidth);
@@ -197,6 +253,8 @@ pub fn parse_server_descriptor(i: &[u8])
         any_number!(   or_address,           cur_input,go_on,cur.other_addresses);
         at_most_once!( tunnelled_dir_server, cur_input,go_on,cur.accepts_tunneled_dir_requests);
         at_most_once!( proto,                cur_input,go_on,cur.protocol_versions);
+
+        assert!(!go_on || (cur_input.len() < origlen));
     }
 
     let pre_signature_input = cur_input;
@@ -296,6 +354,7 @@ pub fn parse_server_descriptor(i: &[u8])
                 return Err(ServerDescParseErr::OnionCrossCertCheckFailed);
             }
         }
+        opt_ntor_onion = Some(onion_key);
     }
 
     {
@@ -973,6 +1032,23 @@ mod tests {
                         assert!(false);
                     }
                 }
+            }
+        }
+    }
+
+    #[test]
+    fn accepts_failures() {
+        let mut fd = File::open("test/routerdb1.txt").unwrap();
+        let mut buffer = Vec::new();
+
+        fd.read_to_end(&mut buffer);
+        match read_all_server_descriptors(&buffer) {
+            Result::Err(e) => {
+                println!("Parse error for routerdb1.txt: {:?}", e);
+                assert!(false)
+            }
+            Result::Ok((_, numfails)) => {
+                assert_eq!(numfails, 1);
             }
         }
     }
