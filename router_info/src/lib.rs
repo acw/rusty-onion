@@ -3,11 +3,17 @@ extern crate base64;
 extern crate chrono;
 extern crate consensus;
 #[macro_use]
+extern crate fetch;
+extern crate flate2;
+extern crate futures;
+extern crate hyper;
+#[macro_use]
 extern crate log;
 #[macro_use]
 extern crate nom;
 extern crate parsing_utils;
 extern crate ring;
+extern crate tokio_core;
 extern crate tor_config;
 extern crate tor_crypto;
 extern crate untrusted;
@@ -17,14 +23,26 @@ mod parser;
 
 use authority::AuthorityDatabase;
 use consensus::{Consensus, SignatureAlgorithm, fetch_consensus};
+use fetch::{FetchErrors,new_core};
+use flate2::write::ZlibDecoder;
+use futures::{Future,Stream};
+use futures::future::Either;
+use hyper::Client;
+use parser::parse_server_descriptors;
 use ring::digest::{SHA1, SHA256, digest};
+use std::io::Write;
+use std::net::Ipv4Addr;
+use std::time::Duration;
+use tokio_core::reactor::Timeout;
 use tor_config::Config;
 use tor_crypto::pkcs1_verify;
+use types::{ServerDescriptor,ServerDescParseErr};
 
 pub struct RouterDatabase {
     config: Config,
     authorities: AuthorityDatabase,
-    consensus: Consensus
+    consensus: Consensus,
+    routers: Vec<ServerDescriptor>
 }
 
 impl RouterDatabase {
@@ -103,10 +121,31 @@ impl RouterDatabase {
                 }
             }
 
-            return RouterDatabase {
-                config: config.clone(),
-                authorities: authdb,
-                consensus: con
+            // we don't really want to go back and redo all the consensus work
+            // if this fails, so we do this as a subloop.
+            loop {
+                let rdb = {
+                    let auth = authdb.random_authority();
+                    match fetch_routerdb(auth.address, auth.dir_port) {
+                        Ok(v) => v,
+                        Err(e) => {
+                            warn!(target: "routerdb",
+                                  "Error fetching router db from {}: {:?}",
+                                  auth.nickname, e);
+                            continue
+                        }
+                    }
+                };
+                info!(target: "routerdb",
+                      "Captured server descriptors for {} servers.",
+                      rdb.len());
+
+                return RouterDatabase {
+                    config: config.clone(),
+                    authorities: authdb,
+                    consensus: con,
+                    routers: rdb
+                }
             }
         }
     }
@@ -114,4 +153,29 @@ impl RouterDatabase {
     pub fn count(&self) -> usize {
         self.consensus.routers.len()
     }
+}
+
+fn fetch_routerdb(addr: Ipv4Addr, port: u16)
+    -> Result<Vec<ServerDescriptor>,FetchErrors<ServerDescParseErr>>
+{
+    let mut core = new_core();
+    let handle = &core.handle();
+
+    let uri = {
+        let url = format!("http://{}:{}/tor/server/all.z", addr, port);
+        match url.parse() {
+            Err(e) => {
+                error!(target: "routerdb",
+                       "Couldn't parse router db URL ({}): {}", url, e);
+                return Err(FetchErrors::BadURL);
+            }
+            Ok(v) => {
+                info!(target: "routerdb", "Fetching router data from {}", url);
+                v
+            }
+        }
+    };
+
+    let get_routerdb = fetch_and_parse!(handle, uri, 20, parse_server_descriptors);
+    core.run(get_routerdb)
 }
