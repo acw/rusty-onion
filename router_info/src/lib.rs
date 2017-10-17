@@ -39,7 +39,6 @@ use tor_crypto::pkcs1_verify;
 use types::{ServerDescriptor,ServerDescParseErr};
 
 pub struct RouterDatabase {
-    config: Config,
     authorities: AuthorityDatabase,
     consensus: Consensus,
     routers: Vec<ServerDescriptor>
@@ -141,7 +140,6 @@ impl RouterDatabase {
                       rdb.len());
 
                 return RouterDatabase {
-                    config: config.clone(),
                     authorities: authdb,
                     consensus: con,
                     routers: rdb

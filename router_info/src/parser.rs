@@ -86,18 +86,12 @@ fn skip_to_next(i: &[u8], e: ServerDescParseErr) -> &[u8] {
     }
 }
 
-fn translate_error(e: ErrorKind<u32>) -> ServerDescParseErr {
-    match e {
-        _ => ServerDescParseErr::ParserError(e)
-    }
-}
-
 macro_rules! nomtry {
     ( $i: expr ) => {
         match $i {
             IResult::Done(rest, v) =>
                 (rest, v),
-            IResult::Incomplete(i) =>
+            IResult::Incomplete(_) =>
                 return Result::Err(ServerDescParseErr::NotEnoughData),
             IResult::Error(e)      =>
                 return Result::Err(ServerDescParseErr::ParserError(e))
@@ -827,7 +821,7 @@ mod tests {
 
     macro_rules! can_parse_lines {
         ($f: expr, $p: expr) => {
-            let mut path = format!("test/server_descriptors/{}.txt", $f);
+            let     path = format!("test/server_descriptors/{}.txt", $f);
             let mut file = File::open(path).unwrap();
             let mut buffer = Vec::new();
             assert!(file.read_to_end(&mut buffer).is_ok());
@@ -1020,7 +1014,7 @@ mod tests {
             if entry.file_name().into_string().unwrap().starts_with("descr") {
                 let mut fd = File::open(entry.path()).unwrap();
                 let mut buffer = Vec::new();
-                fd.read_to_end(&mut buffer);
+                assert!(fd.read_to_end(&mut buffer).is_ok());
                 match parse_server_descriptor(&buffer) {
                     Result::Ok((b"", _)) => {   }
                     Result::Ok((_, _)) => {
@@ -1041,7 +1035,7 @@ mod tests {
         let mut fd = File::open("test/routerdb1.txt").unwrap();
         let mut buffer = Vec::new();
 
-        fd.read_to_end(&mut buffer);
+        assert!(fd.read_to_end(&mut buffer).is_ok());
         match read_all_server_descriptors(&buffer) {
             Result::Err(e) => {
                 println!("Parse error for routerdb1.txt: {:?}", e);

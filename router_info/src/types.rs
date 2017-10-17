@@ -66,7 +66,7 @@ pub struct HistoryInformation {
 
 #[derive(Debug)]
 pub enum ServerDescParseErr {
-    NotEnoughData, TooManyFieldInstances, MissingField,
+    NotEnoughData, MissingField,
     WrongEd25519KeyType, Ed25519KeyMatchFailure, Ed25519SignatureFailured,
     OnionCrossCertCheckFailed,
     SignatureCheckFailed,
