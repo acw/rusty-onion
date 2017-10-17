@@ -6,7 +6,6 @@ extern crate tor_config;
 
 include!(concat!(env!("OUT_DIR"), "/version.rs"));
 
-use authority::AuthorityDatabase;
 use router_info::RouterDatabase;
 
 const VERSION: &'static str = env!("CARGO_PKG_VERSION");
